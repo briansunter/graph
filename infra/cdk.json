@@ -1,3 +1,8 @@
 {
-    "app": "node index"
+  "app": "node index",
+  "context": {
+    "accountId": "847136656635",
+    "domain": "briansunter.com",
+    "subdomain": "beta"
+  }
 }
