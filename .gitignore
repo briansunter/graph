@@ -1,2 +1,4 @@
-/.DS_Store
-/.hugo_build.lock
+public
+node_modules
+cdk.out
+.DS_Store

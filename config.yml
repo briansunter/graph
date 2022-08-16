@@ -1,26 +1,26 @@
-baseURL: https://example.com/
+baseURL: https://beta.briansunter.com/
 languageCode: en-us
-title: Author Name
+title: Brian Sunter
 theme: "PaperMod"
 
 params:
     homeInfoParams:
-        Title: Hello World 👋
-        Content: This is a sample hugo template
+        Title: Personal Site of Brian Sunter 👋
+        Content: Software Engineer based out of San Francisco working on web, mobile, and devops. 
 
     socialIcons: # optional
         - name: "github"
-          url: "https://github.com/sawhney17"
+          url: "https://github.com/briansunter"
         - name: "youtube"
-          url: "https://www.youtube.com/channel/UCjMJeOCEAG2XFtd9JvZwomw"
+          url: "https://www.youtube.com/channel/UC4Nu4dncIcTC1DyOG5XG2Vg"
         - name: "twitter"
-          url: "https://twitter.com/aryansawhney17"
+          url: "https://twitter.com/bsunter"
         - name: "kofi" 
-          url: "https://buymeacoffee.com/sawhney17"
+          url: "https://buymeacoffee.com/bsunter"
         - name: "rss"
-          url: "https://aryansawhney.com/index.xml"
+          url: "https://beta.briansunter.com/index.xml"
     ShowReadingTime: true
-    author: "One Nice Person"
+    author: "Brian Sunter"
 
 outputs:
     home:
