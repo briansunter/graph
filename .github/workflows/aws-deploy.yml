@@ -12,7 +12,6 @@ jobs:
           # extended: true
       - name: Build
         run: cd site && hugo --minify
-
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
@@ -29,4 +28,4 @@ jobs:
       # - name: Synth stack
       #   run: cd infra && yarn cdk synth
       - name: Deploy stack
-        run: cd infra && npm run cdk deploy --all --require-approval never
+        run: cd infra && npm run cdk deploy --require-approval never
