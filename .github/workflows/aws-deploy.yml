@@ -3,14 +3,6 @@ jobs:
   aws_cdk:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout AWS CDK Repo
-        uses: actions/checkout@v3
-        with:
-          path: infra/
-      - name: Checkout Backend functions
-        uses: actions/checkout@v3
-        with:
-          path: site/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
