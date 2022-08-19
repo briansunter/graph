@@ -4,4 +4,3 @@ cdk.out
 .DS_Store
 .clj-kondo
 .lsp
-infra/**/.js
