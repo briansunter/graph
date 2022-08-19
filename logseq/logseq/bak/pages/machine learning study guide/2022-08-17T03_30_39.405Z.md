@@ -1,0 +1,95 @@
+public:: true
+tags:: [[programming]][[machine learning]]
+
+- This is a study guide for understanding machine learning and gpt3]]
+- Built from the prompts in [[machine learning study guide gpt]]
+- # Mathematics
+	- ## Linear algebra
+		- Vector spaces
+		- Linear transformations
+		- Matrices
+		- Determinants
+		- Eigenvectors and eigenvalues
+		- systems of linear equations
+		- Vector operations
+			- addition
+			- subtraction
+			- scalar multiplication
+			- dot product
+			- cross product
+		- Linear independence and span
+		- Orthogonality
+		- Projections
+		- Eigendecomposition
+		- Singular value decomposition
+		- Principal component analysis
+	- ## calculus
+		- algebra
+		- trigonometry
+		- limits
+		- continuity
+		- derivatives
+		- integrals
+		- multivariate calculus
+			- partial derivatives
+			- gradient descent
+			- vector fields
+		- optimization
+			- convex optimization
+			- higher order equations
+			- conjugate gradient
+			- Newton's Method
+	- ## probability
+	- ## statistics
+		- basic statictics
+			- random variables
+			- events
+			- probability density functions
+			- "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
+		- advanced statistics
+			- Markov chains
+			- hidden Markov models
+			- Bayesian inference
+		- machine learning specific statistics
+			- estimation
+			- hypothesis testing
+			- "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+	- Regularization
+		- L1 and L2 regularization
+		- sparsity
+- # Computer Science
+	- Algorithms
+	- data structures
+	- software engineering
+- # Machine Learning
+	- ## Supervised learning
+		- Linear Regression
+		- Logistic Regression
+		- Support Vector Machines
+		- Decision Trees
+		- Neural Networks
+	- ## unsupervised learning
+		- Dimensionality reduction
+		- Clustering
+		- Feature selection
+		- Data preprocessing
+	- predictive modeling
+		- regularization
+	- ## deep learning
+		- Artifician neural networks
+		- convolutional nerual networks
+		- recurrent nueral networks
+		- long short-term memory networks
+		- autoencoders
+	- ## Ensembles
+- # Data Mining
+	- Data pre-processing
+	- feature engineering
+	- model evaluation
+- # Software Packages:
+	- Python
+	- Pandas
+	- TensorFlow
+	- scikit-learn
+	- keras
+- {{embed [[website-outro]]}}

@@ -1,0 +1,6 @@
+public
+node_modules
+cdk.out
+.DS_Store
+.clj-kondo
+.lsp

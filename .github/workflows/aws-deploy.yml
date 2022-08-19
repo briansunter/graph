@@ -1,0 +1,49 @@
+on: [push, workflow_dispatch]
+jobs:
+  aws_cdk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+          # extended: true
+      - name: Build
+        run: cd site && hugo --minify
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+        with:
+          working-directory: ./infra/
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@master
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: 'us-east-1'
+      # - name: Synth stack
+      #   run: cd infra && yarn cdk synth
+      - name: Deploy stack
+        run: cd infra && npm run deploy
+      - name: S3 Uploader for GitHub Actions
+        uses: Noelware/s3-action@1.3.1
+        with:
+          directories: 'site/public'
+          endpoint: https://s3.filebase.com
+          bucket: briansunter
+          access-key: ${{ secrets.FILEBASE_ACCESS_KEY }}
+          secret-key: ${{ secrets.FILEBASE_SECRET_KEY }}
+      # - name: Pinata deploy action step
+      #   id: deploy
+      #   uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
+      #   with:
+      #     pin-name: 'brian-sunter-site'
+      #     path: 'site/public'
+      #     pinata-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_KEY }}
+      #     pinata-secret-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_SECRET_KEY }}
+      #     verbose: true
+      #     remove-old: false

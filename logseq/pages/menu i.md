@@ -1,0 +1,36 @@
+
+tags:: [[cooking]] [[mealprep]]
+
+- Treat
+	- Celery pb
+	- Avocado toast
+- sides
+	- [[simple salad]]
+	- [[texas roadhouse rolls]]
+	- [[cornbread]]
+	- [[strawberry-protein-shake]]
+- monday
+	- [[sous-vide-chicken]]
+	- [[roast broccolini]]
+	- fries
+- tuesday
+	- [[sous vide carnitas]]
+	- stir fried veggies
+	- rice
+- wednesday
+	- [[honey garlic salmon]]
+	- [[asparagus]]
+	- sweet potato fries
+- thursday
+	- [[sous-vide-chicken]]
+	- steam veggies
+	- tater tots
+- friday
+	- steam veggies
+	- [[sous-vide-steak]]
+	- fries
+- saturday
+	-
+- sunday
+	- sweet potato fries
+	- [[honey garlic salmon]]

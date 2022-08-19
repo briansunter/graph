@@ -1,0 +1,1 @@
+alias:: algorithms-boot-camp

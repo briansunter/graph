@@ -1,0 +1,25 @@
+
+
+- type:: [[project]]
+  tags:: [[project]]
+  status:: [[DOING]] 
+  name::
+  start-date::
+  milestone-date::
+  desired-end-date::
+  metrics::
+## Summary
+## Related long term goals
+## Desired output and outcome
+## Tasks
+	- TODO learn advanced queries
+- ## Habits [[organize-logseq]]
+	- TODO research [[logseq]] workflows
+	  SCHEDULED: <2022-06-14 Tue ++1w>
+	- TODO organize notes
+	  SCHEDULED: <2022-06-14 Tue ++1d>
+	- TODO clean [[old todos]] 
+	  SCHEDULED: <2022-06-14 Tue ++1d>
+## Templates
+## Notes
+## References

@@ -1,0 +1,54 @@
+baseURL: https://beta.briansunter.com/
+languageCode: en-us
+title: Brian Sunter
+theme: "PaperMod"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+    homeInfoParams:
+        Title: Welcome to My Personal Site 👋
+        Content: Software Engineer based out of San Francisco experienced in web, mobile, and devops. 
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/briansunter"
+        - name: "youtube"
+          url: "https://www.youtube.com/channel/UC4Nu4dncIcTC1DyOG5XG2Vg"
+        - name: "twitter"
+          url: "https://twitter.com/bsunter"
+        - name: "kofi" 
+          url: "https://buymeacoffee.com/bsunter"
+        - name: "rss"
+          url: "https://beta.briansunter.com/index.xml"
+    ShowReadingTime: true
+    author: "Brian Sunter"
+    ShowCodeCopyButtons: true
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: archive
+          name: Archive
+          url: /archives/
+          weight: 20
