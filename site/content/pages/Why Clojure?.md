@@ -1,6 +1,6 @@
 ---
 title: Why Clojure?
-aliases:
+url:
 - blog/why-clojure
 date: 2018-09-30
 description: What makes Clojure interesting and well suited for modern software development?
