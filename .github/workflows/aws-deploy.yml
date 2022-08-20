@@ -25,8 +25,10 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: 'us-east-1'
-      # - name: Synth stack
-      #   run: cd infra && yarn cdk synth
+      - name: Build stack
+        run: cd infra && npm run build
+      - name: Synth stack
+        run: cd infra && npm run cdk synth
       - name: Deploy stack
         run: cd infra && npm run deploy
       - name: S3 Uploader for GitHub Actions
