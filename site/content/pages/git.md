@@ -2,8 +2,8 @@
 title: git
 tags:
 categories:
-date: 2022-08-19
-lastMod: 2022-08-19
+date: 2022-08-20
+lastMod: 2022-08-20
 ---
 ## Remove file from gitignore
 

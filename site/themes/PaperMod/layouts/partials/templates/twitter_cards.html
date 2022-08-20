@@ -1,18 +1,9 @@
-
 {{- if .Params.social_image -}}
 <meta name="twitter:card" content="summary_large_image" />
 {{- if (ne $.Params.cover.relative true) }}
 <meta name="twitter:image" content="{{ .Params.social_image | absURL }}" />
 {{- else }}
 <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.social_image ) | absURL }}" />
-{{- end}}
-{{- else }}
-{{- with $.Params.cover_image -}}
-<meta name="twitter:card" content="summary_large_image" />
-{{- if (ne $.Params.cover.relative true) }}
-<meta name="twitter:image" content="{{ .Params.cover_image | absURL }}" />
-{{- else }}
-<meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.cover_image ) | absURL }}" />
 {{- end}}
 {{- else }}
 {{- with $.Params.images -}}
@@ -39,6 +30,4 @@
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{ with .Site.Social.twitter -}}
 <meta name="twitter:site" content="@{{ . }}"/>
-{{ end -}}
-
 {{ end -}}
