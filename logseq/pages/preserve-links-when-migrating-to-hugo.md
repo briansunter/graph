@@ -1,0 +1,6 @@
+- I'm migrating my site to the Hugo static site generator.
+- For now I'm publishing all of my posts under beta.briansunter.com
+- I'm not going to switch my main domain over until I migrate all my old pages to my new site
+- It's really important for the links to my site on other sites still work.
+- My new hugo setup uses the main path `/page/` whereas my old setup uses `/blog`
+- Thankfully, hugo let's me specify a url
