@@ -26,6 +26,8 @@ params:
     ShowReadingTime: true
     author: "Brian Sunter"
     ShowCodeCopyButtons: true
+    ShowShareButtons: true
+
 
 
 outputs:

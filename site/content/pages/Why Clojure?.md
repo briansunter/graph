@@ -8,10 +8,13 @@ tags:
 - programming
 - functional
 - clojure
+social-image: ../assets/Clojure_logo.svg_1660983015847_0.png
 categories:
-lastMod: 2022-08-19
+lastMod: 2022-08-20
 ---
 ## Intro
+
+![Clojure_logo.svg.png](/assets/clojure_logo.svg_1660983015847_0.png)
 
 Why not the programming language I'm already using or some other language? What makes Clojure uniquely well suited for modern software development?
 
