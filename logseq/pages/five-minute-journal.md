@@ -1,8 +1,9 @@
-title:: 5 Minute Journal - Daily Journal Prompts
-description:: My 5 minute journal daily practice and the daily journal prompts I use to improve my writing skills, productivity, self-awareness,and thinking.
+public:: true
 date:: 2021-08-01
 tags:: [[blog]] [[writing]]
+url:: /blog/five-minute-journal
 socialimage:: /assets/image_1661064164296_0.png
+description:: Daily journal prompts and the 5 minute journal have been helpful to improve my writing skills, productivity, self-awareness, and thinking. I've included a list of journal prompts and journal questions I use for daily journaling, including the five minute journal writing prompts.
 
 - ![image.png](../assets/image_1661064164296_0.png)
 - ## Intro

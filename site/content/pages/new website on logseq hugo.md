@@ -21,7 +21,7 @@ I want to start posting my Logseq notes and blog posts online
 
 I want to host these on my site, where they can stay up forever, instead of just on Twitter, Facebook, Reddit, etc. where they will eventually be paywalled or deleted.
 
-I also want to make publishing on my site as easy as possible. Managing my notes as well as my public site in Logseq is very convenient and lets me quickly push new content. 
+I also want to make publishing on my site as easy as possible. Managing my notes as well as my public site in Logseq is very convenient and lets me quickly push new content.
 
 I write everything in Logseq, export using the Hugo plugin, push it to GitHub, and my site is deployed in just a few minutes. It is very easy to publish new content.
 
@@ -29,13 +29,13 @@ I write everything in Logseq, export using the Hugo plugin, push it to GitHub, a
 
 When I first started my website a long time ago, I used WordPress, and since then I've moved to static site generators. I've used Hugo, Jekyll, Eleventy, and now Logseq + Hugo.
 
-I've spent a lot of time hand tuning static site generators, but decided I wanted something more "hands off" and that worked out of the box. 
+I've spent a lot of time hand tuning static site generators, but decided I wanted something more "hands off" and that worked out of the box.
 
 I was using a highly customized eleventy static site, but it was a lot of maintenance and was slow to build my site. I wanted something fast and easy to use.
 
 Hugo, along with the PaperMod theme does everything my old site did, including image optimization, but is mostly zero config and super fast. Plus, I enjoy the theme and layout of the plugin.
 
-I was publishing an interactive graph using the Logseq built-in export feature, but I couldn't get it to work with SEO. Later on, I plan on publishing my full interactive graph again, but for now, I'm focusing on the static site. 
+I was publishing an interactive graph using the Logseq built-in export feature, but I couldn't get it to work with SEO. Later on, I plan on publishing my full interactive graph again, but for now, I'm focusing on the static site.
 
 ## Considerations
 
@@ -51,7 +51,7 @@ This includes image optimization, RSS feeds, and more.
 
 My handmade setup with Eleventy was slow to publish.
 
-Hugo is extremely fast 
+Hugo is extremely fast
 
 ### Easy to Publish New Entries
 
@@ -177,7 +177,7 @@ It's a small detail, but I hate when hosting providers force me to use the trail
 
 ## Conclusion
 
-I'm continuing to build out posts on my new site while migrating my old posts. 
+I'm continuing to build out posts on my new site while migrating my old posts.
 
 I hope to fully move over to this site soon, and post a lot more often.
 
