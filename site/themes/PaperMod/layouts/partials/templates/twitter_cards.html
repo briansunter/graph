@@ -1,9 +1,9 @@
-{{- if .Params.social_image -}}
+{{- if .Params.socialimage -}}
 <meta name="twitter:card" content="summary_large_image" />
 {{- if (ne $.Params.cover.relative true) }}
-<meta name="twitter:image" content="{{ .Params.social_image | absURL }}" />
+<meta name="twitter:image" content="{{ .Params.socialimage | absURL }}" />
 {{- else }}
-<meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.social_image ) | absURL }}" />
+<meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.socialimage ) | absURL }}" />
 {{- end}}
 {{- else }}
 {{- with $.Params.images -}}

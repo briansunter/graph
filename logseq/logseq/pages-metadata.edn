@@ -63,7 +63,10 @@
   :block/updated-at 1660840489721}
  {:block/name "aug 19th, 2022",
   :block/created-at 1660896236714,
-  :block/updated-at 1660896236714}
+  :block/updated-at 1660977766563}
+ {:block/name "aug 20th, 2022",
+  :block/created-at 1660978804124,
+  :block/updated-at 1660978804124}
  {:block/name "author",
   :block/created-at 1660618396914,
   :block/updated-at 1660618396914}
@@ -73,6 +76,9 @@
  {:block/name "blog",
   :block/created-at 1660618397640,
   :block/updated-at 1660618397640}
+ {:block/name "blog/why-clojure",
+  :block/created-at 1660970698429,
+  :block/updated-at 1660970698429}
  {:block/name "bread",
   :block/created-at 1660618396873,
   :block/updated-at 1660618396873}
@@ -118,6 +124,9 @@
  {:block/name "chinese",
   :block/created-at 1660618397610,
   :block/updated-at 1660618397610}
+ {:block/name "clojure",
+  :block/created-at 1660969710565,
+  :block/updated-at 1660969710565}
  {:block/name "comments",
   :block/created-at 1660623410355,
   :block/updated-at 1660623410355}
@@ -178,9 +187,15 @@
  {:block/name "followers",
   :block/created-at 1660618398079,
   :block/updated-at 1660618398079}
+ {:block/name "functional",
+  :block/created-at 1660969710565,
+  :block/updated-at 1660969710565}
  {:block/name "get-youtube-subtitles",
   :block/created-at 1660618398370,
   :block/updated-at 1660618398370}
+ {:block/name "git",
+  :block/created-at 1660985601790,
+  :block/updated-at 1660985601790}
  {:block/name "gpt",
   :block/created-at 1660618397480,
   :block/updated-at 1660618397480}
@@ -455,6 +470,9 @@
  {:block/name "prep-time",
   :block/created-at 1660622829545,
   :block/updated-at 1660622829545}
+ {:block/name "preserve-links-when-migrating-to-hugo",
+  :block/created-at 1660969925082,
+  :block/updated-at 1660970591836}
  {:block/name "productivity",
   :block/created-at 1660618396941,
   :block/updated-at 1660618396941}
@@ -533,6 +551,12 @@
  {:block/name "slug",
   :block/created-at 1660765408565,
   :block/updated-at 1660765408565}
+ {:block/name "social-image",
+  :block/created-at 1660985427902,
+  :block/updated-at 1660985427902}
+ {:block/name "socialimage",
+  :block/created-at 1661060437628,
+  :block/updated-at 1661060437628}
  {:block/name "sorting",
   :block/created-at 1660618396891,
   :block/updated-at 1660618396891}
@@ -614,6 +638,9 @@
  {:block/name "united states",
   :block/created-at 1660804578770,
   :block/updated-at 1660804578770}
+ {:block/name "url",
+  :block/created-at 1660974398956,
+  :block/updated-at 1660974398956}
  {:block/name "vegetable",
   :block/created-at 1660618398844,
   :block/updated-at 1660618398844}
@@ -629,6 +656,9 @@
  {:block/name "weight",
   :block/created-at 1660707120770,
   :block/updated-at 1660707120770}
+ {:block/name "why clojure?",
+  :block/created-at 1660969294220,
+  :block/updated-at 1660987208909}
  {:block/name "writing",
   :block/created-at 1660618396941,
   :block/updated-at 1660618396941}
