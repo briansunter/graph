@@ -8,7 +8,6 @@ tags:
 - programming
 - functional
 - clojure
-socialimage: /assets/clojure_logo.svg_1660983015847_0.png
 categories:
 lastMod: 2022-08-20
 ---
