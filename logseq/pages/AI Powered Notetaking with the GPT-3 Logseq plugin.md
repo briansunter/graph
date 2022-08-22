@@ -1,6 +1,7 @@
 public:: true
 title:: AI Powered Notetaking with the GPT-3 Logseq plugin
 date:: 2022-06-04
+url:: /blog/gtp3-openai-logseq-notetaking
 socialimage:: /assets/image_1661149276371_0.png
 categories:: [[programming]] [[logseq]]
 tags:: [[ai]] [[programming]] [[gpt3]] [[notetaking]] [[logseq]]
