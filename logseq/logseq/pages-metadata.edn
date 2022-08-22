@@ -46,6 +46,10 @@
  {:block/name "and logseq gpt3 ai plugin",
   :block/created-at 1660618398068,
   :block/updated-at 1660618398068}
+ {:block/name
+  "and thinking. i've included a list of journal prompts and journal questions i use for daily journaling",
+  :block/created-at 1661065509187,
+  :block/updated-at 1661065509187}
  {:block/name "asparagus",
   :block/created-at 1660618398037,
   :block/updated-at 1660618398037}
@@ -79,9 +83,6 @@
  {:block/name "blog",
   :block/created-at 1660618397640,
   :block/updated-at 1660618397640}
- {:block/name "blog/why-clojure",
-  :block/created-at 1660970698429,
-  :block/updated-at 1660970698429}
  {:block/name "bread",
   :block/created-at 1660618396873,
   :block/updated-at 1660618396873}
@@ -154,6 +155,10 @@
  {:block/name "daily highlight productivity technique",
   :block/created-at 1660618396940,
   :block/updated-at 1660805713265}
+ {:block/name
+  "daily journal prompts and the 5 minute journal have been helpful to improve my writing skills",
+  :block/created-at 1661065509185,
+  :block/updated-at 1661065509185}
  {:block/name "date",
   :block/created-at 1660692018178,
   :block/updated-at 1660790880079}
@@ -189,7 +194,7 @@
   :block/updated-at 1655867905230}
  {:block/name "five-minute-journal",
   :block/created-at 1661063640808,
-  :block/updated-at 1661065353000}
+  :block/updated-at 1661105034114}
  {:block/name "followers",
   :block/created-at 1660618398079,
   :block/updated-at 1660618398079}
@@ -247,6 +252,9 @@
  {:block/name "in-progress",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
+ {:block/name "including the five minute journal writing prompts.",
+  :block/created-at 1661065509187,
+  :block/updated-at 1661065509187}
  {:block/name "information diet",
   :block/created-at 1660618398552,
   :block/updated-at 1660618398552}
@@ -536,6 +544,9 @@
  {:block/name "second-brain",
   :block/created-at 1660618398545,
   :block/updated-at 1660618398545}
+ {:block/name "self-awareness",
+  :block/created-at 1661065509186,
+  :block/updated-at 1661065509186}
  {:block/name "sent-date",
   :block/created-at 1660618398077,
   :block/updated-at 1660618398077}
@@ -557,9 +568,6 @@
  {:block/name "slug",
   :block/created-at 1660765408565,
   :block/updated-at 1660765408565}
- {:block/name "social-image",
-  :block/created-at 1660985427902,
-  :block/updated-at 1660985427902}
  {:block/name "socialimage",
   :block/created-at 1661060437628,
   :block/updated-at 1661060437628}

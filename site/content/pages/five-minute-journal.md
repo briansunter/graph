@@ -3,6 +3,7 @@ date: 2021-08-01
 tags:
 - blog
 - writing
+- logseq
 url: /blog/five-minute-journal
 socialimage: /assets/image_1661064164296_0.png
 description:
