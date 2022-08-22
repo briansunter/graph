@@ -1,6 +1,7 @@
 ---
 title: Managing Python Projects and Dependencies in 2022
 date: 2022-02-13
+url: /blog/python-setup-pyenv-poetry/
 socialimage: /assets/image_1661147875071_0.png
 description: How to set up Python with the latest tools and best practices
 tags:
