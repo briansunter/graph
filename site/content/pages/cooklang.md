@@ -1,5 +1,5 @@
 ---
-url: /blog/cooklang/
+url: /blog/cooklang
 date: 2022-09-21
 tags:
 - cooking
