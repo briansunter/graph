@@ -73,7 +73,7 @@
   :block/updated-at 1661063640809}
  {:block/name "aug 21st, 2022",
   :block/created-at 1661065202695,
-  :block/updated-at 1661065202695}
+  :block/updated-at 1661145730346}
  {:block/name "author",
   :block/created-at 1660618396914,
   :block/updated-at 1660618396914}
@@ -146,6 +146,13 @@
  {:block/name "cooking",
   :block/created-at 1660618397665,
   :block/updated-at 1660618397665}
+ {:block/name "cooklang",
+  :block/created-at 1661146627860,
+  :block/updated-at 1661146945720}
+ {:block/name
+  "cooklang is like markdown for recipes. it lets you write recipes in a human-readable format that a computer can parse to get the ingredient list",
+  :block/created-at 1661146697931,
+  :block/updated-at 1661146697931}
  {:block/name "cornbread",
   :block/created-at 1660618396872,
   :block/updated-at 1660620295277}
@@ -189,6 +196,9 @@
  {:block/name "done",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
+ {:block/name "etc.",
+  :block/created-at 1661146697933,
+  :block/updated-at 1661146697933}
  {:block/name "favorites",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -206,7 +216,7 @@
   :block/updated-at 1660618398370}
  {:block/name "git",
   :block/created-at 1660985601790,
-  :block/updated-at 1660985601790}
+  :block/updated-at 1661146238349}
  {:block/name "gpt",
   :block/created-at 1660618397480,
   :block/updated-at 1660618397480}
@@ -496,6 +506,9 @@
  {:block/name "profile-visits",
   :block/created-at 1660618398078,
   :block/updated-at 1660618398078}
+ {:block/name "programing",
+  :block/created-at 1661146697931,
+  :block/updated-at 1661146697931}
  {:block/name "programming",
   :block/created-at 1660618396891,
   :block/updated-at 1660618396891}
@@ -604,6 +617,9 @@
  {:block/name "status",
   :block/created-at 1660618396791,
   :block/updated-at 1660618396791}
+ {:block/name "steps",
+  :block/created-at 1661146697932,
+  :block/updated-at 1661146697932}
  {:block/name "strawberry-protein-shake",
   :block/created-at 1660618398035,
   :block/updated-at 1660618398035}
@@ -672,7 +688,7 @@
   :block/updated-at 1660707120770}
  {:block/name "why clojure?",
   :block/created-at 1660969294220,
-  :block/updated-at 1660987208909}
+  :block/updated-at 1661146649332}
  {:block/name "writing",
   :block/created-at 1660618396941,
   :block/updated-at 1660618396941}
