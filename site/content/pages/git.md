@@ -1,10 +1,11 @@
 ---
-title: git
 tags:
-categories:
-date: 2022-08-20
-lastMod: 2022-08-20
+- programming
+categories: programming
+date: 08-21-2022
+title: git
+lastMod: 2022-08-21
 ---
-## Remove file from gitignore
+## Remove files from gitignore
 
-`git rm --cached `git ls-files -i -c --exclude-from=.gitignore``
+`git rm --cached 'git ls-files -i -c --exclude-from=.gitignore'
