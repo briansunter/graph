@@ -9,6 +9,7 @@ title:: newsletter/issue/7
 # Brain Food 🧠
 	- In this section, I'll share some interesting articles and "food for thought"
 	- ## Quote
+		- [[you and your research]]
 	- ## Link of the week
 # Analytics 📈
 # Outro

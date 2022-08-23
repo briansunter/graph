@@ -358,7 +358,6 @@ In Clojure we can start with the data and add multiple dispatch if or when we ne
 
 (area circle)
 ```
-
 public:: true
 title:: Why Clojure?
 

@@ -6,7 +6,7 @@ tags:
 - algorithms-boot-camp
 title: algorithms-boot-camp
 categories:
-lastMod: 2022-08-16
+lastMod: 2022-08-22
 ---
 # Intro
 
@@ -70,6 +70,8 @@ Sorting and Bubble Sort
 
 #### [[time-complexity/algorithms-boot-camp]]
 
+
+[posteriori-vs-a-priori-analysis-of-algorithms]({{< ref "posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
 Time Complexity / Space Complexity Overview
 

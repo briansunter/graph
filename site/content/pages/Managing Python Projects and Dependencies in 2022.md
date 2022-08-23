@@ -27,15 +27,15 @@ How to perform administrative tasks, like project initialization and publishing 
 
 # Tools Overview
 
-**Homebrew** installs development tools on macOS. Follow the instructions here to set it up if you haven't already [https://brew.sh/](https://brew.sh/). 
+**Homebrew** installs development tools on macOS. Follow the instructions here to set it up if you haven't already [https://brew.sh/](https://brew.sh/).
 
-**Python** is a programming language, but there's also a command line tool called `python` on your computer that runs Python code. The Python language and tool are continually updated with new features and versions. Projects usually need a specific version of Python installed to work correctly. There's probably a version of Python already installed on your local computer called your “System Python”, but it's unlikely to be the exact version you want and you should avoid using it. 
+**Python** is a programming language, but there's also a command line tool called `python` on your computer that runs Python code. The Python language and tool are continually updated with new features and versions. Projects usually need a specific version of Python installed to work correctly. There's probably a version of Python already installed on your local computer called your “System Python”, but it's unlikely to be the exact version you want and you should avoid using it.
 
 **[pyenv](https://github.com/pyenv/pyenv)** lets you easily install the exact Python version you want and switch between different Python versions for different projects.
 
 **[poetry](https://python-poetry.org/)** helps us download Python dependencies and has tools to help Python project administration, such as project initialization and publishing packages.
 
-# Initial Setup 
+# Initial Setup
 
 ## Set up pyenv
 

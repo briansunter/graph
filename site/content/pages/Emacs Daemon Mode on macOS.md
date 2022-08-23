@@ -71,7 +71,6 @@ You can also use `unload` to stop the daemon and prevent it from starting next l
 
 ### Load
 > launchctl load -w <path>: Loads and starts the job while also marking the job as "not disabled." The job will restart on the next login/reboot.
-
 ### Unload
 
 > launchctl unload -w <path>: Stops and unloads and disables the job. The job will NOT restart on the next login/restart.

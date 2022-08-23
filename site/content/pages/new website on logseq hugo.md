@@ -1,12 +1,16 @@
 ---
+description: I've remade my website using Logseq and the Hugo static site generator.
 tags:
 - logseq
 - programming
 date: 2022-08-19
+socialimage: /assets/image_1661226497219_0.png
 title: new website on logseq hugo
 categories:
-lastMod: 2022-08-19
+lastMod: 2022-08-22
 ---
+![image.png](/assets/image_1661226490211_0.png)
+
 I've remade my website using Logseq and the Hugo static site generator.
 
 I write all my posts in Logseq and use the [Schrodinger plugin](https://github.com/sawhney17/logseq-schrodinger) to convert the Logseq pages into [Hugo](https://gohugo.io/)-compatible markdown files.

@@ -35,6 +35,7 @@ tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-cam
 				- Sorting and Bubble Sort
 			- #### [[time-complexity/algorithms-boot-camp]]
 			  collapsed:: true
+				- [[posteriori-vs-a-priori-analysis-of-algorithms]]
 				- Time Complexity / Space Complexity Overview
 				- Big O Notation
 				  collapsed:: true
