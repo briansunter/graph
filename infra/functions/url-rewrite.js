@@ -8,9 +8,9 @@ function isFile(uri) {
 
 function handler(event) {
   var request = event.request;
-
-
-  if (request.uri !== "/" && request.uri.endsWith("/")) {
+  if (request.uri.startsWith("/graph")) {
+    return request;
+  } else if (request.uri !== "/" && request.uri.endsWith("/")) {
     var noSlashUri = request.uri.slice(0, -1);
     var response = {
       statusCode: 301,
