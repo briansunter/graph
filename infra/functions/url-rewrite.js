@@ -11,7 +11,7 @@ function handler(event) {
   if (request.uri === "/graph/") {
     request.uri += "index.html";
     return request;
-  } else if (request.uri === "/graph") {
+  } else if (request.uri.startsWith("/graph")){
     var slashUri = request.uri += "/";
     var response = {
       statusCode: 301,
