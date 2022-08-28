@@ -18,7 +18,7 @@ function handler(event) {
       statusDescription: "Moved",
       headers: { location: { value: slashUri } },
     };
-    return request;
+    return response;
   } else if (request.uri !== "/" && request.uri.endsWith("/")) {
     var noSlashUri = request.uri.slice(0, -1);
     var response = {
