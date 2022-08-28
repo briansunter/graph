@@ -15,6 +15,7 @@ jobs:
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@v0.1
         with:
+          src: logseq
           dest: site/public/graph
       - uses: actions/setup-node@v2
         with:
