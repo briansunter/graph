@@ -6,6 +6,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
+    "deploy:dev": "cdk deploy -c subdomain=beta --require-approval never",
     "deploy": "cdk deploy --require-approval never"
   },
   "author": {

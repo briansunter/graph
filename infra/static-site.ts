@@ -26,16 +26,26 @@ export class StaticSite extends Construct {
     super(parent, name);
 
     const zone = route53.HostedZone.fromLookup(this, 'Zone', { domainName: props.domainName });
-    const siteDomain = props.siteSubDomain + '.' + props.domainName;
+    let siteDomain;
+
+    if (props.siteSubDomain) {
+      siteDomain = props.siteSubDomain + '.' + props.domainName;
+
+    } else {
+      siteDomain = props.domainName;
+    }
+
     const cloudfrontOAI = new cloudfront.OriginAccessIdentity(this, 'cloudfront-OAI', {
       comment: `OAI for ${name}`
     });
 
     new CfnOutput(this, 'Site', { value: 'https://' + siteDomain });
 
+    const bucketName = `${siteDomain}-content`
+
     // Content bucket
     const siteBucket = new s3.Bucket(this, 'SiteBucket', {
-      bucketName: siteDomain,
+      bucketName,
       publicReadAccess: false,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
 
@@ -44,13 +54,13 @@ export class StaticSite extends Construct {
        * the new bucket, and it will remain in your account until manually deleted. By setting the policy to
        * DESTROY, cdk destroy will attempt to delete the bucket, but will error if the bucket is not empty.
        */
-      removalPolicy: RemovalPolicy.DESTROY, // NOT recommended for production code
+      removalPolicy: RemovalPolicy.RETAIN,
 
       /**
        * For sample purposes only, if you create an S3 bucket then populate it, stack destruction fails.  This
        * setting will enable full cleanup of the demo.
        */
-      autoDeleteObjects: true, // NOT recommended for production code
+      autoDeleteObjects: false,
     });
 
     // Grant access to cloudfront
