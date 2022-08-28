@@ -8,8 +8,11 @@ function isFile(uri) {
 
 function handler(event) {
   var request = event.request;
-  if (request.uri.startsWith("/graph/")) {
+  if (request.uri === "/graph/") {
     request.uri += "index.html";
+    return request;
+  } else if (request.uri === "/graph") {
+    request.uri += "/index.html";
     return request;
   } else if (request.uri !== "/" && request.uri.endsWith("/")) {
     var noSlashUri = request.uri.slice(0, -1);
