@@ -8,10 +8,10 @@ function isFile(uri) {
 
 function handler(event) {
   var request = event.request;
-  if (request.uri === "/graph/") {
+  if (request.uri.startsWith("/graph/")) {
     request.uri += "index.html";
     return request;
-  } else if (request.uri ==="/graph"){
+  } else if (request.uri.startsWith( "/graph")){
     var slashUri = request.uri += "/";
     var response = {
       statusCode: 301,
