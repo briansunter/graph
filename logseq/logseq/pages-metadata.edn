@@ -104,9 +104,6 @@
  {:block/name "aug 22nd, 2022",
   :block/created-at 1661151600938,
   :block/updated-at 1661231629342}
- {:block/name "aug 23rd, 2022",
-  :block/created-at 1661238013735,
-  :block/updated-at 1661238013735}
  {:block/name "aug 27th, 2022",
   :block/created-at 1661649332689,
   :block/updated-at 1661658030914}
@@ -253,7 +250,7 @@
   :block/updated-at 1655867905230}
  {:block/name "five-minute-journal",
   :block/created-at 1661063640808,
-  :block/updated-at 1661105034114}
+  :block/updated-at 1661659035100}
  {:block/name "followers",
   :block/created-at 1660618398079,
   :block/updated-at 1660618398079}
@@ -514,7 +511,7 @@
   :block/updated-at 1660684274675}
  {:block/name "newsletter/issue/7",
   :block/created-at 1661657206040,
-  :block/updated-at 1661658757178}
+  :block/updated-at 1661659263823}
  {:block/name "newsletter/template",
   :block/created-at 1660755200058,
   :block/updated-at 1660789626924}

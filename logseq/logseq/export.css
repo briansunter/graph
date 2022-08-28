@@ -1,0 +1,121 @@
+/*** Publishing: Hide things that aren't very useful for a read-only view */
+
+/** Title */
+/* Make title non-editable */
+#main-container .page-title {
+  pointer-events: none;
+}
+/* hide warnings */
+.warning {
+  display: none;
+  visibility: hidden;
+}
+
+/** Hide useless sidebar stuff */
+.nav-header .flashcards-nav {
+  display: none;
+}
+.nav-header .journals-nav {
+  display: none;
+}
+/*.nav-header .graph-view-nav { display: none; }*/
+
+/** Header */
+/* Hide right side of header buttons  (only useful setting is light/dark theme and can still be done using tt, graph is somewhat broken, home is covered by "All Pages")  */
+#head div.r {
+  display: none;
+}
+
+/** All pages */
+
+/* Hide more columns (not that they don't work, they just don't seem very useful) */
+.cp__all_pages table .backlinks {
+  display: none;
+}
+.cp__all_pages table .created-at {
+  display: none;
+}
+/* Hide delete button */
+.cp__all_pages .actions .actions-wrap {
+  display: none;
+}
+/* Hide more page modification options/things that don't work */
+.cp__all_pages .actions div.r {
+  display: none;
+}
+/* Fix search bar spacing */
+.cp__all_pages .actions .search-wrap {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/** Image */
+/* Remove delete button */
+a.delete {
+  display: none;
+}
+/* Disable resizing */
+.resize {
+  resize: none;
+}
+
+/** Hide graph settings (they're ineffective, only the desktop app's while exporting seem to matter, search doesn't work either) */
+.graph-filters {
+  display: none;
+}
+
+/** Hide recent pages (seems to be ineffective on web)*/
+.nav-content-item.recent {
+  display: none;
+}
+
+/* Hide context menu (mostly ineffective) */
+#custom-context-menu {
+  display: none;
+}
+
+/** Disable dragging of blocks (also disables zooming) */
+.ls-block > div > div > a:not(.block-control) {
+  pointer-events: none;
+}
+
+/** Remove superfluous spacing on block embeds in Firefox */
+.block-content.inline {
+  white-space: revert;
+}
+/* sign up form */
+
+/* Style the form element with a border around it */
+.revue-form-field {
+  border: 2px solid #141313;
+  width: 100%;
+  height: 3em;
+  padding: 5px;
+}
+
+/* Add some padding and a grey background color to containers */
+#revue-embed {
+  padding: 20px;
+  background-color: #231a1a;
+}
+
+/* Style the input elements and the submit button */
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
