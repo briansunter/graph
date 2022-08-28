@@ -9,13 +9,13 @@ categories:
 - programing
 date: 2022-08-22
 title: posteriori-vs-a-priori-analysis-of-algorithms
-lastMod: 2022-08-22
+lastMod: 2022-08-27
 ---
 ## A Posteriori Analysis (Profiling)
 
 The most straightforward method to measure the speed of an algorithm is to run and time it.
 
-This method is called **a posteriori** is Latin for "from the later"
+This method is called **a posteriori** and is Latin for "from the later"
 
 An example of this would be "benchmarking" or "profiling", which is running your program and recording how long it takes to run in seconds. There are many tools to measure performance of programs.
 
@@ -27,7 +27,7 @@ A Posteriori Analysis also depends on which language the program was written in.
 
 ## A Priori Analysis (Time Complexity)
 
-Sometimes we also want a theoretical measure of how long an algorithm takes to run, without needing to actually run it. This method is called **A priori** is Latin for "from the earlier".
+Sometimes we also want a theoretical measure of how long an algorithm takes to run, without needing to actually run it. This method is called **A priori** and is Latin for "from the earlier".
 
 Some algorithms can be proven to always be faster than others, no matter what hardware it runs on.
 

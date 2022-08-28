@@ -14,7 +14,7 @@ description:
 - including the five minute journal writing prompts.
 title: five-minute-journal
 categories:
-lastMod: 2022-08-21
+lastMod: 2022-08-27
 ---
 ![image.png](/assets/image_1661064164296_0.png)
 
@@ -30,11 +30,11 @@ I feel the most important benefit of journaling is improving your thinking abili
 
 These are the prompts I use for my Five Minute Journal:
 
-What Am I Grateful for?
+> What Am I Grateful for?
 
-What Would Make Today Great?
+> What Would Make Today Great?
 
-What Am I Worried About?
+> What Am I Worried About?
 
 ### What Am I Grateful for?
 
@@ -56,13 +56,13 @@ If I can complete my five minute journal, I often add on a few additional writin
 
 I have a similar version of my morning journal for the end of the day to reflect on how things went and things could be improved. These are some of my evening journaling prompts:
 
-How Am I Feeling?
+> How Am I Feeling?
 
-What’s Something Good That Happened Today?
+> What’s Something Good That Happened Today?
 
-What Did I Do Well?
+> What Did I Do Well?
 
-What Could I Have Done Better?
+> What Could I Have Done Better?
 
 ### How Am I Feeling?
 
@@ -165,59 +165,9 @@ Here are some lists that I've been working through:
 
 25. How could carousels be spiced up so they are more exciting?
 
-26. What’s your favorite car that you’ve owned?
-
-27. What subjects should be taught in school but aren’t?
-
-28. What’s the biggest vehicle you’ve driven?
-
-29. What songs would be played on a loop in hell?
-
-30. What rule do you wish they would introduce into your favorite sport?
-
-31. What kind of challenges are you facing these days?
-
-32. What do you highly recommend to most people you meet?
-
-33. Do you think you have a pretty good work-life balance? Why or why not?
-
-34. What was the last thing you were really excited about?
-
-35. What’s your best “my coworkers are crazy” story?
-
-36. What does your perfect breakfast look like?
-
-37. What are some of your favorite holiday traditions that you did while growing up?
-
-38. If you could choose your dreams, what would you prefer to dream about?
-
-39. Would you ride in a zeppelin if given a chance?
-
-40. What’s something that was once important but is now becoming less and less relevant?
-
-41. What tells you the most about a person?
-
-42. When is the most interesting period in history?
-
-43. What is the best pair of shoes you have owned?
-
-44. What book had the most significant impact on you?
-
-45. Where’s your favorite place to nap?
-
-46. What is the best event you’ve attended?
-
-47. What do you buy way more of than most people?
-
-48. What do you rebel against?
-
-49. What well-known person does the most good for the world?
-
-50. What’s your favorite food combination?
-
 ## Logseq Templates
 
-I use [Logseq](https://logseq.com) to do my daily journaling. I  expand the template on my daily notes page. I use backlinks so I can link and reference my other writing. Roam includes several useful built-in features like a timer and word count
+I use [Logseq](https://logseq.com) to do my daily journaling. I  expand the template on my daily notes page. I use backlinks so I can link and reference my other writing.
 
 ```
   - [[Morning Questions]] #daily

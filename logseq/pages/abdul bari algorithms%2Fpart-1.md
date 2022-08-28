@@ -20,12 +20,12 @@ date:: 2022-08-22
 		- <iframe width="560" height="315" src="https://www.youtube.com/embed/-JTq1BFBwmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		- ## Notes
 			- ### Priori Analysis
-				- hardware independent
-				- theoretical
-				- language independent
-				- time and space function
-			- Posteriori
-				- watch time and bytes
+				- Hardware independent
+				- Theoretical
+				- Language independent
+				- Time and space function
+			- ### Posteriori
+				- Watch time and bytes
 - ## Algorithm Characteristics
 	- ## Video
 	- <iframe width="560" height="315" src="https://www.youtube.com/embed/FbYzBWdhMb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,11 +38,11 @@ date:: 2022-08-22
 			- Even if a function returns void, it should return a result in some other method
 		- ### Definiteness
 			- Everything should be unambiguous and clear.
-			- If you can't describe the problem to human, you don't know it well enough to write an algorithm for it.
-			- You can't pass an imaginary number like $$\sqrt{-1})$$ and treat it like a normal number. You need to specify how to deal with it.
+			- If you can't describe the problem to a human, you don't know it well enough to write an algorithm.
+			- You can't pass an imaginary number like $$\sqrt{-1})$$ without specifying how to deal with it
 		- ### Finiteness
 			- Algorithms must terminate at some point
-			- A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running though.
+			- A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running.
 		- ### Effectiveness
 			- Don't have any unnecessary procedures in your algorithm.
 			- For example, in chemistry, you wouldn't boil a chemical and not use it in the experiment. That would be unnecessary.
@@ -51,16 +51,17 @@ date:: 2022-08-22
 	- <iframe width="560" height="315" src="https://www.youtube.com/embed/xGYsEqe9Vl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	- ## Notes
 		- ### Swapping two numbers
-			- This is the pseudo code for swapping two values. We won't always use full language syntax in algorithms
+			- This is the pseudo code for swapping two values.
+			- We won't always use full language syntax in algorithms
 			- id:: 62f9c6d7-a570-43c5-87b3-9c9467cc11d9
 			  ```js
-			  function swap(a,b){
+			  function swap(a, b){
 			  	tmp = a;
 			  	a = b;
 			  	b = tmp;
 			  }
 			  ```
-		- ### Criteria for Analyzing Algorithms
+		- ## Criteria for Analyzing Algorithms
 			- Time and space are the most important criteria when analyzing algorithms
 			- ### Time
 				- How long will the algorithm take to run?
@@ -88,7 +89,6 @@ date:: 2022-08-22
 - ## Frequency Count Method
 	- ## Video
 	- <iframe width="560" height="315" src="https://www.youtube.com/embed/1U3Uwct45IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		-
 	- ## Notes
 		- ### Frequency Count Method
 			- The time taken by an algorithm can be determined by assigning one "unit" of time for each "statement"
@@ -123,7 +123,7 @@ date:: 2022-08-22
 			- ### Time Complexity
 				- Two for nested for loops, each taking n time.
 				- n procedures executing n times
-				- Order of n^2 $$O(n^2)$$
+				- Order of n^2 or $$O(n^2)$$
 			- ### Space Complexity
 				- variables `a,b,c` matrices.
 				- variables `i,j` scalar variables.

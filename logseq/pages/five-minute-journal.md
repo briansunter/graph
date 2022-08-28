@@ -13,9 +13,9 @@ description:: Daily journal prompts and the 5 minute journal have been helpful t
 ## Five Minute Journal
 
 These are the prompts I use for my Five Minute Journal:
-	- What Am I Grateful for?
-	- What Would Make Today Great?
-	- What Am I Worried About?
+	- > What Am I Grateful for?
+	- > What Would Make Today Great?
+	- > What Am I Worried About?
 - ### What Am I Grateful for?
 	- I try to reflect on the good things happening in my life lately. Several psychological studies suggest gratitude journaling, in particular, helps improve mental well-being. These entries can be small things like nice weather, sleeping well, or watching a great TV show. They can also be bigger things like appreciating your family, having good health, and a stable job. For me, these entries are sometimes repetitive or ordinary, but I find the practice of focusing on the good in my life puts me in a positive state of mind for the day.
 - ### What Would Make Today Great?
@@ -26,10 +26,10 @@ These are the prompts I use for my Five Minute Journal:
 	- If I can complete my five minute journal, I often add on a few additional writing practices.
 - ## Evening Questions
 	- I have a similar version of my morning journal for the end of the day to reflect on how things went and things could be improved. These are some of my evening journaling prompts:
-	- How Am I Feeling?
-	- What’s Something Good That Happened Today?
-	- What Did I Do Well?
-	- What Could I Have Done Better?
+	- > How Am I Feeling?
+	- > What’s Something Good That Happened Today?
+	- > What Did I Do Well?
+	- > What Could I Have Done Better?
 - ### How Am I Feeling?
 	- I’ve started something recently where I subjectively rate each day on a scale of 0-10 depending on how happy and productive I was that day.
 - ### What’s Something Good that Happened Today?
@@ -106,71 +106,20 @@ These are the prompts I use for my Five Minute Journal:
 	  24. Do you think you rely too heavily on your phone? Why or why not?
 	  
 	  25. How could carousels be spiced up so they are more exciting?
-	  
-	  26. What’s your favorite car that you’ve owned?
-	  
-	  27. What subjects should be taught in school but aren’t?
-	  
-	  28. What’s the biggest vehicle you’ve driven?
-	  
-	  29. What songs would be played on a loop in hell?
-	  
-	  30. What rule do you wish they would introduce into your favorite sport?
-	  
-	  31. What kind of challenges are you facing these days?
-	  
-	  32. What do you highly recommend to most people you meet?
-	  
-	  33. Do you think you have a pretty good work-life balance? Why or why not?
-	  
-	  34. What was the last thing you were really excited about?
-	  
-	  35. What’s your best “my coworkers are crazy” story?
-	  
-	  36. What does your perfect breakfast look like?
-	  
-	  37. What are some of your favorite holiday traditions that you did while growing up?
-	  
-	  38. If you could choose your dreams, what would you prefer to dream about?
-	  
-	  39. Would you ride in a zeppelin if given a chance?
-	  
-	  40. What’s something that was once important but is now becoming less and less relevant?
-	  
-	  41. What tells you the most about a person?
-	  
-	  42. When is the most interesting period in history?
-	  
-	  43. What is the best pair of shoes you have owned?
-	  
-	  44. What book had the most significant impact on you?
-	  
-	  45. Where’s your favorite place to nap?
-	  
-	  46. What is the best event you’ve attended?
-	  
-	  47. What do you buy way more of than most people?
-	  
-	  48. What do you rebel against?
-	  
-	  49. What well-known person does the most good for the world?
-	  
-	  50. What’s your favorite food combination?
 	- ## Logseq Templates
-	  
-	  I use [Logseq](https://logseq.com) to do my daily journaling. I  expand the template on my daily notes page. I use backlinks so I can link and reference my other writing. Roam includes several useful built-in features like a timer and word count
-	- ```
-	    - [[Morning Questions]] #daily
-	        - [[What Am I Grateful for?]]
-	        - [[What Would Make Today Great?]]
-	        - [[What Am I Worried About?]]
-	        - [[What Am I Thinking of?]] 
-	    - [[Evening Questions]] #daily
-	        - [[How Am I feeling?]]
-	        - [[What’s Something Good That Happened Today?]]
-	        - [[What Did I Do Well?]]
-	        - [[What Could I Have Done Better?]]
-	  ```
+		- I use [Logseq](https://logseq.com) to do my daily journaling. I  expand the template on my daily notes page. I use backlinks so I can link and reference my other writing.
+		- ```
+		    - [[Morning Questions]] #daily
+		        - [[What Am I Grateful for?]]
+		        - [[What Would Make Today Great?]]
+		        - [[What Am I Worried About?]]
+		        - [[What Am I Thinking of?]] 
+		    - [[Evening Questions]] #daily
+		        - [[How Am I feeling?]]
+		        - [[What’s Something Good That Happened Today?]]
+		        - [[What Did I Do Well?]]
+		        - [[What Could I Have Done Better?]]
+		  ```
 - ## Conclusion
 	- I try to do the morning five minute journal every day no matter what, I almost always do the evening journal, and I occasionally do the writing prompts and morning pages.
 	  I’ve found this journaling process very helpful for improving my overall thinking and self-reflection. The effect is subtle but I can feel my thinking improving. I enjoy looking back on my old journal entries. I hope to continue for a long time and continue to evolve my techniques.

@@ -3,7 +3,7 @@ showtoc: true
 tocopen: true
 date: 2022-08-17
 tags:
-- newsletter/issue/7
+- newsletter/issue/1
 - greatperson
 - newsletter
 description:

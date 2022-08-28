@@ -10,6 +10,18 @@
  {:block/name "1960s",
   :block/created-at 1660804578772,
   :block/updated-at 1660804578772}
+ {:block/name "[",
+  :block/created-at 1661658471084,
+  :block/updated-at 1661658471084}
+ {:block/name "[/pages",
+  :block/created-at 1661658471085,
+  :block/updated-at 1661658471085}
+ {:block/name "[/pages/algorithms-boot-camp",
+  :block/created-at 1661658471086,
+  :block/updated-at 1661658471086}
+ {:block/name "[/pages/algorithms-boot-camp/]",
+  :block/created-at 1661658471087,
+  :block/updated-at 1661658471087}
  {:block/name "a",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -18,10 +30,10 @@
   :block/updated-at 1660618396774}
  {:block/name "abdul bari algorithms",
   :block/created-at 1661226133750,
-  :block/updated-at 1661229577340}
+  :block/updated-at 1661651749710}
  {:block/name "abdul bari algorithms/part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1661227611072}
+  :block/updated-at 1661653562938}
  {:block/name "about how to do nobel prize level work.",
   :block/created-at 1660798481193,
   :block/updated-at 1660798481193}
@@ -91,7 +103,13 @@
   :block/updated-at 1661149105084}
  {:block/name "aug 22nd, 2022",
   :block/created-at 1661151600938,
-  :block/updated-at 1661227006808}
+  :block/updated-at 1661231629342}
+ {:block/name "aug 23rd, 2022",
+  :block/created-at 1661238013735,
+  :block/updated-at 1661238013735}
+ {:block/name "aug 27th, 2022",
+  :block/created-at 1661649332689,
+  :block/updated-at 1661658030914}
  {:block/name "author",
   :block/created-at 1660618396914,
   :block/updated-at 1660618396914}
@@ -481,7 +499,7 @@
   :block/updated-at 1660755765396}
  {:block/name "newsletter/issue/1",
   :block/created-at 1660618397377,
-  :block/updated-at 1660765695600}
+  :block/updated-at 1661657676251}
  {:block/name "newsletter/issue/2",
   :block/created-at 1660618397373,
   :block/updated-at 1660684427347}
@@ -495,8 +513,8 @@
   :block/created-at 1660618397363,
   :block/updated-at 1660684274675}
  {:block/name "newsletter/issue/7",
-  :block/created-at 1660755765394,
-  :block/updated-at 1661227027895}
+  :block/created-at 1661657206040,
+  :block/updated-at 1661658757178}
  {:block/name "newsletter/template",
   :block/created-at 1660755200058,
   :block/updated-at 1660789626924}
@@ -535,15 +553,21 @@
   "outlines and perform many other ai-powered tasks directly within the logseq notetaking app using a new plugin i developed.",
   :block/created-at 1661149381581,
   :block/updated-at 1661149381581}
+ {:block/name "pages",
+  :block/created-at 1661658484277,
+  :block/updated-at 1661658484277}
+ {:block/name "pages/algorithms-boot-camp",
+  :block/created-at 1661658484279,
+  :block/updated-at 1661658484279}
  {:block/name "person",
   :block/created-at 1660618399202,
   :block/updated-at 1660618399202}
  {:block/name "poodle mixes",
   :block/created-at 1660618397376,
   :block/updated-at 1660791576209}
- {:block/name "posteriori-vs-a-priori-analyses-of-algorithms",
+ {:block/name "posteriori-vs-a-priori-analysis-of-algorithms",
   :block/created-at 1661227611072,
-  :block/updated-at 1661229429861}
+  :block/updated-at 1661653188325}
  {:block/name "prep-time",
   :block/created-at 1660622829545,
   :block/updated-at 1660622829545}

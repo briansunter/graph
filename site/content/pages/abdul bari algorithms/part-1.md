@@ -11,7 +11,7 @@ tags:
 - time-complexity/algorithms-boot-camp
 date: 2022-08-22
 categories:
-lastMod: 2022-08-22
+lastMod: 2022-08-27
 ---
 ## Introduction to Algorithms
 
@@ -42,17 +42,17 @@ lastMod: 2022-08-22
 
 ### Priori Analysis
 
-hardware independent
+Hardware independent
 
-theoretical
+Theoretical
 
-language independent
+Language independent
 
-time and space function
+Time and space function
 
-Posteriori
+### Posteriori
 
-watch time and bytes
+Watch time and bytes
 
 ## Algorithm Characteristics
 
@@ -78,15 +78,15 @@ Even if a function returns void, it should return a result in some other method
 
 Everything should be unambiguous and clear.
 
-If you can't describe the problem to human, you don't know it well enough to write an algorithm for it.
+If you can't describe the problem to a human, you don't know it well enough to write an algorithm.
 
-You can't pass an imaginary number like $$\sqrt{-1})$$ and treat it like a normal number. You need to specify how to deal with it.
+You can't pass an imaginary number like $$\sqrt{-1})$$ without specifying how to deal with it
 
 ### Finiteness
 
 Algorithms must terminate at some point
 
-A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running though.
+A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running.
 
 ### Effectiveness
 
@@ -104,18 +104,20 @@ For example, in chemistry, you wouldn't boil a chemical and not use it in the ex
 
 ### Swapping two numbers
 
-This is the pseudo code for swapping two values. We won't always use full language syntax in algorithms
+This is the pseudo code for swapping two values.
+
+We won't always use full language syntax in algorithms
 
 id:: 62f9c6d7-a570-43c5-87b3-9c9467cc11d9
 ```js
-function swap(a,b){
+function swap(a, b){
 	tmp = a;
 	a = b;
 	b = tmp;
 }
 ```
 
-### Criteria for Analyzing Algorithms
+## Criteria for Analyzing Algorithms
 
 Time and space are the most important criteria when analyzing algorithms
 
@@ -171,8 +173,6 @@ Each statement is one "unit" of time and each variable is one "unit" of space
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1U3Uwct45IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
 ## Notes
 
 ### Frequency Count Method
@@ -225,7 +225,7 @@ Two for nested for loops, each taking n time.
 
 n procedures executing n times
 
-Order of n^2 $$O(n^2)$$
+Order of n^2 or $$O(n^2)$$
 
 ### Space Complexity
 

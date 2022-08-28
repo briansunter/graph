@@ -7,9 +7,9 @@ tags:
 title: abdul bari algorithms
 categories:
 date: 2022-08-22
-lastMod: 2022-08-22
+lastMod: 2022-08-27
 ---
-One of the best introductory courses on algorithms. It's thorough, yet succint and gives a broad overview of algorithms.
+One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 
 ## Video Course
 
@@ -17,9 +17,9 @@ One of the best introductory courses on algorithms. It's thorough, yet succint a
 
 # [abdul bari algorithms/part-1]({{< ref "abdul bari algorithms/part-1" >}})
 
-Introduction to Algorithms
+Algorithms vs Programs
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({{< ref "posteriori-vs-a-priori-analysis-of-algorithms" >}})
+[Priori vs Poesteriori Analysis]({{< ref "posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
 Algorithm Characteristics
 
