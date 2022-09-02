@@ -16,10 +16,10 @@ date::
 	- An algorithm is just a name for a series of steps.
 	- In computer science, algorithms are written in code, but many examples of algorithms exist in the real world.
 	- ## Real World Algorithm - Recipes
-		- ![OldDesignShop_ButterCakes.jpeg](../assets/OldDesignShop_ButterCakes_1657927199116_0.jpeg){:height 401, :width 410}
+		- ![image.png](../assets/image_1662087554101_0.png){:height 384, :width 462}
 		- In cooking, a recipe is a real-world example of an algorithm. It is a list of steps to follow to make a dish.
 		- Anyone can follow the same steps and make the same dish
-		- ![5b73fa95101957.5e8f44704423c.jpg](../assets/5b73fa95101957.5e8f44704423c_1657927362638_0.jpg){:height 317, :width 435}
+		- ![image.png](../assets/image_1662087569135_0.png)
 			- [by seuraa](https://www.behance.net/gallery/95101957/Desserts-recipes-in-infographics?locale=fi_FI)
 	- ## Real World Data Structures - Cookware
 		- ![person cooking on stainless steel cooking pot](https://images.unsplash.com/photo-1584990347955-2ec0431a6e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNDYwNDl8MHwxfHNlYXJjaHw4fHxjb29rd2FyZXxlbnwwfHx8fDE2NTc5Mjc5MTQ&ixlib=rb-1.2.1&q=80&w=400)
@@ -35,13 +35,13 @@ date::
 		- ## No-Recipe Recipe - Cooking Heuristics
 			- This recipe is more like a heuristic than an algorithm
 			- ### Bulgogi-Style Tofu
-				- ![image.png](../assets/image_1657929396451_0.png){:height 360, :width 469}
+				- ![image.png](../assets/image_1662087583121_0.png)
 			- > Press some firm tofu to extract as much liquid as you can. Make a marinade of soy sauce, brown sugar, sesame oil, minced garlic, grated ginger, a spoonful of gochujang, a splash of neutral oil, some sliced scallions and toasted sesame seeds. Slice the tofu into bite-size cubes, and slide them into the marinade. Let that sit — a half-hour works; a few hours works better. Then roast them in a hot oven on an oiled foil-lined pan until they’re crisp.
 - # Algorithm Efficiency
 	- Making programs run faster is a key part of computer programming.
 	- Some methods of doing things are faster than others yet produce the same results.
 	- ## "Mise en Place" in cooking
-		- ![image.png](../assets/image_1657928068143_0.png){:height 394, :width 427}
+		- ![image.png](../assets/image_1662087595225_0.png)
 			- By **[Michael A. Gisondi](https://icenetblog.royalcollege.ca/about/about-the-editors/) **([@MikeGisondi](https://twitter.com/MikeGisondi))
 		- There is a concept called "mise en place" in cooking. This French phrase is the name of a technique where you prepare all your ingredients and cookware before you start cooking.
 	- ### 5 Steps of "mise en place"
@@ -71,7 +71,7 @@ date::
 		- It continues to do this until the list is sorted.
 		- The algorithm is called bubble sort because the largest number "bubbles" up to the top of the list.
 		- ## Diagram
-			- ![image.png](../assets/image_1657934071656_0.png)
+			- ![image.png](../assets/image_1662087609939_0.png)
 				- [by ProductPlan](https://www.productplan.com/glossary/bubble-sort/)
 		- ## Code
 			- {{renderer :github_vvgyk, briansunter::algorithms:src/lib/bubbleSort.ts, 662775cf3827cd22d973b2c2e23178d5552d9617, update bubble sort, true}}
