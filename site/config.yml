@@ -72,5 +72,5 @@ menu:
           weight: 20
         - identifier: graph
           name: Graph
-          url: https://briansunter.com/graph/
+          url: https://briansunter.com/graph/#/graph
           weight: 20
