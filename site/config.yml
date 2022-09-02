@@ -33,12 +33,12 @@ params:
           url: "https://www.instagram.com/bsunter/"
         - name: "matrix"
           url: "https://matrix.to/#/@bsunter:matrix.org"
-        - name: "goodreads"
-          url: "https://www.goodreads.com/user/show/16975785-brian-sunter"
-        - name: "ycombinator"
-          url: "https://news.ycombinator.com/user?id=bribri"
-        - name: "kaggle"
-          url: "https://www.kaggle.com/bsunter"
+        # - name: "goodreads"
+        #   url: "https://www.goodreads.com/user/show/16975785-brian-sunter"
+        # - name: "ycombinator"
+        #   url: "https://news.ycombinator.com/user?id=bribri"
+        # - name: "kaggle"
+        #   url: "https://www.kaggle.com/bsunter"
     ShowReadingTime: true
     author: "Brian Sunter"
     ShowCodeCopyButtons: true
