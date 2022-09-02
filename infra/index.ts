@@ -17,17 +17,28 @@ import { StaticSite } from './static-site';
 class MyStaticSiteStack extends cdk.Stack {
     constructor(parent: cdk.App, name: string, props: cdk.StackProps) {
         super(parent, name, props);
-
-        new StaticSite(this, 'StaticSite', {
-            domainName: this.node.tryGetContext('domain'),
-            siteSubDomain: this.node.tryGetContext('subdomain'),
+        new StaticSite(this, name, {
+            domainName: app.node.tryGetContext('domain'),
+            siteSubDomain: app.node.tryGetContext('subdomain')
         });
     }
 }
 
+function stripTopLevelDomain(domain:string):string {
+    return domain.substring(0, domain.lastIndexOf('.'));
+  }
+
 const app = new cdk.App();
 
-new MyStaticSiteStack(app, 'MyStaticSite', {
+        const domainName = app.node.tryGetContext('domain');
+        const siteSubDomain = app.node.tryGetContext('subdomain');
+
+        let staticSiteName = stripTopLevelDomain(domainName)+ '-Static'
+        if (siteSubDomain){
+            staticSiteName = `${stripTopLevelDomain(domainName)}-${siteSubDomain}-static`;
+        }
+
+new MyStaticSiteStack(app, staticSiteName, {
     /**
      * This is required for our use of hosted-zone lookup.
      *

@@ -47,7 +47,7 @@ Launching [[logseq-social]]
 
 [[logseq-tasks]]
 
-[[notetaking-with-AI]]
+[notetaking-with-AI]({{< ref "notetaking-with-AI" >}})
 
 summarize
 

@@ -1,4 +1,4 @@
-baseURL: https://beta.briansunter.com/
+baseURL: https://briansunter.com/
 languageCode: en-us
 title: Brian Sunter
 theme: "PaperMod"
@@ -22,7 +22,7 @@ params:
         - name: "kofi" 
           url: "https://buymeacoffee.com/bsunter"
         - name: "rss"
-          url: "https://beta.briansunter.com/index.xml"
+          url: "https://briansunter.com/index.xml"
     ShowReadingTime: true
     author: "Brian Sunter"
     ShowCodeCopyButtons: true

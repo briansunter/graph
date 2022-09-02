@@ -1,3 +1,4 @@
+public:: true
 tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue/4]]
 
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
@@ -13,7 +14,7 @@ There are several new AI and NLP technologies that you can use for personal know
 	- This type of analysis works well for bidirectional note-taking apps with backlinks because the links provide a lot of information about the relationship between the notes. AI can then discover "hidden" relationships between notes.
 - #### Game of Thrones Social Network
 - Here's what Game of Thrones would look like if it were a social network. You can see how all the characters such as "Jon Snow" and "Daenerys Targaryen" are connected.
-	- ![image.png](../assets/image_1656796584817_0.png)
+	- ![image.png](../assets/image_1662087210843_0.png)
 		- [Source](https://www.researchgate.net/figure/Graph-theory-analysis-in-social-network-Image-courtesy-of-5_fig1_321846685)
 - ## Adamic Adar and "Link Prediction"
 	- The Adamic–Adar index is a method to "predict" links in a social network according to the number of shared links between two nodes.
@@ -24,25 +25,25 @@ There are several new AI and NLP technologies that you can use for personal know
 - ### It shows how similar notes are, even if they aren't linked directly
 	- These are notes closely related to "AWS VPC".
 	- The size of the bubble shows the strength of the relationship.
-	- ![image.png](../assets/image_1656737069527_0.png){:height 371, :width 718}
+	- ![image.png](../assets/image_1662087221258_0.png)
 - ### It can find hidden relationships throughout your entire graph, even from very distant links
 	- These are more distant notes related to "AWS VPC".
 	- They don't have any close links, but we can still detect that these ideas are related.
-	- ![image.png](../assets/image_1656737150639_0.png)
+	- ![image.png](../assets/image_1662087232057_0.png)
 	- Adamic-Adar index is similar to a calculation called the Jaccard index, which is an older method of computing similarity.
 - ## Shortest Path
 	- There are also algorithms for finding the shortest paths between your notes.
 	- The [logseq graph analysis plugin](https://github.com/trashhalo/logseq-graph-analysis) has a good tool for exploring paths between notes.
-	- ![image.png](../assets/image_1656737384044_0.png)
+	- ![image.png](../assets/image_1662087242684_0.png)
 		- [@trashhalo](https://twitter.com/trashhalo/status/1541809751344005121)'s [logseq graph analysis plugin](https://github.com/trashhalo/logseq-graph-analysis)
 - ## Co-Citations
 	- Co-citation is the frequency with which two documents are cited together by other documents.
 	- If at least one other document cites two documents in common, these documents are said to be co-cited.
 	- The more co-citations two documents receive, the higher their co-citation strength and the more likely they are semantically related.
-	- ![image.png](../assets/image_1656744438254_0.png)
+	- ![image.png](../assets/image_1662087253522_0.png)
 		- - [Wikipedia](https://en.wikipedia.org/wiki/Co-citation)
 - ## Community Detection
-	- ![image.png](../assets/image_1656744784450_0.png){:height 289, :width 581}
+	- ![image.png](../assets/image_1662087262978_0.png)
 		- [Community Detection Algorithms](https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae)
 	- Community detection can be used in machine learning to detect groups with similar properties and extract groups.
 	- A community is a set of nodes that are densely connected
@@ -50,12 +51,12 @@ There are several new AI and NLP technologies that you can use for personal know
 	- Community detection is **specifically tailored for network analysis** and depends on a **single attribute type called edges**. The clustering you've seen before was likely simpler and based on direct attributes.
 	- [See this guide to Community Detection Algorithms for more](https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae)
 - ## Label Propagation
-	- ![image.png](../assets/image_1656744956586_0.png){:height 331, :width 518}
+	- ![image.png](../assets/image_1662087274720_0.png)
 		- Original image by [Gordon Johnson](https://pixabay.com/users/GDJ-1086657/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3846597) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3846597).
 	- Given a "label" like "liking cricket," can we predict how likely someone is to like cricket based on their friends?
 	- [See this guide for more](https://towardsdatascience.com/label-propagation-demystified-cd5390f27472)
 - # Summarization
-	- ![image.png](../assets/image_1656796234142_0.png){:height 309, :width 431}
+	- ![image.png](../assets/image_1662087287500_0.png){:height 372, :width 617}
 		- - [Source](https://www.machinelearningplus.com/nlp/text-summarization-approaches-nlp-example/)
 	- Summarization is summarizing information in large texts for quicker consumption.
 	- It is my favorite area of research, and I've found it endlessly helpful in consuming more information and learning more effectively. It's easier to remember what you read if you have a summary of the source material in your notes.
@@ -84,10 +85,10 @@ There are several new AI and NLP technologies that you can use for personal know
 - ## Vector Embeddings
 	- Vector embeddings are central to many NLP, recommendation, and search algorithms.
 	- Vector embeddings are just lists of numbers that have special meaning relative to other vectors.
-	- ![image.png](../assets/image_1656742024363_0.png){:height 164, :width 287}
+	- ![image.png](../assets/image_1662087297419_0.png)
 	- Google invented a tool called "Word2Vec" which converts text into n-dimensional vector coordinates. You can plot these words in visual space 3D to see words with similar "meaning" nearby
 	- For example, words like "king” and “queen” and “prince” will all cluster together. Same with synonyms (“walked,” “strolled,” “jogged”).
-	- ![image.png](../assets/image_1656795898537_0.png)
+	- ![image.png](../assets/image_1662087305440_0.png){:height 229, :width 595}
 		- - [Source](https://www.tensorflow.org/tutorials/representation/word2vec)
 	- We can use tools to explore the similarity of these words in 3D space.
 - ### Exploring Similar Words in 3D Space
@@ -129,24 +130,24 @@ There are several new AI and NLP technologies that you can use for personal know
 - ## Sentiment Analysis
 	- Sentiment analysis detects the emotion of the text and grades it as positive or negative.
 	- For example, just by reading your movie review, a machine can tell if you liked it or not.
-	- ![image.png](../assets/image_1656796163889_0.png)
+	- ![image.png](../assets/image_1662087315783_0.png){:height 311, :width 637}
 		- - [Source](https://www.expressanalytics.com/blog/social-media-sentiment-analysis)
 - ## Entity Recognition
 	- You can use NLP to extract "important" things from plain text, such as person names, organizations, locations, time, etc.
 	- This could pull certain critical pieces of information out of your notes like peoples, places, emails, etc.
-	- ![image.png](../assets/image_1656796298639_0.png)
+	- ![image.png](../assets/image_1662087323103_0.png){:height 367, :width 592}
 		- [Source](https://umagunturi789.medium.com/everything-you-need-to-know-about-named-entity-recognition-2a136f38c08f)
 - ## Text Classification
 	- Text can be organized into groups, either by simple rules or statistics.
 	- One example of simple machine-based classification is a "bag of words" representation, the number of times each word occurs in the text.
 	- You could imagine using this to suggest backlinks in your notes or finding similar notes.
-	- ![image.png](../assets/image_1656796075440_0.png)
+	- ![image.png](../assets/image_1662087333307_0.png){:height 422, :width 561}
 		- - [Source](https://www.programmersought.com/article/4304366575/)
 - ## Keyword Extraction
 	- Keyword extraction algorithms like TextRank allow you to find the essential words in a text and how they're related.
 	- These are also good ideas for backlinks or similar pages.
-	- ![image.png](../assets/image_1656796787177_0.png){:height 387, :width 490}
-	- ![image.png](../assets/image_1656796934593_0.png){:height 527, :width 480}
+	- ![image.png](../assets/image_1662087346012_0.png){:height 492, :width 550}
+	- ![image.png](../assets/image_1662087353849_0.png){:height 607, :width 452}
 		- - [Source](https://towardsdatascience.com/textrank-for-keyword-extraction-by-python-c0bae21bcec0)
 - # Conclusion
 	- I hope you enjoyed this overview of NLP and AI techniques relevant to note-taking.

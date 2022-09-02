@@ -15,7 +15,7 @@
 	- It has a really nice logseq plugin
 - # Omnivore Plugin
 	- This is what it looks like in your graph
-	- ![Screen Shot 2022-06-20 at 10.20.34 PM.png](../assets/Screen_Shot_2022-06-20_at_10.20.34_PM_1655788874894_0.png)
+	- ![image.png](../assets/image_1662086799530_0.png)
 	- It makes a new page in your graph called `Omnivore`
 	- Whenever you push the yellow omnivore button, it syncs this page with your omnivore links and highlights.
 	- It shows a nice list of links, a short excerpt, and all your highlights nested underneath.
@@ -23,29 +23,29 @@
 	- First sign up for an omnivore account, just visit https://omnivore.app/
 	- Remember your omnivore username
 	- Generate an omnivore api key here. https://omnivore.app/settings/api
-	- ![Screen Shot 2022-06-23 at 6.23.56 PM.png](../assets/Screen_Shot_2022-06-23_at_6.23.56_PM_1656033918928_0.png){:height 452, :width 496}
+	- ![image.png](../assets/image_1662086816611_0.png){:height 591, :width 542}
 	- Get the `logseq-omnivore` [plugin](https://github.com/omnivore-app/logseq-omnivore) from the marketplace
 	- Update the plugin settings with the values you got earlier
-	- ![settings.gif](../assets/settings_1656034430430_0.gif)
+	- ![image.png](../assets/image_1662086831539_0.png)
 	- Click the yellow omnivore button on your logseq toolbar.
 - Now all of the articles you saved and your highlights from the app and chrome extension show up in your Logseq graph on a page called Omnivore.
 - # Omnivore app
 	- ## Web app
 		- The web app is clean and straightforward.
-		- ![Screen Shot 2022-06-20 at 9.53.06 PM.png](../assets/Screen_Shot_2022-06-20_at_9.53.06_PM_1655787919295_0.png){:height 164, :width 522}
+		- ![image.png](../assets/image_1662086844009_0.png)
 		- The chrome extension is simple and fast as well. A browser extension is essential for a web clipper tool.
-		- ![Screen Shot 2022-06-20 at 9.56.19 PM.png](../assets/Screen_Shot_2022-06-20_at_9.56.19_PM_1655787966057_0.png)
+		- ![image.png](../assets/image_1662086853736_0.png)
 	- It has an awesome reader view for web articles
-	- ![Screen Shot 2022-06-20 at 9.57.52 PM.png](../assets/Screen_Shot_2022-06-20_at_9.57.52_PM_1655788501456_0.png)
+	- ![image.png](../assets/image_1662086866434_0.png)
 	- ## iOS app
 		- The iOS app is simple and excellent as well. It has a nice list view of your links.
-		- ![2022-06-20-22-10-54.jpeg](../assets/2022-06-20-22-10-54.jpeg)
+		- ![image.png](../assets/image_1662086881256_0.png)
 		- It lets you quickly send a link to the share screen. It then lets you quickly open the reader view in omnivore, or dismiss the pop up and return to your original app.
-		- ![2022-06-20-22-11-04.jpeg](../assets/2022-06-20-22-11-04.jpeg)
+		- ![image.png](../assets/image_1662086894879_0.png)
 		- It also lets you tag your links and search by tag.
-		- ![2022-06-20-22-11-42.jpeg](../assets/2022-06-20-22-11-42.jpeg)
+		- ![image.png](../assets/image_1662086908493_0.png)
 		- My new workflow is to discover content from reddit, hackernews, twitter, and blogs in inoreader, then send it to omnivore for reading and highlighting. From there, the links and highlights automatically wind up in my logseq graph and I can integrate them into my notes
-		- ![2022-06-20-22-12-00.jpeg](../assets/2022-06-20-22-12-00.jpeg)
+		- ![image.png](../assets/image_1662086941972_0.png)
 - # Conclusion
 	- Overall I couldn't be happier to have a nice simple open source read it later app that integrates with logseq. It's awesome that it supports the reader mode and highlights as well, which I use heavily. It has been great so far for optimizing my information diet.
 	- Go to [Omnivore](https://omnivore.app/) to get started!
