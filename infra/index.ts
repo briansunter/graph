@@ -33,7 +33,7 @@ const app = new cdk.App();
         const domainName = app.node.tryGetContext('domain');
         const siteSubDomain = app.node.tryGetContext('subdomain');
 
-        let staticSiteName = 'Static'
+        let staticSiteName = stripTopLevelDomain(domainName)+ '-Static'
         if (siteSubDomain){
             staticSiteName = `${stripTopLevelDomain(domainName)}-${siteSubDomain}-static`;
         }

@@ -334,7 +334,7 @@
   :block/updated-at 1660618397386}
  {:block/name "intro-to-algorithms",
   :block/created-at 1660618396729,
-  :block/updated-at 1660618396729}
+  :block/updated-at 1662087610490}
  {:block/name "introduction to data structures and algorithms",
   :block/created-at 1660618397746,
   :block/updated-at 1660618397746}
@@ -406,7 +406,7 @@
   :block/updated-at 1660618398072}
  {:block/name "logseq-getting-started",
   :block/created-at 1660618397371,
-  :block/updated-at 1660618397371}
+  :block/updated-at 1662087185460}
  {:block/name "logseq-inbox",
   :block/created-at 1660618397754,
   :block/updated-at 1660618397754}
@@ -530,7 +530,7 @@
   :block/updated-at 1661149375826}
  {:block/name "notetaking-with-ai",
   :block/created-at 1660618397367,
-  :block/updated-at 1660618397367}
+  :block/updated-at 1662087386852}
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -542,7 +542,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
-  :block/updated-at 1660618397372}
+  :block/updated-at 1662086942761}
  {:block/name "openai",
   :block/created-at 1660618397482,
   :block/updated-at 1660618397482}
