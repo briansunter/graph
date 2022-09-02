@@ -70,3 +70,7 @@ menu:
           name: Archive
           url: /archives/
           weight: 20
+        - identifier: graph
+          name: Graph
+          url: https://briansunter.com/graph/
+          weight: 20
