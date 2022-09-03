@@ -38,7 +38,7 @@ launching my [[get-youtube-subtitles]] plugin
 
 Launching [[logseq-social]]
 
-[[logseq-getting-started]]
+[logseq-getting-started]({{< ref "logseq-getting-started" >}})
 
 [[second-brain]]
 
@@ -128,11 +128,11 @@ Link
 
 Updates
 
-[[intro-to-algorithms]]
+[intro-to-algorithms]({{< ref "intro-to-algorithms" >}})
 
 Productivity Toolkit
 
-[[logseq-projects]]
+[logseq-projects]({{< ref "logseq-projects" >}})
 
 [[tour of my project template]]
 

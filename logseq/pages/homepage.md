@@ -16,6 +16,7 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
+	- [[new website on logseq hugo]]
 	- [[abdul bari algorithms]]
 	- [[you and your research]]
 	- [[newsletter/issue/7]]

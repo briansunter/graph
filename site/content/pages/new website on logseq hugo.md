@@ -7,7 +7,7 @@ date: 2022-08-19
 socialimage: /assets/image_1661226497219_0.png
 title: new website on logseq hugo
 categories:
-lastMod: 2022-08-22
+lastMod: 2022-09-03
 ---
 ![image.png](/assets/image_1661226490211_0.png)
 

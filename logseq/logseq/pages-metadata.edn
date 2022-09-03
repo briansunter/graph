@@ -298,7 +298,7 @@
   :block/updated-at 1660618398946}
  {:block/name "homepage",
   :block/created-at 1660618397392,
-  :block/updated-at 1661709674066}
+  :block/updated-at 1662227147320}
  {:block/name "honey garlic salmon",
   :block/created-at 1660618397665,
   :block/updated-at 1660620275022}
@@ -472,7 +472,7 @@
   :block/updated-at 1660618396829}
  {:block/name "new website on logseq hugo",
   :block/created-at 1660840489720,
-  :block/updated-at 1661226516740}
+  :block/updated-at 1662227236094}
  {:block/name "newsletter",
   :block/created-at 1660618396728,
   :block/updated-at 1660717318877}
@@ -652,6 +652,9 @@
  {:block/name "sep 1st, 2022",
   :block/created-at 1660618396790,
   :block/updated-at 1660618396790}
+ {:block/name "sep 3rd, 2022",
+  :block/created-at 1662227074372,
+  :block/updated-at 1662227074372}
  {:block/name "showtoc",
   :block/created-at 1660756995509,
   :block/updated-at 1660756995509}

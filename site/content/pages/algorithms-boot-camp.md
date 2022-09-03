@@ -57,7 +57,7 @@ You are interested in my process for taking notes on code in logseq
 ### Intro to Algorithms, Sorting, and Time Complexity
 
 
-#### [[intro-to-algorithms]]
+#### [intro-to-algorithms]({{< ref "intro-to-algorithms" >}})
 
 
 Intro to the Boot Camp

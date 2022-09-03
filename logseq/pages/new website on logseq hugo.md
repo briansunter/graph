@@ -4,7 +4,7 @@ tags:: [[logseq]] [[programming]]
 date:: 2022-08-19
 socialimage:: /assets/image_1661226497219_0.png
 
-- ![image.png](../assets/image_1661226490211_0.png)
+- ![image.png](../assets/image_1661226490211_0.png){:height 155, :width 398}
 - I've remade my website using Logseq and the Hugo static site generator.
 - I write all my posts in Logseq and use the [Schrodinger plugin](https://github.com/sawhney17/logseq-schrodinger) to convert the Logseq pages into [Hugo](https://gohugo.io/)-compatible markdown files.
 - After I export my Logseq pages as Hugo markdown files, I use Hugo to convert them to HTML and upload them to AWS CloudFront, where I host my site.
