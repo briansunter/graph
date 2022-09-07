@@ -10,8 +10,9 @@ tags:
 - time-complexity
 - time-complexity/algorithms-boot-camp
 date: 2022-08-22
+math: true
 categories:
-lastMod: 2022-08-27
+lastMod: 2022-09-06
 ---
 ## Introduction to Algorithms
 
@@ -232,3 +233,126 @@ Order of n^2 or $$O(n^2)$$
 variables `a,b,c` matrices.
 
 variables `i,j` scalar variables.
+
+# Time Complexity
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9TlHvipP5yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Notes
+
+How do we analyze time complexity for given code?
+
+What things affect time complexity?
+
+We need to figure out how many times `stmt` executes
+
+##
+
+## Normal for loops
+
+`stmt` will be executed n times, so it's $$O(n)$$
+
+```js
+for(i=0; i<n;i++){
+  stmt()
+}
+```
+
+## Decrementing for loop
+
+Even though `i` is decrementing, it will be executed n times, so it's also $$O(n)$$
+
+```js
+for(i=n; i>0;i--){
+  stmt()
+}
+```
+
+## Increment by two
+
+```js
+for(i=0; i<n;i+=2){
+  stmt()
+}
+```
+
+In this code we increment by two, so it will be executed  n/2 times. It is $$O(n)$$ because n * anything is $$O(n)$$
+
+## Nested for loops
+
+```js
+for(i=0; i<n;i++){
+  for(j=0; j<n;j++){
+    stmt()
+   }
+}
+```
+
+Each loop executes `n` times so `stmt` is executed `n` * `n` times or $$O(n^2)$$
+
+## Dependent For Loops
+
+What happens if the inner loop is dependent on the outer loop?
+
+```js
+for(i=0; i<n;i++){
+  for(j=0; j<i;j++){
+    stmt()
+   }
+}
+```
+
+Let's make a table to keep track of the values at each interation
+
+|i|j|stmt executions|
+|--|--|--|
+|0|0|0|
+|1|0[:br]1|1|
+|2|0[:br]1[:br]2|2|
+|3|0[:br]1[:br]2[:br]3|3|
+|...|...|...|
+|n|0[:br]1[:br]2[:br]...[:br]n|n|
+
+How many times is `stmt` executed?
+
+The outer loop goes from 0 to n
+
+When `i` is 1, `stmt` is executed 1 times
+
+When `i` is 2, `stmt` is executed 2 times
+
+Finding out how many times `stmt` is executed is the same as the Gauss Sum
+
+This is equivalent to 1 + 2 + 3 + 4 ... + n
+
+We can use $$f(n)=\frac{n(n+1)}{2}$$
+
+This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
+
+This is simplified to to $$O(n^2)$$, since we only care about the biggest exponent.
+
+## Outer loop does not execute n times
+
+```js
+p=0
+for(i=1; p<=n;i++){
+ p=p+i
+  stmt()
+}
+```
+
+How many times is `stmt` executed?
+
+Let's make a table that shows the values at each iteration
+
+|i|p|
+|--|--|
+|1|0+1=1|
+|2|1+2=3|
+|3|1+2+3|
+|4|1+2+3+4|
+|k|1+2+3+...+k|
+
+We can use the Gauss sum again to find `p` for a given  `i`
+
+$$ P=\frac{k(k+1)}{2} $$

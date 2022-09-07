@@ -9,3 +9,5 @@ tags:: [[course]] [[programming]] [[time complexity]] [[algorithms-boot-camp]]
 	- [Priori vs Poesteriori Analysis]([[posteriori-vs-a-priori-analysis-of-algorithms]])
 	- Algorithm Characteristics
 	- Algorithm Analysis
+- [[abdul bari algorithms/part-2]]
+	-

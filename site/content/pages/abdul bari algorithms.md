@@ -24,3 +24,7 @@ Algorithms vs Programs
 Algorithm Characteristics
 
 Algorithm Analysis
+
+[[abdul bari algorithms/part-2]]
+
+

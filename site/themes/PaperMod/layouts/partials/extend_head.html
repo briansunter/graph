@@ -2,3 +2,4 @@
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
+{{ if .Params.math }} {{- template "partials/katex.html" . }}  {{end}}
