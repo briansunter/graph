@@ -6,9 +6,7 @@ tags:
 - newsletter/issue/1
 - greatperson
 - newsletter
-description:
-- Notes from the talk You and Your Research by Richard Hamming
-- about how to do Nobel Prize level work.
+description: Notes from the talk You and Your Research by Richard Hamming, about how to do Nobel Prize level work.
 title: you and your research
 categories:
 lastMod: 2022-08-17

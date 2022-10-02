@@ -1,9 +1,9 @@
 ---
 tags:
 - blog
-date: 2022-08-15
 title: intro-to-algorithms
 categories:
+date: 2022-08-15
 lastMod: 2022-09-01
 ---
 # Introduction

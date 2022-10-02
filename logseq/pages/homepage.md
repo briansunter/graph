@@ -16,6 +16,7 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
+	- [[gauss sum]]
 	- [[abdul bari algorithms/part-1]]
 	- [[new website on logseq hugo]]
 	- [[abdul bari algorithms]]

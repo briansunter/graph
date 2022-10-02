@@ -1,17 +1,17 @@
 ---
-desired-end-date:
-- Sep 13th, 2022
+milestone-date:
+- July 28th, 2022
 tags:
 - project
 - project-template
-date: 2022-07-13
-milestone-date:
-- July 28th, 2022
+desired-end-date:
+- Sep 13th, 2022
 name: Get 100 newsletter subscribers
-type:
-- project
 status:
 - DOING
+type:
+- project
+date: 2022-07-13
 start-date:
 - Jun 13th, 2022
 metrics:

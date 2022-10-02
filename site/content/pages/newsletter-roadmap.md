@@ -22,7 +22,7 @@ Starting my public graph [[homepage]]
 
 Introducing my [[logseq openai]]
 
-## Newsletter Project  [[newsletter/issue/2]]  [[Jun 19th, 2022]]
+## Newsletter Project  [newsletter/issue/2]({{< ref "newsletter/issue/2" >}})  [[Jun 19th, 2022]]
 
 
 feedback on [[logseq openai]]

@@ -1,13 +1,10 @@
 ---
 title: how-to-take-smart-notes
 date: 2021-02-08
-aliases: /blog/how-to-take-smart-notes-roam-research/
+aliases:
+- /blog/how-to-take-smart-notes-roam-research/
 socialimage: /assets/image_1661224819843_0.png
-description:
-- By focusing on what is interesting and keeping written track of your own intellectual development
-- topics
-- questions
-- and arguments will naturally emerge without force.
+description: By focusing on what is interesting and keeping written track of your own intellectual development, topics, questions, and arguments will naturally emerge without force.
 tags:
 - blog
 categories:

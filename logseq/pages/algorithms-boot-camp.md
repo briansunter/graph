@@ -26,15 +26,12 @@ tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-cam
 - # Roadmap
 	- ## Phase 1
 		- ### Intro to Algorithms, Sorting, and Time Complexity
-		  collapsed:: true
 			- #### [[intro-to-algorithms]]
-			  collapsed:: true
 				- Intro to the Boot Camp
 				- What is an Algorithm?
 				- Data Structures 101
 				- Sorting and Bubble Sort
-			- #### [[time-complexity/algorithms-boot-camp]]
-			  collapsed:: true
+			- #### [[time complexity]]
 				- [[posteriori-vs-a-priori-analysis-of-algorithms]]
 				- Time Complexity / Space Complexity Overview
 				- Big O Notation
@@ -43,17 +40,14 @@ tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-cam
 					- Average Case
 					- Best Case
 				- Recurrence Relation
-				  collapsed:: true
 					- Arithmetic Series
 				- Bubble Sort Analysis
 			- #### Typescript Overview
-			  collapsed:: true
 				- Typescript Intro
 				- Intermediate Typescript
 				- Test Driven Development
 				- Design Patterns
 		- ### Recursion
-		  collapsed:: true
 			- Recursion 101
 			  collapsed:: true
 				- Base Case
@@ -74,10 +68,8 @@ tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-cam
 				- Call Stack
 				- Tail Recursion
 		- ### Divide and Conquer
-		  collapsed:: true
 			- Merge Sort
 		- ### Linked List
-		  collapsed:: true
 			- #### Linked List 101
 			  collapsed:: true
 				- Typescript Implementation

@@ -7,12 +7,11 @@ tags:
 - algorithm
 - leetcode
 - newsletter
-- time-complexity
-- time-complexity/algorithms-boot-camp
+- time complexity
 date: 2022-08-22
 math: true
 categories:
-lastMod: 2022-09-06
+lastMod: 2022-10-02
 ---
 ## Introduction to Algorithms
 
@@ -329,7 +328,7 @@ We can use $$f(n)=\frac{n(n+1)}{2}$$
 
 This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
 
-This is simplified to to $$O(n^2)$$, since we only care about the biggest exponent.
+This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
 
 ## Outer loop does not execute n times
 
@@ -353,6 +352,20 @@ Let's make a table that shows the values at each iteration
 |4|1+2+3+4|
 |k|1+2+3+...+k|
 
-We can use the Gauss sum again to find `p` for a given  `i`
+We can use the [gauss sum]({{< ref "gauss sum" >}}) again to find `p` for a given  `i`
 
 $$ P=\frac{k(k+1)}{2} $$
+
+When will this loop stop? when `p > n`
+
+Let's replace `p` with our formula and simplify
+
+$$\frac{k(k+1)}{2} > n $$
+
+This can be expanded out and simplified to $$k^2$$ (we know we only care about the exponent for big o time complexity analysis)
+
+$$k^2> n $$
+
+$$k > \sqrt{n}$$
+
+Therefore, the time complexity is $$O(n^2)$$

@@ -33,13 +33,10 @@
   :block/updated-at 1661651749710}
  {:block/name "abdul bari algorithms/part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1662517922201}
+  :block/updated-at 1664732164335}
  {:block/name "abdul bari algorithms/part-2",
   :block/created-at 1662517801659,
   :block/updated-at 1662517801659}
- {:block/name "about how to do nobel prize level work.",
-  :block/created-at 1660798481193,
-  :block/updated-at 1660798481193}
  {:block/name "ai",
   :block/created-at 1660618398495,
   :block/updated-at 1660618398495}
@@ -70,16 +67,6 @@
  {:block/name "ali abdaal best productivity hacks",
   :block/created-at 1660618396941,
   :block/updated-at 1660618396941}
- {:block/name "and arguments will naturally emerge without force.",
-  :block/created-at 1661226647092,
-  :block/updated-at 1661226647092}
- {:block/name "and logseq gpt3 ai plugin",
-  :block/created-at 1660618398068,
-  :block/updated-at 1660618398068}
- {:block/name
-  "and thinking. i've included a list of journal prompts and journal questions i use for daily journaling",
-  :block/created-at 1661065509187,
-  :block/updated-at 1661065509187}
  {:block/name "asparagus",
   :block/created-at 1660618398037,
   :block/updated-at 1660618398037}
@@ -131,10 +118,6 @@
  {:block/name "bubble-sort",
   :block/created-at 1660618396890,
   :block/updated-at 1660618396890}
- {:block/name
-  "by focusing on what is interesting and keeping written track of your own intellectual development",
-  :block/created-at 1661226647090,
-  :block/updated-at 1661226647090}
  {:block/name "c",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -195,10 +178,6 @@
  {:block/name "cooklang",
   :block/created-at 1661146627860,
   :block/updated-at 1661147335760}
- {:block/name
-  "cooklang is like markdown for recipes. it lets you write recipes in a human-readable format that a computer can parse to get the ingredient list",
-  :block/created-at 1661147259887,
-  :block/updated-at 1661147259887}
  {:block/name "cornbread",
   :block/created-at 1660618396872,
   :block/updated-at 1660620295277}
@@ -211,16 +190,15 @@
  {:block/name "daily highlight productivity technique",
   :block/created-at 1660618396940,
   :block/updated-at 1660805713265}
- {:block/name
-  "daily journal prompts and the 5 minute journal have been helpful to improve my writing skills",
-  :block/created-at 1661065509185,
-  :block/updated-at 1661065509185}
  {:block/name "date",
   :block/created-at 1660692018178,
   :block/updated-at 1660790880079}
  {:block/name "date-finished",
   :block/created-at 1660803633624,
   :block/updated-at 1660803633624}
+ {:block/name "date-saved",
+  :block/created-at 1664730839443,
+  :block/updated-at 1664730839443}
  {:block/name "date-started",
   :block/created-at 1660803633623,
   :block/updated-at 1660803633623}
@@ -242,18 +220,12 @@
  {:block/name "dokkōdō",
   :block/created-at 1660618396911,
   :block/updated-at 1660618396911}
- {:block/name "donald knuth on email",
-  :block/created-at 1662517801441,
-  :block/updated-at 1662517801441}
  {:block/name "done",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
  {:block/name "emacs daemon mode on macos",
   :block/created-at 1661148859408,
   :block/updated-at 1661149013185}
- {:block/name "etc.",
-  :block/created-at 1661147259888,
-  :block/updated-at 1661147259888}
  {:block/name "favorites",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -266,6 +238,9 @@
  {:block/name "functional",
   :block/created-at 1660969710565,
   :block/updated-at 1660969710565}
+ {:block/name "gauss sum",
+  :block/created-at 1664729980593,
+  :block/updated-at 1664733760001}
  {:block/name "get-youtube-subtitles",
   :block/created-at 1660618398370,
   :block/updated-at 1660618398370}
@@ -304,7 +279,7 @@
   :block/updated-at 1660618398946}
  {:block/name "homepage",
   :block/created-at 1660618397392,
-  :block/updated-at 1662517813557}
+  :block/updated-at 1664732541302}
  {:block/name "honey garlic salmon",
   :block/created-at 1660618397665,
   :block/updated-at 1660620275022}
@@ -317,24 +292,18 @@
  {:block/name "how-to-take-smart-notes",
   :block/created-at 1661222882871,
   :block/updated-at 1661226672264}
- {:block/name "i've started using gpt-3 to create text summaries",
-  :block/created-at 1661149381580,
-  :block/updated-at 1661149381580}
  {:block/name "image",
   :block/created-at 1660618396874,
   :block/updated-at 1660618396874}
  {:block/name "in-progress",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "including the five minute journal writing prompts.",
-  :block/created-at 1661065509187,
-  :block/updated-at 1661065509187}
+ {:block/name "induction",
+  :block/created-at 1664729985989,
+  :block/updated-at 1664729985989}
  {:block/name "information diet",
   :block/created-at 1660618398552,
   :block/updated-at 1660618398552}
- {:block/name "instructions",
-  :block/created-at 1660618397664,
-  :block/updated-at 1660618397664}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}
@@ -372,8 +341,8 @@
   :block/created-at 1660618396826,
   :block/updated-at 1660618396826}
  {:block/name "jun 15th, 2022",
-  :block/created-at 1660684427341,
-  :block/updated-at 1660684427341}
+  :block/created-at 1664633449209,
+  :block/updated-at 1664633449209}
  {:block/name "jun 19th, 2022",
   :block/created-at 1660618398254,
   :block/updated-at 1660618398254}
@@ -389,9 +358,6 @@
  {:block/name "later",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "launching my newsletter",
-  :block/created-at 1660707144617,
-  :block/updated-at 1660707144617}
  {:block/name "leetcode",
   :block/created-at 1660618396891,
   :block/updated-at 1660618396891}
@@ -443,6 +409,9 @@
  {:block/name "managing python projects and dependencies in 2022",
   :block/created-at 1661147798130,
   :block/updated-at 1661148495116}
+ {:block/name "math",
+  :block/created-at 1664632973940,
+  :block/updated-at 1664632973940}
  {:block/name "may 20th, 2022",
   :block/created-at 1660803633618,
   :block/updated-at 1660803633618}
@@ -468,8 +437,8 @@
   :block/created-at 1660618396792,
   :block/updated-at 1660618396792}
  {:block/name "ml",
-  :block/created-at 1660684427340,
-  :block/updated-at 1660684427340}
+  :block/created-at 1664633449208,
+  :block/updated-at 1664633449208}
  {:block/name "mtype",
   :block/created-at 1660804578776,
   :block/updated-at 1660804578776}
@@ -508,7 +477,7 @@
   :block/updated-at 1661657676251}
  {:block/name "newsletter/issue/2",
   :block/created-at 1660618397373,
-  :block/updated-at 1660684427347}
+  :block/updated-at 1664633816049}
  {:block/name "newsletter/issue/3",
   :block/created-at 1660618397369,
   :block/updated-at 1660684438024}
@@ -530,10 +499,6 @@
  {:block/name "no-of-servings",
   :block/created-at 1660622829546,
   :block/updated-at 1660622829546}
- {:block/name
-  "notes from the talk you and your research by richard hamming",
-  :block/created-at 1660798481192,
-  :block/updated-at 1660798481192}
  {:block/name "notetaking",
   :block/created-at 1661149375826,
   :block/updated-at 1661149375826}
@@ -543,12 +508,21 @@
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1664632973704,
+  :block/updated-at 1664632973704}
+ {:block/name "oct 2nd, 2022",
+  :block/created-at 1664729918592,
+  :block/updated-at 1664730061968}
  {:block/name "oct 3rd, 2022",
   :block/created-at 1660618396790,
   :block/updated-at 1660618396790}
  {:block/name "old todos",
   :block/created-at 1660618398686,
   :block/updated-at 1660618398686}
+ {:block/name "omnivore",
+  :block/created-at 1664633675787,
+  :block/updated-at 1664732323118}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}
@@ -561,10 +535,6 @@
  {:block/name "organize-logseq",
   :block/created-at 1660618398685,
   :block/updated-at 1660618398685}
- {:block/name
-  "outlines and perform many other ai-powered tasks directly within the logseq notetaking app using a new plugin i developed.",
-  :block/created-at 1661149381581,
-  :block/updated-at 1661149381581}
  {:block/name "pages",
   :block/created-at 1661658484277,
   :block/updated-at 1661658484277}
@@ -616,15 +586,9 @@
  {:block/name "project/meal-prep",
   :block/created-at 1660618398553,
   :block/updated-at 1660618398553}
- {:block/name "public graph",
-  :block/created-at 1660707144618,
-  :block/updated-at 1660707144618}
  {:block/name "python",
   :block/created-at 1661148208679,
   :block/updated-at 1661148208679}
- {:block/name "questions",
-  :block/created-at 1661226647091,
-  :block/updated-at 1661226647091}
  {:block/name "quote",
   :block/created-at 1662517801494,
   :block/updated-at 1662517801494}
@@ -643,9 +607,6 @@
  {:block/name "restoring-old-photos-with-ai",
   :block/created-at 1660618398551,
   :block/updated-at 1660618398551}
- {:block/name "revue-link",
-  :block/created-at 1660618398076,
-  :block/updated-at 1660618398076}
  {:block/name "roadtrip",
   :block/created-at 1660804578771,
   :block/updated-at 1660804578771}
@@ -658,36 +619,33 @@
  {:block/name "second-brain",
   :block/created-at 1660618398545,
   :block/updated-at 1660618398545}
- {:block/name "self-awareness",
-  :block/created-at 1661065509186,
-  :block/updated-at 1661065509186}
  {:block/name "sent-date",
   :block/created-at 1660618398077,
   :block/updated-at 1660618398077}
  {:block/name "sep 13th, 2022",
   :block/created-at 1660618396824,
   :block/updated-at 1660618396824}
+ {:block/name "sep 15th, 2022",
+  :block/created-at 1664632973824,
+  :block/updated-at 1664632973824}
  {:block/name "sep 1st, 2022",
   :block/created-at 1660618396790,
   :block/updated-at 1660618396790}
- {:block/name "sep 3rd, 2022",
-  :block/created-at 1662227074372,
-  :block/updated-at 1662227074372}
  {:block/name "sep 4th, 2022",
   :block/created-at 1662517801476,
   :block/updated-at 1662517801476}
  {:block/name "sep 5th, 2022",
   :block/created-at 1662517801441,
   :block/updated-at 1662517801441}
- {:block/name "sep 6th, 2022",
-  :block/created-at 1662517801394,
-  :block/updated-at 1662517801394}
  {:block/name "showtoc",
   :block/created-at 1660756995509,
   :block/updated-at 1660756995509}
  {:block/name "simple salad",
   :block/created-at 1660618398034,
   :block/updated-at 1660621113535}
+ {:block/name "site",
+  :block/created-at 1664730839442,
+  :block/updated-at 1664730839442}
  {:block/name "site-hits",
   :block/created-at 1660618398075,
   :block/updated-at 1660618398075}
@@ -730,9 +688,6 @@
  {:block/name "status",
   :block/created-at 1660618396791,
   :block/updated-at 1660618396791}
- {:block/name "steps",
-  :block/created-at 1661147259888,
-  :block/updated-at 1661147259888}
  {:block/name "strawberry-protein-shake",
   :block/created-at 1660618398035,
   :block/updated-at 1660618398035}
@@ -749,17 +704,14 @@
   :block/created-at 1660618396730,
   :block/updated-at 1660618396730}
  {:block/name "time-complexity/algorithms-boot-camp",
-  :block/created-at 1660618396730,
-  :block/updated-at 1660618396730}
+  :block/created-at 1664732079598,
+  :block/updated-at 1664732079598}
  {:block/name "tocopen",
   :block/created-at 1660795869589,
   :block/updated-at 1660795869589}
  {:block/name "todo",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "topics",
-  :block/created-at 1661226647090,
-  :block/updated-at 1661226647090}
  {:block/name "total-time",
   :block/created-at 1660622829546,
   :block/updated-at 1660622829546}

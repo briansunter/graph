@@ -1,3 +1,4 @@
+public:: true
 name:: Intro to using AI to take notes
 categories:: [[newsletter]]
 title:: newsletter/issue/2
@@ -11,8 +12,7 @@ categories:: [[newsletter]]
 newsletter-subscribers:: 30
 
 - # [Sign up for the email newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
-- ### See all issues -> [[newsletter]]
-## Summary and Reflection 🤔
+- ## Summary and Reflection 🤔
 	- I couldn't be happier about the positive reactions to my new projects and newsletter.
 	- Last week I released a small plugin for the Logseq text editor, and I've been getting a lot of positive feedback on it from all over the world.
 	- [Logseq](https://docs.logseq.com/#/page/Contents) is an open-source note taking application.
@@ -27,7 +27,6 @@ newsletter-subscribers:: 30
 - # Updates 🆕
 	- Here is some feedback for users on Twitter
 - # Feedback on [[logseq openai]] plugin
-  collapsed:: true
   
    collapsed:: true
 	- This user summed up how I feel perfectly. Now that AI is part of my workflow, I don't want to give it up.

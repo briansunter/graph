@@ -56,9 +56,7 @@ You are interested in my process for taking notes on code in logseq
 
 ### Intro to Algorithms, Sorting, and Time Complexity
 
-
 #### [intro-to-algorithms]({{< ref "intro-to-algorithms" >}})
-
 
 Intro to the Boot Camp
 
@@ -68,8 +66,7 @@ Data Structures 101
 
 Sorting and Bubble Sort
 
-#### [[time-complexity/algorithms-boot-camp]]
-
+#### [[time complexity]]
 
 [posteriori-vs-a-priori-analysis-of-algorithms]({{< ref "posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
@@ -86,13 +83,11 @@ Best Case
 
 Recurrence Relation
 
-
 Arithmetic Series
 
 Bubble Sort Analysis
 
 #### Typescript Overview
-
 
 Typescript Intro
 
@@ -103,7 +98,6 @@ Test Driven Development
 Design Patterns
 
 ### Recursion
-
 
 Recursion 101
 
@@ -141,11 +135,9 @@ Tail Recursion
 
 ### Divide and Conquer
 
-
 Merge Sort
 
 ### Linked List
-
 
 #### Linked List 101
 
