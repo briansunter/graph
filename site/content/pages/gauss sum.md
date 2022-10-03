@@ -7,15 +7,13 @@ categories:
 date: 2022-10-02
 math: true
 title: gauss sum
-lastMod: 2022-10-02
+lastMod: 2022-10-03
 ---
 ## Summary
 
-How do we find the sum of the numbers `1-100`?
+How do we find the sum of the numbers 1 through 100?
 
-For example, `1 + 2 + 3 + ... + 100`
-
-If you sum up these numbers, the result will be `5050`
+For example, $1 + 2 + 3 + ... + 100$
 
 In code this would look like
 
@@ -26,13 +24,23 @@ let sum = 0;
 }
 ```
 
+If you sum up these numbers, the result will be $5050$
+
 ## Sum of n Integers Equation
 
-However, instead of adding up the numbers 1 through `n` by hand or in a loop, we can use an equation to find the answer instantly. $$\sum_{i=1}^n n = \frac{n(n + 1)}{2}$$
+However, instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
 
-$$1+2+3+...+n = \frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
+This is the equation for the sum of integers 1 through $n$
 
+$$\sum_{i=1}^n n = \frac{n(n + 1)}{2}$$
 
+We can use this equation to find the sum of numbers 1 through 100
+
+$$1+2+3+...+ 100 = \frac{100(100 + 1)}{2}$$
+
+We do the calculations to find our answer
+
+$$\frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
 
 ## Resources
 
