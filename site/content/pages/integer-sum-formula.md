@@ -6,7 +6,7 @@ categories:
 - algorithms-boot-camp
 date: 2022-10-02
 math: true
-title: gauss sum
+title: integer-sum-formula
 lastMod: 2022-10-03
 ---
 ## Summary

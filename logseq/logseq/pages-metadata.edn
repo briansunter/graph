@@ -33,7 +33,7 @@
   :block/updated-at 1661651749710}
  {:block/name "abdul bari algorithms/part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1664732164335}
+  :block/updated-at 1664810394719}
  {:block/name "abdul bari algorithms/part-2",
   :block/created-at 1662517801659,
   :block/updated-at 1662517801659}
@@ -238,9 +238,6 @@
  {:block/name "functional",
   :block/created-at 1660969710565,
   :block/updated-at 1660969710565}
- {:block/name "gauss sum",
-  :block/created-at 1664729980593,
-  :block/updated-at 1664807972356}
  {:block/name "get-youtube-subtitles",
   :block/created-at 1660618398370,
   :block/updated-at 1660618398370}
@@ -304,6 +301,9 @@
  {:block/name "information diet",
   :block/created-at 1660618398552,
   :block/updated-at 1660618398552}
+ {:block/name "integer-sum-formula",
+  :block/created-at 1664729980593,
+  :block/updated-at 1664808479660}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}

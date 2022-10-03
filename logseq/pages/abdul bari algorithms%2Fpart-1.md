@@ -187,7 +187,7 @@ math:: true
 		- The outer loop goes from 0 to n
 		- When `i` is 1, `stmt` is executed 1 times
 		- When `i` is 2, `stmt` is executed 2 times
-		- Finding out how many times `stmt` is executed is the same as the Gauss Sum
+		- Finding out how many times `stmt` is executed is the same as the [[integer-sum-formula]]
 		- This is equivalent to 1 + 2 + 3 + 4 ... + n
 		- We can use $$f(n)=\frac{n(n+1)}{2}$$
 		- This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
@@ -209,7 +209,7 @@ math:: true
 		  |3|1+2+3|
 		  |4|1+2+3+4|
 		  |k|1+2+3+...+k|
-		- We can use the [[gauss sum]] again to find `p` for a given  `i`
+		- We can use the [[integer-sum-formula]] again to find `p` for a given  `i`
 			- $$ P=\frac{k(k+1)}{2} $$
 		- When will this loop stop? when `p > n`
 		- Let's replace `p` with our formula and simplify

@@ -11,7 +11,7 @@ tags:
 date: 2022-08-22
 math: true
 categories:
-lastMod: 2022-10-02
+lastMod: 2022-10-03
 ---
 ## Introduction to Algorithms
 
@@ -320,7 +320,7 @@ When `i` is 1, `stmt` is executed 1 times
 
 When `i` is 2, `stmt` is executed 2 times
 
-Finding out how many times `stmt` is executed is the same as the Gauss Sum
+Finding out how many times `stmt` is executed is the same as the [integer-sum-formula]({{< ref "integer-sum-formula" >}})
 
 This is equivalent to 1 + 2 + 3 + 4 ... + n
 
@@ -352,7 +352,7 @@ Let's make a table that shows the values at each iteration
 |4|1+2+3+4|
 |k|1+2+3+...+k|
 
-We can use the [gauss sum]({{< ref "gauss sum" >}}) again to find `p` for a given  `i`
+We can use the [integer-sum-formula]({{< ref "integer-sum-formula" >}}) again to find `p` for a given  `i`
 
 $$ P=\frac{k(k+1)}{2} $$
 
