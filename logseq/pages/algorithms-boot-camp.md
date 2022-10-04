@@ -1,6 +1,6 @@
 public:: true
 date:: 2022-07-10
-tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-camp]]
+tags:: [[newsletter]] [[algorithms-boot-camp-study-guide]] [[algorithms-boot-camp]]
 
 - # Intro
 	- ## About this Guide
@@ -10,8 +10,8 @@ tags:: [[newsletter]] [[algorithms-boot-camp/study-guide]] [[algorithms-boot-cam
 		- I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my own knowledge.
 		- Feel free to [correct me, make suggestions, and ask questions on Twitter.](https://twitter.com/Bsunter) This guide is a living document; hopefully, a community of like-minded people will benefit from it.
 	- ## How the Bootcamp Works
-		- I built out a complete outline for every algorithm topic here [[algorithms-boot-camp/study-guide]]
-		- The [complete guide]([[algorithms-boot-camp/study-guide]]) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
+		- I built out a complete outline for every algorithm topic here [[algorithms-boot-camp-study-guide]]
+		- The [complete guide]([[algorithms-boot-camp-study-guide]]) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
 		- There's a curriculum for the next 3-months on this page, so people will know what to expect and can give their input on what they want to see.
 		- I'll send a [[newsletter]] post about a new topic each week. All the future topics are listed below.
 		- If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [[newsletter]] to get updates.

@@ -1,5 +1,5 @@
 tags:: [[algorithms-boot-camp]] [[math]]
-categories:: [[algorithms-boot-camp]] 
+categories:: [[algorithms]] [[tech]]
 date:: 2022-10-02
 public:: true
 math:: true
@@ -16,7 +16,7 @@ math:: true
 		  ```
 		- If you sum up these numbers, the result will be $5050$
 - ## Sum of n Integers Equation
-	- However, instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
+	- Instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
 	- This is the equation for the sum of integers 1 through $n$
 	- $$\sum_{i=1}^n n = \frac{n(n + 1)}{2}$$
 	- We can use this equation to find the sum of numbers 1 through 100

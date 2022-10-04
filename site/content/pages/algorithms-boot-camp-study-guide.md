@@ -8,7 +8,7 @@ date: 2022-06-26
 gpt-sources:
 - gpt data structures guide
 - gpt algorithms guide
-title: algorithms-boot-camp/study-guide
+title: algorithms-boot-camp-study-guide
 categories:
 lastMod: 2022-08-17
 ---

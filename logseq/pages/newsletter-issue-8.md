@@ -1,25 +1,32 @@
 public:: true
-title:: newsletter/issue/8
 type:: [[newsletter]]
 tags:: [[newsletter]]
-categories: [[newsletter]]
-name:: Time Complexity, Donald Knuth on Email
+categories:: [[newsletter]]
+name:: Integer Sum Formula and Donald Knuth on Email
+date:: 2022-08-23
 start-date:: [[Sep 5th, 2022]]
 sent-date:: 
 revue-link::
 site-hits:: 
-followers:: 
+followers:: 1033
 tweet-impressions:: 
 profile-visits::
-newsletter-subscribers:: 0
+newsletter-subscribers:: 253
 
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 # Summary and Reflection 🤔
+	- I'm continuing to work on the [[algorithms-boot-camp]] section of this site.
+	- I'm working through a couple courses now including [[abdul bari algorithms]] and Stanford's algorithms course, and sharing some notes here.
+	- I'm going over some of the math in Volume 1 of The Art of Computer Computer programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
+	- I also am interested in Werner Herzog's new movie about consciousness and brain computer interfaces. He's a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
 # Updates 🆕
+	- ### [[integer-sum-formula]]
+		- How do you find the sum of the numbers 1 through 100?
+		- There's a [legend about the mathematician Charles Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [[integer-sum-formula]] as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
+		- You can use the formula sum = n(n+1)/2 to find the sum of 1 to n numbers.
+		- For more, see my note on [[integer-sum-formula]]
 # Productivity Toolkit 🛠️
 	- In this section, I'll share a productivity tip I've learned recently.
-- # Brain Food 🧠 Donald Knuth
-	- In this section, I'll share some interesting articles and "food for thought"
 	- We live in an age where we are constantly bombarded by messages and interruptions.
 	- We are more connected and have more information than ever, but it's almost impossible to do deep focused work.
 	- I've always thought it was interesting how some of the greatest computer scientists like Donald Knuth and Edsger W. Dijkstra were cautious about certain technology trends like email.
@@ -38,6 +45,14 @@ newsletter-subscribers:: 0
 		- There is an email address for reporting errors in his books, but his secretary filters and prints the messages for him. The email address is strictly for reporting technical, typographical, or historical errors in his book.
 		- If you are the first to find an error, Donald Knuth will personally write you a check for $2.56 (a hexadecimal "dollar"). These checks are considered one of the most prized trophies in computer science.
 		- For more info on [Knuth Checks, see here.](https://en.wikipedia.org/wiki/Knuth_reward_check)
-# Analytics 📈
+- # Brain Food 🧠 Donald Knuth
+	- In this section, I'll share some interesting articles and "food for thought"
+	- Werner Herzog is a german filmmaker who has produced, written, and directed more than sixty feature and documentary films. I really appreciate his unconventional creativity, as well as the sound of his voice.
+	- ### [[Werner Herzog Rules for Filmmaking]]
+		- He just came out with a new movie about consciousness and brain computer interfaces called "Theatre of Thought"
+		- He interviews people working on technology that lets your brain communicate directly with computers. The Matrix is one of my favorite movies of all time, and I'm really interested in this area of research. I'm excited to check out this film when it's released.
+		- > Werner Herzog sets his sights on yet another mysterious landscape — the human brain — for clues as to why a hunk of tissue can produce profound thoughts and feelings while considering the philosophical, ethical, and social implications of fast-advancing neural technology.
+		- <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		- I've taken some [notes on Herzog's creative approach to filmmaking here]([[Werner Herzog Rules for Filmmaking]]).
 # Outro
-	- Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+	- Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!

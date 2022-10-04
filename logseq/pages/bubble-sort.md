@@ -1,4 +1,4 @@
-tags:: [[sorting]] [[programming]] [[leetcode]] [[algorithms-boot-camp/study-guide]] [[sorting-algorithm]]
+tags:: [[sorting]] [[programming]] [[leetcode]] [[algorithms-boot-camp-study-guide]] [[sorting-algorithm]]
 time-complexity:: $$O(n^2)$$
 space-complexity:: $$O(n)$$
 

@@ -3,11 +3,12 @@ tags:
 - algorithms-boot-camp
 - math
 categories:
-- algorithms-boot-camp
+- algorithms
+- tech
 date: 2022-10-02
 math: true
 title: integer-sum-formula
-lastMod: 2022-10-03
+lastMod: 2022-10-04
 ---
 ## Summary
 
@@ -28,7 +29,7 @@ If you sum up these numbers, the result will be $5050$
 
 ## Sum of n Integers Equation
 
-However, instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
+Instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
 
 This is the equation for the sum of integers 1 through $n$
 

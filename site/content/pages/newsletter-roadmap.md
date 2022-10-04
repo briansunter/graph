@@ -1,7 +1,7 @@
 ---
 tags:
 - machine learning study guide
-- algorithms-boot-camp/study-guide
+- algorithms-boot-camp-study-guide
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
@@ -11,8 +11,7 @@ This is the content plan for my [newsletter]({{< ref "newsletter" >}})
 The dates are only rough guidelines, this is more of a content ordering and flow
 
 # Roadmap #.ol-nested
-## intro [newsletter/issue/1]({{< ref "newsletter/issue/1" >}}) [[Jun 12th, 2022]]
-
+## intro [newsletter-issue-1]({{< ref "newsletter-issue-1" >}}) [[Jun 12th, 2022]]
 
 Intro [newsletter]({{< ref "newsletter" >}})
 
@@ -24,13 +23,11 @@ Introducing my [[logseq openai]]
 
 ## Newsletter Project  [newsletter/issue/2]({{< ref "newsletter/issue/2" >}})  [[Jun 19th, 2022]]
 
-
 feedback on [[logseq openai]]
 
 launching my [[get-youtube-subtitles]] plugin
 
 ## Getting started with logseq [[newsletter/issue/3]] [[Jun 26th, 2022]]
-
 
 [[get-youtube-subtitles]]
 
@@ -43,7 +40,6 @@ Launching [[logseq-social]]
 [[second-brain]]
 
 ##  Newsletter intro and Productivity with AI [[newsletter/issue/4]]  [[Jul 3rd, 2022]]
-
 
 [[logseq-tasks]]
 
@@ -79,7 +75,7 @@ Updates
 
 [algorithms-boot-camp]({{< ref "algorithms-boot-camp" >}})
 
-[algorithms-boot-camp/study-guide]({{< ref "algorithms-boot-camp/study-guide" >}})
+[algorithms-boot-camp-study-guide]({{< ref "algorithms-boot-camp-study-guide" >}})
 
 Productivity Toolkit
 

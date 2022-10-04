@@ -2,7 +2,7 @@
 date: 2022-07-10
 tags:
 - newsletter
-- algorithms-boot-camp/study-guide
+- algorithms-boot-camp-study-guide
 - algorithms-boot-camp
 title: algorithms-boot-camp
 categories:
@@ -24,9 +24,9 @@ Feel free to [correct me, make suggestions, and ask questions on Twitter.](https
 
 ## How the Bootcamp Works
 
-I built out a complete outline for every algorithm topic here [algorithms-boot-camp/study-guide]({{< ref "algorithms-boot-camp/study-guide" >}})
+I built out a complete outline for every algorithm topic here [algorithms-boot-camp-study-guide]({{< ref "algorithms-boot-camp-study-guide" >}})
 
-The [complete guide]({{< ref "algorithms-boot-camp/study-guide" >}}) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
+The [complete guide]({{< ref "algorithms-boot-camp-study-guide" >}}) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
 
 There's a curriculum for the next 3-months on this page, so people will know what to expect and can give their input on what they want to see.
 

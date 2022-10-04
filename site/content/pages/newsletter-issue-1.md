@@ -12,7 +12,7 @@ categories:
 - newsletter
 newsletter-subscribers: 0
 name: Launching my newsletter, public graph, and logseq gpt3 AI plugin
-title: newsletter/issue/1
+title: newsletter-issue-1
 type:
 - newsletter
 date: 2022-06-12
@@ -112,7 +112,7 @@ I also like using GPT-3 for really personalized learning guides.
 
 This is a diagram for my generated based on the logseq markmap plugin.
 
-Visit the [[algorithms-boot-camp-study-guide]]
+Visit the [algorithms-boot-camp-study-guide]({{< ref "algorithms-boot-camp-study-guide" >}})
 
 ![image](/assets/image_1660701101843_0.png)
 

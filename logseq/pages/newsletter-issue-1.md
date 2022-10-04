@@ -1,6 +1,6 @@
 public:: true
 type:: [[newsletter]]
-title:: newsletter/issue/1
+title:: newsletter-issue-1
 tags:: [[logseq]] [[logseq openai]] [[programming]]
 name:: Launching my newsletter, public graph, and logseq gpt3 AI plugin
 start-date:: [[Jun 12th, 2022]]

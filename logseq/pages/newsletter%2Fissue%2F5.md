@@ -25,7 +25,7 @@ newsletter-subscribers:: 195
 		- [This]([[algorithms-boot-camp]]) is the 3-month curriculum for the [[algorithms-boot-camp]].
 		- It's a weekly series of guides that will help beginner and intermediate programmers learn the basics of algorithms.
 		- Hopefully, my process for making the guide and annotating code in logseq will also be interesting to non-programmers.
-		- I wrote a [comprehensive outline of all the algorithms I plan to learn]([[algorithms-boot-camp/study-guide]]). This "boot camp" project will build up this outline as a series of guides one week at a time.
+		- I wrote a [comprehensive outline of all the algorithms I plan to learn]([[algorithms-boot-camp-study-guide]]). This "boot camp" project will build up this outline as a series of guides one week at a time.
 		- I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my own knowledge.
 		- Feel free to [correct me, make suggestions, and ask questions on Twitter.](https://twitter.com/Bsunter) This guide is a living document; hopefully, a community of like-minded people will benefit from it.
 		  id:: 62cb3582-7593-4705-a622-e1582c526c1a

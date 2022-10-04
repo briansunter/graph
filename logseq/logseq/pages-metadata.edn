@@ -16,12 +16,6 @@
  {:block/name "[/pages",
   :block/created-at 1661658471085,
   :block/updated-at 1661658471085}
- {:block/name "[/pages/algorithms-boot-camp",
-  :block/created-at 1661658471086,
-  :block/updated-at 1661658471086}
- {:block/name "[/pages/algorithms-boot-camp/]",
-  :block/created-at 1661658471087,
-  :block/updated-at 1661658471087}
  {:block/name "a",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -48,7 +42,7 @@
   :block/updated-at 1661226153954}
  {:block/name "algorithms",
   :block/created-at 1660618396786,
-  :block/updated-at 1660618396786}
+  :block/updated-at 1664906509619}
  {:block/name "algorithms-boot-camp",
   :block/created-at 1660618396736,
   :block/updated-at 1661229606886}
@@ -58,9 +52,6 @@
  {:block/name "algorithms-boot-camp/phase-1",
   :block/created-at 1660618396788,
   :block/updated-at 1660621703684}
- {:block/name "algorithms-boot-camp/study-guide",
-  :block/created-at 1660618396727,
-  :block/updated-at 1660793309483}
  {:block/name "ali abdaal",
   :block/created-at 1660618396941,
   :block/updated-at 1660618396941}
@@ -97,9 +88,6 @@
  {:block/name "aug 27th, 2022",
   :block/created-at 1661649332689,
   :block/updated-at 1661658030914}
- {:block/name "aug 28th, 2022",
-  :block/created-at 1661675002203,
-  :block/updated-at 1661675002203}
  {:block/name "author",
   :block/created-at 1660618396914,
   :block/updated-at 1660618396914}
@@ -136,9 +124,6 @@
  {:block/name "categories",
   :block/created-at 1660682511772,
   :block/updated-at 1660682511772}
- {:block/name "categories/algorithms-boot-camp",
-  :block/created-at 1660793311689,
-  :block/updated-at 1660793322011}
  {:block/name "categories/newsletter",
   :block/created-at 1660692017957,
   :block/updated-at 1660764387186}
@@ -303,7 +288,7 @@
   :block/updated-at 1660618398552}
  {:block/name "integer-sum-formula",
   :block/created-at 1664729980593,
-  :block/updated-at 1664808479660}
+  :block/updated-at 1664906451397}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}
@@ -463,6 +448,12 @@
  {:block/name "newsletter-6",
   :block/created-at 1660618397360,
   :block/updated-at 1660682695403}
+ {:block/name "newsletter-issue-1",
+  :block/created-at 1660618397377,
+  :block/updated-at 1661657676251}
+ {:block/name "newsletter-issue-8",
+  :block/created-at 1662517801447,
+  :block/updated-at 1664910396758}
  {:block/name "newsletter-roadmap",
   :block/created-at 1660618396823,
   :block/updated-at 1660618396823}
@@ -472,9 +463,6 @@
  {:block/name "newsletter/issue",
   :block/created-at 1660755765396,
   :block/updated-at 1660755765396}
- {:block/name "newsletter/issue/1",
-  :block/created-at 1660618397377,
-  :block/updated-at 1661657676251}
  {:block/name "newsletter/issue/2",
   :block/created-at 1660618397373,
   :block/updated-at 1664633816049}
@@ -490,9 +478,6 @@
  {:block/name "newsletter/issue/7",
   :block/created-at 1661657206040,
   :block/updated-at 1661659263823}
- {:block/name "newsletter/issue/8",
-  :block/created-at 1662517801447,
-  :block/updated-at 1662517801447}
  {:block/name "newsletter/template",
   :block/created-at 1660755200058,
   :block/updated-at 1660789626924}
@@ -508,21 +493,21 @@
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "oct 1st, 2022",
-  :block/created-at 1664632973704,
-  :block/updated-at 1664632973704}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664729918592,
   :block/updated-at 1664730061968}
  {:block/name "oct 3rd, 2022",
   :block/created-at 1660618396790,
-  :block/updated-at 1660618396790}
+  :block/updated-at 1664813452316}
+ {:block/name "oct 4th, 2022",
+  :block/created-at 1664905649943,
+  :block/updated-at 1664905649943}
  {:block/name "old todos",
   :block/created-at 1660618398686,
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1664733858908}
+  :block/updated-at 1664909745798}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}
@@ -535,12 +520,6 @@
  {:block/name "organize-logseq",
   :block/created-at 1660618398685,
   :block/updated-at 1660618398685}
- {:block/name "pages",
-  :block/created-at 1661658484277,
-  :block/updated-at 1661658484277}
- {:block/name "pages/algorithms-boot-camp",
-  :block/created-at 1661658484279,
-  :block/updated-at 1661658484279}
  {:block/name "person",
   :block/created-at 1660618399202,
   :block/updated-at 1660618399202}
@@ -691,6 +670,9 @@
  {:block/name "strawberry-protein-shake",
   :block/created-at 1660618398035,
   :block/updated-at 1660618398035}
+ {:block/name "tech",
+  :block/created-at 1664906451395,
+  :block/updated-at 1664906451395}
  {:block/name "template",
   :block/created-at 1660618396954,
   :block/updated-at 1660618396954}
@@ -703,9 +685,6 @@
  {:block/name "time-complexity",
   :block/created-at 1660618396730,
   :block/updated-at 1660618396730}
- {:block/name "time-complexity/algorithms-boot-camp",
-  :block/created-at 1664732079598,
-  :block/updated-at 1664732079598}
  {:block/name "tocopen",
   :block/created-at 1660795869589,
   :block/updated-at 1660795869589}
@@ -754,12 +733,9 @@
  {:block/name "weight",
   :block/created-at 1660707120770,
   :block/updated-at 1660707120770}
- {:block/name "werner herzog",
+ {:block/name "werner herzog rules for filmmaking",
   :block/created-at 1662517801413,
-  :block/updated-at 1662517801413}
- {:block/name "werner herzog/rules-for-filmmaking",
-  :block/created-at 1662517801413,
-  :block/updated-at 1662517801413}
+  :block/updated-at 1664906310738}
  {:block/name "why clojure?",
   :block/created-at 1660969294220,
   :block/updated-at 1661146649332}
