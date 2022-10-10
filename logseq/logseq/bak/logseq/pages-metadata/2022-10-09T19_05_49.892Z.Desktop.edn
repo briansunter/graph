@@ -4,18 +4,12 @@
  {:block/name ".ol-nested",
   :block/created-at 1660618398541,
   :block/updated-at 1660618398541}
- {:block/name "000000",
-  :block/created-at 1665342447740,
-  :block/updated-at 1665342447740}
  {:block/name "100 newsletter subscribers",
   :block/created-at 1660618396824,
   :block/updated-at 1660717299106}
  {:block/name "1960s",
   :block/created-at 1660804578772,
   :block/updated-at 1660804578772}
- {:block/name "228be6",
-  :block/created-at 1665342447739,
-  :block/updated-at 1665342447739}
  {:block/name "[",
   :block/created-at 1661658471084,
   :block/updated-at 1661658471084}
@@ -33,7 +27,7 @@
   :block/updated-at 1661651749710}
  {:block/name "abdul bari algorithms/part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1665381950967}
+  :block/updated-at 1664810394719}
  {:block/name "abdul bari algorithms/part-2",
   :block/created-at 1662517801659,
   :block/updated-at 1662517801659}
@@ -217,12 +211,6 @@
  {:block/name "draws/2022-10-09-08-39-52.excalidraw",
   :block/created-at 1665341330940,
   :block/updated-at 1665341330940}
- {:block/name "draws/2022-10-09-09-03-29.excalidraw",
-  :block/created-at 1665342349719,
-  :block/updated-at 1665342349719}
- {:block/name "draws/2022-10-09-09-07-45.excalidraw",
-  :block/created-at 1665344888324,
-  :block/updated-at 1665344888324}
  {:block/name "emacs daemon mode on macos",
   :block/created-at 1661148859408,
   :block/updated-at 1661149013185}
@@ -303,7 +291,7 @@
   :block/updated-at 1660618398552}
  {:block/name "integer-sum-formula",
   :block/created-at 1664729980593,
-  :block/updated-at 1665342466046}
+  :block/updated-at 1665341704905}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}
@@ -519,13 +507,13 @@
   :block/updated-at 1664905649943}
  {:block/name "oct 9th, 2022",
   :block/created-at 1665333029702,
-  :block/updated-at 1665380677666}
+  :block/updated-at 1665334911937}
  {:block/name "old todos",
   :block/created-at 1660618398686,
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1665380652646}
+  :block/updated-at 1665341337094}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}

@@ -18,10 +18,42 @@ math:: true
 - ## Sum of n Integers Equation
 	- Instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
 	- This is the equation for the sum of integers 1 through $n$
-	- $$\sum_{i=1}^n n = \frac{n(n + 1)}{2}$$
+	- $$\sum_{i=1}^n i = \frac{n(n + 1)}{2}$$
 	- We can use this equation to find the sum of numbers 1 through 100
 		- $$1+2+3+...+ 100 = \frac{100(100 + 1)}{2}$$
 	- We do the calculations to find our answer
 		- $$\frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
+- ## Proof
+	- ### Visual Proof
+		- [[draws/2022-10-09-08-39-52.excalidraw]]
+		- One way of looking at the problem is to imagine stacking boxes like a set of stairs
+		- You have one box, two boxes, three boxes stacked, etc
+		- The bottom and side are both length n. We need to find the "area" to find the total sum
+		- ![image.png](../assets/image_1665341986063_0.png)
+		- We can create a square by duplicating this stack and flipping it upside down
+		- [[draws/2022-10-09-09-07-45.excalidraw]]
+	- ### Proof by Induction
+		- #### Base Case
+			- The base case is just the sum of the first number, $1$ , so let $n=1$
+			- $$\sum_{i=1}^1 i = \frac{1(1 + 1)}{2}=\frac{2}{2} = 1$$
+		- ### Inductive Step
+			- Now lets find the next sum, in terms of $n+1$
+			- $$\sum_{i=1}^{n+1} i $$
+			- To find the next sum, we take the sum so far, and add the next number to it.
+			- $$\sum_{i=1}^{n} i + (n + 1)$$
+			- We replace the summation part with the original equation and simplify
+			- $$ \frac{n(n + 1)}{2}+ (n + 1)$$
+			- We get a common denominator, so we can add the two terms. We replace (n+1) with the equivalent 2(n+1)/2
+			- $$ \frac{n(n + 1)}{2}+ \frac{2(n + 1)}{2}$$
+			- Factor out the common $(n+1)$ in both terms
+			- $$\frac{(n + 1)(n + 2)}{2}$$
+			- We can modify it to look like the original equation
+			- $$ \sum_{i=1}^{n+1} i = \frac{(n + 1)((n + 1) +1)}{2}$$
+			- This is really similar to the original equation, but with $(n + 1)$ in place of $n$
+			- $\frac{n(n + 1)}{2}$ vs  $\frac{(n + 1)((n + 1) +1)}{2}$
+			- This shows how you can validate the equation is correct using induction. We start with the known base case, then show that given n, we can find any n+1
+			-
 - ## Resources
 	- [Sum of n, n², or n³ | Brilliant Math & Science Wiki](https://brilliant.org/wiki/sum-of-n-n2-or-n3)
+	- <iframe width="560" height="315" src="https://www.youtube.com/embed/eHbtc50-qXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	-

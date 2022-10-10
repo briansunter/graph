@@ -166,6 +166,7 @@ math:: true
 			  ```
 			- Each loop executes `n` times so `stmt` is executed `n` * `n` times or $$O(n^2)$$
 		- ## Dependent For Loops
+		  collapsed:: true
 			- What happens if the inner loop is dependent on the outer loop?
 			- ```js
 			  for(i=0; i<n;i++){
@@ -192,29 +193,63 @@ math:: true
 		- We can use $$f(n)=\frac{n(n+1)}{2}$$
 		- This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
 		- This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
-	- ## Outer loop does not execute n times
-		- ```js
-		  p=0
-		  for(i=1; p<=n;i++){
-		   p=p+i
-		    stmt()
-		  }
-		  ```
-		- How many times is `stmt` executed?
-		- Let's make a table that shows the values at each iteration
-		- |i|p|
-		  |--|--|
-		  |1|0+1=1|
-		  |2|1+2=3|
-		  |3|1+2+3|
-		  |4|1+2+3+4|
-		  |k|1+2+3+...+k|
-		- We can use the [[integer-sum-formula]] again to find `p` for a given  `i`
-			- $$ P=\frac{k(k+1)}{2} $$
-		- When will this loop stop? when `p > n`
-		- Let's replace `p` with our formula and simplify
-		- $$\frac{k(k+1)}{2} > n $$
-		- This can be expanded out and simplified to $$k^2$$ (we know we only care about the exponent for big o time complexity analysis)
-		- $$k^2> n $$
-		- $$k > \sqrt{n}$$
-		- Therefore, the time complexity is $$O(n^2)$$
+		- ## Outer loop does not execute n times
+		  collapsed:: true
+			- ```js
+			  p=0
+			  for(i=1; p<=n;i++){
+			   p=p+i
+			    stmt()
+			  }
+			  ```
+			- How many times is `stmt` executed?
+			- Let's make a table that shows the values at each iteration
+			- |i|p|
+			  |--|--|
+			  |1|0+1=1|
+			  |2|1+2=3|
+			  |3|1+2+3|
+			  |4|1+2+3+4|
+			  |k|1+2+3+...+k|
+			- We can use the [[integer-sum-formula]] again to find `p` for a given  `i`
+				- $$ P=\frac{k(k+1)}{2} $$
+			- When will this loop stop? when `p > n`
+			- Let's replace `p` with our formula and simplify
+			- $$\frac{k(k+1)}{2} > n $$
+			- This can be expanded out and simplified to $$k^2$$ (we know we only care about the exponent for big o time complexity analysis)
+			- $$k^2> n $$
+			- $$k > \sqrt{n}$$
+			- Therefore, the time complexity is $$O(n^2)$$
+		- ### Multiply i value
+			- ```js
+			  for(i=0; i<n;i=i*2){
+			    stmt()
+			  }
+			  ```
+			- How many times will this execute?
+			- |k|i|
+			  |--|--|
+			  |1|1|
+			  |2|2|
+			  |3|2^2|
+			  |4|2^3|
+			- 2^k
+			- assume`i>=n`  which breaks the loop
+			- $i=2^k$
+			- $2^k=n$
+			- $k=\log_2 n$
+			- The time complexity is $O(\log n)$
+		- ### Divide i value
+			- ```js
+			  for(i=0; i<n;i=i/2){
+			    stmt()
+			  }
+			  ```
+			- $$\frac{n}{2}, \frac{n}{2^2},\frac{n}{2^3},...$$
+			- i < 1
+			- $\frac{n}{2^k} = 1$
+			- $n=2^k$
+			- $k=\log_2 n$
+			- The time complexity is $O(\log n)$
+		-
+			-

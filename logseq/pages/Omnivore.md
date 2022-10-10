@@ -1,4 +1,25 @@
 - ## 🔖 Articles
+	- [Learn Exponentially](https://omnivore.app/me/learn-exponentially-183bd8decb8)
+	  collapsed:: true
+	  site:: [Save All](https://saveall.ai/blog/learn-exponentially)
+	  date_saved:: [[Oct 9th, 2022]]
+		- >> For some adults, reading is a self-reinforcing learning loop.
+		  The more you learn from reading, the better you become at reading and so the more you learn from reading.
+		  This is however a very slow process. One study implies that in the best case it takes adults
+		   10 years of reading 1 hour a day to get twice as effective at reading.
+		  Even if this is technically learning exponentially, the improvement rate is so slow that the process is indistinguishable from a linear one. [⤴️](https://omnivore.app/me/learn-exponentially-183bd8decb8#b67184a1-8311-4114-a835-ceecdeaf5661)
+		- >> As explained in Learning is Remembering, we generally forget ~90% of what we learn within a month and we’d be far more intelligent if we forget less. The less we forget, the less we will be constrained by the limits of our working memory and the more intelligent, creative, and effective we will be.
+		  One way of remembering more is by using spaced repetition.
+		  Spaced repetition stops you forgetting things by systematically reminding you of them over time at the most efficient moments.
+		  Using spaced repetition to remember some information you’ve learned might look like this: [⤴️](https://omnivore.app/me/learn-exponentially-183bd8decb8#e0b1e42e-6021-4ab1-a972-5e959f4c21db)
+		- >> The difference is extraordinary even when looking only 5 years ahead. Use spaced repetition over a lifetime and you’ll be hundreds of times more knowledgeable.
+		  
+		  Hmm... can you really estimate learning speed like that?
+		  
+		  The assumptions used to estimate the difference are fair and you can look at them here. Almost none of them matter though anyway. The only thing that matters is:
+		   reading takes years to double in effectiveness whereas spaced repetition takes only days.
+		  
+		  Over the long-run, this makes spaced repetition far more efficient no matter how you model it. [⤴️](https://omnivore.app/me/learn-exponentially-183bd8decb8#212ab536-9e4d-4549-ad33-956bdfa2e26b)
 	- [The Complete Strength Training Guide](https://omnivore.app/me/the-complete-strength-training-guide-stronger-by-science-1839ec92c4b)
 	  collapsed:: true
 	  site:: [strongerbyscience.com](https://www.strongerbyscience.com/complete-strength-training-guide)

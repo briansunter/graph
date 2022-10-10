@@ -12,7 +12,7 @@ date: 2022-08-23
 start-date:
 - Sep 5th, 2022
 title: newsletter-issue-8
-lastMod: 2022-10-04
+lastMod: 2022-10-09
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 
@@ -20,7 +20,7 @@ lastMod: 2022-10-04
 
 I'm continuing to work on the [algorithms-boot-camp]({{< ref "algorithms-boot-camp" >}}) section of this site.
 
-I'm working through a couple courses now including [abdul bari algorithms]({{< ref "abdul bari algorithms" >}}) and Stanford's algorithms course, and sharing some notes here.
+I'm working through a couple courses now including [abdul bari algorithms]({{< ref "abdul bari algorithms" >}}) and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/), and sharing some notes here.
 
 I'm going over some of the math in Volume 1 of The Art of Computer Computer programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
 
@@ -78,7 +78,7 @@ If you are the first to find an error, Donald Knuth will personally write you a 
 
 For more info on [Knuth Checks, see here.](https://en.wikipedia.org/wiki/Knuth_reward_check)
 
-# Brain Food 🧠 Donald Knuth
+# Brain Food 🧠 Theater of Thought
 
 In this section, I'll share some interesting articles and "food for thought"
 

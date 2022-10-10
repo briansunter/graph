@@ -11,7 +11,7 @@ tags:
 date: 2022-08-22
 math: true
 categories:
-lastMod: 2022-10-03
+lastMod: 2022-10-09
 ---
 ## Introduction to Algorithms
 
@@ -369,3 +369,56 @@ $$k^2> n $$
 $$k > \sqrt{n}$$
 
 Therefore, the time complexity is $$O(n^2)$$
+
+### Multiply i value
+
+```js
+for(i=0; i<n;i=i*2){
+  stmt()
+}
+```
+
+How many times will this execute?
+
+|k|i|
+|--|--|
+|1|1|
+|2|2|
+|3|2^2|
+|4|2^3|
+
+2^k
+
+assume`i>=n`  which breaks the loop
+
+$i=2^k$
+
+$2^k=n$
+
+$k=\log_2 n$
+
+The time complexity is $O(\log n)$
+
+### Divide i value
+
+```js
+for(i=0; i<n;i=i/2){
+  stmt()
+}
+```
+
+$$\frac{n}{2}, \frac{n}{2^2},\frac{n}{2^3},...$$
+
+i < 1
+
+$\frac{n}{2^k} = 1$
+
+$n=2^k$
+
+$k=\log_2 n$
+
+The time complexity is $O(\log n)$
+
+
+
+
