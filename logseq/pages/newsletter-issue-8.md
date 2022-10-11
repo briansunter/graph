@@ -16,9 +16,9 @@ newsletter-subscribers:: 253
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 # Summary and Reflection 🤔
 	- I'm continuing to work on the [[algorithms-boot-camp]] section of this site.
-	- I'm working through a couple courses now including [[abdul bari algorithms]] and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/), and sharing some notes here.
+	- I'm working through a few courses now including the [[abdul bari algorithms]] course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [[abdul bari algorithms part-1]]
 	- I'm going over some of the math in Volume 1 of The Art of Computer Computer programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
-	- I also am interested in Werner Herzog's new movie about consciousness and brain computer interfaces. He's a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
+	- I also am interested in Werner Herzog's new movie about consciousness and brain computer interfaces called "Theatre of Thought'. Herzog is a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
 # Updates 🆕
 	- ### [[integer-sum-formula]]
 		- ![image.png](../assets/image_1665465573710_0.png)
@@ -55,7 +55,7 @@ newsletter-subscribers:: 253
 	- Werner Herzog is a german filmmaker who has produced, written, and directed more than sixty feature and documentary films. I really appreciate his unconventional creativity, as well as the sound of his voice.
 	- ### [[Werner Herzog Rules for Filmmaking]]
 		- He just came out with a new movie about consciousness and brain computer interfaces called "Theatre of Thought"
-		- He interviews people working on technology that lets your brain communicate directly with computers. The Matrix is one of my favorite movies of all time, and I'm really interested in this area of research. I'm excited to check out this film when it's released.
+		- He interviews people working on technology that lets your brain communicate directly with computers. The Matrix is one of my favorite movies of all time, and I'm really interested in this area of research. I'm excited to check out this film when it's released. I still can't find a place to watch it online yet.
 		- > Werner Herzog sets his sights on yet another mysterious landscape — the human brain — for clues as to why a hunk of tissue can produce profound thoughts and feelings while considering the philosophical, ethical, and social implications of fast-advancing neural technology.
 		- <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		- I've taken some [notes on Herzog's creative approach to filmmaking here]([[Werner Herzog Rules for Filmmaking]]).

@@ -8,7 +8,7 @@ categories:
 date: 2022-10-02
 math: true
 title: integer-sum-formula
-lastMod: 2022-10-10
+lastMod: 2022-10-11
 ---
 ## Summary
 
@@ -65,21 +65,11 @@ We can create a square by duplicating this stack and flipping it upside down
 
 Notice by flipping it, one side is n and the other is n +1
 
-The area of a square is length times width -> $n(n+1)$
+The area of a square is length time width,  which is $n(n+1)$ in this square
 
 We need to divide this by two, because we only want the blue staircase part
 
 This gives us the final equation $\frac{n(n+1)}{2}$
-
-
-
-
-
-
-
-
-
-
 
 ### Proof by Induction
 
@@ -121,12 +111,8 @@ $\frac{n(n + 1)}{2}$ vs  $\frac{(n + 1)((n + 1) +1)}{2}$
 
 This shows how you can validate the equation is correct using induction. We start with the known base case, then show that given n, we can find any n+1
 
-
-
 ## Resources
 
 [Sum of n, n², or n³ | Brilliant Math & Science Wiki](https://brilliant.org/wiki/sum-of-n-n2-or-n3)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eHbtc50-qXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-

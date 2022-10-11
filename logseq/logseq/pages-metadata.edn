@@ -30,11 +30,11 @@
   :block/updated-at 1660618396774}
  {:block/name "abdul bari algorithms",
   :block/created-at 1661226133750,
-  :block/updated-at 1661651749710}
+  :block/updated-at 1665510087218}
  {:block/name "abdul bari algorithms course",
   :block/created-at 1665384384416,
   :block/updated-at 1665384708839}
- {:block/name "abdul bari algorithms/part-1",
+ {:block/name "abdul bari algorithms part-1",
   :block/created-at 1661226133749,
   :block/updated-at 1665381950967}
  {:block/name "abdul bari algorithms/part-2",
@@ -306,7 +306,7 @@
   :block/updated-at 1660618398552}
  {:block/name "integer-sum-formula",
   :block/created-at 1664729980593,
-  :block/updated-at 1665466251420}
+  :block/updated-at 1665511000768}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}
@@ -474,7 +474,7 @@
   :block/updated-at 1661657676251}
  {:block/name "newsletter-issue-8",
   :block/created-at 1662517801447,
-  :block/updated-at 1665467250549}
+  :block/updated-at 1665510673748}
  {:block/name "newsletter-roadmap",
   :block/created-at 1660618396823,
   :block/updated-at 1660618396823}
@@ -517,6 +517,9 @@
  {:block/name "oct 10th, 2022",
   :block/created-at 1665465107088,
   :block/updated-at 1665469414499}
+ {:block/name "oct 11th, 2022",
+  :block/created-at 1665482417976,
+  :block/updated-at 1665509977537}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664729918592,
   :block/updated-at 1664730061968}
@@ -534,7 +537,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1665468662829}
+  :block/updated-at 1665511084972}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}
@@ -765,7 +768,7 @@
   :block/updated-at 1660707120770}
  {:block/name "werner herzog rules for filmmaking",
   :block/created-at 1662517801413,
-  :block/updated-at 1664906310738}
+  :block/updated-at 1665510911362}
  {:block/name "why clojure?",
   :block/created-at 1660969294220,
   :block/updated-at 1661146649332}
