@@ -2,11 +2,9 @@ title:: logseq-social/profile
 public:: true
 
 - # "Follow" me on logseq
-	- ^^<---^^ To follow me, make a page on your graph called [[logseq-social/profile/bsunter]] with the page properties that are nested under this block. Learn more at [logseq-social](https://briansunter.com/graph/#/page/logseq-social)  
-	  collapsed:: true
-		- ```
-		  			  public:: true
-		  			  type:: [[logseq-social/profile]]
+	- ^^<---^^ To follow me, make a page on your graph called [[logseq-social/profile/bsunter]] with the page properties that are nested under this block. Learn more at [logseq-social](https://briansunter.com/graph/#/page/logseq-social)
+		- ```		  public:: true
+		  			  type:: logseq-social/profile
 		  			  logseq-social/version:: 0.0.1
 		  			  logseq-social/id:: bsunter
 		  			  logseq-social/name:: Brian Sunter
@@ -16,6 +14,7 @@ public:: true
 		  			  logseq-social/public-graph:: https://briansunter.com/graph
 		  			  logseq-social/twitter:: [bsunter](https://twitter.com/Bsunter)
 		  			  title:: logseq-social/profile/bsunter
+		  r
 		  ```
 - # About Me
 	- Hey everyone! 👋 My name is Brian Sunter. I'm a software engineer in San Francisco.  I've been taking notes since I opened a .docx file 15 years ago and started writing down my feelings in a stream of consciousness.  I hope to share some things I found useful with you all!

@@ -9,10 +9,8 @@ lastMod: 2022-10-10
 
 ^^<---^^ To follow me, make a page on your graph called [[logseq-social/profile/bsunter]] with the page properties that are nested under this block. Learn more at [logseq-social](https://briansunter.com/graph/#/page/logseq-social)  
 
- 
-```
-			  public:: true
-			  type:: [logseq-social/profile]({{< ref "logseq-social/profile" >}})
+```		  public:: true
+			  type:: logseq-social/profile
 			  logseq-social/version:: 0.0.1
 			  logseq-social/id:: bsunter
 			  logseq-social/name:: Brian Sunter
@@ -22,6 +20,7 @@ lastMod: 2022-10-10
 			  logseq-social/public-graph:: https://briansunter.com/graph
 			  logseq-social/twitter:: [bsunter](https://twitter.com/Bsunter)
 			  title:: logseq-social/profile/bsunter
+r
 ```
 
 # About Me  
