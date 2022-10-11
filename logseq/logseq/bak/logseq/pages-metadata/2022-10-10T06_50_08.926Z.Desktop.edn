@@ -33,7 +33,7 @@
   :block/updated-at 1661651749710}
  {:block/name "abdul bari algorithms course",
   :block/created-at 1665384384416,
-  :block/updated-at 1665384708839}
+  :block/updated-at 1665384501504}
  {:block/name "abdul bari algorithms/part-1",
   :block/created-at 1661226133749,
   :block/updated-at 1665381950967}
@@ -306,7 +306,7 @@
   :block/updated-at 1660618398552}
  {:block/name "integer-sum-formula",
   :block/created-at 1664729980593,
-  :block/updated-at 1665466251420}
+  :block/updated-at 1665342466046}
  {:block/name "interview-with-an-ai",
   :block/created-at 1660618397386,
   :block/updated-at 1660618397386}
@@ -396,10 +396,7 @@
   :block/updated-at 1660618397383}
  {:block/name "logseq-social/profile",
   :block/created-at 1660618397382,
-  :block/updated-at 1665466466939}
- {:block/name "logseq-social/profile/bsunter",
-  :block/created-at 1665466414580,
-  :block/updated-at 1665466414580}
+  :block/updated-at 1660618397382}
  {:block/name "logseq-tasks",
   :block/created-at 1660618397368,
   :block/updated-at 1660618397368}
@@ -474,7 +471,7 @@
   :block/updated-at 1661657676251}
  {:block/name "newsletter-issue-8",
   :block/created-at 1662517801447,
-  :block/updated-at 1665467250549}
+  :block/updated-at 1665333195531}
  {:block/name "newsletter-roadmap",
   :block/created-at 1660618396823,
   :block/updated-at 1660618396823}
@@ -514,9 +511,6 @@
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "oct 10th, 2022",
-  :block/created-at 1665465107088,
-  :block/updated-at 1665465107088}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664729918592,
   :block/updated-at 1664730061968}
@@ -534,7 +528,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1665467273305}
+  :block/updated-at 1665384268716}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}

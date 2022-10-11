@@ -8,7 +8,7 @@ categories:
 date: 2022-10-02
 math: true
 title: integer-sum-formula
-lastMod: 2022-10-09
+lastMod: 2022-10-10
 ---
 ## Summary
 
@@ -60,6 +60,26 @@ The bottom and side are both length n. We need to find the "area" to find the to
 We can create a square by duplicating this stack and flipping it upside down
 
 [[draws/2022-10-09-09-07-45.excalidraw]]
+
+![image.png](/assets/image_1665465573710_0.png)
+
+Notice by flipping it, one side is n and the other is n +1
+
+The area of a square is length times width -> $n(n+1)$
+
+We need to divide this by two, because we only want the blue staircase part
+
+This gives us the final equation $\frac{n(n+1)}{2}$
+
+
+
+
+
+
+
+
+
+
 
 ### Proof by Induction
 

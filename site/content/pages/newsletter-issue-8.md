@@ -12,7 +12,7 @@ date: 2022-08-23
 start-date:
 - Sep 5th, 2022
 title: newsletter-issue-8
-lastMod: 2022-10-09
+lastMod: 2022-10-10
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 
@@ -30,11 +30,17 @@ I also am interested in Werner Herzog's new movie about consciousness and brain 
 
 ### [integer-sum-formula]({{< ref "integer-sum-formula" >}})
 
+![image.png](/assets/image_1665465573710_0.png)
+
 How do you find the sum of the numbers 1 through 100?
 
 There's a [legend about the mathematician Charles Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [integer-sum-formula]({{< ref "integer-sum-formula" >}}) as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
 
 You can use the formula sum = n(n+1)/2 to find the sum of 1 to n numbers.
+
+This is a really good problem for studying math proofs, because there are so many different proofs and variations of this equation. I linked a video in a note that includes 12+ proofs.
+
+It's also a good example of recursion, which is a fundamental computer science concept
 
 For more, see my note on [integer-sum-formula]({{< ref "integer-sum-formula" >}})
 
@@ -49,6 +55,8 @@ We are more connected and have more information than ever, but it's almost impos
 I've always thought it was interesting how some of the greatest computer scientists like Donald Knuth and Edsger W. Dijkstra were cautious about certain technology trends like email.
 
 ## On Email
+
+![image.png](/assets/image_1665467044511_0.png)
 
 Donald Knuth is a computer scientist who has been writing a book series called "The Art of Computer Programming" for over 50 years. The book is a comprehensive treatise on the subject of computer programming.
 
@@ -71,6 +79,8 @@ Here's what he thinks about email:
 [See Knuth's post on email, for more.](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
 ## Knuth Reward Checks
+
+![image.png](/assets/image_1665466908028_0.png)
 
 There is an email address for reporting errors in his books, but his secretary filters and prints the messages for him. The email address is strictly for reporting technical, typographical, or historical errors in his book.
 
