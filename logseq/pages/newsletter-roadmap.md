@@ -130,7 +130,7 @@ date:: 2022-07-10
 			-
 		- Link
 			-
-	- [[project/meal-prep]]
+	- [[meal-prep]]
 	- linear recursion
 		- factorial
 	- tree recursion

@@ -17,15 +17,15 @@ newsletter-subscribers:: 253
 # Summary and Reflection 🤔
 	- I'm continuing to work on the [[algorithms-boot-camp]] section of this site.
 	- I'm working through a few courses now including the [[abdul bari algorithms]] course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [[abdul bari algorithms part-1]]
-	- I'm going over some of the math in Volume 1 of The Art of Computer Computer programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
-	- I also am interested in Werner Herzog's new movie about consciousness and brain computer interfaces called "Theatre of Thought'. Herzog is a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
+	- I'm going over some of the math in Volume 1 of The Art of Computer Computer Programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
+	- I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
 # Updates 🆕
 	- ### [[integer-sum-formula]]
 		- ![image.png](../assets/image_1665465573710_0.png)
 		- How do you find the sum of the numbers 1 through 100?
-		- There's a [legend about the mathematician Charles Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [[integer-sum-formula]] as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
+		- There's a [legend about the mathematician Carl Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [[integer-sum-formula]] as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
 		- You can use the formula sum = n(n+1)/2 to find the sum of 1 to n numbers.
-		- This is a really good problem for studying math proofs, because there are so many different proofs and variations of this equation. I linked a video in a note that includes 12+ proofs.
+		- This is a really good problem for studying math proofs, because there are so many different proofs and variations of this equation. I linked a video in the note that includes 12+ proofs.
 		- It's also a good example of recursion, which is a fundamental computer science concept
 		- For more, see my note on [[integer-sum-formula]]
 # Productivity Toolkit 🛠️

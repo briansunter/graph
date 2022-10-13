@@ -1,5 +1,4 @@
-
-tags:: [[cooking]] [[mealprep]]
+tags:: [[cooking]] [[meal-prep]]
 
 - Treat
 	- Celery pb
