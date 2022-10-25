@@ -13,7 +13,7 @@ tags:: [[recipe]] [[cooking]]
 	- 2 cloves garlic (minced)
 	- 1/2 red bell pepper (seeded, destemmed, white pith removed, cut into thin strips)
 	- 3 green onion stalks (cut crosswise into 2-inch-long pieces)
-	- 1/4 pound spinach (washed and drained, blanched, drained, and rough chopped)
+- 1/4 pound spinach (washed and drained, blanched, drained, and rough chopped)
 	- 1/4 pound cooked sliced bulgogi (beef teriyaki or deboned kalbi)
 	- 1 large egg (beaten, fried, sliced into strips)
 	- kosher salt

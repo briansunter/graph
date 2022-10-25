@@ -253,7 +253,7 @@ Link
 
 
 
-[[project/meal-prep]]
+[[meal-prep]]
 
 linear recursion
 

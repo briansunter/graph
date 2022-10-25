@@ -1,21 +1,18 @@
-[{:block/name ".ol",
+[{:block/name "",
+  :block/created-at 1666137138699,
+  :block/updated-at 1666137138699}
+ {:block/name ".ol",
   :block/created-at 1660618396911,
   :block/updated-at 1660618396911}
  {:block/name ".ol-nested",
   :block/created-at 1660618398541,
   :block/updated-at 1660618398541}
- {:block/name "000000",
-  :block/created-at 1665342447740,
-  :block/updated-at 1665342447740}
  {:block/name "100 newsletter subscribers",
   :block/created-at 1660618396824,
   :block/updated-at 1660717299106}
  {:block/name "1960s",
   :block/created-at 1660804578772,
   :block/updated-at 1660804578772}
- {:block/name "228be6",
-  :block/created-at 1665342447739,
-  :block/updated-at 1665342447739}
  {:block/name "[",
   :block/created-at 1661658471084,
   :block/updated-at 1661658471084}
@@ -36,7 +33,7 @@
   :block/updated-at 1665384708839}
  {:block/name "abdul bari algorithms part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1665381950967}
+  :block/updated-at 1666139575512}
  {:block/name "abdul bari algorithms/part-2",
   :block/created-at 1662517801659,
   :block/updated-at 1662517801659}
@@ -70,6 +67,9 @@
  {:block/name "asparagus",
   :block/created-at 1660618398037,
   :block/updated-at 1660618398037}
+ {:block/name "audio",
+  :block/created-at 1666657794799,
+  :block/updated-at 1666657794799}
  {:block/name "aug 15th, 2022",
   :block/created-at 1660619761978,
   :block/updated-at 1660619761978}
@@ -121,6 +121,9 @@
  {:block/name "budget",
   :block/created-at 1665697803993,
   :block/updated-at 1665697803993}
+ {:block/name "bulgolgi",
+  :block/created-at 1665869281993,
+  :block/updated-at 1665869281993}
  {:block/name "c",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -172,6 +175,9 @@
  {:block/name "contents",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
+ {:block/name "controls",
+  :block/created-at 1666657794796,
+  :block/updated-at 1666657794796}
  {:block/name "cook-time",
   :block/created-at 1660622829546,
   :block/updated-at 1660622829546}
@@ -190,6 +196,12 @@
  {:block/name "course",
   :block/created-at 1661226153953,
   :block/updated-at 1661226153953}
+ {:block/name "cover-image",
+  :block/created-at 1666657277703,
+  :block/updated-at 1666657277703}
+ {:block/name "coverimage",
+  :block/created-at 1666657794797,
+  :block/updated-at 1666657794797}
  {:block/name "daily highlight productivity technique",
   :block/created-at 1660618396940,
   :block/updated-at 1660805713265}
@@ -221,20 +233,14 @@
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
  {:block/name "dokkōdō",
-  :block/created-at 1660618396911,
-  :block/updated-at 1660618396911}
+  :block/created-at 1666066713972,
+  :block/updated-at 1666066713972}
+ {:block/name "donations",
+  :block/created-at 1666137196908,
+  :block/updated-at 1666137216642}
  {:block/name "done",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
- {:block/name "draws/2022-10-09-08-39-52.excalidraw",
-  :block/created-at 1665341330940,
-  :block/updated-at 1665341330940}
- {:block/name "draws/2022-10-09-09-03-29.excalidraw",
-  :block/created-at 1665342349719,
-  :block/updated-at 1665342349719}
- {:block/name "draws/2022-10-09-09-07-45.excalidraw",
-  :block/created-at 1665344888324,
-  :block/updated-at 1665344888324}
  {:block/name "emacs daemon mode on macos",
   :block/created-at 1661148859408,
   :block/updated-at 1661149013185}
@@ -256,6 +262,15 @@
  {:block/name "functional",
   :block/created-at 1660969710565,
   :block/updated-at 1660969710565}
+ {:block/name "game review template",
+  :block/created-at 1666066999695,
+  :block/updated-at 1666654460002}
+ {:block/name "gameplay",
+  :block/created-at 1666657794798,
+  :block/updated-at 1666657794798}
+ {:block/name "gaming",
+  :block/created-at 1666295766684,
+  :block/updated-at 1666295766684}
  {:block/name "garlic shrimp",
   :block/created-at 1665697997759,
   :block/updated-at 1665698739559}
@@ -304,6 +319,9 @@
  {:block/name "honey garlic salmon",
   :block/created-at 1660618397665,
   :block/updated-at 1660620275022}
+ {:block/name "horror",
+  :block/created-at 1666657794793,
+  :block/updated-at 1666657794793}
  {:block/name "how to take smart notes",
   :block/created-at 1661226072161,
   :block/updated-at 1661226072161}
@@ -399,7 +417,7 @@
   :block/updated-at 1660710445119}
  {:block/name "logseq openai",
   :block/created-at 1660618398072,
-  :block/updated-at 1660618398072}
+  :block/updated-at 1665701454224}
  {:block/name "logseq-getting-started",
   :block/created-at 1660618397371,
   :block/updated-at 1662087185460}
@@ -448,6 +466,9 @@
  {:block/name "meal-prep",
   :block/created-at 1660618398553,
   :block/updated-at 1665699207958}
+ {:block/name "meal-preptype:: [[project]]",
+  :block/created-at 1665897538088,
+  :block/updated-at 1665897538088}
  {:block/name "menu",
   :block/created-at 1665697953931,
   :block/updated-at 1665697953931}
@@ -550,21 +571,45 @@
  {:block/name "oct 11th, 2022",
   :block/created-at 1665482417976,
   :block/updated-at 1665509977537}
- {:block/name "oct 12th, 2022",
-  :block/created-at 1665595945646,
-  :block/updated-at 1665595945646}
  {:block/name "oct 13th, 2022",
   :block/created-at 1665697571781,
-  :block/updated-at 1665699191356}
+  :block/updated-at 1665710749121}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1665741631601,
+  :block/updated-at 1665741631601}
+ {:block/name "oct 15th, 2022",
+  :block/created-at 1665868109335,
+  :block/updated-at 1665871876947}
+ {:block/name "oct 17th, 2022",
+  :block/created-at 1666062191005,
+  :block/updated-at 1666067280151}
+ {:block/name "oct 18th, 2022",
+  :block/created-at 1666137138718,
+  :block/updated-at 1666137318178}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666176293403,
+  :block/updated-at 1666176293403}
+ {:block/name "oct 20th, 2022",
+  :block/created-at 1666263986692,
+  :block/updated-at 1666295752835}
+ {:block/name "oct 21st, 2022",
+  :block/created-at 1666346432536,
+  :block/updated-at 1666401824204}
+ {:block/name "oct 22nd, 2022",
+  :block/created-at 1666511015076,
+  :block/updated-at 1666511031234}
+ {:block/name "oct 23rd, 2022",
+  :block/created-at 1666519218250,
+  :block/updated-at 1666519218250}
+ {:block/name "oct 24th, 2022",
+  :block/created-at 1666652236979,
+  :block/updated-at 1666654478714}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664729918592,
   :block/updated-at 1664730061968}
  {:block/name "oct 3rd, 2022",
   :block/created-at 1660618396790,
   :block/updated-at 1664813452316}
- {:block/name "oct 4th, 2022",
-  :block/created-at 1664905649943,
-  :block/updated-at 1664905649943}
  {:block/name "oct 9th, 2022",
   :block/created-at 1665333029702,
   :block/updated-at 1665384093452}
@@ -573,7 +618,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1665697586011}
+  :block/updated-at 1666403011896}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}
@@ -634,6 +679,9 @@
  {:block/name "projects",
   :block/created-at 1665384287011,
   :block/updated-at 1665384323783}
+ {:block/name "publisher",
+  :block/created-at 1666296208560,
+  :block/updated-at 1666296208560}
  {:block/name "python",
   :block/created-at 1661148208679,
   :block/updated-at 1661148208679}
@@ -652,9 +700,15 @@
  {:block/name "recipes",
   :block/created-at 1660622829544,
   :block/updated-at 1660622829544}
+ {:block/name "recommended",
+  :block/created-at 1666657794799,
+  :block/updated-at 1666657794799}
  {:block/name "restoring-old-photos-with-ai",
   :block/created-at 1660618398551,
   :block/updated-at 1660618398551}
+ {:block/name "review",
+  :block/created-at 1666295861335,
+  :block/updated-at 1666295861335}
  {:block/name "roadtrip",
   :block/created-at 1660804578771,
   :block/updated-at 1660804578771}
@@ -706,6 +760,9 @@
  {:block/name "socialimage",
   :block/created-at 1661060437628,
   :block/updated-at 1661060437628}
+ {:block/name "soma",
+  :block/created-at 1666137138782,
+  :block/updated-at 1666657794800}
  {:block/name "sorting",
   :block/created-at 1660618396891,
   :block/updated-at 1660618396891}
@@ -733,9 +790,6 @@
  {:block/name "space-complexity",
   :block/created-at 1660618396893,
   :block/updated-at 1660618396893}
- {:block/name "stanford algorithms course",
-  :block/created-at 1665596003161,
-  :block/updated-at 1665596246376}
  {:block/name "start-date",
   :block/created-at 1660618396792,
   :block/updated-at 1660618396792}
@@ -748,6 +802,9 @@
  {:block/name "strawberry-protein-shake",
   :block/created-at 1660618398035,
   :block/updated-at 1660618398035}
+ {:block/name "survival",
+  :block/created-at 1666657794793,
+  :block/updated-at 1666657794793}
  {:block/name "tech",
   :block/created-at 1664906451395,
   :block/updated-at 1664906451395}
@@ -796,9 +853,15 @@
  {:block/name "url",
   :block/created-at 1660974398956,
   :block/updated-at 1660974398956}
+ {:block/name "value",
+  :block/created-at 1666657794795,
+  :block/updated-at 1666657794795}
  {:block/name "vegetable",
   :block/created-at 1660618398844,
   :block/updated-at 1660618398844}
+ {:block/name "visuals",
+  :block/created-at 1666657794796,
+  :block/updated-at 1666657794796}
  {:block/name "wait",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}

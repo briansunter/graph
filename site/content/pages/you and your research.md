@@ -3,7 +3,7 @@ showtoc: true
 tocopen: true
 date: 2022-08-17
 tags:
-- newsletter/issue/1
+- newsletter-issue-1
 - greatperson
 - newsletter
 description: Notes from the talk You and Your Research by Richard Hamming, about how to do Nobel Prize level work.

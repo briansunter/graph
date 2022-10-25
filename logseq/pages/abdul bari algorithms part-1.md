@@ -134,7 +134,6 @@ math:: true
 		- How do we analyze time complexity for given code?
 		- What things affect time complexity?
 		- We need to figure out how many times `stmt` executes
-		- ##
 		- ## Normal for loops
 			- `stmt` will be executed n times, so it's $$O(n)$$
 			- ```js
@@ -184,15 +183,15 @@ math:: true
 			  |3|0[:br]1[:br]2[:br]3|3|
 			  |...|...|...|
 			  |n|0[:br]1[:br]2[:br]...[:br]n|n|
-		- How many times is `stmt` executed?
-		- The outer loop goes from 0 to n
-		- When `i` is 1, `stmt` is executed 1 times
-		- When `i` is 2, `stmt` is executed 2 times
-		- Finding out how many times `stmt` is executed is the same as the [[integer-sum-formula]]
-		- This is equivalent to 1 + 2 + 3 + 4 ... + n
-		- We can use $$f(n)=\frac{n(n+1)}{2}$$
-		- This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
-		- This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
+			- How many times is `stmt` executed?
+			- The outer loop goes from 0 to n
+			- When `i` is 1, `stmt` is executed 1 times
+			- When `i` is 2, `stmt` is executed 2 times
+			- Finding out how many times `stmt` is executed is the same as the [[integer-sum-formula]]
+			- This is equivalent to 1 + 2 + 3 + 4 ... + n
+			- We can use $$f(n)=\frac{n(n+1)}{2}$$
+			- This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
+			- This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
 		- ## Outer loop does not execute n times
 		  collapsed:: true
 			- ```js
@@ -220,37 +219,119 @@ math:: true
 			- $$k^2> n $$
 			- $$k > \sqrt{n}$$
 			- Therefore, the time complexity is $$O(n^2)$$
-		- ### Multiply i value
+			- ### Multiply i value
+			  collapsed:: true
+				- ```js
+				  for(i=0; i<n;i=i*2){
+				    stmt()
+				  }
+				  ```
+				- How many times will this execute?
+				- |k|i|
+				  |--|--|
+				  |1|1|
+				  |2|2|
+				  |3|2^2|
+				  |4|2^3|
+				- 2^k
+				- assume`i>=n`  which breaks the loop
+				- $i=2^k$
+				- $2^k=n$
+				- $k=\log_2 n$
+				- The time complexity is $O(\log n)$
+			- ### Divide i value
+			  collapsed:: true
+				- ```js
+				  for(i=0; i<n;i=i/2){
+				    stmt()
+				  }
+				  ```
+				- $$\frac{n}{2}, \frac{n}{2^2},\frac{n}{2^3},...$$
+				- i < 1
+				- $\frac{n}{2^k} = 1$
+				- $n=2^k$
+				- $k=\log_2 n$
+				- The time complexity is $O(\log n)$
+		- ## While loops and If
+		  collapsed:: true
+			- <iframe width="560" height="315" src="https://www.youtube.com/embed/p1EnSvS3urU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			- How can we analyze functions with while loops and if statements?
+			- We can make a table of values to understand the exection
 			- ```js
-			  for(i=0; i<n;i=i*2){
-			    stmt()
+			  while (m != n){
+			    if (m > n){
+			      m=m-n
+			    } else {
+			      n = n-m
+			    }
 			  }
 			  ```
-			- How many times will this execute?
-			- |k|i|
+			- |m=16|n=2|
 			  |--|--|
-			  |1|1|
+			  |14|2|
+			  |12|2|
+			  |10|2|
+			  |8|2|
+			  |6|2|
+			  |4|2|
 			  |2|2|
-			  |3|2^2|
-			  |4|2^3|
-			- 2^k
-			- assume`i>=n`  which breaks the loop
-			- $i=2^k$
-			- $2^k=n$
-			- $k=\log_2 n$
-			- The time complexity is $O(\log n)$
-		- ### Divide i value
-			- ```js
-			  for(i=0; i<n;i=i/2){
-			    stmt()
-			  }
-			  ```
-			- $$\frac{n}{2}, \frac{n}{2^2},\frac{n}{2^3},...$$
-			- i < 1
-			- $\frac{n}{2^k} = 1$
-			- $n=2^k$
-			- $k=\log_2 n$
-			- The time complexity is $O(\log n)$
-		-
-			-
--
+			- We can see that with an input of 16, it will run 7 times, so 16/2 = 8, which can give us the upper limit
+			- The time complexity is n/2 which simplifies to $O(n)$
+		- ## Classes of Functions
+		  collapsed:: true
+			- <iframe width="560" height="315" src="https://www.youtube.com/embed/w7t4_JUUTeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			- ### Types of time functions
+				- These are listed in increasing size
+				- #### Constant time $O(1)$
+					- Always runs in a fixed amount of time, doesn't depend on input
+					- $f(n)=2$ or $f(n)=5000$ are both constant, which is described as $O(1)$
+				- ### Logarithmic $O(log(n))$
+					- $\sqrt{n}$
+				- ### Linear $O(n)$
+					- $f(n)=2n+3$ and $500n+700$ both simplify to $O(n)$
+					- $O(n * log(n))$
+				- ### Quadratic $O(n^2)$
+				- ### Cubic $O(n^3)$
+				- ### Exponential $O(2^n)$
+			- ### Sample values for different classes
+				- |$\log_2 n$|$n$|$n^2$|$2^n$|
+				  |--|--|--|--|
+				  |0|1|1|2|
+				  |1|2|4|4|
+				  |2|4|16|16|
+				  |3|8|64|256|
+				- We can see that the growth is much faster for the exponential equations
+				- When n gets large, $n^{100}$ will always be less than $2^n$
+				- ![image.png](../assets/image_1666064845040_0.png){:height 446, :width 413}
+					- By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
+		- ## Asymptotic Notation
+			- <iframe width="560" height="315" src="https://www.youtube.com/embed/A03oI0znAoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			- ### Big O - $O$
+				- Upper Bound
+				- $f(n) = O(g(n))$ means there are positive constants c and k, such that $0 ≤ f(n) ≤ c * g(n)$ for all $n ≥ k$.
+				- If you were to graph big of bounding function, your function's value would always be less than the big O upper bound
+				- ![image.png](../assets/image_1666066293557_0.png)
+					- - [NIST](https://xlinux.nist.gov/dads/HTML/theta.html)
+				- If you have a function $f(n)=2n+3$
+				- What's an example of a function that will always be greater?
+				- $10n > 2n+3$ 10 is the constant c, from the Big o definition $c *g(n)$
+				- Try to use the closest function for the upper bound, even though higher values like $n^2$ could be the upper bound, it's less useful
+				-
+			- ### Big Omega - Ω
+				- Lower Bound
+				- Similar to Big O notation, but your function will always be greater than the omega function
+				- $f(n) = O(g(n))$ means there are positive constants c and k, such that $ f(n) ≥ c * g(n)$ for all $n ≥ k$.
+				- ![image.png](../assets/image_1666138709938_0.png)
+				-
+			- ### Theta - Θ
+				- Average Bound
+				- $f(n) = Θ (g(n))$ means there are positive constants $c_1, c_2$, and k, such that $0 ≤ c_1*g(n) ≤ f(n) ≤ c_2 * g(n)$ for all n ≥ k.
+				- Consider $f(n) = 2n+3$
+				- $1 *n <= 2n +3 <= 5 * n$
+				- $c_1 * g(n) <= f(n) <= c_2 * g(n)$
+				- In this case $f(n) =Θ(n)$
+				- Since this is average notation, you can't use $Θ(n^2)$, it's out of the bounds
+				-
+				-
+				-
+				- ![image.png](../assets/image_1666139032348_0.png)

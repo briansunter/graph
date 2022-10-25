@@ -1,7 +1,7 @@
 ---
 tags:
 - abdul bari algorithms
-- abdul bari algorithms/part-1
+- abdul bari algorithms part-1
 - programing
 - time complexity
 - algorithms-boot-camp

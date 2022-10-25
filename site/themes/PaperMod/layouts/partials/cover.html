@@ -1,12 +1,12 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
-{{- if (and .Params.cover_image (not $.isHidden)) }}
+{{- if (and .Params.coverimage (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 <figure class="entry-cover">
     {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
-    {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover_image)) }}
+    {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.coverimage)) }}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
-        {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover_image) | absURL }}" target="_blank"
+        {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.coverimage) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
         {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
         {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
@@ -23,12 +23,12 @@
             sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" 
             width="{{ $cover.Width }}" height="{{ $cover.Height }}">
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
-        <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.cover_image) | absURL }}" alt="{{ $alt }}">
+        <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.coverimage) | absURL }}" alt="{{ $alt }}">
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover_image) | absURL }}" target="_blank"
+        {{- if $addLink }}<a href="{{ (.Params.coverimage) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.cover_image) | absURL }}" alt="{{ $alt }}">
+            <img loading="lazy" src="{{ (.Params.coverimage) | absURL }}" alt="{{ $alt }}">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
