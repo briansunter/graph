@@ -305,6 +305,7 @@ math:: true
 				- ![image.png](../assets/image_1666064845040_0.png){:height 446, :width 413}
 					- By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
 		- ## Asymptotic Notation
+		  collapsed:: true
 			- <iframe width="560" height="315" src="https://www.youtube.com/embed/A03oI0znAoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			- ### Big O - $O$
 				- Upper Bound
@@ -335,3 +336,109 @@ math:: true
 				-
 				-
 				- ![image.png](../assets/image_1666139032348_0.png)
+			- ### Properties of asymptotic notation
+			  collapsed:: true
+				- <iframe width="560" height="315" src="https://www.youtube.com/embed/NI4OKSvGAgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				- ### General Property
+					- if f(n) is O(g(n)) then a * f(n) is O(g(n))
+						- e.g. f(n) = 2 * n^2 + 5 is O(n^2)
+						- 7 * f(n) = 7 (2n^2 +5) = 14n^2 + 35 is O(n^2)
+				- ### Reflexive Property
+					- If f(n) is given, then f(n) = O(n)
+						- ex f(n) = n^2 then O(n^2)
+				- ### Transitive Property
+					- if f(n) is O(g(n)) and g(n) is O(h(n))
+					- then f(n) is O(h(n))
+					- eg. f(n) = n, g(n) = n^2, h(n) = n^3
+						- n = O(n^2) and n^2 is O(n^3)
+						- then n is O(n^3)
+					- if g(n) is upper bound for f(n) and h(n) is upper bound for (g), then h(n) is also an upper bound for f(n)
+				- ### Symmetric Property
+					- Only true for Θ notation
+					- if f(n) is Θ(g(n)) then g(n) is Θ(f(n))
+					- f(n) = n^2 , g(n) = n^2
+					- g(n) = Θ(n^2)
+				- ### Transpose Symmetric
+					- True for O and  Ω
+					- if f(n) =O(g(n)) then g(n) is Ω(f(n))
+					- eg f(n) = n, g(n) =n^2
+					- then n is O(n^2) and n^2 is Ω(n)
+					- if f(n) is O(g(n)) and f(n)= Ω(g(n))
+					- g(n) <= f(n)  <= g(n) then f(n) = Θ(g(n))
+					- f(n) + d(n) , O(max(g(n), d(n)))
+					- f(n) = n = O(n)
+					- d(n) = n^ = O(n^2)
+					- then f(n) + d(n) = n + n^2 = O(n^2)
+					- When adding, take the bigger term
+					- f(n) * d(n) = f(n) * d(n^2) =O(n^2)
+				-
+					-
+				-
+		- ## Comparison of functions
+			- If we have two functions, how can we show which is the upper bound and which is the lower bound?
+				- For example, $n^2$ vs $n^3$
+			- We can sample values and observe which is greater in a table
+			- |$n$|$n^2$|$n^3$|
+			  |--|--|--|
+			  |2|$2^2=4$|$2^3=8$|
+			  |3|$3^2=9$|$3^3=27$|
+			  |4|$4^2=16$|$4^3=64$|
+			- Apply $log$ on both sides
+			- $n^2$ vs $n^3$
+			- $log(n^2)$ vs $log(n^3)$
+			- This simplifies to $2log(n)$ vs $3log(n)$
+			- 2 * log(n) <= 3 * log(n)
+			- We can see that 2log(n) is always less than 3log(n)
+			- ### Logarithms guide
+				- $log(a*b) = log(a) + log(b)$
+				- $log(\frac{a}{b}) = log(a) - log(b)$
+				- $log(a^b) = b *log(a)$
+				  id:: 635b2d2c-4f81-49d7-9390-456ccba5468b
+				- $a^{log_c(b)} = b^{log_c(a)}$
+				  id:: 635b2d44-6aac-455e-8fe6-6c765994e514
+				- $a^b=n$ then $b=log_a(n)$
+				  id:: 635b2d93-ffb1-44e1-8610-81de1bbcc984
+			- ### Comparison of functions
+				- ### First example
+					- $f(n)=n^2*log(n)$
+					- $g(n) = n * log(n)^{10}$
+					- apply $log$
+					- $f(n)$
+						- $log[n^2*log(n)]$
+						- $log(n^2) + log(log(n))$
+						- $2 * log(n) + log(log(n))$
+					- $g(n)$
+						- $log[n* log(n)^{10}]$
+						- $log(n) + log(log(n))^{10}$
+						- $log(n) + 10 * log(log(n))$
+				- ### Second Example
+					- ### $f(n)=3*n^{\sqrt{n}}$
+					- ### $g(n) = 2^{\sqrt{n} * log_2(n)}$
+						- using the property ((635b2d2c-4f81-49d7-9390-456ccba5468b))
+						- $2^{log_2(n)^{\sqrt(n)}}$
+						- using the property ((635b2d44-6aac-455e-8fe6-6c765994e514))
+						- $(n^{\sqrt{n}})^{log_2(2)}$
+						- $log_2(2)=1$
+						- so it simplifies to $n^{\sqrt{n}}$
+					- so $f(n)=3*n^{\sqrt{n}}$ and $g(n)=n^{\sqrt{n}}$
+				- ### Third example
+					- ### $f(n) = n^{log(n)}$
+						- Apply log
+						- $log(n^{log(n)})$
+						- The power inside the log statement comes out via the third formula
+							- ((635b2d2c-4f81-49d7-9390-456ccba5468b))
+						- $log(n) * log(n)$
+					- ### $g(n)=2^{\sqrt{n}}$
+						- Apply log
+						- $g(n)=2^{\sqrt{n}}$
+						- $g(n)=log(2^{\sqrt{n}})$
+						- The power inside the log statement comes out via the third formula
+							- ((635b2d2c-4f81-49d7-9390-456ccba5468b))
+						- $g(n)=\sqrt{n} * log(2)$
+						- Simplify to one $log_2(2)=1$
+					- So $f(n) = log(n)^2$ and $g(n) = \sqrt{n}$
+					-
+					-
+					-
+					-
+-

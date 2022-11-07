@@ -3,7 +3,6 @@
   :repo "trashhalo/logseq-summarizer",
   :effect false,
   :theme false},
- :_79n711y6e {:version "1.1.1", :theme false},
  :logseq-diagrams-as-code
  {:version "0.0.14",
   :repo "npgrosser/logseq-diagrams-as-code",
@@ -18,11 +17,6 @@
  {:version "v1.10.0",
   :repo "hkgnp/logseq-chartrender-plugin",
   :effect false,
-  :theme false},
- :logseq-web-parser
- {:version "1.0.4",
-  :repo "sawhney17/logseq-web-parser",
-  :effect true,
   :theme false},
  :logseq-plugin-automatic-url-title
  {:version "v1.1.0",
@@ -60,15 +54,9 @@
   :effect false,
   :theme false},
  :logseq-plugin-heading-level-shortcuts
- {:version "v0.0.4",
-  :repo "vipzhicheng/logseq-plugin-heading-level-shortcuts",
-  :effect false,
-  :theme false},
+ {:version "v0.0.5", :repo "vipzhicheng/logseq-plugin-heading-level-shortcuts", :effect false, :theme false},
  :logseq-doc
- {:version "v1.12.0",
-  :repo "sethyuan/logseq-plugin-doc",
-  :effect true,
-  :theme false},
+ {:version "v1.12.5", :repo "sethyuan/logseq-plugin-doc", :effect true, :theme false},
  :logseq-open-in-code
  {:version "v0.0.5",
   :repo "rebornix/logseq-open-in-code",
@@ -121,20 +109,14 @@
   :effect true,
   :theme false},
  :logseq-heatmap
- {:version "v2.4.2",
-  :repo "pengx17/logseq-plugin-heatmap",
-  :effect true,
-  :theme false},
+ {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false},
  :logseq-bullet-threading
  {:version "v1.1.0",
   :repo "pengx17/logseq-plugin-bullet-threading",
   :effect false,
   :theme false},
  :logseq-omnivore
- {:version "v1.9.3",
-  :repo "omnivore-app/logseq-omnivore",
-  :effect false,
-  :theme false},
+ {:version "v1.9.5", :repo "omnivore-app/logseq-omnivore", :effect false, :theme false},
  :logseq-go-home-now
  {:version "1.0.7",
   :repo "sawhney17/logseq-go-now",
@@ -179,11 +161,6 @@
  {:version "1.5.5",
   :repo "sawhney17/logseq-schrodinger",
   :effect true,
-  :theme false},
- :logseq-pomodoro-technique
- {:version "v1.0.0",
-  :repo "denvey/logseq-pomodoro-technique",
-  :effect false,
   :theme false},
  :logseq-todo-master
  {:version "v1.10.2",
@@ -279,4 +256,5 @@
  {:version "v0.2.8",
   :repo "vipzhicheng/logseq-plugin-mark-map",
   :effect false, 
-  :theme false}}
+  :theme false}
+ :logseq-plugin-gpt3-openai {:version "v1.2.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}}

@@ -3,7 +3,6 @@
   :repo "trashhalo/logseq-summarizer",
   :effect false,
   :theme false},
- :_79n711y6e {:version "1.1.1", :theme false},
  :logseq-diagrams-as-code
  {:version "0.0.14",
   :repo "npgrosser/logseq-diagrams-as-code",
@@ -18,11 +17,6 @@
  {:version "v1.10.0",
   :repo "hkgnp/logseq-chartrender-plugin",
   :effect false,
-  :theme false},
- :logseq-web-parser
- {:version "1.0.4",
-  :repo "sawhney17/logseq-web-parser",
-  :effect true,
   :theme false},
  :logseq-plugin-automatic-url-title
  {:version "v1.1.0",
@@ -180,11 +174,6 @@
   :repo "sawhney17/logseq-schrodinger",
   :effect true,
   :theme false},
- :logseq-pomodoro-technique
- {:version "v1.0.0",
-  :repo "denvey/logseq-pomodoro-technique",
-  :effect false,
-  :theme false},
  :logseq-todo-master
  {:version "v1.10.2",
   :repo "pengx17/logseq-plugin-todo-master",
@@ -279,4 +268,5 @@
  {:version "v0.2.8",
   :repo "vipzhicheng/logseq-plugin-mark-map",
   :effect false, 
-  :theme false}}
+  :theme false}
+ :logseq-plugin-gpt3-openai {:version "v1.2.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}}

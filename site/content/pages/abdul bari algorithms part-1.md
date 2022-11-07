@@ -11,7 +11,7 @@ tags:
 date: 2022-08-22
 math: true
 categories:
-lastMod: 2022-10-18
+lastMod: 2022-11-05
 ---
 ## Introduction to Algorithms
 
@@ -372,6 +372,7 @@ Therefore, the time complexity is $$O(n^2)$$
 
 ### Multiply i value
 
+
 ```js
 for(i=0; i<n;i=i*2){
   stmt()
@@ -401,6 +402,7 @@ The time complexity is $O(\log n)$
 
 ### Divide i value
 
+
 ```js
 for(i=0; i<n;i=i/2){
   stmt()
@@ -420,6 +422,7 @@ $k=\log_2 n$
 The time complexity is $O(\log n)$
 
 ## While loops and If
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p1EnSvS3urU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -452,6 +455,7 @@ We can see that with an input of 16, it will run 7 times, so 16/2 = 8, which can
 The time complexity is n/2 which simplifies to $O(n)$
 
 ## Classes of Functions
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w7t4_JUUTeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -499,6 +503,7 @@ When n gets large, $n^{100}$ will always be less than $2^n$
 By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
 
 ## Asymptotic Notation
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A03oI0znAoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -559,3 +564,205 @@ Since this is average notation, you can't use $Θ(n^2)$, it's out of the bounds
 
 
 ![image.png](/assets/image_1666139032348_0.png)
+
+### Properties of asymptotic notation
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NI4OKSvGAgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### General Property
+
+if f(n) is O(g(n)) then a * f(n) is O(g(n))
+
+e.g. f(n) = 2 * n^2 + 5 is O(n^2)
+
+7 * f(n) = 7 (2n^2 +5) = 14n^2 + 35 is O(n^2)
+
+### Reflexive Property
+
+If f(n) is given, then f(n) = O(n)
+
+ex f(n) = n^2 then O(n^2)
+
+### Transitive Property
+
+if f(n) is O(g(n)) and g(n) is O(h(n))
+
+then f(n) is O(h(n))
+
+eg. f(n) = n, g(n) = n^2, h(n) = n^3
+
+n = O(n^2) and n^2 is O(n^3)
+
+then n is O(n^3)
+
+if g(n) is upper bound for f(n) and h(n) is upper bound for (g), then h(n) is also an upper bound for f(n)
+
+### Symmetric Property
+
+Only true for Θ notation
+
+if f(n) is Θ(g(n)) then g(n) is Θ(f(n))
+
+f(n) = n^2 , g(n) = n^2
+
+g(n) = Θ(n^2)
+
+### Transpose Symmetric
+
+True for O and  Ω
+
+if f(n) =O(g(n)) then g(n) is Ω(f(n))
+
+eg f(n) = n, g(n) =n^2
+
+then n is O(n^2) and n^2 is Ω(n)
+
+if f(n) is O(g(n)) and f(n)= Ω(g(n))
+
+g(n) <= f(n)  <= g(n) then f(n) = Θ(g(n))
+
+f(n) + d(n) , O(max(g(n), d(n)))
+
+f(n) = n = O(n)
+
+d(n) = n^ = O(n^2)
+
+then f(n) + d(n) = n + n^2 = O(n^2)
+
+When adding, take the bigger term
+
+f(n) * d(n) = f(n) * d(n^2) =O(n^2)
+
+
+
+
+
+
+
+## Comparison of functions
+
+If we have two functions, how can we show which is the upper bound and which is the lower bound?
+
+For example, $n^2$ vs $n^3$
+
+We can sample values and observe which is greater in a table
+
+|$n$|$n^2$|$n^3$|
+|--|--|--|
+|2|$2^2=4$|$2^3=8$|
+|3|$3^2=9$|$3^3=27$|
+|4|$4^2=16$|$4^3=64$|
+
+Apply $log$ on both sides
+
+$n^2$ vs $n^3$
+
+$log(n^2)$ vs $log(n^3)$
+
+This simplifies to $2log(n)$ vs $3log(n)$
+
+2 * log(n) <= 3 * log(n)
+
+We can see that 2log(n) is always less than 3log(n)
+
+### Logarithms guide
+
+$log(a*b) = log(a) + log(b)$
+
+$log(\frac{a}{b}) = log(a) - log(b)$
+
+$log(a^b) = b *log(a)$
+$a^{log_c(b)} = b^{log_c(a)}$
+$a^b=n$ then $b=log_a(n)$
+### Comparison of functions
+
+### First example
+
+$f(n)=n^2*log(n)$
+
+$g(n) = n * log(n)^{10}$
+
+apply $log$
+
+$f(n)$
+
+$log[n^2*log(n)]$
+
+$log(n^2) + log(log(n))$
+
+$2 * log(n) + log(log(n))$
+
+$g(n)$
+
+$log[n* log(n)^{10}]$
+
+$log(n) + log(log(n))^{10}$
+
+$log(n) + 10 * log(log(n))$
+
+### Second Example
+
+### $f(n)=3*n^{\sqrt{n}}$
+
+### $g(n) = 2^{\sqrt{n} * log_2(n)}$
+
+using the property $log(a^b) = b *log(a)$
+
+
+$2^{log_2(n)^{\sqrt(n)}}$
+
+using the property $a^{log_c(b)} = b^{log_c(a)}$
+
+
+$(n^{\sqrt{n}})^{log_2(2)}$
+
+$log_2(2)=1$
+
+so it simplifies to $n^{\sqrt{n}}$
+
+so $f(n)=3*n^{\sqrt{n}}$ and $g(n)=n^{\sqrt{n}}$
+
+### Third example
+
+### $f(n) = n^{log(n)}$
+
+Apply log
+
+$log(n^{log(n)})$
+
+The power inside the log statement comes out via the third formula
+
+$log(a^b) = b *log(a)$
+
+
+$log(n) * log(n)$
+
+### $g(n)=2^{\sqrt{n}}$
+
+Apply log
+
+$g(n)=2^{\sqrt{n}}$
+
+$g(n)=log(2^{\sqrt{n}})$
+
+The power inside the log statement comes out via the third formula
+
+$log(a^b) = b *log(a)$
+
+
+$g(n)=\sqrt{n} * log(2)$
+
+Simplify to one $log_2(2)=1$
+
+So $f(n) = log(n)^2$ and $g(n) = \sqrt{n}$
+
+
+
+
+
+
+
+
+
+

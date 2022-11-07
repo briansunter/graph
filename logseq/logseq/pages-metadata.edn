@@ -1,7 +1,4 @@
-[{:block/name "",
-  :block/created-at 1666137138699,
-  :block/updated-at 1666137138699}
- {:block/name ".ol",
+[{:block/name ".ol",
   :block/created-at 1660618396911,
   :block/updated-at 1660618396911}
  {:block/name ".ol-nested",
@@ -13,6 +10,9 @@
  {:block/name "1960s",
   :block/created-at 1660804578772,
   :block/updated-at 1660804578772}
+ {:block/name "63698049-b8d3-45b9-995a-8da21d209f07",
+  :block/created-at 1667858505850,
+  :block/updated-at 1667858505850}
  {:block/name "[",
   :block/created-at 1661658471084,
   :block/updated-at 1661658471084}
@@ -33,7 +33,7 @@
   :block/updated-at 1665384708839}
  {:block/name "abdul bari algorithms part-1",
   :block/created-at 1661226133749,
-  :block/updated-at 1666139575512}
+  :block/updated-at 1667687468150}
  {:block/name "abdul bari algorithms/part-2",
   :block/created-at 1662517801659,
   :block/updated-at 1662517801659}
@@ -106,6 +106,9 @@
  {:block/name "blog",
   :block/created-at 1660618397640,
   :block/updated-at 1660618397640}
+ {:block/name "blog-template",
+  :block/created-at 1667763542985,
+  :block/updated-at 1667763609028}
  {:block/name "blog/how-to-take-smart-notes-roam-research",
   :block/created-at 1661226647089,
   :block/updated-at 1661226647089}
@@ -196,9 +199,6 @@
  {:block/name "course",
   :block/created-at 1661226153953,
   :block/updated-at 1661226153953}
- {:block/name "cover-image",
-  :block/created-at 1666657277703,
-  :block/updated-at 1666657277703}
  {:block/name "coverimage",
   :block/created-at 1666657794797,
   :block/updated-at 1666657794797}
@@ -310,6 +310,9 @@
  {:block/name "hawaii",
   :block/created-at 1665698739557,
   :block/updated-at 1665698739557}
+ {:block/name "headphone-eye-mask",
+  :block/created-at 1667761020721,
+  :block/updated-at 1667862503419}
  {:block/name "healthy",
   :block/created-at 1660618398946,
   :block/updated-at 1660618398946}
@@ -424,6 +427,9 @@
  {:block/name "logseq-inbox",
   :block/created-at 1660618397754,
   :block/updated-at 1660618397754}
+ {:block/name "logseq-openai-plugin",
+  :block/created-at 1667345020916,
+  :block/updated-at 1667349744695}
  {:block/name "logseq-projects",
   :block/created-at 1660618397362,
   :block/updated-at 1660622283946}
@@ -523,6 +529,9 @@
  {:block/name "newsletter-issue-8",
   :block/created-at 1662517801447,
   :block/updated-at 1665517003012}
+ {:block/name "newsletter-issue-9",
+  :block/created-at 1667685466918,
+  :block/updated-at 1667685466918}
  {:block/name "newsletter-roadmap",
   :block/created-at 1660618396823,
   :block/updated-at 1660618396823}
@@ -562,6 +571,21 @@
  {:block/name "nov 13th, 2022",
   :block/created-at 1665698650039,
   :block/updated-at 1665698650039}
+ {:block/name "nov 1st, 2022",
+  :block/created-at 1667345009868,
+  :block/updated-at 1667345021564}
+ {:block/name "nov 4th, 2022",
+  :block/created-at 1667597118011,
+  :block/updated-at 1667601195588}
+ {:block/name "nov 5th, 2022",
+  :block/created-at 1667646308254,
+  :block/updated-at 1667685720320}
+ {:block/name "nov 6th, 2022",
+  :block/created-at 1667729171558,
+  :block/updated-at 1667771637320}
+ {:block/name "nov 7th, 2022",
+  :block/created-at 1667815398101,
+  :block/updated-at 1667859655124}
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -586,9 +610,6 @@
  {:block/name "oct 18th, 2022",
   :block/created-at 1666137138718,
   :block/updated-at 1666137318178}
- {:block/name "oct 19th, 2022",
-  :block/created-at 1666176293403,
-  :block/updated-at 1666176293403}
  {:block/name "oct 20th, 2022",
   :block/created-at 1666263986692,
   :block/updated-at 1666295752835}
@@ -598,15 +619,15 @@
  {:block/name "oct 22nd, 2022",
   :block/created-at 1666511015076,
   :block/updated-at 1666511031234}
- {:block/name "oct 23rd, 2022",
-  :block/created-at 1666519218250,
-  :block/updated-at 1666519218250}
  {:block/name "oct 24th, 2022",
   :block/created-at 1666652236979,
   :block/updated-at 1666654478714}
  {:block/name "oct 25th, 2022",
   :block/created-at 1666692025760,
-  :block/updated-at 1666692025760}
+  :block/updated-at 1666750927573}
+ {:block/name "oct 28th, 2022",
+  :block/created-at 1666951223725,
+  :block/updated-at 1666983877133}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664729918592,
   :block/updated-at 1664730061968}
@@ -621,7 +642,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1666403011896}
+  :block/updated-at 1667597726527}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}
@@ -682,9 +703,6 @@
  {:block/name "projects",
   :block/created-at 1665384287011,
   :block/updated-at 1665384323783}
- {:block/name "publisher",
-  :block/created-at 1666296208560,
-  :block/updated-at 1666296208560}
  {:block/name "python",
   :block/created-at 1661148208679,
   :block/updated-at 1661148208679}
@@ -793,6 +811,9 @@
  {:block/name "space-complexity",
   :block/created-at 1660618396893,
   :block/updated-at 1660618396893}
+ {:block/name "stanford algorithms course",
+  :block/created-at 1665596003161,
+  :block/updated-at 1665596246376}
  {:block/name "start-date",
   :block/created-at 1660618396792,
   :block/updated-at 1660618396792}
