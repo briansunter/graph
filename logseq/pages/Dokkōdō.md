@@ -41,4 +41,3 @@ source:: https://www.joshuaschoenaker.com/dokkodo-musashis-21-precepts-for-life/
 	- You may abandon your own body but you must preserve your honour.
 	  id:: 62fc08ee-2b28-4a0d-be0f-62a6d69e817f
 	- Never stray from the way.
--
