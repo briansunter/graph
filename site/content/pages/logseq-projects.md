@@ -1,10 +1,10 @@
 ---
 tags:
 - blog
+date: 2022-08-21
 title: logseq-projects
 categories:
-date: 2022-08-15
-lastMod: 2022-08-15
+lastMod: 2022-11-16
 ---
 Introduction
 

@@ -8,7 +8,7 @@ tags:
 - kubernetes
 title: how to use gpt3 to learn kubernetes
 categories:
-lastMod: 2022-08-17
+lastMod: 2022-11-16
 ---
 # Intro
 

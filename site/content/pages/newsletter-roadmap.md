@@ -5,7 +5,7 @@ tags:
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
-lastMod: 2022-08-15
+lastMod: 2022-11-16
 ---
 This is the content plan for my [newsletter]({{< ref "newsletter" >}})
 The dates are only rough guidelines, this is more of a content ordering and flow

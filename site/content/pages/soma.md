@@ -19,7 +19,7 @@ date-finished:
 rating: 8
 title: soma
 categories:
-lastMod: 2022-10-24
+lastMod: 2022-11-16
 ---
 ![ss_21b43d4cb49ef3332eefbb4957ec96e075543ef1.1920x1080.jpg](/assets/ss_21b43d4cb49ef3332eefbb4957ec96e075543ef1.1920x1080_1666656957286_0.jpg)
 

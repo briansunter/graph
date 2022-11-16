@@ -4,10 +4,10 @@ tags:
 - programming
 - time complexity
 - algorithms-boot-camp
+date: 2022-10-04
 title: abdul bari algorithms
 categories:
-date: 2022-08-22
-lastMod: 2022-10-11
+lastMod: 2022-11-16
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 

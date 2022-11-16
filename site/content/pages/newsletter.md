@@ -7,7 +7,7 @@ categories:
 - newsletter
 date: 2022-06-12
 weight: 1
-lastMod: 2022-08-16
+lastMod: 2022-11-16
 ---
 # Welcome to the Newsletter of Brian Sunter 🧠
 

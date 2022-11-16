@@ -1,10 +1,10 @@
 ---
 tags:
 - blog
+date: 2022-10-04
 title: intro-to-algorithms
 categories:
-date: 2022-08-15
-lastMod: 2022-09-01
+lastMod: 2022-11-16
 ---
 # Introduction
 

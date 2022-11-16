@@ -13,7 +13,7 @@ tags:
 - notetaking
 - logseq
 description: I've started using GPT-3 to create text summaries, outlines and perform many other AI-powered tasks directly within the Logseq notetaking app using a new plugin I developed.
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 ![image.png](/assets/image_1661149276371_0.png)
 

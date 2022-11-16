@@ -2,9 +2,9 @@
 tags:
 - programming
 categories: programming
-date: 08-21-2022
+date: 2022-08-21
 title: git
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 ## Remove files from gitignore
 

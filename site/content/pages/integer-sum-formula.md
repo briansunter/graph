@@ -8,7 +8,7 @@ categories:
 date: 2022-10-02
 math: true
 title: integer-sum-formula
-lastMod: 2022-10-11
+lastMod: 2022-11-16
 ---
 ## Summary
 

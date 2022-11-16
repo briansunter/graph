@@ -4,7 +4,7 @@ tags:
 - gpt3
 title: poodle mixes
 categories:
-lastMod: 2022-08-17
+lastMod: 2022-11-16
 ---
 # Generating Poodle Mix Names with AI
 

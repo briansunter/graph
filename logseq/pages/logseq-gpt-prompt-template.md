@@ -1,0 +1,84 @@
+public:: true
+date:: 2022-11-14
+
+- GPT-3 is a powerful machine learning tool that can generate text. You give it natural language text, called a prompt, and it predicts what text should come after it.
+- The prompt can be anything from a simple question to a complex command, and it can perform many different tasks, such as translation, summarization, and basic reasoning.
+- ## Prompt Engineering
+	- Asking AI to perform a task with natural language is really simple and convenient, however you need to phrase the prompt in very specific ways to get useful and predictable results.
+	- For example, you can ask it to translate text using a prompt like this.
+	- >Translate Spanish to English:
+	  Yo vivo en Granada, una ciudad pequeña que tiene monumentos muy importantes como la Alhambra.
+	- Sometimes this will work and will translate the sentence into English, but since GPT-3 works by predicting the next phrase, it will often just continue writing Spanish instead of translating.
+	- We can make the prompt more reliable by giving it more context and trying to "constrain" the possible output.
+	- Adding Prefixes like `Spanish:` `English:` increases the reliability.
+	- >Translate Spanish to English.
+	  Spanish: Yo vivo en Granada, una ciudad pequeña que tiene monumentos muy importantes como la Alhambra.
+	  English:
+	- GPT-3 is complex and unpredictable. People are constantly finding new best practices and "tricks" to improve accuracy and reliablility.
+	- For example, researchers have discovered that just adding the phrase "Let’s think step by step"  before each answer increases the accuracy on benchmarks like MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7%
+	- > Q: On average Joe throws 25 punches per
+	  minute. A fight lasts 5 rounds of 3 minutes. How
+	  many punches did he throw?
+	  **A: Let's think step by step.**
+- ### Zero-shot, One-shot, Few-shot
+	- You can also include examples of the output you're expecting in the prompt. This often (but not always) makes the output more predictable and accurate.
+	- Prompts with examples are called one/few-shot. Prompts without solved examples are called "zero-shot"
+	- For example, you can include an example of a English to French translation. This is a "one-shot" prompt.
+	- > Translate English to French:
+	  English: sea otter
+	  French: loutre de mer
+	  English: cheese
+	  French:
+- ## Prompt Templates
+	- GPT-3 needs to be prompted in very specific ways, and these often have to be discovered by trial and error. How can we share best practices and make GPT-3 easier to use? Prompt Templates
+	- The existing Logseq template feature allow you to add snippets of text to the / command
+	- You can definite a template anywhere in logseq by adding the property `template:: template_name` underneath a heading
+	- Now you can insert the template text using the template name.
+	- I want to make something similar for the GPT-3 plugin.
+	- If I wanted to translate from English to French, I could use a "prompt template" known to produce good output, and inject my phrase into it. The input variables are surrounded by `{{}}`
+	- We can also include GPT-3 configuration options such as `temperature` and `maxTokens`.
+	- ### English to French Translation Prompt Template
+		- ```
+		  temperature:: 0.8
+		  maxTokens:: 60
+		  Translate English to French:
+		  English: sea otter
+		  French: loutre de mer
+		  English: {{ input }}
+		  French:
+		  ```
+	- ### Summarize Text
+		- ```
+		  temperature:: 0.8
+		  maxTokens:: 256
+		  Summarize this for a second-grade student:
+		  {{ input }}
+		  ```
+	- ### Grammar Correction
+		- ```
+		  temperature:: 0
+		  maxTokens:: 60
+		  Correct this to standard English:
+		  {{ input }}
+		  ```
+	- ### Other GPT-3 Options
+		- ### Edit in Place
+			- Edit allows you to update text in place, instead of completing it and inserting it in the block below.
+			- ### Correct Grammar in Place
+				- ```
+				  temperature:: 0
+				  maxTokens:: 60
+				  mode:: edit
+				  Correct this to standard English:
+				  ```
+		- ### Insert
+			- The new [insert](https://beta.openai.com/docs/guides/completion/inserting-text) [capability](https://beta.openai.com/docs/guides/code/inserting-code) adds contextually relevant text in the middle of existing content.
+			- Allows you to specify where the text should be injected by writing `[[insert]]` in the prompt.
+		- #### Model
+			- Allow users to specify the AI model to be used, such as `text-davinci-002` or `code-danci-002` for code tasks.
+		- ### Stop sequences
+			- Phrase that causes GPT-3 to stop generating more text
+		- ### Frequency/Presence Penalty
+			- Settings to prevent repetition in generated text
+		- ### Top-P
+			- Affects randomness and variance, similar to temperature

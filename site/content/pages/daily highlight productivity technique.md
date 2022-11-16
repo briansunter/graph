@@ -9,7 +9,7 @@ tags:
 date: 2022-06-17
 title: daily highlight productivity technique
 categories:
-lastMod: 2022-08-17
+lastMod: 2022-11-16
 ---
 The most powerful productivity technique I've discovered is also the simplest: the "Daily Highlight".
 

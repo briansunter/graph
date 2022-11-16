@@ -12,7 +12,7 @@ date: 2022-08-23
 start-date:
 - Sep 5th, 2022
 title: newsletter-issue-8
-lastMod: 2022-10-11
+lastMod: 2022-11-16
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 

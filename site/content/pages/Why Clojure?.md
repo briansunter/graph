@@ -9,7 +9,7 @@ tags:
 - clojure
 title: Why Clojure?
 categories:
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 ## Intro
 

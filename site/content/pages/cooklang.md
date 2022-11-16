@@ -1,13 +1,13 @@
 ---
 title: cooklang
-date: 2022-9-21
 tags:
 - cooking
 - programing
 description: Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
-url: /blog/cooklang
+url: "/blog/cooklang"
+date: 2022-09-21
 categories:
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
 

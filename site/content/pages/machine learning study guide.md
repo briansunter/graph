@@ -5,7 +5,7 @@ tags:
 - machine learning
 title: machine learning study guide
 categories:
-lastMod: 2022-08-17
+lastMod: 2022-11-16
 ---
 This is a study guide for understanding machine learning and gpt3]]
 

@@ -427,6 +427,9 @@
  {:block/name "logseq-getting-started",
   :block/created-at 1660618397371,
   :block/updated-at 1662087185460}
+ {:block/name "logseq-gpt-prompt-template",
+  :block/created-at 1668468910834,
+  :block/updated-at 1668468962533}
  {:block/name "logseq-inbox",
   :block/created-at 1660618397754,
   :block/updated-at 1660618397754}
@@ -436,6 +439,9 @@
  {:block/name "logseq-projects",
   :block/created-at 1660618397362,
   :block/updated-at 1660622283946}
+ {:block/name "logseq-prompt-template-chaining",
+  :block/created-at 1668125022334,
+  :block/updated-at 1668125022334}
  {:block/name "logseq-second-brain",
   :block/created-at 1660618398555,
   :block/updated-at 1660618398555}
@@ -571,9 +577,24 @@
  {:block/name "notetaking-with-ai",
   :block/created-at 1660618397367,
   :block/updated-at 1662087386852}
+ {:block/name "nov 11th, 2022",
+  :block/created-at 1668224754896,
+  :block/updated-at 1668224754896}
+ {:block/name "nov 12th, 2022",
+  :block/created-at 1668247275222,
+  :block/updated-at 1668247275222}
  {:block/name "nov 13th, 2022",
   :block/created-at 1665698650039,
-  :block/updated-at 1665698650039}
+  :block/updated-at 1668468910836}
+ {:block/name "nov 14th, 2022",
+  :block/created-at 1668420949937,
+  :block/updated-at 1668420949937}
+ {:block/name "nov 15th, 2022",
+  :block/created-at 1668506429045,
+  :block/updated-at 1668506429045}
+ {:block/name "nov 16th, 2022",
+  :block/created-at 1668596910516,
+  :block/updated-at 1668596910516}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667345009868,
   :block/updated-at 1667345021564}
@@ -591,7 +612,10 @@
   :block/updated-at 1667864123415}
  {:block/name "nov 8th, 2022",
   :block/created-at 1667901991856,
-  :block/updated-at 1667947237664}
+  :block/updated-at 1667963795971}
+ {:block/name "nov 9th, 2022",
+  :block/created-at 1667988828158,
+  :block/updated-at 1667988828158}
  {:block/name "now",
   :block/created-at 1655867905230,
   :block/updated-at 1655867905230}
@@ -648,7 +672,7 @@
   :block/updated-at 1660618398686}
  {:block/name "omnivore",
   :block/created-at 1664633675787,
-  :block/updated-at 1667862645797}
+  :block/updated-at 1668368324253}
  {:block/name "omnivore-logseq-guide",
   :block/created-at 1660618397372,
   :block/updated-at 1662086942761}

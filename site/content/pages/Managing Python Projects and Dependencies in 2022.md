@@ -8,7 +8,7 @@ tags:
 - programing
 - python
 categories:
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 ![image.png](/assets/image_1661147875071_0.png)
 

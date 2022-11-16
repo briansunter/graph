@@ -7,7 +7,7 @@ description: How to have emacs launch quickly and always be available on macos
 tags:
 - programming
 categories:
-lastMod: 2022-08-21
+lastMod: 2022-11-16
 ---
 ![image.png](/assets/image_1661148998101_0.png)
 
