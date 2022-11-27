@@ -1,5 +1,6 @@
 tags:: [[template]]
 public:: true
+date:: 2022-10-04
 
 - # Game Review Template
   template:: game review

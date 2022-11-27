@@ -1,5 +1,5 @@
 public:: true
-date:: 2022-10-4
+date:: 2022-10-04
 title:: Werner Herzog Rules for Filmmaking
 source:: https://www.amazon.com/exec/obidos/ASIN/B00KEW6ACQ/ref=nosim/0sil8
 

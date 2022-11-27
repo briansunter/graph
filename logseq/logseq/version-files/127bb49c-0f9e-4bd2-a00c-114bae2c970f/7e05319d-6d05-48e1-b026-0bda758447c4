@@ -1,0 +1,54 @@
+title:: 
+type:: [[newsletter]]
+tags:: 
+name::
+start-date::
+sent-date::
+revue-link::
+site-hits:: 
+followers:: 
+tweet-impressions:: 
+profile-visits::
+newsletter-subscribers:: 0
+
+#  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
+### See all issues -> [[newsletter]]
+# Summary and Reflection 🤔
+	- I'm continuing to add features to the logseq gpt3 openai plugin, my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
+	- ## Large Language Models
+		- I continue to be really interested in this new AI technology called "Large Language Models" (LLMs)
+		- Large language models are AI tools that can perform a wide variety of tasks, including text summarization, translation, and question answering. They generate text that sounds humanlike and you interact with them using natural language, like talking to a human.
+		- For example, you can ask it "Translate this sentence into French:" or "Summarize this news article:".
+		- They were trained by analyzing massive amounts of text from places like Wikipedia and Reddit and work by predicting future phrases in a sentence you give it.
+		- I think they are interesting for two reasons:
+		- First, LLMs extremely general and can perform a wide variety of tasks, even things they weren't originally trained to do. Earlier AI models could only perform tasks they were specifically trained to do, like summarization or translation. GPT-3 can do things like multiply numbers, even though it wasn't trained to do it.
+		- Second, these LLMs seem to get better and gain new abilities as they are trained on more text. So as you feed them more data, they become more accurate and can do new types of tasks.
+		- This behavior is called "emergent abilities", where as a model becomes larger, it can do things smaller models can't do.
+		- For example, the ability to perform tasks like arithmetic and answering college entrance exam questions only "emerge" after you feed the AI a certain amount of data.
+		- ![Screen Shot 2022-09-11 at 8.35.17 PM.png](../assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png){:height 353, :width 747}
+		- This opens up the interesting possibility that just by feeding AI more data, it can gain new unforeseen abilities. The recent advancements in computing performance allow us to generate AI models that are much, much larger than before.
+		- Some think massive amounts of compute and data, and relatively few built-in rules, are the key to achieving Artificial General Intelligence (AGI), human-level intelligence.
+		- ![E6qfG4WXMAQ7XRd.jpeg](../assets/E6qfG4WXMAQ7XRd_1668815465756_0.jpeg)
+		- Others think that AI needs to have more inbuilt rules in to achieve human level intelligence, and feeding massive amounts of compute and data into a "blank slate" isn't enough.
+			- ![E_QhiXNWQAISjRU.jpeg](../assets/E_QhiXNWQAISjRU_1668815516816_0.jpeg){:height 445, :width 402}
+		- ### IBM Deep Blue vs Google Alpha Go Zero
+			- IBM's Deep Blue chess engine was the first computer to beat a chess world champion. It heavily relied pre programmed rules by chess experts,
+			- Google's AlphaGo was the first computer program to defeat a professional Go player.
+			- Alpha Go Zero has fewer built in rules, and relies more on a technique called "reiniforcement learning", where it becomes it's own teacher by playing millions of games against itself.
+# Updates 🆕
+	- ## Logseq GPT-3 OpenAI plugin
+		- I recently added a couple new features to the logseq openai gpt-3 plugin.
+		- ### GPT-3 Page
+			- The new `gpt-page` feature sends the entire crrent page to gpt-3, which should be more convenient for certain use cases where additional context is needed to make the suggestions more accurate.
+		- ### DALL-E
+			- OpenAI released their DALL-E image generation API. I recently incorporated this into the logseq plugin, so you can generate images inside logseq, where they are inserted into the editor and saved locally.
+# Productivity Toolkit 🛠️
+	- Check
+		-
+# Brain Food 🧠
+	- In this section, I'll share some interesting articles and "food for thought"
+	- ## Quote
+	- ## Link of the week
+# Analytics 📈
+# Outro
+	- Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)

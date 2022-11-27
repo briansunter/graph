@@ -40,3 +40,4 @@ description:: I've started using GPT-3 to create text summaries, outlines and pe
 	- The text-generation features are fun to play with but must be supervised, edited, and re-asked. If you generate text from scratch, you need to oversee it, and occasionally it creates something plausible-sounding but is a bit off. I believe in the future, more and more of the content we'll see will be written by AI and edited to a lesser extent by humans.
 	- Overall, I enjoy incorporating GPT-3 into my notetaking workflow and keep finding new uses for it. I plan to release more updates to my plugin, and look forward to gpt-3 improving over time. If you found this plugin useful, I would love to hear from you!
 	- [Link to the `logseq-plugin-gpt3-openai` project on GitHub](https://github.com/briansunter/logseq-plugin-gpt3-openai)
+-

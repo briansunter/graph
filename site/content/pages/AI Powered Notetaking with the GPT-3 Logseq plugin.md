@@ -79,3 +79,5 @@ The text-generation features are fun to play with but must be supervised, edited
 Overall, I enjoy incorporating GPT-3 into my notetaking workflow and keep finding new uses for it. I plan to release more updates to my plugin, and look forward to gpt-3 improving over time. If you found this plugin useful, I would love to hear from you!
 
 [Link to the `logseq-plugin-gpt3-openai` project on GitHub](https://github.com/briansunter/logseq-plugin-gpt3-openai)
+
+

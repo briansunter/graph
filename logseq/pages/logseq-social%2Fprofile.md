@@ -1,5 +1,6 @@
 title:: logseq-social/profile
 public:: true
+date:: 2022-08-21
 
 - # "Follow" me on logseq
 	- ^^<---^^ To follow me, make a page on your graph called [[logseq-social/profile/bsunter]] with the page properties that are nested under this block. Learn more at [logseq-social](https://briansunter.com/graph/#/page/logseq-social)

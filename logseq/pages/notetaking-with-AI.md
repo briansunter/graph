@@ -1,5 +1,6 @@
 public:: true
 tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue/4]]
+date:: 2022-08-21
 
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
 

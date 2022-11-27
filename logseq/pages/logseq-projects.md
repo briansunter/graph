@@ -1,6 +1,6 @@
 public:: true
 tags:: [[blog]]
-date::
+date:: 2022-08-21
 
 - Introduction
 	- Hook

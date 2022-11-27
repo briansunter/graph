@@ -1,5 +1,6 @@
 public:: true
 tags:: [[course]] [[programming]] [[time complexity]] [[algorithms-boot-camp]]
+date:: 2022-10-04
 
 - One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 - ## Video Course

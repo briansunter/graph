@@ -1,4 +1,5 @@
 public:: true
+date:: 2022-10-04
 tags:: [[logseq]] [[programming]] [[newsletter]]
 
 - How to get started with Logseq and publish your notes online in 30 minutes.

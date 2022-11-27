@@ -1,6 +1,6 @@
 public:: true
 tags:: [[blog]]
-date::
+date:: 2022-10-04
 
 - # Introduction
 	- What is an algorithm? And why are algorithms important?
