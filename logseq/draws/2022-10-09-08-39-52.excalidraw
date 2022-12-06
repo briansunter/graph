@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "capacitor://localhost",
+  "source": "file://",
   "elements": [
     {
       "type": "rectangle",
@@ -24,7 +24,10 @@
       "seed": 1876519971,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -47,7 +50,10 @@
       "seed": 983636739,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -70,7 +76,10 @@
       "seed": 94533187,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -93,7 +102,10 @@
       "seed": 1099165901,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -116,7 +128,10 @@
       "seed": 2106199683,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -139,7 +154,10 @@
       "seed": 46550829,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -162,7 +180,10 @@
       "seed": 1511822285,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -185,7 +206,10 @@
       "seed": 1384192899,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -208,7 +232,10 @@
       "seed": 1716687405,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -231,7 +258,10 @@
       "seed": 1625658285,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071664,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -254,7 +284,10 @@
       "seed": 951093667,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -277,7 +310,10 @@
       "seed": 1336972813,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -300,7 +336,10 @@
       "seed": 1063311651,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -323,7 +362,10 @@
       "seed": 989994467,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -346,7 +388,10 @@
       "seed": 1713402957,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -369,7 +414,10 @@
       "seed": 436655523,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -392,7 +440,10 @@
       "seed": 171089837,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -415,7 +466,10 @@
       "seed": 462610733,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -438,7 +492,10 @@
       "seed": 877274307,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -461,7 +518,10 @@
       "seed": 1617170435,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "rectangle",
@@ -484,7 +544,10 @@
       "seed": 1038167139,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": []
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false
     },
     {
       "type": "text",
@@ -507,13 +570,18 @@
       "seed": 1240846595,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": [],
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false,
       "fontSize": 20,
       "fontFamily": 1,
       "text": " 1 + 2 + 3 + 4+ 5+ n",
       "baseline": 18,
       "textAlign": "left",
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": " 1 + 2 + 3 + 4+ 5+ n"
     },
     {
       "type": "freedraw",
@@ -536,7 +604,10 @@
       "seed": 576440643,
       "groupIds": [],
       "strokeSharpness": "round",
-      "boundElementIds": [],
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false,
       "points": [
         [
           0,
@@ -1401,13 +1472,18 @@
       "seed": 1104398189,
       "groupIds": [],
       "strokeSharpness": "sharp",
-      "boundElementIds": [],
+      "boundElements": [],
+      "updated": 1669938071665,
+      "link": null,
+      "locked": false,
       "fontSize": 55.89130316840277,
       "fontFamily": 1,
       "text": "n",
       "baseline": 47.86412896050348,
       "textAlign": "left",
-      "verticalAlign": "top"
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "n"
     }
   ],
   "appState": {

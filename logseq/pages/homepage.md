@@ -16,6 +16,7 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
+	- [[almanack-of-naval-ravikant]]
 	- [[headphone-eye-mask]]
 	- [[newsletter-issue-8]]
 	- [[integer-sum-formula]]

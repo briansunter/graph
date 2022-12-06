@@ -11,7 +11,7 @@ tags:
 date: 2022-08-22
 math: true
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-11-28
 ---
 ## Introduction to Algorithms
 
@@ -233,7 +233,7 @@ variables `a,b,c` matrices.
 
 variables `i,j` scalar variables.
 
-# Time Complexity
+## Time Complexity
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9TlHvipP5yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -289,7 +289,6 @@ Each loop executes `n` times so `stmt` is executed `n` * `n` times or $$O(n^2)$$
 
 ## Dependent For Loops
 
-
 What happens if the inner loop is dependent on the outer loop?
 
 ```js
@@ -305,11 +304,11 @@ Let's make a table to keep track of the values at each interation
 |i|j|stmt executions|
 |--|--|--|
 |0|0|0|
-|1|0[:br]1|1|
-|2|0[:br]1[:br]2|2|
-|3|0[:br]1[:br]2[:br]3|3|
+|1|0 , 1|1|
+|2|0, 1, 2|2|
+|3|0, 1, 2, 3|3|
 |...|...|...|
-|n|0[:br]1[:br]2[:br]...[:br]n|n|
+|n|0,1,2,...,n|n|
 
 How many times is `stmt` executed?
 
@@ -330,7 +329,6 @@ This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
 This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
 
 ## Outer loop does not execute n times
-
 
 ```js
 p=0
@@ -372,7 +370,6 @@ Therefore, the time complexity is $$O(n^2)$$
 
 ### Multiply i value
 
-
 ```js
 for(i=0; i<n;i=i*2){
   stmt()
@@ -402,7 +399,6 @@ The time complexity is $O(\log n)$
 
 ### Divide i value
 
-
 ```js
 for(i=0; i<n;i=i/2){
   stmt()
@@ -422,7 +418,6 @@ $k=\log_2 n$
 The time complexity is $O(\log n)$
 
 ## While loops and If
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p1EnSvS3urU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -455,7 +450,6 @@ We can see that with an input of 16, it will run 7 times, so 16/2 = 8, which can
 The time complexity is n/2 which simplifies to $O(n)$
 
 ## Classes of Functions
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w7t4_JUUTeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -503,7 +497,6 @@ When n gets large, $n^{100}$ will always be less than $2^n$
 By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
 
 ## Asymptotic Notation
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A03oI0znAoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -566,7 +559,6 @@ Since this is average notation, you can't use $Θ(n^2)$, it's out of the bounds
 ![image.png](/assets/image_1666139032348_0.png)
 
 ### Properties of asymptotic notation
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NI4OKSvGAgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -634,13 +626,9 @@ When adding, take the bigger term
 
 f(n) * d(n) = f(n) * d(n^2) =O(n^2)
 
-
-
-
-
-
-
 ## Comparison of functions
+
+{{< youtube mwN18xfwNhk >}}
 
 If we have two functions, how can we show which is the upper bound and which is the lower bound?
 
@@ -757,12 +745,116 @@ Simplify to one $log_2(2)=1$
 
 So $f(n) = log(n)^2$ and $g(n) = \sqrt{n}$
 
+## Best, Worst, and Average Case Analysis
 
+{{< youtube lj3E24nnPjI >}}
 
+## Linear Search
 
+Given a list `[8,6,12,5,9,7,4,3,16,18]`
 
+And we want to search for `7`
 
+Linear search starts at the first element, checking each element one at a time moving from left to right
 
+If we search for something that doesn't exist like `20` it will search from left to right until it reaches the end of the list.
 
+### Best Case
 
+The best case is the fastest the algorithm can possibly run
 
+In linear search, If the element you're searching for is present at the first index, that's the best case.
+
+Best case time is $O(1)$ , it will always take one iteration no matter how long the list is, if the key value is at the first index
+
+### Worst Case
+
+The worst case is the slowest the algorithm can run
+
+In linear search, if the element you're searching for is present at the last index, that's the worst case.
+
+Worst case is $O(n)$ because you have to search every element in the list
+
+### Average Case
+
+All possible case times divided by number of cases. Usually this isn't feasible to find, so we rarely do it and focus on the worst case time instead
+
+To find this, you find all possible cases, add up time taken in each possible case, and divide by the number of cases
+
+What are the cases of linear search?
+
+Key present at first index, key present at second index, etc
+
+If at first index, then 1 comparisons
+
+If at second index, then 2 comparisions
+
+etc
+
+So 1 + 2 +3 + .. +n is the total possible case time
+
+and there are n possible cases
+
+We can use [integer-sum-formula]({{< ref "integer-sum-formula" >}}) to add up the time of all cases
+
+$$\frac{n(n+1)}{2}$$
+
+We divide the total case time by the number of cases
+
+$$\frac{\frac{n(n+1)}{2}}{n}$$
+
+We simply by dividing out n at the top and bottom, and are left with
+
+$$\frac{(n+1)}{2}$$
+
+Which is the average case time
+
+### Asymptotic notation
+
+Don't confuse best, worst, and average case with Big O, Big Omega, and Theta
+
+Best case and worst can be expressed using any of these. Big O isn't only used to express worst case
+
+Best case can be expressed using any of these notations
+
+Best case(n) = 1
+
+Best case (n) = $O(1)$
+
+Best case (n) = $Ω(1)$
+
+Best case (n) = $Θ(1)$
+
+## Binary Search
+
+![Screenshot 2022-11-28 at 2.22.08 PM.png](/assets/screenshot_2022-11-28_at_2.22.08_pm_1669681356817_0.png)
+
+If you're searching for `15`, start at root `20`
+
+Is `15` bigger or smaller than `20`? smaller so move left
+
+Then check `10`, is `15` larger than `10`? larger, so move right
+
+### Best Case
+
+If the element you're searching for is the root, the best case time is constant 1
+
+### Worst Case
+
+In the worst case, the element you're searching for is a leaf
+
+So the worst case is the height of the binary tree, which is $log(n)$
+
+So the worst case is $log(n)$
+
+### Unbalanced binary search tree
+
+![Screenshot 2022-11-28 at 2.28.42 PM.png](/assets/screenshot_2022-11-28_at_2.28.42_pm_1669681918917_0.png)
+
+A binary tree could be unbalanced, this binary tree is left skewed
+
+It has the height `n`
+
+The best case is still `1` when the element is at the root
+
+However, the worst case is the height of the tree, which is `n` in this case, so the worst case is `n` whereas the worst case for a balanced binary tree is $log(n)$

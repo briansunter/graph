@@ -2,8 +2,8 @@ public:: true
 date:: 2022-11-26
 socialimage:: /assets/image_1661149276371_0.png
 categories:: [[programming]] [[logseq]]
-tags:: [[ai]] [[programming]] [[gpt3]] [[notetaking]] [[logseq]]
-description:: I've started using GPT-3 to create text summaries, outlines and perform many other AI-powered tasks directly within the Logseq notetaking app using a new plugin I developed.
+tags:: [[ai]] [[programming]] [[gpt3]] [[large language models]]
+description:: Large language models have a number of interesting properties
 
 -
 - I continue to be really interested in this new AI technology called "Large Language Models" (LLMs)
@@ -29,6 +29,4 @@ description:: I've started using GPT-3 to create text summaries, outlines and pe
 	- Third, in addition to generating text, these models can also used for search and classification. Instead of just searching for words that appear in text, they can find text with similar meaning.
 	- This "semantic search" technology is one of the reasons Google search is so good, and can find what you're looking for even if the exact phrase doesn't appear in the text. Until recently, this tech was only available inside large tech companies, but it's finally becoming more accessible.
 	- Since the AI understands the meaning of text, it can also be used to group texts and discover hidden relationships between them.
-	- ![2022-11-22 11.34.23.gif](../assets/2022-11-22_11.34.23_1669154173223_0.gif)
 	-
--
