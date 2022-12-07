@@ -7,7 +7,7 @@ tags:
 - sleep
 title: headphone-eye-mask
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-06
 ---
 
 
@@ -51,7 +51,7 @@ Listening to podcasts with a headphone eye mask
 
 If you're not familiar, a headphone eye mask is an eye mask with built-in Bluetooth headphones. You can listen to a podcast while wearing the eye mask, which blocks out all light.
 
-[You can buy the one I prefer here (affiliate link)](https://www.amazon.com/dp/B07TPLZY74?tag=mus0a-21)
+[You can buy the one I prefer here (affiliate)](https://www.amazon.com/dp/B07TPLZY74?tag=mus0a-21)
 
 These are flat and go over your ears, which I prefer instead of having AirPods inside my ears or large headphones over my ears.
 

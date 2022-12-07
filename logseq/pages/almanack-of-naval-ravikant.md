@@ -5,11 +5,11 @@ rating:: 8
 book::
 public:: true
 date:: 2022-11-26
-coverimage:: "/assets/41ZZY5+kzLL_1670306664477_0.jpg"
+coverimage:: /assets/41ZZY5+kzLL_1670306664477_0.jpg
 
 - ![41ZZY5+kzLL.jpg](../assets/41ZZY5+kzLL_1670306664477_0.jpg)
 - # The Book in 3 Sentences
-	- This free book is a collection of tweets on the philosophy of life, wealth, relationships, learning, and health from the investor and founder of AngelList [Naval Ravikant](https://twitter.com/naval). [You can download the book for free here.](https://www.navalmanack.com/)
+	- This free book is a collection of tweets on the philosophy of life, wealth, relationships, learning, and health from the investor and founder of AngelList [Naval Ravikant](https://twitter.com/naval), which [you can download for free here.](https://www.navalmanack.com/)
 	- ![naval-ravikant.jpeg](../assets/naval-ravikant_1670306845205_0.jpeg)
 	- He emphasizes the importance of creating leverage and playing long term games where you can take advantage of compounding interest.
 	- He advocates being authentic, following your curiosity, and using the internet and software to leverage your unique skills and interests.

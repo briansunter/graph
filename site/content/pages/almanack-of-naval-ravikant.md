@@ -6,16 +6,16 @@ tags:
 - book
 rating: 8
 date: 2022-11-26
-coverimage: "/assets/41ZZY5+kzLL_1670306664477_0.jpg"
+coverimage: /assets/41ZZY5+kzLL_1670306664477_0.jpg
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2022-12-05
+lastMod: 2022-12-06
 ---
 ![41ZZY5+kzLL.jpg](/assets/41zzy5+kzll_1670306664477_0.jpg)
 
 # The Book in 3 Sentences
 
-This free book is a collection of tweets on the philosophy of life, wealth, relationships, learning, and health from the investor and founder of AngelList [Naval Ravikant](https://twitter.com/naval). [You can download the book for free here.](https://www.navalmanack.com/)
+This free book is a collection of tweets on the philosophy of life, wealth, relationships, learning, and health from the investor and founder of AngelList [Naval Ravikant](https://twitter.com/naval), which [you can download for free here.](https://www.navalmanack.com/)
 
 ![naval-ravikant.jpeg](/assets/naval-ravikant_1670306845205_0.jpeg)
 

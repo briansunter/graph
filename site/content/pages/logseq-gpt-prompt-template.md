@@ -4,9 +4,11 @@ date: 2022-11-16
 title: logseq-gpt-prompt-template
 tags:
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-06
 ---
 ![prompt-template.png](/assets/prompt-template_1668636545451_0.png)
+
+See the [Logseq GPT-3 OpenAI plugin here.](https://github.com/briansunter/logseq-plugin-gpt3-openai)
 
 GPT-3 is a powerful machine learning tool that can generate text. You give it natural language text, called a prompt, and it predicts what text should come after it.
 
@@ -150,3 +152,23 @@ Settings to prevent repetition in generated text
 ### Top-P
 
 Affects randomness and variance, similar to temperature
+
+## Future work
+
+### Modal Popup
+
+I'm also planning on adding a feature where instead of writing the prompt in your notes, there will be a popup where you write the prompt, and review the output before inserting it into your notes.
+
+This feature is being developed in parallel with the template feature.
+
+### Chaining
+
+You can accomplish a lot more chaining the output from one prompt into the input of another prompt
+
+It would also be interesting to enrich the prompt source with calls to the internet
+
+### Text Transformation
+
+I'd also like to include some options to process the input or output with code or regex
+
+For example, you could split the output into multiple lines in logseq, or extract highlighted terms from the input

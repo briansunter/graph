@@ -155,9 +155,52 @@ title:: abdul bari algorithms part-2
 		- $T(n) = T(n-2) + 1 -> $n/2$ -> $O(n)$
 		- $T(n) = T(n-100) + n$ -> $O(n^2)$
 		- However, if there's a coeffecient on the function ,it's different though. $T(n) = 2*T(n-1) +1$
-		-
-		-
+- # Recurrence Relation 4 (decreasing)
+	- ```js
+	  function test(n){
+	    if (n>0){
+	      console.log(n);
+	      test(n-1);
+	      test(n-1);
+	    }
+	  }
+	  ```
+	- $T(n)=2T(n-1)+1$
+	- $T(n) = \begin{cases} 1 & \text{when } n=0 \\ 2T(n-1)+1 & \text{when } n > 0 \end{cases}$
+	- ## Tree Method
+		- [[draws/2022-12-06-13-53-46.excalidraw]]
+		- function called twice in first row
+		- 4 times in second row
+		- 8 times in third row
+		- So the work done in each row is $2^k$
+		- $1 + 2 + 2^2 + 2^3 + ... + 2^k = n^{k+1}-1$
+		- $$a + ar + ar^2 + ar^3 + ... + ar^k = \frac{a(r^{k+1}-1)}{r-1} $$
+		- In the series above, $a=1$ and $r=2$
+		- So we can use the formula above to find the answer for our tree
+		- $$ \frac{1(2^{k+1}-1)}{2-1} $$
+		- Simplifies to $2^{k+1}-1$
+		- Assume $n-k=0$, so $n=k$
+		- $2^{n+1}-1$
+		- So Big O is $O(2^n)$
+	- ## Subsitution Method
+		- $T(n)=2T(n-1) + 1$
+		- $T(n)=2[2T(n-2) +1] + 1$
+		- $T(n) = 2^2T(n-2) + 2 + 1$
+		- $T(n)=2^2[2T(n-3) +1] + 2 + 1$
+		- $T(n) = 2^3 T(n-3) + 2^2 + 2 + 1$
+		- $T(n)= 2^kT(n-k) + 2^{k-1}+2^{k-2} + ... + 2^2 + 2 + 1$
+		- Assume $n-k=0$ $n=k$
+		- $T(n) = 2^n T(0) + 1 + 2 + 2^2 + ... + 2^{k-1}$
+		- $T(n) = 2^n * 1 + 2^k -1$
+		- $T(n) = 2^n + 2^n -1$
+		- $T(n) = 2^{n+1}-1$
+		- $O(2^n)$
+	-
+	-
+	-
+	-
 - # Recurrence Relation 3 (Dividing)
+  collapsed:: true
 	- ``` js
 	  function test(n){
 	    if (n>1){
@@ -194,7 +237,3 @@ title:: abdul bari algorithms part-2
 		- Assume $T(\frac{n}{2^k})=T(1)$
 		- $\frac{n}{2^k}=1$
 		- $k=log(n)$
-		-
-		-
-		-
-		-

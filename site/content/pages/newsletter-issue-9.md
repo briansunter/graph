@@ -6,7 +6,7 @@ newsletter-subscribers: 0
 date: 2022-11-26
 tags:
 categories:
-lastMod: 2022-12-05
+lastMod: 2022-12-06
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 
@@ -14,7 +14,7 @@ lastMod: 2022-12-05
 
 # Summary
 
-I'm continuing to add features to the logseq gpt3 openai plugin, my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
+I'm continuing to add features to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
 
 I'm really interested in this new AI technology called "Large Language Models" which allows AI to understand the meaning behind text, as well as generate humanlike text.
 
@@ -24,27 +24,29 @@ I recently added a couple new features to the logseq OpenAI GPT-3 plugin.
 
 ### Logseq OpenAI Plugin Video
 
-The [productivity Youtuber Shu Omi](https://www.youtube.com/@ShuOmi_Official) made a great video about my logseq openai plugin. I highly reccomend checking it out as an introduction to the plugin and AI enabled note-taking.
+The [productivity Youtuber Shu Omi](https://www.youtube.com/@ShuOmi_Official) made a great video about my [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai). I highly recommend checking it out as an introduction to the plugin and AI assisted note-taking.
 
-I've been a fan of Shu's videos for a long time while learning about notetaking, and am delighted he higlighted my plugin in one of his videos!
+I've been a fan of Shu's videos for a long time while learning about notetaking, and am delighted he highlighted my plugin in one of his videos!
 
 {{< youtube 1R1Pq_41wFw >}}
 
 ### GPT-3 Page
 
-The new `gpt-page` feature sends the entire crrent page to gpt-3, which should be more convenient for certain use cases where additional context is needed to make the suggestions more accurate.
+The new `gpt-page` feature sends the entire current page to GPT-3, which should be more convenient for certain use cases where additional context is needed to make the suggestions more accurate. This makes it behave more like the playground.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Released a new feature for the <a href="https://twitter.com/logseq?ref_src=twsrc%5Etfw">@logseq</a> <a href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">@OpenAI</a> GPT-3 plugin!<br><br>The `gpt-page` command sends the entire page contents to <a href="https://twitter.com/hashtag/gpt3?src=hash&amp;ref_src=twsrc%5Etfw">#gpt3</a> for completions<br><br>It works across multiple lines, unlike the current `gpt-block` which sends one line<br><br>Let me know what you think!<a href="https://t.co/dbZsGzdSga">https://t.co/dbZsGzdSga</a> <a href="https://t.co/IUCWoPWCUt">pic.twitter.com/IUCWoPWCUt</a></p>&mdash; Brian Sunter 🧠 (@Bsunter) <a href="https://twitter.com/Bsunter/status/1587513598896525312?ref_src=twsrc%5Etfw">November 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### DALL-E
 
-OpenAI released their DALL-E image generation API. I recently incorporated this into the logseq plugin, so you can generate images inside logseq, where they are inserted into the editor and saved locally.
+OpenAI released their [DALL-E](https://openai.com/dall-e-2/) image generation API. I recently incorporated this into the [Logseq GPT-3 plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), so you can generate images inside logseq, where they are inserted into the editor and saved locally.
+
+It's nice to use GPT-3 to generate the prompt, then send it to [DALL-E](https://openai.com/dall-e-2/), within the same tool.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just released a feature to generate images with <a href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">@openai</a> DALL-E inside <a href="https://twitter.com/logseq?ref_src=twsrc%5Etfw">@logseq</a>!<br><br>Write a prompt, then type `/dalle` to generate an image using AI, and it inserts the picture underneath the prompt. <br><br>Let me know what you think!<a href="https://t.co/dbZsGzw1ui">https://t.co/dbZsGzw1ui</a> <a href="https://t.co/uQ2KCkxz7p">pic.twitter.com/uQ2KCkxz7p</a></p>&mdash; Brian Sunter 🧠 (@Bsunter) <a href="https://twitter.com/Bsunter/status/1590174757651378177?ref_src=twsrc%5Etfw">November 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### GPT-3 Prompt Templates
 
-I'm working on a future feature to add "prompt templates" to the logseq openai plugin.
+I'm working on a future feature to add "prompt templates" to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai).
 
 GPT-3 is a powerful machine learning tool that can generate text. You give it natural language text, called a prompt, and it predicts what text should come after it.
 
@@ -54,7 +56,9 @@ To get good results from GPT-3, you have to write the prompt in very specific wa
 
 Prompt templates will be a way of creating shortcuts for common tasks such as summarization or translation.
 
-They will behave similar to logseq templates, where you can define them in plain text anywhere in your notes. Since they're just plain texts, users will be able to share them with each other.
+They will behave similar to Logseq templates, where you can define them in plain text anywhere in your notes. Since they're just plain texts, users will be able to share them with each other.
+
+I'll eventually include these in a modal popup, like some other tools.
 
 [See more thoughts on writing prompts and prompt templates here]({{< ref "logseq-gpt-prompt-template" >}})
 
@@ -62,11 +66,11 @@ They will behave similar to logseq templates, where you can define them in plain
 
 Large language models are AI tools that can perform a wide variety of tasks. They can be used for both search and classification based on the meaning of text, as well as generating humanlike text.
 
-They were trained by analyzing massive amounts of text on the internet
+They were trained by analyzing massive amounts of text collected from the internet
 
 I think they're interesting for a number of reasons:
 
-1. You give them tasks by writing commands in English, instead of code. To translate you can just type "Translate this text into French"
+1. You give them tasks by writing commands in English, instead of code. To translate you can just ask it "Translate this text into French"
 2. They are very general, and can perform a wide range of tasks, even things they weren't originally trained to do. As they are fed more data, they gain new abilities that the creators didn't anticipate
 3. They can search and classify text based on meaning, instead of just by keywords that appear in the text. I'm really interested in using this for note-taking to find "similar" notes, even if they don't share any text in common, to uncover interesting connections and relationships.
 
@@ -82,17 +86,19 @@ It's an eye mask with built in bluetooth headphones, so you can listen to podcas
 
 Sometimes I would stay up too late on my phone or computer, which overstimulates my brain and disrupts my circadian rhythm by beaming bright blue light into my eyes.
 
-The headphone eye mask helps slow down my brain with a nightly ritual I enjoy and helps me get to sleep much earlier.
+The headphone eye mask helps slow down my brain with a nightly ritual I enjoy and helps me get to sleep earlier.
 
 I wrote about [how I use it and some podcast recommendations here.]([headphone-eye-mask]({{< ref "headphone-eye-mask" >}}))
 
 # Alamack of Naval Ravikant
 
-I really enjoyed this book called the [almanack-of-naval-ravikant]({{< ref "almanack-of-naval-ravikant" >}}), which a collection of philosophical tweets on wealth creation, learning, mindset, and health.
+I really enjoyed this book called the [almanack-of-naval-ravikant]({{< ref "almanack-of-naval-ravikant" >}}), which a collection of philosophical [tweets](https://twitter.com/naval) on wealth creation, learning, mindset, and health.
 
 It's not a traditional book, since it's a collection of tweets, but there's a lot of good assorted wisdom if you're OK with the format.
 
-[]Read my review and notes on the book here]([almanack-of-naval-ravikant]({{< ref "almanack-of-naval-ravikant" >}}))
+The book is completely free and you can [download it here](https://www.navalmanack.com/)
+
+[Read my review and notes on the book here]({{< ref "almanack-of-naval-ravikant" >}})
 
 # Brain Food 🧠
 
@@ -100,13 +106,15 @@ It's not a traditional book, since it's a collection of tweets, but there's a lo
 
 > Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 
-Naval Ravikant
+[Naval Ravikant](https://twitter.com/naval) (from [almanack-of-naval-ravikant]({{< ref "almanack-of-naval-ravikant" >}}) )
 
 ## Link of the Week
 
 You need to try [ChatGPT](https://chat.openai.com/chat). It's easy and free to get started. Just log in and ask it anything.
 
 It's an AI chatbot that can do a huge range of tasks and is incredibly smart.
+
+Here are some examples of what it can do:
 
 It can write a great college history essay
 

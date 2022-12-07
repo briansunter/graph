@@ -24,7 +24,7 @@ tags:: [[productivity]] [[health]] [[sleep]]
 	- So what's the solution?
 	- Listening to podcasts with a headphone eye mask
 	- If you're not familiar, a headphone eye mask is an eye mask with built-in Bluetooth headphones. You can listen to a podcast while wearing the eye mask, which blocks out all light.
-	- [You can buy the one I prefer here (affiliate link)](https://www.amazon.com/dp/B07TPLZY74?tag=mus0a-21)
+	- [You can buy the one I prefer here (affiliate)](https://www.amazon.com/dp/B07TPLZY74?tag=mus0a-21)
 	- These are flat and go over your ears, which I prefer instead of having AirPods inside my ears or large headphones over my ears.
 	- Simply coercing yourself to go to bed early is hard, so I prefer to replace my doomscrolling with a healthier habit that I look forward to before bed.
 	- Putting on the mask cuts off your access to distractions, signals to the brain it's time for bed and makes it easier to focus on winding down for the night.
