@@ -96,6 +96,8 @@
     pointer-events: none;
     width: 100%;
     height: auto;
+    max-height: 250px;
+    object-fit: cover;
 }
 
 .entry-cover a {

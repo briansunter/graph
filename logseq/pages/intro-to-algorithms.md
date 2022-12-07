@@ -1,6 +1,7 @@
 public:: true
 tags:: [[blog]]
 date:: 2022-10-04
+coverimage:: /assets/image_1662087569135_0.png
 
 - # Introduction
 	- What is an algorithm? And why are algorithms important?

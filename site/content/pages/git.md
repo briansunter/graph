@@ -4,8 +4,8 @@ tags:
 categories: programming
 date: 2022-08-21
 title: git
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 ## Remove files from gitignore
 
-`git rm --cached 'git ls-files -i -c --exclude-from=.gitignore'
+  + `git rm --cached 'git ls-files -i -c --exclude-from=.gitignore'

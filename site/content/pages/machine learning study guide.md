@@ -5,188 +5,188 @@ tags:
 - machine learning
 title: machine learning study guide
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 This is a study guide for understanding machine learning and gpt3]]
 
-Built from the GPT3 prompts in [machine learning study guide gpt]({{< ref "machine learning study guide gpt" >}})
+Built from the GPT3 prompts in [machine learning study guide gpt]({{< ref "/pages/machine learning study guide gpt" >}})
 
 Over time I will make notes on these subjects and link to them here.
 
 # Mathematics
 
-## Linear algebra
+  + ## Linear algebra
 
-### Vector Spaces
+    + ### Vector Spaces
 
-### Linear Transformations
+    + ### Linear Transformations
 
-### Matrices
+    + ### Matrices
 
-### Determinants
+    + ### Determinants
 
-### Eigenvectors and eigenvalues
+    + ### Eigenvectors and eigenvalues
 
-### Systems of Linear equations
+    + ### Systems of Linear equations
 
-### Vector operations
+    + ### Vector operations
 
-#### Addition
+      + #### Addition
 
-#### Subtraction
+      + #### Subtraction
 
-#### Scalar multiplication
+      + #### Scalar multiplication
 
-#### Dot product
+      + #### Dot product
 
-#### Cross product
+      + #### Cross product
 
-### Linear independence and span
+    + ### Linear independence and span
 
-### Orthogonality
+    + ### Orthogonality
 
-### Projections
+    + ### Projections
 
-### Eigendecomposition
+    + ### Eigendecomposition
 
-### Singular value decomposition
+    + ### Singular value decomposition
 
-### Principal component analysis
+    + ### Principal component analysis
 
-## calculus
+  + ## calculus
 
-### algebra
+    + ### algebra
 
-### trigonometry
+    + ### trigonometry
 
-### limits
+    + ### limits
 
-### continuity
+    + ### continuity
 
-### derivatives
+    + ### derivatives
 
-### integrals
+    + ### integrals
 
-### multivariate calculus
+    + ### multivariate calculus
 
-#### partial derivatives
+      + #### partial derivatives
 
-#### gradient descent
+      + #### gradient descent
 
-#### vector fields
+      + #### vector fields
 
-### optimization
+    + ### optimization
 
-#### convex optimization
+      + #### convex optimization
 
-#### higher order equations
+      + #### higher order equations
 
-#### conjugate gradient
+      + #### conjugate gradient
 
-#### Newton's Method
+      + #### Newton's Method
 
-## probability
+  + ## probability
 
-## statistics
+  + ## statistics
 
-### basic statictics
+    + ### basic statictics
 
-#### random variables
+      + #### random variables
 
-#### events
+      + #### events
 
-#### probability density functions
+      + #### probability density functions
 
-#### "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
+      + #### "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
 
-### advanced statistics
+    + ### advanced statistics
 
-#### Markov chains
+      + #### Markov chains
 
-#### hidden Markov models
+      + #### hidden Markov models
 
-#### Bayesian inference
+      + #### Bayesian inference
 
-### machine learning specific statistics
+    + ### machine learning specific statistics
 
-#### estimation
+      + #### estimation
 
-#### hypothesis testing
+      + #### hypothesis testing
 
-#### "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+      + #### "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
 
-### Regularization
+  + ### Regularization
 
-#### L1 and L2 regularization
+    + #### L1 and L2 regularization
 
-#### sparsity
+    + #### sparsity
 
 # Computer Science
 
-## Algorithms
+  + ## Algorithms
 
-## data structures
+  + ## data structures
 
-## software engineering
+  + ## software engineering
 
 # Machine Learning
 
-## Supervised learning
+  + ## Supervised learning
 
-#### Linear Regression
+    + #### Linear Regression
 
-#### Logistic Regression
+    + #### Logistic Regression
 
-#### Support Vector Machines
+    + #### Support Vector Machines
 
-#### Decision Trees
+    + #### Decision Trees
 
-#### Neural Networks
+    + #### Neural Networks
 
-## Unsupervised learning
+  + ## Unsupervised learning
 
-### Dimensionality reduction
+    + ### Dimensionality reduction
 
-### Clustering
+    + ### Clustering
 
-### Feature selection
+    + ### Feature selection
 
-### Data preprocessing
+    + ### Data preprocessing
 
-### Predictive modeling
+  + ### Predictive modeling
 
-### Regularization
+    + ### Regularization
 
-## deep learning
+  + ## deep learning
 
-### Artifician neural networks
+    + ### Artifician neural networks
 
-### Convolutional nerual networks
+    + ### Convolutional nerual networks
 
-### Recurrent nueral networks
+    + ### Recurrent nueral networks
 
-### Long short-term memory networks
+    + ### Long short-term memory networks
 
-### autoencoders
+    + ### autoencoders
 
-## Ensembles
+  + ## Ensembles
 
 # Data Mining
 
-## Data pre-processing
+  + ## Data pre-processing
 
-## feature engineering
+  + ## feature engineering
 
-## model evaluation
+  + ## model evaluation
 
 # Software Packages:
 
-## Python
+  + ## Python
 
-## Pandas
+  + ## Pandas
 
-## TensorFlow
+  + ## TensorFlow
 
-## scikit-learn
+  + ## scikit-learn
 
-## keras
+  + ## keras

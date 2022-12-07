@@ -6,7 +6,7 @@ tags:
 - newsletter
 title: logseq-getting-started
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 How to get started with Logseq and publish your notes online in 30 minutes.
 
@@ -14,15 +14,15 @@ How to get started with Logseq and publish your notes online in 30 minutes.
 
 Here's the high level process we will go over
 
-Download Logseq
+  + Download Logseq
 
-Start taking notes in your daily notes
+  + Start taking notes in your daily notes
 
-Start making pages by surrounding important words with backlinks (surrounded with double square braces like this `[[backlink]]`)
+  + Start making pages by surrounding important words with backlinks (surrounded with double square braces like this `[[backlink]]`)
 
-Make a few of your pages public
+  + Make a few of your pages public
 
-Share your pages with the world
+  + Share your pages with the world
 
 In this guide, I'll the hosting company [Netlify](https://netlify.com/) as an example because it is good and easy to get started.
 
@@ -32,11 +32,11 @@ I recommend getting something basic up online right away, then researching other
 
 # Download Logseq
 
-Logseq is still in "beta" so you need to [download it here from the github releases page](https://github.com/logseq/logseq/releases)
+  + Logseq is still in "beta" so you need to [download it here from the github releases page](https://github.com/logseq/logseq/releases)
 
-Find the release tagged with "Latest" (not "Pre-release")
+    + Find the release tagged with "Latest" (not "Pre-release")
 
-select darwin-arm for m1 mac, darwin-x64 for intel mac, or windows
+    + select darwin-arm for m1 mac, darwin-x64 for intel mac, or windows
 
 ![image.png](/assets/image_1662087068660_0.png)
 
@@ -80,25 +80,25 @@ Every time you want a page to be public, select this option on the page so it wi
 
 ## Set your homepage
 
-Logseq has a notion of a "home page"
+  + Logseq has a notion of a "home page"
 
-For private notetaking, I like my daily notes to be my default page.
+  + For private notetaking, I like my daily notes to be my default page.
 
-For my published site, I want to have a dedicated homepage like the one we just made
+  + For my published site, I want to have a dedicated homepage like the one we just made
 
-To do this, we'll change the `:default-home` in the Logseq settings to our public homepage in the settings before we export
+  + To do this, we'll change the `:default-home` in the Logseq settings to our public homepage in the settings before we export
 
-Click the three dots in the upper right hand corner, then select settings.
+  + Click the three dots in the upper right hand corner, then select settings.
 
-Select edit config.edn
+  + Select edit config.edn
 
 ![image.png](/assets/image_1662087114284_0.png)
 
-Now we'll add a line to the config file with the page we want to be our homepage
+  + Now we'll add a line to the config file with the page we want to be our homepage
 
 ![image.png](/assets/image_1662087124359_0.png)
 
-This is a little inconvenient to do each time you publish, but besides this the experience is pretty good. I expect some of these publishing features will be built out more in the future.
+  + This is a little inconvenient to do each time you publish, but besides this the experience is pretty good. I expect some of these publishing features will be built out more in the future.
 
 When you are ready to publish your select, select the three dots in the upper right hand corner, select "export graph" and then "export public pages"
 

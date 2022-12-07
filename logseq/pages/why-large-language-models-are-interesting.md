@@ -1,10 +1,9 @@
 public:: true
 date:: 2022-11-26
-socialimage:: /assets/image_1661149276371_0.png
 categories:: [[programming]] [[logseq]]
 tags:: [[ai]] [[programming]] [[gpt3]] [[large language models]]
 description:: Large language models have a number of interesting properties
-coverimage:: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
+coverimage:: "/assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png"
 
 - I continue to be really interested in this new AI technology called "Large Language Models" (LLMs)
 - Large language models are AI tools that can perform a wide variety of tasks. They can be used for both search and classification based on the meaning of text, as well as generating humanlike text.

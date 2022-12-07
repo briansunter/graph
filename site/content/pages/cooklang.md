@@ -7,7 +7,7 @@ description: Cooklang is like markdown for recipes. It lets you write recipes in
 url: "/blog/cooklang"
 date: 2022-09-21
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
 
@@ -49,32 +49,32 @@ Serve steak immediately
 
 ## Cooklang syntax
 
-Although the text is human readable, this is what the special syntax means.
+  + Although the text is human readable, this is what the special syntax means.
 
 ### Ingredients
 
-`@ingredient{quantity%unit}`  for example  `@butter{30%g}`
+  + `@ingredient{quantity%unit}`  for example  `@butter{30%g}`
 
-You can specify simple ingredients using  `@` , for example,  `@salt`
+  + You can specify simple ingredients using  `@` , for example,  `@salt`
 
-Ingredients with spaces can use curly braces  `@ground pepper{}`
+  + Ingredients with spaces can use curly braces  `@ground pepper{}`
 
 ### Time
 
-You can specify time using  `~{quantity%units}`  like  `~{30%seconds}`
+  + You can specify time using  `~{quantity%units}`  like  `~{30%seconds}`
 
 ### Metadata
 
-You can add metadata using the  `>>key: value`  syntax.
+  + You can add metadata using the  `>>key: value`  syntax.
 
-`>>source: https://www.seriouseats.com/food-lab-complete-guide-to-sous-vide-steak`
+  + `>>source: https://www.seriouseats.com/food-lab-complete-guide-to-sous-vide-steak`
 
 ### Cookware
 
-You can specify cookware needed with  `#cookware{}`  like  `#potato masher{}`.
+  + You can specify cookware needed with  `#cookware{}`  like  `#potato masher{}`.
 
 ### Conclusion
 
-Overall I'm delighted with cooklang. It was pretty easy to integrate with my static site and the [Obsidian](https://obsidian.md/) cooklang plugin works well. I hope to collect my favorite recipes and continue to tune them over time.
+  + Overall I'm delighted with cooklang. It was pretty easy to integrate with my static site and the [Obsidian](https://obsidian.md/) cooklang plugin works well. I hope to collect my favorite recipes and continue to tune them over time.
 
-See [here for my complete list of recipes](https://briansunter.com/recipes/) categories by tag.
+  + See [here for my complete list of recipes](https://briansunter.com/recipes/) categories by tag.

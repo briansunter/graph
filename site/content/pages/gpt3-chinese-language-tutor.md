@@ -5,32 +5,32 @@ tags:
 - gpt3
 title: gpt3-chinese-language-tutor
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 # Special Purpose AI Tutor Chat Bots
 
-Can you create a special purpose tutoring chat bot to teach yourself Chinese internet slang?
+  + Can you create a special purpose tutoring chat bot to teach yourself Chinese internet slang?
 
-I learned a little bit of Chinese in college, but I only learned basic things from textbooks like how to talk about school and the weather.
+  + I learned a little bit of Chinese in college, but I only learned basic things from textbooks like how to talk about school and the weather.
 
-I never felt comfortable with colloquial Chinese, and Chinese internet slang was especially difficult.
+  + I never felt comfortable with colloquial Chinese, and Chinese internet slang was especially difficult.
 
-Can GPT-3 be used to create a specialized Chinese tutor chat bot to teach me Chinese internet slang for use on Twitter?
+  + Can GPT-3 be used to create a specialized Chinese tutor chat bot to teach me Chinese internet slang for use on Twitter?
 
-[See OpenAI docs on conversational prompts](https://beta.openai.com/docs/guides/completion/conversation)
+  + [See OpenAI docs on conversational prompts](https://beta.openai.com/docs/guides/completion/conversation)
 
-{{< logseq/mark >}}**The yellow blocks are my questions to the tutoring chat bot**{{< / logseq/mark >}}
+  + {{< logseq/mark >}}**The yellow blocks are my questions to the tutoring chat bot**{{< / logseq/mark >}}
 
-The blocks underneath are responses from the GPT-3 tutoring bot.
+    + The blocks underneath are responses from the GPT-3 tutoring bot.
 
 # Chinese Internet Slang Tutoring Session
 
-This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
+  + This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
 Teacher: hello, how can I answer your chinese questions?
 
-{{< logseq/mark >}}**Student: Could you give me some phases related to internet slang for talking to my twitter followers in Chinese?**{{< / logseq/mark >}}Teacher:
+  + {{< logseq/mark >}}**Student: Could you give me some phases related to internet slang for talking to my twitter followers in Chinese?**{{< / logseq/mark >}}Teacher:
 
-[[gpt/response]] 网络流行语短语：
+    + [[gpt/response]] 网络流行语短语：
 "你好哇" - "Hello there!"
 "嘿嘿" - "Hey!"
 "呀嘛" - "OMG!"
@@ -47,9 +47,9 @@ Teacher: hello, how can I answer your chinese questions?
 "顶" - "Support!"
 "没有办法" - "There's no way!"
 
-{{< logseq/mark >}}**Student: What are some chinese internet slang phrases I should know?**{{< / logseq/mark >}}Teacher:
+  + {{< logseq/mark >}}**Student: What are some chinese internet slang phrases I should know?**{{< / logseq/mark >}}Teacher:
 
-[[gpt/response]] Here are a few popular Chinese internet slang phrases to help you get started:
+    + [[gpt/response]] Here are a few popular Chinese internet slang phrases to help you get started:
 喜欢 (xǐ huan) – to like
 好像 (hǎo xiàng) – to look like, to seem like
 跟 (gēn) – to follow
@@ -67,38 +67,38 @@ Teacher: hello, how can I answer your chinese questions?
 懒 (lǎn) - To be lazy
 伤心 (shāngxīn) - To be sad
 
-山寨 (shānzhài): This term is used to describe something that is a copy or imitation of something else. It can also be used to describe something that is of low quality.
+    + 山寨 (shānzhài): This term is used to describe something that is a copy or imitation of something else. It can also be used to describe something that is of low quality.
 
-沙发 (shāfā): This term is used when someone agrees with what someone else has said. It is the equivalent of saying “I second that” or “+1”.
+    + 沙发 (shāfā): This term is used when someone agrees with what someone else has said. It is the equivalent of saying “I second that” or “+1”.
 
-草泥马 (cǎonímǎ): This term is used to describe someone who is lazy or inactive. It is the equivalent of saying “lazy bones” or “couch potato”.
+    + 草泥马 (cǎonímǎ): This term is used to describe someone who is lazy or inactive. It is the equivalent of saying “lazy bones” or “couch potato”.
 
-吃鸡 (chījī): This term is used to describe the act of winning in an online game. It is the equivalent of saying “gg” (good game) or “WP” (well played).
+    + 吃鸡 (chījī): This term is used to describe the act of winning in an online game. It is the equivalent of saying “gg” (good game) or “WP” (well played).
 
-{{< logseq/mark >}}**Student: What should I know about chinese internet culture?**{{< / logseq/mark >}}Teacher:
+  + {{< logseq/mark >}}**Student: What should I know about chinese internet culture?**{{< / logseq/mark >}}Teacher:
 
-[[gpt/response]] There are a few things to know about Chinese internet culture. The most popular social networking site in China is QQ, which has over 800 million active users. China also has the largest online population in the world, with over 650 million internet users.
+    + [[gpt/response]] There are a few things to know about Chinese internet culture. The most popular social networking site in China is QQ, which has over 800 million active users. China also has the largest online population in the world, with over 650 million internet users.
 
-{{< logseq/mark >}}**Student: How many active users does twitter have?**{{< / logseq/mark >}}
+    + {{< logseq/mark >}}**Student: How many active users does twitter have?**{{< / logseq/mark >}}
 
-Twitter has around 330 million active users.
+      + Twitter has around 330 million active users.
 
-{{< logseq/mark >}}**Student: How should I introduce myself in Chinese?**{{< / logseq/mark >}}
+    + {{< logseq/mark >}}**Student: How should I introduce myself in Chinese?**{{< / logseq/mark >}}
 
-Teacher:
+      + Teacher:
 
-[[gpt/response]] 你好，我叫____。我来自___，我喜欢____。
+        + [[gpt/response]] 你好，我叫____。我来自___，我喜欢____。
 
-[[gpt/response]] Introducing yourself in Chinese on the internet is easy! Just start by saying 你好 (nǐ hǎo), which means "hello." From there, you can tell people your name, where you're from, and what you're interested in. Don't forget to include a few pleasantries to make sure your introduction goes over well!
+        + [[gpt/response]] Introducing yourself in Chinese on the internet is easy! Just start by saying 你好 (nǐ hǎo), which means "hello." From there, you can tell people your name, where you're from, and what you're interested in. Don't forget to include a few pleasantries to make sure your introduction goes over well!
 
-{{< logseq/mark >}}**Student: What are some vocabulary and phases I should know related to AI?**{{< / logseq/mark >}}
+    + {{< logseq/mark >}}**Student: What are some vocabulary and phases I should know related to AI?**{{< / logseq/mark >}}
 
-[[gpt/response]] Teacher:
+      + [[gpt/response]] Teacher:
 There is a lot of vocabulary related to AI in Chinese, but some of the most important words to know are 机器 (jī qì) for machine, 人工智能 (rén gōng zhì néng) for artificial intelligence, and 自动化 (zì dòng huà) for automation. Some other useful phrases might be 我们使用机器来完成这项任务 (wǒ men shǐ yòng jī qì lái wán chéng zhè xiàng rèn wù) - we use machines to complete this task, or 机器人将会取代人类工作 (jī qì rén jiāng huì qǔ fftdài rén lèi gōng zuò) - robots will replace human workers.
 
-{{< logseq/mark >}}Student: Could you tell me some ways to talk with Chinese internet users in a colloquial way?{{< / logseq/mark >}}
+    + {{< logseq/mark >}}Student: Could you tell me some ways to talk with Chinese internet users in a colloquial way?{{< / logseq/mark >}}
 
-[[gpt/response]] Teacher:
+      + [[gpt/response]] Teacher:
 
 There are a few ways to talk with Chinese internet users in a colloquial way. First, you can try using popular online slang. This includes words and phrases that are commonly used on the internet, such as 耶 (yē, yes), 哈哈 (hāhā, haha), 嘻嘻 (xīxī, hehe), 呵呵 (hēhē, hehe), 哦 (ō, oh), 哎呀 (āiyā, oops), 啊 (a, ah), and so on.
 

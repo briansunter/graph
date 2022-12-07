@@ -10,7 +10,7 @@ gpt-sources:
 - gpt algorithms guide
 title: algorithms-boot-camp-study-guide
 categories:
-lastMod: 2022-11-16
+lastMod: 2022-12-07
 ---
 This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to know about algorithms.
 
@@ -18,495 +18,495 @@ As I write more notes, I'll link to them here.
 
 # Array
 
-## Problems
+  + ## Problems
 
-two sum
+    + two sum
 
-search index
+    + search index
 
-kth largest element in array
+    + kth largest element in array
 
-## Concepts
+  + ## Concepts
 
-2d arrays
+    + 2d arrays
 
-nd arrays
+    + nd arrays
 
-jagged array
+    + jagged array
 
 # Linked list
 
-Operations
+  + Operations
 
-Insert
+    + Insert
 
-Delete
+    + Delete
 
-Find
+    + Find
 
-Reverse
+    + Reverse
 
-counting
+    + counting
 
-finding middle
+    + finding middle
 
-merging
+    + merging
 
-kth to last note
+    + kth to last note
 
-detecting cycles
+    + detecting cycles
 
 # Stack
 
-Towers of Hanoi
+  + Towers of Hanoi
 
 # Queue
 
-LIFO
+  + LIFO
 
-FIFO
+  + FIFO
 
 # Tree
 
-## Concepts
+  + ## Concepts
 
-root
+    + root
 
-edge
+    + edge
 
-leaf
+    + leaf
 
-depth
+    + depth
 
-## Binary Tree
+  + ## Binary Tree
 
-### Binary Search Trees
+    + ### Binary Search Trees
 
-#### Problems
+    + #### Problems
 
-level order traversalre
+      + level order traversalre
 
-construct tree from traversal
+      + construct tree from traversal
 
-## Balanced tree
+  + ## Balanced tree
 
-AVL Tree
+    + AVL Tree
 
-b-tree
+    + b-tree
 
-## Operations
+  + ## Operations
 
-Insertion
+    + Insertion
 
-Deletion
+    + Deletion
 
-Traversal
+    + Traversal
 
-Pre order
+      + Pre order
 
-in order
+      + in order
 
-post order
+      + post order
 
-Search
+    + Search
 
-Breadth First Search
+      + Breadth First Search
 
-Depth First Search
+      + Depth First Search
 
-find min/max
+      + find min/max
 
-find successor predecessor
+      + find successor predecessor
 
 # Hash table
 
-## Implementations
+  + ## Implementations
 
-Array
+    + Array
 
-Linked List
+    + Linked List
 
-Binary Tree
+    + Binary Tree
 
-Operations
+  + Operations
 
-get
+    + get
 
-put
+    + put
 
-delete
+    + delete
 
-Hash Function
+  + Hash Function
 
-Linear Probing
+    + Linear Probing
 
-Quadratic Probing
+    + Quadratic Probing
 
-Collision Resolution
+  + Collision Resolution
 
-## Problems
+  + ## Problems
 
-lru cache
+    + lru cache
 
 # Heap
 
-## Priority queue
+  + ## Priority queue
 
-heap
+    + heap
 
-Compare function
+    + Compare function
 
-enqueue
+    + enqueue
 
-dequeue
+    + dequeue
 
-peek
+    + peek
 
-## Concepts
+  + ## Concepts
 
-complete binary tree
+    + complete binary tree
 
-priority queue
+    + priority queue
 
-array representation
+    + array representation
 
-Min Heap
+    + Min Heap
 
-Max Heap
+    + Max Heap
 
-## Operations
+  + ## Operations
 
-build
+    + build
 
-insert
+    + insert
 
-get
+    + get
 
-delete
+    + delete
 
-heapify
+    + heapify
 
-heap sort in place
+    + heap sort in place
 
-## Problems
+  + ## Problems
 
-merge k sorted lists
+    + merge k sorted lists
 
-kth largest element in array
+    + kth largest element in array
 
-the skyline problem
+    + the skyline problem
 
 # Trie
 
-compressed trie
+  + compressed trie
 
-suffix trie
+  + suffix trie
 
 # Advanced data structures
 
-skip list
+  + skip list
 
-suffix tree
+  + suffix tree
 
-suffix array
+  + suffix array
 
-bloom filter
+  + bloom filter
 
 # Sorting
 
-[[bubble-sort]]
+  + [[bubble-sort]]
 
-insertion sort
+  + insertion sort
 
-merge sort
+  + merge sort
 
-quick sort
+  + quick sort
 
-radix sort
+  + radix sort
 
-sort stability
+  + sort stability
 
-counting sort
+  + counting sort
 
-## Problems
+  + ## Problems
 
-dutch national flag
+    + dutch national flag
 
-merge two sorted arrays
+    + merge two sorted arrays
 
 # Graph
 
-## Concepts
+  + ## Concepts
 
-Graph theory
+    + Graph theory
 
-Pathfinding
+    + Pathfinding
 
-Connectivity
+    + Connectivity
 
-Shortest Path
+    + Shortest Path
 
-Minimum Spanning Tree
+    + Minimum Spanning Tree
 
-Cycles
+    + Cycles
 
-disjoint graph
+    + disjoint graph
 
-## Operations
+  + ## Operations
 
-Traversal
+    + Traversal
 
-Breadth First Search
+    + Breadth First Search
 
-Depth First Search
+    + Depth First Search
 
-bipartite graph
+    + bipartite graph
 
-topological sort
+    + topological sort
 
-djikstra's algorithm
+    + djikstra's algorithm
 
-bellman-ford
+    + bellman-ford
 
-Floyd-Warshall algorithm
+    + Floyd-Warshall algorithm
 
-Prim's algorithm
+    + Prim's algorithm
 
-Kruskal's algorithm
+    + Kruskal's algorithm
 
-## Graph Representations
+  + ## Graph Representations
 
-adjacency list
+    + adjacency list
 
-adjacency matrix
+    + adjacency matrix
 
 # Recursion
 
-## Concepts
+  + ## Concepts
 
-Backtracking
+    + Backtracking
 
-Base Case
+    + Base Case
 
-Recursive Case
+    + Recursive Case
 
-Inductive Step
+    + Inductive Step
 
-Tail Recursion
+    + Tail Recursion
 
-Memoization
+    + Memoization
 
-## Problems
+  + ## Problems
 
-recursive factorial
+    + recursive factorial
 
-recursive exponent
+    + recursive exponent
 
-subsets of size n
+    + subsets of size n
 
-fibonacci numbers
+    + fibonacci numbers
 
-pascals triangle
+    + pascals triangle
 
-towers of hanoi
+    + towers of hanoi
 
-combinatorial enumeration of binary strings
+    + combinatorial enumeration of binary strings
 
-letter case permutations
+    + letter case permutations
 
-subsets 1
+    + subsets 1
 
-permutations 1
+    + permutations 1
 
-permutations 2
+    + permutations 2
 
-subset sum
+    + subset sum
 
-generate parenthesis
+    + generate parenthesis
 
-n queens
+    + n queens
 
-subarray sum equals k
+    + subarray sum equals k
 
-valid parentesis
+    + valid parentesis
 
 # String Algorithms
 
-## Concepts
+  + ## Concepts
 
-String matching
+    + String matching
 
-Pattern matching
+    + Pattern matching
 
-String search
+    + String search
 
-Data compression
+    + Data compression
 
-Edit distance
+    + Edit distance
 
-Substring search
+    + Substring search
 
-String similarity measures
+    + String similarity measures
 
-## Operations
+  + ## Operations
 
-rabin karp
+    + rabin karp
 
-kmp knuth morris pratt
+    + kmp knuth morris pratt
 
-## Problems
+  + ## Problems
 
-non repeating characters
+    + non repeating characters
 
-anagram
+    + anagram
 
-palindrome
+    + palindrome
 
-frequency counting
+    + frequency counting
 
-reverse
+    + reverse
 
 # Dynamic Programming
 
-## Problems
+  + ## Problems
 
-0/1 knapsack
+    + 0/1 knapsack
 
-longest common subsequence
+    + longest common subsequence
 
-subset sum
+    + subset sum
 
-mimimum edit distance
+    + mimimum edit distance
 
-minimum numbers of coins
+    + minimum numbers of coins
 
-longest increasing subsequence
+    + longest increasing subsequence
 
-longest palindromic subsequence
+    + longest palindromic subsequence
 
-text justification
+    + text justification
 
 # Computational Geometry
 
 # Network Flow Algorithms
 
-network flow
+  + network flow
 
-maximum flow
+  + maximum flow
 
-minimum cut
+  + minimum cut
 
-Ford–Fulkerson
+  + Ford–Fulkerson
 
-Edmonds–Karp
+  + Edmonds–Karp
 
-Dinic's algorithm
+  + Dinic's algorithm
 
-König's theorem
+  + König's theorem
 
 # NP-Complete
 
-## Approximation
+  + ## Approximation
 
-Simulated annealing
+    + Simulated annealing
 
-Tabu search
+    + Tabu search
 
-Genetic algorithms
+    + Genetic algorithms
 
-Ant colony optimization
+    + Ant colony optimization
 
-Particle swarm optimization
+    + Particle swarm optimization
 
-Cross-entropy method
+    + Cross-entropy method
 
-## Examples of NP Problems
+  + ## Examples of NP Problems
 
-Set Cover
+    + Set Cover
 
-Knapsack
+    + Knapsack
 
-Bin Packing
+    + Bin Packing
 
-Shortest Path
+    + Shortest Path
 
-Maximum Flow
+    + Maximum Flow
 
-Minimum Cut
+    + Minimum Cut
 
-Vertex Cover
+    + Vertex Cover
 
-Hamiltonian Path
+    + Hamiltonian Path
 
-Traveling Salesman
+    + Traveling Salesman
 
-Satisfiability Problem
+    + Satisfiability Problem
 
-Partition Problem
+    + Partition Problem
 
-Clique Problem
+    + Clique Problem
 
-Chromatic Number Problem
+    + Chromatic Number Problem
 
 # Search
 
-linear search
+  + linear search
 
-binary search
+  + binary search
 
-Depth-first search
+  + Depth-first search
 
-Breadth-first search
+  + Breadth-first search
 
-Best-first search
+  + Best-first search
 
-A* search
+  + A* search
 
-Dijkstra's algorithm
+  + Dijkstra's algorithm
 
-Bellman-Ford algorithm
+  + Bellman-Ford algorithm
 
-Floyd-Warshall algorithm
+  + Floyd-Warshall algorithm
 
-Johnson's algorithm
+  + Johnson's algorithm
 
 # Algorithm Design
 
-Greedy algorithms
+  + Greedy algorithms
 
-Dynamic programming
+  + Dynamic programming
 
-Divide and conquer
+  + Divide and conquer
 
-decrease and conquer
+    + decrease and conquer
 
-transform and conquer
+    + transform and conquer
 
-Randomized algorithms
+  + Randomized algorithms
 
 # Algorithm Analysis
 
-Harmonic series
+  + Harmonic series
 
-aritmetic geometric series
+  + aritmetic geometric series
 
-## Time Complexity
+  + ## Time Complexity
 
-big-O notation
+    + big-O notation
 
-Omega notation
+    + Omega notation
 
-Theta notation
+    + Theta notation
 
-little-o notation
+    + little-o notation
 
-arithmetic series
+    + arithmetic series
 
-harmonic series
+    + harmonic series
 
-arthmetic geometric series
+    + arthmetic geometric series
 
-## Space Complexity
+  + ## Space Complexity
 
 
 
