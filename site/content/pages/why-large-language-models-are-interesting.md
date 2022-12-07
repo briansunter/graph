@@ -9,7 +9,7 @@ tags:
 - gpt3
 - large language models
 description: Large language models have a number of interesting properties
-coverimage: "/assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png"
+coverimage: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 title: why-large-language-models-are-interesting
 lastMod: 2022-12-07
 ---
