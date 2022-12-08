@@ -13,217 +13,217 @@ The dates are only rough guidelines, this is more of a content ordering and flow
 # Roadmap #.ol-nested
 ## intro [newsletter-issue-1]({{< ref "/pages/newsletter-issue-1" >}}) [[Jun 12th, 2022]]
 
-  + Intro [newsletter]({{< ref "/pages/newsletter" >}})
+Intro [newsletter]({{< ref "/pages/newsletter" >}})
 
-  + More about what I'm doing
+More about what I'm doing
 
-  + Starting my public graph [[homepage]]
+Starting my public graph [[homepage]]
 
-  + Introducing my [[logseq openai]]
+Introducing my [[logseq openai]]
 
 ## Newsletter Project  [newsletter/issue/2]({{< ref "/pages/newsletter/issue/2" >}})  [[Jun 19th, 2022]]
 
-  + feedback on [[logseq openai]]
+feedback on [[logseq openai]]
 
-  + launching my [[get-youtube-subtitles]] plugin
+launching my [[get-youtube-subtitles]] plugin
 
 ## Getting started with logseq [[newsletter/issue/3]] [[Jun 26th, 2022]]
 
-  + [[get-youtube-subtitles]]
+[[get-youtube-subtitles]]
 
-  + [[omnivore-logseq-guide]]
+[[omnivore-logseq-guide]]
 
-  + Launching [[logseq-social]]
+Launching [[logseq-social]]
 
-  + [logseq-getting-started]({{< ref "/pages/logseq-getting-started" >}})
+[logseq-getting-started]({{< ref "/pages/logseq-getting-started" >}})
 
-  + [[second-brain]]
+[[second-brain]]
 
 ##  Newsletter intro and Productivity with AI [[newsletter/issue/4]]  [[Jul 3rd, 2022]]
 
-  + [[logseq-tasks]]
+[[logseq-tasks]]
 
-  + [notetaking-with-AI]({{< ref "/pages/notetaking-with-AI" >}})
+[notetaking-with-AI]({{< ref "/pages/notetaking-with-AI" >}})
 
-    + summarize
+summarize
 
-    + plan
+plan
 
-    + write
+write
 
-    + study guide
+study guide
 
-      + programming
+programming
 
-      + machine learning
+machine learning
 
-    + coding with ai
+coding with ai
 
-      + codex
+codex
 
-      + copilot
+copilot
 
-    + Edit
+Edit
 
-    + Fine Tune
+Fine Tune
 
-    + CoAuthor
+CoAuthor
 
 ## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue/5]]
 
-  + Updates
+Updates
 
-    + [algorithms-boot-camp]({{< ref "/pages/algorithms-boot-camp" >}})
+[algorithms-boot-camp]({{< ref "/pages/algorithms-boot-camp" >}})
 
-    + [algorithms-boot-camp-study-guide]({{< ref "/pages/algorithms-boot-camp-study-guide" >}})
+[algorithms-boot-camp-study-guide]({{< ref "/pages/algorithms-boot-camp-study-guide" >}})
 
-  + Productivity Toolkit
+Productivity Toolkit
 
-    + [[comparison-template]]
+[[comparison-template]]
 
-  + Brain Food
+Brain Food
 
-    + Quotes
+Quotes
 
-      + Draft
+Draft
 
 
-        + If I could only pick one favorite podcast, it would be Huberman Labs, which is about health and neuroscience by a Stanford Professor, Andrew Huberman.
+If I could only pick one favorite podcast, it would be Huberman Labs, which is about health and neuroscience by a Stanford Professor, Andrew Huberman.
 
-        + I've been listening to every one of the Huberman Labs podcasts in order, and I really enjoyed this one.
+I've been listening to every one of the Huberman Labs podcasts in order, and I really enjoyed this one.
 
-        + [MASTER YOUR SLEEP & BE MORE ALERT WHEN AWAKE - Huberman Labs Podcast](https://hubermanlab.com/master-your-sleep-and-be-more-alert-when-awake/)
+[MASTER YOUR SLEEP & BE MORE ALERT WHEN AWAKE - Huberman Labs Podcast](https://hubermanlab.com/master-your-sleep-and-be-more-alert-when-awake/)
 
-        + From a productivity perspective, sleep is one of my favorite subjects. I have trouble sleeping well consistently but feel so so much better when well rested.
+From a productivity perspective, sleep is one of my favorite subjects. I have trouble sleeping well consistently but feel so so much better when well rested.
 
-        + Likely you aren't getting enough sleep - [33% of people are chronically sleep deprived.](https://www.cdc.gov/media/releases/2016/p0215-enough-sleep.html) If you are trying to improve your life, fixing your sleep is the best place to start. Huberman points out in the podcast that some people have gone years without sleeping well. They don't even remember what it feels to be rested.
+Likely you aren't getting enough sleep - [33% of people are chronically sleep deprived.](https://www.cdc.gov/media/releases/2016/p0215-enough-sleep.html) If you are trying to improve your life, fixing your sleep is the best place to start. Huberman points out in the podcast that some people have gone years without sleeping well. They don't even remember what it feels to be rested.
 
-        + There are countless studies on how much sleep improves your health and performance, but it's impossible to quantify how much better your life is experiencing the world with a lucid mind.
+There are countless studies on how much sleep improves your health and performance, but it's impossible to quantify how much better your life is experiencing the world with a lucid mind.
 
-        + There is a wealth of information in the podcast, but a couple points stood out to me, as someone trying to feel sleepy earlier.
+There is a wealth of information in the podcast, but a couple points stood out to me, as someone trying to feel sleepy earlier.
 
-        + Summary
+Summary
 
-          + Circadian rhythm is the sleep and wakefulness cycle you go through every 24 hours. It controls when you get sleepy.
+Circadian rhythm is the sleep and wakefulness cycle you go through every 24 hours. It controls when you get sleepy.
 
-          + There are two many levers that affect your circadian rhythm: temperature and light.
+There are two many levers that affect your circadian rhythm: temperature and light.
 
-          + Getting bright outdoor light within 30 minutes of waking up sets your circadian rhytm.
+Getting bright outdoor light within 30 minutes of waking up sets your circadian rhytm.
 
-          + You also should avoid any bright lights at night, between 11pm and 4am
+You also should avoid any bright lights at night, between 11pm and 4am
 
-          + Your core temperature will be at its lowest 2 hours before you wake up and gradually start to increase. Your temperature will peak around late afternoon and then gradually decrease towards the evening thus repeating the cycle.
+Your core temperature will be at its lowest 2 hours before you wake up and gradually start to increase. Your temperature will peak around late afternoon and then gradually decrease towards the evening thus repeating the cycle.
 
-          + So to adjust your circadian rhythm, warm your body up at the appropriate time, with exercise or even a heater to be more alert, then cool yourself down at night to fall asleep.
+So to adjust your circadian rhythm, warm your body up at the appropriate time, with exercise or even a heater to be more alert, then cool yourself down at night to fall asleep.
 
-    + Link
+Link
 
-      + [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
+[Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
 ## Intro to Algorithms [[newsletter-6]]
 
-  + Updates
+Updates
 
-    + [intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}})
+[intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}})
 
-  + Productivity Toolkit
+Productivity Toolkit
 
-    + [logseq-projects]({{< ref "/pages/logseq-projects" >}})
+[logseq-projects]({{< ref "/pages/logseq-projects" >}})
 
-      + [[tour of my project template]]
+[[tour of my project template]]
 
-        + [[project-template]]
+[[project-template]]
 
-  + Brain Food
+Brain Food
 
-    + Quote
+Quote
 
-      + > Simplicity is a prerequisite for reliability.
+> Simplicity is a prerequisite for reliability.
 
-        + - Edsger W. Dijkstra
+- Edsger W. Dijkstra
 
-      + One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md). It's mostly a philosophical talk, it doesn't have much code in it.
+One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md). It's mostly a philosophical talk, it doesn't have much code in it.
 
-      + {{video https://www.youtube.com/watch?v=SxdOUGdseq4}}
+{{video https://www.youtube.com/watch?v=SxdOUGdseq4}}
 
-    + Link
+Link
 
-      + AI can play Stratego at an expert level now
+AI can play Stratego at an expert level now
 
-      + Stratego is one of the few iconic board games that AI has not yet mastered.
+Stratego is one of the few iconic board games that AI has not yet mastered.
 
-      + This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 10^175 times larger than that of Go.
+This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 10^175 times larger than that of Go.
 
 ![image.png](/assets/image_1657604178916_0.png)
 ![image.png](/assets/image_1657604210768_0.png)
 
-      + https://t.co/xXagujMfmw
+https://t.co/xXagujMfmw
 
 ## Time Complexity - Intro
 
-  + Updates
+Updates
 
-    + Time Complexity
+Time Complexity
 
-    + two sum
+two sum
 
-  + Productivity Toolkit
+Productivity Toolkit
 
-    + [100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
+[100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
 
-    + 
 
-  + Brain Food
 
-    + [you and your research]({{< ref "/pages/you and your research" >}})
+Brain Food
 
-    + Quote
+[you and your research]({{< ref "/pages/you and your research" >}})
 
-      + 
+Quote
 
-    + Link
+
+
+Link
 
 ## Intermediate typescript
 
-  + Updates
+Updates
 
-    + [[restoring-old-photos-with-ai]]
+[[restoring-old-photos-with-ai]]
 
-    + typescript
+typescript
 
-      + learnx in y minutes
+learnx in y minutes
 
-      + jest testing
+jest testing
 
-      + types patterns and generics
+types patterns and generics
 
-  + Productivity Toolkit
+Productivity Toolkit
 
-    + Capture [[logseq-second-brain]]
+Capture [[logseq-second-brain]]
 
-      + [[information diet]]
+[[information diet]]
 
-      + markdown capture
+markdown capture
 
-      + ios shortcuts with logseq
+ios shortcuts with logseq
 
-        + geolocation capture
+geolocation capture
 
-        + watch capture
+watch capture
 
-  + Brain Food
+Brain Food
 
-    + Quote
+Quote
 
-      + > No amount of observations of white swans can allow the inference that all swans are white, but the observation of a single black swan is sufficient to refute that conclusion.
+> No amount of observations of white swans can allow the inference that all swans are white, but the observation of a single black swan is sufficient to refute that conclusion.
 
-    + 
 
-    + Link
 
-      + 
+Link
 
-    + UN Population study
+
+
+UN Population study
 
 [[bubble-sort]
 
@@ -231,59 +231,59 @@ The dates are only rough guidelines, this is more of a content ordering and flow
 
 ## Intro to Recursion
 
-  + Updates
+Updates
 
-    + 
 
-  + Productivity Toolkit
 
-    + [[logseq-second-brain]]
+Productivity Toolkit
 
-      + organize
+[[logseq-second-brain]]
 
-    + 
+organize
 
-  + Brain Food
 
-    + Quote
 
-      + 
+Brain Food
 
-    + Link
+Quote
 
-      + 
 
-  + [[meal-prep]]
 
-  + linear recursion
+Link
 
-    + factorial
 
-  + tree recursion
 
-    + fibbonacci number
+[[meal-prep]]
+
+linear recursion
+
+factorial
+
+tree recursion
+
+fibbonacci number
 
 ## Divide and Conquer
 
 Updates
 
-  + merge sort
+merge sort
 
 Productivity Toolkit
 
-  + [[logseq-second-brain]]
+[[logseq-second-brain]]
 
-    + distill
+distill
 
-  + 
+
 
 Brain Food
 
-  + Quote
+Quote
 
-    + 
 
-  + Link
+
+Link
 
 
 
@@ -291,62 +291,62 @@ Brain Food
 
 Updates
 
-  + quicksort
+quicksort
 
-  + pivot selection
+pivot selection
 
-  + dutch national flag problem
+dutch national flag problem
 
 Productivity Toolkit
 
-  + [[logseq-second-brain]]
+[[logseq-second-brain]]
 
-    + express
+express
 
-  + 
+
 
 Brain Food
 
-  + Quote
+Quote
 
-    + 
 
-  + Link
 
-    + 
+Link
+
+
 
 ## Sorting, Stacks, and Queues
 
-  + Stack and Queue
+Stack and Queue
 
-    + Stack
+Stack
 
-    + Queue
+Queue
 
-  + quicksort
+quicksort
 
 ## Linked List
 
-  + Insert
+Insert
 
-  + Delete
+Delete
 
-  + Reverse
+Reverse
 
-  + Middle
+Middle
 
 ## Tree
 
-  + Binary Tree
+Binary Tree
 
-  + Binary Seach Tree
+Binary Seach Tree
 
-  + Tree Find
+Tree Find
 
-  + Tree Insert
+Tree Insert
 
-  + Tree Delete
+Tree Delete
 
-  + N-ary tree
+N-ary tree
 
-  + Balanced Binary Search Tree
+Balanced Binary Search Tree

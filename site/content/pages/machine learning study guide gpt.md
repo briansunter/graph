@@ -19,7 +19,7 @@ It was used to build this page: [machine learning study guide]({{< ref "/pages/m
 What machine learning concepts should I know to fully understand gpt-3
 
 
-  + new programmers
+new programmers
 
 1. Introduction to Computer Science concepts – This course will introduce the student to the most important computer science concepts. The student will learn about the history of computers, the different types of computers, the components of a computer, and how they work together.
 
@@ -31,7 +31,7 @@ What machine learning concepts should I know to fully understand gpt-3
 
 5. Introduction to Networks – This course will introduce the student to the basics of networks. The student will learn about the different types of networks, how they work, and how to design network architectures.
 
-  + 1. Introduction to GPT-3 Machine Learning
+1. Introduction to GPT-3 Machine Learning
 
 This course will introduce you to the GPT-3 machine learning model. You will learn about its architecture and how it works. Furthermore, you will explore its potential applications and use cases.
 
@@ -43,27 +43,27 @@ In this module, you will learn how to train and validate the GPT-3 machine learn
 
 In this module, you will learn about different applications of the GPT-3 machine learning model. You will also learn about its benefits and limitations.
 
-  + -Introduction to GPT-3 
+-Introduction to GPT-3 
 -The GPT-3 architecture 
 -How GPT-3 works 
 -The benefits of using GPT-3 
 -The drawbacks of using GPT-3
 
-  + -2 works
+-2 works
 
 This curriculum would aim to provide a programmer with a thorough understanding of GPT-2, how it works, and how it can be used to create text-based applications.
 
 Topics covered would include:
 
-    + An overview of GPT-2 and its capabilities
+An overview of GPT-2 and its capabilities
 
-    + How GPT-2 works, including a detailed explanation of the algorithms and data structures used
+How GPT-2 works, including a detailed explanation of the algorithms and data structures used
 
-    + How to train GPT-2 for specific tasks
+How to train GPT-2 for specific tasks
 
-    + How to use GPT-2 to create text-based applications
+How to use GPT-2 to create text-based applications
 
-  + Machine learning is a field of artificial intelligence that deals with the construction and study of algorithms that can learn from and make predictions on data.
+Machine learning is a field of artificial intelligence that deals with the construction and study of algorithms that can learn from and make predictions on data.
 
 These algorithms are used in a variety of applications, such as predicting consumer behavior, detecting fraudulent activities, and improving search results.
 
@@ -83,7 +83,7 @@ We will cover the following topics:
 
 5. How can I get started with machine learning?
 
-  + the game 2048
+the game 2048
 
 2048 is a game where players slide tiles across a grid to combine them and create a tile with the number 2048. The game is won when the player creates a tile with the number 2048.
 
@@ -95,11 +95,11 @@ Machine learning concepts:
 
 -Predictions: The game makes predictions about which tiles the player will slide next, based on the data from previous moves.
 
-  + GPT-3 is a machine learning platform that enables developers to train and deploy AI models. It is also intended to make it easier for developers to build applications that use machine learning.
+GPT-3 is a machine learning platform that enables developers to train and deploy AI models. It is also intended to make it easier for developers to build applications that use machine learning.
 
-  + GPT-3 is a machine learning platform that enables developers to train and deploy AI models. It is also said to be scalable and efficient with the ability to handle large amounts of data.
+GPT-3 is a machine learning platform that enables developers to train and deploy AI models. It is also said to be scalable and efficient with the ability to handle large amounts of data.
 
-  + ?
+?
 
 There is no one answer to this question as the field of machine learning is vast and always evolving. However, concepts that may be useful to understand include:
 
@@ -109,7 +109,7 @@ There is no one answer to this question as the field of machine learning is vast
 -The concept of a feature vector
 -How to perform data pre-processing
 
-  + ?
+?
 
 There are a few machine learning concepts that are necessary to understand in order to fully utilize the gpt-3 model. These concepts include:
 
@@ -123,7 +123,7 @@ There are a few machine learning concepts that are necessary to understand in or
 
 Write a curriculum for a programmer to study machine learning
 
-  + A machine learning programmer should have a strong foundation in mathematics, statistics and computer science. In addition, they should be well-versed in the different machine learning algorithms and models, and have experience working with various data mining and machine learning software packages. Here is a suggested curriculum for a machine learning programmer:
+A machine learning programmer should have a strong foundation in mathematics, statistics and computer science. In addition, they should be well-versed in the different machine learning algorithms and models, and have experience working with various data mining and machine learning software packages. Here is a suggested curriculum for a machine learning programmer:
 
 1. Mathematics: Linear algebra, calculus, probability and statistics
 
@@ -138,7 +138,7 @@ Write a curriculum for a programmer to study machine learning
 Write a curriculum for a programmer to study linear algebra for machine learning
 
 
-  + This is an outline of what a programmer might study in order to learn linear algebra for machine learning. Of course, this outline is not comprehensive, and a programmer will need to tailor their studies according to their specific goals and needs.
+This is an outline of what a programmer might study in order to learn linear algebra for machine learning. Of course, this outline is not comprehensive, and a programmer will need to tailor their studies according to their specific goals and needs.
 
 Basic concepts:
 
@@ -162,7 +162,7 @@ Topics in linear algebra:
 Write a curriculum for a programmer to study calculus concepts most important for machine learning
 
 
-  + 1. Review basic algebra and trigonometry.
+1. Review basic algebra and trigonometry.
 
 2. Study limits, continuity, and derivatives.
 
@@ -170,7 +170,7 @@ Write a curriculum for a programmer to study calculus concepts most important fo
 
 4. Practice using calculus to solve real-world problems.
 
-  + There are a variety of ways to approach calculus concepts most important for machine learning. Here is one possible curriculum:
+There are a variety of ways to approach calculus concepts most important for machine learning. Here is one possible curriculum:
 
 1. Review basic calculus concepts. This may include reviewing limits, derivatives, and integrals.
 
@@ -185,55 +185,55 @@ Write a curriculum for a programmer to study calculus concepts most important fo
 Write a curriculum for a programmer to study the most important statistics  concepts for machine learning
 
 
-  + This course will cover the most important probability concepts for machine learning, including:
+This course will cover the most important probability concepts for machine learning, including:
 
-    + Random variables
+Random variables
 
-    + Probability distributions
+Probability distributions
 
-    + Expectation and variance
+Expectation and variance
 
-    + Joint distributions
+Joint distributions
 
-    + Marginal and conditional distributions
+Marginal and conditional distributions
 
-    + Bayesian inference
+Bayesian inference
 
-    + Monte Carlo methods
+Monte Carlo methods
 
 		  Each concept will be covered in depth, with plenty of examples and practice problems. By the end of the course, students will be well-equipped to tackle machine learning problems with a strong understanding of probability.
 
 Write a curriculum for a programmer to study the most important probability concepts for machine learning
 
 
-  + This is a broad topic, but a few resources that could be useful for a programmer studying probability for machine learning are:
+This is a broad topic, but a few resources that could be useful for a programmer studying probability for machine learning are:
 
 -A textbook on probability and statistics, such as "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
 -A machine learning textbook that covers topics in probability, such as "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
 -Online tutorials or lectures on probability and machine learning, such as those offered by Coursera or Udacity.
 -Articles on recent advances in probability for machine learning, such as those published in the Journal of Machine Learning Research.
 
-  + This curriculum should cover the most important probability concepts for machine learning, including:
+This curriculum should cover the most important probability concepts for machine learning, including:
 
-    + Basic probability concepts (e.g., random variables, events, probability density functions, etc.)
+Basic probability concepts (e.g., random variables, events, probability density functions, etc.)
 
-    + More advanced probability concepts for machine learning (e.g., Markov chains, hidden Markov models, Bayesian inference, etc.)
+More advanced probability concepts for machine learning (e.g., Markov chains, hidden Markov models, Bayesian inference, etc.)
 
-    + Concepts from statistics that are important for machine learning (e.g., estimation, hypothesis testing, etc.)
+Concepts from statistics that are important for machine learning (e.g., estimation, hypothesis testing, etc.)
 
-  + Write a curriculum for a programmer to study the most important supervised learning concepts for machine learning
+Write a curriculum for a programmer to study the most important supervised learning concepts for machine learning
 
 
-    + 1. Linear Regression
+1. Linear Regression
 2. Logistic Regression
 3. Support Vector Machines
 4. Decision Trees
 5. Neural Networks
 
-  + Write a curriculum for a programmer to study the most important unsupervised learning concepts for machine learning
+Write a curriculum for a programmer to study the most important unsupervised learning concepts for machine learning
 
 
-    + 1. Dimensionality reduction: methods for reducing the number of features in a dataset while retaining as much information as possible. These methods are useful for visualizing data, reducing the storage requirements of a dataset, and improving the performance of machine learning algorithms.
+1. Dimensionality reduction: methods for reducing the number of features in a dataset while retaining as much information as possible. These methods are useful for visualizing data, reducing the storage requirements of a dataset, and improving the performance of machine learning algorithms.
 
 2. Clustering: methods for grouping data points together into meaningful groups. Clustering can be used to find groups of similar points in a dataset, to partition a dataset into multiple groups, or to find outliers in a dataset.
 
@@ -241,10 +241,10 @@ Write a curriculum for a programmer to study the most important probability conc
 
 4. Data preprocessing: methods for transforming data into a form that is more suitable for learning a task. Data preprocessing can be used to improve the accuracy of machine learning algorithms, to reduce the computational complexity of algorithms, or to make algorithms more interpretable.
 
-  + Write a curriculum for a programmer to study the most important predictive modeling concepts for machine learning
+Write a curriculum for a programmer to study the most important predictive modeling concepts for machine learning
 
 
-    + This curriculum is designed for a programmer who wants to study the most important concepts for machine learning. It covers the basics of linear algebra, calculus, and statistics, as well as more advanced topics such as optimization and regularization.
+This curriculum is designed for a programmer who wants to study the most important concepts for machine learning. It covers the basics of linear algebra, calculus, and statistics, as well as more advanced topics such as optimization and regularization.
 
 1. Linear Algebra
 
@@ -266,7 +266,7 @@ convex optimization, gradient descent, Newton's Method, and conjugate gradient
 
 L1 and L2 regularization, sparsity, and machine learning theory
 
-    + 1. Supervised learning: This is the most important concept for predictive modeling as it entails training a model to make predictions based on training data. This data is typically labeled, meaning that there is a known correct output for each input. Supervised learning algorithms include linear regression, logistic regression, and support vector machines.
+1. Supervised learning: This is the most important concept for predictive modeling as it entails training a model to make predictions based on training data. This data is typically labeled, meaning that there is a known correct output for each input. Supervised learning algorithms include linear regression, logistic regression, and support vector machines.
 
 2. Unsupervised learning: Unsupervised learning is used when there is no known output for the training data. Instead, the model must learn to recognize patterns in the data. Common unsupervised learning algorithms include k-means clustering and principal component analysis.
 
@@ -276,10 +276,10 @@ L1 and L2 regularization, sparsity, and machine learning theory
 
 5. Feature engineering: Feature engineering is the process of transforming raw data into the input format that is most suitable for a predictive model. This can involve many different techniques, such as normalization, one-hot encoding, and dimensionality reduction.
 
-  + Write a curriculum for a programmer to study the most important deep learning concepts for machine learning
+Write a curriculum for a programmer to study the most important deep learning concepts for machine learning
 
 
-    + 1. Artificial Neural Networks:
+1. Artificial Neural Networks:
 
  Artificial neural networks (ANNs) are algorithmically-based models that are used to simulate the workings of the human brain. ANNs are composed of a series of interconnected processing nodes, or neurons, that can learn to recognize patterns of input data. This enables them to carry out complex tasks, such as image recognition or machine translation.
 
@@ -299,10 +299,10 @@ Long short-term memory networks (LSTMs) are a type of RNN that is designed to mo
 
 Autoencoders are a type of neural network that is designed to learn a representation of data, such as an image or a sequence of words. Autoencoders are composed of a series of layers, each of which consists of a series of interconnected processing nodes. The first layer of an autoencoder is typically an input layer that encodes the input data into a series of vectors. The second layer is typically an encoding layer that learns a representation of the data. The third layer is typically a decoding layer that reconstructs the input data from the learned representation.
 
-  + Write a curriculum for a programmer to study the most important software programs for machine learning
+Write a curriculum for a programmer to study the most important software programs for machine learning
 
 
-    + There are many important software programs for machine learning, but three of the most important are:
+There are many important software programs for machine learning, but three of the most important are:
 
 1. TensorFlow: This open source software library for machine learning provides a platform for building and training neural networks.
 
@@ -310,10 +310,10 @@ Autoencoders are a type of neural network that is designed to learn a representa
 
 3. Keras: This open source library provides a high-level API for building and training neural networks.
 
-  + Write a curriculum for a programmer to study the most important computer science concepts for machine learning
+Write a curriculum for a programmer to study the most important computer science concepts for machine learning
 
 
-    + In order to study the most important computer science concepts for machine learning, a programmer should become familiar with the following topics:
+In order to study the most important computer science concepts for machine learning, a programmer should become familiar with the following topics:
 
 1. Data structures and algorithms: This is a fundamental topic in computer science, and it will be helpful to know how to efficiently store and manipulate data when working with machine learning algorithms.
 
@@ -325,10 +325,10 @@ Autoencoders are a type of neural network that is designed to learn a representa
 
 5. Neural networks: Neural networks are a powerful type of machine learning algorithm, and understanding how they work can be helpful for using them effectively.
 
-  + Write a curriculum for a programmer to study data engineering for machine learning
+Write a curriculum for a programmer to study data engineering for machine learning
 
 
-    + 1. Introduction to Data Mining: taught how to perform exploratory data analysis, identify patterns and trends in data, and how to build models to make predictions from data.
+1. Introduction to Data Mining: taught how to perform exploratory data analysis, identify patterns and trends in data, and how to build models to make predictions from data.
 
 2. Feature Selection: learn how to select the most relevant features from datasets to train machine learning models, and how to use feature selection algorithms to select features.
 
@@ -343,20 +343,20 @@ Autoencoders are a type of neural network that is designed to learn a representa
 7. Web Mining: learn how to mine data from the web, including crawling websites and extracting data from HTML pages.
 8.
 
-    + 1. Introduction to data: types of data, structure of data, how data is stored and accessed
+1. Introduction to data: types of data, structure of data, how data is stored and accessed
 2. Basic operations on data: retrieving data, filtering data, sorting data
 3. More advanced operations on data: aggregation, statistical operations, data mining
 4. Tools for working with data: spreadsheets, databases, statistical software, data visualization tools
 
-  + What should I know about supervised learning?
+What should I know about supervised learning?
 
 
-    + Supervised learning is a form of machine learning where the model is trained on a labeled dataset. The labels are used to provide feedback to the model so that it can learn to make predictions on new data.
+Supervised learning is a form of machine learning where the model is trained on a labeled dataset. The labels are used to provide feedback to the model so that it can learn to make predictions on new data.
 
-  + Write a study guide for a programmer to understand gpt3 machine learning in depth
+Write a study guide for a programmer to understand gpt3 machine learning in depth
 
 
-    + In machine learning, GPT3 is a family of statistical models that are used to predict the probability of a target class, based on one or more predictor variables. 
+In machine learning, GPT3 is a family of statistical models that are used to predict the probability of a target class, based on one or more predictor variables. 
 
 The three main types of GPT3 models are: 
  Linear 
@@ -369,10 +369,10 @@ GPT3 models can be fit using either a Maximum Likelihood Estimator (MLE) or a Ba
 
 Once a GPT3 model has been fit, it can be used to make predictions about the probability of the target class given new data.
 
-  + Write a study guide on how to understand gpt3
+Write a study guide on how to understand gpt3
 
 
-    + 1. Introduction
+1. Introduction
 
 This study guide is designed to help you understand the basics of GPT3. You will learn how GPT3 works, how to interpret results, and how to use GPT3 to your advantage.
 
@@ -388,24 +388,24 @@ GPT3 will usually give you a set of results, with the most likely result first. 
 
 GPT3 can be a great tool for helping you understand language. However, you should not rely on it too much. Try to use it as a supplement to your own knowledge.
 
-  + This is a conversation between a chatbot that teaches gpt3 and a student. 
+This is a conversation between a chatbot that teaches gpt3 and a student. 
 
 Teacher: Hello, I am here to teach you machine learning. What would you like to know?
 Student: What should I know about supervised learning?
 
-    + Supervised learning is a type of machine learning where the data is labeled and the algorithm is trained to learn from this data. This data can be in the form of a dataset, where each data point is labeled with the correct output. Alternatively, it can also be in the form of a set of instructions, where the algorithm is shown how to perform a specific task.
+Supervised learning is a type of machine learning where the data is labeled and the algorithm is trained to learn from this data. This data can be in the form of a dataset, where each data point is labeled with the correct output. Alternatively, it can also be in the form of a set of instructions, where the algorithm is shown how to perform a specific task.
 
-  + Student: What concepts do I need to know to understand gpt-3?
+Student: What concepts do I need to know to understand gpt-3?
 
 Teacher:
 
-    + There are a few key concepts that you need to know in order to understand gpt-3. These include supervised and unsupervised learning, neural networks, and deep learning. Once you have a good understanding of these concepts, you will be able to better understand how gpt-3 works.
+There are a few key concepts that you need to know in order to understand gpt-3. These include supervised and unsupervised learning, neural networks, and deep learning. Once you have a good understanding of these concepts, you will be able to better understand how gpt-3 works.
 
-    + [[gpt/response]] There are a lot of great resources out there for learning about gpt-3. I would recommend checking out the Google machine learning crash course, as it will give you a good overview of the basics of machine learning. After that, there are plenty of online tutorials and courses that you can take to further your understanding.
+[[gpt/response]] There are a lot of great resources out there for learning about gpt-3. I would recommend checking out the Google machine learning crash course, as it will give you a good overview of the basics of machine learning. After that, there are plenty of online tutorials and courses that you can take to further your understanding.
 
-  + Write a advanced guide for a programmer to study support vector machines for machine learning
+Write a advanced guide for a programmer to study support vector machines for machine learning
 
-    + This guide is meant for advanced programmers who want to study support vector machines (SVMs) for machine learning. SVMs are a powerful tool for machine learning, and they can be used for both classification and regression tasks. In this guide, we will focus on the use of SVMs for classification. First, we will review the basics of SVMs and their key concepts. Then, we will discuss how to use SVMs for classification, including some practical tips. Finally, we will briefly touch on the use of SVMs for regression.
+This guide is meant for advanced programmers who want to study support vector machines (SVMs) for machine learning. SVMs are a powerful tool for machine learning, and they can be used for both classification and regression tasks. In this guide, we will focus on the use of SVMs for classification. First, we will review the basics of SVMs and their key concepts. Then, we will discuss how to use SVMs for classification, including some practical tips. Finally, we will briefly touch on the use of SVMs for regression.
 
 The support vector machine is a supervised machine learning algorithm that can be used for both classification and regression tasks. The key idea behind SVMs is to find a decision boundary that maximizes the margin between the two classes. In the case of classification, this decision boundary is a hyperplane that separates the two classes. Once the hyperplane is found, the SVM can then be used to classify new data points.
 
@@ -417,6 +417,6 @@ There are a few things to keep in mind when using SVMs for classification. First
 
 SVMs are a powerful tool for machine learning, and they can be used for both classification and regression tasks. In this guide, we have focused on the use of SVMs for classification. We have reviewed the basics of SVMs and discussed how to use them for classification. We have also given some practical tips on data preprocessing and parameter tuning.
 
-    + Explain what a "decision boundary" is to a programmer in the context of machine learning and support vector machines
+Explain what a "decision boundary" is to a programmer in the context of machine learning and support vector machines
 
-      + A decision boundary is the line or surface that separates the output classes of a machine learning model. In support vector machines, the decision boundary is the line that separates the positive and negative examples in the feature space.
+A decision boundary is the line or surface that separates the output classes of a machine learning model. In support vector machines, the decision boundary is the line that separates the positive and negative examples in the feature space.

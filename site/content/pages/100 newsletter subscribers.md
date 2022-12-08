@@ -24,47 +24,47 @@ lastMod: 2022-12-07
 ---
 ## Summary
 
-  + I am starting a newsletter about my learnings on coding, technology, health, and productivity.
+I am starting a newsletter about my learnings on coding, technology, health, and productivity.
 
-  + I'm going to post useful content from my logseq graph on twitter, where I will have a newsletter signup on my profile.
+I'm going to post useful content from my logseq graph on twitter, where I will have a newsletter signup on my profile.
 
-  + My newsletter will mostly be curated tweets, which will be high quality links to my graph with screenshots.
+My newsletter will mostly be curated tweets, which will be high quality links to my graph with screenshots.
 
-  + My website will be used for permantently storing the articles, my twitter will be used for promotion and commenting,
+My website will be used for permantently storing the articles, my twitter will be used for promotion and commenting,
 
 ## Related long term goals
 
-  + write book
+write book
 
-  + 100000 followers
+100000 followers
 
-  + become financially independent
+become financially independent
 
 ## Desired output
 
-  + Gain 100 [newsletter]({{< ref "/pages/newsletter" >}}) followers in the next 3 months.
+Gain 100 [newsletter]({{< ref "/pages/newsletter" >}}) followers in the next 3 months.
 
 ## Tasks
 
-    + revue
+revue
 
-    + {{twitter https://twitter.com/Bsunter/status/1536775128175915009?s=20&t=xQ3NokQdki1rm7Ef1ALuVg}}
+{{twitter https://twitter.com/Bsunter/status/1536775128175915009?s=20&t=xQ3NokQdki1rm7Ef1ALuVg}}
 
 ## Templates
 
-  + [[comparison-template]]
+[[comparison-template]]
 
-  + [[newsletter template]]
+[[newsletter template]]
 
 ## Habits [100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
 
-    + analytics
+analytics
 
-    + status
+status
 
 ## Notes
 
-  + ### Newsletter Hosting Providers Comparison
+### Newsletter Hosting Providers Comparison
 
 id:: 62a91c1d-7848-41e8-bf52-5a229fb61ab6
 |Option|Pros|Cons|Notes|
