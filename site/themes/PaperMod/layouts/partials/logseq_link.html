@@ -1,8 +1,5 @@
-{{/* https://briansunter.com/graph/#/page/newsletter-issue-9 */}}
-
-{{ $relGraphLink := .RelPermalink | replaceRE "^/pages" "/graph/#/page"  | replaceRE "/$" ""}}
-<div class="graph-link">
- <a href="{{ $relGraphLink }}" >
+ <div class="graph-link">
+ <a href="/graph/#/page/{{ .Title }}" >
     <img class="logseq-logo" src="/images/logseq.png" alt="Graph" width="16" height="16" />
     Logseq Page
  </a>
