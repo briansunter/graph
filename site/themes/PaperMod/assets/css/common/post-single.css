@@ -428,3 +428,18 @@ h6:hover .anchor {
 [dir="rtl"] .paginav .next {
     text-align: left;
 }
+
+.graph-link a {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    color: var(--secondary);
+    text-decoration: underline;
+}
+.logseq-logo{
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 20%;
+}
