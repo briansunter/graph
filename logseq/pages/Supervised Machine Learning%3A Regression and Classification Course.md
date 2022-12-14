@@ -1,0 +1,28 @@
+- # Overview
+	- Machine learning is a method of teaching computers to do things without explicit programming.
+	- AI and machine learning is estimated to create an additional 13 trillion US dollars of value annually by the year 2030
+- # Supervised vs Unsupervised Learning
+	- In the 1950s Arthur Samual wrote a program that played checkers against itself
+	- There two main types of machine learning are supervised learning and unsupervised learning.
+	- ## Supervised Learning
+		- Supervised learning learns from data **labeled** with the right answers
+		- Right answer means the correct label y for a given input x
+		- By seeing correct pairs of input x and desired output label y that the learning algorithm eventually learns to take just the input alone without the output label and gives a reasonably accurate prediction or guess of the output
+		- ### Regression
+			- You may use regression to predict a number, such as house price based on square feet.
+			- You may use a straight light, curved line, or something more complicated
+			- ![Screenshot 2022-12-12 at 11.24.22 PM.png](../assets/Screenshot_2022-12-12_at_11.24.22_PM_1670923467755_0.png)
+		- ### Classification
+			- Instead of predicting a number like regression, classification predict categories, like malignient or beignine when predicting cancer
+			- There can be be two or more categories.
+			- ![Screenshot 2022-12-12 at 11.25.32 PM.png](../assets/Screenshot_2022-12-12_at_11.25.32_PM_1670923897993_0.png)
+	- ## Unsupervised Learning
+		- Unsupervised learning finds structure in unlabeled data, You don't give it the right answer
+		- For example, grouping news articles into the same story or discovering marketing segments of customers
+		- Clustering groups similar data together
+		- Anomaly Detection is finding unusual data points
+		- Dimensionality reduction compresses data using fewer numbers
+	- ## Jupyter Notebooks
+		- Environment to code and experiment with machine learning
+		-
+	-
