@@ -25,9 +25,9 @@ Over time I will make notes on these subjects and link to them here.
 
 ### Determinants
 
-### Eigenvectors and eigenvalues
+### Eigenvectors and Eigenvalues
 
-### Systems of Linear equations
+### Systems of Linear Equations
 
 ### Vector operations
 
@@ -53,33 +53,33 @@ Over time I will make notes on these subjects and link to them here.
 
 ### Principal component analysis
 
-## calculus
+## Calculus
 
-### algebra
+### Algebra
 
-### trigonometry
+### Trigonometry
 
-### limits
+### Limits
 
-### continuity
+### Continuity
 
-### derivatives
+### Derivatives
 
-### integrals
+### Integrals
 
-### multivariate calculus
+### Multivariate Calculus
 
-#### partial derivatives
+#### Partial Derivatives
 
-#### gradient descent
+#### Gradient Descent
 
-#### vector fields
+#### Vector Fields
 
-### optimization
+### Optimization
 
-#### convex optimization
+#### Convex optimization
 
-#### higher order equations
+#### Higher order equations
 
 #### conjugate gradient
 
@@ -159,7 +159,7 @@ Over time I will make notes on these subjects and link to them here.
 
 ## deep learning
 
-### Artifician neural networks
+### Artificial neural networks
 
 ### Convolutional nerual networks
 
