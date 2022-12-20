@@ -593,12 +593,92 @@ hasMermaid:: true
 # Heap - Heap Sort - Heapify - Priority Queues
 	- {{youtube https://youtu.be/HqPJF2L5h9U}}
 	- ## Array Representation of Binary Tree
+		- `[a,b,c,d,e,f,g]`
 		- ```mermaid
-		  graph TD;
-		  A-->B;
-		  A-->C;
+		  graph TD
+		  a-->b
+		  a-->c
+		  b-->d
+		  b-->e
+		  c-->f
+		  c-->g
 		  ```
+		- {{youtube-timestamp 181}} You can store a binary tree as an array
+		- When storing a binary tree we need store the elements as well as the relationship between the element
+		-
+		- ## Binary Tree Representation Formula
+			- #+BEGIN_NOTE
+			  He uses an array index starting at 1, but I converted it to an array with a 0 index
+			  #+END_NOTE
+			- if a node is at index `i`
+			- the left child is at index `2*i+1`
+			- The right child is at index `2*i+2`
+			- The parent is at `Math.floor((i-1)/2)`
+		- ## Examples
+			- {{youtube-timestamp 245}} what is the left child of `b` which is at index 1?
+			- The left child index is `2*1+1` = 3, and the element at index 3 is `d`
+			- {{youtube-timestamp 267}} What is the right child of `b` which is at index 1?
+			- The right child index is `2*1+2` = 4, and the element at index 4 is `e`
+			- {{youtube-timestamp 296}} What is the parent of `f` which is at index 5?
+			- The parent child index is `Math.floor((5-1)/2)` = 2, and the element at index 2 is `c`
+			- You can also think about filling them level by level
+			- ### Missing nodes at the end
+				- ```mermaid
+				  graph TD
+				  a-->b
+				  a-->c
+				  b-->d
+				  b-->e
+				  ```
+				- `[a,b,c,d,e]`
+				- leave out the missing elements at the end.
+			- ### Gaps
+				- {{youtube-timestamp 358}} Imagine filling it level by level, but leave a gap
+				- ```mermaid
+				  graph TD
+				  a-->b
+				  a-->c
+				  c-->f
+				  c-->g
+				  ```
+				- `[a,b,c,null,null,d,e]`
+				- children of b are missing, so leave a gap
 	- ## Complete Binary Tree
+		- ### Full Binary Tree
+			- ```mermaid
+			  graph TD
+			  a-->b
+			  a-->c
+			  b-->d
+			  b-->e
+			  c-->f
+			  c-->g
+			  ```
+			- {{youtube-timestamp 450}} a Full binary tree has the maximum number of nodes for its height, you can't add another node without increasing its height
+			- {{youtube-timestamp 497}} The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
+		- ### Complete Binary Tree
+			- {{youtube-timestamp 512}} When represented as an array, a complete binary tree doesn't have any gaps
+			- #### Complete Binary Tree Example
+				- ```mermaid
+				  graph TD
+				  a-->b
+				  a-->c
+				  b-->d
+				  b-->e
+				  c-->f
+				  c-->g
+				  ```
+				- Its array representation is `[a,b,c,d,e,f,g]` and it has no gaps, so it's a complete binary tree
+			- #### Non complete binary tree
+				- ```mermaid
+				  graph TD
+				  a-->b
+				  a-->c
+				  c-->f
+				  c-->g
+				  ```
+				- {{youtube-timestamp 532}} Its array representation is`[a,b,c,null,null,d,e]` and has gaps, so it is not a complete binary tree.
+			- Every full binary tree is also a complete binary tree
 	- ## Heap
 	- ## Insert and Delete
 	- ## Heap Sort

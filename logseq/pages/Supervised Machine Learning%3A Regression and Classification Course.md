@@ -43,7 +43,6 @@
 				- $(x^{(i)}, y^{(i)})$ = ith training example, 1st, 2nd, third etc.
 - # Regression Model
 	- ## Linear Regression With One Variable
-	  collapsed:: true
 		- **Training set** includes input features and output targets
 		- You feed the training set into the learning algorithm, and it produces a function, which takes a new input and output an estimate or prediction.
 		- $f(x)=\hat{y}$
@@ -57,7 +56,6 @@
 		- You can also use curves instead of straight lines.
 		- Another name for linear model with one variable is **univariate linear regression**
 	- ## Model Representation Lab
-	  collapsed:: true
 		- NumPy is a popular library for scientific computing
 		- Matplotlib is a popular library for plotting data
 		- ### Python String Formatting
@@ -113,9 +111,8 @@
 			  ```
 			- ![Screenshot 2022-12-16 at 10.03.38 PM.png](../assets/Screenshot_2022-12-16_at_10.03.38_PM_1671264244091_0.png)
 	- ## Cost Function
-	  collapsed:: true
 		- The cost function tells us how well the model is doing so we can get it to do it better
-		- in model $f_{w,b}(x)$ $w,b$ are called coefficients or weights
+		- in model $f_{w,b}(x)$ $w,b$ are called coefficients or weights, also called the parameters of the model
 		- Depending on the values wb, the function is different, which generates a different function on the graph
 		- ![Screenshot 2022-12-17 at 12.12.22 AM.png](../assets/Screenshot_2022-12-17_at_12.12.22_AM_1671271963136_0.png)
 		- You want your line to fit the data, or mostly pass through it
@@ -178,5 +175,35 @@
 		- ![Screenshot 2022-12-18 at 10.34.25 PM.png](../assets/Screenshot_2022-12-18_at_10.34.25_PM_1671438876704_0.png)
 		- Within a band of the ellipse ellipse, the points are at the same height
 		- The center has the lowest point
-		-
+	- ## Cost function code
+		- Our linear regression model is   $f_{w,b}(x^{(i)}) = wx^{(i)} + b$
+		- This is the python code for this model
+		- ```python
+		  def compute_cost(x, y, w, b): 
+		      """
+		      Computes the cost function for linear regression.
+		      
+		      Args:
+		        x (ndarray (m,)): Data, m examples 
+		        y (ndarray (m,)): target values
+		        w,b (scalar)    : model parameters  
+		      
+		      Returns
+		          total_cost (float): The cost of using w,b as the parameters for linear regression
+		                 to fit the data points in x and y
+		      """
+		      # number of training examples
+		      m = x.shape[0] 
+		      
+		      cost_sum = 0 
+		      for i in range(m): 
+		          f_wb = w * x[i] + b   
+		          cost = (f_wb - y[i]) ** 2  
+		          cost_sum = cost_sum + cost  
+		      total_cost = (1 / (2 * m)) * cost_sum  
+		  
+		      return total_cost
+		  ```
+	-
+	-
 	-

@@ -6,20 +6,32 @@ categories:
 tags:
 - ai
 - programming
-description: Best resources for machine learning
+description: Best resources for studying machine learning
 coverimage: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
+showtoc: true
+tocopen: true
 title: AI Learning Resources
-lastMod: 2022-12-16
+lastMod: 2022-12-19
 ---
+<style>.toc ul ul { display:none;}</style>
+
 # Overview
 
-I'm very eager to get into Artificial Intelligence (AI), but with so much to learn, I'm not sure where to start. Do I need a lot of math? What kind? Which areas should I focus on? How can I make sense of all the topics? What tools should I use? Additionally, how is the field developing, and what direction is it headed in?
+I'm very eager to start studying AI, but with so much to learn, I'm not sure where to start. Do I need a lot of math? What kind? Which areas should I focus on? How can I make sense of all the topics? What tools should I use? Additionally, how is the field developing, and what direction is it headed in?
 
 I'm a software engineer with some math under my belt, and my goal is to gain a thorough understanding of AI so I can apply it to my work. I'm particularly interested in generative AI, natural language processing, and building intelligent agents. I also want to gain the necessary math skills to have a strong understanding of the fundamentals, but I don't want to too bogged down in some of the advanced mathematical details.
 
-To help me on this journey, I've collected and summarized the best courses and books to help me get started on the right foot
+To help me on this journey, I've collected and summarized the best courses and books to help me get started on the right foot. I included the topics covered by each resource, so the list got pretty long, but it gives me a better idea of what to prioritize and how things fit together.
 
-I plan to study some of the following AI learning resources and this site will be a record of my successes and failures. I hope you'll join me on this journey as I learn more about this ever-evolving field.
+These materials are roughly in order I plan to study them, though some of the materials at the end are pretty advanced. I want to start by getting a practical overview, then go deep on the math and fundamentals.
+
+I plan on starting with some of the most popular courses, like Andrew Ng's Deeplearning.ai courses and the fast.ai courses.
+
+Next, I plan to take a few other high quality courses like the 3blue1brown math YouTube courses, the HuggingFace course, and Andrej Karpathy's Neural Network courses.
+
+Then I plan to study a variety of O'Reilly books focused on practical topics.
+
+Finally, I plan to study more in depth materials, such as a Berkeley AI course, some math textbooks, and some of the famous AI textbooks.
 
 ![Screenshot 2022-12-13 at 9.27.53 PM.png](/assets/Screenshot_2022-12-13_at_9.27.53_PM_1671002890776_0.png)
 
@@ -33,25 +45,25 @@ Time: 2.5 months (5 hours/week)
 
 ### Supervised learning
 
-linear regression
+Linear regression
 
-logistic regression
+Logistic regression
 
-neural networks
+Neural networks
 
-decision trees
+Decision trees
 
 Tree Ensembles
 
 ### Unsupervised learning
 
-clustering
+Clustering
 
-dimensionality reduction
+Dimensionality reduction
 
-recommender systems
+Recommender systems
 
-anomaly detection
+Anomaly detection
 
 ### Tools
 
@@ -69,9 +81,9 @@ XGBoost
 
 Regularization to Avoid Overfitting
 
-evaluating and tuning models
+Evaluating and tuning models
 
-improving performance
+Improving performance
 
 # Deeplearning.ai Deep Learning Course
 
@@ -145,7 +157,7 @@ Convolutions (CNNs)
 
 [Course Link](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
 
-how to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages, summarize text, and even build chatbots.
+How to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages, summarize text, and even build chatbots.
 
 Time: 4 months (6 hours/week)
 
@@ -193,7 +205,7 @@ T5 + BERT Models
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-data-and-deployment-specialization/)
 
-Learn how to get your machine learning models into the hands of real people on all kinds of devices. Start by understanding how to train and run machine learning models in browsers and in mobile applications. Learn how to leverage built-in datasets with just a few lines of code, learn about data pipelines with TensorFlow data services, use APIs to control data splitting, process all types of unstructured data and retrain deployed models with user data while maintaining data privacy. Apply
+Learn how to get your machine learning models into the hands of real people on all kinds of devices. Start by understanding how to train and run machine learning models in browsers and in mobile applications. Learn how to leverage built-in datasets with just a few lines of code, learn about data pipelines with TensorFlow data services, use APIs to control data splitting, process all types of unstructured data and retrain deployed models with user data while maintaining data privacy.
 
 Time: 4 months (3 hours/week)
 
@@ -477,61 +489,61 @@ This is the most step-by-step spelled-out explanation of backpropagation and tra
 
 ### Topics
 
-backpropagation
+Backpropagation
 
 pytorch
 
-multi-layer perceptron
+Multi-layer perceptron
 
-loss function
+Loss function
 
-gradient descent optimization
+Gradient descent optimization
 
-bigrams
+Bigrams
 
-vector normalization
+Vector normalization
 
-tensor broadcasting
+Tensor broadcasting
 
-model smoothing
+Model smoothing
 
-one-hot encodings
+One-hot encodings
 
-vectorized loss
+Vectorized loss
 
-embeddings
+Embeddings
 
-hidden layers
+Hidden layers
 
-negative log likelihood loss
+Negative log likelihood loss
 
-cross entropy
+Cross entropy
 
-overfitting
+Overfitting
 
-learning rate
+Learning rate
 
-character embeddings
+Character embeddings
 
-sampling from models
+Sampling from models
 
 Google colab
 
 TanH activation function
 
-batch normalization
+Batch normalization
 
-forward pass activation statistics
+Forward pass activation statistics
 
-backward pass gradient
+Backward pass gradient
 
-kaiming init
+Kaiming init
 
-parameter activation
+Parameter activation
 
-gradient statistics
+Gradient statistics
 
-batchnorm
+Batchnorm
 
 # 3blue1brown YouTube courses
 
@@ -671,9 +683,9 @@ Performance Measures
 
 Cross validation
 
-confusion matrix
+Confusion matrix
 
-multiclass classification
+Multiclass classification
 
 ### Training Models
 
@@ -851,10 +863,6 @@ Deploying a Model to a Mobile or Embedded Device
 
 Training Models Across Multiple Devices
 
-
-
-
-
 # SQL for Data Analysis
 
 ![714qourw99L.jpg](/assets/714qourw99L_1670744519576_0.jpg)
@@ -871,11 +879,11 @@ Preparing Data for Analysis
 
 Data cleaning
 
-deduplication
+Deduplication
 
-nulls
+Nulls
 
-shaping data
+Shaping data
 
 Time Series Data
 
@@ -923,9 +931,9 @@ Mean, median, mode, variability, percentile
 
 Distribution and sampling
 
-bias, central limit theorem, standard error, resampling, confidence interval, normal distribution
+Bias, central limit theorem, standard error, resampling, confidence interval, normal distribution
 
-normal, long tail, t, binomial, poisson, weibuill distributions
+Normal, long tail, t, binomial, poisson, weibuill distributions
 
 Statistical Experiments and Significance Testing
 
@@ -943,19 +951,19 @@ Confidence and prediction intervals
 
 Classification
 
-naive bayes
+Naive bayes
 
-discriminant analysis
+Discriminant analysis
 
-logistic regression
+Logistic regression
 
-imbalanced data
+Imbalanced data
 
 Statistical Machine Learning
 
-knn
+KNN
 
-tree models
+Tree models
 
 Bagging and Random Forest
 
@@ -967,7 +975,7 @@ Principal Components Analysis
 
 k-means clustering
 
-hierarchal clustering
+Hierarchal clustering
 
 Model Clustering
 
@@ -983,29 +991,29 @@ Master the math needed to excel in data science, machine learning, and statistic
 
 ## Topics
 
-calculus
+Calculus
 
-probability
+Probability
 
-linear algebra
+Linear algebra
 
-vectors
+Vectors
 
-matrices
+Matrices
 
-matrix decomposition
+Matrix decomposition
 
 statistics
 
 p-values
 
-statistical significance
+Statistical significance
 
-linear regression
+Linear regression
 
-logistic regression
+Logistic regression
 
-neural networks
+Neural networks
 
 SymPy
 
@@ -1049,11 +1057,11 @@ Hypothesis and Inference
 
 p-value
 
-confidence intervals
+Confidence intervals
 
 p-hacking
 
-bayesian inference
+Bayesian inference
 
 Gradient Descent
 
@@ -1061,37 +1069,37 @@ Scraping Data
 
 Working with Data
 
-dataclasses
+Dataclasses
 
-rescaling
+Rescaling
 
-cleaning
+Cleaning
 
-rescaling
+Rescaling
 
-dimensionality reduction
+Dimensionality reduction
 
-machine learning
+Machine learning
 
-modeling
+Modeling
 
-overfitting
+Overfitting
 
-bias-variance
+Bias-variance
 
-feature extraction
+Feature extraction
 
 k-nearest neighbors
 
-model
+Model
 
-dimensionality
+Dimensionality
 
 Naive Bayes
 
 Simple Linear Regression
 
-Mltiple Regression
+Multiple Regression
 
 Logistic Regression
 
@@ -1107,9 +1115,9 @@ Natural Language Processing
 
 Network Analysis
 
-eigenvector
+Eigenvector
 
-directed graphs
+Directed graphs
 
 Recommender Systems
 
@@ -1503,19 +1511,19 @@ Stirling’s Formula.
 
 Expected values
 
-variance
+Variance
 
-standard deviation
+Standard deviation
 
-distributions
+Distributions
 
-uniform
+Uniform
 
 Bernoulli
 
-binomial
+Binomial
 
-exponential
+Exponential
 
 Poisson
 
@@ -1523,9 +1531,9 @@ Gaussian
 
 Gaussian approximations
 
-law of large numbers
+Law of large numbers
 
-central limit theorem
+Central limit theorem
 
 Correlation and regression
 
@@ -1891,235 +1899,3 @@ Extremely rigorous books recommend by Mike Jordan from Berkeley intended for tho
 [Statistical Inference](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126)
 
 [Think Stats](https://greenteapress.com/thinkstats/)
-
-# Overall Topics
-
-## Tools
-
-python
-
-numpy
-
-skikit-learn
-
-matplotlib
-
-jupyter
-
-Google Colab
-
-sql
-
-tensorflow
-
-pytorch
-
-xgboost
-
-huggingface
-
-sagemaker
-
-## Supervised learning
-
-linear regression
-
-logistic regression
-
-neural networks
-
-decision trees
-
-## Unsupervised Learning
-
-clustering
-
-dimensionality reduction
-
-reccomender systems
-
-anomaly detection
-
-## Deep Learning
-
-Artificial Neural Networks
-
-Long Short Term Memory (LSTM)
-
-Convolutional Neural Networks
-
-Recurrent Neural Networks
-
-Gated Recurrent Unit (GRU)
-
-Transformers
-
-Transfer Learning
-
-Multi-Task Learning
-
-### Generative Adversarial Networks
-
-Generator
-
-Image-to-Image Translation
-
-Discriminator
-
-Controllable Generation
-
-WGANs
-
-Conditional Generation
-
-DCGANs
-
-StyleGANs
-
-## Natural Language Processing
-
-Sentiment Analysis
-
-Transformers
-
-Attention Models
-
-Machine Translation
-
-Word2vec
-
-Word Embeddings
-
-Locality-Sensitive Hashing
-
-Vector Space Models
-
-Parts-of-Speech Tagging
-
-N-gram Language Models
-
-Autocorrect
-
-Sentiment with Neural Networks
-
-Siamese Networks
-
-Natural Language Generation
-
-Named Entity Recognition (NER)
-
-Reformer Models
-
-Neural Machine Translation
-
-## MLOps
-
-Pipelines
-
-Data
-
-Model
-
-Deploy
-
-concept drift
-
-Model Baseline
-
-Data Transformation
-
-Data Augmentation
-
-Data Validation
-
-AutoML
-
-Explainability
-
-Model Monitoring
-
-Model Registries
-
-A/B Testing
-
-Data Ingestion
-
-Data Labeling
-
-Feature Engineering
-
-Feature Store
-
-Artifact and lineage tracking
-
-Human-in-the-Loop Pipelines
-
-Cost
-
-Performance
-
-Exploratory Data Analysis
-
-## Math
-
-### Linear Algebra
-
-Vectors
-
-Matrices
-
-Determinant
-
-Matrix Multiplication
-
-Dot Product
-
-Cross Product
-
-Eigenvectors
-
-Eigenvalues
-
-### Statistics
-
-Estimates and approximation
-
-Distribution
-
-Sampling
-
-Significance
-
-Regression
-
-Prediction
-
-Bayes Theorem
-
-support vector machines
-
-### Calculus
-
-Limits
-
-Derivative
-
-Chain Rule
-
-Product Rule
-
-Euler's Number
-
-Implicit Differentiation
-
-L'Hôpital's rule
-
-Epsilon Delta
-
-Integration
-
-Fundamental Theorem of Calculus
-
-Higher Order Derivatives
-
-Taylor Series
