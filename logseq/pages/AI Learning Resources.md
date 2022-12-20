@@ -5,6 +5,12 @@ tags:: [[ai]] [[programming]]
 description:: Best resources for machine learning
 coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 
+- # Overview
+	- I'm very eager to get into Artificial Intelligence (AI), but with so much to learn, I'm not sure where to start. Do I need a lot of math? What kind? Which areas should I focus on? How can I make sense of all the topics? What tools should I use? Additionally, how is the field developing, and what direction is it headed in?
+	- I'm a software engineer with some math under my belt, and my goal is to gain a thorough understanding of AI so I can apply it to my work. I'm particularly interested in generative AI, natural language processing, and building intelligent agents. I also want to gain the necessary math skills to have a strong understanding of the fundamentals, but I don't want to too bogged down in some of the advanced mathematical details.
+	- To help me on this journey, I've collected and summarized the best courses and books to help me get started on the right foot
+	- I plan to study some of the following AI learning resources and this site will be a record of my successes and failures. I hope you'll join me on this journey as I learn more about this ever-evolving field.
+- ![Screenshot 2022-12-13 at 9.27.53 PM.png](../assets/Screenshot_2022-12-13_at_9.27.53_PM_1671002890776_0.png)
 - # [Deeplearning AI Intro Course](https://www.coursera.org/specializations/machine-learning-introduction)
 	- Introductory course by Andrew Ng covering practical machine learning topics using Python
 	- Time: 2.5 months (5 hours/week)
@@ -680,6 +686,28 @@ coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 		- generalized linear models
 		- Bayesian additive regression trees
 		- matrix completion
+- # UC Berkeley CS188 Intro to AI
+	- ![cs188_welcome.png](../assets/cs188_welcome_1671233486880_0.png)
+	- This introductory Berkeley course accompanies the "Artificial Intelligence: A Modern Approach" book and provides lectures and course materials
+	- [Course Link](http://ai.berkeley.edu/course_schedule.html)
+	- ## Topics
+		- Uninformed Search
+		- A* Search and Heuristics
+		- Constraint Satisfaction Problems
+		- Game Trees
+			- Minimax
+			- Expectimax
+		- Markov Decision Processes
+		- Reinforcement Learning
+		- Probability
+		- Markov Models
+		- Hidden Markov Models
+		- Bayes' Nets
+		- Decision Diagrams
+		- Naive Bayes
+		- Perceptrons
+		- Kernels and Clustering
+		- Advanced Applications: NLP, Games, Cars, Robotics, and Computer Vision
 # Artificial Intelligence: A Modern Approach
 	- ![513Hc42D83L.jpg](../assets/513Hc42D83L_1670836404894_0.jpg)
 	- [Book Link](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597)
@@ -709,6 +737,11 @@ coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 			- Deep Learning for NLP
 			- Computer Vision
 			- Robotics
+# An Introduction to Probability and Inductive Logic
+- ![0521775019.01._SCLZZZZZZZ_SX500_.jpg](../assets/0521775019.01._SCLZZZZZZZ_SX500_1671236538109_0.jpg)
+- [Book Link](https://www.amazon.com/dp/0521775019?tag=bsunter06-20)
+- Book focused on probability and logic from a philosophical rather than mathemetical perspective.
+- The book has been designed to offer maximal accessibility to the widest range of students (not only those majoring in philosophy) and assumes no formal training in elementary symbolic logic. It offers a comprehensive course covering all basic definitions of induction and probability, and considers such topics as decision theory, Bayesianism, frequency ideas, and the philosophical problem of induction.
 - # Probability for the Enthusiastic Beginner
 	- ![61WkWvYJ9BL.jpg](../assets/61WkWvYJ9BL_1670723759360_0.jpg)
 	- This book is a resource for high school and college students learning about probability for the first time. It covers all of the standard introductory topics, such as combinatorics, the rules of probability, Bayes' theorem, and expectation value, and includes 150 worked-out problems. Calculus is not required, although some problems involve it. It can be used as a main text or supplement in an introductory probability course.
@@ -861,6 +894,7 @@ coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 		- Psychology
 		- Neuroscience
 		- Applications and case studies
+-
 - # Papers
 	- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 	- [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
@@ -874,6 +908,34 @@ coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 	- [ImageNet Classification with Deep Convolutional Neural Networks(alexnet)](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 	- [Deep Residual Learning for Image Recognition (resnet)](https://arxiv.org/abs/1512.03385v1)
 	- [Attention Is All You Need (Transformers)](https://arxiv.org/abs/1706.03762)
+- ## Mike Jordan Book list
+	- Extremely rigorous books recommend by Mike Jordan from Berkeley intended for those focused on research. I will probably never read these and feels impossible to get through these in one lifetime.
+	- [Hackernews Comment](https://news.ycombinator.com/item?id=1055389)
+	- > Esentially all of the material in the following intermediate-level statistics book:
+	- 1.) Casella, G. and Berger, R.L. (2001). "Statistical Inference" Duxbury Press.
+	- > For a slightly more advanced book that's quite clear on mathematical techniques, the following book is quite good:
+	- 2.) Ferguson, T. (1996). "A Course in Large Sample Theory" Chapman & Hall/CRC.
+	- > You'll need to learn something about asymptotics at some point, and a good starting place is:
+	- 3.) Lehmann, E. (2004). "Elements of Large-Sample Theory" Springer.
+	- > Those are all frequentist books. You should also read something Bayesian:
+	- 4.) Gelman, A. et al. (2003). "Bayesian Data Analysis" Chapman & Hall/CRC.
+	- > you should start to read about Bayesian computation:
+	- 5.) Robert, C. and Casella, G. (2005). "Monte Carlo Statistical Methods" Springer.
+	- > On the probability front, a good intermediate text is:
+	- 6.) Grimmett, G. and Stirzaker, D. (2001). "Probability and Random Processes" Oxford.
+	- > At a more advanced level, a very good text is the following:
+	- 7.) Pollard, D. (2001). "A User's Guide to Measure Theoretic Probability" Cambridge.
+	- > The standard advanced textbook is Durrett, R. (2005). "Probability: Theory and Examples" Duxbury.
+	- > Machine learning research also reposes on optimization theory. A good starting book on linear optimization that will prepare you for convex optimization:
+	- 8.) Bertsimas, D. and Tsitsiklis, J. (1997). "Introduction to Linear Optimization" Athena.
+	- > And then you can graduate to:
+	- 9.) Boyd, S. and Vandenberghe, L. (2004). "Convex Optimization" Cambridge.
+	- > Getting a full understanding of algorithmic linear algebra is also important. At some point you should feel familiar with most of the material in
+	- 10.) Golub, G., and Van Loan, C. (1996). "Matrix Computations" Johns Hopkins.
+	- > It's good to know some information theory. The classic is:
+	- 11.) Cover, T. and Thomas, J. "Elements of Information Theory" Wiley.
+	- > Finally, if you want to start to learn some more abstract math, you might want to start to learn some functional analysis (if you haven't already). Functional analysis is essentially linear algebra in infinite dimensions, and it's necessary for kernel methods, for nonparametric Bayesian methods, and for various other topics. Here's a book that I find very readable:
+	- 12.) Kreyszig, E. (1989). "Introductory Functional Analysis with Applications" Wiley.
 - # Other
 	- [Superintelligence](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 	- [Karpathy's CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/2016/)
@@ -884,3 +946,120 @@ coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 	- [Probability and Random Processes](https://www.amazon.com/Probability-Random-Processes-Geoffrey-Grimmett/dp/0198572220)
 	- [Statistical Inference](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126)
 	- [Think Stats](https://greenteapress.com/thinkstats/)
+- # Overall Topics
+  collapsed:: true
+	- ## Tools
+		- python
+		- numpy
+		- skikit-learn
+		- matplotlib
+		- jupyter
+		- Google Colab
+		- sql
+		- tensorflow
+		- pytorch
+		- xgboost
+		- huggingface
+		- sagemaker
+	- ## Supervised learning
+		- linear regression
+		- logistic regression
+		- neural networks
+		- decision trees
+	- ## Unsupervised Learning
+		- clustering
+		- dimensionality reduction
+		- reccomender systems
+		- anomaly detection
+	- ## Deep Learning
+		- Artificial Neural Networks
+			- Long Short Term Memory (LSTM)
+		- Convolutional Neural Networks
+		- Recurrent Neural Networks
+			- Gated Recurrent Unit (GRU)
+		- Transformers
+		- Transfer Learning
+		- Multi-Task Learning
+		- ### Generative Adversarial Networks
+			- Generator
+			- Image-to-Image Translation
+			- Discriminator
+			- Controllable Generation
+			- WGANs
+			- Conditional Generation
+			- DCGANs
+			- StyleGANs
+	- ## Natural Language Processing
+		- Sentiment Analysis
+		- Transformers
+		- Attention Models
+		- Machine Translation
+		- Word2vec
+		- Word Embeddings
+		- Locality-Sensitive Hashing
+		- Vector Space Models
+		- Parts-of-Speech Tagging
+		- N-gram Language Models
+		- Autocorrect
+		- Sentiment with Neural Networks
+		- Siamese Networks
+		- Natural Language Generation
+		- Named Entity Recognition (NER)
+		- Reformer Models
+		- Neural Machine Translation
+	- ## MLOps
+		- Pipelines
+			- Data
+			- Model
+			- Deploy
+		- concept drift
+		- Model Baseline
+		- Data Transformation
+		- Data Augmentation
+		- Data Validation
+		- AutoML
+		- Explainability
+		- Model Monitoring
+		- Model Registries
+		- A/B Testing
+		- Data Ingestion
+		- Data Labeling
+		- Feature Engineering
+		- Feature Store
+		- Artifact and lineage tracking
+		- Human-in-the-Loop Pipelines
+		- Cost
+		- Performance
+		- Exploratory Data Analysis
+	- ## Math
+		- ### Linear Algebra
+			- Vectors
+			- Matrices
+			- Determinant
+			- Matrix Multiplication
+			- Dot Product
+			- Cross Product
+			- Eigenvectors
+			- Eigenvalues
+		- ### Statistics
+			- Estimates and approximation
+			- Distribution
+			- Sampling
+			- Significance
+			- Regression
+			- Prediction
+			- Bayes Theorem
+			- support vector machines
+		- ### Calculus
+			- Limits
+			- Derivative
+			- Chain Rule
+			- Product Rule
+			- Euler's Number
+			- Implicit Differentiation
+			- L'Hôpital's rule
+			- Epsilon Delta
+			- Integration
+			- Fundamental Theorem of Calculus
+			- Higher Order Derivatives
+			- Taylor Series

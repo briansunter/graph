@@ -145,11 +145,6 @@
   :repo "vipzhicheng/logseq-plugin-vim-shortcuts",
   :effect true,
   :theme false},
- :logseq-schrodinger
- {:version "1.5.5",
-  :repo "sawhney17/logseq-schrodinger",
-  :effect true,
-  :theme false},
  :logseq-todo-master
  {:version "v1.10.2",
   :repo "pengx17/logseq-plugin-todo-master",
