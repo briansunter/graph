@@ -158,7 +158,7 @@ export class StaticSite extends Construct {
       memoryLimit: 512,
       cacheControl: [CacheControl.fromString("public, max-age=600, stale-while-revalidate=60")],
     });
-    new s3deploy.BucketDeployment(this, "DeploySiteAssetsWithInvalidation", {
+    new s3deploy.BucketDeployment(this, "DeployAssetsWithInvalidation", {
       sources: [
         s3deploy.Source.asset("../site/public", {
           exclude: ["!assets/*"],
