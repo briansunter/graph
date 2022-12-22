@@ -9,7 +9,6 @@ import * as cloudfront_origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import { CfnOutput, Duration, RemovalPolicy, Stack } from 'aws-cdk-lib';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import { Construct } from 'constructs';
-import { CacheControl } from 'aws-cdk-lib/aws-s3-deployment';
 
 export interface StaticSiteProps {
   domainName: string;
@@ -26,31 +25,26 @@ export class StaticSite extends Construct {
   constructor(parent: Stack, name: string, props: StaticSiteProps) {
     super(parent, name);
 
-    const zone = route53.HostedZone.fromLookup(this, "Zone", {
-      domainName: props.domainName,
-    });
+    const zone = route53.HostedZone.fromLookup(this, 'Zone', { domainName: props.domainName });
     let siteDomain;
 
     if (props.siteSubDomain) {
-      siteDomain = props.siteSubDomain + "." + props.domainName;
+      siteDomain = props.siteSubDomain + '.' + props.domainName;
+
     } else {
       siteDomain = props.domainName;
     }
 
-    const cloudfrontOAI = new cloudfront.OriginAccessIdentity(
-      this,
-      "cloudfront-OAI",
-      {
-        comment: `OAI for ${name}`,
-      }
-    );
+    const cloudfrontOAI = new cloudfront.OriginAccessIdentity(this, 'cloudfront-OAI', {
+      comment: `OAI for ${name}`
+    });
 
-    new CfnOutput(this, "Site", { value: "https://" + siteDomain });
+    new CfnOutput(this, 'Site', { value: 'https://' + siteDomain });
 
-    const bucketName = `${siteDomain}-content`;
+    const bucketName = `${siteDomain}-content`
 
     // Content bucket
-    const siteBucket = new s3.Bucket(this, "SiteBucket", {
+    const siteBucket = new s3.Bucket(this, 'SiteBucket', {
       bucketName,
       publicReadAccess: false,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
@@ -70,37 +64,25 @@ export class StaticSite extends Construct {
     });
 
     // Grant access to cloudfront
-    siteBucket.addToResourcePolicy(
-      new iam.PolicyStatement({
-        actions: ["s3:GetObject"],
-        resources: [siteBucket.arnForObjects("*")],
-        principals: [
-          new iam.CanonicalUserPrincipal(
-            cloudfrontOAI.cloudFrontOriginAccessIdentityS3CanonicalUserId
-          ),
-        ],
-      })
-    );
-    new CfnOutput(this, "Bucket", { value: siteBucket.bucketName });
+    siteBucket.addToResourcePolicy(new iam.PolicyStatement({
+      actions: ['s3:GetObject'],
+      resources: [siteBucket.arnForObjects('*')],
+      principals: [new iam.CanonicalUserPrincipal(cloudfrontOAI.cloudFrontOriginAccessIdentityS3CanonicalUserId)]
+    }));
+    new CfnOutput(this, 'Bucket', { value: siteBucket.bucketName });
 
     // TLS certificate
-    const certificate = new acm.DnsValidatedCertificate(
-      this,
-      "SiteCertificate",
-      {
-        domainName: siteDomain,
-        hostedZone: zone,
-        region: "us-east-1", // Cloudfront only checks this region for certificates.
-      }
-    );
-    new CfnOutput(this, "Certificate", { value: certificate.certificateArn });
-
-    const rewriteFunction = new cloudfront.Function(this, "Function", {
-      code: cloudfront.FunctionCode.fromFile({
-        filePath: "functions/url-rewrite.js",
-      }),
+    const certificate = new acm.DnsValidatedCertificate(this, 'SiteCertificate', {
+      domainName: siteDomain,
+      hostedZone: zone,
+      region: 'us-east-1', // Cloudfront only checks this region for certificates.
     });
+    new CfnOutput(this, 'Certificate', { value: certificate.certificateArn });
 
+    const rewriteFunction = new cloudfront.Function(this, 'Function', {
+      code: cloudfront.FunctionCode.fromFile({ filePath: 'functions/url-rewrite.js' }),
+  });
+    
     // CloudFront distribution
     const distribution = new cloudfront.Distribution(this, "SiteDistribution", {
       certificate: certificate,
@@ -131,46 +113,22 @@ export class StaticSite extends Construct {
       },
     });
 
-    new CfnOutput(this, "DistributionId", {
-      value: distribution.distributionId,
-    });
+    new CfnOutput(this, 'DistributionId', { value: distribution.distributionId });
 
     // Route53 alias record for the CloudFront distribution
-    new route53.ARecord(this, "SiteAliasRecord", {
+    new route53.ARecord(this, 'SiteAliasRecord', {
       recordName: siteDomain,
-      target: route53.RecordTarget.fromAlias(
-        new targets.CloudFrontTarget(distribution)
-      ),
-      zone,
+      target: route53.RecordTarget.fromAlias(new targets.CloudFrontTarget(distribution)),
+      zone
     });
 
     // Deploy site contents to S3 bucket
-    new s3deploy.BucketDeployment(this, "DeployHTMLWithInvalidation", {
-      sources: [
-        s3deploy.Source.asset("../site/public", {
-          exclude: ["assets/*" ],
-        }),
-      ],
-      exclude: ["assets/*"],
+    new s3deploy.BucketDeployment(this, 'DeployWithInvalidation', {
+      sources: [s3deploy.Source.asset('../site/public')],
       destinationBucket: siteBucket,
       distribution,
-      distributionPaths: ["/*"],
-      memoryLimit: 512,
-      cacheControl: [CacheControl.fromString("public,max-age=600,stale-while-revalidate=60")],
-    });
-    new s3deploy.BucketDeployment(this, "DeployAssetsWithInvalidation", {
-      sources: [
-        s3deploy.Source.asset("../site/public/assets", {
-        }),
-      ],
-      destinationKeyPrefix: "assets/",
-      destinationBucket: siteBucket,
-      distribution,
-      distributionPaths: ["/*"],
-      memoryLimit: 512,
-      cacheControl: [
-        CacheControl.fromString("max-age=31536000,public,immutable"),
-      ],
+      distributionPaths: ['/*'],
+      memoryLimit: 512
     });
   }
 }
