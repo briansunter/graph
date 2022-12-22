@@ -26,9 +26,10 @@
         <img loading="lazy" src="{{ (path.Join .RelPermalink .Params.coverimage) | absURL }}" alt="{{ $alt }}">
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.coverimage) | absURL }}" target="_blank"
+        {{- if $addLink }}
+        <a href="{{ (.Params.coverimage) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.coverimage) | absURL }}" alt="{{ $alt }}">
+            {{partial "optimage.html" (dict "Destination" ( .Params.coverimage ) "Title" .Title)}}
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}

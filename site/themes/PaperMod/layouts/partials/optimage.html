@@ -1,0 +1,13 @@
+{{ $image := resources.GetMatch .Destination}} 
+
+{{ if $image }}
+  {{ if gt $image.Width 1000 }}
+    {{ $image = $image.Resize "1000x webp" }}
+  {{else}}
+    {{ $resizeOptions := printf "%dx%d webp" $image.Width $image.Height }}
+    {{ $image = $image.Resize $resizeOptions }}
+  {{ end }}
+  <img loading="lazy" src="{{$image.RelPermalink}}" alt="{{ .Title }}" title="{{ .Title }}"  />
+{{ else }}
+  <img loading="lazy" src="{{ .Destination }}" alt="{{ .Title }}" title="{{ .Title }}" />
+{{ end }}
