@@ -195,15 +195,15 @@ Words most similar to "football" in meaning
 
 ![Screen Shot 2022-07-01 at 11.18.17 PM.png](/assets/Screen_Shot_2022-07-01_at_11.18.17_PM_1656746228360_0.png)
 
-{{tweet https://twitter.com/Bsunter/status/1543295071860035584?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
+{{< tweet user="Bsunter" id="1543295071860035584" >}}
 
 Words Similar to "guitar"
 
-{{tweet https://twitter.com/Bsunter/status/1543295726402187264?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
+{{< tweet user="Bsunter" id="1543295726402187264" >}}
 
 #### All Words
 
-{{tweet https://twitter.com/Bsunter/status/1543323775185235968?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
+{{< tweet user="Bsunter" id="1543323775185235968" >}}
 
 #### Handwritten numbers
 
@@ -211,7 +211,7 @@ Handwritten numbers are shown in terms of visual similarity to each-other
 
 You can see that "7" is similar to "9", so these numbers are grouped closely together in 3D space.
 
-{{tweet https://twitter.com/Bsunter/status/1543323996644487168?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
+{{< tweet user="Bsunter" id="1543323996644487168" >}}
 
 # GPT-3 and Large Language Models
 

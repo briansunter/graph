@@ -11,6 +11,7 @@ followers:: 825
 tweet-impressions:: 
 profile-visits::
 newsletter-subscribers:: 219
+public:: true
 
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 ### See all issues -> [[newsletter]]

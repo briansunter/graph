@@ -1,10 +1,11 @@
 title:: newsletter/issue/3
 type:: [[newsletter]]
-tags:: [[lgoseq]]
+tags:: [[logseq]] [[newsletter]]
 name:: Newsletter 3
 start-date:: [[Jun 23rd, 2022]]
 sent-date:: [[Jun 26th, 2022]]
 date:: 2022-06-26
+public:: true
 followers:: 529
 categories:: [[newsletter]]
 newsletter-subscribers:: 61

@@ -7,6 +7,7 @@ tags:
 - logseq
 - logseq openai
 - programming
+- newsletter
 tweet-impressions: 47
 categories:
 - newsletter
@@ -19,7 +20,7 @@ date: 2022-06-12
 start-date:
 - Jun 12th, 2022
 profile-visits: 45
-lastMod: 2022-12-07
+lastMod: 2022-12-22
 ---
 #  [Sign up for the email newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 

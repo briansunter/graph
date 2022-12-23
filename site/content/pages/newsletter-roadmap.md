@@ -27,7 +27,7 @@ feedback on [[logseq openai]]
 
 launching my [[get-youtube-subtitles]] plugin
 
-## Getting started with logseq [[newsletter/issue/3]] [[Jun 26th, 2022]]
+## Getting started with logseq [newsletter/issue/3]({{< ref "/pages/newsletter/issue/3" >}}) [[Jun 26th, 2022]]
 
 [[get-youtube-subtitles]]
 
@@ -39,7 +39,7 @@ Launching [[logseq-social]]
 
 [[second-brain]]
 
-##  Newsletter intro and Productivity with AI [[newsletter/issue/4]]  [[Jul 3rd, 2022]]
+##  Newsletter intro and Productivity with AI [newsletter/issue/4]({{< ref "/pages/newsletter/issue/4" >}})  [[Jul 3rd, 2022]]
 
 [[logseq-tasks]]
 
@@ -69,7 +69,7 @@ Fine Tune
 
 CoAuthor
 
-## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue/5]]
+## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue/5]({{< ref "/pages/newsletter/issue/5" >}})
 
 Updates
 
@@ -120,7 +120,7 @@ Link
 
 [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
-## Intro to Algorithms [[newsletter-6]]
+## Intro to Algorithms [newsletter-6]({{< ref "/pages/newsletter-6" >}})
 
 Updates
 
@@ -144,7 +144,7 @@ Quote
 
 One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md). It's mostly a philosophical talk, it doesn't have much code in it.
 
-{{video https://www.youtube.com/watch?v=SxdOUGdseq4}}
+{{< youtube SxdOUGdseq4 >}}
 
 Link
 

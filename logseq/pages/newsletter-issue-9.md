@@ -1,5 +1,6 @@
 type:: [[newsletter]]
-tags:: 
+tags:: [[newsletter]]
+categories:: [[newsletter]]
 name::
 start-date::
 sent-date::
@@ -34,7 +35,7 @@ date:: 2022-11-26
 		- I'm working on a future feature to add "prompt templates" to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai).
 		- GPT-3 is a powerful machine-learning tool that can generate text. You give it natural language text, called a prompt, and it predicts what text should come after it.
 		- The prompt can be anything from a simple question to a complex command.
-        - You must write the prompt in specific ways to get good results from GPT-3.
+			- You must write the prompt in specific ways to get good results from GPT-3.
 		- Prompt templates will be a way of creating shortcuts for common tasks such as summarization or translation.
 		- They will behave similarly to Logseq templates, where you can define them in plain text anywhere in your notes. Since they're just plain texts, users will be able to share them with each other.
 		- I'll eventually include these in a modal popup, like other AI tools.
@@ -52,11 +53,11 @@ date:: 2022-11-26
 	- ![image_1667858995655_0.jpeg](../assets/image_1667858995655_0_1667859078784_0.jpeg)
 	- The [[headphone-eye-mask]] is my new favorite sleep hack.
 	- It's an eye mask with built in Bluetooth headphones, so you can listen to podcasts while you fall sleep.
-    - Often I would stay up too late on my phone or computer, overstimulating my brain and disrupting my circadian rhythm by beaming bright blue light into my eyes.
+		- Often I would stay up too late on my phone or computer, overstimulating my brain and disrupting my circadian rhythm by beaming bright blue light into my eyes.
 	- The headphone eye mask helps slow down my brain with a nightly ritual I enjoy and helps me get to sleep earlier.
 	- I wrote about [how I use it and some podcast recommendations here.]([[headphone-eye-mask]])
 - # Alamack of Naval Ravikant
-    - I enjoyed this book called the [[almanack-of-naval-ravikant]], which is a collection of philosophical[tweets by Naval(https://twitter.com/naval) on wealth creation, learning, mindset, and health.
+	- I enjoyed this book called the [[almanack-of-naval-ravikant]], which is a collection of philosophical[tweets by Naval(https://twitter.com/naval) on wealth creation, learning, mindset, and health.
 	- It's not a traditional book since it's a collection of tweets, but there's a good assortment of wisdom if you're OK with the format.
 	- The book is completely free and you can [download it here](https://www.navalmanack.com/)
 	- [Read my review and notes on the book here]([[almanack-of-naval-ravikant]])

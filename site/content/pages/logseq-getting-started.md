@@ -56,7 +56,7 @@ Now you will see an empty page with todays date. This is called your "daily note
 
 Take a little bit of time to experiment writing, making backlinks, clicking the backlinks, etc.
 
-{{tweet https://twitter.com/Conaw/status/1315078546763603968?s=20&t=kKIUv9hiUIj5nbDuV6szvw}}
+{{< tweet user="Conaw" id="1315078546763603968" >}}
 
 # Make your public homepage
 

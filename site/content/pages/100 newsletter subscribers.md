@@ -48,7 +48,7 @@ Gain 100 [newsletter]({{< ref "/pages/newsletter" >}}) followers in the next 3 m
 
 revue
 
-{{twitter https://twitter.com/Bsunter/status/1536775128175915009?s=20&t=xQ3NokQdki1rm7Ef1ALuVg}}
+{{< tweet user="Bsunter" id="1536775128175915009" >}}
 
 ## Templates
 

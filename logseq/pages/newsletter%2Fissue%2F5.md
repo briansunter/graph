@@ -8,6 +8,7 @@ date:: 2022-07-10
 followers:: 785
 categories:: [[newsletter]]
 newsletter-subscribers:: 195
+public:: true
 
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 ### See all issues -> [[newsletter]]

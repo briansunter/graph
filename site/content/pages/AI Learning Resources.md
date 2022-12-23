@@ -11,7 +11,7 @@ coverimage: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 showtoc: true
 tocopen: true
 title: AI Learning Resources
-lastMod: 2022-12-19
+lastMod: 2022-12-22
 ---
 <style>.toc ul ul { display:none;}</style>
 
@@ -1581,9 +1581,45 @@ Undirected graphical models
 
 High-dimensional problems
 
+# Statistical Rethinking: A Bayesian Course
+
+![statistical-rethinking.jpg](/assets/statistical-rethinking_1671779794786_0.jpg)
+
+[Book Link](https://www.amazon.com/dp/1482253445?tag=bsunter06-20)
+
+A modern course focused on bayesian statistics, and includes a course
+
+The text presents generalized linear multilevel models from a Bayesian perspective, relying on a simple logical interpretation of Bayesian probability and maximum entropy. It covers from the basics of regression to multilevel models. The author also discusses measurement error, missing data, and Gaussian process models for spatial and network autocorrelation.
+
+## Topics
+
+Sampling
+
+Linear models
+
+Multivariate linear models
+
+Overfitting, regularization, and information criteria
+
+Interactions
+
+Markov chain Monte Carlo
+
+Big entropy and the generalized linear model
+
+Counting and classification
+
+Multilevel models
+
+covariance
+
+Missing data
+
 # Pattern Recognition and Machine Learning
 
 ![61ECBlvkBCL._AC_SY780_.jpg](/assets/61ECBlvkBCL._AC_SY780_1670831683801_0.jpg)
+
+[Book Link](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/)
 
 The first textbook on pattern recognition to present the Bayesian viewpoint. The book presents approximate inference algorithms that permit fast approximate answers in situations where exact answers are not feasible. It uses graphical models to describe probability distributions when no other books apply graphical models to machine learning.
 
