@@ -6,7 +6,7 @@
     {{- i18n "translations" | default "Translations" }}:
     {{- range .Translations }}
     <li>
-        <a href="{{ .Permalink }}">
+        <a href="{{ .Permalink | replaceRE "/$" "" }}">
             {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
             {{- .Language.LanguageName | emojify -}}
             {{- else }}
