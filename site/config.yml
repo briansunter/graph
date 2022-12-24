@@ -56,19 +56,19 @@ menu:
     main:
         - identifier: categories
           name: Categories
-          url: /categories/
+          url: /categories
           weight: 10
         - identifier: tags
           name: Tags
-          url: /tags/
+          url: /tags
           weight: 20
         - identifier: search
           name: Search
-          url: /search/
+          url: /search
           weight: 20
         - identifier: archive
           name: Archive
-          url: /archives/
+          url: /archives
           weight: 20
         - identifier: graph
           name: Graph
