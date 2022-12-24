@@ -7,13 +7,13 @@ title: newsletter-roadmap
 categories:
 lastMod: 2022-12-07
 ---
-This is the content plan for my [newsletter]({{< ref "/pages/newsletter" >}})
+This is the content plan for my [newsletter]({{< sref "/pages/newsletter" >}})
 The dates are only rough guidelines, this is more of a content ordering and flow
 
 # Roadmap #.ol-nested
-## intro [newsletter-issue-1]({{< ref "/pages/newsletter-issue-1" >}}) [[Jun 12th, 2022]]
+## intro [newsletter-issue-1]({{< sref "/pages/newsletter-issue-1" >}}) [[Jun 12th, 2022]]
 
-Intro [newsletter]({{< ref "/pages/newsletter" >}})
+Intro [newsletter]({{< sref "/pages/newsletter" >}})
 
 More about what I'm doing
 
@@ -21,13 +21,13 @@ Starting my public graph [[homepage]]
 
 Introducing my [[logseq openai]]
 
-## Newsletter Project  [newsletter/issue/2]({{< ref "/pages/newsletter/issue/2" >}})  [[Jun 19th, 2022]]
+## Newsletter Project  [newsletter/issue/2]({{< sref "/pages/newsletter/issue/2" >}})  [[Jun 19th, 2022]]
 
 feedback on [[logseq openai]]
 
 launching my [[get-youtube-subtitles]] plugin
 
-## Getting started with logseq [newsletter/issue/3]({{< ref "/pages/newsletter/issue/3" >}}) [[Jun 26th, 2022]]
+## Getting started with logseq [newsletter/issue/3]({{< sref "/pages/newsletter/issue/3" >}}) [[Jun 26th, 2022]]
 
 [[get-youtube-subtitles]]
 
@@ -35,15 +35,15 @@ launching my [[get-youtube-subtitles]] plugin
 
 Launching [[logseq-social]]
 
-[logseq-getting-started]({{< ref "/pages/logseq-getting-started" >}})
+[logseq-getting-started]({{< sref "/pages/logseq-getting-started" >}})
 
 [[second-brain]]
 
-##  Newsletter intro and Productivity with AI [newsletter/issue/4]({{< ref "/pages/newsletter/issue/4" >}})  [[Jul 3rd, 2022]]
+##  Newsletter intro and Productivity with AI [newsletter/issue/4]({{< sref "/pages/newsletter/issue/4" >}})  [[Jul 3rd, 2022]]
 
 [[logseq-tasks]]
 
-[notetaking-with-AI]({{< ref "/pages/notetaking-with-AI" >}})
+[notetaking-with-AI]({{< sref "/pages/notetaking-with-AI" >}})
 
 summarize
 
@@ -69,13 +69,13 @@ Fine Tune
 
 CoAuthor
 
-## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue/5]({{< ref "/pages/newsletter/issue/5" >}})
+## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue/5]({{< sref "/pages/newsletter/issue/5" >}})
 
 Updates
 
-[algorithms-boot-camp]({{< ref "/pages/algorithms-boot-camp" >}})
+[algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}})
 
-[algorithms-boot-camp-study-guide]({{< ref "/pages/algorithms-boot-camp-study-guide" >}})
+[algorithms-boot-camp-study-guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}})
 
 Productivity Toolkit
 
@@ -120,15 +120,15 @@ Link
 
 [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
-## Intro to Algorithms [newsletter-6]({{< ref "/pages/newsletter-6" >}})
+## Intro to Algorithms [newsletter-6]({{< sref "/pages/newsletter-6" >}})
 
 Updates
 
-[intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}})
+[intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
 
 Productivity Toolkit
 
-[logseq-projects]({{< ref "/pages/logseq-projects" >}})
+[logseq-projects]({{< sref "/pages/logseq-projects" >}})
 
 [[tour of my project template]]
 
@@ -169,13 +169,13 @@ two sum
 
 Productivity Toolkit
 
-[100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
+[100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
 
 
 
 Brain Food
 
-[you and your research]({{< ref "/pages/you and your research" >}})
+[you and your research]({{< sref "/pages/you and your research" >}})
 
 Quote
 

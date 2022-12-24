@@ -18,23 +18,23 @@ lastMod: 2022-12-07
 
 # Summary and Reflection 🤔
 
-I'm continuing to work on the [algorithms-boot-camp]({{< ref "/pages/algorithms-boot-camp" >}}) section of this site.
+I'm continuing to work on the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) section of this site.
 
-I'm working through a few courses now including the [abdul bari algorithms]({{< ref "/pages/abdul bari algorithms" >}}) course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [abdul bari algorithms part-1]({{< ref "/pages/abdul bari algorithms part-1" >}})
+I'm working through a few courses now including the [abdul bari algorithms]({{< sref "/pages/abdul bari algorithms" >}}) course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [abdul bari algorithms part-1]({{< sref "/pages/abdul bari algorithms part-1" >}})
 
 I'm going over some of the math in Volume 1 of The Art of Computer Computer Programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
 
-I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]({{< ref "/pages/Werner Herzog Rules for Filmmaking" >}})
+I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a really fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})
 
 # Updates 🆕
 
-### [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}})
+### [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
 
 ![image.png](/assets/image_1665465573710_0.png)
 
 How do you find the sum of the numbers 1 through 100?
 
-There's a [legend about the mathematician Carl Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}}) as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
+There's a [legend about the mathematician Carl Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding up the numbers 1 through 100. Gauss was able to come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
 
 You can use the formula sum = n(n+1)/2 to find the sum of 1 to n numbers.
 
@@ -42,7 +42,7 @@ This is a really good problem for studying math proofs, because there are so man
 
 It's also a good example of recursion, which is a fundamental computer science concept
 
-For more, see my note on [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}})
+For more, see my note on [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
 
 # Productivity Toolkit 🛠️
 
@@ -94,7 +94,7 @@ In this section, I'll share some interesting articles and "food for thought"
 
 Werner Herzog is a german filmmaker who has produced, written, and directed more than sixty feature and documentary films. I really appreciate his unconventional creativity, as well as the sound of his voice.
 
-### [Werner Herzog Rules for Filmmaking]({{< ref "/pages/Werner Herzog Rules for Filmmaking" >}})
+### [Werner Herzog Rules for Filmmaking]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})
 
 He just came out with a new movie about consciousness and brain computer interfaces called "Theatre of Thought"
 
@@ -104,8 +104,8 @@ He interviews people working on technology that lets your brain communicate dire
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I've taken some [notes on Herzog's creative approach to filmmaking here]([Werner Herzog Rules for Filmmaking]({{< ref "/pages/Werner Herzog Rules for Filmmaking" >}})).
+I've taken some [notes on Herzog's creative approach to filmmaking here]([Werner Herzog Rules for Filmmaking]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})).
 
 # Outro
 
-Check out the [newsletter-roadmap]({{< ref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!
+Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!

@@ -42,7 +42,7 @@ become financially independent
 
 ## Desired output
 
-Gain 100 [newsletter]({{< ref "/pages/newsletter" >}}) followers in the next 3 months.
+Gain 100 [newsletter]({{< sref "/pages/newsletter" >}}) followers in the next 3 months.
 
 ## Tasks
 
@@ -56,7 +56,7 @@ revue
 
 [[newsletter template]]
 
-## Habits [100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
+## Habits [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
 
 analytics
 

@@ -9,7 +9,7 @@ lastMod: 2022-12-07
 ---
 This is a study guide for understanding machine learning and gpt3]]
 
-Built from the GPT3 prompts in [machine learning study guide gpt]({{< ref "/pages/machine learning study guide gpt" >}})
+Built from the GPT3 prompts in [machine learning study guide gpt]({{< sref "/pages/machine learning study guide gpt" >}})
 
 Over time I will make notes on these subjects and link to them here.
 

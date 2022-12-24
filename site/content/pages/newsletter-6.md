@@ -16,23 +16,23 @@ type:
 date: 2022-07-17
 start-date:
 - Jul 15th, 2022
-lastMod: 2022-12-22
+lastMod: 2022-12-07
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 
-### See all issues -> [newsletter]({{< ref "/pages/newsletter" >}})
+### See all issues -> [newsletter]({{< sref "/pages/newsletter" >}})
 
 # Summary and Reflection 🤔
 
-This week I wrote the first section [intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}}) from the [algorithms-boot-camp]({{< ref "/pages/algorithms-boot-camp" >}}) which focuses on a simple introduction to what algorithms are and why they're important
+This week I wrote the first section [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}}) from the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) which focuses on a simple introduction to what algorithms are and why they're important
 
-I also wrote a short guide to my current [logseq-projects]({{< ref "/pages/logseq-projects" >}}) template. This is one of my most important logseq patterns.
+I also wrote a short guide to my current [logseq-projects]({{< sref "/pages/logseq-projects" >}}) template. This is one of my most important logseq patterns.
 
 For some "brain food" I share some thoughts from my all time favorite tech talk and an interesting paper on AI playing Stratego.
 
 # Updates 🆕
 
-## [intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}})
+## [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
 
 The first section in the bootcamp focuses on introducing what an algorithm is.
 
@@ -46,9 +46,9 @@ I go through some examples of algorithms, what they can do, and why they're usef
 
 In this section, I'll share a productivity tip I've learned recently.
 
-## [logseq-projects]({{< ref "/pages/logseq-projects" >}})
+## [logseq-projects]({{< sref "/pages/logseq-projects" >}})
 
-I manage almost everything I do with [logseq-projects]({{< ref "/pages/logseq-projects" >}}) . I use them to group tasks across different initiatives, prioritize them, and make progress on them. See this guide for an explanation or jump straight to my logseq [[project-template]]
+I manage almost everything I do with [logseq-projects]({{< sref "/pages/logseq-projects" >}}) . I use them to group tasks across different initiatives, prioritize them, and make progress on them. See this guide for an explanation or jump straight to my logseq [[project-template]]
 
 # Brain Food 🧠
 
@@ -138,6 +138,6 @@ Still amazed at the res pins
 
 # Outro
 
-Check out the [newsletter-roadmap]({{< ref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 
 

@@ -20,7 +20,7 @@ controls::
 visuals:: 
 audio:: 
 value:: 
-tags:: [[gaming]] [[review]] [game review template]({{< ref "/pages/game review template" >}})
+tags:: [[gaming]] [[review]] [game review template]({{< sref "/pages/game review template" >}})
 
 ## What's it about?
 

@@ -215,7 +215,7 @@ See my [[logseq-tasks]] guide for more details
 
 # Conclusion
 
-I hope you enjoyed this guide to my logseq project template. Next week I'll walk through an example of one of my projects for the newsletter [100 newsletter subscribers]({{< ref "/pages/100 newsletter subscribers" >}})
+I hope you enjoyed this guide to my logseq project template. Next week I'll walk through an example of one of my projects for the newsletter [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
 
 I'll also will write about using queries to organize projects.
 
