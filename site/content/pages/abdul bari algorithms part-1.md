@@ -32,7 +32,7 @@ lastMod: 2022-12-07
 
 ## Priori Analysis and Posteriori Testing
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({{< ref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
+[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
 ## Video
 
@@ -318,7 +318,7 @@ When `i` is 1, `stmt` is executed 1 times
 
 When `i` is 2, `stmt` is executed 2 times
 
-Finding out how many times `stmt` is executed is the same as the [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}})
+Finding out how many times `stmt` is executed is the same as the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
 
 This is equivalent to 1 + 2 + 3 + 4 ... + n
 
@@ -350,7 +350,7 @@ Let's make a table that shows the values at each iteration
 |4|1+2+3+4|
 |k|1+2+3+...+k|
 
-We can use the [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}}) again to find `p` for a given  `i`
+We can use the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) again to find `p` for a given  `i`
 
 $$ P=\frac{k(k+1)}{2} $$
 
@@ -795,7 +795,7 @@ So 1 + 2 +3 + .. +n is the total possible case time
 
 and there are n possible cases
 
-We can use [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}}) to add up the time of all cases
+We can use [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) to add up the time of all cases
 
 $$\frac{n(n+1)}{2}$$
 

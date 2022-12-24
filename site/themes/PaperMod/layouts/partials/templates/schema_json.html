@@ -39,7 +39,7 @@
       "@type": "ListItem",
       "position": {{ add 1 $index  }},
       "name": {{ $bc_pg.Name }},
-      "item": {{ $bc_pg.Permalink | safeHTML }}
+      "item": {{ $bc_pg.Permalink | replaceRE "/$" "" | safeHTML }}
     }
     {{- end }}
 
@@ -50,7 +50,7 @@
       "@type": "ListItem",
       "position": {{len $bc_list}},
       "name": {{ .Name }},
-      "item": {{ .Permalink | safeHTML }}
+      "item": {{ .Permalink | replaceRE "/$" "" | safeHTML }}
     }
   ]
 }
@@ -102,7 +102,7 @@
   {{- end }}
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | safeHTML }}
+    "@id": {{ .Permalink | replaceRE "/$" "" | safeHTML }}
   },
   "publisher": {
     "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",

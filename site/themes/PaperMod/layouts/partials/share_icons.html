@@ -1,4 +1,4 @@
-{{- $pageurl := .Permalink }}
+{{- $pageurl := .Permalink | replaceRE "/$" "" }}
 {{- $title := .Title }}
 
 {{- $.Scratch.Set "tags" ""}}

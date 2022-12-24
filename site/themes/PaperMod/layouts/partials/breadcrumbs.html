@@ -1,6 +1,6 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
 <div class="breadcrumbs">
-    {{- $url := replace .Parent.Permalink (printf "%s" .Site.BaseURL) "" }}
+    {{- $url := replace .Parent.Permalink | replaceRE "/$" "" (printf "%s" .Site.BaseURL) "" }}
     {{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
 
     <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Home" }}</a>
@@ -11,7 +11,7 @@
     {{- $bc_pg := $.Site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink | replaceRE "/$" "" }}">{{ $bc_pg.Name }}</a>
     {{- end }}
 
     {{- end -}}

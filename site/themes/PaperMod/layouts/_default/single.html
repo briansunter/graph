@@ -42,7 +42,7 @@
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <li><a href="{{ .Permalink | replaceRE "/$" "" }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
     {{- end }}

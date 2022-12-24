@@ -12,7 +12,7 @@ lastMod: 2022-12-07
 
 This text was written with GPT-3 AI.
 
-It was used to build this page: [machine learning study guide]({{< ref "/pages/machine learning study guide" >}})
+It was used to build this page: [machine learning study guide]({{< sref "/pages/machine learning study guide" >}})
 
 ## Prompts
 

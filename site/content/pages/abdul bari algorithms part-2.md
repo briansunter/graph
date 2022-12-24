@@ -170,7 +170,7 @@ For each iteration, it takes $n$ units of time, then calls itself -1
 
 We can see the amount of work is $n + (n-1) + (n-2) ... + 1$
 
-To find the total amount of work we can use the [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}})
+To find the total amount of work we can use the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
 
 $$\sum_{i=1}^n i = \frac{n(n + 1)}{2}$$
 
@@ -212,7 +212,7 @@ Simplify further
 
 $T(n)=T(0) + 1 + 2 + 3 +... + (n-1) + n$
 
-We can see $1 + 2 + 3 + (n-1) +n$ is the sum of natural numbers, which we can use the [integer-sum-formula]({{< ref "/pages/integer-sum-formula" >}}) to solve
+We can see $1 + 2 + 3 + (n-1) +n$ is the sum of natural numbers, which we can use the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) to solve
 
 $$\sum_{i=1}^n i = \frac{n(n + 1)}{2}$$
 

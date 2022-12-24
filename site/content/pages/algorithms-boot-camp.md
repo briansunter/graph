@@ -16,7 +16,7 @@ Data structures and algorithms are among the most valuable concepts to learn in 
 
 I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.
 
-I'll teach you how to use data structures and algorithms to solve problems every week as a section in my [newsletter]({{< ref "/pages/newsletter" >}})
+I'll teach you how to use data structures and algorithms to solve problems every week as a section in my [newsletter]({{< sref "/pages/newsletter" >}})
 
 I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my own knowledge.
 
@@ -24,15 +24,15 @@ Feel free to [correct me, make suggestions, and ask questions on Twitter.](https
 
 ## How the Bootcamp Works
 
-I built out a complete outline for every algorithm topic here [algorithms-boot-camp-study-guide]({{< ref "/pages/algorithms-boot-camp-study-guide" >}})
+I built out a complete outline for every algorithm topic here [algorithms-boot-camp-study-guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}})
 
-The [complete guide]({{< ref "/pages/algorithms-boot-camp-study-guide" >}}) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
+The [complete guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}}) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
 
 There's a curriculum for the next 3-months on this page, so people will know what to expect and can give their input on what they want to see.
 
-I'll send a [newsletter]({{< ref "/pages/newsletter" >}}) post about a new topic each week. All the future topics are listed below.
+I'll send a [newsletter]({{< sref "/pages/newsletter" >}}) post about a new topic each week. All the future topics are listed below.
 
-If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [newsletter]({{< ref "/pages/newsletter" >}}) to get updates.
+If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [newsletter]({{< sref "/pages/newsletter" >}}) to get updates.
 
 ## Why Learn Algorithms?
 
@@ -56,7 +56,7 @@ You are interested in my process for taking notes on code in logseq
 
 ### Intro to Algorithms, Sorting, and Time Complexity
 
-#### [intro-to-algorithms]({{< ref "/pages/intro-to-algorithms" >}})
+#### [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
 
 Intro to the Boot Camp
 
@@ -68,7 +68,7 @@ Sorting and Bubble Sort
 
 #### [[time complexity]]
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({{< ref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
+[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
 Time Complexity / Space Complexity Overview
 
