@@ -75,3 +75,7 @@ menu:
           name: Graph
           url: 'https://briansunter.com/graph/#/graph'
           weight: 20
+        - identifier: newsletter-link
+          name: Newsletter
+          url: 'https://newsletter.briansunter.com'
+          weight: 20

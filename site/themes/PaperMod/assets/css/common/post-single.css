@@ -308,6 +308,7 @@
 
 .post-tags a,
 .share-buttons,
+.share-buttons-box,
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
@@ -327,6 +328,15 @@
 .post-tags a:hover,
 .paginav a:hover {
     background: var(--border);
+}
+
+.share-buttons-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
 }
 
 .share-buttons {

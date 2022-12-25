@@ -29,6 +29,11 @@
   {{- partial "toc.html" . }}
 {{- end }}
 
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .RelPermalink | replaceRE "/$" "" }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
 
   {{- if .Content }}
   <div class="post-content">
@@ -40,17 +45,13 @@
   {{ partial "backlinks.html" . }}
   <footer class="post-footer">
     {{- if .Params.tags }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms "tags") }}
-      <li><a href="{{ .RelPermalink | replaceRE "/$" "" }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
     {{- end }}
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
+    {{ partial "substack_signup" . }}
     {{- end }}
   </footer>
 
