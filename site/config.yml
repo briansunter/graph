@@ -43,6 +43,7 @@ params:
     author: "Brian Sunter"
     ShowCodeCopyButtons: true
     ShowShareButtons: true
+    SiteLogo: /images/sitelogo.jpg
 
 
 
