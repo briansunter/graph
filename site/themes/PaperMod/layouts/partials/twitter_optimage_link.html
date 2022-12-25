@@ -8,6 +8,6 @@
     {{ $resizeOptions := printf "%dx%d jpg" $image.Width $image.Height }}
     {{ $image = $image.Resize $resizeOptions }}
   {{ end }}
-  {{$imageLink = $image.RelPermalink}}
+  {{$imageLink = $image.Permalink}}
 {{ end }}
 {{ return $imageLink }}
