@@ -1,0 +1,13 @@
+{{ $image := resources.GetMatch . }} 
+{{ $imageLink := .}}
+
+{{ if $image }}
+  {{ if gt $image.Width 1000 }}
+    {{ $image = $image.Resize "1000x webp" }}
+  {{else}}
+    {{ $resizeOptions := printf "%dx%d webp" $image.Width $image.Height }}
+    {{ $image = $image.Resize $resizeOptions }}
+  {{ end }}
+  {{$imageLink = $image.RelPermalink}}
+{{ end }}
+{{ return $imageLink }}

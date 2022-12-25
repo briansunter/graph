@@ -1,30 +1,24 @@
-{{- if .Params.socialimage -}}
+{{- if .Params.coverimage -}}
+
+{{ $image := partial "optimage_link.html" .Params.coverimage }}
 <meta name="twitter:card" content="summary_large_image" />
-{{- if (ne $.Params.cover.relative true) }}
-<meta name="twitter:image" content="{{ .Params.socialimage | absURL }}" />
+<meta name="twitter:image" content="{{ $image }}" />
 {{- else }}
-<meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.socialimage ) | absURL }}" />
-{{- end}}
-{{- else }}
-{{- with $.Params.images -}}
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
-{{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ $featured.Permalink | replaceRE "/$" "" }}"/>
+<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
 {{- else -}}
-{{- with $.Site.Params.images -}}
+{{- with resources.Get .Site.Params.SiteLogo -}}
+
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+<meta name="twitter:image" content="{{ .Permalink  }}"/>
 {{ else -}}
 <meta name="twitter:card" content="summary"/>
 {{- end -}}
 {{- end -}}
-{{- end }}
 {{- end }}
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
