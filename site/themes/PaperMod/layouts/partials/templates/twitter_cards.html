@@ -1,6 +1,6 @@
 {{- if .Params.coverimage -}}
 
-{{ $image := partial "optimage_link.html" .Params.coverimage }}
+{{ $image := partial "twitter_optimage_link.html" .Params.coverimage }}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ $image }}" />
 {{- else }}
