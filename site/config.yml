@@ -44,6 +44,7 @@ params:
     ShowCodeCopyButtons: true
     ShowShareButtons: true
     SiteLogo: /images/sitelogo.jpg
+    NewsletterLink: 'https://newsletter.briansunter.com'
 
 
 

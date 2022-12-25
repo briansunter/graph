@@ -67,7 +67,7 @@ pre:hover .copy-code {
     display: block;
 }
 
-.substack_signup {
+.substack-signup {
     border: 2px solid var(--border);
     border-radius: var(--radius);
     display: flex;
@@ -75,4 +75,8 @@ pre:hover .copy-code {
     align-items: center;
     justify-content: center;
     padding: 16px 16px;
+}
+.substack-signup a {
+    text-decoration: underline;
+
 }
