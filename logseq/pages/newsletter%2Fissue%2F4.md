@@ -12,9 +12,12 @@ tweet-impressions:: 211000
 profile-visits:: 42200
 newsletter-subscribers:: 120
 public:: true
+description:: I wrote a blog post on notetaking with AI and about Yann LeCun's vision for the future of AI from his new paper.
+coverimage:: /assets/FjZmq10VIAEKLBW_1671963240673_0.jpeg
 
-#  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
-### See all issues -> [[newsletter]]
+- ![FjZmq10VIAEKLBW.jpeg](../assets/FjZmq10VIAEKLBW_1671963240673_0.jpeg)
+- [Sign up for the newsletter here](https://newsletter.briansunter.com)
+- [About the newsletter]([[newsletter]])
 # Summary and Reflection 🤔
 	- This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
 	- We are living in an exciting time for AI right now. Several new cutting-edge techniques now exist to search by "meaning" and "concepts" instead of just simple keywords. There are also new techniques for AI to generate new text and images instead of just analyzing them.
@@ -57,7 +60,7 @@ public:: true
 				- > A training algorithm learns from annotated audio data samples.
 		- In these interviews, LeCun hints at the connection between AI and robotics: that machines will really start learning fast when they are out in the real world, autonomously experiencing it, making decisions, and learning from mistakes.
 		- This idea reminds me of the future in Westworld, where the robots are almost indistinguishable from human beings, then "awake" and become conscious while interacting with the humans in "high-fidelity" ways.
-		- ![giphy.gif](../assets/giphy_1656807706699_0.gif)
+		-
 		- See these interviews and his new paper for more about Yann LeCun and his vision for the future of AI.
 		- [Yann LeCun Lex Friedman Podcast 1](https://www.youtube.com/watch?v=SGSOCuByo24)
 		- [Yann LeCun Lex Friedman Podcast 2](https://youtu.be/SGzMElJ11Cc)

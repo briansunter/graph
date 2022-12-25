@@ -2,7 +2,6 @@
 date: 2022-12-09
 categories:
 - programming
-- ai
 tags:
 - ai
 - programming

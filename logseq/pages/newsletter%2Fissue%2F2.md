@@ -3,15 +3,19 @@ name:: Intro to using AI to take notes
 categories:: [[newsletter]]
 title:: newsletter/issue/2
 type:: [[newsletter]]
-tags:: [[gpt3]] [[ML]]
+tags:: [[gpt3]] [[ML]] [[logseq-openai-plugin]] 
 start-date:: [[Jun 15th, 2022]]
 date:: 2022-06-19
 sent-date:: [[Jun 19th, 2022]]
 followers:: 450
 categories:: [[newsletter]]
 newsletter-subscribers:: 30
+coverimage:: /assets/Screenshot_2022-12-24_at_9.42.28_PM_1671954212017_0.png
+description:: Feedback on my Logseq OpenAI plugin and sharing examples of how people are using it.
 
-- # [Sign up for the email newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
+- [Sign up for the newsletter here](https://newsletter.briansunter.com)
+- [About the newsletter]([[newsletter]])
+- ![Screenshot 2022-12-24 at 9.42.28 PM.png](../assets/Screenshot_2022-12-24_at_9.42.28_PM_1671954212017_0.png)
 - ## Summary and Reflection 🤔
 	- I couldn't be happier about the positive reactions to my new projects and newsletter.
 	- Last week I released a small plugin for the Logseq text editor, and I've been getting a lot of positive feedback on it from all over the world.
@@ -20,15 +24,12 @@ newsletter-subscribers:: 30
 	- [A new type of AI or "Artificial Intelligence" called GPT3](https://beta.openai.com/) can be used to write notes. It can write your book report if you ask it to "Write a study guide to Hamlet."
 	- I released a plugin for an AI assistant that can write articles and answer questions for you.
 	- This technology is brand new and much better than Alexa, Siri, or Google Assistant.
-	- One of my favorite things about being a coder is thinking of an idea and building a tool for myself that solves a problem. Once I make a helpful tool, it's just a little extra effort to put it online and share it with the world. I'm trying to make more of my projects and writing publicly available.
-	- I had fun looking at the Twitter bios of people talking about the plugin. One plugin user is a self-described "Chaotic good statistical learning Ph.D. candidate working to strengthen humanitarian health systems" precisely the type of person I want using the plugin! It feels good that I can enable others to do real world work like this by knowing a bit of coding and how to get the code out there.
-	- The plugin is called [logseq-gtp3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) and lets you send commands to this powerful AI system from inside your text editor. It can do a lot of things like write and summarize articles. It's pretty easy to get started. [Download it in the Logseq marketplace](https://github.com/logseq/logseq/releases), and let me know what you think!
+	- One of my favorite things about being a coder is thinking of an idea and building a tool for myself that solves a problem. Once I make a helpful tool, it's just a little extra effort to put it online and share it with the world. I'm trying to make more of my projects and writing publicly available
+	- The plugin is called [logseq-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) and lets you send commands to this powerful AI system from inside your text editor. It can do a lot of things like write and summarize articles. It's pretty easy to get started. [Download it in the Logseq marketplace](https://github.com/logseq/logseq/releases), and let me know what you think!
 	- In this newsletter, I'll share some of the community's reactions to my new AI plugin, some thoughts on productivity, a few interesting reads from the week, and what I have in mind for the next newsletter issue.
 - # Updates 🆕
 	- Here is some feedback for users on Twitter
 - # Feedback on [[logseq openai]] plugin
-  
-   collapsed:: true
 	- This user summed up how I feel perfectly. Now that AI is part of my workflow, I don't want to give it up.
 	- As far as I know, there is nothing on the market similar to OpenAI's GPT3
 	- {{twitter https://twitter.com/irace/status/1535056205441277962?s=20&t=6_gBffCI-IZwmuMN00K3zw}}

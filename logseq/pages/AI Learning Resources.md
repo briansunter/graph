@@ -1,6 +1,6 @@
 public:: true
 date:: 2022-12-09
-categories:: [[programming]] [[ai]]
+categories:: [[programming]]
 tags:: [[ai]] [[programming]]
 description:: Best resources for studying machine learning
 coverimage:: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg

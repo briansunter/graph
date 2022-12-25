@@ -2,12 +2,10 @@
 tags:
 - algorithms-boot-camp
 - math
-categories:
-- algorithms
-- tech
 date: 2022-10-02
 math: true
 title: integer-sum-formula
+categories:
 lastMod: 2022-12-07
 ---
 ## Summary

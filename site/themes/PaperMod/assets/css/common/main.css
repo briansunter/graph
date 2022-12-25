@@ -75,8 +75,10 @@ pre:hover .copy-code {
     align-items: center;
     justify-content: center;
  }
+
 .substack-signup p {
-    margin: 16px 16px;;
+    margin: 16px 16px;
+    
 }
 .substack-signup a {
     text-decoration: underline;

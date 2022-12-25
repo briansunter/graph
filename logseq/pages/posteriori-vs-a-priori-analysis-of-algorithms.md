@@ -1,6 +1,5 @@
 public:: true
 tags:: [[abdul bari algorithms]] [[abdul bari algorithms part-1]] [[programing]] [[time complexity]] [[algorithms-boot-camp]]
-categories:: [[programing]]
 date:: 2022-08-22
 
 - ## A Posteriori Analysis (Profiling)

@@ -5,10 +5,9 @@ tags:
 - programing
 - time complexity
 - algorithms-boot-camp
-categories:
-- programing
 date: 2022-08-22
 title: posteriori-vs-a-priori-analysis-of-algorithms
+categories:
 lastMod: 2022-12-07
 ---
 ## A Posteriori Analysis (Profiling)

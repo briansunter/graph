@@ -9,9 +9,12 @@ public:: true
 followers:: 529
 categories:: [[newsletter]]
 newsletter-subscribers:: 61
+coverimage:: /assets/get-youtube-captions_1671962133571_0.jpg
+description:: I made a new Logseq Plugin to download youtube captions, wrote some examples using GPT-3 in Logseq, wrote a proposal for a social network on Logseq, and wrote a guide to the Omnivore read it later app.
 
-#  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
-### See all issues -> [[newsletter]]
+- ![get-youtube-captions.jpg](../assets/get-youtube-captions_1671962246648_0.jpg)
+- [Sign up for the newsletter here](https://newsletter.briansunter.com)
+- [About the newsletter]([[newsletter]])
 # Summary and Reflection 🤔
 - This week I wrote a few [guides](https://briansunter.com/graph/?utm_campaign=%F0%9F%A7%A0%20%20A%20software%20engineer%27s%20approach%20to%20learning&utm_medium=email&utm_source=Revue%20newsletter#/page/logseq-getting-started) on using Logseq and how to set up a public notes site like [mine](https://briansunter.com/graph/?utm_campaign=%F0%9F%A7%A0%20%20A%20software%20engineer%27s%20approach%20to%20learning&utm_medium=email&utm_source=Revue%20newsletter#/page/newsletter-3). I released a [new plugin](https://github.com/briansunter/logseq-get-youtube-captions?utm_campaign=%F0%9F%A7%A0%20%20A%20software%20engineer%27s%20approach%20to%20learning&utm_medium=email&utm_source=Revue%20newsletter) to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
 # Updates 🆕

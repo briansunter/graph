@@ -1,8 +1,5 @@
 ---
 date: 2022-11-26
-categories:
-- programming
-- logseq
 tags:
 - ai
 - programming
@@ -11,6 +8,7 @@ tags:
 description: Large language models have a number of interesting properties
 coverimage: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 title: why-large-language-models-are-interesting
+categories:
 lastMod: 2022-12-07
 ---
 I continue to be really interested in this new AI technology called "Large Language Models" (LLMs)
