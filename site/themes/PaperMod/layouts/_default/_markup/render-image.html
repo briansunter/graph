@@ -1,1 +1,12 @@
-{{partial "optimage.html" (dict "Destination" .Destination "Title" .Text)}}
+{{ if eq (lower (path.Ext .Destination)) ".mp4" }}
+    {{ $videoResource := resources.GetMatch .Destination | fingerprint }}
+    {{ $videoResource = $videoResource.RelPermalink }}
+    {{ if strings.Contains .Text "autoplay" }}
+        <video class="post-video" src="{{ $videoResource }}" muted controls playsinline autoplay loop></video>
+    {{ else }}
+    {{ .Text }}
+        <video class="post-video" src="{{ $videoResource }}" controls ></video>
+    {{ end }}
+{{ else }}
+    {{partial "optimage.html" (dict "Destination" .Destination "Title" .Text)}}
+{{end }}
