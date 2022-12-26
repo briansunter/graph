@@ -3,11 +3,8 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink | replaceRE "/$" "" }}" />
 {{- if .Params.coverimage -}}
-{{- if (ne .Params.cover.relative true) }}
-<meta property="og:image" content="{{ .Params.coverimage | absURL }}" />
-{{- else}}
-<meta property="og:image" content="{{ (path.Join .RelPermalink .Params.coverimage ) | absURL }}" />
-{{- end}}
+{{ $ogImageLink := partial "twitter_optimage_link.html" .Params.coverimage }}
+<meta property="og:image" content="{{ $ogImageLink }}" />
 {{- else }}
 
 {{- with $.Params.images -}}
