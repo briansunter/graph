@@ -3,6 +3,8 @@ categories:: [[algorithms]] [[tech]]
 date:: 2022-10-02
 public:: true
 math:: true
+coverimage:: /assets/image_1665341986063_0.png
+description:: How do we find the sum of the numbers 1 through 100?
 
 - ## Summary
 	- How do we find the sum of the numbers 1 through 100?

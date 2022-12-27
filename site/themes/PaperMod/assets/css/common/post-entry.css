@@ -96,11 +96,14 @@
     pointer-events: none;
     width: 100%;
     height: auto;
-    max-height: 250px;
+    max-height: 200px;
     object-fit: cover;
 }
 
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
+}
+.post-video {
+    width: 100%;
 }

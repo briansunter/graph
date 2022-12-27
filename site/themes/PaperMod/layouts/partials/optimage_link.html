@@ -1,11 +1,16 @@
 {{ $image := resources.GetMatch . }} 
 {{ $imageLink := .}}
+{{ $outputFormat := "webp" }}
+{{ if eq (lower (path.Ext .)) ".gif" }}
+  {{ $outputFormat = "gif" }}
+{{ end }}
 
 {{ if $image }}
   {{ if gt $image.Width 1000 }}
-    {{ $image = $image.Resize "1000x webp" }}
+    {{ $resizeOptions := printf "1000x %s" $outputFormat }}
+    {{ $image = $image.Resize $resizeOptions }}
   {{else}}
-    {{ $resizeOptions := printf "%dx%d webp" $image.Width $image.Height }}
+    {{ $resizeOptions := printf "%dx%d %s" $image.Width $image.Height $outputFormat }}
     {{ $image = $image.Resize $resizeOptions }}
   {{ end }}
   {{$imageLink = $image.RelPermalink}}

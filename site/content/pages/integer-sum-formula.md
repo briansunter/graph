@@ -7,8 +7,10 @@ categories:
 - tech
 date: 2022-10-02
 math: true
+coverimage: /assets/image_1665341986063_0.png
+description: How do we find the sum of the numbers 1 through 100?
 title: integer-sum-formula
-lastMod: 2022-12-07
+lastMod: 2022-12-27
 ---
 ## Summary
 

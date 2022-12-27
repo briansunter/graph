@@ -2,7 +2,7 @@ public:: true
 description:: I've remade my website using Logseq and the Hugo static site generator.
 tags:: [[logseq]] [[programming]]
 date:: 2022-08-19
-socialimage:: /assets/image_1661226497219_0.png
+coverimage:: /assets/image_1661226490211_0.png
 
 - ![image.png](../assets/image_1661226490211_0.png){:height 155, :width 398}
 - I've remade my website using Logseq and the Hugo static site generator.

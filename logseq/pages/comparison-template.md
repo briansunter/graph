@@ -1,5 +1,6 @@
-tags:: [[template]] [[productivity]] 
-
+tags:: [[template]] [[productivity]]
+public:: true
+date:: 2022-07-10
 
 - [[comparison-template]]
   template:: comparison

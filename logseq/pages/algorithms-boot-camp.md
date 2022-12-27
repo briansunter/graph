@@ -2,6 +2,7 @@ public:: true
 date:: 2022-07-10
 tags:: [[newsletter]] [[algorithms-boot-camp-study-guide]] [[algorithms-boot-camp]]
 
+- ![image_1657488579000_0.png](../assets/image_1657488579000_0_1672131758605_0.png)
 - # Intro
 	- ## About this Guide
 		- Data structures and algorithms are among the most valuable concepts to learn in computer science.

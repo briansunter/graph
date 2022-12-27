@@ -10,22 +10,22 @@ coverimage:: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 - # The Book in 3 Sentences
 	- This free book is a collection of tweets on the philosophy of life, wealth, relationships, learning, and health from the investor and founder of AngelList [Naval Ravikant](https://twitter.com/naval), which [you can download for free here.](https://www.navalmanack.com/)
 	- ![naval-ravikant.jpeg](../assets/naval-ravikant_1670306845205_0.jpeg)
-	- He emphasizes the importance of creating leverage and playing long term games where you can take advantage of compounding interest.
+	- He emphasizes the importance of creating leverage and playing long-term games where you can take advantage of compounding interest.
 	- He advocates being authentic, following your curiosity, and using the internet and software to leverage your unique skills and interests.
 - # Impressions
-	- I really enjoyed this book, although it isn't a traditional book at all, it's a collection of insightful tweets on a wide variety of subjects. It reminds me of Tim Ferriss's Tribe of Mentors
-	- A lot of the tweets say similar things in different ways. I overall enjoyed reading many different takes on the same things, but sometimes it feels slightly repetitive.
+	- I enjoyed this book; although it isn't traditional, it's a collection of insightful tweets on various subjects. It reminds me of Tim Ferriss's Tribe of Mentors.
+	- A lot of the tweets say similar things in different ways. I overall enjoyed reading many different takes on the same things, but sometimes it could be more varied.
 	- My favorite themes were the ones on creating leverage and authenticity.
 - # Who Should Read It?
-	- Anyone interested in startups, wealth creation, health and productivity.
+	- Anyone interested in startups, wealth creation, health, and productivity.
 	- Anyone new to Naval's tweets and way of thinking.
-	- Someone OK with a loose collection of tweets, rather than a traditional longform book.
+	- Someone OK with a loose collection of tweets rather than a traditional long-form book.
 - # How the Book Changed Me
-	- This book motivated me to leverage my authenticity, be accountable, take risks, and follow my own passions and curiosity, instead of blindly playing someone else's games
-	- The book made me think about how to create leverage in my interests and how leverage is much more important than raw effort or productivity.
+	- This book motivated me to leverage my authenticity, be accountable, take risks, and follow my passions and curiosity instead of blindly playing someone else's games.
+	- The book made me think about how to create leverage in my interests and how leverage is much more critical than raw effort or productivity.
 	- It encouraged me to really think hard about the few decisions that really matter, like which relationships to get into, what city to live in, which job to take. These completely change the trajectory of your life, but most of us don't spend as much time deliberating these as we should. You should really take the time to figure out what should work on.
-	- It made me think about being authentic and doing thing's I'm passionate about for their own sake as much as possible, and to avoid playing status games.
-	- The book further encouraged me to take my own happiness seriously.
+	- It made me think about being authentic and doing things I'm passionate about for their own sake as much as possible and to avoid playing status games.
+	- The book further encouraged me to take my happiness seriously.
 - # My Top 3 Quotes
 	- > Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 	- > Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media). Capital and labor are permissioned leverage. Everyone is chasing capital, but someone has to give it to you. Everyone is trying to lead, but someone has to follow you. Code and media are permissionless leverage. They’re the leverage behind the newly rich. You can create software and media that works for you while you sleep.
@@ -40,7 +40,7 @@ coverimage:: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 			- > An old boss once warned: “You’ll never be rich since you’re obviously smart, and someone will always offer you a job that’s just good enough.”
 			- > The Industrial Revolution and factories made us extremely hierarchical because one individual couldn’t necessarily own or build a factory, but now, thanks to the internet, we’re going back to an age where more and more people can work for themselves
 		- ### Arm Yourself with Specific Knowledge
-			- Specific knowledge is highly technical or creative work that hasn't been fully figured out yet. Find it by following your genuine curiosity. It will feel like play to you, and work to someone else.
+			- Specific knowledge is highly technical or creative work that has yet to be fully figured out. You can find it by following your genuine curiosity. It will feel like play to you and work to someone else.
 			- > Specific knowledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion. It’s not by going to school for whatever is the hottest job; it’s not by going into whatever field investors say is the hottest.
 			- > Specific knowledge is at the edge of knowledge. It’s also stuff that’s only now being figured out or is really hard to figure out. If you’re not 100 percent into it, somebody else who is 100 percent into it will outperform you
 			- >Specific knowledge could be:
@@ -53,8 +53,8 @@ coverimage:: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 			- > It’s much more important today to be able to become an expert in a brand-new field in nine to twelve months than to have studied the “right” thing a long time ago
 			- > When specific knowledge is taught, it’s through apprenticeships, not schools.
 		- ### Create Leverage
-			- Spend a lot of time deciding on the really important high leverage decisions in your life, like what to work on, who to work with, and where to live.
-			- To create wealth, you need to leverage what you do. One of the best ways to do this is using "permissionless leverage" like coding or media that you can start utilizing today, rather than labor or capital
+			- Spend a lot of time deciding on the crucial high-leverage decisions in your life, like what to work on, who to work with, and where to live.
+			- To create wealth, you need to leverage what you do. One of the best ways to do this is using "permissionless leverage," like coding or media that you can start utilizing today, rather than labor or capital.
 			- The main forms of leverage are **code**, **media**, **capital**, and **labor**.
 			- > One form of leverage is labor—other humans working for you. It is the oldest form of leverage, is actually not a great one in the modern world. I would argue this is the worst form of leverage that you could possibly use. Managing other people is incredibly messy. It requires tremendous leadership skills. You’re one short hop from a mutiny or getting eaten or torn apart by the mob.
 			- > Labor means people working for you. It’s the oldest and most fought-over form of leverage. Labor leverage will impress your parents, but don’t waste your life chasing it.
@@ -96,7 +96,7 @@ coverimage:: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 			- > Reading science, math, and philosophy one hour per day will likely put you at the upper echelon of human success within seven years.
 			- > The real truths are heresies. They cannot be spoken. Only discovered, whispered, and perhaps read.
 		- ### Happiness
-			- Take your own happiness seriously and make an effort to cultivate it.
+			- Take your happiness seriously and make an effort to cultivate it.
 			- Your happiness mostly comes from your attitude and state of mind, rather than what you have or accomplish.
 			- > The three big ones in life are wealth, health, and happiness. We pursue them in that order, but their importance is reverse.
 			- > For some people I know, it’s a flow state. For some people, it’s satisfaction. For some people, it’s a feeling of contentment. My definition keeps evolving. The answer I would have given you a year ago will be different than what I tell you now.

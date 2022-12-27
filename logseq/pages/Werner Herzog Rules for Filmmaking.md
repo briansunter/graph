@@ -1,13 +1,15 @@
 public:: true
 date:: 2022-10-04
 title:: Werner Herzog Rules for Filmmaking
+tags:: [[writing]]
 source:: https://www.amazon.com/exec/obidos/ASIN/B00KEW6ACQ/ref=nosim/0sil8
+coverimage:: /assets/herzog_1672134562808_0.jpeg
 
-- Werner Herzog is a German filmmaker who has produced, written, and directed more than sixty feature and documentary films. I really appreciate his unconventional creativity, as well as the sound of his voice.
-- He's known for producing ambitious experimental films, like "Grizzly Man", a documentary about a grizzly bear expert (who was eaten by a grizzly bear)
-- I'm excited to watch his new movie, "Theatre of Thought" about brain computer interfaces and consciousness.
+- ![herzog.jpeg](../assets/herzog_1672134562808_0.jpeg)
+- Werner Herzog is a German filmmaker who has produced, written, and directed more than sixty feature and documentary films. I appreciate his unconventional creativity and the sound of his voice.
+- He's known for producing ambitious experimental films, like "Grizzly Man," a documentary about a grizzly bear expert (who was eaten by a grizzly bear)
+- I'm excited to watch his new movie, "Theatre of Thought," about brain-computer interfaces and consciousness.
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--
 - ## Werner Herzog's Rogue Film School
 	- Herzog teaches his unconventional approach to filmmaking in his workshop called [Rogue Film School](http://www.roguefilmschool.com/default.asp)
 	- Here's the intro to the school, which does a good job of illustrating his philosophy.

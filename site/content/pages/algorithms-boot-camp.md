@@ -6,8 +6,10 @@ tags:
 - algorithms-boot-camp
 title: algorithms-boot-camp
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-27
 ---
+![image_1657488579000_0.png](/assets/image_1657488579000_0_1672131758605_0.png)
+
 # Intro
 
 ## About this Guide
