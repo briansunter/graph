@@ -10,7 +10,7 @@ profile-visits: 27500
 newsletter-subscribers: 283
 date: 2022-11-26
 title: newsletter-issue-9
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 #  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 

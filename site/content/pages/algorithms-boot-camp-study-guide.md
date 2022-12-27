@@ -10,7 +10,7 @@ gpt-sources:
 - gpt algorithms guide
 title: algorithms-boot-camp-study-guide
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to know about algorithms.
 

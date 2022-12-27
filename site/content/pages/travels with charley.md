@@ -1,28 +1,29 @@
 ---
-rating: 9
-date: 2022-05-08
-date-started:
-- May 8th, 2022
-date-finished:
-- May 20th, 2022
-mtype: book
 tags:
 - reading
 - travel
-- united states
-- roadtrip
-- 1960s
+date-started:
+- May 8th, 2022
+date: 2022-05-08
+coverimage: /assets/travels-with-charley_1672052430785_0.jpeg
+date-finished:
+- May 20th, 2022
+rating: 9
+mtype: book
+description: John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
 title: travels with charley
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
+![travels-with-charley.jpeg](/assets/travels-with-charley_1672052430785_0.jpeg)
+
 # What’s it About
 
 John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
 
-He starts in the Northeast and heads West, eventually making his way down to the deep South. Along the way, he meets a variety of people and experiences a wide range of cultures.
+He starts in the Northeast and heads West, eventually heading down to the deep South. Along the way, he meets a variety of people and experiences a wide range of cultures.
 
-Steinbeck wrote that he was moved by a desire to see his country on a personal level, since he had only experienced it through the media and secondhand accounts.
+Steinbeck wrote that he was moved by a desire to see his country on a personal level since he had only experienced it through the media and secondhand accounts.
 
 # How I Discovered It
 
@@ -30,7 +31,9 @@ I was looking up books by John Steinbeck and picked one that was shorter and mor
 
 # Thoughts
 
-I really enjoyed the book overall, especially the relationship with the poodle Charley
+I enjoyed the book overall, especially the relationship with the poodle Charley.
+
+The book gives a good snapshot of 1960s America.
 
 # My Top 3 Quotes
 
@@ -42,19 +45,19 @@ I really enjoyed the book overall, especially the relationship with the poodle C
 
 # What I Liked
 
-It captures the essence of being on an American roadtrip perfectly
+It captures the essence of being on an American road-trip perfectly
 
-The poodle Charley and his interactions with John Steinbeck are hilarious
+The poodle Charley and his interactions with John Steinbeck are hilarious.
 
-It has that special lyricism that all of John Steinbeck books have. It's a simple story, but you can tell it was written by a great, observant writer. If the same story had been written by someone else, it wouldn't have been nearly as good.
+It has that exceptional lyricism that all of John Steinbeck's books have. It's a simple story, but a great, observant writer wrote it. If the same story had been written by someone else, it wouldn't have been as good.
 
-I enjoy the historical commentary about things going on at the time, like nuclear submarines, Kenendy, Nixon, and Krushchev.
+I enjoy the historical commentary about things going on at the time, like nuclear submarines, Kennedy, Nixon, and Krushchev.
 
 His admiration for the American worker.
 
 # What I Disliked
 
-The book claims to be nonfiction but does feel fictionalized at times. I don't mind the half fictionalization though.
+The book claims to be nonfiction but does feel fictionalized at times. I don't mind the half-fictionalization, though.
 
 # Notes
 
@@ -70,11 +73,11 @@ On the open road in 1960s America
 
 ## Characters
 
-**John Steinbeck**: The famous author and author of this book, before he won the pulitzer prize. He doesn't talk about himself much in the book, so we get a sense of who he is by what he does. You can tell he thinks of himself as a manly man, who critiques the idea that men should take life easier and soften up. He's mostly an objective observer and interviewer to people he meets in the book, but at times he can't help but give his opinion.
+**John Steinbeck**: This book's famous author before he won the Pulitzer prize. He doesn't talk about himself much in the book, so we get a sense of who he is by what he does. You can tell he thinks of himself as a manly man who critiques the idea that men should take life easier and soften up. He's mostly an objective observer and interviewer of people he meets in the book, but he sometimes can't help but give his opinion.
 
 ![image.png](/assets/image_1660803679444_0.png)
 
-**Charley**: John Steinbeck's faithful standard poodle, who accompanies him on his journey around America.
+**Charley**: John Steinbeck's faithful standard poodle accompanies him on his journey around America.
 
 > I took one companion on my journey—an old French gentleman poodle known as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he knows a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
 
@@ -88,11 +91,11 @@ On the open road in 1960s America
 
 ## Background
 
-It was published in 1962, shortly after the author's death
+It was published in 1962, shortly after the author's death.
 
-His travels start in Long Island, New York, and roughly follow the outer border of the United States, from Maine to the Pacific Northwest, down into his native Salinas Valley in California across to Texas, through the Deep South, and then back to New York. Such a trip encompassed nearly 10,000 miles and took 10 weeks
+His travels start in Long Island, New York, and roughly follow the outer border of the United States, from Maine to the Pacific Northwest, down into his native Salinas Valley in California across to Texas, through the Deep South, and then back to New York. Such a trip encompassed nearly 10,000 miles and took ten weeks.
 
-He won the pulitzer year and the Nobel prize for Grapes of Wrath, shortly after Travels with Charley was published.
+He won the Pulitzer year and the Nobel prize for Grapes of Wrath shortly after Travels with Charley was published.
 
 ## Themes
 
@@ -110,9 +113,9 @@ The importance of first hand experience
 
 The book is divided into three sections: "Looking for America," "Finding America," and "America Observed."
 
-In the first section, Steinbeck describes his motivation for undertaking the journey and his preparations for the trip. He also reflects on his past travels and on the changes he has seen in America over the years.
+In the first section, Steinbeck describes his motivation for the journey and preparations. He also reflects on his travels and the changes he has seen in America.
 
-In the second section, Steinbeck details his travels across America. He describes his interactions with a variety of people, from truckers and hitchhikers to police officers and politicians. He also includes Charley's perspective on the trip, as well as his own observations about the people and places he encounters.
+In the second section, Steinbeck details his travels across America. He describes his interactions with a variety of people, from truckers and hitchhikers to police officers and politicians. He also includes Charley's perspective on the trip and his observations about the people and places he encounters.
 
 ### Long island to Conneticut
 
@@ -120,21 +123,21 @@ In the second section, Steinbeck details his travels across America. He describe
 
 Do nuclear weapons limit political discussion?
 
-He talked with a sailor stationed on a submarine in New London, Connecticut and was surprised the sailor enjoyed being on the submarine because it was "futuristic"
+He talked with a sailor stationed on a submarine in New London, Connecticut, and was surprised the sailor enjoyed being on the submarine because it was "futuristic."
 
 ### Maine
 
 > I have always heard that Maine people are rather taciturn, but for this candidate for Mount Rushmore to point twice in an afternoon was to be unbearably talkative. He swung his chin in a small arc in the direction I had been traveling. If the afternoon had not been advancing I would have tried for another word from him even if doomed to failure. “Thank you,” I said, and sounded to myself as though I rattled on forever.
 
-He visisted small town shops, restaurants, and listened to the local radio.
+He visited small-town shops and restaurants and listened to the local radio.
 
-He visited "Abercrombie and Fitch", which was actually an outdoor supply store back then. I thought that was funny.
+He visited "Abercrombie and Fitch," an outdoor supply store back then. I thought that was funny.
 
 ### Upstate New York and Niagara Falls
 
-He comments how much more freely strangers spoke to each-other here, and how different people were everywhere he went.
+He comments on how much more freely strangers spoke to each other here and how different people were everywhere he went.
 
-He meets truck drivers at rest stops and notes how they are like the men he met at sea
+He meets truck drivers at rest stops and notes how they are like the men he met at sea.
 
 ### Midwest
 
@@ -142,34 +145,34 @@ He discusses new technology, like televisions and mobile homes. He interviews fa
 
 ### Wisconsin and North Dakota
 
-He visits Sauk Centre , st Paul, and Minneapolis
+He visits Sauk Centre, st Paul, and Minneapolis
 
-He notes how people are afraid to speak out against the government and are confirmist
+He notes how people are afraid to speak out against the government and are conformist
 
 > Nobody can find fault with you if you take out after the Russians. You think then we might be using Russians as an outlet for something else, other things. Why, I remember when people took everything out on Mr. Roosevelt
 
 ### Montana, Yellowstone, Idaho, and Washington
 
-He visits Custer, the battlefield of Little Big Horn, Yellowstone, and the Great Divide in the Rocky Mountains
+He visits Custer, the battlefield of Little Big Horn, Yellowstone, and the Great Divide in the Rocky Mountains.
 
 >  I am in love with Montana, It seemed to me that the frantic bustle of America was not in Montana
 
 > Yellowstone National Park is no more representative of America than is Disneyland.
 This being my natural attitude, I don’t know what made me turn sharply south and cross a state line to take a look at Yellowstone. Perhaps it was a fear of my neighbors. I could hear them say, “You mean you were that near to Yellowstone and didn’t go? You must be crazy.” Again it might have been the American tendency in travel. One goes, not so much to see but to tell afterward.
 
-He points out that all the Americans he speaks to wonder what life is like somewhere else.
+He points out that all the Americans he speaks to wonder about life elsewhere.
 
-He thinks about what it was like for Lewis and Clark to travel through these lands and what they would think of modern man
+He thinks about what it was like for Lewis and Clark to travel through these lands and what they would think of the modern man
 
 > It is impossible to be in this high spinal country without giving thought to the first men who crossed it, the French explorers, the Lewis and Clark men. We fly it in five hours, drive it in a week, dawdle it as I was doing in a month or six weeks. But Lewis and Clark and their party started in St. Louis in 1804 and returned in 1806. And if we get to thinking we are men, we might remember that in the two and a half years of pushing through wild and unknown country to the Pacific Ocean and then back, only one man died and only one deserted. And we get sick if the milk delivery is late and nearly die of heart failure if there is an elevator strike
 
 ### Seattle, Oregon, and California
 
-He notes how much Seattle has industrialized since he last visited
+He notes how much Seattle has industrialized since he last visited.
 
 > I wonder why progress looks so much like destruction.
 
-He meets up with a friend from his hometown bar, and hears about how everything has changed, and all his old friends have passed on.
+He meets up with a friend from his hometown bar and hears about how everything has changed and all his old friends have passed on.
 
 > Let us not fool ourselves. What we knew is dead, and maybe the greatest part of what we were is dead. What’s out there is new and perhaps good, but it’s nothing we know.
 
@@ -179,7 +182,7 @@ He meets up with a friend from his hometown bar, and hears about how everything 
 
 ### Arizona, New Mexico, Texas
 
-He passes through Arizona and New Mexico, but spends most of his time in Texas.
+He passes through Arizona and New Mexico but spends most of his time in Texas.
 
 > When I started this narrative, I knew that sooner or later I would have to have a go at Texas, and I dreaded it. I could have bypassed Texas about as easily as a space traveler can avoid the Milky Way. It sticks its big old Panhandle up north and it slops and slouches along the Rio Grande. Once you are in Texas it seems to take forever to get out, and some people never make it.
 
@@ -193,7 +196,7 @@ Steinbeck describes how Texas is different than all other states.
 
 ### New Orleans and Mississippi
 
-He travels to New Orleans and witnesses the conflict from desegregation happening in the south. He witnesses the schools desegregating, and the people protesting integration by shouting at children while they tried to go to school and the crowds that gathered to watch.
+He travels to New Orleans and witnesses the conflict of desegregation in the south. He witnessed the schools desegregating, the people protesting integration by shouting at children while they tried to go to school, and the crowds gathered to watch.
 
 > A group of stout middle-aged women who, by some curious definition of the word “mother,” gathered every day to scream invectives at children. Further, a small group of them had become so expert that they were known as the Cheerleaders, and a crowd gathered every day to enjoy and to applaud their performance.
 This strange drama seemed so improbable that I felt I had to see it. It had the same draw as a five-legged calf or a two-headed fetus at a sideshow, a distortion of normal life we have always found so interesting that we will pay to see it, perhaps to prove to ourselves that we have the proper number of legs or heads. In the New Orleans show, I felt all the amusement of the improbable abnormal, but also a kind of horror that it could be so.
@@ -202,9 +205,9 @@ This strange drama seemed so improbable that I felt I had to see it. It had the 
 
 ### Conclusion and Return to New York
 
-The third section contains Steinbeck's reflections on what he has learned from his journey. He discusses the differences he observed between the America of his youth and the America of the 1960s. He also describes the changes he saw in himself, and how the journey has affected his view of his country and its people.
+The third section contains Steinbeck's reflections on what he has learned from his journey. He discusses the differences he observed between the America of his youth and America of the 1960s. He also describes the changes he saw in himself and how the journey has affected his view of his country and its people.
 
-John Steinbeck points out how no two trips and individuals are alike, and his own trip is just his experience of America, and not meant to be definitive.
+John Steinbeck points out how no two trips and individuals are alike; his trip is his experience of America and is not meant to be definitive.
 
 After navigating the entire country, he gets lost right before getting home.
 

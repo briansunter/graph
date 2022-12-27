@@ -4,10 +4,10 @@ tags:
 - logseq
 - programming
 date: 2022-08-19
-socialimage: /assets/image_1661226497219_0.png
+coverimage: /assets/image_1661226497219_0.png
 title: new website on logseq hugo
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 ![image.png](/assets/image_1661226490211_0.png)
 

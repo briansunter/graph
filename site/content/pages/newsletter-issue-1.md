@@ -20,7 +20,7 @@ date: 2022-06-12
 start-date:
 - Jun 12th, 2022
 profile-visits: 45
-lastMod: 2022-12-22
+lastMod: 2022-12-26
 ---
 #  [Sign up for the email newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
 

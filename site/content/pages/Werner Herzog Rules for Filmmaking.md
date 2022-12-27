@@ -4,7 +4,7 @@ title: Werner Herzog Rules for Filmmaking
 source: https://www.amazon.com/exec/obidos/ASIN/B00KEW6ACQ/ref=nosim/0sil8
 tags:
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 Werner Herzog is a German filmmaker who has produced, written, and directed more than sixty feature and documentary films. I really appreciate his unconventional creativity, as well as the sound of his voice.
 

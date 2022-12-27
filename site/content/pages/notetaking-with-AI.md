@@ -8,7 +8,7 @@ tags:
 date: 2022-08-21
 title: notetaking-with-AI
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 

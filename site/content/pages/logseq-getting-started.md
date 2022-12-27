@@ -2,11 +2,13 @@
 date: 2022-10-04
 tags:
 - logseq
-- programming
-- newsletter
-title: logseq-getting-started
+- productivity
+- notetaking
 categories:
-lastMod: 2022-12-07
+- productivity
+coverimage: /assets/image_1662087082755_0.png
+title: logseq-getting-started
+lastMod: 2022-12-26
 ---
 How to get started with Logseq and publish your notes online in 30 minutes.
 

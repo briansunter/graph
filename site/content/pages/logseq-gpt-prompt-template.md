@@ -4,7 +4,7 @@ date: 2022-11-16
 title: logseq-gpt-prompt-template
 tags:
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 ![prompt-template.png](/assets/prompt-template_1668636545451_0.png)
 

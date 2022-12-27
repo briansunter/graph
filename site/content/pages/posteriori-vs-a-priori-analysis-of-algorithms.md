@@ -9,7 +9,7 @@ categories:
 - programing
 date: 2022-08-22
 title: posteriori-vs-a-priori-analysis-of-algorithms
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 ## A Posteriori Analysis (Profiling)
 

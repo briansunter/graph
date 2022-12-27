@@ -9,7 +9,7 @@ date: 2022-11-26
 coverimage: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2022-12-07
+lastMod: 2022-12-26
 ---
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 
