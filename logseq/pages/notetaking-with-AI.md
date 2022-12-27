@@ -1,9 +1,8 @@
 public:: true
-tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue/4]]
+tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue-4]]
 date:: 2022-08-21
 
-There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
-
+- There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
 - The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 - For example, I could search for "food" and find an article on "Burritos" even if the specific word "food" doesn't appear in the "Burritos" article. Semantic Search enables a much more robust search because you don't need to guess particular words to find the article you want, and you can search by meaning and intent.
 - These new technologies allow you to search, summarize and categorize your notes. You can also use AI to generate new notes instead of just analyzing them.
@@ -15,7 +14,7 @@ There are several new AI and NLP technologies that you can use for personal know
 	- This type of analysis works well for bidirectional note-taking apps with backlinks because the links provide a lot of information about the relationship between the notes. AI can then discover "hidden" relationships between notes.
 - #### Game of Thrones Social Network
 - Here's what Game of Thrones would look like if it were a social network. You can see how all the characters such as "Jon Snow" and "Daenerys Targaryen" are connected.
-	- ![image.png](../assets/image_1662087210843_0.png)
+	- ![image.png](../assets/image_1662087210843_0.png){:height 254, :width 350}
 		- [Source](https://www.researchgate.net/figure/Graph-theory-analysis-in-social-network-Image-courtesy-of-5_fig1_321846685)
 - ## Adamic Adar and "Link Prediction"
 	- The Adamic–Adar index is a method to "predict" links in a social network according to the number of shared links between two nodes.

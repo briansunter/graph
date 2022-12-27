@@ -1,4 +1,4 @@
-tags:: [[logseq]] [[gtd]] [[newsletter/issue/2]] [[productivity]]
+tags:: [[logseq]] [[gtd]] [[newsletter/issue-2]] [[productivity]]
 
 - # What is an Inbox?
 	- When crafintg a productivity workflow, I think designing your Inbox workflow is a good place to start.

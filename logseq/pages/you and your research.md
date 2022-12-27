@@ -1,11 +1,12 @@
 ShowToc:: true
 TocOpen:: true
 date:: 2022-08-17
-tags:: [[newsletter-issue-1]] [[greatperson]] [[newsletter]]
+tags:: [[newsletter/issue-1]] [[greatperson]] [[newsletter]]
 public:: true
 description:: Notes from the talk You and Your Research by Richard Hamming, about how to do Nobel Prize level work.
+coverimage:: /assets/image_1660798082719_0.png
 
-- ![image.png](../assets/image_1660798082719_0.png){:height 335, :width 573}
+- ![image.png](../assets/image_1660798082719_0.png){:height 190, :width 324}
 - > "Why do so few scientists make significant contributions and so many are forgotten in the long run?''
 - > "What is the biggest problem in your field? And why are you not working on it?"
 - ## Richard Hamming

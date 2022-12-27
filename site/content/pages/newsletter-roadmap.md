@@ -11,7 +11,7 @@ This is the content plan for my [newsletter]({{< sref "/pages/newsletter" >}})
 The dates are only rough guidelines, this is more of a content ordering and flow
 
 # Roadmap #.ol-nested
-## intro [newsletter-issue-1]({{< sref "/pages/newsletter-issue-1" >}}) [[Jun 12th, 2022]]
+## intro [newsletter/issue-1]({{< sref "/pages/newsletter/issue-1" >}}) [[Jun 12th, 2022]]
 
 Intro [newsletter]({{< sref "/pages/newsletter" >}})
 
@@ -21,13 +21,13 @@ Starting my public graph [[homepage]]
 
 Introducing my [[logseq openai]]
 
-## Newsletter Project  [newsletter/issue/2]({{< sref "/pages/newsletter/issue/2" >}})  [[Jun 19th, 2022]]
+## Newsletter Project  [newsletter/issue-2]({{< sref "/pages/newsletter/issue-2" >}})  [[Jun 19th, 2022]]
 
 feedback on [[logseq openai]]
 
 launching my [[get-youtube-subtitles]] plugin
 
-## Getting started with logseq [newsletter/issue/3]({{< sref "/pages/newsletter/issue/3" >}}) [[Jun 26th, 2022]]
+## Getting started with logseq [newsletter/issue-3]({{< sref "/pages/newsletter/issue-3" >}}) [[Jun 26th, 2022]]
 
 [[get-youtube-subtitles]]
 
@@ -39,7 +39,7 @@ Launching [[logseq-social]]
 
 [[second-brain]]
 
-##  Newsletter intro and Productivity with AI [newsletter/issue/4]({{< sref "/pages/newsletter/issue/4" >}})  [[Jul 3rd, 2022]]
+##  Newsletter intro and Productivity with AI [newsletter/issue-4]({{< sref "/pages/newsletter/issue-4" >}})  [[Jul 3rd, 2022]]
 
 [[logseq-tasks]]
 
@@ -69,7 +69,7 @@ Fine Tune
 
 CoAuthor
 
-## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue/5]({{< sref "/pages/newsletter/issue/5" >}})
+## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue-5]({{< sref "/pages/newsletter/issue-5" >}})
 
 Updates
 
@@ -120,7 +120,7 @@ Link
 
 [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
-## Intro to Algorithms [newsletter-6]({{< sref "/pages/newsletter-6" >}})
+## Intro to Algorithms [newsletter/issue-6]({{< sref "/pages/newsletter/issue-6" >}})
 
 Updates
 

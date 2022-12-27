@@ -7,21 +7,21 @@ date:: 2022-07-10
 - The dates are only rough guidelines, this is more of a content ordering and flow
 - # Roadmap #.ol-nested
   id:: 62aa1199-1a3a-4b91-bd92-85cb0c28ac6f
-- ## intro [[newsletter-issue-1]] [[Jun 12th, 2022]]
+- ## intro [[newsletter/issue-1]] [[Jun 12th, 2022]]
 	- Intro [[newsletter]]
 	- More about what I'm doing
 	- Starting my public graph [[homepage]]
 	- Introducing my [[logseq openai]]
-- ## Newsletter Project  [[newsletter/issue/2]]  [[Jun 19th, 2022]]
+- ## Newsletter Project  [[newsletter/issue-2]]  [[Jun 19th, 2022]]
 	- feedback on [[logseq openai]]
 	- launching my [[get-youtube-subtitles]] plugin
-- ## Getting started with logseq [[newsletter/issue/3]] [[Jun 26th, 2022]]
+- ## Getting started with logseq [[newsletter/issue-3]] [[Jun 26th, 2022]]
 	- [[get-youtube-subtitles]]
 	- [[omnivore-logseq-guide]]
 	- Launching [[logseq-social]]
 	- [[logseq-getting-started]]
 	- [[second-brain]]
-- ##  Newsletter intro and Productivity with AI [[newsletter/issue/4]]  [[Jul 3rd, 2022]]
+- ##  Newsletter intro and Productivity with AI [[newsletter/issue-4]]  [[Jul 3rd, 2022]]
 	- [[logseq-tasks]]
 	- [[notetaking-with-AI]]
 		- summarize
@@ -36,7 +36,7 @@ date:: 2022-07-10
 		- Edit
 		- Fine Tune
 		- CoAuthor
-- ## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue/5]]
+- ## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue-5]]
 	- Updates
 		- [[algorithms-boot-camp]]
 		- [[algorithms-boot-camp-study-guide]]
@@ -62,7 +62,7 @@ date:: 2022-07-10
 					- So to adjust your circadian rhythm, warm your body up at the appropriate time, with exercise or even a heater to be more alert, then cool yourself down at night to fall asleep.
 		- Link
 			- [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
-- ## Intro to Algorithms [[newsletter-6]]
+- ## Intro to Algorithms [[newsletter/issue-6]]
 	- Updates
 		- [[intro-to-algorithms]]
 	- Productivity Toolkit

@@ -7,7 +7,7 @@ start-date:: [[Jun 13th, 2022]]
 date:: 2022-07-13
 milestone-date:: [[July 28th, 2022]]
 desired-end-date:: [[Sep 13th, 2022]] 
-metrics:: [[newsletter subscribers]] [[twitter followers]] [[newsletter/issue/2]]
+metrics:: [[newsletter subscribers]] [[twitter followers]] [[newsletter/issue-2]]
 
 - ## Summary
 	- I am starting a newsletter about my learnings on coding, technology, health, and productivity.

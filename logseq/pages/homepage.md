@@ -1,5 +1,3 @@
-
-
 - # Brian Sunter's Notes
 	- These are my notes on a variety of subjects, like a personal wikipedia. I think of it as a "Knowledge Graph", "Second Brain", or "Digital Garden".
 - ## What is this site?
@@ -16,33 +14,33 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
-	- [[newsletter-issue-9]]
+	- [[newsletter/issue-9]]
 	- [[project-template]]
 	- [[why-large-language-models-are-interesting]]
 	- [[almanack-of-naval-ravikant]]
 	- [[headphone-eye-mask]]
-	- [[newsletter-issue-8]]
+	- [[newsletter/issue-8]]
 	- [[integer-sum-formula]]
 	- [[abdul bari algorithms part-1]]
 	- [[new website on logseq hugo]]
 	- [[abdul bari algorithms]]
 	- [[you and your research]]
-	- [[newsletter/issue/7]]
-	- [[newsletter-6]]
+	- [[newsletter/issue-7]]
+	- [[newsletter/issue-6]]
 	- [[intro-to-algorithms]]
 	- [[logseq-projects]]
-	- [[newsletter/issue/5]]
+	- [[newsletter/issue-5]]
 	- [[algorithms-boot-camp]]
-	- [[newsletter/issue/4]]
+	- [[newsletter/issue-4]]
 	- [[notetaking-with-AI]]
 	- [[logseq-tasks]]
-	- [[newsletter/issue/3]]
+	- [[newsletter/issue-3]]
 	- [[logseq-getting-started]]
 	- [[omnivore-logseq-guide]]
-	- [[newsletter/issue/2]]
+	- [[newsletter/issue-2]]
 	- [[newsletter-roadmap]]
 	- [[poodle mixes]]
-	- [[newsletter-issue-1]]
+	- [[newsletter/issue-1]]
 	- [[newsletter template]]
 	- [[newsletter]]
 	- [[comparison-template]]
