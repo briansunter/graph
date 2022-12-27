@@ -2,7 +2,7 @@
     {{ $videoResource := resources.GetMatch .Destination | fingerprint }}
     {{ $videoResource = $videoResource.RelPermalink }}
     {{ if strings.Contains .Text "autoplay" }}
-        <video class="post-video" src="{{ $videoResource }}" muted controls playsinline autoplay loop></video>
+        <video class="post-video" src="{{ $videoResource }}" muted controls playsinline autoplay loop controls="false"></video>
     {{ else }}
     {{ .Text }}
         <video class="post-video" src="{{ $videoResource }}" controls ></video>
