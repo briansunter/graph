@@ -5,7 +5,7 @@ tags:
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
 This is the content plan for my [newsletter]({{< sref "/pages/newsletter" >}})
 The dates are only rough guidelines, this is more of a content ordering and flow
@@ -79,7 +79,7 @@ Updates
 
 Productivity Toolkit
 
-[[comparison-template]]
+[comparison-template]({{< sref "/pages/comparison-template" >}})
 
 Brain Food
 

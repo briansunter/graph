@@ -7,7 +7,7 @@ description: Cooklang is like markdown for recipes. It lets you write recipes in
 url: "/blog/cooklang"
 date: 2022-09-21
 categories:
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
 Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
 

@@ -8,7 +8,7 @@ categories:
 - productivity
 coverimage: /assets/image_1662087082755_0.png
 title: logseq-getting-started
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
 How to get started with Logseq and publish your notes online in 30 minutes.
 

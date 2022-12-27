@@ -8,7 +8,7 @@ coverimage: /assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png
 date: 2022-10-04
 title: abdul bari algorithms
 categories:
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 

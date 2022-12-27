@@ -9,7 +9,7 @@ date: 2022-11-26
 coverimage: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 
@@ -19,37 +19,37 @@ This free book is a collection of tweets on the philosophy of life, wealth, rela
 
 ![naval-ravikant.jpeg](/assets/naval-ravikant_1670306845205_0.jpeg)
 
-He emphasizes the importance of creating leverage and playing long term games where you can take advantage of compounding interest.
+He emphasizes the importance of creating leverage and playing long-term games where you can take advantage of compounding interest.
 
 He advocates being authentic, following your curiosity, and using the internet and software to leverage your unique skills and interests.
 
 # Impressions
 
-I really enjoyed this book, although it isn't a traditional book at all, it's a collection of insightful tweets on a wide variety of subjects. It reminds me of Tim Ferriss's Tribe of Mentors
+I enjoyed this book; although it isn't traditional, it's a collection of insightful tweets on various subjects. It reminds me of Tim Ferriss's Tribe of Mentors.
 
-A lot of the tweets say similar things in different ways. I overall enjoyed reading many different takes on the same things, but sometimes it feels slightly repetitive.
+A lot of the tweets say similar things in different ways. I overall enjoyed reading many different takes on the same things, but sometimes it could be more varied.
 
 My favorite themes were the ones on creating leverage and authenticity.
 
 # Who Should Read It?
 
-Anyone interested in startups, wealth creation, health and productivity.
+Anyone interested in startups, wealth creation, health, and productivity.
 
 Anyone new to Naval's tweets and way of thinking.
 
-Someone OK with a loose collection of tweets, rather than a traditional longform book.
+Someone OK with a loose collection of tweets rather than a traditional long-form book.
 
 # How the Book Changed Me
 
-This book motivated me to leverage my authenticity, be accountable, take risks, and follow my own passions and curiosity, instead of blindly playing someone else's games
+This book motivated me to leverage my authenticity, be accountable, take risks, and follow my passions and curiosity instead of blindly playing someone else's games.
 
-The book made me think about how to create leverage in my interests and how leverage is much more important than raw effort or productivity.
+The book made me think about how to create leverage in my interests and how leverage is much more critical than raw effort or productivity.
 
 It encouraged me to really think hard about the few decisions that really matter, like which relationships to get into, what city to live in, which job to take. These completely change the trajectory of your life, but most of us don't spend as much time deliberating these as we should. You should really take the time to figure out what should work on.
 
-It made me think about being authentic and doing thing's I'm passionate about for their own sake as much as possible, and to avoid playing status games.
+It made me think about being authentic and doing things I'm passionate about for their own sake as much as possible and to avoid playing status games.
 
-The book further encouraged me to take my own happiness seriously.
+The book further encouraged me to take my happiness seriously.
 
 # My Top 3 Quotes
 
@@ -79,7 +79,7 @@ To become wealthy, you have to own equity, the products of your labor. You'll ne
 
 ### Arm Yourself with Specific Knowledge
 
-Specific knowledge is highly technical or creative work that hasn't been fully figured out yet. Find it by following your genuine curiosity. It will feel like play to you, and work to someone else.
+Specific knowledge is highly technical or creative work that has yet to be fully figured out. You can find it by following your genuine curiosity. It will feel like play to you and work to someone else.
 
 > Specific knowledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion. It’s not by going to school for whatever is the hottest job; it’s not by going into whatever field investors say is the hottest.
 
@@ -99,9 +99,9 @@ Specific knowledge is highly technical or creative work that hasn't been fully f
 
 ### Create Leverage
 
-Spend a lot of time deciding on the really important high leverage decisions in your life, like what to work on, who to work with, and where to live.
+Spend a lot of time deciding on the crucial high-leverage decisions in your life, like what to work on, who to work with, and where to live.
 
-To create wealth, you need to leverage what you do. One of the best ways to do this is using "permissionless leverage" like coding or media that you can start utilizing today, rather than labor or capital
+To create wealth, you need to leverage what you do. One of the best ways to do this is using "permissionless leverage," like coding or media that you can start utilizing today, rather than labor or capital.
 
 The main forms of leverage are **code**, **media**, **capital**, and **labor**.
 
@@ -184,7 +184,7 @@ Avoiding ruin could also mean you stay out of things that could be physically da
 
 ### Happiness
 
-Take your own happiness seriously and make an effort to cultivate it.
+Take your happiness seriously and make an effort to cultivate it.
 
 Your happiness mostly comes from your attitude and state of mind, rather than what you have or accomplish.
 

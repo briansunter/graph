@@ -4,24 +4,21 @@ sent-date:
 - Jul 17th, 2022
 tags:
 - newsletter
-- AI
+- ai
 - algorithms-boot-camp
 categories:
 - newsletter
+- programming
 newsletter-subscribers: 219
 name: Newsletter 6
 title: newsletter-6
-type:
-- newsletter
 date: 2022-07-17
+coverimage: /assets/image_1657735112414_0_1672132400967_0.png
 start-date:
 - Jul 15th, 2022
-lastMod: 2022-12-26
+description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
+lastMod: 2022-12-27
 ---
-#  [Sign up for the newsletter here](https://www.getrevue.co/profile/bsunter/issues/weekly-newsletter-of-brian-sunter-issue-1-1220479)
-
-### See all issues -> [newsletter]({{< sref "/pages/newsletter" >}})
-
 # Summary and Reflection 🤔
 
 This week I wrote the first section [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}}) from the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) which focuses on a simple introduction to what algorithms are and why they're important
@@ -72,11 +69,11 @@ Tools focused on programmer convenience may do things you don't fully understand
 
 ### Simple vs Complex
 
-Programmers use the word simple and easy interchangeably, however they're two different yet related concepts.
+Programmers use the word simple and easy interchangeably. However, they're two different yet related concepts.
 
-Examining the root word of "simple" and "complex" sheds some light on the difference between "simple" and "easy".
+Examining the root word of "simple" and "complex" sheds some light on the difference between "simple" and "easy."
 
-![image.png](/assets/image_1657735112414_0.png)
+![image_1657735112414_0.png](/assets/image_1657735112414_0_1672132400967_0.png)
 
 > So the first word is simple. And the roots of this word are sim and plex, and that means one fold or one braid or twist.
 
@@ -98,9 +95,9 @@ What's easy for me may be hard for you and vice versa.
 
 ### Focus on the output of your process
 
-We focus so much on our familiarity with tools and short term convenience. Maybe we should focus more on the quality of the product we're shipping and sustainability of developing it.
+We focus so much on our familiarity with tools and short-term convenience. Let's focus more on the quality of the product we're shipping and the sustainability of developing it.
 
-![image.png](/assets/image_1657735246074_0.png)
+![image_1657735246074_0.png](/assets/image_1657735246074_0_1672132643414_0.png)
 
 Modern tools and processes are so focused on making things fast and "easy" for those making the software, but these processes often produce "complex" results, which eventually becomes "hard" to maintain long term.
 
@@ -124,20 +121,18 @@ The reason it's so difficult is because you can't see your oppononents pieces. I
 
 Knowing that it's a mathematically interesting game renewed my interest a bit, and I've been playing it on mobile. It has a great "quick play" mode which randomizes the initial layout which makes it much faster to practice.
 
-![image.png](/assets/image_1657604178916_0.png)
+![image_1657604178916_0.png](/assets/image_1657604178916_0_1672132676533_0.png)
 
-![image.png](/assets/image_1657604210768_0.png)
+![image_1657604210768_0.png](/assets/image_1657604210768_0_1672132696353_0.png)
 
-https://t.co/xXagujMfmw
+[Read the paper here](https://t.co/xXagujMfmw)
 
 # Analytics 📈
 
 Still amazed at the res pins
 
-![Screen Shot 2022-07-14 at 8.43.42 PM.png](/assets/Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0.png)
+![Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0.png](/assets/Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0_1672132794501_0.png)
 
 # Outro
 
 Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
-
-

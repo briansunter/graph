@@ -8,8 +8,10 @@ tags:
 date: 2022-08-21
 title: notetaking-with-AI
 categories:
-lastMod: 2022-12-26
+lastMod: 2022-12-27
 ---
+There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
+
 The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 
 For example, I could search for "food" and find an article on "Burritos" even if the specific word "food" doesn't appear in the "Burritos" article. Semantic Search enables a much more robust search because you don't need to guess particular words to find the article you want, and you can search by meaning and intent.
