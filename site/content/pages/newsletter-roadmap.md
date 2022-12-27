@@ -31,7 +31,7 @@ launching my [[get-youtube-subtitles]] plugin
 
 [[get-youtube-subtitles]]
 
-[[omnivore-logseq-guide]]
+[omnivore-logseq-guide]({{< sref "/pages/omnivore-logseq-guide" >}})
 
 Launching [[logseq-social]]
 

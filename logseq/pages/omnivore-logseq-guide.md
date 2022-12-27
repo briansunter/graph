@@ -1,4 +1,7 @@
-
+tags:: [[logseq]] [[productivity]] [[reading]] 
+public:: true
+date:: 2022-11-26
+coverimage:: /assets/image_1662086881256_0.png
 
 - If you want to read content online much more efficiently and remember what you read, I highly recommend using a "Read it later" app, which allows you to save interesting links you find.
 - I like to browse the top stories on Reddit, HackerNews, or other news sites and save interesting articles, then read them all at once later, which is much more efficient. (This only works if you actually have a routine to read the links you save). You can read social media as RSS btw.
@@ -49,4 +52,3 @@
 - # Conclusion
 	- Overall I couldn't be happier to have a nice simple open source read it later app that integrates with logseq. It's awesome that it supports the reader mode and highlights as well, which I use heavily. It has been great so far for optimizing my information diet.
 	- Go to [Omnivore](https://omnivore.app/) to get started!
-- {{embed [[website-outro]]}}

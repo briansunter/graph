@@ -45,7 +45,7 @@ Feeding the captions text into my [[logseq openai]] plugin works incredibly well
 
 {{< tweet user="Bsunter" id="1537117777038757889" >}}
 
-## [[omnivore-logseq-guide]]
+## [omnivore-logseq-guide]({{< sref "/pages/omnivore-logseq-guide" >}})
 
 If you read a lot of content online, you need a “read it later app” to save interesting links, then read and highlight everything all at once. Keeping the article for later is much more efficient than reading a link as soon as you find it.
 
