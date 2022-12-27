@@ -12,7 +12,7 @@ followers:: 260
 tweet-impressions:: 47
 profile-visits:: 45
 newsletter-subscribers:: 0
-coverimage:: /assets/image_1660689843301_0.png
+coverimage:: /assets/image_1660689843301_0.jpg
 aliases:: /pages/newsletter-issue-1
 
 - ## Summary and Reflection 🤔
@@ -32,7 +32,7 @@ aliases:: /pages/newsletter-issue-1
 			- I'm hoping to share a lot of the stuff I've learned over the years.
 			- ### Zoomed In
 				- This is it zoomed all the way in. The density is impressive.
-				- ![image](../assets/image_1660689843301_0.png){:height 327, :width 563}
+				- ![image](../assets/image_1660689843301_0.jpg){:height 327, :width 563}
 		- ### Lifehacking Holidays
 			- Many of my notes fall into the "lifehacking" category and are ways of trying to live my life more efficiently.
 			- Most of my notes are just on boring things I use to run my life. If you zoom in on the detail view, there's stuff like "thanksgiving 2021".

@@ -109,7 +109,7 @@ In these interviews, LeCun hints at the connection between AI and robotics: that
 
 This idea reminds me of the future in Westworld, where the robots are almost indistinguishable from human beings, then "awake" and become conscious while interacting with the humans in "high-fidelity" ways.
 
-![giphy_1656807706699_0.gif](/assets/giphy_1656807706699_0_1672131439179_0.gif)
+![westworld-autoplay.mp4](/assets/westworld-autoplay_1672142939444_0.mp4)
 
 Take a look at these interviews and his new paper for more about Yann LeCun and his vision for the future of AI.
 
