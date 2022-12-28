@@ -16,7 +16,7 @@ categories:
 newsletter-subscribers: 0
 title: newsletter/issue-1
 date: 2022-06-12
-coverimage: /assets/image_1660689843301_0.png
+coverimage: /assets/image_1660689843301_0.jpg
 start-date:
 - Jun 12th, 2022
 profile-visits: 45
@@ -56,7 +56,7 @@ I'm hoping to share a lot of the stuff I've learned over the years.
 
 This is it zoomed all the way in. The density is impressive.
 
-![image](/assets/image_1660689843301_0.png)
+![image](/assets/image_1660689843301_0.jpg)
 
 ### Lifehacking Holidays
 

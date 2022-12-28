@@ -19,7 +19,7 @@ lastMod: 2022-12-27
 
 I'm very eager to start studying AI, but with so much to learn, I'm not sure where to start. Do I need a lot of math? What kind? Which areas should I focus on? How can I make sense of all the topics? What tools should I use? Additionally, how is the field developing, and what direction is it headed in?
 
-I'm a software engineer with some math under my belt, and my goal is to gain a thorough understanding of AI so I can apply it to my work. I'm particularly interested in generative AI, natural language processing, and building intelligent agents. I also want to gain the necessary math skills to have a strong understanding of the fundamentals, but I don't want to too bogged down in some of the advanced mathematical details.
+I'm a software engineer with some math under my belt, and my goal is to gain a thorough understanding of AI so I can apply it to my work. I'm particularly interested in generative AI, natural language processing, and building intelligent agents. I also want to gain the necessary math skills to understand the fundamentals, but I don't want to get too bogged down in some of the advanced mathematical details.
 
 To help me on this journey, I've collected and summarized the best courses and books to help me get started on the right foot. I included the topics covered by each resource, so the list got pretty long, but it gives me a better idea of what to prioritize and how things fit together.
 

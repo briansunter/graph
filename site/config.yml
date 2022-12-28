@@ -56,27 +56,27 @@ outputs:
 
 menu:
     main:
-        - identifier: categories
-          name: Categories
-          url: /categories
+        - identifier: newsletter-link
+          name: Newsletter
+          url: /newsletter
           weight: 10
+        - identifier: topics
+          name: Topics
+          url: /categories
+          weight: 20
         - identifier: tags
           name: Tags
           url: /tags
-          weight: 20
-        - identifier: search
-          name: Search
-          url: /search
-          weight: 20
+          weight: 30
         - identifier: archive
           name: Archive
           url: /archives
-          weight: 20
+          weight: 40
         - identifier: graph
           name: Graph
           url: 'https://briansunter.com/graph/#/graph'
-          weight: 20
-        - identifier: newsletter-link
-          name: Newsletter
-          url: 'https://newsletter.briansunter.com'
-          weight: 20
+          weight: 50
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 60

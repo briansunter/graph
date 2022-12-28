@@ -9,14 +9,14 @@ categories:
 - ai
 - gpt3
 newsletter-subscribers: 283
+title: newsletter/issue-9
 date: 2022-11-26
-coverimage: /assets/shu-thumbnail_1672134896320_0.jpeg
+coverimage: /assets/stop_1672218528540_0.jpg
 profile-visits: 27500
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
-title: newsletter/issue-9
 lastMod: 2022-12-27
 ---
-![shu-thumbnail.jpeg](/assets/shu-thumbnail_1672134896320_0.jpeg)
+![stop.jpg](/assets/stop_1672218528540_0.jpg)
 
 # Summary
 

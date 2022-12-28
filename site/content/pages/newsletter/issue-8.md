@@ -9,6 +9,7 @@ tags:
 categories:
 - newsletter
 newsletter-subscribers: 253
+title: newsletter/issue-8
 type:
 - newsletter
 date: 2022-08-23
@@ -16,7 +17,6 @@ coverimage: /assets/image_1665465573710_0.png
 start-date:
 - Sep 5th, 2022
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
-title: newsletter/issue-8
 lastMod: 2022-12-27
 ---
 # Summary and Reflection 🤔
