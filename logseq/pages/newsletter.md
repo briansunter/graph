@@ -1,9 +1,7 @@
-public:: true
 tags:: [[100 newsletter subscribers]] [[newsletter template]]
 title:: newsletter
 categories:: [[newsletter]]
 date:: 2022-06-12
-weight:: 1
 
 - # Welcome to the Newsletter of Brian Sunter 🧠
 	- > A software engineer's approach to learning, productivity, coding, and health. 

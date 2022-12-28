@@ -1,9 +1,8 @@
-public:: true
 date:: 2022-12-09
 categories:: [[programming]] [[ai]]
 tags:: [[ai]] [[programming]]
 description:: Best resources for machine learning
-coverimage::
+coverimage:: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 
 - # [Deeplearning.ai](https://Deeplearning.ai)
 - # [Deeplearning AI Intro Course](https://www.coursera.org/specializations/machine-learning-introduction)
@@ -228,9 +227,11 @@ coverimage::
 -
 - # Areas
 	- ## Math
-		- Statistics
+		- ### Statistics
 		- Linear Algebra
 	- ## Deep Learning
+		-
+		-
 	- ## Tools
 		- Python
 		- Numpy

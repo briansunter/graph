@@ -13,11 +13,11 @@ newsletter-subscribers:: 283
 public:: true
 date:: 2022-11-26
 description:: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
-coverimage:: /assets/shu-thumbnail_1672134896320_0.jpeg
+coverimage:: /assets/stop_1672218528540_0.jpg
 aliases:: /pages/newsletter-issue-9
 title:: newsletter/issue-9
 
-- ![shu-thumbnail.jpeg](../assets/shu-thumbnail_1672134896320_0.jpeg)
+- ![stop.jpg](../assets/stop_1672218528540_0.jpg)
 - # Summary
 	- I'm continuing to add features to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
 	- I'm really interested in this new AI technology called "Large Language Models" which allows AI to understand the meaning behind text, as well as generate humanlike text.

@@ -4,9 +4,20 @@ layout: "newsletter"
 url: "/newsletter"
 summary: newsletter
 ---
-My newsletter is a platform for sharing my thoughts, projects, advice, and learnings and making it easier for others to follow.
+My newsletter is a platform for sharing my projects, thoughts, and learnings and making it easier for others to follow along.
 
-The topics I cover range from programming to AI, web development, Logseq, productivity, health, reading, gaming, as well as some personal stuff.  
+I plan on writing about topics such as:
+- Programming 
+- AI
+- Web development
+- AWS
+- Devops
+- Productivity
+- Tools for thought
+- Logseq
+- Health
+- Gaming
+- Personal stuff
 
 I already take detailed notes as a part of my learning process, so I've decided to go the extra mile and publish them online, where they'll hopefully be helpful to others. Taking notes is more motivating when I know others may benefit from them.  
 
@@ -14,4 +25,4 @@ As I write the newsletter, I’ll use Logseq – a great outliner-style writing 
 
 I hope that by sharing my work, I can be part of a conversation, learn from others, and help out others interested in any of the topics mentioned above.  
 
-If you’re a programmer, creative, entrepreneur, or self-directed learner, you’ll find something for you in the newsletter. I invite you to sign up and join my weekly journey of learning and exploration. You can read all the newsletters and blog posts on this site or subscribe to the newsletter on substack to get them delivered to your inbox.
+You can read all the newsletters and blog posts on this site or [subscribe to the newsletter on substack](https://newsletter.briansunter.com/) to get them delivered to your inbox.
