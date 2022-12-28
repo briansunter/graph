@@ -3,11 +3,13 @@ tags:
 - logseq
 - productivity
 - reading
-date: 2022-11-26
+date: 2022-10-26
 coverimage: /assets/image_1662086881256_0.png
+description: How to use the Omnivore read it later app
+blogtitle: Omnivore Logseq Guide
 title: omnivore-logseq-guide
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 If you want to read content online much more efficiently and remember what you read, I highly recommend using a "Read it later" app, which allows you to save interesting links you find.
 

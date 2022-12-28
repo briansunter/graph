@@ -1,7 +1,11 @@
 public:: true
 date:: 2022-06-29
 tags:: [[productivity]] [[logseq]][[openai]] [[gpt3]] [[kubernetes]]
+coverimage:: /assets/kubernetes_1672272543261_0.png
+blogtitle:: How to use GPT-3 to learn Kubernetes
+description:: How to use GPT-3 to make a Kubernetes Study Guide
 
+- ![kubernetes.png](../assets/kubernetes_1672272543261_0.png)
 - # Intro
 	- GPT-3 is the ultimate learning and study tool
 	- I've been meaning to learn Kubernetes in depth for the longest time, so let's use my [OpenAI GPT-3 Plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to help me out

@@ -2,6 +2,8 @@ public:: true
 date:: 2022-11-07
 coverimage:: "/assets/image_1667858995655_0_1667859078784_0.jpeg"
 tags:: [[productivity]] [[health]] [[sleep]]
+description:: How I use a Bluetooth headphone eye mask to sleep better
+blogtitle:: Headphone Eye Mask
 
 -
 - ![image_1667858995655_0.jpeg](../assets/image_1667858995655_0_1667859078784_0.jpeg)

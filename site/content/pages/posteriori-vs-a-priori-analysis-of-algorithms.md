@@ -8,8 +8,10 @@ tags:
 categories:
 - programing
 date: 2022-08-22
+blogtitle: Posteriori vs A Priori Analysis of Algorithms
+description: Theoretical analysis of algorithms vs benchmarking
 title: posteriori-vs-a-priori-analysis-of-algorithms
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 ## A Posteriori Analysis (Profiling)
 

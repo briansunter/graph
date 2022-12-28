@@ -1,6 +1,8 @@
 public:: true
 date:: 2022-07-17
 tags:: [[programming]][[machine learning]]
+description:: An outline of topics to study machine learning, suggested by GPT
+blogtitle:: Machine Learning Study Guide Outline
 
 - This is a study guide for understanding machine learning and gpt3]]
 - Built from the GPT3 prompts in [[machine learning study guide gpt]]

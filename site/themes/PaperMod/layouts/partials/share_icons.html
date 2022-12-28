@@ -1,5 +1,5 @@
 {{- $pageurl := .Permalink | replaceRE "/$" "" }}
-{{- $title := .Title }}
+{{- $title := .Params.blogtitle | default .Title }}
 
 {{- $.Scratch.Set "tags" ""}}
 

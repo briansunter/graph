@@ -1,7 +1,7 @@
 {{- define "main" }}
 
 <header class="page-header">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Params.blogtitle | default .Title }}</h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description }}
@@ -29,7 +29,7 @@
       {{- if eq .Kind "page" }}
       <div class="archive-entry">
         <h3 class="archive-entry-title">
-          {{- .Title | markdownify }}
+          {{- .Params.blogtitle | default .Title | markdownify }}
           {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
         </h3>
         <div class="archive-meta">

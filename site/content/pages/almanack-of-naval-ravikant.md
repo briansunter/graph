@@ -7,9 +7,10 @@ tags:
 rating: 8
 date: 2022-11-26
 coverimage: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
+blogtitle: Almanack of Naval Ravikant Book
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 

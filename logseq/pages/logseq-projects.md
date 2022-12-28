@@ -1,7 +1,11 @@
 public:: true
 tags:: [[blog]]
 date:: 2022-08-21
+description:: How can we organize complex tasks that involve multiple steps over multiple days in Logseq?
+blogtitle:: How to manage projects in Logseq
+coverimage:: /assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg
 
+- ![beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c.jpg](../assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg)
 - Introduction
 	- Hook
 		- How can we organize complex tasks that involve multiple steps over multiple days in Logseq?
@@ -120,4 +124,3 @@ date:: 2022-08-21
 	- I hope you enjoyed this guide to my logseq project template. Next week I'll walk through an example of one of my projects for the newsletter [[100 newsletter subscribers]]
 	- I'll also will write about using queries to organize projects.
 	- If you're working on something beyond simple todos, I highly recommend creating a structured process and project template around it. Feel free to use mine as a starting point.
-- {{embed [[website-outro]]}}

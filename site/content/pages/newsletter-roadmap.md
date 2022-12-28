@@ -5,7 +5,7 @@ tags:
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 This is the content plan for my [[newsletter]]
 The dates are only rough guidelines, this is more of a content ordering and flow
@@ -153,9 +153,6 @@ AI can play Stratego at an expert level now
 Stratego is one of the few iconic board games that AI has not yet mastered.
 
 This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 10^175 times larger than that of Go.
-
-![image.png](/assets/image_1657604178916_0.png)
-![image.png](/assets/image_1657604210768_0.png)
 
 https://t.co/xXagujMfmw
 

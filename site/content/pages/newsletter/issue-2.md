@@ -8,6 +8,7 @@ tags:
 - gpt3
 - ai
 - logseq openai
+blogtitle: Newsletter Issue 2
 categories:
 - newsletter
 newsletter-subscribers: 30
@@ -17,7 +18,7 @@ coverimage: /assets/kubernetes-gpt_1672123546658_0.jpeg
 start-date:
 - Jun 15th, 2022
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 ![kubernetes-gpt.jpeg](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 

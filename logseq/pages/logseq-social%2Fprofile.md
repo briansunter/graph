@@ -10,7 +10,7 @@ date:: 2022-08-21
 		  			  logseq-social/id:: bsunter
 		  			  logseq-social/name:: Brian Sunter
 		  			  logseq-social/tags:: #logseq #productivity #programming #health
-		  			  logseq-social/avatar:: ![avatar](https://briansunter.com/images/blog/author.jpg){:height 139, :width 117}
+		  			  logseq-social/avatar:: https://briansunter.com/images/blog/author.jpg
 		  			  logseq-social/about:: Software Engineer in San Francisco interested in coding, productivity, and health.
 		  			  logseq-social/public-graph:: https://briansunter.com/graph
 		  			  logseq-social/twitter:: [bsunter](https://twitter.com/Bsunter)

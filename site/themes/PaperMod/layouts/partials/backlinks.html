@@ -14,7 +14,7 @@
     <div class="backlinks">
       <ul>
        {{ range $backlinks }}
-          <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink | replaceRE "/$" ""  }}">{{ .Title }}</a></p>
+          <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink | replaceRE "/$" ""  }}">{{ .Params.blogtitle | default .Title }}</a></p>
        {{ end }}
      </ul>
     </div>
@@ -32,7 +32,7 @@
   <h3>Similar Content</h3>
   <ul>
   {{ range . -}}
-  <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink | replaceRE "/$" ""  }}">{{ .Title }}</a></p>
+  <p class="capitalize"><a style="color: var(--link);" href="{{ .RelPermalink | replaceRE "/$" ""  }}">{{ .Params.blogtitle | default .Title }}</a></p>
   {{ end -}}
   </ul>
   {{ end -}}

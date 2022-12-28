@@ -5,9 +5,11 @@ tags:
 - productivity
 - health
 - sleep
+description: How I use a Bluetooth headphone eye mask to sleep better
+blogtitle: Headphone Eye Mask
 title: headphone-eye-mask
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 
 

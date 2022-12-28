@@ -1,6 +1,8 @@
 public:: true
 coverimage:: /assets/prompt-template_1668636545451_0.png
+description:: Thoughts on prompt templates for the Logseq OpenAI Plugin
 date:: 2022-11-16
+blogtitle:: Logseq GPT Prompt Templates
 
 - ![prompt-template.png](../assets/prompt-template_1668636545451_0.png)
 - See the [Logseq GPT-3 OpenAI plugin here.](https://github.com/briansunter/logseq-plugin-gpt3-openai)

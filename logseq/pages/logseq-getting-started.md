@@ -3,6 +3,8 @@ date:: 2022-10-04
 tags:: [[logseq]] [[productivity]] [[notetaking]] 
 categories:: [[productivity]] 
 coverimage:: /assets/image_1662087082755_0.png
+description:: How to get started with Logseq and publish your notes online in 30 minutes.
+blogtitle:: Logseq Getting Started
 
 - How to get started with Logseq and publish your notes online in 30 minutes.
 - [Logseq](https://logseq.com/) is a great free open source notetaking tool which makes it easy for you to share your notes online like this one. I'll show you how to quickly get set up.

@@ -1,2 +1,2 @@
   {{ $ImageLink := partial "optimage_link.html" .Destination  }}
-  <img loading="lazy" src="{{ $ImageLink }}" alt="{{ .Title }}" title="{{ .Title }}"  />
+  <img loading="lazy" src="{{ $ImageLink }}" alt="{{ .Params.blogtitle | default .Title }}" title="{{ .Params.blogtitle | default .Title }}"  />

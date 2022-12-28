@@ -11,6 +11,7 @@ categories:: [[newsletter]]
 newsletter-subscribers:: 30
 coverimage:: /assets/kubernetes-gpt_1672123546658_0.jpeg
 aliases:: /pages/newsletter/issue/2
+blogtitle:: Newsletter Issue 2
 
 - ![kubernetes-gpt.jpeg](../assets/kubernetes-gpt_1672123546658_0.jpeg)
 - ## Summary and Reflection 🤔

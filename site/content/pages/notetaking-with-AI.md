@@ -6,9 +6,12 @@ tags:
 - productivity
 - newsletter/issue-4
 date: 2022-08-21
+coverimage: /assets/image_1662087221258_0.png
+description: I go over a few new useful AI and NLP techniques and how to use them for notetaking
+blogtitle: Notetaking with NLP and AI
 title: notetaking-with-AI
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
 
@@ -195,7 +198,7 @@ We can use tools to explore the similarity of these words in 3D space.
 
 Words most similar to "football" in meaning
 
-![Screen Shot 2022-07-01 at 11.18.17 PM.png](/assets/Screen_Shot_2022-07-01_at_11.18.17_PM_1656746228360_0.png)
+![football.jpg](/assets/football_1672273858980_0.jpg)
 
 {{< tweet user="Bsunter" id="1543295071860035584" >}}
 
@@ -303,5 +306,3 @@ These are also good ideas for backlinks or similar pages.
 I hope you enjoyed this overview of NLP and AI techniques relevant to note-taking.
 
 Most big tech companies already heavily use these ideas, but I hope individuals find ways to adapt the latest AI techniques to their needs.
-
-{{embed [[website-outro]]}}

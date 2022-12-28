@@ -1,6 +1,9 @@
 public:: true
 tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue-4]]
 date:: 2022-08-21
+coverimage:: /assets/image_1662087221258_0.png
+description:: I go over a few new useful AI and NLP techniques and how to use them for notetaking
+blogtitle:: Notetaking with NLP and AI
 
 - There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
 - The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
@@ -96,7 +99,7 @@ date:: 2022-08-21
   
     collapsed:: true
 	- Words most similar to "football" in meaning
-		- ![Screen Shot 2022-07-01 at 11.18.17 PM.png](../assets/Screen_Shot_2022-07-01_at_11.18.17_PM_1656746228360_0.png)
+		- ![football.jpg](../assets/football_1672273858980_0.jpg)
 		- {{tweet https://twitter.com/Bsunter/status/1543295071860035584?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
 	- Words Similar to "guitar"
 		- {{tweet https://twitter.com/Bsunter/status/1543295726402187264?s=20&t=sm8wxf5Fs7f5q9MzMBs5KA}}
@@ -152,4 +155,3 @@ date:: 2022-08-21
 - # Conclusion
 	- I hope you enjoyed this overview of NLP and AI techniques relevant to note-taking.
 	- Most big tech companies already heavily use these ideas, but I hope individuals find ways to adapt the latest AI techniques to their needs.
-- {{embed [[website-outro]]}}

@@ -6,6 +6,7 @@ tags:
 - newsletter
 - programming
 - algorithm
+blogtitle: Newsletter Issue 8
 categories:
 - newsletter
 newsletter-subscribers: 253
@@ -17,7 +18,7 @@ coverimage: /assets/image_1665465573710_0.png
 start-date:
 - Sep 5th, 2022
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 # Summary and Reflection 🤔
 

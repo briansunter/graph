@@ -79,9 +79,6 @@ date:: 2022-07-10
 			- AI can play Stratego at an expert level now
 			- Stratego is one of the few iconic board games that AI has not yet mastered.
 			- This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 10^175 times larger than that of Go.
-			- ![image.png](../assets/image_1657604178916_0.png){:height 200, :width 293}
-			  id:: 62c8ff44-92a7-4d53-8446-9ca6bf483e9f
-			- ![image.png](../assets/image_1657604210768_0.png){:height 335, :width 315}
 			- https://t.co/xXagujMfmw
 - ## Time Complexity - Intro
 	- Updates

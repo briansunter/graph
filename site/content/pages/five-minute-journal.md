@@ -9,7 +9,7 @@ coverimage: /assets/image_1661064164296_0.png
 description: Daily journal prompts and the 5 minute journal have been helpful to improve my writing skills, productivity, self-awareness, and thinking. I've included a list of journal prompts and journal questions I use for daily journaling , including the five minute journal writing prompts.
 title: five-minute-journal
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 ![image.png](/assets/image_1661064164296_0.png)
 
