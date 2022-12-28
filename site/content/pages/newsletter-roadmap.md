@@ -7,13 +7,13 @@ title: newsletter-roadmap
 categories:
 lastMod: 2022-12-27
 ---
-This is the content plan for my [newsletter]({{< sref "/pages/newsletter" >}})
+This is the content plan for my [[newsletter]]
 The dates are only rough guidelines, this is more of a content ordering and flow
 
 # Roadmap #.ol-nested
 ## intro [newsletter/issue-1]({{< sref "/pages/newsletter/issue-1" >}}) [[Jun 12th, 2022]]
 
-Intro [newsletter]({{< sref "/pages/newsletter" >}})
+Intro [[newsletter]]
 
 More about what I'm doing
 

@@ -4,7 +4,7 @@ tags:
 - AI
 - logseq
 - productivity
-- newsletter/issue/4
+- newsletter/issue-4
 date: 2022-08-21
 title: notetaking-with-AI
 categories:

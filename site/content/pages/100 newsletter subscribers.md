@@ -17,7 +17,7 @@ start-date:
 metrics:
 - newsletter subscribers
 - twitter followers
-- newsletter/issue/2
+- newsletter/issue-2
 title: 100 newsletter subscribers
 categories:
 lastMod: 2022-12-27
@@ -42,7 +42,7 @@ become financially independent
 
 ## Desired output
 
-Gain 100 [newsletter]({{< sref "/pages/newsletter" >}}) followers in the next 3 months.
+Gain 100 [[newsletter]] followers in the next 3 months.
 
 ## Tasks
 

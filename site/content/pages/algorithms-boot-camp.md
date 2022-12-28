@@ -18,7 +18,7 @@ Data structures and algorithms are among the most valuable concepts to learn in 
 
 I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.
 
-I'll teach you how to use data structures and algorithms to solve problems every week as a section in my [newsletter]({{< sref "/pages/newsletter" >}})
+I'll teach you how to use data structures and algorithms to solve problems every week as a section in my [[newsletter]]
 
 I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my own knowledge.
 
@@ -32,9 +32,9 @@ The [complete guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}}) of 
 
 There's a curriculum for the next 3-months on this page, so people will know what to expect and can give their input on what they want to see.
 
-I'll send a [newsletter]({{< sref "/pages/newsletter" >}}) post about a new topic each week. All the future topics are listed below.
+I'll send a [[newsletter]] post about a new topic each week. All the future topics are listed below.
 
-If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [newsletter]({{< sref "/pages/newsletter" >}}) to get updates.
+If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [[newsletter]] to get updates.
 
 ## Why Learn Algorithms?
 
