@@ -1,6 +1,6 @@
 public:: true
 date:: 2022-07-12
-tags:: [[gpt3]][[machine learning]][[programming]]
+tags:: [[gpt3]][[AI]][[programming]]
 
 - ## GPT-3 Prompts to Generate a Machine Learning Study Guide
 - This text was written with GPT-3 AI.

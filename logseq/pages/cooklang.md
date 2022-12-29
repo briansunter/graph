@@ -1,6 +1,6 @@
 public:: true
 title:: cooklang
-tags:: [[cooking]] [[programing]]
+tags:: [[cooking]] [[programming]]
 description:: Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
 url:: "/blog/cooklang"
 date:: 2022-09-21

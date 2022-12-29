@@ -2,7 +2,7 @@ public:: true
 type:: [[project]]
 status:: [[DOING]]
 name:: Get 100 newsletter subscribers
-tags:: [[project]] #project-template
+tags:: [[project]]
 start-date:: [[Jun 13th, 2022]] 
 date:: 2022-07-13
 milestone-date:: [[July 28th, 2022]]

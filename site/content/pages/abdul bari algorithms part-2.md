@@ -1,17 +1,15 @@
 ---
 title: abdul bari algorithms part-2
 tags:
-- algorithms-boot-camp
 - programming
 - course
 - algorithm
-- leetcode
-- newsletter
 - time complexity
+categories:
+- programming
 date: 2022-12-15
 math: true
 hasmermaid: true
-categories:
 lastMod: 2022-12-28
 ---
 # Divide and Conquer

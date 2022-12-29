@@ -1,7 +1,6 @@
 ---
 tags:
-- machine learning study guide
-- algorithms-boot-camp-study-guide
+- newsletter
 date: 2022-07-10
 title: newsletter-roadmap
 categories:

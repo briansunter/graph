@@ -4,10 +4,9 @@ tags:
 - algorithms-boot-camp
 - programming
 - course
-- algorithm
-- leetcode
-- newsletter
+- algorithms
 - time complexity
+- abdul bari algorithms
 date: 2022-08-22
 math: true
 categories:

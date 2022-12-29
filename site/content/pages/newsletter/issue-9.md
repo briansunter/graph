@@ -7,8 +7,6 @@ tags:
 blogtitle: Newsletter Issue 9
 categories:
 - newsletter
-- ai
-- gpt3
 newsletter-subscribers: 283
 title: newsletter/issue-9
 date: 2022-11-26

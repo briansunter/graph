@@ -10,7 +10,7 @@ visuals:: 9
 audio:: 7
 value:: 9
 public:: true
-tags:: [[gaming]] [[review]] [[game review template]] [[horror]] [[survival]]
+tags:: [[gaming]] [[review]]
 description:: My review of Soma, a survival exploration game
 blogtitle:: Soma Game Review
 

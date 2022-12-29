@@ -2,7 +2,7 @@ public:: true
 date:: 2022-06-26
 categories:: [[recipe]]
 type:: [[recipe]]
-tags:: [[bread]] [[southern]] [[recipe]]
+tags:: [[recipe]]
 recipe/calories:: 200
 source:: https://www.joshuaweissman.com/post/making-texas-roadhouse-rolls-at-home-but-better
 ingredients::

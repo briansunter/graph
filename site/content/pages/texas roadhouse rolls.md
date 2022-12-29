@@ -5,8 +5,6 @@ categories:
 type:
 - recipe
 tags:
-- bread
-- southern
 - recipe
 calories: 200
 source: https://www.joshuaweissman.com/post/making-texas-roadhouse-rolls-at-home-but-better

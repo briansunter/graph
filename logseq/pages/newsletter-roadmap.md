@@ -1,5 +1,5 @@
 public:: true
-tags:: [[machine learning study guide]] [[algorithms-boot-camp-study-guide]]
+tags:: [[newsletter]]
 date:: 2022-07-10
 
 - This is the content plan for my [[newsletter]]

@@ -1,11 +1,11 @@
 public:: true
-tags:: [[newsletter]] [[AI]] [[logseq]][[productivity]] [[newsletter/issue-4]]
+tags:: [[AI]] [[logseq]][[productivity]] [[writing]] [[notetaking]] 
 date:: 2022-08-21
 coverimage:: /assets/image_1662087221258_0.png
 description:: I go over a few new useful AI and NLP techniques and how to use them for notetaking
 blogtitle:: Notetaking with NLP and AI
 
-- There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
+- There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 - The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 - For example, I could search for "food" and find an article on "Burritos" even if the specific word "food" doesn't appear in the "Burritos" article. Semantic Search enables a much more robust search because you don't need to guess particular words to find the article you want, and you can search by meaning and intent.
 - These new technologies allow you to search, summarize and categorize your notes. You can also use AI to generate new notes instead of just analyzing them.

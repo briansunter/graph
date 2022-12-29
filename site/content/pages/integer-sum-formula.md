@@ -1,10 +1,9 @@
 ---
 tags:
-- algorithms-boot-camp
+- algorithms
 - math
 categories:
-- algorithms
-- tech
+- math
 date: 2022-10-02
 math: true
 coverimage: /assets/image_1665341986063_0.png

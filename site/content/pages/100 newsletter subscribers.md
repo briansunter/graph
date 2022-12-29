@@ -3,7 +3,6 @@ milestone-date:
 - July 28th, 2022
 tags:
 - project
-- project-template
 desired-end-date:
 - Sep 13th, 2022
 name: Get 100 newsletter subscribers

@@ -1,6 +1,6 @@
 public:: true
 date:: 2022-07-17
-tags:: [[programming]][[machine learning]]
+tags:: [[programming]][[AI]]
 description:: An outline of topics to study machine learning, suggested by GPT
 blogtitle:: Machine Learning Study Guide Outline
 

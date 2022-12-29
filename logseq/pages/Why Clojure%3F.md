@@ -2,7 +2,7 @@ public:: true
 url:: /blog/why-clojure
 date:: 2018-09-30
 description:: What makes Clojure interesting and well suited for modern software development?
-tags:: [[blog]] [[programming]] [[functional]] [[clojure]]
+tags:: [[blog]] [[programming]] [[functional programming]] [[clojure]]
 coverimage:: /assets/clojure_logo.svg_1660983015847_0.png
 
 - ## Intro

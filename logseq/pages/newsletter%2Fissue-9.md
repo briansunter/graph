@@ -1,5 +1,5 @@
 tags:: [[newsletter]]
-categories:: [[newsletter]] [[ai]] [[gpt3]]
+categories:: [[newsletter]]
 title:: newsletter/issue-9
 name::
 start-date::

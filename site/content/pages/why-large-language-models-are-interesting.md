@@ -1,8 +1,7 @@
 ---
 date: 2022-11-26
 categories:
-- programming
-- logseq
+- AI
 tags:
 - ai
 - programming

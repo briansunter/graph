@@ -3,9 +3,6 @@ tags:
 - productivity
 - writing
 - ali abdaal
-- ali abdaal best productivity hacks
-- productivity techniques
-- deliberate practice
 date: 2022-06-17
 description: My favorite productivity technique, the "Daily Highlight"
 blogtitle: Daily Highlight Productivity Technique

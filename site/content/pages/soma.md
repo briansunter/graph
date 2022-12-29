@@ -3,9 +3,6 @@ gameplay: 8
 tags:
 - gaming
 - review
-- game review template
-- horror
-- survival
 visuals: 9
 blogtitle: Soma Game Review
 name: Frictional Games

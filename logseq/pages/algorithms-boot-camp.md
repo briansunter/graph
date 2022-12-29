@@ -1,6 +1,7 @@
 public:: true
 date:: 2022-07-10
-tags:: [[newsletter]] [[algorithms-boot-camp-study-guide]] [[algorithms-boot-camp]]
+tags:: [[algorithms-boot-camp]] [[programming]] [[algorithms]]
+categories:: [[programming]]
 blogtitle:: Algorithms Boot Camp
 coverimage:: /assets/image_1657488579000_0_1672131758605_0.png
 description:: I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.

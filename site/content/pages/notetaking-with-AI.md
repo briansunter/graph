@@ -1,10 +1,10 @@
 ---
 tags:
-- newsletter
 - AI
 - logseq
 - productivity
-- newsletter/issue-4
+- writing
+- notetaking
 date: 2022-08-21
 coverimage: /assets/image_1662087221258_0.png
 description: I go over a few new useful AI and NLP techniques and how to use them for notetaking
@@ -13,7 +13,7 @@ title: notetaking-with-AI
 categories:
 lastMod: 2022-12-28
 ---
-There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few new useful AI techniques and how they're different than what we've seen before.
+There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 
 The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 

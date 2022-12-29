@@ -1,5 +1,5 @@
-tags:: [[algorithms-boot-camp]] [[math]]
-categories:: [[algorithms]] [[tech]]
+tags:: [[algorithms]] [[math]]
+categories:: [[math]]
 date:: 2022-10-02
 public:: true
 math:: true

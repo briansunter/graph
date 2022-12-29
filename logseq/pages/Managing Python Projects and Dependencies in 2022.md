@@ -5,7 +5,7 @@ url:: /blog/python-setup-pyenv-poetry
 coverimage:: /assets/image_1661147875071_0.png
 description:: How to set up a Python project with the latest tools and best practices
 categories:: [[programming]]
-tags:: [[programing]] [[python]]
+tags:: [[programming]] [[python]]
 
 - ![image.png](../assets/image_1661147875071_0.png)
 - # Managing Python projects in 2022

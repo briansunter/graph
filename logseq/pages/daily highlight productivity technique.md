@@ -1,4 +1,4 @@
-Tags:: [[productivity]] [[writing]] [[ali abdaal]] [[ali abdaal best productivity hacks]] [[productivity techniques]] [[deliberate practice]]
+Tags:: [[productivity]] [[writing]] [[ali abdaal]]
 date:: 2022-06-17
 public:: true
 description:: My favorite productivity technique, the "Daily Highlight"

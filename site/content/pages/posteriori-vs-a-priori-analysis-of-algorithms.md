@@ -1,12 +1,11 @@
 ---
 tags:
 - abdul bari algorithms
-- abdul bari algorithms part-1
-- programing
+- programming
 - time complexity
 - algorithms-boot-camp
 categories:
-- programing
+- programming
 date: 2022-08-22
 blogtitle: Posteriori vs A Priori Analysis of Algorithms
 description: Theoretical analysis of algorithms vs benchmarking

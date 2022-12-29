@@ -5,7 +5,7 @@ description: What makes Clojure interesting and well suited for modern software 
 tags:
 - blog
 - programming
-- functional
+- functional programming
 - clojure
 coverimage: /assets/clojure_logo.svg_1660983015847_0.png
 title: Why Clojure?

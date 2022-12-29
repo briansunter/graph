@@ -1,6 +1,6 @@
 public:: true
 type:: [[newsletter]]
-tags:: [[newsletter]] [[programming]] [[algorithm]]
+tags:: [[newsletter]] [[programming]] [[algorithms]]
 categories:: [[newsletter]]
 description:: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
 date:: 2022-08-23

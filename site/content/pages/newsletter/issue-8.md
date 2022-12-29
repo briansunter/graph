@@ -5,7 +5,7 @@ aliases:
 tags:
 - newsletter
 - programming
-- algorithm
+- algorithms
 blogtitle: Newsletter Issue 8
 categories:
 - newsletter
