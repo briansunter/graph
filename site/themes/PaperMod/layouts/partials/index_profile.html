@@ -5,7 +5,7 @@
         <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
-        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
+        <h1>{{ .Params.blogtitle | default .Title | default $.Site.Params.blogtitle | default .Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 

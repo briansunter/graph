@@ -81,7 +81,7 @@ pre:hover .copy-code {
 .substack-signup a {
     text-decoration: underline;
 }
-
-.newsletter-intro a{
-    text-decoration: underline;
+.newsletter-intro {
+    margin: 16px;
 }
+

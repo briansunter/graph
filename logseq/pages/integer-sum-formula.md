@@ -5,6 +5,7 @@ public:: true
 math:: true
 coverimage:: /assets/image_1665341986063_0.png
 description:: How do we find the sum of the numbers 1 through 100?
+blogtitle:: Integer Sum Formula (Gauss Sum)
 
 - ## Summary
 	- How do we find the sum of the numbers 1 through 100?

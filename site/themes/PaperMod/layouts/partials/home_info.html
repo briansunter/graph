@@ -1,7 +1,7 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
+        <h1>{{ .Params.blogtitle | default .Title | markdownify }}</h1>
     </header>
     <section class="entry-content">
         <p>{{ .Content | markdownify }}</p>

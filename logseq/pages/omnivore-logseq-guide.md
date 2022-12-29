@@ -1,7 +1,9 @@
 tags:: [[logseq]] [[productivity]] [[reading]] 
 public:: true
-date:: 2022-11-26
+date:: 2022-10-26
 coverimage:: /assets/image_1662086881256_0.png
+description:: How to use the Omnivore read it later app
+blogtitle:: Omnivore Logseq Guide
 
 - If you want to read content online much more efficiently and remember what you read, I highly recommend using a "Read it later" app, which allows you to save interesting links you find.
 - I like to browse the top stories on Reddit, HackerNews, or other news sites and save interesting articles, then read them all at once later, which is much more efficient. (This only works if you actually have a routine to read the links you save). You can read social media as RSS btw.

@@ -7,10 +7,15 @@ tags:
 - productivity techniques
 - deliberate practice
 date: 2022-06-17
+description: My favorite productivity technique, the "Daily Highlight"
+blogtitle: Daily Highlight Productivity Technique
+coverimage: /assets/daily-highlight_1672273385215_0.jpg
 title: daily highlight productivity technique
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
+![daily-highlight.jpg](/assets/daily-highlight_1672273385215_0.jpg)
+
 The most powerful productivity technique I've discovered is also the simplest: the "Daily Highlight".
 
 ## What is a Daily Highlight?

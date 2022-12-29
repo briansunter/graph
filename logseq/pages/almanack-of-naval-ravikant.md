@@ -5,6 +5,7 @@ rating:: 8
 public:: true
 date:: 2022-11-26
 coverimage:: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
+blogtitle:: Almanack of Naval Ravikant Book
 
 - ![41ZZY5+kzLL.jpg](../assets/41ZZY5kzLL_1670306664477_0.jpg)
 - # The Book in 3 Sentences

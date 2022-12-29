@@ -2,7 +2,7 @@ public:: true
 tags:: [[logseq]] [[algorithms]] [[algorithms-boot-camp]] [[programming]]
 name:: Analysis of algorithms, Stable Diffusion release, and Richard Hamming's you and your research
 start-date:: [[Jun 12th, 2022]]
-date:: 2022-08-23
+date:: 2022-08-10
 sent-date:: [[Jun 12th, 2022]]
 categories:: [[newsletter]]
 site-hits:: 0
@@ -12,6 +12,7 @@ profile-visits:: 45
 newsletter-subscribers:: 245
 coverimage:: /assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg
 aliases:: /pages/newsletter-7
+blogtitle:: Newsletter Issue 7
 
 - Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 - ![FYqjtUnX0AAsVJEE.jpeg](../assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg)

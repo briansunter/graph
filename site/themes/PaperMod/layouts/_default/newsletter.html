@@ -1,9 +1,8 @@
 {{- define "main" }}
-<h1 class="page-header">{{ .Title }}</h1>
+<h1 class="page-header">{{ .Params.blogtitle | default .Title }}</h1>
+{{ partial "substack_signup.html" . }}
 <div class="post-content newsletter-intro">
 {{ .Content }}
-<h3 class="page-header">Subscribe to the Newsletter</h2>
-{{ partial "substack_signup.html" . }}
 </div>
 <h2 class="page-header">Newsletter Archive</h2>
     {{- range (where .Site.RegularPages "Params.categories" "intersect" (slice "newsletter")) -}}
@@ -12,7 +11,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>
-      {{- .Title }}
+      {{- .Params.blogtitle | default .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h2>
   </header>
@@ -30,7 +29,7 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .RelPermalink | replaceRE "/$" "" }}"></a>
+  <a class="entry-link" aria-label="post link to {{ .Params.blogtitle | default .Title | plainify }}" href="{{ .RelPermalink | replaceRE "/$" "" }}"></a>
 </article> 
     {{- end -}}
 

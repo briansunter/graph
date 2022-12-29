@@ -14,6 +14,7 @@ public:: true
 description:: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
 coverimage:: /assets/image_1657735112414_0_1672132400967_0.png
 aliases:: /pages/newsletter-6
+blogtitle:: Newsletter Issue 6
 
 # Summary and Reflection 🤔
 	- This week I wrote the first section [[intro-to-algorithms]] from the [[algorithms-boot-camp]] which focuses on a simple introduction to what algorithms are and why they're important

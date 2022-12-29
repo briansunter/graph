@@ -6,10 +6,15 @@ tags:
 - openai
 - gpt3
 - kubernetes
+coverimage: /assets/kubernetes_1672272543261_0.png
+blogtitle: How to use GPT-3 to learn Kubernetes
+description: How to use GPT-3 to make a Kubernetes Study Guide
 title: how to use gpt3 to learn kubernetes
 categories:
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
+![kubernetes.png](/assets/kubernetes_1672272543261_0.png)
+
 # Intro
 
 GPT-3 is the ultimate learning and study tool

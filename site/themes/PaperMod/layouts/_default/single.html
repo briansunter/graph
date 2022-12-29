@@ -5,7 +5,7 @@
     {{ partial "breadcrumbs.html" . }}
     
     <h1 class="post-title">
-      {{ .Title }}
+      {{ .Params.blogtitle | default .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     {{- if .Description }}

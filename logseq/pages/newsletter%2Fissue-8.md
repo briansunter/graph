@@ -17,6 +17,7 @@ newsletter-subscribers:: 253
 coverimage:: /assets/image_1665465573710_0.png
 aliases:: /pages/newsletter-issue-8
 title:: newsletter/issue-8
+blogtitle:: Newsletter Issue 8
 
 - # Summary and Reflection 🤔
 	- I'm continuing to work on the [[algorithms-boot-camp]] section of this site.

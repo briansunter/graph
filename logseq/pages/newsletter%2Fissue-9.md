@@ -16,6 +16,7 @@ description:: New features for the logseq openai plugin and my thoughts on why L
 coverimage:: /assets/stop_1672218528540_0.jpg
 aliases:: /pages/newsletter-issue-9
 title:: newsletter/issue-9
+blogtitle:: Newsletter Issue 9
 
 - ![stop.jpg](../assets/stop_1672218528540_0.jpg)
 - # Summary

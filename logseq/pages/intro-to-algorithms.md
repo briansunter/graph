@@ -2,6 +2,8 @@ public:: true
 tags:: [[blog]]
 date:: 2022-10-04
 coverimage:: /assets/image_1662087569135_0.png
+description:: What is an algorithm? And why are algorithms important? This guide will help you understand basic algorithms concepts and how to use them to solve problems.
+blogtitle:: Intro to Algorithms
 
 - # Introduction
 	- What is an algorithm? And why are algorithms important?

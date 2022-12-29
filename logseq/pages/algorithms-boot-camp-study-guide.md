@@ -4,7 +4,11 @@ tags:: [[programming]]
 public:: true
 date:: 2022-06-26
 gpt-sources:: [[gpt data structures guide]] [[gpt algorithms guide]]
+blogtitle:: Algorithms Boot Camp Topics
+description:: An outline of all the most important topics for studying algorithms
+coverimage:: /assets/binary-tree_1672273112314_0.png
 
+- ![binary-tree.png](../assets/binary-tree_1672273112314_0.png)
 - This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to know about algorithms.
 - As I write more notes, I'll link to them here.
 - # Array

@@ -6,6 +6,7 @@ sent-date:
 - Jul 10th, 2022
 tags:
 - algorithms-boot-camp
+blogtitle: Newsletter Issue 5
 categories:
 - newsletter
 newsletter-subscribers: 195
@@ -17,7 +18,7 @@ coverimage: /assets/image_1657488579000_0_1672131763262_0.png
 start-date:
 - Jul 6th, 2022
 description: Algorithms Bootcamp and the Elon Musk Controversy
-lastMod: 2022-12-27
+lastMod: 2022-12-28
 ---
 # Summary and Reflection 🤔
 

@@ -29,7 +29,7 @@
         {{- if $addLink }}
         <a href="{{ (.Params.coverimage) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            {{partial "optimage.html" (dict "Destination" ( .Params.coverimage ) "Title" .Title)}}
+            {{partial "optimage.html" (dict "Destination" ( .Params.coverimage ) "Title" .Params.blogtitle | default .Title)}}
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}

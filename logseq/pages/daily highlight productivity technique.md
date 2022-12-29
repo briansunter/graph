@@ -1,7 +1,11 @@
 Tags:: [[productivity]] [[writing]] [[ali abdaal]] [[ali abdaal best productivity hacks]] [[productivity techniques]] [[deliberate practice]]
 date:: 2022-06-17
 public:: true
+description:: My favorite productivity technique, the "Daily Highlight"
+blogtitle:: Daily Highlight Productivity Technique
+coverimage:: /assets/daily-highlight_1672273385215_0.jpg
 
+- ![daily-highlight.jpg](../assets/daily-highlight_1672273385215_0.jpg)
 - The most powerful productivity technique I've discovered is also the simplest: the "Daily Highlight".
 - ## What is a Daily Highlight?
 	- In the morning, choose one activity that would make you feel accomplished at the end of the day. If someone were to ask you "What was the highlight of your day?", this would be the answer.
