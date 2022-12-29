@@ -3,7 +3,7 @@
 {
   "@context": "https://schema.org",
   "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",
-  "name": {{ .Site.Params.blogtitle | default .Title }},
+  "name": {{ .Site.Title }},
   "url": {{ .Site.BaseURL }},
   "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
   "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
@@ -106,7 +106,7 @@
   },
   "publisher": {
     "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",
-    "name": {{ .Site.Params.blogtitle | default .Title }},
+    "name": {{ .Site.Title }},
     "logo": {
       "@type": "ImageObject",
       "url": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}
