@@ -10,7 +10,7 @@ categories:
 date: 2022-12-15
 math: true
 hasmermaid: true
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 # Divide and Conquer
 

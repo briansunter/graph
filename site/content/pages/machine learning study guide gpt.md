@@ -2,11 +2,11 @@
 date: 2022-07-12
 tags:
 - gpt3
-- machine learning
+- AI
 - programming
 title: machine learning study guide gpt
 categories:
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ## GPT-3 Prompts to Generate a Machine Learning Study Guide
 

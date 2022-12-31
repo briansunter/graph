@@ -7,9 +7,9 @@ description: How to set up a Python project with the latest tools and best pract
 categories:
 - programming
 tags:
-- programing
+- programming
 - python
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ![image.png](/assets/image_1661147875071_0.png)
 

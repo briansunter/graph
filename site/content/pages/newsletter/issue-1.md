@@ -22,7 +22,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 description: Launching my newsletter, public graph, and logseq gpt3 AI plugin
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ## Summary and Reflection 🤔
 

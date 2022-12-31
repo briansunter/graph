@@ -98,6 +98,7 @@
     height: auto;
     max-height: 200px;
     object-fit: cover;
+    object-position: 50% 30%;
 }
 
 .entry-cover a {

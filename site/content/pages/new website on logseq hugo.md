@@ -7,7 +7,7 @@ date: 2022-08-19
 coverimage: /assets/image_1661226490211_0.png
 title: new website on logseq hugo
 categories:
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ![image.png](/assets/image_1661226490211_0.png)
 

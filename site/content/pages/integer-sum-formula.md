@@ -10,7 +10,7 @@ coverimage: /assets/image_1665341986063_0.png
 description: How do we find the sum of the numbers 1 through 100?
 blogtitle: Integer Sum Formula (Gauss Sum)
 title: integer-sum-formula
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ## Summary
 
