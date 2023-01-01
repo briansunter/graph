@@ -20,7 +20,7 @@ coverimage: /assets/get-youtube-captions_1672134947975_0.jpg
 start-date:
 - Jun 23rd, 2022
 description: This week, I wrote a few guides. I released a new plugin to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
-lastMod: 2022-12-28
+lastMod: 2022-12-30
 ---
 ![get-youtube-captions.jpg](/assets/get-youtube-captions_1672134947975_0.jpg)
 
