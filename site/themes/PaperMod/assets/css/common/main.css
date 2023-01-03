@@ -85,3 +85,6 @@ pre:hover .copy-code {
     margin: 16px;
 }
 
+.post-content img {
+    max-height: 600px;
+}

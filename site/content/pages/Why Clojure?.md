@@ -10,7 +10,7 @@ tags:
 coverimage: /assets/clojure_logo.svg_1660983015847_0.png
 title: Why Clojure?
 categories:
-lastMod: 2022-12-30
+lastMod: 2023-01-02
 ---
 ## Intro
 

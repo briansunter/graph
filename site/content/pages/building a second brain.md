@@ -6,7 +6,7 @@ description: My summary of Building a Second Brain by Tiago Forte, which is a gu
 title: building a second brain
 tags:
 categories:
-lastMod: 2022-12-31
+lastMod: 2023-01-02
 ---
 ![basb.jpeg](/assets/basb_1672455079106_0.jpeg)
 
@@ -98,7 +98,6 @@ The primary advice is to capture things that resonate with you
 
 Ask yourself:
 
-
 Does it inspire me?
 
 Is it useful?
@@ -109,11 +108,9 @@ Is it surprising?
 
 ### Favorite questions
 
-
 Another technique that helps decide what to capture is having a list of "favorite questions" and capturing any information that relates to these questions.
 
 The scientist Richard Feynman used this technique.
-
 
 > You have to keep a dozen of your favorite problems constantly present in your mind, although by and large they will lay in a dormant state. Every time you hear or read a new trick or a new result, test it against each of your twelve problems to see whether it helps. Every once in a while there will be a hit, and people will say, “How did he do it? He must be a genius!”
 
@@ -124,7 +121,6 @@ This could include grand, sweeping questions like “How can we make society fai
 It might include questions about relationships, such as “How can I have closer relationships with the people I love?” or productivity, like “How can I spend more of my time doing high-value work?”
 
 #### Examples of favorite questions
-
 
 > How do I live less in the past, and more in the present?
 
@@ -178,9 +174,7 @@ Forte proposes an organization structure called **PARA**, which stands for Proje
 
 ## PARA
 
-
 ### Projects
-
 
 Short-term efforts in your work or life that you’re working on now.
 
@@ -190,7 +184,6 @@ Projects also have a clear outcome needed for the project to be considered "done
 
 #### Examples of projects
 
-
 **Projects at work**: Complete web-page design; Create slide deck for conference; Develop project schedule; Plan recruitment drive.
 
 **Personal projects**: Finish Spanish language course; Plan vacation; Buy new living room furniture; Find local volunteer opportunity.
@@ -198,7 +191,6 @@ Projects also have a clear outcome needed for the project to be considered "done
 **Side projects**: Publish blog post; Launch crowdfunding campaign; Research best podcast microphone; Complete online course.
 
 ### Areas
-
 
 Projects are the main focus of the PARA system, but not everything is a project.
 
@@ -216,7 +208,6 @@ Usually, projects are associated with an area.
 
 #### Examples of areas
 
-
 Activities or places you are responsible for: Home/apartment; Cooking; Travel; Car.
 
 People you are responsible for or accountable to: Friends; Kids; Spouse; Pets.
@@ -230,7 +221,6 @@ People or teams you are responsible for or accountable to: Direct reports; Manag
 Standards of performance you are responsible for: Professional development; Sales and marketing; Relationships and networking; Recruiting and hiring.
 
 ### Resources
-
 
 Resources are a catchall for everything that isn't an area or project.
 
@@ -246,11 +236,9 @@ It's a personal library of references, facts, and inspiration.
 
 ### Archives
 
-
 Archives are things you've completed or put on hold.
 
 For example:
-
 
 Completed or canceled projects
 

@@ -10,7 +10,7 @@ coverimage: /assets/image_1662087082755_0.png
 description: How to get started with Logseq and publish your notes online in 30 minutes.
 blogtitle: Logseq Getting Started
 title: logseq-getting-started
-lastMod: 2022-12-30
+lastMod: 2023-01-02
 ---
 How to get started with Logseq and publish your notes online in 30 minutes.
 

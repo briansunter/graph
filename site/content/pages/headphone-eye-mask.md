@@ -9,7 +9,7 @@ description: How I use a Bluetooth headphone eye mask to sleep better
 blogtitle: Headphone Eye Mask
 title: headphone-eye-mask
 categories:
-lastMod: 2022-12-30
+lastMod: 2023-01-02
 ---
 
 
