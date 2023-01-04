@@ -14,7 +14,7 @@ newsletter-subscribers:: 120
 public:: true
 description:: This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
 coverimage:: /assets/image_1662087305440_0.png
-aliases:: /pages/newsletter/issue/4
+aliases:: "/pages/newsletter/issue/4"
 blogtitle:: Newsletter Issue 4
 
 - ![image.png](../assets/image_1662087305440_0.png){:height 229, :width 595}
