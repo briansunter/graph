@@ -10,7 +10,7 @@ coverimage: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 blogtitle: Almanack of Naval Ravikant Book
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2023-01-02
+lastMod: 2023-01-03
 ---
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 

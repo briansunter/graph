@@ -3,7 +3,7 @@ title: logseq-social/profile
 date: 2022-08-21
 tags:
 categories:
-lastMod: 2023-01-02
+lastMod: 2023-01-03
 ---
 # "Follow" me on logseq
 

@@ -9,7 +9,7 @@ blogtitle: Daily Highlight Productivity Technique
 coverimage: /assets/daily-highlight_1672273385215_0.jpg
 title: daily highlight productivity technique
 categories:
-lastMod: 2023-01-02
+lastMod: 2023-01-03
 ---
 ![daily-highlight.jpg](/assets/daily-highlight_1672273385215_0.jpg)
 

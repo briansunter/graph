@@ -6,7 +6,7 @@ blogtitle: Logseq GPT Prompt Templates
 title: logseq-gpt-prompt-template
 tags:
 categories:
-lastMod: 2023-01-02
+lastMod: 2023-01-03
 ---
 ![prompt-template.png](/assets/prompt-template_1668636545451_0.png)
 

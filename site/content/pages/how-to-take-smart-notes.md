@@ -8,7 +8,7 @@ description: By focusing on what is interesting and keeping written track of you
 tags:
 - blog
 categories:
-lastMod: 2023-01-02
+lastMod: 2023-01-03
 ---
 [How to Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502/ref=sr_1_1?keywords=how+to+take+smart+notes&amp;qid=1646987948&amp;sr=8-1&_encoding=UTF8&tag=bsunter-20&linkCode=ur2&linkId=f161a7322de7ee2178621edd2d10884f&camp=1789&creative=9325) by Sönke Ahrens describes a strategy to improve understanding, remember what you read, and generate new ideas by taking notes.
 
