@@ -13,7 +13,7 @@ newsletter-subscribers:: 219
 public:: true
 description:: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
 coverimage:: /assets/image_1657735112414_0_1672132400967_0.png
-aliases:: /pages/newsletter-6
+aliases:: "/pages/newsletter-6"
 blogtitle:: Newsletter Issue 6
 
 # Summary and Reflection 🤔

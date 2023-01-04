@@ -11,7 +11,7 @@ categories:: [[newsletter]]
 newsletter-subscribers:: 61
 description:: This week, I wrote a few guides. I released a new plugin to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
 coverimage:: /assets/get-youtube-captions_1672134947975_0.jpg
-aliases:: /pages/newsletter/issue/3
+aliases:: "/pages/newsletter/issue/3"
 blogtitle:: Newsletter Issue 3
 
 - ![get-youtube-captions.jpg](../assets/get-youtube-captions_1672134947975_0.jpg)

@@ -10,7 +10,7 @@ blogtitle: Algorithms Boot Camp
 coverimage: /assets/image_1657488579000_0_1672131758605_0.png
 description: I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.
 title: algorithms-boot-camp
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 ![image_1657488579000_0.png](/assets/image_1657488579000_0_1672131758605_0.png)
 

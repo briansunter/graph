@@ -1,7 +1,6 @@
 ---
 followers: 260
-aliases:
-- /pages/newsletter-issue-1
+aliases: "/pages/newsletter-issue-1"
 sent-date:
 - Jun 12th, 2022
 site-hits: 0
@@ -22,7 +21,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 description: Launching my newsletter, public graph, and logseq gpt3 AI plugin
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 ## Summary and Reflection 🤔
 

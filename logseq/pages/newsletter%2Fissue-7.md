@@ -11,7 +11,7 @@ tweet-impressions:: 47
 profile-visits:: 45
 newsletter-subscribers:: 245
 coverimage:: /assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg
-aliases:: /pages/newsletter-7
+aliases:: "/pages/newsletter-7"
 blogtitle:: Newsletter Issue 7
 
 - Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion

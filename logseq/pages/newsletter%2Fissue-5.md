@@ -10,7 +10,7 @@ categories:: [[newsletter]]
 newsletter-subscribers:: 195
 public:: true
 coverimage:: /assets/image_1657488579000_0_1672131763262_0.png
-aliases:: /pages/newsletter/issue/5
+aliases:: "/pages/newsletter/issue/5"
 blogtitle:: Newsletter Issue 5
 
 - # Summary and Reflection 🤔

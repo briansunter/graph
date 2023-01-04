@@ -10,7 +10,7 @@ description: One of the best introductory courses on algorithms. It's thorough, 
 blogtitle: Abdul Bari Algorithms Course
 title: abdul bari algorithms
 categories:
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 

@@ -7,7 +7,7 @@ blogtitle: How to manage projects in Logseq
 coverimage: /assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg
 title: logseq-projects
 categories:
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 ![beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c.jpg](/assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg)
 

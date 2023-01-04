@@ -10,7 +10,7 @@ categories:
 date: 2022-12-15
 math: true
 hasmermaid: true
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 # Divide and Conquer
 
@@ -1213,3 +1213,5 @@ Every full binary tree is also a complete binary tree
 ## Heapify
 
 ## Priority Queue
+
+

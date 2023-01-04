@@ -6,7 +6,7 @@ tags:
 source: https://www.amazon.com/exec/obidos/ASIN/B00KEW6ACQ/ref=nosim/0sil8
 coverimage: /assets/herzog_1672134562808_0.jpeg
 categories:
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 ![herzog.jpeg](/assets/herzog_1672134562808_0.jpeg)
 

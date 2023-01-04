@@ -1,7 +1,6 @@
 ---
 followers: 785
-aliases:
-- /pages/newsletter/issue/5
+aliases: "/pages/newsletter/issue/5"
 sent-date:
 - Jul 10th, 2022
 tags:
@@ -18,7 +17,7 @@ coverimage: /assets/image_1657488579000_0_1672131763262_0.png
 start-date:
 - Jul 6th, 2022
 description: Algorithms Bootcamp and the Elon Musk Controversy
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 # Summary and Reflection 🤔
 

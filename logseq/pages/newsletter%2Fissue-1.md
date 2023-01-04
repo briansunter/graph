@@ -13,7 +13,7 @@ tweet-impressions:: 47
 profile-visits:: 45
 newsletter-subscribers:: 0
 coverimage:: /assets/image_1660689843301_0.jpg
-aliases:: /pages/newsletter-issue-1
+aliases:: "/pages/newsletter-issue-1"
 blogtitle:: Newsletter Issue 1
 
 - ## Summary and Reflection 🤔

@@ -1,7 +1,6 @@
 ---
 followers: 450
-aliases:
-- /pages/newsletter/issue/2
+aliases: "/pages/newsletter/issue/2"
 sent-date:
 - Jun 19th, 2022
 tags:
@@ -18,7 +17,7 @@ coverimage: /assets/kubernetes-gpt_1672123546658_0.jpeg
 start-date:
 - Jun 15th, 2022
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
-lastMod: 2022-12-30
+lastMod: 2023-01-03
 ---
 ![kubernetes-gpt.jpeg](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 

@@ -14,8 +14,7 @@ public:: true
 date:: 2022-11-26
 description:: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
 coverimage:: /assets/stop_1672218528540_0.jpg
-aliases:: /pages/newsletter-issue-9
-title:: newsletter/issue-9
+aliases:: "/pages/newsletter-issue-9"
 blogtitle:: Newsletter Issue 9
 
 - ![stop.jpg](../assets/stop_1672218528540_0.jpg)

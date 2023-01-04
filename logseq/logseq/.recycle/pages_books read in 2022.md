@@ -1,0 +1,89 @@
+-
+- [[books read in 2022]]
+- ## Building a second brain
+-
+- ## the untethered soul Michael Singer {{renderer :wordcountchar_hgxwacwpc}}
+	- ![71URMFtAuQL.jpg](../assets/71URMFtAuQL_1672620377581_0.jpg){:height 608, :width 400}
+	- A guide to getting in touch with your inner self. How to watch your thoughts like a TV show instead of being a character in the show. "You are not your thoughts or emotions. You are the one experiencing them."
+	- I liked the concept of "The Inner Roommate."
+- ## Simple path to wealth  J.L Collins {{renderer :wordcountchar_itbjgh}}
+	- ![31QRvVZpizL._AC_SY780_.jpg](../assets/31QRvVZpizL._AC_SY780_1672620409758_0.jpg)
+	- Great book for those interested in managing money and financial independence. 
+	  “Spend less than you earn—invest the surplus—avoid debt.”
+	- It discourages you from trying to beat the market, and suggests you invest in index funds and get rich slowly.
+- ## Authority and the individual by bertrand russel {{renderer :wordcountchar_sslqdabv}}
+	- ![418Mwg6YAqL.jpg](../assets/418Mwg6YAqL_1672620426734_0.jpg)
+	- {{renderer :wordcountchar_jranuqldrb}}
+		- How can we combine that degree of individual initiative necessary for progress with the social cohesion necessary for survival?
+		- One of my favorite topics: the tension between the individual and society.
+- ## The screwtape letters by C.S. Lewis {{renderer :wordcountchar_cpgedqp}}
+	- ![screwtape.jpg](../assets/screwtape_1672620785526_0.jpg)
+	- {{renderer :wordcountchar_totysxgw}}
+		- A religious satire defending Christianity in the form of imagined letters between a demon and his demon uncle on how best to corrupt humanity. Fun exploration of a usually stuffy topic.
+- ## The Gay Science
+	- ![gay-science.jpeg](../assets/gay-science_1672621370939_0.jpeg)
+	- {{renderer :wordcountchar_jrvedtse}}
+		- Aphoristic musings on a wide range of topics such as morality, religion, psychology, art, and science. Written in an energetic poetic rhapsodic style, unlike boring dry philosophy texts. Controversial and guaranteed to provoke a reaction.
+- ## Almanack of naval ravikant
+	- Eric Jorgenson and Naval Ravikant
+	- ![41ZZY5+kzLL.jpg](../assets/41ZZY5kzLL_1670306664477_0.jpg){:height 508, :width 500}
+	- {{renderer :wordcountchar_cmilerln}}
+		- Collection of tweets by naval on entrepreneurship, happiness, and health. Lot's of great assorted wisdom. My favorite are the topics on "How to get rich without getting lucky". It inspired me to be more authentic and follow my passions.
+- ## Man's search for meaning Viktor E. Frankl
+	- ![mans-meaning.jpeg](../assets/mans-meaning_1672626609393_0.jpeg)
+	- A book about man's search for meaning and purpose.
+	- How can we find cope with suffering and find meaning? First half is his experiences in a concentration camp and second half is about his philosophy of "logotherapy". Heart wrenching and thought-provoking.
+- ## Apology
+	- ![apology.jpeg](../assets/apology_1672626756176_0.jpeg)
+	- Socrate's speech defending himself at the trial where he was condemned to death for corrupting the youth of athens. An excellent example of greek rhetoric. Read a commentary to fully appreciate what he's doing
+- ## Typescript Handbook
+	- ![typescript-handbook.jpg](../assets/typescript-handbook_1672627324910_0.jpg)
+	- An excellent concise overview of typescript explaining best practices, useful patterns, and recommended configuration. Should be required reading for everyone using typescript.
+- ## Let's explore diabetes with owls
+	- ![diabetes.jpeg](../assets/diabetes_1672627569188_0.jpeg)
+	- Hilarious neurotic personal bizzare, yet relatable essays by david sedaris. The anecdotes come from obeservations from his personal life and the funny situations he gets in. Topics range from living in france, taxidermy owls, and colonoscopies.
+- ## Hard boiled wonderland adn the end of the world
+	- ![hardboiled.jpeg](../assets/hardboiled_1672628001084_0.jpeg)
+	- Dreamy creative detective series with magical realism. A human data processor trained to encrypt data with his mind to protect it from criminal groups. It has two intertwined stories in which the protagnist helping a mysterious scientist with a project in tokyo, and exploring the a strange isolated town surrounded by an impenetrable wall in his uncious mind.
+- ## Picture of dorian gray
+	- ![dorian.jpeg](../assets/dorian_1672628846521_0.jpeg)
+	- The beautiful dorian grey makes an impulsive wish to stay young, while his portrait remains the same, aging over time to absorb the damage of his wild life.
+- where the crawdads sing
+	- ![crawdads.jpg](../assets/crawdads_1672629636504_0.jpg)
+	- A murder mystery in a small town in the marshes of north carolina. Follows Kya's life growing up in the swamp, her passion for the natural world, how the town shuns her and accuses her of the murder
+- ## Dune
+	- ![dune.jpg](../assets/dune_1672629693314_0.jpg)
+	- A science fiction space opera centered around the desert planet of arrakis, which has spice, the most valuable resource in the universe because it gives those that use it the power to navigate open space.
+- ## Master and margarita
+	- ![master-margarita.jpeg](../assets/master-margarita_1672629817618_0.jpeg)
+	- The devil goes to soviet moscow intertwines with the story of pontius pilate ordering the crucifiction of christ. Captures the paranoid nature of soviet era life with a huge dash of magical realism involving talking cats and flying vampires.
+- ## Travels with charley
+	- {{renderer :wordcountchar_ddyvewgj}}
+	- ![travels-with-charley.jpeg](../assets/travels-with-charley_1672052430785_0.jpeg)
+	- John Steinbeck sets out on a road trip across 1960s America with his standard poodle, Charley, in search of "the character of the country." He interviews different americans on current social issues, such as the cold war and desgregation.
+- ## Neuromancer
+	- ![neuromancer.jpg](../assets/neuromancer_1672630101925_0.jpg)
+	- A cyberpunk novel about a destitute hacker hired by a powerful AI to execute a mysterious job in a dystopian world controlled by corporations and people augmented with cybernetic enhancements.
+- ## Mistborne book 1, the final empire
+	- ![mistborn.jpg](../assets/mistborn_1672630557858_0.jpg)
+	- Mistborne is a fantasy novel about a dystopian world where ashes constantly fall from the sky and the lower classes are enslaved by the immortal Lord Ruler and his aristocrats. A group uses a type of magic called allomancy, where you can draw magical powers from certain metals, to fight back.
+- ## Exhalation
+	- ![Exhalation.jpg](../assets/Exhalation_1672630657446_0.jpg)
+	- A series of short science fictions exploring philosophical topics, such as time travel, free will, entropy, and artificial intelligence. Extremely creative with a wide variety of settings, from a race of robots with mechanical lungs to time travel in ancient baghdad.
+- ## Shogun
+	- ![shogun.jpg](../assets/shogun_1672634122828_0.jpg){:height 508, :width 313}
+	- An English boat captain is stranded in 1600s edo period in japan, and gets embroiled in an epic battle for the shogunate among the japanese fuedal lords. Extremely loosely based on a realy sailor who was involved with managing commerce for the real Tokugawa's shogunate.
+- ## Minority report
+	- ![minority.jpeg](../assets/minority_1672634296433_0.jpeg)
+	- In the future, the government invents a way to predict crime before it happens, and start arresting future criminals for the crime they're about to commit. The head of the precrime unit discovers he's about to be accused of precrime, and goes on the run. The book is completely different than the movie.
+- ## The little prince
+	- ![little-prince.jpg](../assets/little-prince_1672634527260_0.jpg)
+	- A short children's book about a young prince visiting varios planets and discovering the meaning of love and friendship. It encourages being open minded, exploring, and maintaing your childlike sense of wonder.
+- ## Saga
+	- ![saga.jpeg](../assets/saga_1672635052100_0.jpeg)
+	- A science fiction graphic novel about a never ending war betwen two species on different planets. Two members of the opposing faction fall in love and try to survive while protecting their newborn daughter
+	- Amazing artwork, incredibly creative and imaginative characters and settings, and very sexual.
+- ## Dark Knight Returns
+	- ![dark-knight.jpg](../assets/dark-knight_1672635481754_0.jpg)
+- Bruce wayne comes out retirement at age 55 to fight crime and save gotham from corruption. This comic helped start the genre of grim mature and gritty comic books, in contrast to the more lighthearted comics that were popular at the time.
+-
