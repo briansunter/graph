@@ -1,14 +1,16 @@
 tags:: [[reading]]
 public:: true
 date:: 2023-01-01
-coverimage:: /assets/71URMFtAuQL_1672620377581_0.jpg
+coverimage:: /assets/books-read-site_1672793412235_0.jpg
 blogtitle:: Books Read in 2022
 description:: List of books I read in 2022 with short summaries
 ShowToc:: true
 TocOpen:: true
 
+- ![books-read-site.jpg](../assets/books-read-site_1672793412235_0.jpg)
 - 2022 was a good year for reading!
-- I collected my thoughts on the books I read, along with some excerpts I thought represented the book, so you can gauge if it's something you'd be interested in. Out of these, some of my favorites were "Hard-Boiled Wonderland and the End of the World by Haruki Murakami", "Mistborn by Brandon Sanderson", "The Picture of Dorian Gray by Oscar Wilde", and "The Gay Science by Friedrich Nietzsche".
+- I collected my thoughts on the books I read and some excerpts that gave a feel for the book, so you can gauge if it's something you'd be interested in, along with Amazon (affiliate) links.
+- Out of these, some of my favorites were "**Hard-Boiled Wonderland and the End of the World by Haruki Murakami**", "**Mistborn by Brandon Sanderson**", "**The Picture of Dorian Gray by Oscar Wilde**", and "**The Gay Science by Friedrich Nietzsche**".
 - ## Building a Second Brain by Tiago Forte
 	- ![basb.jpeg](../assets/basb_1672455079106_0.jpeg)
 	- [Amazon Link](https://www.amazon.com/dp/1982167386?tag=bsunter06-20)
@@ -19,6 +21,7 @@ TocOpen:: true
 	- [Read my full summary here]([[building a second brain]])
 - ## The Untethered Soul by Michael Singer
 	- ![71URMFtAuQL.jpg](../assets/71URMFtAuQL_1672620377581_0.jpg)
+	- [Amazon Link](https://www.amazon.com/dp/1572245379?tag=bsunter06-20)
 	- A guide to getting in touch with your inner self. How to watch your thoughts like a TV show instead of being a character in the show. "You are not your thoughts or emotions. You are the one experiencing them."
 	- I thought it was a good introduction to mindfulness. I liked the concept of "The Inner Roommate." Who is always dissatisfied and arguing against you, a form of anxious energy manifested as a voice in your head.
 	- > “There is nothing more important to true growth than realizing that you are not the voice of the mind - you are the one who hears it.”
@@ -27,6 +30,7 @@ TocOpen:: true
 	  Notice that the voice takes both sides of the conversation. It doesn’t care which side it takes, just as long as it gets to keep on talking.
 - ## Simple Path to Wealth  by J.L Collins
 	- ![31QRvVZpizL._AC_SY780_.jpg](../assets/31QRvVZpizL._AC_SY780_1672620409758_0.jpg)
+	- [Amazon Link](https://www.amazon.com/dp/B0725RFDPY?tag=bsunter06-20)
 	- Great book for those interested in managing money and financial independence. It discourages you from trying to beat the market and suggests you invest in index funds and get rich slowly.
 	- This book helped me develop a plan for my finances and feel good about my strategy, despite the world's uncertainty.
 	- > “Spend less than you earn—invest the surplus—avoid debt.”
