@@ -72,6 +72,7 @@
 .post-content a {
     text-decoration: underline;
 }
+
 .toc a:hover {
     box-shadow: 0 1px 0;
 }
@@ -125,8 +126,8 @@
     padding-inline-start: 10px;
 }
 
-.post-content dd ~ dd,
-.post-content dt ~ dt {
+.post-content dd~dd,
+.post-content dt~dt {
     margin-top: 10px;
 }
 
@@ -162,7 +163,7 @@
     border-radius: var(--radius);
 }
 
-.post-content li > .highlight {
+.post-content li>.highlight {
     margin-inline-end: 0;
 }
 
@@ -202,13 +203,13 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
+    color: rgb(213, 213, 214);
 }
 
 .post-content pre code {
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
     background: 0 0;
     border-radius: 0;
     overflow-x: auto;
@@ -246,14 +247,14 @@
     text-align: center;
 }
 
-.post-content figure > figcaption {
+.post-content figure>figcaption {
     color: var(--primary);
     font-size: 16px;
     font-weight: bold;
     margin: 8px 0 16px;
 }
 
-.post-content figure > figcaption > p {
+.post-content figure>figcaption>p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
@@ -332,8 +333,8 @@
     background: var(--border);
 }
 
-.share-buttons-box{
-    display:flex;
+.share-buttons-box {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -442,16 +443,59 @@ h6:hover .anchor {
 }
 
 .graph-link a {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 14px;
     color: var(--secondary);
     text-decoration: underline;
 }
-.logseq-logo{
+
+.logseq-logo {
     margin-right: 5px;
     width: 16px;
     height: 16px;
     border-radius: 20%;
 }
+
+.admonition {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.admonition > span {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.warning {
+    background: var(--warning-bg);
+    border: 1px solid var(--warning-border);
+    color: var(--warning-text);
+}
+
+.warning p,
+.warning a,
+.warning span {
+    color: var(--warning-text);
+}
+
+.note {
+    background: var(--info-bg);
+    border: 1px solid var(--info-border);
+    color: var(--info-text);
+}
+
+.note p,
+.note a,
+.note span {
+    color: var(--info-text);
+}
+

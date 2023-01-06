@@ -919,7 +919,7 @@ Suppose we want to search for key element 42 in this list
 
 `middle` is the floor of $\frac{\text{low} + \text{high}}{2}$
 
-{{< logseq/orgNOTE >}}His examples used starting index of 1, but I changed it to index starting at 0 in these notes. I also changed end index to length-1
+{{< logseq/orgNOTE >}}His examples used starting index of 1, but I changed it to index starting at 0 in these notes. I also changed end index to `length-1`
 {{< / logseq/orgNOTE >}}
 
 `low` is index 0 and `high` is index 14, so `mid` is 7
