@@ -203,7 +203,7 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
-    color: rgb(213, 213, 214);
+    color: var(--content)
 }
 
 .post-content pre code {
