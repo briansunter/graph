@@ -17,6 +17,7 @@ lastMod: 2023-01-05
 # Divide and Conquer
 
 {{< youtube 2Rr2tW9zvRg >}}
+
 If a problem is large, divide the problem into subproblems, solve them, then recombine the solutions
 
 The subproblems should be the same type of problems, for example, if the main problem is sorting, then the subproblems are sorting
@@ -49,6 +50,7 @@ function test(n){
 ```
 
 How many times is this function called?
+
 `test(3)` -> prints "3"
 
 `test(2)` -> prints "2"
@@ -67,7 +69,10 @@ The time depends on the number of calls, so time complexity is $O(n)$
 
 How do we find the recurrence relation?
 
-$T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(n-1)+1 & \text{when } n > 0 \end{cases}$
+$$T(n) = \begin{cases} 
+1 & \text{when } n=1 \\\
+T(n-1)+1 & \text{when } n > 0 
+\end{cases}$$
 
 ### $T(n)$ based on $T(n-1)$
 
@@ -160,7 +165,7 @@ function test(n){
 
 Recurrence relation is $T(n) = T(n-1) + n$
 
-$T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(n-1)+n & \text{when } n > 0 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n-1)+n & \text{when } n > 0 \end{cases}$$
 
 For each iteration, it takes $n$ units of time, then calls itself -1
 
@@ -239,7 +244,7 @@ function test(n){
 
 We know `(let i=1; i< n; i=i*2)` will execute $log(n)$ times
 
-$T(n) = \begin{cases} 1 & \text{when } n=0 \\ T(n-1)+ log(n) & \text{when } n > 0 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ T(n-1)+ log(n) & \text{when } n > 0 \end{cases}$$
 
 ## Tree Method
 
@@ -291,7 +296,7 @@ Just multiply the term after the + by n, since you know it will be repeated n ti
 
 What if it's not decreasing by 1? It still works
 
-$T(n) = T(n-2) + 1 -> $n/2$ -> $O(n)$
+$T(n) = T(n-2) + 1$ -> $n/2$ -> $O(n)$
 
 $T(n) = T(n-100) + n$ -> $O(n^2)$
 
@@ -311,7 +316,7 @@ function test(n){
 
 $T(n)=2T(n-1)+1$
 
-$T(n) = \begin{cases} 1 & \text{when } n=0 \\ 2T(n-1)+1 & \text{when } n > 0 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ 2T(n-1)+1 & \text{when } n > 0 \end{cases}$$
 
 ## Tree Method
 
@@ -327,7 +332,7 @@ So the work done in each row is $2^k$
 
 $1 + 2 + 2^2 + 2^3 + ... + 2^k = n^{k+1}-1$
 
-$$a + ar + ar^2 + ar^3 + ... + ar^k = \frac{a(r^{k+1}-1)}{r-1} $$
+$$a + ar + ar^2 + ar^3 + ... + ar^k = \frac{a(r^{k+1}-1)}{r-1}$$
 
 In the series above, $a=1$ and $r=2$
 

@@ -19,7 +19,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 	- When a function takes a parameter n, it can make it smaller by either subtracting like $n-1$ or dividing like $n/2$ or $\sqrt{n}$
 	- Amount of work is $T(n)=T(n/2) + 1$
 	- ## Recurrence Relation Dividing
-		- $T(n) = \begin{cases} 1 & \text{when } n=1 \\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$
+		- $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 	- ## Tree Method
 		- [[draws/2022-12-09-14-05-14.excalidraw]]
 		- 1 unit of work per level, k steps, which is how many levels
@@ -45,7 +45,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 - # Recurrence Relation 2 (Dividing)
 	- {{youtube https://youtu.be/XcZw01FuH18}}
 	- ## Recurrence Relation
-		- $T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(n/2)+n & \text{when } n > 1 \end{cases}$
+		- $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n/2)+n & \text{when } n > 1 \end{cases}$$
 	- ## Tree Method
 		- ![Screenshot 2022-12-11 at 11.52.59 PM.png](../assets/Screenshot_2022-12-11_at_11.52.59_PM_1670838851213_0.png)
 		- Each level does $\frac{n}{2^k}$ amount of work
@@ -79,7 +79,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 	  }
 	  ```
 	- The recurrence relation is $T(n)=2T(n/2) + n$
-	- $T(n) = \begin{cases} 1 & \text{when } n=1 \\ 2T(n/2)+n & \text{when } n 1 0 \end{cases}$
+	- $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 	- ## Tree Method
 		- [[draws/2022-12-04-19-48-18.excalidraw]]
 		- Each row adds up to $n$ amount of work
@@ -243,7 +243,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 	      test(Math.sqrt(n))
 	    }
 	  ```
-	- $T(n) = \begin{cases} 1 & \text{when } n=2 \\ T(\sqrt{n})+1 & \text{when } n > 2 \end{cases}$
+	- $$T(n) = \begin{cases} 1 & \text{when } n=2 \\\ T(\sqrt{n})+1 & \text{when } n > 2 \end{cases}$$
 	- $T(n)=T(n^{\frac{1}{2}})+1$
 	- $T(n)=T(n^{\frac{1}{2^2}})+2$
 	- $T(n)=T(n^{\frac{1}{2^3}})+3$

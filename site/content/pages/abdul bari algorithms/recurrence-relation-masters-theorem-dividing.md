@@ -32,7 +32,7 @@ Amount of work is $T(n)=T(n/2) + 1$
 
 ## Recurrence Relation Dividing
 
-$T(n) = \begin{cases} 1 & \text{when } n=1 \\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
 ## Tree Method
 
@@ -84,7 +84,7 @@ Answer $O(log(n)$
 
 ## Recurrence Relation
 
-$T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(n/2)+n & \text{when } n > 1 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
 ## Tree Method
 
@@ -142,7 +142,7 @@ function test(n){
 
 The recurrence relation is $T(n)=2T(n/2) + n$
 
-$T(n) = \begin{cases} 1 & \text{when } n=1 \\ 2T(n/2)+n & \text{when } n 1 0 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
 ## Tree Method
 
@@ -464,7 +464,7 @@ function test(n){
   }
 ```
 
-$T(n) = \begin{cases} 1 & \text{when } n=2 \\ T(\sqrt{n})+1 & \text{when } n > 2 \end{cases}$
+$$T(n) = \begin{cases} 1 & \text{when } n=2 \\\ T(\sqrt{n})+1 & \text{when } n > 2 \end{cases}$$
 
 $T(n)=T(n^{\frac{1}{2}})+1$
 
