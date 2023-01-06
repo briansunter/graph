@@ -19,7 +19,7 @@ metrics:
 - newsletter/issue-2
 title: 100 newsletter subscribers
 categories:
-lastMod: 2023-01-03
+lastMod: 2023-01-05
 ---
 ## Summary
 

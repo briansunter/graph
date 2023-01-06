@@ -17,7 +17,7 @@ coverimage: /assets/kubernetes-gpt_1672123546658_0.jpeg
 start-date:
 - Jun 15th, 2022
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
-lastMod: 2023-01-03
+lastMod: 2023-01-05
 ---
 ![kubernetes-gpt.jpeg](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 

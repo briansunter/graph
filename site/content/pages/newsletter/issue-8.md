@@ -17,7 +17,7 @@ coverimage: /assets/image_1665465573710_0.png
 start-date:
 - Sep 5th, 2022
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
-lastMod: 2023-01-03
+lastMod: 2023-01-05
 ---
 # Summary and Reflection 🤔
 
