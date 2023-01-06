@@ -23,7 +23,7 @@ lastMod: 2023-01-03
 
 I'm continuing to work on the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) section of this site.
 
-I'm working through a few courses now including the [abdul bari algorithms]({{< sref "/pages/abdul bari algorithms" >}}) course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [abdul bari algorithms part-1]({{< sref "/pages/abdul bari algorithms part-1" >}})
+I'm working through a few courses now including the [abdul bari algorithms]({{< sref "/pages/abdul bari algorithms" >}}) course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}})
 
 I'm going over some math in Volume 1 of The Art of Computer Programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
 
