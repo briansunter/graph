@@ -1,26 +1,26 @@
 ---
-title: abdul bari algorithms part-1
+aliases: "/pages/abdul-bari-algorithms-part-1"
 tags:
-- algorithms-boot-camp
 - programming
 - course
 - algorithms
 - time complexity
 - abdul bari algorithms
-date: 2022-08-22
-math: true
+blogtitle: Abdul Bari Algorithms - Time Complexity
 categories:
-lastMod: 2023-01-03
+- programming
+math: true
+date: 2022-08-22
+coverimage: /assets/image_1666064845040_0.png
+description: An introduction to analyzing algorithms, comparing functions, and Big O notation, such as Big O, Theta, and Omega.
+title: abdul bari algorithms/time-complexity
+lastMod: 2023-01-06
 ---
-## Introduction to Algorithms
+# Introduction to Algorithms
 
-## Video
+{{< youtube 0IAPZzGSbME >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0IAPZzGSbME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
-
-### Algorithms vs Programs
+## Algorithms vs Programs
 
 |Algorithm|Program|
 |--|--|
@@ -29,17 +29,13 @@ lastMod: 2023-01-03
 |Any Language|Specific Language|
 |Analyze|Testing|
 
-## Priori Analysis and Posteriori Testing
+# Priori Analysis and Posteriori Testing
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
+{{< youtube -JTq1BFBwmo >}}
 
-## Video
+[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}}) notes
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-JTq1BFBwmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
-
-### Priori Analysis
+## Priori Analysis
 
 Hardware independent
 
@@ -49,63 +45,60 @@ Language independent
 
 Time and space function
 
-### Posteriori
+## Posteriori
 
 Watch time and bytes
 
-## Algorithm Characteristics
+# Algorithm Characteristics
 
-## Video
+{{< youtube FbYzBWdhMb0 >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FbYzBWdhMb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
-
-### Input
+## Input
 
 Algorithms can take 0 or more inputs
 
-### Output
+## Output
 
 Algorithms must generate some result or output
 
 If it doesn't give you any output, an algorithm is not useful
 
-Even if a function returns void, it should return a result in some other method
+Even if a function returns void, it should return a result in some other method, like modifying a variable somewhere
 
-### Definiteness
+## Definiteness
 
 Everything should be unambiguous and clear.
 
 If you can't describe the problem to a human, you don't know it well enough to write an algorithm.
 
-You can't pass an imaginary number like $$\sqrt{-1})$$ without specifying how to deal with it
+You can't pass an imaginary number like $\sqrt{-1}$ without specifying how to deal with it
 
-### Finiteness
+## Finiteness
 
 Algorithms must terminate at some point
 
 A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running.
 
-### Effectiveness
+## Effectiveness
 
 Don't have any unnecessary procedures in your algorithm.
 
 For example, in chemistry, you wouldn't boil a chemical and not use it in the experiment. That would be unnecessary.
 
-## How to Write an Analyze Algorithms
+# How to Write and Analyze Algorithms
 
-## Video
+{{< youtube xGYsEqe9Vl0 >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGYsEqe9Vl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
-
-### Swapping two numbers
+## Swapping two numbers
 
 This is the pseudo code for swapping two values.
 
 We won't always use full language syntax in algorithms
+
+{{< logseq/orgNOTE >}}This particular function only works for languages that support "pass by reference" like C/C++. Read more [here](https://www.javadude.com/articles/passbyvalue.htm)
+{{< / logseq/orgNOTE >}}
+
+
 
 id:: 62f9c6d7-a570-43c5-87b3-9c9467cc11d9
 ```js
@@ -166,15 +159,11 @@ It uses 3 variables always, regardless of the input, so we say $$s(n)=3$$ which 
 
 Each statement is one "unit" of time and each variable is one "unit" of space
 
+# Frequency Count Method
+
+{{< youtube 1U3Uwct45IY >}}
+
 ## Frequency Count Method
-
-## Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1U3Uwct45IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
-
-### Frequency Count Method
 
 The time taken by an algorithm can be determined by assigning one "unit" of time for each "statement"
 
@@ -232,11 +221,9 @@ variables `a,b,c` matrices.
 
 variables `i,j` scalar variables.
 
-## Time Complexity
+# Time Complexity
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9TlHvipP5yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Notes
+{{< youtube 9TlHvipP5yA >}}
 
 How do we analyze time complexity for given code?
 
@@ -416,9 +403,9 @@ $k=\log_2 n$
 
 The time complexity is $O(\log n)$
 
-## While loops and If
+# While loops and If
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p1EnSvS3urU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube p1EnSvS3urU >}}
 
 How can we analyze functions with while loops and if statements?
 
@@ -448,15 +435,15 @@ We can see that with an input of 16, it will run 7 times, so 16/2 = 8, which can
 
 The time complexity is n/2 which simplifies to $O(n)$
 
-## Classes of Functions
+# Classes of Functions
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w7t4_JUUTeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube w7t4_JUUTeg >}}
 
-### Types of time functions
+## Types of time functions
 
 These are listed in increasing size
 
-#### Constant time $O(1)$
+### Constant time $O(1)$
 
 Always runs in a fixed amount of time, doesn't depend on input
 
@@ -495,11 +482,11 @@ When n gets large, $n^{100}$ will always be less than $2^n$
 
 By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
 
-## Asymptotic Notation
+# Asymptotic Notation
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A03oI0znAoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube A03oI0znAoc >}}
 
-### Big O - $O$
+## Big O - $O$
 
 Upper Bound
 
@@ -519,9 +506,7 @@ $10n > 2n+3$ 10 is the constant c, from the Big o definition $c *g(n)$
 
 Try to use the closest function for the upper bound, even though higher values like $n^2$ could be the upper bound, it's less useful
 
-
-
-### Big Omega - Ω
+## Big Omega - Ω
 
 Lower Bound
 
@@ -533,7 +518,7 @@ $f(n) = O(g(n))$ means there are positive constants c and k, such that $ f(n) �
 
 
 
-### Theta - Θ
+## Theta - Θ
 
 Average Bound
 
@@ -557,75 +542,77 @@ Since this is average notation, you can't use $Θ(n^2)$, it's out of the bounds
 
 ![image.png](/assets/image_1666139032348_0.png)
 
-### Properties of asymptotic notation
+# Properties of asymptotic notation
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NI4OKSvGAgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube NI4OKSvGAgM >}}
 
-### General Property
+## General Property
 
-if f(n) is O(g(n)) then a * f(n) is O(g(n))
+if $f(n)$ is $O(g(n))$ then $a * f(n)$ is $O(g(n))$
 
-e.g. f(n) = 2 * n^2 + 5 is O(n^2)
+e.g. $f(n) = 2 * n^2 + 5$ is $O(n^2)$
 
-7 * f(n) = 7 (2n^2 +5) = 14n^2 + 35 is O(n^2)
+$f(n) = 7 (2n^2 +5) = 14n^2 + 35$ is $O(n^2)$
 
-### Reflexive Property
+## Reflexive Property
 
-If f(n) is given, then f(n) = O(n)
+If $f(n)$ is given, then $f(n)$ = $O(n)$
 
-ex f(n) = n^2 then O(n^2)
+ex $f(n) = n^2$ then $O(n^2)$
 
-### Transitive Property
+## Transitive Property
 
-if f(n) is O(g(n)) and g(n) is O(h(n))
+if $f(n)$ is $O(g(n))$ and $g(n)$ is $O(h(n))$
 
-then f(n) is O(h(n))
+then $f(n)$ is $O(h(n))$
 
-eg. f(n) = n, g(n) = n^2, h(n) = n^3
+if $g(n)$ is upper bound for $f(n)$ and $h(n)$ is upper bound for $g(n)$, then $h(n)$ is also an upper bound for $f(n)$
 
-n = O(n^2) and n^2 is O(n^3)
-
-then n is O(n^3)
-
-if g(n) is upper bound for f(n) and h(n) is upper bound for (g), then h(n) is also an upper bound for f(n)
-
-### Symmetric Property
+## Symmetric Property
 
 Only true for Θ notation
 
-if f(n) is Θ(g(n)) then g(n) is Θ(f(n))
+if $f(n)$ is $Θ(g(n))$ then $g(n)$ is $Θ(f(n))$
 
-f(n) = n^2 , g(n) = n^2
+e.g $f(n) = n^2$ , $g(n) = n^2$
 
-g(n) = Θ(n^2)
+$f(n) = Θ(n^2)$
 
-### Transpose Symmetric
+$g(n) = Θ(n^2)$
 
-True for O and  Ω
+## Transpose Symmetric
 
-if f(n) =O(g(n)) then g(n) is Ω(f(n))
+True for $O$ and  $Ω$
 
-eg f(n) = n, g(n) =n^2
+if $f(n) =O(g(n))$ if $g(n)$ is $Ω(f(n))$
 
-then n is O(n^2) and n^2 is Ω(n)
+eg $f(n) = n$, $g(n) =n^2$
 
-if f(n) is O(g(n)) and f(n)= Ω(g(n))
+then $n$ is $O(n^2)$ and $n^2$ is $Ω(n)$
 
-g(n) <= f(n)  <= g(n) then f(n) = Θ(g(n))
+if $f(n)$ is $O(g(n))$ and $f(n)= Ω(g(n))$
 
-f(n) + d(n) , O(max(g(n), d(n)))
+$g(n)$ is acting as both lower bound as well as upper bound
 
-f(n) = n = O(n)
+So $g(n) <= f(n)  <= g(n)$
 
-d(n) = n^ = O(n^2)
+then $f(n) = Θ(g(n))$
 
-then f(n) + d(n) = n + n^2 = O(n^2)
+ex. If $f(n)=O(g(n))$,  $d(n)=O(e(n))$
+
+Then $f(n) + d(n)= ?$
+
+$f(n) = n = O(n)$
+
+then $f(n) + d(n) = n + n^2 = O(n^2)$
 
 When adding, take the bigger term
 
-f(n) * d(n) = f(n) * d(n^2) =O(n^2)
+$f(n) + d(n) , O(max(g(n), d(n)))$
 
-## Comparison of functions
+Also $f(n) * d(n) = f(n) * d(n^2) =O(g(n) * e(n))$
+
+# Comparison of functions
 
 {{< youtube mwN18xfwNhk >}}
 
@@ -653,7 +640,7 @@ This simplifies to $2log(n)$ vs $3log(n)$
 
 We can see that 2log(n) is always less than 3log(n)
 
-### Logarithms guide
+## Logarithms guide
 
 $log(a*b) = log(a) + log(b)$
 
@@ -662,7 +649,7 @@ $log(\frac{a}{b}) = log(a) - log(b)$
 $log(a^b) = b *log(a)$
 $a^{log_c(b)} = b^{log_c(a)}$
 $a^b=n$ then $b=log_a(n)$
-### Comparison of functions
+## Comparison of functions
 
 ### First example
 
@@ -744,7 +731,7 @@ Simplify to one $log_2(2)=1$
 
 So $f(n) = log(n)^2$ and $g(n) = \sqrt{n}$
 
-## Best, Worst, and Average Case Analysis
+# Best, Worst, and Average Case Analysis
 
 {{< youtube lj3E24nnPjI >}}
 
@@ -818,11 +805,11 @@ Best case can be expressed using any of these notations
 
 Best case(n) = 1
 
-Best case (n) = $O(1)$
+Best case(n) = $O(1)$
 
-Best case (n) = $Ω(1)$
+Best case(n) = $Ω(1)$
 
-Best case (n) = $Θ(1)$
+Best case(n) = $Θ(1)$
 
 ## Binary Search
 

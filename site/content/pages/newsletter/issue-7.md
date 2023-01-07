@@ -21,7 +21,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 title: newsletter/issue-7
-lastMod: 2023-01-03
+lastMod: 2023-01-06
 ---
 Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 
@@ -55,7 +55,7 @@ The site,logseq graph, and AWS CDK deployment tooling[ is on Github.](https://g
 
 I’m going through the excellent [Abdul Bari Algorithms Course on Youtube](https://www.youtube.com/watch?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter&v=0IAPZzGSbME)
 
-[See my notes on Part 1 of his course here]([abdul bari algorithms part-1]({{< sref "/pages/abdul bari algorithms part-1" >}}))
+[See my notes on Part 1 of his course here]([abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}}))
 
 [I wrote a post on posterior vs a priori analysis of algorithms] ([posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}}))
 

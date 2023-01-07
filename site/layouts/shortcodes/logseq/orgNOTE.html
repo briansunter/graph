@@ -1,3 +1,6 @@
-<div class="note {{ .Get 0 }}">
+<div class="admonition note {{ .Get 0 }}">
+       <span class="icon">ⓘ</span>
+       <div class="admonition-content">
     {{ .Inner | $.Page.RenderString }}
+    </div>
 </div>

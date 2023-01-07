@@ -14,12 +14,12 @@ date: 2022-07-13
 start-date:
 - Jun 13th, 2022
 metrics:
-- newsletter subscribers
+- newsletter-subscribers
 - twitter followers
 - newsletter/issue-2
 title: 100 newsletter subscribers
 categories:
-lastMod: 2023-01-03
+lastMod: 2023-01-06
 ---
 ## Summary
 

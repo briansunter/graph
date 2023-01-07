@@ -22,7 +22,7 @@
 	- [[headphone-eye-mask]]
 	- [[newsletter/issue-8]]
 	- [[integer-sum-formula]]
-	- [[abdul bari algorithms part-1]]
+	- [[abdul bari algorithms/time-complexity]]
 	- [[new website on logseq hugo]]
 	- [[abdul bari algorithms]]
 	- [[you and your research]]
