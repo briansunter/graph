@@ -1,8 +1,12 @@
 public:: true
-tags:: [[algorithms-boot-camp]] [[programming]] [[course]] [[algorithms]] [[time complexity]] [[abdul bari algorithms]] 
+tags:: [[programming]] [[course]] [[algorithms]] [[time complexity]] [[abdul bari algorithms]] 
+categories:: [[programming]] 
 date:: 2022-08-22
 math:: true
 aliases:: "/pages/abdul-bari-algorithms-part-1"
+coverimage:: /assets/image_1666064845040_0.png
+blogtitle:: Abdul Bari Algorithms - Time Complexity
+description:: An introduction to analyzing algorithms, comparing functions, and Big O notation, such as Big O, Theta, and Omega.
 
 - # Introduction to Algorithms
 	- {{video https://youtu.be/0IAPZzGSbME}}

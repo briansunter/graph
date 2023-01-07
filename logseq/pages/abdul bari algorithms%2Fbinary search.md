@@ -1,11 +1,14 @@
 tags:: [[abdul bari algorithms]] [[programming]] [[course]] [[algorithms]]
 categories:: [[programming]]
-date:: 2022-01-05
+date:: 2023-01-05
 math:: true
 public:: true
 hasMermaid:: true
 blogtitle:: Abdul Bari Algorithms - Binary Search
+description:: How to implement binary search recursively and iteratively
+coverimage:: /assets/binary-search_1673042669678_0.jpeg
 
+- ![binary-search.jpeg](../assets/binary-search_1673042669678_0.jpeg)
 - # Binary Search Iterative
 	- {{youtube https://youtu.be/C2apEw9pgtw}}
 		- You can do binary search recursively or iteratively

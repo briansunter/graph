@@ -1,18 +1,22 @@
 ---
+hasmermaid: true
 tags:
 - programming
 - course
 - algorithms
 - abdul bari algorithms
+blogtitle: Abdul Bari Algorithms - Heap, Heap Sort, Heapify, and Priority Queues
 categories:
 - programming
-date: 2023-01-05
 math: true
-hasmermaid: true
-blogtitle: Abdul Bari Algorithms - Heap, Heap Sort, Heapify, and Priority Queues
+date: 2023-01-05
+coverimage: /assets/heap_1673042424667_0.jpg
+description: Describes the Heap data structure, the operations it supports, and its time complexity.
 title: abdul bari algorithms/heap
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
+![heap.jpg](/assets/heap_1673042424667_0.jpg)
+
 # Heap - Heap Sort - Heapify - Priority Queues
 
 {{< youtube HqPJF2L5h9U >}}

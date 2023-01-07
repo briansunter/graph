@@ -4,9 +4,12 @@ date:: 2023-01-05
 math:: true
 public:: true
 hasMermaid:: true
+coverimage:: /assets/recurrence-dividing_1673047600738_0.jpeg
 blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Dividing Functions
+description:: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 
-- # Recurrence Relation 1 (Dividing)
+- ![recurrence-dividing.jpeg](../assets/recurrence-dividing_1673047600738_0.jpeg)
+- # Dividing Recurrence Relation 1
 	- {{youtube https://youtu.be/8gt0D0IqU5w}}
 	- ```js
 	  function test(n){
@@ -42,7 +45,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 		- $T(n)=T(1)+log(n)$
 		- $T(n) = 1 + log(n)$
 		- Answer $O(log(n)$
-- # Recurrence Relation 2 (Dividing)
+- # Dividing Recurrence Relation 2
 	- {{youtube https://youtu.be/XcZw01FuH18}}
 	- ## Recurrence Relation
 		- $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n/2)+n & \text{when } n > 1 \end{cases}$$
@@ -66,7 +69,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 		- $T(n) = 1 + n[1 + 1]$
 		- $T(n) = 1 + 2n$
 		- Answer $O(n)$
-- # Recurrence Relation 3 (Dividing)
+- # Dividing Recurrence Relation 3
 	- ``` js
 	  function test(n){
 	    if (n>1){
@@ -103,12 +106,14 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 		- Assume $T(\frac{n}{2^k})=T(1)$
 		- $\frac{n}{2^k}=1$
 		- $k=log(n)$
-- # Master's Theorem Dividing 1
+- # Master's Theorem for Dividing 1
 	- {{youtube https://youtu.be/OynWkEj0S-s}}
 	- $T(n)=a * T(\frac{n}{b}) + f(n)$
+	  id:: 63b7b2ee-3228-41c9-a931-891900cb009e
 	- Assume $a>=1$ and $b>1$
 	- $f(n)=O(n^k*log(n)^p)$
 	- ## Case 1
+	  id:: 63b7b2ee-3dae-47fb-bead-8be77c46a829
 		- if $log_b(a) > k$ then $O(n^{log_b(a)})$
 	- ## Case 2
 		- if $log_b(a) = k$
@@ -211,7 +216,7 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 					- $log_2(3) = 2$ < $k=2$
 					- So case 3.2, so just take $n^3$
 					- So $O(n^3)$
-- # Master's Theorem Dividing 2
+- # Master's Theorem for Dividing 2
 	- {{youtube https://youtu.be/kGcO-nAm9Vc}}
 	- ## Case 1 Examples
 		- $T(n)=2T(n/2)+1$ -> $O(n^1)$

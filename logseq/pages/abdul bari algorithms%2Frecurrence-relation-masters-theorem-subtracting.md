@@ -4,8 +4,11 @@ date:: 2023-01-05
 math:: true
 public:: true
 hasMermaid:: true
-blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions
+blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions 
+coverimage:: /assets/recurrence-relation-subtraction_1673041572921_0.jpg
+description:: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 
+- ![recurrence-relation-subtraction.jpg](../assets/recurrence-relation-subtraction_1673041572921_0.jpg)
 - # Divide and Conquer
 	- {{youtube https://youtu.be/2Rr2tW9zvRg}}
 	- If a problem is large, divide the problem into subproblems, solve them, then recombine the solutions
@@ -216,18 +219,22 @@ blogtitle:: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for
 	- ## Master's Theorem
 		- General form of recurrence relation
 		- $T(n)=aT(n-b)+f(n)$
+		  id:: 63b7c0eb-89cf-49b6-a406-72f907cfc184
 		- Assume
 			- $a>0$
 			- $b > 0$
 			- $f(n)=O(n^k)$ where $k ≥ 0$
 		- ### Case 1  $a=1$
+		  id:: 63b7c0eb-6e8a-48cc-974d-1eac6c8ac852
 			- For example $T(n)=T(n-1) + 1$
 			- Then $O(n^{k+1})$
 			- also can be thought of as $O(n*f(n))$
 		- ### Case 2 $a>1$
+		  id:: 63b7c0eb-af29-4226-938f-f3912b68a1fa
 			- For example $T(n) = 2T(n-1) + 1$
 			- Then $O(n^k * a^n)$
 		- ### Case 3 $a>1$
+		  id:: 63b7c0eb-650d-4e58-a3ac-62c537bc75d3
 			- If you're decreasing by more than 1, for example  $T(n) = 2T(n-2) + 1$
 			- Then $O(n^k * a^{\frac{n}{b}})$
 			- What if $a<1$  for example .5

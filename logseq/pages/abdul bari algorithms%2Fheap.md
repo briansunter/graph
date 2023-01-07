@@ -4,8 +4,11 @@ date:: 2023-01-05
 math:: true
 public:: true
 hasMermaid:: true
+coverimage:: /assets/heap_1673042424667_0.jpg
 blogtitle:: Abdul Bari Algorithms - Heap, Heap Sort, Heapify, and Priority Queues
+description:: Describes the Heap data structure, the operations it supports, and its time complexity.
 
+- ![heap.jpg](../assets/heap_1673042424667_0.jpg)
 # Heap - Heap Sort - Heapify - Priority Queues
 	- {{youtube https://youtu.be/HqPJF2L5h9U}}
 	- ## Array Representation of Binary Tree

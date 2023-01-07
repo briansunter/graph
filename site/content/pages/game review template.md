@@ -4,7 +4,7 @@ tags:
 date: 2022-10-04
 title: game review template
 categories:
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
 # Game Review Template
 template:: game review

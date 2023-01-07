@@ -13,7 +13,7 @@ description: One of the best introductory courses on algorithms. It's thorough, 
 blogtitle: Abdul Bari Algorithms Course
 math: true
 title: abdul bari algorithms
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 
@@ -23,7 +23,9 @@ One of the best introductory courses on algorithms. It's thorough, yet succinct 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IAPZzGSbME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# [abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}})
+# Time Complexity
+
+**Notes**: [abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}})
 
 ## Introduction to algorithms
 
@@ -68,3 +70,63 @@ Best, worst, and average case analysis
 Linear Search
 
 Binary Search
+
+# Recurrence Relation and Master's Theorem for Subtracting Functions
+
+**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-subtracting]({{< sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-subtracting" >}})
+
+Divide and Conquer Intro
+
+Examples where the subproblems reduce by n-b
+
+Substitution method for finding recurrence relation
+
+Tree method for finding recurrence relation
+
+## Master's Theorem
+
+For the general form $T(n)=aT(n-b)+f(n)$
+
+
+# Recurrence Relation and Master's Theorem for Dividing Functions
+
+**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-dividing]({{< sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-dividing" >}})
+
+Examples where the subproblems reduce by n/b
+
+Substitution method for finding recurrence relation
+
+Tree method for finding recurrence relation
+
+## Master's Theorem
+
+For the general form $T(n)=a * T(\frac{n}{b}) + f(n)$
+
+
+# Binary Search
+
+**Notes**: [abdul bari algorithms/binary search]({{< sref "/pages/abdul bari algorithms/binary search" >}})
+
+Iterative Implementation
+
+Recursive Implementation
+
+# Heap
+
+**Notes**: [abdul bari algorithms/heap]({{< sref "/pages/abdul bari algorithms/heap" >}})
+
+Array Representation of Binary Heap
+
+Complete Binary Tree
+
+Full Binary Tree
+
+Insertion
+
+Deletion
+
+Heap Sort
+
+Heapify
+
+Priority Queue

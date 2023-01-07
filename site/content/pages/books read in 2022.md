@@ -9,7 +9,7 @@ showtoc: true
 tocopen: true
 title: books read in 2022
 categories:
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
 ![books-read-site.jpg](/assets/books-read-site_1672793412235_0.jpg)
 

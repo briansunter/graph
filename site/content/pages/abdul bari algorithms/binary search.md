@@ -1,18 +1,22 @@
 ---
+hasmermaid: true
 tags:
 - abdul bari algorithms
 - programming
 - course
 - algorithms
+blogtitle: Abdul Bari Algorithms - Binary Search
 categories:
 - programming
-date: 2022-01-05
 math: true
-hasmermaid: true
-blogtitle: Abdul Bari Algorithms - Binary Search
+date: 2023-01-05
+coverimage: /assets/binary-search_1673042669678_0.jpeg
+description: How to implement binary search recursively and iteratively
 title: abdul bari algorithms/binary search
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
+![binary-search.jpeg](/assets/binary-search_1673042669678_0.jpeg)
+
 # Binary Search Iterative
 
 {{< youtube C2apEw9pgtw >}}

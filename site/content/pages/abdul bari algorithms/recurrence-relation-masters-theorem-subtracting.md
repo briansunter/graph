@@ -1,19 +1,23 @@
 ---
+hasmermaid: true
 tags:
 - programming
 - course
 - algorithms
 - time complexity
 - abdul bari algorithms
+blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions
 categories:
 - programming
-date: 2023-01-05
 math: true
-hasmermaid: true
-blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions
+date: 2023-01-05
+coverimage: /assets/recurrence-relation-subtraction_1673041572921_0.jpg
+description: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 title: abdul bari algorithms/recurrence-relation-masters-theorem-subtracting
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
+![recurrence-relation-subtraction.jpg](/assets/recurrence-relation-subtraction_1673041572921_0.jpg)
+
 # Divide and Conquer
 
 {{< youtube 2Rr2tW9zvRg >}}
@@ -394,7 +398,6 @@ $T(n) = 2T(n-1) + n$ -> $O(n * 3^n)$
 General form of recurrence relation
 
 $T(n)=aT(n-b)+f(n)$
-
 Assume
 
 $a>0$
@@ -404,7 +407,6 @@ $b > 0$
 $f(n)=O(n^k)$ where $k ≥ 0$
 
 ### Case 1  $a=1$
-
 For example $T(n)=T(n-1) + 1$
 
 Then $O(n^{k+1})$
@@ -412,13 +414,11 @@ Then $O(n^{k+1})$
 also can be thought of as $O(n*f(n))$
 
 ### Case 2 $a>1$
-
 For example $T(n) = 2T(n-1) + 1$
 
 Then $O(n^k * a^n)$
 
 ### Case 3 $a>1$
-
 If you're decreasing by more than 1, for example  $T(n) = 2T(n-2) + 1$
 
 Then $O(n^k * a^{\frac{n}{b}})$

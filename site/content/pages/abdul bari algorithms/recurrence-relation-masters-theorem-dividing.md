@@ -1,19 +1,23 @@
 ---
+hasmermaid: true
 tags:
 - programming
 - course
 - algorithms
 - abdul bari algorithms
+blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Dividing Functions
 categories:
 - programming
-date: 2023-01-05
 math: true
-hasmermaid: true
-blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Dividing Functions
+date: 2023-01-05
+coverimage: /assets/recurrence-dividing_1673047600738_0.jpeg
+description: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 title: abdul bari algorithms/recurrence-relation-masters-theorem-dividing
-lastMod: 2023-01-05
+lastMod: 2023-01-06
 ---
-# Recurrence Relation 1 (Dividing)
+![recurrence-dividing.jpeg](/assets/recurrence-dividing_1673047600738_0.jpeg)
+
+# Dividing Recurrence Relation 1
 
 {{< youtube 8gt0D0IqU5w >}}
 
@@ -78,7 +82,7 @@ $T(n) = 1 + log(n)$
 
 Answer $O(log(n)$
 
-# Recurrence Relation 2 (Dividing)
+# Dividing Recurrence Relation 2
 
 {{< youtube XcZw01FuH18 >}}
 
@@ -126,7 +130,7 @@ $T(n) = 1 + 2n$
 
 Answer $O(n)$
 
-# Recurrence Relation 3 (Dividing)
+# Dividing Recurrence Relation 3
 
 ``` js
 function test(n){
@@ -190,18 +194,16 @@ $\frac{n}{2^k}=1$
 
 $k=log(n)$
 
-# Master's Theorem Dividing 1
+# Master's Theorem for Dividing 1
 
 {{< youtube OynWkEj0S-s >}}
 
 $T(n)=a * T(\frac{n}{b}) + f(n)$
-
 Assume $a>=1$ and $b>1$
 
 $f(n)=O(n^k*log(n)^p)$
 
 ## Case 1
-
 if $log_b(a) > k$ then $O(n^{log_b(a)})$
 
 ## Case 2
@@ -406,7 +408,7 @@ So case 3.2, so just take $n^3$
 
 So $O(n^3)$
 
-# Master's Theorem Dividing 2
+# Master's Theorem for Dividing 2
 
 {{< youtube kGcO-nAm9Vc >}}
 
