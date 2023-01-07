@@ -35,7 +35,7 @@ c-->f
 c-->g
 ```
 
-[03:01](https://youtu.be/HqPJF2L5h9U?t=181) You can store a binary tree as an array
+{{< ytime videoId="HqPJF2L5h9U" start="181" time="03:01" >}} You can store a binary tree as an array
 
 When storing a binary tree we need store the elements as well as the relationship between the element
 
@@ -54,15 +54,15 @@ The parent is at `Math.floor((i-1)/2)`
 
 ## Examples
 
-[04:05](https://youtu.be/HqPJF2L5h9U?t=245) what is the left child of `b` which is at index 1?
+{{< ytime videoId="HqPJF2L5h9U" start="245" time="04:05" >}} what is the left child of `b` which is at index 1?
 
 The left child index is `2*1+1` = 3, and the element at index 3 is `d`
 
-[04:27](https://youtu.be/HqPJF2L5h9U?t=267) What is the right child of `b` which is at index 1?
+{{< ytime videoId="HqPJF2L5h9U" start="267" time="04:27" >}} What is the right child of `b` which is at index 1?
 
 The right child index is `2*1+2` = 4, and the element at index 4 is `e`
 
-[04:56](https://youtu.be/HqPJF2L5h9U?t=296) What is the parent of `f` which is at index 5?
+{{< ytime videoId="HqPJF2L5h9U" start="296" time="04:56" >}} What is the parent of `f` which is at index 5?
 
 The parent child index is `Math.floor((5-1)/2)` = 2, and the element at index 2 is `c`
 
@@ -84,7 +84,7 @@ leave out the missing elements at the end.
 
 ### Gaps
 
-[05:58](https://youtu.be/HqPJF2L5h9U?t=358) Imagine filling it level by level, but leave a gap
+{{< ytime videoId="HqPJF2L5h9U" start="358" time="05:58" >}} Imagine filling it level by level, but leave a gap
 
 ```mermaid
 graph TD
@@ -112,13 +112,13 @@ c-->f
 c-->g
 ```
 
-[07:30](https://youtu.be/HqPJF2L5h9U?t=450) a Full binary tree has the maximum number of nodes for its height, you can't add another node without increasing its height
+{{< ytime videoId="HqPJF2L5h9U" start="450" time="07:30" >}} a Full binary tree has the maximum number of nodes for its height, you can't add another node without increasing its height
 
-[08:17](https://youtu.be/HqPJF2L5h9U?t=497) The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
+{{< ytime videoId="HqPJF2L5h9U" start="497" time="08:17" >}} The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
 
 ### Complete Binary Tree
 
-[08:32](https://youtu.be/HqPJF2L5h9U?t=512) When represented as an array, a complete binary tree doesn't have any gaps
+{{< ytime videoId="HqPJF2L5h9U" start="512" time="08:32" >}} When represented as an array, a complete binary tree doesn't have any gaps
 
 #### Complete Binary Tree Example
 
@@ -144,13 +144,13 @@ c-->f
 c-->g
 ```
 
-[08:52](https://youtu.be/HqPJF2L5h9U?t=532) Its array representation is`[a,b,c,null,null,d,e]` and has gaps, so it is not a complete binary tree.
+{{< ytime videoId="HqPJF2L5h9U" start="532" time="08:52" >}} Its array representation is`[a,b,c,null,null,d,e]` and has gaps, so it is not a complete binary tree.
 
 Every full binary tree is also a complete binary tree
 
 ## Heap
 
-[14:36](https://youtu.be/HqPJF2L5h9U?t=876)  A heap is a complete binary tree
+{{< ytime videoId="HqPJF2L5h9U" start="876" time="14:36" >}}  A heap is a complete binary tree
 
 Max heap is a complete binary tree where every node is greater than or equal than its descendants. The largest node is the root
 
@@ -158,7 +158,7 @@ Min heap is a complete binary tree where every node is smaller than it's descend
 
 ## Insert
 
-[16:38](https://youtu.be/HqPJF2L5h9U?t=998) We want to insert an element into a max heap
+{{< ytime videoId="HqPJF2L5h9U" start="998" time="16:38" >}} We want to insert an element into a max heap
 
 ```mermaid
 graph TD
@@ -178,7 +178,7 @@ The root should have the largest element so the root should be `60`
 
 We need to maintain completeness while inserting
 
-[19:49](https://youtu.be/HqPJF2L5h9U?t=1189) We start by inserting `60` at the end of the array, which corresponds to the bottom left element of the complete binary tree. `[50,30,20,15,10,8,16,60]`
+{{< ytime videoId="HqPJF2L5h9U" start="1189" time="19:49" >}} We start by inserting `60` at the end of the array, which corresponds to the bottom left element of the complete binary tree. `[50,30,20,15,10,8,16,60]`
 
 ```mermaid
 graph TD
@@ -210,11 +210,11 @@ style 60 fill:#f9f
 
 We add new element as leaf, then adjusts it's ancestors upward
 
-[20:44](https://youtu.be/HqPJF2L5h9U?t=1244) How much time does it take? The maximum number of swaps, which is the height of a complete binary tree, which is $O(log(n))$
+{{< ytime videoId="HqPJF2L5h9U" start="1244" time="20:44" >}} How much time does it take? The maximum number of swaps, which is the height of a complete binary tree, which is $O(log(n))$
 
 ## Delete
 
-[22:25](https://youtu.be/HqPJF2L5h9U?t=1345) You should only delete root element
+{{< ytime videoId="HqPJF2L5h9U" start="1345" time="22:25" >}} You should only delete root element
 
 Imagine picking an apple at the top of a pyramid at the supermarket
 
@@ -246,7 +246,7 @@ style 16 fill:#f9f
 style A display:none
 ```
 
-[25:26](https://youtu.be/HqPJF2L5h9U?t=1526) Now we adjust the elements from the root towards leaf, maintaining complete binary property
+{{< ytime videoId="HqPJF2L5h9U" start="1526" time="25:26" >}} Now we adjust the elements from the root towards leaf, maintaining complete binary property
 
 Check 16's child elements, which child is greater? `30` so swap with `30`
 
@@ -278,7 +278,7 @@ style A display:none
 
 ## Heap Sort
 
-[28:16](https://youtu.be/HqPJF2L5h9U?t=1696) If you keep deleting, the next largest element goes to the top in max heap. In min heap the next smallest comes to the top
+{{< ytime videoId="HqPJF2L5h9U" start="1696" time="28:16" >}} If you keep deleting, the next largest element goes to the top in max heap. In min heap the next smallest comes to the top
 
 After deleting the largest element, we have a "free space" at the end
 
@@ -290,7 +290,7 @@ After deleting
 
 `[30,10,20,15,10,8,null]`
 
-[29:34](https://youtu.be/HqPJF2L5h9U?t=1774) We can keep the element we removed at at the end of the array to preserve it
+{{< ytime videoId="HqPJF2L5h9U" start="1774" time="29:34" >}} We can keep the element we removed at at the end of the array to preserve it
 
 `[30,10,20,15,10,8,50]`
 
@@ -306,7 +306,7 @@ We can see that we're sorting the array by deleting the largest element, and fil
 
 ### How to do heap sort
 
-[31:16](https://youtu.be/HqPJF2L5h9U?t=1876) Heap sort has two steps, create a heap from an array by inserting the elements one by one
+{{< ytime videoId="HqPJF2L5h9U" start="1876" time="31:16" >}} Heap sort has two steps, create a heap from an array by inserting the elements one by one
 
 Then delete the elements one by one
 
@@ -314,7 +314,7 @@ Then delete the elements one by one
 
 ### Create Heap
 
-[31:53](https://youtu.be/HqPJF2L5h9U?t=1913) These are the unsorted set of elements `[10,20,15,30,40]`
+{{< ytime videoId="HqPJF2L5h9U" start="1913" time="31:53" >}} These are the unsorted set of elements `[10,20,15,30,40]`
 
 Assume `10` is the root of the heap
 
@@ -452,7 +452,7 @@ B[30]-->C[20]
 
 `[40,20,15,10,20]`
 
-[36:24](https://youtu.be/HqPJF2L5h9U?t=2184) 40 gets deleted and 20 takes it's place at the root
+{{< ytime videoId="HqPJF2L5h9U" start="2184" time="36:24" >}} 40 gets deleted and 20 takes it's place at the root
 
 ```mermaid
 graph TD
@@ -468,7 +468,7 @@ style C display: none
 
 Now we need to adjust the binary tree by swapping downward
 
-[37:09](https://youtu.be/HqPJF2L5h9U?t=2229) Check where of the children of 20 are greater, than swap
+{{< ytime videoId="HqPJF2L5h9U" start="2229" time="37:09" >}} Check where of the children of 20 are greater, than swap
 
 `30` is greater, so swap `20` and `30`
 
@@ -495,7 +495,7 @@ B[20]-->C[.]
 style C display: none
 ```
 
-[37:56](https://youtu.be/HqPJF2L5h9U?t=2276) `30` get's deleted and the last element `10` takes its place at the root
+{{< ytime videoId="HqPJF2L5h9U" start="2276" time="37:56" >}} `30` get's deleted and the last element `10` takes its place at the root
 
 ```mermaid
 graph TD
@@ -567,7 +567,7 @@ So together now the array is sorted `10,15,20,30,40`
 
 ## Heapify
 
-[42:18](https://youtu.be/HqPJF2L5h9U?t=2538) Heapify is a procedure for creating a heap from a binary tree
+{{< ytime videoId="HqPJF2L5h9U" start="2538" time="42:18" >}} Heapify is a procedure for creating a heap from a binary tree
 
 ```mermaid
 graph TD
@@ -581,17 +581,17 @@ graph TD
 
 Array representation `[10,20,15,12,40,25,18]`
 
-[42:29](https://youtu.be/HqPJF2L5h9U?t=2549) It's similar to creating a heap from scratch. Before we saw when creating a heap from scratch, we insert from the root and adjust down. However, in heapify we adjust upwards.
+{{< ytime videoId="HqPJF2L5h9U" start="2549" time="42:29" >}} It's similar to creating a heap from scratch. Before we saw when creating a heap from scratch, we insert from the root and adjust down. However, in heapify we adjust upwards.
 
 We start with a complete binary tree, but it isn't a max heap
 
-[43:15](https://youtu.be/HqPJF2L5h9U?t=2595) In heapify we go from right to left, instead of left to right in creating a heap
+{{< ytime videoId="HqPJF2L5h9U" start="2595" time="43:15" >}} In heapify we go from right to left, instead of left to right in creating a heap
 
-[43:29](https://youtu.be/HqPJF2L5h9U?t=2609) When going from right to left, we adjust downward, similar to deletion
+{{< ytime videoId="HqPJF2L5h9U" start="2609" time="43:29" >}} When going from right to left, we adjust downward, similar to deletion
 
-[43:47](https://youtu.be/HqPJF2L5h9U?t=2627) Start with element `18` and look at it's descendents. It's a leaf with no children, so alone it is a heap. Continuing on we see the same with `25`, `40`, and `12`
+{{< ytime videoId="HqPJF2L5h9U" start="2627" time="43:47" >}} Start with element `18` and look at it's descendents. It's a leaf with no children, so alone it is a heap. Continuing on we see the same with `25`, `40`, and `12`
 
-[44:20](https://youtu.be/HqPJF2L5h9U?t=2660) We get to `15` and adjust downards. We compare it to it's children and swap. Which child is greater? `25` is greater, so we swap with `15`. `25` goes up and `15` goes down, in its place
+{{< ytime videoId="HqPJF2L5h9U" start="2660" time="44:20" >}} We get to `15` and adjust downards. We compare it to it's children and swap. Which child is greater? `25` is greater, so we swap with `15`. `25` goes up and `15` goes down, in its place
 
 ```mermaid
 graph TD
@@ -604,7 +604,7 @@ graph TD
 style 25 fill:#f9f
 ```
 
-[45:00](https://youtu.be/HqPJF2L5h9U?t=2700) Now we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
+{{< ytime videoId="HqPJF2L5h9U" start="2700" time="45:00" >}} Now we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
 
 ```mermaid
 graph TD
@@ -617,9 +617,9 @@ graph TD
 style 40 fill:#f9f
 ```
 
-[44:53](https://youtu.be/HqPJF2L5h9U?t=2693) Now we get to the first element, the root
+{{< ytime videoId="HqPJF2L5h9U" start="2693" time="44:53" >}} Now we get to the first element, the root
 
-[45:09](https://youtu.be/HqPJF2L5h9U?t=2709) We compare 40 with it's children, and swap 10 with 40
+{{< ytime videoId="HqPJF2L5h9U" start="2709" time="45:09" >}} We compare 40 with it's children, and swap 10 with 40
 
 ```mermaid
 graph TD
@@ -632,7 +632,7 @@ graph TD
 style 40 fill:#f9f
 ```
 
-[45:32](https://youtu.be/HqPJF2L5h9U?t=2732) We continue heapifying down, and check `10`'s children. `20` is greater so we swap with `10`
+{{< ytime videoId="HqPJF2L5h9U" start="2732" time="45:32" >}} We continue heapifying down, and check `10`'s children. `20` is greater so we swap with `10`
 
 ```mermaid
 graph TD
@@ -645,22 +645,22 @@ graph TD
 style 20 fill:#f9f
 ```
 
-[46:17](https://youtu.be/HqPJF2L5h9U?t=2777) What is the time taken by heapify? $O(n)$
+{{< ytime videoId="HqPJF2L5h9U" start="2777" time="46:17" >}} What is the time taken by heapify? $O(n)$
 
-[46:32](https://youtu.be/HqPJF2L5h9U?t=2792) The earlier procedure for creating a heap was $O(n*log(n))$, which is slower than heapify
+{{< ytime videoId="HqPJF2L5h9U" start="2792" time="46:32" >}} The earlier procedure for creating a heap was $O(n*log(n))$, which is slower than heapify
 
 ## Priority Queue
 
-[47:09](https://youtu.be/HqPJF2L5h9U?t=2829) Elements have priority, and inserted and deleted based on element
+{{< ytime videoId="HqPJF2L5h9U" start="2829" time="47:09" >}} Elements have priority, and inserted and deleted based on element
 
-[47:30](https://youtu.be/HqPJF2L5h9U?t=2850) Elements with the highest priority is removed
+{{< ytime videoId="HqPJF2L5h9U" start="2850" time="47:30" >}} Elements with the highest priority is removed
 
-[47:49](https://youtu.be/HqPJF2L5h9U?t=2869) In a numeric array, the priority is based on the number itself
+{{< ytime videoId="HqPJF2L5h9U" start="2869" time="47:49" >}} In a numeric array, the priority is based on the number itself
 
-[48:24](https://youtu.be/HqPJF2L5h9U?t=2904) We can say that the highest priority is the smallest number, or we can say the largest number has the highest priority, depending on the use case. We can do either method of priority
+{{< ytime videoId="HqPJF2L5h9U" start="2904" time="48:24" >}} We can say that the highest priority is the smallest number, or we can say the largest number has the highest priority, depending on the use case. We can do either method of priority
 
-[49:26](https://youtu.be/HqPJF2L5h9U?t=2966) The time for insert or delete for a a regular array is $O(n)$ because we have to shift the elements
+{{< ytime videoId="HqPJF2L5h9U" start="2966" time="49:26" >}} The time for insert or delete for a a regular array is $O(n)$ because we have to shift the elements
 
-[50:07](https://youtu.be/HqPJF2L5h9U?t=3007) The time for insert or delete for a priority queue is $O(log(n))$ which is faster than a normal array
+{{< ytime videoId="HqPJF2L5h9U" start="3007" time="50:07" >}} The time for insert or delete for a priority queue is $O(log(n))$ which is faster than a normal array
 
 

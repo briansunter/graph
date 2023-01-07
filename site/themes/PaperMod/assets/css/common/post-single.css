@@ -508,3 +508,21 @@ h6:hover .anchor {
 .katex-display > .base { margin: 0.25em 0 }
 /* Compensate by reducing space around display math */
 .katex-display { margin: 0.5em 0; }
+
+a.youtube-timestamp {
+    margin:0;
+    text-decoration: none;
+    border-bottom: solid 1px;
+    border-color: var(--secondary);
+}
+ 
+img.youtube-timestamp-icon {
+    display: inline;
+    margin:0;
+    margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    vertical-align: text-bottom;
+    opacity: 80%;
+    filter: invert(15%) sepia(92%) saturate(6817%) hue-rotate(0deg) brightness(109%) contrast(113%);
+}

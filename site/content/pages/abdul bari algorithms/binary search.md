@@ -23,12 +23,12 @@ lastMod: 2023-01-06
 
 You can do binary search recursively or iteratively
 
-[00:25](https://youtu.be/C2apEw9pgtw?t=25) binary search uses the divide and conquer strategy
+{{< ytime videoId="C2apEw9pgtw" start="25" time="00:25" >}} binary search uses the divide and conquer strategy
 Divide and conquer is breaking problem into subproblems, then combine them to get solution to main problem
 
-[00:50](https://youtu.be/C2apEw9pgtw?t=50) List must be in sorted order to perform binary search
+{{< ytime videoId="C2apEw9pgtw" start="50" time="00:50" >}} List must be in sorted order to perform binary search
 
-[01:17](https://youtu.be/C2apEw9pgtw?t=77) We need two index pointers, `low` and `high`
+{{< ytime videoId="C2apEw9pgtw" start="77" time="01:17" >}} We need two index pointers, `low` and `high`
 
 Suppose we want to search for key element 42 in this list
 
@@ -43,13 +43,13 @@ Suppose we want to search for key element 42 in this list
 
 The number at index 7 is 29
 
-[02:43](https://youtu.be/C2apEw9pgtw?t=163) The number 42 which we're searching for is greater than 29, so  the new `low` becomes `mid + 1`, which is 8;
+{{< ytime videoId="C2apEw9pgtw" start="163" time="02:43" >}} The number 42 which we're searching for is greater than 29, so  the new `low` becomes `mid + 1`, which is 8;
 
 Now `low` = 8 and `high` = `14`
 
 $\frac{8+14}{2} = 11$ so the new `mid` is 11
 
-[03:22](https://youtu.be/C2apEw9pgtw?t=202) The number at index 11 is 47
+{{< ytime videoId="C2apEw9pgtw" start="202" time="03:22" >}} The number at index 11 is 47
 
 The number 42 which we're searching for is less than `7`, so the new `high` becomes `mid - 1`, which is 10
 
@@ -59,15 +59,15 @@ $\frac{8+10}{2} = 9$ so the new `mid` is 9
 
 The number at index 9 is 36
 
-[04:03](https://youtu.be/C2apEw9pgtw?t=243) The number 42 which we're searching for is greater than 36, so  the new `low` becomes `mid + 1`, which is 10;
+{{< ytime videoId="C2apEw9pgtw" start="243" time="04:03" >}} The number 42 which we're searching for is greater than 36, so  the new `low` becomes `mid + 1`, which is 10;
 
 Now both `low` = 10 and `high`= 10
 
 $\frac{10+10}{2} = 10$ so the new `mid` is 10
 
-[04:44](https://youtu.be/C2apEw9pgtw?t=284) The number at index 10 is 42, which is the number we're searching for.
+{{< ytime videoId="C2apEw9pgtw" start="284" time="04:44" >}} The number at index 10 is 42, which is the number we're searching for.
 
-[04:52](https://youtu.be/C2apEw9pgtw?t=292)  How many comparisons have we done? 4
+{{< ytime videoId="C2apEw9pgtw" start="292" time="04:52" >}}  How many comparisons have we done? 4
 
 If we had been doing linear search it would have taken 11 comparisons
 
@@ -101,7 +101,7 @@ function binarySearch(array, key){
 
 ## Visualize as Binary Search Tree
 
-[13:35](https://youtu.be/C2apEw9pgtw?t=815) This can be arranged as a binary search tree
+{{< ytime videoId="C2apEw9pgtw" start="815" time="13:35" >}} This can be arranged as a binary search tree
 
 ![Screenshot 2022-12-16 at 7.10.15 PM.png](/assets/Screenshot_2022-12-16_at_7.10.15_PM_1671253829622_0.png)
 
@@ -111,7 +111,7 @@ If you don't find it, you'll search until you reach the bottom of the tree.
 
 The height of the tree is $log_2(n)$ where n is the number of elements
 
-[18:43](https://youtu.be/C2apEw9pgtw?t=1123) So if there are 16 elements then $log_2(16)=4$ , so the height of the tree is 4 levels and the worst case number of comparisons will be 4
+{{< ytime videoId="C2apEw9pgtw" start="1123" time="18:43" >}} So if there are 16 elements then $log_2(16)=4$ , so the height of the tree is 4 levels and the worst case number of comparisons will be 4
 
 So worst case is $O(log(n))$ and best case is $O(1)$, when the element you're looking for is the root.
 
@@ -154,11 +154,11 @@ function recursiveBinarySearch(array, key, low, high){
 
 ## Recurrence Relation
 
-[04:57](https://youtu.be/uEUXGcc2VXM?t=297) Calculating mid, checking if `mid` = `key`, and checking if `array[mid]` is greater or less than target each take one unit of time.
+{{< ytime videoId="uEUXGcc2VXM" start="297" time="04:57" >}} Calculating mid, checking if `mid` = `key`, and checking if `array[mid]` is greater or less than target each take one unit of time.
 
-[05:08](https://youtu.be/uEUXGcc2VXM?t=308) When calling the recursive function it called itself with $T(n/2)$
+{{< ytime videoId="uEUXGcc2VXM" start="308" time="05:08" >}} When calling the recursive function it called itself with $T(n/2)$
 
-[05:26](https://youtu.be/uEUXGcc2VXM?t=326) When list size is one, it just makes one comparation, so each is one unit of time
+{{< ytime videoId="uEUXGcc2VXM" start="326" time="05:26" >}} When list size is one, it just makes one comparation, so each is one unit of time
 
 $T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(\frac{n}{2})+1 & \text{when } n > 1 \end{cases}$
 
