@@ -42,7 +42,7 @@ blogtitle:: Newsletter Issue 9
 		- Prompt templates will be a way of creating shortcuts for common tasks such as summarization or translation.
 		- They will behave similarly to Logseq templates, where you can define them in plain text anywhere in your notes. Since they're just plain texts, users can share them with each other.
 		- I'll eventually include these in a modal popup, like other AI tools.
-		- [See more thoughts on writing prompts and prompt templates here]([[logseq-gpt-prompt-template]])
+		- [See more thoughts on writing prompts and prompt templates here]([[logseq-openai/prompt-template]])
 - # Large Language Models
 	- Large language models (LLMs) are AI tools that can perform a wide variety of tasks. LLMs can be used for both search and classification based on the meaning of the text and generating human-like text.
 	- They were trained by analyzing massive amounts of text collected from the internet

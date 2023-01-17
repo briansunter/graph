@@ -1,8 +1,6 @@
 - technical-blog-template
-  template:: technical-blog-template
+  template:: blog-template
   template-including-parent:: false
-  Sum
-	- Summarize this text:
 	- tags:: [[blog]]
 	  date::
 	- Introduction

@@ -1,6 +1,6 @@
 title:: newsletter/issue-4
 categories:: [[newsletter]]
-tags:: [[newsletter]] [[ai]] [[logseq]] [[logseq openai]]
+tags:: [[newsletter]] [[ai]] [[logseq]] [[logseq-openai/project]]
 categories:: [[newsletter]]
 name:: Newsletter 4
 start-date:: [[Jun 26th, 2022]]

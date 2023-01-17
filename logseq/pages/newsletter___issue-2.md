@@ -2,7 +2,7 @@ public:: true
 description:: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
 categories:: [[newsletter]]
 title:: newsletter/issue-2
-tags:: [[gpt3]] [[ai]] [[logseq openai]]
+tags:: [[gpt3]] [[ai]] [[logseq-openai/project]]
 start-date:: [[Jun 15th, 2022]]
 date:: 2022-06-19
 sent-date:: [[Jun 19th, 2022]]
@@ -28,7 +28,7 @@ blogtitle:: Newsletter Issue 2
 	- In this newsletter, I'll share some of the community's reactions to my new AI plugin, some thoughts on productivity, a few interesting reads from the week, and what I have for the next newsletter issue.
 - # Updates 🆕
 	- Here is some feedback for users on Twitter
-- # Feedback on [[logseq openai]] plugin
+- # Feedback on [[logseq-openai/project]] plugin
 	- This user summed up how I feel perfectly. Now that AI is part of my workflow, I want to keep it.
 	- As far as I know, there is nothing on the market similar to OpenAI's GPT3.
 	- {{twitter https://twitter.com/irace/status/1535056205441277962}}
