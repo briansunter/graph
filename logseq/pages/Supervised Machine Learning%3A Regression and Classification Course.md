@@ -52,6 +52,7 @@
 		- $f$ is called the model
 		- How do we represent $f$? A straight line is one way
 		- $f_{w,b}(x)=wx+b$
+		  id:: 63bcaa99-69da-4bbe-aaac-f78cae481c4d
 		- Simplified way of writing $f_{w,b}(x)$ is $f(x)$
 		- You can also use curves instead of straight lines.
 		- Another name for linear model with one variable is **univariate linear regression**
@@ -121,7 +122,10 @@
 		- ### Squared error cost function
 			- Most common cost function for regression problems
 			- $J(w,b) = \frac{1}{2n}\sum_{i=1}^{n}(\hat{y}^{(i)}- y^{(i)})^2$
-			- Also can be written as $J(w,b) = \frac{1}{2n}\sum_{i=1}^{n}(f_{w,b}(x) - y^{(i)})^2$
+			  id:: 63bcaa99-a838-4a22-99bc-0505d96cfa70
+			- Also can be written as
+			- $J(w,b) = \frac{1}{2n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})^2$
+			  id:: 63bd072e-7078-4c5f-ab08-c5cc6116a880
 	- ## Cost Function Intuition
 		- We want to find values for $w,b$ that fit the training data
 		- In other words, we want the line to go through the data points
@@ -205,5 +209,80 @@
 		      return total_cost
 		  ```
 	-
-	-
-	-
+- # Gradient Descent
+	- ### Gradient Descent Algorithm
+		- $w=w-\alpha\frac{\partial}{\partial w}J(w,b)$
+		- Update $w$, by taking the current w and update it a small amount
+		- Note that `=` is an assignment in this context, like in programming, and not a mathemetical equality assertation.
+		- $\alpha$ is the greek alphabet letter alpha. In this equation $\alpha$ is the learning rate
+		- The learning rate ($\alpha$) is usually a small positive number between 0 and 1, for example .01
+		- Alpha basically controls how big of a step you take down hill (in the 3d diagram)
+		- $\frac{\partial}{\partial w}J(w,b)$ is the derivative (from calculus) of the cost function $J$
+		- The model has two parameters, not just $w$ but also $b$, so we have a similar assignment operation
+		- $b=b-\alpha\frac{\partial}{\partial b}J(w,b)$
+		- For the gradient descent algorithm, you repeat both these equations until they converge
+		- Converges means you reach a point at the local minimum where w and b no longer change with each additional step you take
+		- You need to simultaneously update both paramaters
+		- Don't update one and then the other.
+		- You want the second update, for example updating b, to depend on the original value of w, and not the updated one.
+		- Think about "saving it" in a tmp variable
+		- $tmp_b=b-\alpha\frac{\partial}{\partial b}J(w,b)$
+		- $tmp_w=w-\alpha\frac{\partial}{\partial w}J(w,b)$
+		- $w=tmp_w$
+		- $b=tmp_b$
+	- ### Simplified Gradient Descent Example
+		- The original equation was a "partial derivitive", which is the derivative of a function with more than one variable.
+		- Consider a simplified form of gradient descent where we just minimize one parameter $w$, which is a regular derivative,
+		- $w=w-\alpha\frac{d}{d w}J(w)$
+		- We try to minimize the cost by adjust the parameter $w$ in $J(w)$
+		- When using only one parameter, we can look at a 2d graph of $J(w)$ instead of a 3D graph.
+		- ![Screenshot 2023-01-09 at 7.59.06 PM.png](../assets/Screenshot_2023-01-09_at_7.59.06_PM_1673330428278_0.png)
+		- We can initialize the gradient descent value with a value for $w$
+		- ![Screenshot 2023-01-09 at 8.02.22 PM.png](../assets/Screenshot_2023-01-09_at_8.02.22_PM_1673331111035_0.png)
+		- We can think of the derivative at this point by drawing a tangent line that touches the curve at the point
+		- ![Screenshot 2023-01-09 at 8.04.25 PM.png](../assets/Screenshot_2023-01-09_at_8.04.25_PM_1673331121177_0.png)
+		- What does $\frac{d}{d w}J(w)$ mean?
+		- The slope of this line is the derivative of $J(w)$ at this point, which we can find by drawing a triangle.
+		- If we compute the height divided by width of the triangle, we can get the slope
+		- ![Screenshot 2023-01-09 at 8.13.20 PM.png](../assets/Screenshot_2023-01-09_at_8.13.20_PM_1673331214488_0.png)
+		- For example, the slope might be 2 over 1. When the tangent is pointed up and to the right, the slope is positive
+		- So this means that $w=w-\alpha * (\text{positive number})$
+		- When we subtract a positive number from $w$, we get a new value that's smaller
+		- This means on the graph, we move to the left when we decrease the value of $w$
+		- This makes sense because we can see we get closer to the minimum value of $J(w)$ when we make $w$ smaller
+		- ![Screenshot 2023-01-09 at 8.11.33 PM.png](../assets/Screenshot_2023-01-09_at_8.11.33_PM_1673331237358_0.png)
+		- Let's look at another example, when we initialize the starting value to the left of the minimum
+		- When we look at the tangent line of this point, the tangent line is down and to the right, so the derivative is negative.
+		- ![Screenshot 2023-01-09 at 8.15.36 PM.png](../assets/Screenshot_2023-01-09_at_8.15.36_PM_1673331489169_0.png)
+		- In this case we're subtracting a negative number $w=w-\alpha * (\text{negative number})$
+		- This means that the value for $w$ becomes greater and we move to the right.
+		- Once again this makes sense because making $w$ larger is bringing the value of $J(w)$ closer to the minimum value.
+		- ![Screenshot 2023-01-09 at 8.19.25 PM.png](../assets/Screenshot_2023-01-09_at_8.19.25_PM_1673331579140_0.png)
+	- ### Learning rate $\alpha$
+		- Simplified gradient descent $w=w-\alpha\frac{d}{d w}J(w)$
+		- How to we choose a value for $\alpha$
+		- If the learning rate is too small, we take very small baby steps, and it takes many steps to make it to the minimum. The process will be slow, but it will make it to the minimum eventually
+		- If the learning rate is too large, we can overshoot the minimum, and a step could make the cost worse. We could keep overshooting back and forth and might never reach the minimum. In other words gradient descent may never "converge"
+		- What if we have multiple minimums, with a local minimum and also an even lower global minimum?
+		- ![Screenshot 2023-01-09 at 8.25.19 PM.png](../assets/Screenshot_2023-01-09_at_8.25.19_PM_1673331971153_0.png)
+		- If we're at a local minumum, the slope of the tangent line, $\frac{d}{d w}J(w)$ is 0
+		- ![Screenshot 2023-01-09 at 8.27.11 PM.png](../assets/Screenshot_2023-01-09_at_8.27.11_PM_1673332119968_0.png)
+		- So our function would be $w=w-\alpha*0$
+		- This means if we're already at a local minimum, the value of $w$ won't change
+		- Further gradient descent steps do nothing and won't change the value of $w$
+		- As we do gradient descent, when we approach the local minimum, the update steps get smaller and smaller.
+		- ![Screenshot 2023-01-09 at 8.30.44 PM.png](../assets/Screenshot_2023-01-09_at_8.30.44_PM_1673332261518_0.png)
+	- ### Gradient descent for linear regression
+		- The linear regression model is ((63bcaa99-69da-4bbe-aaac-f78cae481c4d))
+		- The squared error cost function is ((63bd072e-7078-4c5f-ab08-c5cc6116a880))
+		- The gradient descent algorithm is:
+			- $w=w-\alpha\frac{\partial}{\partial w}J(w,b)$
+			- $b=b-\alpha\frac{\partial}{\partial b}J(w,b)$
+			- Repeating until convergence
+		- If you calculate these derivatives, you get
+			- $\frac{\partial}{\partial w}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})x^{(i)}$
+			- $\frac{\partial}{\partial b}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$
+			- These are derived using calculus
+			-
+		-
+		-

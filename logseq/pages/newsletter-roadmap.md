@@ -11,9 +11,9 @@ date:: 2022-07-10
 	- Intro [[newsletter]]
 	- More about what I'm doing
 	- Starting my public graph [[homepage]]
-	- Introducing my [[logseq openai]]
+	- Introducing my [[logseq-openai/project]]
 - ## Newsletter Project  [[newsletter/issue-2]]  [[Jun 19th, 2022]]
-	- feedback on [[logseq openai]]
+	- feedback on [[logseq-openai/project]]
 	- launching my [[get-youtube-subtitles]] plugin
 - ## Getting started with logseq [[newsletter/issue-3]] [[Jun 26th, 2022]]
 	- [[get-youtube-subtitles]]

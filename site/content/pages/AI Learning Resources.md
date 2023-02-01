@@ -11,7 +11,7 @@ coverimage: /assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 showtoc: true
 tocopen: true
 title: AI Learning Resources
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 <style>.toc ul ul { display:none;}</style>
 

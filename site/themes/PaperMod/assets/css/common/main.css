@@ -74,6 +74,8 @@ pre:hover .copy-code {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
  }
 .substack-signup p {
     margin: 16px 16px;;

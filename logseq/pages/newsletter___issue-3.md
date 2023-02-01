@@ -23,7 +23,7 @@ blogtitle:: Newsletter Issue 3
 		- There is a lot of good content on YouTube, but I need help remembering. This plugin helps you study videos and works well for podcasts on YouTube.
 		- The plugin inserts all spoken words from the video as text directly underneath the video link in your notes.
 		- {{tweet https://twitter.com/Bsunter/status/1537107686973616128}}
-		- Feeding the captions text into my [[logseq openai]] plugin works incredibly well to summarize the video and clean up the wording of the captions. I use it to get a video summary before watching it too.
+		- Feeding the captions text into my [[logseq-openai/project]] plugin works incredibly well to summarize the video and clean up the wording of the captions. I use it to get a video summary before watching it too.
 		- {{tweet https://twitter.com/Bsunter/status/1537115206412664833}}
 		- {{tweet https://twitter.com/Bsunter/status/1537117777038757889?s=20&t=UF0uesVqejHbVuGVLoi2Gg}}
 	- ## [[omnivore-logseq-guide]]

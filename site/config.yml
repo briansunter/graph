@@ -2,6 +2,7 @@ baseURL: https://briansunter.com/
 languageCode: en-us
 title: Brian Sunter
 theme: "PaperMod"
+timeout: 60s
 markup:
   goldmark:
     renderer:

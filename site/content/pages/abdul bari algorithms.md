@@ -13,7 +13,7 @@ description: One of the best introductory courses on algorithms. It's thorough, 
 blogtitle: Abdul Bari Algorithms Course
 math: true
 title: abdul bari algorithms
-lastMod: 2023-01-06
+lastMod: 2023-01-18
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 
@@ -130,3 +130,15 @@ Heap Sort
 Heapify
 
 Priority Queue
+
+# Merge Sort
+
+**Notes:** [[abdul bari algorithms/merge sort]]
+
+Merge list
+
+2 way merge
+
+k-way merge
+
+Iterative Merge sort

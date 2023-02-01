@@ -6,7 +6,7 @@ sent-date:
 site-hits: 0
 tags:
 - logseq
-- logseq openai
+- logseq-openai/project
 - programming
 - newsletter
 blogtitle: Newsletter Issue 1
@@ -21,7 +21,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 description: Launching my newsletter, public graph, and logseq gpt3 AI plugin
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ## Summary and Reflection 🤔
 

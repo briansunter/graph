@@ -6,6 +6,7 @@
 {{ end }}
 
 {{ if $image }}
+  {{ if ne $outputFormat "gif" }}
   {{ if gt $image.Width 1000 }}
     {{ $resizeOptions := printf "1000x %s" $outputFormat }}
     {{ $image = $image.Resize $resizeOptions }}
@@ -13,6 +14,7 @@
     {{ $resizeOptions := printf "%dx%d %s" $image.Width $image.Height $outputFormat }}
     {{ $image = $image.Resize $resizeOptions }}
   {{ end }}
+{{ end }}
   {{$imageLink = $image.RelPermalink}}
 {{ end }}
 {{ return $imageLink }}
