@@ -2,7 +2,7 @@
 {{- if (and .Params.coverimage (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 <figure class="entry-cover">
-    {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default true }}
+    {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default false }}
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
     {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.coverimage)) }}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}

@@ -12,7 +12,7 @@ date: 2022-11-26
 coverimage: /assets/stop_1672218528540_0.jpg
 profile-visits: 27500
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![stop.jpg](/assets/stop_1672218528540_0.jpg)
 
@@ -64,7 +64,7 @@ They will behave similarly to Logseq templates, where you can define them in pla
 
 I'll eventually include these in a modal popup, like other AI tools.
 
-[See more thoughts on writing prompts and prompt templates here]({{< sref "/pages/logseq-gpt-prompt-template" >}})
+[See more thoughts on writing prompts and prompt templates here]({{< sref "/pages/logseq-openai/prompt-template" >}})
 
 # Large Language Models
 

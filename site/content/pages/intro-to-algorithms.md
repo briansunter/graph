@@ -7,7 +7,7 @@ description: What is an algorithm? And why are algorithms important? This guide 
 blogtitle: Intro to Algorithms
 title: intro-to-algorithms
 categories:
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 # Introduction
 

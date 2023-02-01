@@ -7,7 +7,7 @@ tags:
 - newsletter
 - ai
 - logseq
-- logseq openai
+- logseq-openai/project
 blogtitle: Newsletter Issue 4
 tweet-impressions: 211000
 categories:
@@ -21,7 +21,7 @@ start-date:
 - Jun 26th, 2022
 profile-visits: 42200
 description: This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![image.png](/assets/image_1662087305440_0.png)
 

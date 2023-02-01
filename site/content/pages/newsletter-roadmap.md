@@ -4,7 +4,7 @@ tags:
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 This is the content plan for my [[newsletter]]
 The dates are only rough guidelines, this is more of a content ordering and flow
@@ -18,11 +18,11 @@ More about what I'm doing
 
 Starting my public graph [[homepage]]
 
-Introducing my [[logseq openai]]
+Introducing my [[logseq-openai/project]]
 
 ## Newsletter Project  [newsletter/issue-2]({{< sref "/pages/newsletter/issue-2" >}})  [[Jun 19th, 2022]]
 
-feedback on [[logseq openai]]
+feedback on [[logseq-openai/project]]
 
 launching my [[get-youtube-subtitles]] plugin
 

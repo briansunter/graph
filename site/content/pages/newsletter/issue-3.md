@@ -19,7 +19,7 @@ coverimage: /assets/get-youtube-captions_1672134947975_0.jpg
 start-date:
 - Jun 23rd, 2022
 description: This week, I wrote a few guides. I released a new plugin to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![get-youtube-captions.jpg](/assets/get-youtube-captions_1672134947975_0.jpg)
 
@@ -39,7 +39,7 @@ The plugin inserts all spoken words from the video as text directly underneath t
 
 {{< tweet user="Bsunter" id="1537107686973616128" >}}
 
-Feeding the captions text into my [[logseq openai]] plugin works incredibly well to summarize the video and clean up the wording of the captions. I use it to get a video summary before watching it too.
+Feeding the captions text into my [[logseq-openai/project]] plugin works incredibly well to summarize the video and clean up the wording of the captions. I use it to get a video summary before watching it too.
 
 {{< tweet user="Bsunter" id="1537115206412664833" >}}
 

@@ -6,7 +6,7 @@ sent-date:
 tags:
 - gpt3
 - ai
-- logseq openai
+- logseq-openai/project
 blogtitle: Newsletter Issue 2
 categories:
 - newsletter
@@ -17,7 +17,7 @@ coverimage: /assets/kubernetes-gpt_1672123546658_0.jpeg
 start-date:
 - Jun 15th, 2022
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![kubernetes-gpt.jpeg](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 
@@ -49,7 +49,7 @@ In this newsletter, I'll share some of the community's reactions to my new AI pl
 
 Here is some feedback for users on Twitter
 
-# Feedback on [[logseq openai]] plugin
+# Feedback on [[logseq-openai/project]] plugin
 
 This user summed up how I feel perfectly. Now that AI is part of my workflow, I want to keep it.
 

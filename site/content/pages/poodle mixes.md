@@ -7,7 +7,7 @@ description: With a few examples of poodle mixes, it is able to generate names f
 coverimage: /assets/sheepadoodle_1672271478535_0.png
 title: poodle mixes
 categories:
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![sheepadoodle.png](/assets/sheepadoodle_1672271478535_0.png)
 

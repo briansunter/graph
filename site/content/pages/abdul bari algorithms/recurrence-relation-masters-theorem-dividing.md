@@ -13,7 +13,7 @@ date: 2023-01-05
 coverimage: /assets/recurrence-dividing_1673047600738_0.jpeg
 description: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 title: abdul bari algorithms/recurrence-relation-masters-theorem-dividing
-lastMod: 2023-01-06
+lastMod: 2023-01-17
 ---
 ![recurrence-dividing.jpeg](/assets/recurrence-dividing_1673047600738_0.jpeg)
 
