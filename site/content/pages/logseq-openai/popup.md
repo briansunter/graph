@@ -17,7 +17,7 @@ I updated the [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugi
 
 There are three modes: **custom commands**, **built-in commands**, and **user-defined commands**.
 
-There's a way for the community to contribute useful commands to the plugin.
+There's also a way for the community to contribute useful commands to the plugin for everyone to use.
 
 # Background
 
@@ -31,11 +31,15 @@ There have been a few "AI writer" integrations in existing tools like Notion and
 
 These tools are nice and have good user interfaces but have some limitations for personal notetaking use cases and for power users. I wanted something that was pay-as-you-go instead of subscription-based, allowed a lot of customizability, and allowed users to share prompts with each other.
 
+The plugin is free and open source but uses OpenAI's API, which does charge per API request; however, using their API directly with your key is much cheaper than any commercial option.
+
 # Getting started
 
 Go to the logseq plugin marketplace and search for "openai" or update the plugin to get the latest version.
 
 ![Screenshot 2023-01-31 at 1.47.24 PM.png](/assets/Screenshot_2023-01-31_at_1.47.24_PM_1675208862852_0.png)
+
+Sign up for an [OpenAI API key](https://platform.openai.com/account/api-keys) if you don't already have one, and add it in the plugin settings.
 
 Press `CMD+g` to open the GPT-3 popup.
 

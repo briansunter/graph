@@ -1,4 +1,4 @@
-- 🚀 Fetching articles ...
+- ## 🔖 Articles
 	- [Learn Exponentially](https://omnivore.app/me/learn-exponentially-183bd8decb8)
 	  collapsed:: true
 	  site:: [Save All](https://saveall.ai/blog/learn-exponentially)

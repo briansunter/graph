@@ -64,3 +64,9 @@ math:: true
 	- Heap Sort
 	- Heapify
 	- Priority Queue
+- # Merge Sort
+	- **Notes:** [[abdul bari algorithms/merge sort]]
+	- Merge list
+		- 2 way merge
+		- k-way merge
+	- Iterative Merge sort
