@@ -11,7 +11,7 @@ date: 2023-01-31
 description: I updated the Logseq GPT-3 OpenAI plugin to have a popup UI and support user-defined commands.
 blogtitle: Logseq GPT-3 OpenAI Popup
 title: logseq-openai/popup
-lastMod: 2023-01-31
+lastMod: 2023-02-01
 ---
 I updated the [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to include a popup window to perform AI tasks powered by OpenAI's GPT-3 in Logseq.
 
@@ -69,7 +69,7 @@ If you're in an empty block, you can ask it to perform a task without input.
 
 ## Built-in commands
 
-There are several built-in commands for common use cases
+There are many built-in commands for common use cases
 
 ![built in commands autoplay](/assets/built-in-prompt-templates_1674096790451_0_1675214113992_0.mp4)
 
@@ -135,6 +135,18 @@ Indent a block underneath the prompt template block that contains a code block o
 
 These can be written anywhere in your notes and they'll be detected in the popup (like logseq templates)
 
+### Language flash cards
+
+Here's an example of making language learning flashcards from a YouTube transcript.
+
+![FmccSaQakAM6JF_.jpeg](/assets/FmccSaQakAM6JF_1675294552245_0.jpeg)
+
+![chinese flashcards autoplay](/assets/2023-01-13_14.20.49_1675294883999_0.mp4)
+
+### Student teacher dialog example
+
+This is an example of defining a custom prompt to rewrite a piece of text as a dialog between a student and teacher.
+
 ![Screenshot 2023-01-31 at 1.55.21 PM.png](/assets/Screenshot_2023-01-31_at_1.55.21_PM_1675209353980_0.png)
 
 {{< logseq/orgSRC >}}- # Student Teacher Dialog
@@ -143,10 +155,6 @@ These can be written anywhere in your notes and they'll be detected in the popup
      Rewrite the following text as a dialog between a teacher and a student:
      ```
 {{< / logseq/orgSRC >}}
-
-### Student teacher dialog example
-
-This is an example of defining a custom prompt to rewrite a piece of text as a dialog between a student and teacher. After you write the
 
 ![user-prompt autoplay](/assets/user-prompt_1675204065803_0.mp4)
 

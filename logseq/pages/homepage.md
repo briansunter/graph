@@ -14,6 +14,8 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
+	- [[newsletter/issue-10]]
+	- [[logseq-openai/popup]]
 	- [[books read in 2022]]
 	- [[newsletter/issue-9]]
 	- [[project-template]]
