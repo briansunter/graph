@@ -31,7 +31,7 @@ I'm glad I set up a custom domain name: [newsletter.briansunter.com](https://new
 
 If I had shared the links using the default `revue.co` domain, all those links would have been broken now that Revue shut down. Since I used my `briansunter.com` domain, the links I shared earlier still work and now direct to Substack.
 
-This was a good lesson on the benefits of owning your domain name and subscribers: you can switch platforms later if necessary. I don't like my content being locked into a domain I don't control, like  [twitter.com/bsunter](https://twitter.com/bsunter), `bsunter.substack.com`, `bsunter.medium.com`, etc. There's always a chance services will become degrade, become unfashionable or be shut down, but I've been using [briansunter.com](https://briansunter.com) since 2010, for 13 years now.
+This was a good lesson on the benefits of owning your domain name and subscribers: you can switch platforms later if necessary. I don't like my content being locked into a domain I don't control, like  [twitter.com/bsunter](https://twitter.com/bsunter), `bsunter.substack.com`, `bsunter.medium.com`, etc. There's always a chance services like these will degrade, become unfashionable, or be shut down, but I've been using [briansunter.com](https://briansunter.com) since 2010 for 13 years now.
 
 Another benefit of the personal newsletter format is the ability to migrate your followers. If you want to move away from social networks like Twitter or YouTube, then you lose the entire audience you built there. Since I can export the newsletter's subscriber list, it was relatively straightforward to migrate you all to Substack.
 
@@ -53,13 +53,13 @@ There's also a way for the community to contribute useful commands to the plugin
 
 Just hit `cmd+g` while your cursor is in a text block to activate the plugin.
 
-### Custom commands
+## Custom commands
 
 After you open the popup, you can ask the AI to perform a task by typing any command in the popup. If your cursor is in a text box, it will use that text as context for the command.
 
-For example, if you have a block of text and want to generate question-and-answer flashcards to help you remember important points, you could type
-
 ### Flash cards
+
+For example, if you have a block of text and want to generate question-and-answer flashcards to help you remember important points, you could type
 
 > create flash cards based on the following text:
 
@@ -75,7 +75,7 @@ If your cursor is in an empty block, you can ask it to perform a task without in
 
 This often gives me better, more direct results than searching on Google
 
-### Built-in commands
+## Built-in commands
 
 There are many built-in commands for common use cases such as:
 
@@ -99,7 +99,7 @@ Here are some demos:
 
 ![common-objections autoplay](/assets/common-objections_1674095797741_0_1675214273662_0.mp4)
 
-### User-defined commands
+## User-defined commands
 
 You can define your own commands to show up in the popup.
 
@@ -115,7 +115,7 @@ You can then activate the popup and your custom commands will show up
 
 
 
-### Preview, Insert, and Replace
+## Preview, Insert, and Replace
 
 After you hit enter to run a command, the popup will show you a preview of the result from GPT-3, so you can decide if you want to insert the result into your notes.
 
@@ -123,7 +123,7 @@ After you hit enter to run a command, the popup will show you a preview of the r
 
 From here, you can either insert the AI output underneath the current block, or replace the input text with the AI result.
 
-You can also hit "regenerate" to rerun the command and get a new output. The result of the AI commands is different each time, and sometimes the first try doesn't give the best result.
+You can also hit "regenerate" to rerun the command and get a new output. The result of the AI commands differs each time, and sometimes the first try doesn't give the best result.
 
 I wrote a [full blog post on the plugin here]({{< sref "/pages/logseq-openai/popup" >}}) if you want to learn more
 
@@ -149,6 +149,6 @@ For interview style podcasts, you can use the GPT-3 plugin to add which speaker 
 
 ![dialog.png](/assets/dialog_1675384470274_0.png)
 
-I've also been using YouTube for language learning and studying Chinese. Still, understanding native content is extremely challenging, so before I watch the video, I sometimes download the transcripts and run some GPT-3 commands on it. I can get a summary of the video in English, identify important phrases, extract uncommon words, and create flashcards based on the video. Then, when I watch the video, I understand much more.
+I've also been using YouTube for language learning and studying Chinese. Understanding native content in a foreign language is extremely challenging, so before I watch the video, I often download the video captions and run some GPT-3 commands. I can get a summary of the video in English, identify important phrases, extract uncommon words, and create flashcards based on the video. Then, when I watch the video, I understand much more.
 
 There is so much good educational content on YouTube, and taking notes on videos is one of my favorite use cases for Logseq.
