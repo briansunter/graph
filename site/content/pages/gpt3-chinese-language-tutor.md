@@ -8,7 +8,7 @@ description: Can you create a special purpose tutoring chat bot to teach yoursel
 coverimage: /assets/chinese-robot_1672272679577_0.jpg
 title: gpt3-chinese-language-tutor
 categories:
-lastMod: 2023-01-17
+lastMod: 2023-02-02
 ---
 ![chinese-robot.jpg](/assets/chinese-robot_1672272679577_0.jpg)
 

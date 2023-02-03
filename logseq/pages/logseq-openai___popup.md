@@ -34,7 +34,7 @@ blogtitle:: Logseq GPT-3 OpenAI Popup
 	- > What topics should I study to understand deep learning?
 	- ![custom autoplay](../assets/2023-01-18_16.22.13_1674095036177_0_1675214083513_0.mp4)
 - ## Built-in commands
-	- There are several built-in commands for common use cases
+	- There are many built-in commands for common use cases
 	- ![built in commands autoplay](../assets/built-in-prompt-templates_1674096790451_0_1675214113992_0.mp4)
 	- Some of the built-in prompts include:
 		- Summarize Text
@@ -53,7 +53,7 @@ blogtitle:: Logseq GPT-3 OpenAI Popup
 		- Translate to other languages
 	- Here are some demos of the built-in commands:
 	- ### Summarize text
-		- ![summarize.gif](../assets/summarize_1674095683669_0.gif)
+		- ![summarize.gif](../assets/summarize_1674095683669_0.gif){:height 243, :width 311}
 	- ### Create outline of text
 		- ![outline autoplay](../assets/outline2_1674095716959_0_1675214186883_0.mp4)
 	- ### Most important ideas in a text
@@ -67,16 +67,20 @@ blogtitle:: Logseq GPT-3 OpenAI Popup
 		- Create a block with a property `prompt-template:: Template Name`
 		- Indent a block underneath the prompt template block that contains a code block of type `prompt` (triple backticks followed by the word `prompt`)
 		- These can be written anywhere in your notes and they'll be detected in the popup (like logseq templates)
-		- ![Screenshot 2023-01-31 at 1.55.21 PM.png](../assets/Screenshot_2023-01-31_at_1.55.21_PM_1675209353980_0.png)
-		- #+BEGIN_SRC
-		  - # Student Teacher Dialog
-		    prompt-template:: Student Teacher Dialog
-		    -  ```prompt
-		       Rewrite the following text as a dialog between a teacher and a student:
-		       ```
-		  #+END_SRC
+	- ### Language flash cards
+		- Here's an example of making language learning flashcards from a YouTube transcript.
+		- ![FmccSaQakAM6JF_.jpeg](../assets/FmccSaQakAM6JF_1675294552245_0.jpeg)
+		- ![chinese flashcards autoplay](../assets/2023-01-13_14.20.49_1675294883999_0.mp4)
 	- ### Student teacher dialog example
-		- This is an example of defining a custom prompt to rewrite a piece of text as a dialog between a student and teacher. After you write the
+		- This is an example of defining a custom prompt to rewrite a piece of text as a dialog between a student and teacher.
+		- ![Screenshot 2023-01-31 at 1.55.21 PM.png](../assets/Screenshot_2023-01-31_at_1.55.21_PM_1675209353980_0.png)
+	- #+BEGIN_SRC
+	  - # Student Teacher Dialog
+	    prompt-template:: Student Teacher Dialog
+	    -  ```prompt
+	       Rewrite the following text as a dialog between a teacher and a student:
+	       ```
+	  #+END_SRC
 		- ![user-prompt autoplay](../assets/user-prompt_1675204065803_0.mp4)
 - ## Preview
 	- After you hit enter to run a command, the popup will show you a preview of the result from GPT-3, so you can decide if you want to insert the result into your notes

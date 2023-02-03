@@ -17,7 +17,7 @@ coverimage: /assets/image_1657488579000_0_1672131763262_0.png
 start-date:
 - Jul 6th, 2022
 description: Algorithms Bootcamp and the Elon Musk Controversy
-lastMod: 2023-01-17
+lastMod: 2023-02-02
 ---
 # Summary and Reflection 🤔
 

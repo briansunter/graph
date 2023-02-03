@@ -7,7 +7,7 @@ description: An outline of topics to study machine learning, suggested by GPT
 blogtitle: Machine Learning Study Guide Outline
 title: machine learning study guide
 categories:
-lastMod: 2023-01-17
+lastMod: 2023-02-02
 ---
 This is a study guide for understanding machine learning and gpt3]]
 
