@@ -34,6 +34,7 @@
 
 {{- if and .IsHome .Site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
+<h2 class="home-title"> Blog </h2>
 {{- end }}
 
 {{- $term := .Data.Term }}

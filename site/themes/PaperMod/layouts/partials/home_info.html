@@ -4,7 +4,7 @@
         <h1>{{ .Params.blogtitle | default .Title | markdownify }}</h1>
     </header>
     <section class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
+        {{ partial "about-me.html" $ }}
     </section>
     <footer class="entry-footer">
         {{ partial "social_icons.html" $.Site.Params.socialIcons }}

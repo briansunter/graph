@@ -1,7 +1,9 @@
 <div class="social-icons">
+    <h2 class="social-title">Social Profiles</h2>
     {{- range . }}
     <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">
         {{ partial "svg.html" . }}
     </a>
     {{- end }}
+    </h2>
 </div>
