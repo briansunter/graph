@@ -1,9 +1,7 @@
 - # Overview
-  collapsed:: true
 	- Machine learning is a method of teaching computers to do things without explicit programming.
 	- AI and machine learning is estimated to create an additional 13 trillion US dollars of value annually by the year 2030
 - # Supervised vs Unsupervised Learning
-  collapsed:: true
 	- In the 1950s Arthur Samual wrote a program that played checkers against itself
 	- There two main types of machine learning are supervised learning and unsupervised learning.
 	- ## Supervised Learning
@@ -27,13 +25,13 @@
 	- ## Jupyter Notebooks
 		- Environment to code and experiment with machine learning
 - # Linear Regression Model
-  collapsed:: true
 	- ![Screenshot 2022-12-16 at 9.00.47 PM.png](../assets/Screenshot_2022-12-16_at_9.00.47_PM_1671260482431_0.png)
 	- Linear regression model is fitting a straight line to your data
 	- Example: predicting the price of the house based on the size of the house
 	- Regression models predicts numbers
 	- supervised learning model data has "right answers"
 	- ![Screenshot 2022-12-16 at 9.03.50 PM.png](../assets/Screenshot_2022-12-16_at_9.03.50_PM_1671260696651_0.png)
+	  id:: 63dc7846-f4c2-44d4-8ad2-e1e4fb194d25
 	- ## Terminology
 		- ![Screenshot 2022-12-16 at 9.09.39 PM.png](../assets/Screenshot_2022-12-16_at_9.09.39_PM_1671261010722_0.png)
 		- ### Training Set
@@ -45,7 +43,6 @@
 				- (x,y) = single training example
 				- $(x^{(i)}, y^{(i)})$ = ith training example, 1st, 2nd, third etc.
 - # Regression Model
-  collapsed:: true
 	- ## Linear Regression With One Variable
 		- **Training set** includes input features and output targets
 		- You feed the training set into the learning algorithm, and it produces a function, which takes a new input and output an estimate or prediction.
@@ -64,7 +61,6 @@
 		- NumPy is a popular library for scientific computing
 		- Matplotlib is a popular library for plotting data
 		- ### Python String Formatting
-		  collapsed:: true
 			- ```python
 			  name = 'John'
 			  age = 21
@@ -79,7 +75,6 @@
 			   "I have {} apples and {} oranges".format(2, 3)
 			  ```
 		- ### Matplotlib scatter plot
-		  collapsed:: true
 			- The function arguments `marker` and `c` show the points as red crosses (the default is blue dots).
 			- ```python
 			  import matplotlib.pyplot as plt
@@ -95,7 +90,6 @@
 			  ```
 			- ![Screenshot 2022-12-16 at 10.03.30 PM.png](../assets/Screenshot_2022-12-16_at_10.03.30_PM_1671264233630_0.png)
 		- ### Matplotlib line plot
-		  collapsed:: true
 			- ```python
 			  tmp_f_wb = compute_model_output(x_train, w, b,)
 			  
@@ -216,7 +210,6 @@
 	-
 - # Gradient Descent
 	- ## Gradient Descent Algorithm
-	  collapsed:: true
 		- $w=w-\alpha\frac{\partial}{\partial w}J(w,b)$
 		- Update $w$, by taking the current w and update it a small amount
 		- Note that `=` is an assignment in this context, like in programming, and not a mathemetical equality assertation.
@@ -237,7 +230,6 @@
 		- $w=tmp_w$
 		- $b=tmp_b$
 	- ## Simplified Gradient Descent Example
-	  collapsed:: true
 		- The original equation was a "partial derivitive", which is the derivative of a function with more than one variable.
 		- Consider a simplified form of gradient descent where we just minimize one parameter $w$, which is a regular derivative,
 		- $w=w-\alpha\frac{d}{d w}J(w)$
@@ -266,7 +258,6 @@
 		- Once again this makes sense because making $w$ larger is bringing the value of $J(w)$ closer to the minimum value.
 		- ![Screenshot 2023-01-09 at 8.19.25 PM.png](../assets/Screenshot_2023-01-09_at_8.19.25_PM_1673331579140_0.png)
 	- ## Learning rate $\alpha$
-	  collapsed:: true
 		- Simplified gradient descent $w=w-\alpha\frac{d}{d w}J(w)$
 		- How to we choose a value for $\alpha$
 		- If the learning rate is too small, we take very small baby steps, and it takes many steps to make it to the minimum. The process will be slow, but it will make it to the minimum eventually
@@ -310,24 +301,6 @@
 			- Gradient descent can lead to a local minimum if there are diffirent minimums
 			- Squared cost error function has a bowl shape, a convex function, so there will be no local minimum, only a single global minimum
 			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-			-
-		-
-		-
 	- ## Running gradient descent
 		- Plotting the line along data with various cost functions of w and b
 		- You can see the cost functions near the center circle match the data better
