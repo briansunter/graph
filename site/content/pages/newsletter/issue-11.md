@@ -4,10 +4,10 @@ tags:
 - reading
 categories:
 - newsletter
-coverimage: /assets/Screenshot_2023-02-02_at_1.42.14_PM_1675381393942_0.png
+coverimage: /assets/honolulu_1676694313546_0.jpg
 date: 2023-02-17
 description: Moving to Hawaii
-blogtitle: Newsletter Issue 11 - Moving to Hawaii
+blogtitle: Newsletter 11 - Moving to Hawaii and Fitness
 url: /newsletter/issue-11
 title: newsletter/issue-11
 lastMod: 2023-02-21
