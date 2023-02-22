@@ -10,21 +10,7 @@ description:: Logseq GPT-3 OpenAI popup, YouTube captions plugin updates, and mi
 blogtitle:: Newsletter Issue 10
 url:: /newsletter/issue-10
 
-- [[newsletter-roadmap]] template  
-  template:: newsletter roadmap
-  template-including-parent:: false
-	- Updates
-		-
-	- Productivity Toolkit
-		-
-	- Brain Food
-		- Quote
-			-
-		- Link
-			-
-tags:: [[newsletter]]
-
-- [[newsletter/template]]
+- [[newsletter/template]] 
   template-including-parent:: false
 	- title:: 
 	  type:: [[newsletter]]

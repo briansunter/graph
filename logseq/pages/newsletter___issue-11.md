@@ -3,8 +3,8 @@ tags:: [[newsletter]]  [[reading]]
 categories:: [[newsletter]]
 coverimage:: /assets/honolulu_1676694313546_0.jpg
 date:: 2023-02-17
-description:: Moving to Hawaii
-blogtitle:: Newsletter 11 - Moving to Hawaii and Fitness
+description:: Some thoughts on moving to Hawaii and what I'm doing to improve my fitness
+blogtitle:: Newsletter 11 - Moving to Hawaii and Fitness Routine
 url:: /newsletter/issue-11
 
 - ![Drone view of honolulu](../assets/honolulu_1676694313546_0.jpg)
@@ -14,7 +14,7 @@ url:: /newsletter/issue-11
 	- ![Christmas at the beach](../assets/EB84C71D-598E-46F0-8A16-41D4CC705870_1_201_a_1676695287535_0.jpeg)
 	- After two years of working from home in a small one-bedroom apartment during the strict SF lockdowns, we both craved more time outdoors and a chance to have fun. My main goals since moving to Hawaii have been to spend as much time as possible outside, get fit and healthy, learn new skills, and work on some new projects. It took a little while to feel settled here, but we finally found a great apartment near the beach and are starting to feel established.
 	- One of my favorite things about living in Hawaii is the weather. It's always perfect, which has been greatly improving our well-being. Over the last two years, we spent so much time cooped up indoors that being outside has been rejuvenating. The temperature ranges from 63-85°F (17-29°C), which means we can wear shorts and T-shirts all year round.
-		- ![Brian at the beach](../assets/IMG_7983_(1)_1676695639133_0.jpeg)
+		- ![Brian at the beach](../assets/IMG_7983_1676695639133_0.jpeg)
 	- As someone who grew up in Florida, I love warm weather, but not the extreme heat and storms. San Francisco had good weather overall, but it could be chilly, foggy, and rainy, which made it hard to motivate myself to go outside sometimes. I've been taking long walks for hours here in Hawaii, enjoying the scenery, and reading outside. I love going on a long walks in the evening without needing a jacket.
 	- The outdoors in Hawaii are spectacular. We're constantly reminded that we're not in an ordinary place by the unique scenery around us. The volcanic ridges in the distance are particularly striking, and we have a good view of them from our apartment. I love watching the clouds and mist pass over them, and I've never seen so many rainbows.
 		- ![A2DB81CB-32D2-431F-8B94-3F86694B329C_1_105_c.jpeg](../assets/A2DB81CB-32D2-431F-8B94-3F86694B329C_1_105_c_1676932322748_0.jpeg)

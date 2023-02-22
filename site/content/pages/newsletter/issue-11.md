@@ -6,8 +6,8 @@ categories:
 - newsletter
 coverimage: /assets/honolulu_1676694313546_0.jpg
 date: 2023-02-17
-description: Moving to Hawaii
-blogtitle: Newsletter 11 - Moving to Hawaii and Fitness
+description: Some thoughts on moving to Hawaii and what I'm doing to improve my fitness
+blogtitle: Newsletter 11 - Moving to Hawaii and Fitness Routine
 url: /newsletter/issue-11
 title: newsletter/issue-11
 lastMod: 2023-02-21
@@ -26,7 +26,7 @@ After two years of working from home in a small one-bedroom apartment during the
 
 One of my favorite things about living in Hawaii is the weather. It's always perfect, which has been greatly improving our well-being. Over the last two years, we spent so much time cooped up indoors that being outside has been rejuvenating. The temperature ranges from 63-85°F (17-29°C), which means we can wear shorts and T-shirts all year round.
 
-![Brian at the beach](/assets/IMG_7983_(1)_1676695639133_0.jpeg)
+![Brian at the beach](/assets/IMG_7983_1676695639133_0.jpeg)
 
 As someone who grew up in Florida, I love warm weather, but not the extreme heat and storms. San Francisco had good weather overall, but it could be chilly, foggy, and rainy, which made it hard to motivate myself to go outside sometimes. I've been taking long walks for hours here in Hawaii, enjoying the scenery, and reading outside. I love going on a long walks in the evening without needing a jacket.
 

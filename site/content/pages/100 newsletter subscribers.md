@@ -53,7 +53,7 @@ revue
 
 [comparison-template]({{< sref "/pages/comparison-template" >}})
 
-[newsletter/template]({{< sref "/pages/newsletter/template" >}})
+newsletter/template
 
 ## Habits [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
 
