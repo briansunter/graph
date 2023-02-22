@@ -167,6 +167,31 @@
 	- $log_2(2)=k$
 	- {{youtube-timestamp 1181}} case 2 of masters theorem
 	- Whatever f(n) is, multiply it by log(n), therefore $O(n*log(n))$
-	-
-	-
-	-
+- # Analysis
+	- {{video https://youtu.be/ak-pz7tS5DE}}
+	- ## Pros and cons of merge sort
+		- ### Pros
+			- #### {{youtube-timestamp 30}} Good for very large lists
+				- no other merges can handle this
+			- #### {{youtube-timestamp 124}} Good for linked list
+				- It uses merging, which works well for linked lists
+				- can merge by adjusting the links, without creating new lists
+			- #### External sorting
+				- {{youtube-timestamp 205}} Can sort big files, like multi gb, by shuffling values into main memory, then putting them into a third file
+			- #### Stable
+				- {{youtube-timestamp 317}} consider when values are duplicated
+					- `[8,6,4,3,8,5,9]`
+					- More important for records that are "equal" but different
+					- For example a list of records of students with their grades
+					- If they're in a certain order in the original list, like two students with the same grade, they should remain in that order when sorted, even if they're equal
+		- ### Cons
+			- #### {{youtube-timestamp 446}}  Extra space
+				- Not in place sort
+				- It requires extra space where the result has to be kept in a separate array
+			- #### {{youtube-timestamp 527}} Slower for small lists
+				- For example, insertion sort takes $O(n^2)$ and merge sort takes $O(nlog(n))$
+				- However, when benchmarking we've found that insertion sort is faster
+				- Insertion sort is faster when n < 15, also insertion sort is stable
+				- Bubble sort is also stable, but insertion sort is better for linked lists
+				- {{youtube-timestamp 691}} Recursive algorithms use a stack, and the stack size depends on the height of the merge tree. Height of merge sort is logn
+				- Merge sort also uses auxilarry array, so space complexity is $O(n+log(n))$

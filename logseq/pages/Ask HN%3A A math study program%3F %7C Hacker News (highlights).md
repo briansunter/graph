@@ -1,0 +1,9 @@
+title:: Ask HN: A math study program? | Hacker News (highlights)
+author:: [[news.ycombinator.com]]
+full-title:: "Ask HN: A math study program? | Hacker News"
+category:: #articles
+url:: https://news.ycombinator.com/item?id=32923390
+tags:: #[[math]]
+
+- Highlights first synced by [[Readwise]] [[Feb 20th, 2023]]
+	- IMO, the clear choice for this is Math Academy. It was started by a very, very early Uber contractor who built the early versions of their dispatcher, their profiler and also the grid system that helped them scale and pretty much saved them during new year's in 2013. Since becoming wealthy from Uber's IPO, he's been pouring money into hiring experts and building the curriculum. The first step was a non-profit program started as part of the Pasadena public school system's offerings that other schools are free to adopt. It's taken students from basic arithmetic to calculus by 9th grade and through a fully undergraduate curriculum by the time they finish high school. His son was one of those students and must be part of why he's been willing to invest so heavily for so many years.  There's now a commercial online version open to the public. The founder hasn't done any marketing of it yet, but I found out about it through a mutual friend / podcast co-host. Math Academy is very comprehensive and the most streamlined way I know of to learn, or in my case, relearn an undergraduate applied math curriculum. It's not as polished, but the content and the actual academic results make offerings like Brilliant.org look like a joke.  I requested a life-time deal last year for access myself and intend to make the most of it, likely in binges between busy periods at work.  https://www.washingtonpost.com/local/education/ap-calculus-e...  https://www.mathacademy.us/beta-test-information

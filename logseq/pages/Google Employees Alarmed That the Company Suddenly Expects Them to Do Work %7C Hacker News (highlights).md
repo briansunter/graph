@@ -1,0 +1,22 @@
+title:: Google Employees Alarmed That the Company Suddenly Expects Them to Do Work | Hacker News (highlights)
+author:: [[news.ycombinator.com]]
+full-title:: "Google Employees Alarmed That the Company Suddenly Expects Them to Do Work | Hacker News"
+category:: #articles
+url:: https://news.ycombinator.com/item?id=32844740
+
+- Highlights first synced by [[Readwise]] [[Feb 20th, 2023]]
+	- Is this the onion?
+	  In all seriousness, if my bosses at G wanted me to do work when I was there, I would have had to explain to them that I would love to do work, but there are about 10 other people at G whose job it is to make sure that I don't do any work. The only work that gets done at G is done by virtue of herculean efforts from engineers and frontline managers to convince a mountain of other people that their work is a priority. After that, one offhand comment from a VP or an SVP can get your entire project cancelled.
+	- There are plenty of small-to-medium sized companies that will pay well (albeit not FAANG well). I work for one.
+	  HN has a very strange employment bubble: there's an extreme distribution towards FAANG-tier companies, a decently sized tail for startups, and then virtually no representation of the places where 90% of people are actually doing software research and engineering: consultancies, contractors, teams within non-software companies, and so forth. Not all of them are well playing (and some are downright terrible), but plenty are.
+	- I moved from a financial software company to a government railway. 40% pay increase, heavily unionised, no expectations of working beyond paid hours, serious policies on bullying and harassment. One of the better parts is that because everything is a safety first mindset and engineering takes months to years to plan and implement projects, it severely limits the ability of managers from blowing up in progress projects with dumb ideas on the latest fad they saw in a tedtalk.
+	- I've never worked for Google, but in every company I've worked for, when productivity was considered low or something, developers and designers weren't to blame for the low productivity.
+	  1. We had 26 teams and 16 meeting rooms, and we often didn't have rooms for meetings. How was this fixed? They created a new meeting room.
+	  2. After the discovery of "low productivity", a new meeting was created, obliging all teams to participate in meetings on "the reasons for low productivity"
+	  3. The most productive week is the week when all scrum managers have been in training for one week.
+	  But the accusations always came to the development team...It was hell on earth.
+	  Probably something similar is happening at Google.
+	- Both, because the promotion system is intricately intertwined with the Graveyard lifecycle. An engineer can rise more easily to the next rank by starting a project and delegating it once the promotion is achieved, leaving it to die. Due to the time difference between action and evaluation, there are no consequences for the initiator.
+	- Google is an incredibly complicated situation. Yes, it's impact-driven. But many other variables affect how your impact is perceived. For amusing reasons, over the past decade, the number of people who can and want to work on the core parts of google3- the load balancer/front end/web server/search/ads- has been dropping. No CS grad wants to work on a 15 year old web server that is mostly patches to deal with odd cases and a million tests that fail if you look at a load bearing comment oddly. The dwindling pool of experts has seized the memes of production (ha) and has the ability to work less because they are absolutely needed.
+	  The best anecdote I ever heard from an SRE was "the VP was chagrined when I told them it didn't matter I was in a nerf war, because nothing was broken or needed to be fixed, but they still saw my point and let me continue" (I used to work in an SRE area that overlapped with an SVP's preferred meeting room so Susan Wojcicki was always getting pinged by a rogue nerf bullet).
+	  As for slackers? Sure, when I joined around 2008 there were definitely folks who were slacking off. in fact they got rid of sabbatical because so many people were taking it then coming back and quitting.
