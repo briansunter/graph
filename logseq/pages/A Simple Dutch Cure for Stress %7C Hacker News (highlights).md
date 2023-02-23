@@ -1,8 +1,0 @@
-title:: A Simple Dutch Cure for Stress | Hacker News (highlights)
-author:: [[dnetesn]]
-full-title:: "A Simple Dutch Cure for Stress | Hacker News"
-category:: #articles
-url:: https://news.ycombinator.com/item?id=21490905
-
-- Highlights first synced by [[Readwise]] [[Feb 20th, 2023]]
-	- Nonsense! The actual Dutch cure for stress is to claim you have &quot;burnout&quot; (they use the English word), and then take 6 months off work while being paid 80% of your salary. Honestly, after working for 6 years in the Netherlands, I don't know of another country that has such good working conditions [1], while having so many people in low stress professional jobs taking time off for burnout. There seems zero social or professional stigma about it.  - In Australia, I knew of just one person, a teacher. There they called it a &quot;nervous breakdown&quot;.  - In the UK, I struggle to think of any, after 9 years working here.  - In the Netherlands, probably 30% of my Dutch colleagues had had time off for burnout at some point in their career.  [1] At the Dutch bank I worked for, most of the Dutch staff worked 4 day weeks: take a 10% pay cut, have Fridays off, and nominally work an hour longer on the other 4 days. In practice, they still arrived late so they could drop their kids at school, left early for same reason, took a full hour for lunch, and most days everyone stopped for 30 minutes mid-morning because it was someone's birthday. Nearly the only people who worked full 5-day weeks were the expats.
