@@ -11,7 +11,7 @@ blogtitle: How to use GPT-3 to learn Kubernetes
 description: How to use GPT-3 to make a Kubernetes Study Guide
 title: how to use gpt3 to learn kubernetes
 categories:
-lastMod: 2023-02-02
+lastMod: 2023-02-21
 ---
 ![kubernetes.png](/assets/kubernetes_1672272543261_0.png)
 

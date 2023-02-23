@@ -69,7 +69,7 @@
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- ;; :default-home {:page "homepage"}
+  :default-home {:page "homepage"}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -200,7 +200,9 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["newsletter" "homepage" "How to take dummy notes?"]
+ :favorites ["homepage" "almanack-of-naval-ravikant" "soma" "newsletter" "How to take dummy notes?"]
+ :feature/enable-whiteboards? true
+ :file/name-format :triple-lowbar
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

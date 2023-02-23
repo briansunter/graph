@@ -44,7 +44,7 @@
 	- [[newsletter-roadmap]]
 	- [[poodle mixes]]
 	- [[newsletter/issue-1]]
-	- [[newsletter template]]
+	- [[newsletter/template]]
 	- [[newsletter]]
 	- [[comparison-template]]
 	- [[100 newsletter subscribers]]

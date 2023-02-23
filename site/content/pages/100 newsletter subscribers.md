@@ -19,7 +19,7 @@ metrics:
 - newsletter/issue-2
 title: 100 newsletter subscribers
 categories:
-lastMod: 2023-02-02
+lastMod: 2023-02-21
 ---
 ## Summary
 
@@ -53,7 +53,7 @@ revue
 
 [comparison-template]({{< sref "/pages/comparison-template" >}})
 
-[[newsletter template]]
+newsletter/template
 
 ## Habits [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
 

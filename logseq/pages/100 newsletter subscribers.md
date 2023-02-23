@@ -33,7 +33,7 @@ metrics:: [[newsletter-subscribers]] [[twitter followers]] [[newsletter/issue-2]
 	- DONE create initial [[newsletter-roadmap]] for first 6 weeks
 - ## Templates
 	- [[comparison-template]]
-	- [[newsletter template]]
+	- newsletter/template
 - ## Habits [[100 newsletter subscribers]]
 	- TODO  schedule note tweet
 	  SCHEDULED: <2022-06-28 Tue .+1d>

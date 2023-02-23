@@ -200,7 +200,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["homepage" "almanack-of-naval-ravikant" "soma" "newsletter" "How to take dummy notes?"]
+ :favorites ["almanack-of-naval-ravikant" "soma" "newsletter" "How to take dummy notes?"]
  :feature/enable-whiteboards? true
  :file/name-format :triple-lowbar
 

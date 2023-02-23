@@ -1,4 +1,4 @@
-tags:: [[100 newsletter subscribers]] [[newsletter template]]
+tags:: [[100 newsletter subscribers]] [[newsletter/template]]
 title:: newsletter
 categories:: [[newsletter]]
 date:: 2022-06-12
