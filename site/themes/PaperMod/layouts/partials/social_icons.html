@@ -2,7 +2,7 @@
     <h2 class="social-title">Social Profiles</h2>
     {{- range . }}
     {{if eq .name "email" }}
-    <a title="{{ .name | title }}" class="social-{{ .name }}">
+    <a href="#" title="{{ .name | title }}" class="social-{{ .name }}">
         {{ partial "svg.html" . }}
     </a>
     {{else}}
