@@ -1,9 +1,15 @@
 <div class="social-icons">
     <h2 class="social-title">Social Profiles</h2>
     {{- range . }}
-    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">
+    {{if eq .name "email" }}
+    <a href="#" title="{{ .name | title }}" class="social-{{ .name }}">
         {{ partial "svg.html" . }}
     </a>
+    {{else}}
+    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}" class="social-{{ .name }}">
+        {{ partial "svg.html" . }}
+    </a>
+    {{end}}
     {{- end }}
     </h2>
 </div>

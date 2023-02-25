@@ -93,6 +93,8 @@
 <script defer crossorigin="anonymous" src="{{ $highlight.RelPermalink }}" onload="hljs.initHighlightingOnLoad();"></script>
 {{- end }}
 {{- end }}
+{{ $customJs := resources.Get "js/index.ts" | js.Build "main.js" | minify | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $customJs.RelPermalink }}" ></script>
 
 {{- /* Favicons */}}
 <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">

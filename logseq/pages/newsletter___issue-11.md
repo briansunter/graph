@@ -36,4 +36,4 @@ url:: /newsletter/issue-11
 		- > Morning walk down the Ala Wai canal - 1 hour round trip. Straight shot with no intersections and some good views.
 - As someone who enjoys programming, research, and writing, I aim to be well-rounded by allocating enough time for each while taking care of my health and enjoying life.
 - Though this is more personal than my previous newsletters, I hope you enjoyed hearing more about me and what I've been up to. Hopefully, I've given you more insight into how I spend my time away from coding, AI, and Twitter.
-- I'll continue focusing on my projects and learnings in future issues, but occasionally I'll include personal facets as I have in this issue. Let me know if you'd like to see more of this kind of content via [email](mailto:public@briansunter.com) or [Twitter](https://twitter.com/bsunter)
+- I'll continue focusing on my projects and learnings in future issues, but occasionally I'll include personal facets as I have in this issue. Let me know if you'd like to see more of this kind of content on [Twitter](https://twitter.com/bsunter)
