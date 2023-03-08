@@ -275,15 +275,25 @@
 		- The linear regression model is ((63bcaa99-69da-4bbe-aaac-f78cae481c4d))
 		- The squared error cost function is ((63bd072e-7078-4c5f-ab08-c5cc6116a880))
 		- The gradient descent algorithm is:
+		  id:: 63fc19c1-cff0-4283-b8f3-a6bbf1e9bf8f
 			- $w=w-\alpha\frac{\partial}{\partial w}J(w,b)$
+			  id:: 63fc19c1-da89-4653-a16e-378a268c7618
 			- $b=b-\alpha\frac{\partial}{\partial b}J(w,b)$
+			  id:: 63fc19c1-78f4-402e-8c9c-42e3f22e5b9c
 			- Repeating until convergence
+			  id:: 63fc19c1-2a98-44ea-a4ac-df0d0874f94d
 		- If you calculate these derivatives, you get
+		  id:: 63fc19c1-805d-4c85-8449-aac39f1fa61a
 			- id:: 63ca5105-a634-4e43-a44c-0b7607724217
 			  $$\frac{\partial}{\partial w}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})x^{(i)}$$
 			- id:: 63ca5105-103e-460b-93d6-1371828893da
 			  $$\frac{\partial}{\partial b}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$$
-			- These are derived using calculus
+		- ### Fully Expanded
+			- id:: 63fc17d1-9115-416c-8f28-6c35f4fa06b4
+			  $$w=w-\alpha  \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})x^{(i)}$$
+			- id:: 0cfb0049-ba52-47b3-8f43-4da56b3c0832
+			  $$b=b-\alpha\frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$$
+		- These are derived using calculus
 		- ### Derivation of gradient descent algorithm
 			- $$\frac{\partial}{\partial w}J(w,b)=$$
 			- $$\frac{\partial}{\partial w}\frac{1}{2n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})^2=$$
