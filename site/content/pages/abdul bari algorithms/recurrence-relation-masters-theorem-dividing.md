@@ -13,7 +13,7 @@ date: 2023-01-05
 coverimage: /assets/recurrence-dividing_1673047600738_0.jpeg
 description: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 title: abdul bari algorithms/recurrence-relation-masters-theorem-dividing
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ![recurrence-dividing.jpeg](/assets/recurrence-dividing_1673047600738_0.jpeg)
 
@@ -40,7 +40,7 @@ $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \
 
 ## Tree Method
 
-[[draws/2022-12-09-14-05-14.excalidraw]]
+![2022-12-09-14-05-14](assets/2022-12-09-14-05-14.svg)
 
 1 unit of work per level, k steps, which is how many levels
 
@@ -150,7 +150,7 @@ $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \
 
 ## Tree Method
 
-[[draws/2022-12-04-19-48-18.excalidraw]]
+![2022-12-04-19-48-18](assets/2022-12-04-19-48-18.svg)
 
 Each row adds up to $n$ amount of work
 

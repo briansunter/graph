@@ -13,7 +13,7 @@ date: 2023-01-05
 coverimage: /assets/binary-search_1673042669678_0.jpeg
 description: How to implement binary search recursively and iteratively
 title: abdul bari algorithms/binary search
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ![binary-search.jpeg](/assets/binary-search_1673042669678_0.jpeg)
 

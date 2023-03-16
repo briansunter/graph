@@ -10,7 +10,7 @@ coverimage: /assets/image_1665341986063_0.png
 description: How do we find the sum of the numbers 1 through 100?
 blogtitle: Integer Sum Formula (Gauss Sum)
 title: integer-sum-formula
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ## Summary
 
@@ -49,7 +49,7 @@ $$\frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
 
 ### Visual Proof
 
-[[draws/2022-10-09-08-39-52.excalidraw]]
+![2022-10-09-08-39-52](assets/2022-10-09-08-39-52.svg)
 
 One way of looking at the problem is to imagine stacking boxes like a set of stairs
 
@@ -61,7 +61,7 @@ The bottom and side are both length n. We need to find the "area" to find the to
 
 We can create a square by duplicating this stack and flipping it upside down
 
-[[draws/2022-10-09-09-07-45.excalidraw]]
+![2022-10-09-09-07-45](assets/2022-10-09-09-07-45.svg)
 
 ![image.png](/assets/image_1665465573710_0.png)
 

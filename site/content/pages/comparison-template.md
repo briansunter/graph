@@ -5,7 +5,7 @@ tags:
 date: 2022-07-10
 title: comparison-template
 categories:
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 [comparison-template]({{< sref "/pages/comparison-template" >}})
 template:: comparison
