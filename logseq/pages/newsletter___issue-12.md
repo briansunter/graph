@@ -46,7 +46,7 @@ blogtitle:: GPT-4 and ChatGPT in the Logseq OpenAI Plugin
 	- I'm fascinated by the idea of AI generating plans for humans to follow and acting as their personal assistant, and I want to explore this idea more in the future.
 	- In another example, I asked it to write me a college-style curriculum to learn AI in a year, and it did a beautiful job. My primary use case for AI is to self-study various subjects, and I'm excited about the possibilities AI opens up for self-directed learners.
 - # ChatGPT API in the Logseq Plugin
-	- [OpenAI also recently released its ChatGPT API](https://openai.com/blog/chatgpt). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
+	- [OpenAI also recently released its ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
 	- I upgraded the Logseq OpenAI plugin to support this as well.
 	- The most notable thing about the ChatGPT API is its price. OpenAI has stated that it is 90% cheaper than other models, such as GPT-4 or GPT-3.
 	- Before, I was spending around \$7 a month with moderate usage of GPT-3 for notetaking, but now I'm spending less than \$1 per month using ChatGPT.
