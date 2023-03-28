@@ -93,7 +93,7 @@ In another example, I asked it to write me a college-style curriculum to learn A
 
 # ChatGPT API in the Logseq Plugin
 
-[OpenAI also recently released its ChatGPT API](https://openai.com/blog/chatgpt). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
+[OpenAI also recently released its ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
 
 I upgraded the Logseq OpenAI plugin to support this as well.
 

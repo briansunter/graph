@@ -19,7 +19,7 @@ coverimage: /assets/image_1657735112414_0_1672132400967_0.png
 start-date:
 - Jul 15th, 2022
 description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
-lastMod: 2023-03-14
+lastMod: 2023-03-28
 ---
 # Summary and Reflection 🤔
 

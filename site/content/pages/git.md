@@ -4,7 +4,7 @@ tags:
 categories: programming
 date: 2022-08-21
 title: git
-lastMod: 2023-03-14
+lastMod: 2023-03-28
 ---
 ## Remove files from gitignore
 

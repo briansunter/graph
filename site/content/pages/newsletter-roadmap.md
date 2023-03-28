@@ -4,7 +4,7 @@ tags:
 date: 2022-07-10
 title: newsletter-roadmap
 categories:
-lastMod: 2023-03-14
+lastMod: 2023-03-28
 ---
 This is the content plan for my [[newsletter]]
 The dates are only rough guidelines, this is more of a content ordering and flow
