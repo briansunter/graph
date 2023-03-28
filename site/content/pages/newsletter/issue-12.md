@@ -11,7 +11,7 @@ date: 2023-03-15
 description: Adding GPT-4 and ChatGPT to my Logseq OpenAI plugin, comparing usage costs, and looking at the best new features of GPT-4
 blogtitle: GPT-4 and ChatGPT in the Logseq OpenAI Plugin
 title: newsletter/issue-12
-lastMod: 2023-03-17
+lastMod: 2023-03-28
 ---
 # GPT-4 Announcement
 
@@ -71,7 +71,9 @@ Here's an example of a task reminding you to tweet and the format in plain text.
 
 ![Screenshot 2023-03-15 at 8.55.45 PM.png](/assets/Screenshot_2023-03-15_at_8.55.45_PM_1678949821181_0.png)
 
-When you write text in the format above, a checkbox appears in your notes. When you click the checkbox, it reappears a day later. You can specify these tasks to repeat at any interval: weekly, bimonthly, yearly, etc.
+A checkbox appears in your notes when you write text in this format inside the Logseq Editor.
+
+When you click the checkbox, it reappears a day later. You can specify these tasks to repeat at any interval: weekly, bimonthly, yearly, etc.
 
 ![Screenshot 2023-03-15 at 8.57.22 PM.png](/assets/Screenshot_2023-03-15_at_8.57.22_PM_1678949891765_0.png)
 
@@ -87,7 +89,7 @@ When I gave the same task to ChatGPT, released just three months ago, it couldn'
 
 I'm fascinated by the idea of AI generating plans for humans to follow and acting as their personal assistant, and I want to explore this idea more in the future.
 
-In another example, I asked it to write me a college-style curriculum to learn AI in a year, and it did a beautiful job. My primary use case for AI is using it to self-study various subjects, and I'm excited about the possibilities AI opens up for self-directed learners.
+In another example, I asked it to write me a college-style curriculum to learn AI in a year, and it did a beautiful job. My primary use case for AI is to self-study various subjects, and I'm excited about the possibilities AI opens up for self-directed learners.
 
 # ChatGPT API in the Logseq Plugin
 
@@ -97,9 +99,9 @@ I upgraded the Logseq OpenAI plugin to support this as well.
 
 The most notable thing about the ChatGPT API is its price. OpenAI has stated that it is 90% cheaper than other models, such as GPT-4 or GPT-3.
 
-Before, I was spending around \$7 a month with moderate usage of GPT-3 for notetaking, but now I'm spending less than 1\$ per month using ChatGPT.
+Before, I was spending around \$7 a month with moderate usage of GPT-3 for notetaking, but now I'm spending less than \$1 per month using ChatGPT.
 
-Regarding the quality of answers, ChatGPT is less likely to make up information compared to regular GPT-3. For example, I tried asking regular GPT-3 to "Describe Yoda from Star Wars". Regular GPT-3 often added made-up details, like describing him as having a "long pointed beard", whereas ChatGPT consistently did tasks like this correctly. OpenAI has an example in their blog where they ask, "Tell me about when Christopher Columbus came to the US in 2015". Regular GPT-3 will make up a story about Columbus arriving in 2015, but ChatGPT can recognize this question doesn't make sense.
+Regarding the quality of answers, ChatGPT is less likely to make up information compared to regular GPT-3. For example, I tried asking regular GPT-3 to "Describe Yoda from Star Wars". Regular GPT-3 often added made-up details, like describing him as having a "long pointed beard," whereas ChatGPT consistently did tasks like this correctly. OpenAI has an example in their blog where they ask, "Tell me about when Christopher Columbus came to the US in 2015". Regular GPT-3 will make up a story about Columbus arriving in 2015, but ChatGPT can recognize this question doesn't make sense.
 
 Overall, the answers from ChatGPT are better than the regular GPT-3 model users of the [Logseq OpenAI GPT-3 plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) can expect to spend 90% less while still receiving quality results.
 
@@ -145,9 +147,9 @@ GPT-3 would cost me **$8 per month**
 
 GPT-4 is **~22x** more expensive than ChatGPT for my personal notetaking purposes
 
-If you generate much more text than you analyze, it's potentially **29x** more expensive
+If you generate much more text than you analyze, it's potentially **29x** more expensive.
 
-The unreleased version of GPT-4 (get-4-32k), which supports super long text inputs, is even more expensive, twice as expensive as regular GPT-4.
+The unreleased version of GPT-4 (named "gpt-4-32k"), which supports super long text inputs, is even more expensive, twice as expensive as regular GPT-4.
 
 If ChatGPT works for your use case, I recommend using that since it's so much less expensive.
 
