@@ -70,3 +70,4 @@ math:: true
 		- 2 way merge
 		- k-way merge
 	- Iterative Merge sort
+- # Quick Sort

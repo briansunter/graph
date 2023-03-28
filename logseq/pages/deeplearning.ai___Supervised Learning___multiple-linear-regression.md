@@ -48,4 +48,5 @@
 		- (.1 is the learning rate)
 		- Without vectorization, you would have to update all the weights one at a time in for loops
 		- with vectorization, you can update all of them in parallel
-		-
+- ((6406f1eb-83d3-41a7-8717-29633babc14a))
+-

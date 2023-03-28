@@ -14,7 +14,7 @@ date: 2023-01-05
 coverimage: /assets/recurrence-relation-subtraction_1673041572921_0.jpg
 description: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 title: abdul bari algorithms/recurrence-relation-masters-theorem-subtracting
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ![recurrence-relation-subtraction.jpg](/assets/recurrence-relation-subtraction_1673041572921_0.jpg)
 
@@ -175,7 +175,7 @@ For each iteration, it takes $n$ units of time, then calls itself -1
 
 ## Tree Method
 
-[[draws/2022-12-01-13-33-20.excalidraw]]
+![2022-12-01-13-33-20](assets/2022-12-01-13-33-20.svg)
 
 We can see the amount of work is $n + (n-1) + (n-2) ... + 1$
 
@@ -252,7 +252,7 @@ $$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ T(n-1)+ log(n) & \text{when } n 
 
 ## Tree Method
 
-[[draws/2022-12-05-15-12-40.excalidraw]]
+![2022-12-05-15-12-40](assets/2022-12-05-15-12-40.svg)
 
 Amount of work is $log(n) + log(n-1) + ... + log(2) + log(1)$
 
@@ -324,7 +324,7 @@ $$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ 2T(n-1)+1 & \text{when } n > 0 \
 
 ## Tree Method
 
-[[draws/2022-12-06-13-53-46.excalidraw]]
+![2022-12-06-13-53-46](assets/2022-12-06-13-53-46.svg)
 
 function called twice in first row
 

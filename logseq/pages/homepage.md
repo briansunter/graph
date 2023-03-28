@@ -14,7 +14,10 @@
 - ## Who am I?
 	- [See my logseq profile here]([[logseq-social/profile]]) to learn more about me.
 - ## Recent - Start Here
+	- [[newsletter/issue-12]]
+	- [[newsletter/issue-11]]
 	- [[newsletter/issue-10]]
+	  id:: 64114c1c-e10f-4860-a177-09352a63c4cb
 	- [[logseq-openai/popup]]
 	- [[books read in 2022]]
 	- [[newsletter/issue-9]]

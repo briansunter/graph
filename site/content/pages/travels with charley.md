@@ -13,7 +13,7 @@ mtype: book
 description: John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
 title: travels with charley
 categories:
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ![travels-with-charley.jpeg](/assets/travels-with-charley_1672052430785_0.jpeg)
 

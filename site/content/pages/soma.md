@@ -18,7 +18,7 @@ rating: 8
 description: My review of Soma, a survival exploration game
 title: soma
 categories:
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 ![ss_21b43d4cb49ef3332eefbb4957ec96e075543ef1.1920x1080.jpg](/assets/ss_21b43d4cb49ef3332eefbb4957ec96e075543ef1.1920x1080_1666656957286_0.jpg)
 

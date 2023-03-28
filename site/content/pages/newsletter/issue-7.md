@@ -21,7 +21,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 title: newsletter/issue-7
-lastMod: 2023-02-21
+lastMod: 2023-03-14
 ---
 Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 

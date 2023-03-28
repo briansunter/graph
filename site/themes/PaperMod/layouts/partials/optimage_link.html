@@ -1,12 +1,10 @@
 {{ $image := resources.GetMatch . }} 
 {{ $imageLink := .}}
 {{ $outputFormat := "webp" }}
-{{ if eq (lower (path.Ext .)) ".gif" }}
-  {{ $outputFormat = "gif" }}
-{{ end }}
 
 {{ if $image }}
-  {{ if ne $outputFormat "gif" }}
+{# iF not gif or svg #} 
+{{ if and (ne (path.Ext .) ".svg") (ne (path.Ext .) ".gif") }}
   {{ if gt $image.Width 1000 }}
     {{ $resizeOptions := printf "1000x %s" $outputFormat }}
     {{ $image = $image.Resize $resizeOptions }}
@@ -15,6 +13,6 @@
     {{ $image = $image.Resize $resizeOptions }}
   {{ end }}
 {{ end }}
-  {{$imageLink = $image.RelPermalink}}
+  {{$imageLink = ($image | fingerprint ).RelPermalink}}
 {{ end }}
 {{ return $imageLink }}
