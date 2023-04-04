@@ -284,13 +284,16 @@
 			  id:: 63fc19c1-2a98-44ea-a4ac-df0d0874f94d
 		- If you calculate these derivatives, you get
 		  id:: 63fc19c1-805d-4c85-8449-aac39f1fa61a
+			- DONE Double check this
 			- id:: 63ca5105-a634-4e43-a44c-0b7607724217
-			  $$\frac{\partial}{\partial w}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})x^{(i)}$$
+			  $$\frac{\partial}{\partial w}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)}$$
 			- id:: 63ca5105-103e-460b-93d6-1371828893da
-			  $$\frac{\partial}{\partial b}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$$
+			  $$\frac{\partial}{\partial b}J(w,b)  = \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)}) - y^{(i)})$$
+			-
 		- ### Fully Expanded
 			- id:: 63fc17d1-9115-416c-8f28-6c35f4fa06b4
-			  $$w=w-\alpha  \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})x^{(i)}$$
+			  $$w=w-\alpha  \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)}$$
+				-
 			- id:: 0cfb0049-ba52-47b3-8f43-4da56b3c0832
 			  $$b=b-\alpha\frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$$
 		- These are derived using calculus
