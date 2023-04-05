@@ -12,6 +12,7 @@
 			- You may use regression to predict a number, such as house price based on square feet.
 			- You may use a straight light, curved line, or something more complicated
 			- ![Screenshot 2022-12-12 at 11.24.22 PM.png](../assets/Screenshot_2022-12-12_at_11.24.22_PM_1670923467755_0.png)
+			  id:: 642348ef-1403-4988-ad91-20afd1555e74
 		- ### Classification
 			- Instead of predicting a number like regression, classification predict categories, like malignient or beignine when predicting cancer
 			- There can be be two or more categories.
@@ -27,9 +28,13 @@
 - # Linear Regression Model
 	- ![Screenshot 2022-12-16 at 9.00.47 PM.png](../assets/Screenshot_2022-12-16_at_9.00.47_PM_1671260482431_0.png)
 	- Linear regression model is fitting a straight line to your data
+	  id:: 642348ef-8b7e-4757-94cc-5d8dd8d7e2d0
 	- Example: predicting the price of the house based on the size of the house
+	  id:: 642348ef-b63d-4e2a-95a9-3838805be877
 	- Regression models predicts numbers
-	- supervised learning model data has "right answers"
+	  id:: 642348ef-ebf4-4a2e-9297-16d7bc889150
+	- Linear regression is a supervised learning model, meaning there is data that has "right answers"
+	  id:: 642348ef-f821-4a4d-9bb1-28f02993e63a
 	- ![Screenshot 2022-12-16 at 9.03.50 PM.png](../assets/Screenshot_2022-12-16_at_9.03.50_PM_1671260696651_0.png)
 	  id:: 63dc7846-f4c2-44d4-8ad2-e1e4fb194d25
 	- ## Terminology
@@ -38,19 +43,26 @@
 			- Data used to train the model
 			- #### Notation
 				- x = input variable, also called feature
+				  id:: 642348ef-5dca-48a4-92f7-10f4ec5a0647
 				- y = output variable, also called target variable
+				  id:: 642348ef-70e4-4e00-981b-13d4ea6de3c4
 				- m = number of training examples
 				- (x,y) = single training example
 				- $(x^{(i)}, y^{(i)})$ = ith training example, 1st, 2nd, third etc.
+				  id:: 642348ef-feb2-4200-8466-caee29ba7d2b
 - # Regression Model
 	- ## Linear Regression With One Variable
 		- **Training set** includes input features and output targets
+		  id:: 642348ef-4f0a-42d6-88f1-0e4f9ca7d1d6
 		- You feed the training set into the learning algorithm, and it produces a function, which takes a new input and output an estimate or prediction.
 		- $f(x)=\hat{y}$
+		  id:: 642348ef-5f96-4bb1-aab4-1bb8bb048a7a
 		- $\hat{y}$ is notation for a prediction, the estimated value of y
+		  id:: 642348ef-d3dd-474e-966c-01a5cedf1a33
 		- $y$ is the actual true value from the training set, called the output or target variable, whereas $\hat{y}$ is the prediction
 		- The true price of your house is unknown until you sell it, for example
 		- $f$ is called the model
+		  id:: 642348ef-d3b6-4c59-885e-7bc3352bdd80
 		- How do we represent $f$? A straight line is one way
 		- $f_{w,b}(x)=wx+b$
 		  id:: 63bcaa99-69da-4bbe-aaac-f78cae481c4d
@@ -71,8 +83,8 @@
 			  # Formatting with braces
 			  print("I have {0} apples and {1} oranges".format(2, 3)) 
 			  
-			  2. Using the format function: 
-			   "I have {} apples and {} oranges".format(2, 3)
+			  #2. Using the format function: 
+			   print("I have {} apples and {} oranges".format(2, 3))
 			  ```
 		- ### Matplotlib scatter plot
 			- The function arguments `marker` and `c` show the points as red crosses (the default is blue dots).
@@ -295,7 +307,7 @@
 			  $$w=w-\alpha  \frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)}$$
 				-
 			- id:: 0cfb0049-ba52-47b3-8f43-4da56b3c0832
-			  $$b=b-\alpha\frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)} - y^{(i)})$$
+			  $$b=b-\alpha\frac{1}{n}\sum_{i=1}^{n}(f_{w,b}(x^{(i)}) - y^{(i)})$$
 		- These are derived using calculus
 		- ### Derivation of gradient descent algorithm
 			- $$\frac{\partial}{\partial w}J(w,b)=$$

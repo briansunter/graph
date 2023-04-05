@@ -170,7 +170,6 @@ tags:: [[ai]]
 	- Why is this the case?
 	- y can only be either 1 or 0
 	- If y = 1
-	  collapsed:: true
 		- On the right side, when y =1 , 1-y =0, so the right part of the function goes away
 		- And we just have
 		- $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = -1\log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) $$
@@ -245,7 +244,6 @@ tags:: [[ai]]
 	- Underfit means it doesn't fit the training data well, also known as "high bias"
 	- Overfit is when it fits the training data very well, but has a high variance on unseen data
 	- ## How to fix overfitting
-	  collapsed:: true
 		- Use more data
 		- See if you can use fewer features
 			- Choosing the most appropriate set of features to use is also called feature selection
@@ -284,7 +282,6 @@ tags:: [[ai]]
 			- We need a value of lambda that balances lowering the square error, and keeping the parameters relatively small
 			- We will see later how to choose good models with lambda
 	- ## Regularized Linear Regression
-	  collapsed:: true
 		- How to get gradient descent to work with linear regression
 		-
 		- This is the cost function for linear regression
@@ -342,8 +339,9 @@ tags:: [[ai]]
 			      $f_{\mathbf{w},b}(x) = g(z)$  
 			      where $g(z)$ is the sigmoid function:  
 			      $g(z) = \frac{1}{1+e^{-z}}$
-			- TODO Study cost function for logistic regression
+			- DONE Study cost function for logistic regression
 	- ## Regularized Cost Implementation
+	  collapsed:: true
 		- ### Linear Regression
 			- ```python
 			  def compute_cost_linear_reg(X, y, w, b, lambda_ = 1):
@@ -410,7 +408,6 @@ tags:: [[ai]]
 			  ```
 	- ## Regularized Gradient Function
 		- ### Linear Regression
-		  collapsed:: true
 			- ```python
 			  def compute_gradient_linear_reg(X, y, w, b, lambda_): 
 			      """
