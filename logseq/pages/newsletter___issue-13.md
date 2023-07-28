@@ -171,11 +171,10 @@ blogtitle:: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 				- This uses an interesting chart called a "Radar Chart"
 				- ![image.png](../assets/image_1690435832644_0.png)
 		- ## Flavor Profile by Country
-			- ![countries1.jpg](../assets/countries1_1690522288775_0.jpg)
-			- ![countries2.jpg](../assets/countries2_1690522294138_0.jpg)
-			- ![countries3.jpg](../assets/countries3_1690522299176_0.jpg)
-			- ![countries4.jpg](../assets/countries4_1690522306384_0.jpg)
-			-
+			- ![countries1.jpg](../assets/countries1_1690522288775_0.jpg){:height 590, :width 602}
+			- ![countries2.jpg](../assets/countries2_1690527485255_0.jpg)
+			- ![countries3.jpg](../assets/countries3_1690527495894_0.jpg)
+			- ![countries4.jpg](../assets/countries4_1690527523796_0.jpg)
 - # Conclusion
 	- The code interpreter of ChatGPT has been proving immensely useful for exploratory data analysis.
 	- I had some fun extracting insights and generating cool visualizations from the Kaggle coffee dataset.
