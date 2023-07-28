@@ -9,7 +9,7 @@ categories:
 coverimage: /assets/image_1690426630484_0.png
 date: 2023-07-27
 description: Uploading a dataset about coffee and using ChatGPT to automatically clean the data, understand insights, and generate cool charts.
-blogtitle: Analyzing Coffee Quality with the ChatGPT Code Interpreter
+blogtitle: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 title: newsletter/issue-13
 lastMod: 2023-07-27
 ---
