@@ -1,4 +1,5 @@
 ---
+author: 
 date-finished:
 - Dec 5th, 2022
 tags:
@@ -10,7 +11,7 @@ coverimage: "/assets/41ZZY5kzLL_1670306664477_0.jpg"
 blogtitle: Almanack of Naval Ravikant Book
 title: almanack-of-naval-ravikant
 categories:
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 

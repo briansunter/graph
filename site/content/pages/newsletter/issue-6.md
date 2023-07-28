@@ -3,11 +3,13 @@ followers: 825
 aliases: "/pages/newsletter-6"
 sent-date:
 - Jul 17th, 2022
+site-hits: 
 tags:
 - newsletter
 - ai
 - algorithms-boot-camp
 blogtitle: Newsletter Issue 6
+tweet-impressions: 
 categories:
 - newsletter
 - programming
@@ -18,8 +20,9 @@ date: 2022-07-17
 coverimage: /assets/image_1657735112414_0_1672132400967_0.png
 start-date:
 - Jul 15th, 2022
+profile-visits: 
 description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 # Summary and Reflection 🤔
 

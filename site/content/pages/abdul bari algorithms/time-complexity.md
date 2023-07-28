@@ -14,7 +14,7 @@ date: 2022-08-22
 coverimage: /assets/image_1666064845040_0.png
 description: An introduction to analyzing algorithms, comparing functions, and Big O notation, such as Big O, Theta, and Omega.
 title: abdul bari algorithms/time-complexity
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 # Introduction to Algorithms
 

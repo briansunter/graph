@@ -11,7 +11,7 @@ description: Logseq GPT-3 OpenAI popup, YouTube captions plugin updates, and mig
 blogtitle: Newsletter Issue 10
 url: /newsletter/issue-10
 title: newsletter/issue-10
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 # Intro
 

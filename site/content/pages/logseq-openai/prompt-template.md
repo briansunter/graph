@@ -8,7 +8,7 @@ blogtitle: Logseq GPT Prompt Templates
 title: logseq-openai/prompt-template
 tags:
 categories:
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ![prompt-template.png](/assets/prompt-template_1668636545451_0.png)
 
