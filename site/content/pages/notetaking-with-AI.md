@@ -11,7 +11,7 @@ description: I go over a few new useful AI and NLP techniques and how to use the
 blogtitle: Notetaking with NLP and AI
 title: notetaking-with-AI
 categories:
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 

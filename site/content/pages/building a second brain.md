@@ -6,7 +6,7 @@ description: My summary of Building a Second Brain by Tiago Forte, which is a gu
 title: building a second brain
 tags:
 categories:
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ![basb.jpeg](/assets/basb_1672455079106_0.jpeg)
 

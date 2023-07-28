@@ -1,18 +1,24 @@
 ---
 followers: 1355
 aliases: "/pages/newsletter-issue-9"
+sent-date: 
+site-hits: 
 tags:
 - newsletter
 blogtitle: Newsletter Issue 9
+tweet-impressions: 
 categories:
 - newsletter
 newsletter-subscribers: 283
+name: 
 title: newsletter/issue-9
 date: 2022-11-26
 coverimage: /assets/stop_1672218528540_0.jpg
+start-date: 
 profile-visits: 27500
+revue-link: 
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ![stop.jpg](/assets/stop_1672218528540_0.jpg)
 

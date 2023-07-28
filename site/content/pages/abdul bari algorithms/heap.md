@@ -13,7 +13,7 @@ date: 2023-01-05
 coverimage: /assets/heap_1673042424667_0.jpg
 description: Describes the Heap data structure, the operations it supports, and its time complexity.
 title: abdul bari algorithms/heap
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ![heap.jpg](/assets/heap_1673042424667_0.jpg)
 

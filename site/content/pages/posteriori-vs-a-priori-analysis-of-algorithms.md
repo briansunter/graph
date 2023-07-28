@@ -10,7 +10,7 @@ date: 2022-08-22
 blogtitle: Posteriori vs A Priori Analysis of Algorithms
 description: Theoretical analysis of algorithms vs benchmarking
 title: posteriori-vs-a-priori-analysis-of-algorithms
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 ## A Posteriori Analysis (Profiling)
 

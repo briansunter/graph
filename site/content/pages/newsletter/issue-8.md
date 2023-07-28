@@ -1,11 +1,14 @@
 ---
 followers: 1033
 aliases: "/pages/newsletter-issue-8"
+sent-date: 
+site-hits: 
 tags:
 - newsletter
 - programming
 - algorithms
 blogtitle: Newsletter Issue 8
+tweet-impressions: 
 categories:
 - newsletter
 newsletter-subscribers: 253
@@ -16,8 +19,10 @@ date: 2022-08-23
 coverimage: /assets/image_1665465573710_0.png
 start-date:
 - Sep 5th, 2022
+profile-visits: 
+revue-link: 
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
-lastMod: 2023-03-28
+lastMod: 2023-06-15
 ---
 # Summary and Reflection 🤔
 
