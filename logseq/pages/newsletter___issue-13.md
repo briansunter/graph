@@ -9,7 +9,7 @@ blogtitle:: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 - One of my favorite new features of [ChatGPT](https://chat.openai.com/) is the "[code interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter)," which allows ChatGPT to execute code and read data files you upload.
 - You can upload a data file, then ask ChatGPT questions, and ChatGPT will write code to analyze the data and create visualizations based on your questions. Now you can produce excellent visualizations based on data with minimal effort.
 - It's surprisingly intelligent, where ChatGPT will look at the structure of your data, automatically clean it, and decide how to analyze it.
-- I found an interesting dataset on Kaggle called ["Coffee Quality Data"](https://www.kaggle.com/datasets/fatihb/coffexe-quality-data-cqi). It contains coffee reviews, with 100-point scores, along with information about the coffee, such as its country of origin, altitude, preparation method, and variety, and information about its flavor profile, such as acidity and sweetness.
+- I found an interesting dataset on Kaggle called ["Coffee Quality Data"](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi). It contains coffee reviews, with 100-point scores, along with information about the coffee, such as its country of origin, altitude, preparation method, and variety, and information about its flavor profile, such as acidity and sweetness.
 - I'm interested in examining this dataset to answer questions like: "Which countries produce the best coffee?" and "What are the differences in flavor profiles between countries and preparation methods?
 - ![Screenshot 2023-07-27 at 1.22.44 PM.png](../assets/Screenshot_2023-07-27_at_1.22.44_PM_1690521743533_0.png)
 - ## Loading and Cleaning Data
@@ -70,7 +70,7 @@ blogtitle:: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 		- #+BEGIN_QUOTE
 		  Next, let's examine the relationships between coffee quality (`Total.Cup.Points`) and some potentially influential factors (`Country.of.Origin`, `Variety`, `Processing.Method`, `altitude_mean_meters`, and sensory profiles). We will use box plots to visualize these relationships. For the sake of clarity, we'll only consider the top 5 categories for `Country.of.Origin`, `Variety`, and `Processing.Method`. For sensory profiles, we'll use scatter plots to see the correlation with `Total.Cup.Points`.
 		  #+END_QUOTE
-		- ![](https://fileserviceuploadsperm.blob.core.windows.net/files/261198ca-4140-40ef-b0ae-f396f6561477?se=2023-07-28T06%3A55%3A23Z&sp=r&sv=2021-08-06&sr=b&rscd=attachment%3B%20filename%3D95575e31-5b93-45fa-a7d3-44a7dd0f7614&sig=w4h9PSRi1T/nNLVh8ewzdxvc4DhM/eaY%2BgJlUJuC/eQ%3D)
+		- ![image.png](../assets/image_1690528406281_0.png)
 		- > The visualizations suggest that:
 		- > The highest average coffee quality is from the United States, Papua New Guinea, Ethiopia, Japan, and Kenya.
 		- > The Yirgacheffe variety and the "Pulped natural / honey" processing method are associated with superior coffee quality.
@@ -165,7 +165,12 @@ blogtitle:: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 			- The median coffee quality increases with altitude, suggesting that coffee grown at higher altitudes tends to have slightly higher quality.
 			- ![image.png](../assets/image_1690426458643_0.png)
 			- ## Quality by processing method
-			- ![image.png](../assets/image_1690507618154_0.png)
+				- What are processing methods? These are how the beans are dried and prepared before roasting.
+				- **Pulped Natural/Honey**: This technique involves removing the skin of the coffee cherries but leaving a small amount of the fruity pulp on the seeds when drying. The name 'honey' refers to the sticky texture as it dries, not the taste.
+				- **Semi-Washed/Semi-Pulped:** This process partially removes the coffee's cherry before drying. After pulping, the coffee beans, still coated with mucilage, are dried. This compromise between washed and natural delivers a balance between clarity and body.
+				- **Natural/Dry:** the cherries are picked and spread out in the sun to dry, allowing the fruit to ferment before the seed is removed naturally. The coffee retains intense, fruity flavors from the cherry.
+				- **Washed/Wet**: Beans are de-pulped, fermented, and thoroughly washed of all mucilage. This method typically yields coffee with more pronounced acidity and cleaner flavors due to removing all fruit before drying.
+				- ![image.png](../assets/image_1690507618154_0.png)
 			- ## Flavor Profile by Variety
 				- How the different varieties compare on different flavor profiles, such as sweetness and acidity.
 				- This uses an interesting chart called a "Radar Chart"
