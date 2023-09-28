@@ -2,7 +2,7 @@ public:: true
 tags:: [[newsletter]] [[AI]] 
 categories:: [[newsletter]] 
 coverimage:: /assets/Screenshot_2023-09-27_at_1.28.29_PM_1695857318835_0.png
-date:: 2023-10-27
+date:: 2023-09-27
 description:: Using machine learning to organize notes automatically and exploring them in a rich 3D interface
 blogtitle:: Organizing Notes in 3D with AI
 

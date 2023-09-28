@@ -6,7 +6,7 @@ tags:
 - programming
 title: machine learning study guide gpt
 categories:
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 ## GPT-3 Prompts to Generate a Machine Learning Study Guide
 

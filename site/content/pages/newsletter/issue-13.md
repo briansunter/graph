@@ -11,7 +11,7 @@ date: 2023-07-27
 description: Uploading a dataset about coffee and using ChatGPT to automatically clean the data, understand insights, and generate cool charts.
 blogtitle: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 title: newsletter/issue-13
-lastMod: 2023-07-27
+lastMod: 2023-09-27
 ---
 One of my favorite new features of [ChatGPT](https://chat.openai.com/) is the "[code interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter)," which allows ChatGPT to execute code and read data files you upload.
 

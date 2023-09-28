@@ -22,7 +22,7 @@ start-date:
 - Jul 15th, 2022
 profile-visits: 
 description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 # Summary and Reflection 🤔
 

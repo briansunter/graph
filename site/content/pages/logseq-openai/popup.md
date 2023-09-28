@@ -11,7 +11,7 @@ date: 2023-01-31
 description: I updated the Logseq GPT-3 OpenAI plugin to have a popup UI and support user-defined commands.
 blogtitle: Logseq GPT-3 OpenAI Popup
 title: logseq-openai/popup
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 I updated the [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to include a popup window to perform AI tasks powered by OpenAI's GPT-3 in Logseq.
 

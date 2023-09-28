@@ -13,7 +13,7 @@ description: One of the best introductory courses on algorithms. It's thorough, 
 blogtitle: Abdul Bari Algorithms Course
 math: true
 title: abdul bari algorithms
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 

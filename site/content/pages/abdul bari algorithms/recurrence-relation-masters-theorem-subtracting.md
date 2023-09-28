@@ -14,7 +14,7 @@ date: 2023-01-05
 coverimage: /assets/recurrence-relation-subtraction_1673041572921_0.jpg
 description: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 title: abdul bari algorithms/recurrence-relation-masters-theorem-subtracting
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 ![recurrence-relation-subtraction.jpg](/assets/recurrence-relation-subtraction_1673041572921_0.jpg)
 

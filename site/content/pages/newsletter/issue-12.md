@@ -11,7 +11,7 @@ date: 2023-03-15
 description: Adding GPT-4 and ChatGPT to my Logseq OpenAI plugin, comparing usage costs, and looking at the best new features of GPT-4
 blogtitle: GPT-4 and ChatGPT in the Logseq OpenAI Plugin
 title: newsletter/issue-12
-lastMod: 2023-06-15
+lastMod: 2023-09-27
 ---
 # GPT-4 Announcement
 
