@@ -204,6 +204,9 @@
  :feature/enable-whiteboards? true
  :file/name-format :triple-lowbar
  :editor/preferred-pasting-file? true
+ :graph/settings {:journal? false
+ :orphan-pages? false
+ :excluded-pages? true}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

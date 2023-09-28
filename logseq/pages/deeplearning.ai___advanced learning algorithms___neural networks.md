@@ -1,4 +1,4 @@
-- # Intuition
+# Intuition
 	- Origin: algorithms that try to mimic the brain
 	- Used in 1980s to early 1990s
 	- fell out of favor in 1990s
@@ -11,7 +11,6 @@
 		- larger neural networks can use massive data in a more effective way
 		- Faster computer processors and GPUs also enables this
 - # Demand Prediction
-  collapsed:: true
 	- Try to predict if a product will be a top seller
 	- you have data of different t shirts at different prices, and if they were a top seller
 	- Input is price
@@ -49,7 +48,6 @@
 		- ![Screenshot 2023-04-10 at 9.32.55 PM.png](../assets/Screenshot_2023-04-10_at_9.32.55_PM_1681198391582_0.png)
 		-
 - # Facial recognition
-  collapsed:: true
 	- May want to train neural network to take an image, and output a persons identity
 	- A picture 1000x1000 grid, and intensity values
 	- Input vector might be a 1M long vector (1000x1000)
@@ -120,13 +118,10 @@
 			- Before we saw explicitly making each layer, and passing data between layers
 			- Instead, we can make a sequential neural network, tensorflow will string together for you
 			- `layer_1 = Dense(units=3, activation='sigmoid')`
-			  collapsed:: true
 			- `layer_2=Dense(units=1, activation='sigmoid')`
-			  collapsed:: true
 			- `model = Sequential([layer_1, layer_2])`
 			- Give it inputs and targets
 			- `x = np.array ([[200.0, 17.0],
-			  collapsed:: true
 			  [120.0, 5.0],
 			  [425.0, 20.0],
 			  [212.0, 18.0]])`
@@ -139,8 +134,7 @@
 		- How to implement forward prop in a single layer?
 		- ![Screenshot 2023-04-23 at 4.10.21 PM.png](../assets/Screenshot_2023-04-23_at_4.10.21_PM_1682302238049_0.png)
 		- `x = np.array([200,17])`
-		- collapsed:: true
-		  ```python
+		- ```python
 		  w1_1 = np.array([1,2])
 		  b1_1 = np.array([-1])
 		  z1_1 = np.dot(w1_1,x) + b1_1
@@ -149,7 +143,6 @@
 - # Vectorization
 	- People have been able to make large neural networks because neural networks can be vectorized
 	- ## For Loops
-	  collapsed:: true
 		- collapsed:: true
 		  ```python
 		  x = np.array([200, 17])
@@ -183,7 +176,6 @@
 		  ```
 	- (g is sigmoid function)
 	- ## Matrix Multiplication
-	  collapsed:: true
 		- Dot product between two vectors
 		- $\begin{bmatrix} 1 \\ 2 \end{bmatrix}  \begin{bmatrix} 3 \\ 4 \end{bmatrix} = (1 * 3) + (2 * 4) = 11$
 		- $z=\vec{a} \cdot \vec{w}$
@@ -213,7 +205,6 @@
 				- TODO multiplication vs dot product
 				- row1*col1 + row1*col2 ...
 	- ## Matrix Multiplication Rules
-	  collapsed:: true
 		- $A = \begin{bmatrix} 1 & -1 & 0.1 \\ 2 & -2  & 0.2 \end{bmatrix}$
 		  collapsed:: true
 			- Think of the columns of this matrix as three vectors
@@ -263,7 +254,6 @@
 		- Columns of first matrix equal rows of second matrix
 		  collapsed:: true
 	- ## Matrix Multiplication Code
-	  collapsed:: true
 		- Vectorized implementation of neural network
 		  collapsed:: true
 		- collapsed:: true
@@ -290,4 +280,3 @@
 		    a_out = g(z)
 		    return a_out
 		  ```
-	- collapsed:: true
