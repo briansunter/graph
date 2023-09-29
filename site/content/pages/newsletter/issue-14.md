@@ -25,7 +25,7 @@ This post is an experiment that leverages machine learning text embeddings to or
 
 ## Inspiration
 
-A few notetaking apps like Logseq and Roam have a "graph view," which displays your notes on a 2D canvas so that you can explore connections between ideas at a high level.
+A few notetaking apps like Logseq, Obsidian, and Roam have a "graph view," which displays your notes on a 2D canvas so that you can explore connections between ideas at a high level.
 
 Here's a screenshot of my graph view in Logseq
 
@@ -35,9 +35,9 @@ This type of graph is called a "force-directed layout." When I create a link bet
 
 This view is useful, but I wanted to extend it with two ideas:
 
-Is there a way to automatically generate a view like this without manually linking pages? How can we use machine learning to discover these relationships and groups automatically?
+First, Is there a way to automatically generate a view like this without manually linking pages? How can we use machine learning to discover these relationships and groups automatically?
 
-Can we display the nodes in 3D to provide more insight into the relationships and make exploring large graphs with many nodes easier?
+Second, Can we display the nodes in 3D to provide more insight into the relationships and make exploring large graphs with many nodes easier?
 
 Another similar project is the [tensorflow embeddings projector](https://projector.tensorflow.org/)
 
@@ -123,9 +123,9 @@ We can zoom in to see groupings and that similar articles are grouped.
 
 ![Screenshot 2023-09-09 at 4.58.38 PM.png](/assets/Screenshot_2023-09-09_at_4.58.38_PM_1695860029294_0.png)
 
-Subjectively, the groupings seem better and make more sense for the 3D view than 2D. Turning the embeddings into 3D points, rather than 2D preserves much more information about their relationships.
-
 The 3D space allows for more fluid categorizations, enabling articles to exist "between groups." For example, the "Philosophy of Science" article is placed between a cluster of articles on science and a cluster of articles on philosophy.
+
+Subjectively, the groupings seem better and make more sense for the 3D view than 2D. Turning the embeddings into 3D points, rather than 2D preserves much more information about their relationships and creates better groupings
 
 ![1krotation-autoplay](/assets/output.mp4)
 
@@ -155,7 +155,7 @@ The 3D gives us an intuitive understanding of how search works; we could imagine
 
 ## Real-world Application
 
-The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate knowledge bases. It's a unique alternative for exploring and discovering information information.
+The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate knowledge bases. It's a unique alternative for exploring and discovering information.
 
 With the potential rise in popularity of devices such as Apple Vision, the importance of crafting 3D interfaces could surge significantly.
 
