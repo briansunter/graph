@@ -13,13 +13,13 @@ blogtitle:: Organizing Notes in 3D with AI
 - [Go here to try the demo in your browser](https://briansunter.github.io/wikipedia-3d-embeddings/)
 - [Go here to see the code](https://github.com/briansunter/wikipedia-3d-embeddings)
 - ## Inspiration
-	- A few notetaking apps like Logseq and Roam have a "graph view," which displays your notes on a 2D canvas so that you can explore connections between ideas at a high level.
+	- A few notetaking apps like Logseq, Obsidian, and Roam have a "graph view," which displays your notes on a 2D canvas so that you can explore connections between ideas at a high level.
 	- Here's a screenshot of my graph view in Logseq
 	- ![Screenshot 2023-09-27 at 12.40.49 PM.png](../assets/Screenshot_2023-09-27_at_12.40.49_PM_1695854486282_0.png){:height 613, :width 749}
 	- This type of graph is called a "force-directed layout." When I create a link between pages, a line connects those pages. If I want to find topics related to "machine learning", I can see which pages are connected.
 	- This view is useful, but I wanted to extend it with two ideas:
-		- Is there a way to automatically generate a view like this without manually linking pages? How can we use machine learning to discover these relationships and groups automatically?
-		- Can we display the nodes in 3D to provide more insight into the relationships and make exploring large graphs with many nodes easier?
+		- First, Is there a way to automatically generate a view like this without manually linking pages? How can we use machine learning to discover these relationships and groups automatically?
+		- Second, Can we display the nodes in 3D to provide more insight into the relationships and make exploring large graphs with many nodes easier?
 	- Another similar project is the [tensorflow embeddings projector](https://projector.tensorflow.org/)
 	- This visualization uses machine learning to plot the relationships of individual words in 3D space. This is very close to what I want for my notes, but can we make it work for entire documents, instead of just individual words?
 	- ![embeddings3-autoplay](../assets/embeddings3_1695960386264_0.mp4)
@@ -62,14 +62,14 @@ blogtitle:: Organizing Notes in 3D with AI
 		- ![Screenshot 2023-09-27 at 1.28.29 PM.png](../assets/Screenshot_2023-09-27_at_1.28.29_PM_1695857318835_0.png)
 		- We can zoom in to see groupings and that similar articles are grouped.
 		- ![Screenshot 2023-09-09 at 4.58.38 PM.png](../assets/Screenshot_2023-09-09_at_4.58.38_PM_1695860029294_0.png)
-		- Subjectively, the groupings seem better and make more sense for the 3D view than 2D. Turning the embeddings into 3D points, rather than 2D preserves much more information about their relationships.
 		- The 3D space allows for more fluid categorizations, enabling articles to exist "between groups." For example, the "Philosophy of Science" article is placed between a cluster of articles on science and a cluster of articles on philosophy.
+		- Subjectively, the groupings seem better and make more sense for the 3D view than 2D. Turning the embeddings into 3D points, rather than 2D preserves much more information about their relationships and creates better groupings
 		- ![1krotation-autoplay](../assets/output.mp4)
 		- Here's what the 10k article graph looks like:
 		- ![largesmall-autoplay.mp4](../assets/largesmall_1695859569049_0.mp4)
 - ## Implications and Uses
 	- ### Dynamic Categorization
-		- Organizing based on text embeddings allows for a dynamic, fluid way to categorize notes or articles. Unlike rigid folder structures, this method enables a report to belong to multiple overlapping or between categories.
+		- Organizing based on text embeddings allows for a dynamic, fluid way to categorize notes or articles. Unlike rigid folder structures, this method enables an article to belong to multiple overlapping or between categories.
 		- As new articles are added, all articles shift and reorganize themselves around the new articles, so no manual organization is necessary. It's automatically organized based on the meaning of the content.
 	- ### Discovery and Exploration
 		- The 3D environment encourages users to explore information in a more engaging way, potentially leading to unexpected yet relevant findings.
@@ -78,7 +78,7 @@ blogtitle:: Organizing Notes in 3D with AI
 		- Text embeddings are also used to implement "Semantic Search," which allows you to search for documents based on similarity instead of keywords.
 		- The 3D gives us an intuitive understanding of how search works; we could imagine the search term in 3D space, and the search results would be the closest articles to the search query.
 - ## Real-world Application
-	- The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate knowledge bases. It's a unique alternative for exploring and discovering information information.
+	- The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate knowledge bases. It's a unique alternative for exploring and discovering information.
 	- With the potential rise in popularity of devices such as Apple Vision, the importance of crafting 3D interfaces could surge significantly.
 - ## Example Python code
 	- It's straightforward to generate text embeddings and compare their similarity using Python. Here are some simplified examples so you can understand how the code works.

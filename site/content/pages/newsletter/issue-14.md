@@ -137,7 +137,7 @@ Here's what the 10k article graph looks like:
 
 ### Dynamic Categorization
 
-Organizing based on text embeddings allows for a dynamic, fluid way to categorize notes or articles. Unlike rigid folder structures, this method enables a report to belong to multiple overlapping or between categories.
+Organizing based on text embeddings allows for a dynamic, fluid way to categorize notes or articles. Unlike rigid folder structures, this method enables an article to belong to multiple overlapping or between categories.
 
 As new articles are added, all articles shift and reorganize themselves around the new articles, so no manual organization is necessary. It's automatically organized based on the meaning of the content.
 
