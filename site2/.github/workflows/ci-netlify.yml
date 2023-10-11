@@ -1,0 +1,42 @@
+name: CI for Netlify sites
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+          cache: 'npm'
+      - name: Install & Build
+        run: |
+          npm ci
+          npm run build
+      - name: Lint
+        run: |
+          npm run lint
+      - name: Waiting for 200 from the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1.4
+        id: waitFor200
+        with:
+          site_name: '11st-starter-kit'
+          max_timeout: 60
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: |
+            ${{ steps.waitFor200.outputs.url }}
+            ${{ steps.waitFor200.outputs.url }}/about/
+          budgetPath: ./budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true

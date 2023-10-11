@@ -1,0 +1,17 @@
+<script webc:type="js">
+  let metaDesc;
+
+  if ($data.meta?.desc) {
+    metaDesc = $data.meta.desc;
+  } else {
+    socialImage = `${$data.site.url}/images/social-share.png`;
+    metaDesc = '';
+  }
+
+  `
+  <meta name="description" content="${metaDesc}" />
+  <meta name="twitter:description" content="${metaDesc}" />
+  <meta property="og:description" content="${metaDesc}" />
+  `;
+</script>
+

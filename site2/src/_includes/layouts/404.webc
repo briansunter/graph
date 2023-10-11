@@ -1,0 +1,22 @@
+---
+layout: 'layouts/plain.webc'
+---
+
+<main class="flex min-h-screen items-center justify-center bg-red-700">
+  <div
+    class="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8"
+  >
+    <h2 class="animate-pulse text-7xl font-extrabold leading-10 text-white">
+      404
+    </h2>
+    <p class="mt-4 text-lg leading-6 text-red-200">
+      Take me back
+      <a
+        href="/"
+        class="font-bold underline transition duration-150 ease-in-out"
+      >
+        home
+      </a>
+    </p>
+  </div>
+</main>

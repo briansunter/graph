@@ -1,0 +1,23 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "declaration-property-value-no-unknown": true,
+    "no-descending-specificity": null,
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-alphabetical-order": true,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "apply",
+          "layer",
+          "responsive",
+          "screen",
+          "tailwind",
+          "variants"
+        ]
+      }
+    ]
+  }
+}

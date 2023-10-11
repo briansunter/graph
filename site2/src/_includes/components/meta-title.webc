@@ -1,0 +1,15 @@
+<script webc:type="js">
+  let metaTitle;
+
+  if ($data.meta.title) {
+    metaTitle = $data.meta.title;
+  } else {
+    if ($data.site.name === $data.title) {
+      metaTitle = $data.title;
+    } else {
+      metaTitle = `${$data.title} :: ${$data.site.name}`;
+    }
+  }
+
+  `<title>${metaTitle}</title>`;
+</script>

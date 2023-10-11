@@ -1,0 +1,106 @@
+{
+  "name": "11st-starter-kit",
+  "description": "11ty, powered by Vite with Tailwind CSS and Alpine.js.",
+  "version": "3.0.0",
+  "engines": {
+    "node": "18.x.x",
+    "npm": "9.x.x"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stefanfrede/11st-starter-kit.git"
+  },
+  "keywords": [
+    "alpinejs",
+    "eleventy",
+    "jamstack",
+    "liquidjs",
+    "netlify",
+    "pwa",
+    "tailwindcss",
+    "vite"
+  ],
+  "author": {
+    "name": "Stefan Frede",
+    "email": "stefan@frede.dev"
+  },
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/stefanfrede/11st-starter-kit/issues"
+  },
+  "homepage": "https://11st-starter-kit.netlify.app",
+  "lint-staged": {
+    "*.html": "prettier --write",
+    "*.css": "stylelint --cache --fix",
+    "*.js": "eslint --cache --fix"
+  },
+  "scripts": {
+    "clean": "rimraf _site",
+    "prepare": "npx husky install",
+    "preview": "npx vite preview",
+    "predev": "run-s clean",
+    "dev": "cross-env NODE_ENV=development run-p dev:*",
+    "dev:eleventy": "npx @11ty/eleventy --serve --incremental",
+    "prebuild": "run-s clean",
+    "build": "cross-env NODE_ENV=production run-s build:*",
+    "build:eleventy": "npx @11ty/eleventy",
+    "lint": "run-s lint:*",
+    "lint:html": "npx prettier --check \"src/**/*.webc\"",
+    "lint:stylelint": "npx stylelint \"src/**/*.css\"",
+    "lint:eslint": "npx eslint --ext .js src/",
+    "format": "run-s format:*",
+    "format:html": "npx prettier --write \"src/**/*.webc\"",
+    "format:stylelint": "npx stylelint \"src/**/*.css\" --fix",
+    "format:eslint": "npx eslint --ext .js src/ --fix",
+    "validate": "run-s build lint",
+    "setup": "npm install && npm run validate"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.15.8",
+    "@babel/preset-env": "^7.16.5",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@preact/preset-vite": "^2.5.0",
+    "@prefresh/vite": "^2.4.1",
+    "@slinkity/preact": "^1.0.1",
+    "@slinkity/react": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.0",
+    "autoprefixer": "^10.2.4",
+    "browserslist": "^4.16.6",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^10.0.0",
+    "preact": "^10.18.1",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "rimraf": "^5.0.0",
+    "slinkity": "^1.0.0-canary.0",
+    "stylelint": "^15.1.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.1",
+    "tailwindcss": "^3.3.3",
+    "vite-plugin-pwa": "^0.16.3"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@alpinejs/persist": "^3.11.1",
+    "alpinejs": "^3.11.1",
+    "core-js": "^3.29.1"
+  }
+}
