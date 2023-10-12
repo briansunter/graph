@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="">
+<!-- Social Links -->
+<div class="mt-6 space-x-4 flex">
+    {% for social in social.socialIcons %}
+    <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" title="{{ social.name }} Profile" class="flex flex-col h-30 w-30 justify-center items-center">
+        {# <i class="fab fa-{{ social.name }} text-xl"></i> #}
+                <img class="h-10 w-10 " src="{{ social.icon }}"></img>
+        <span class="font-semibold underline">{{ social.name }}</span>
+    </a>
+    {% endfor %}
+</div>

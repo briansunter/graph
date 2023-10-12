@@ -1,0 +1,12 @@
+
+<section class="flex flex-wrap items-start space-x-6 h-fit max-w-6xl items-center">
+    <div class="px-4 h-80 w-80 flex-shrink-0">
+        <img src=" {{ image_src }}" alt="..." class="shadow rounded-full max-w-full h-auto align-middle border-none" />
+    </div>
+    <div class="max-w-2xl flex-grow">
+        <h1 class="text-4xl font-semibold">{{ title }}</h1>
+        <p class="mt-2 text-2xl text-gray-700">{{ short_intro }}</p>
+        <p class="mt-4 text-gray-600">{{ long_intro }}</p>
+        {% include "social.njk" %}
+    </div>
+</section>
