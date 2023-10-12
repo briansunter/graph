@@ -12,14 +12,16 @@ const noTrailingSlash = () => ({
   name: 'configure-server',
   configureServer(server) {
     server.middlewares.use((req, res, next) => {
-      const url = req.url;
+      let [url, queryString] = req.url.split('?');
+      queryString = queryString ? '?' + queryString : '';
+
       const lastSegment = url.split("/").pop();
 
       if (url !== "/" && url.endsWith("/")) {
-        res.writeHead(301, { Location: url.slice(0, -1) });
+        res.writeHead(301, { Location: url.slice(0, -1) + queryString });
         res.end();
-      } else if (url !== "/" && !/\.[\w-]+$/i.test(lastSegment) && !url.includes('?') && !url.startsWith('/@')) {
-        req.url += "/index.html";
+      } else if (url !== "/" && !/\.[\w-]+$/i.test(lastSegment) && !url.startsWith('/@vite/')) {
+        req.url = url + "/index.html" + queryString;
         next();
       } else {
         next();
@@ -27,6 +29,7 @@ const noTrailingSlash = () => ({
     })
   },
 })
+
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 console.log('baseUrl is set to ...', baseUrl);
 
