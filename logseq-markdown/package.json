@@ -1,0 +1,22 @@
+{
+  "name": "logseq-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ts-node/register/transpile-only -r esm src/index.mts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@logseq/nbb-logseq": "^1.2.173",
+    "mldoc": "^1.5.7",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
