@@ -28,7 +28,11 @@ interface Block {
   updatedAt: string;
   createdAt: string;
   journal: boolean;
+  parent: {id: number};
+  left: {id: number};
 }
+
+
 
 async function run(graph: string, query: string):Promise<Block[]> {
 
@@ -59,8 +63,97 @@ const pagesQuery = `[:find (pull ?p [*])
                 [?p :block/created-at]
                 [?p :block/updated-at]]`
 const parentBlocks = await run(graphUrl, pagesQuery);
-const block = parentBlocks[0]
-const childPagesQuery = `[:find (pull ?p [*])
-                :where [?p :block/page ${block.id}]]`
-const childBlocks = await run(graphUrl, childPagesQuery);
-console.log(childBlocks)
+
+const block = parentBlocks[0];
+
+const childPagesQuery = (blockId: number) => `[:find (pull ?p [*])
+                :where [?p :block/page ${blockId}]
+                ]`;
+
+
+const results = []
+
+function buildContentInOrder(blockId: number, blocks: Block[], processedIds: Set<number> = new Set()): string {
+  if (processedIds.has(blockId)) {
+    // console.log(`Block with id ${blockId} already processed, skipping`);
+    return '';
+  }
+
+  processedIds.add(blockId);
+
+  const block = blocks.find(b => b.id === blockId);
+
+  if (!block) {
+    // console.log(`Block with id ${blockId} not found`);
+    return '';
+  }
+
+  // console.log(`Processing block with id ${blockId}, content: ${block.content}`);
+
+  let content = block.content;
+
+  if (block.left) {
+    // console.log(`Block with id ${blockId} has left block with id ${block.left.id}`);
+    content = buildContentInOrder(block.left.id, blocks, processedIds) + "\n" + content;
+  }
+
+  const childBlocks = blocks.filter(b => b.parent && b.parent.id === blockId);
+
+  for (const childBlock of childBlocks) {
+    // console.log(`Block with id ${blockId} has child block with id ${childBlock.id}`);
+    content += "\n" + buildContentInOrder(childBlock.id, blocks, processedIds);
+  }
+
+  return content;
+}
+
+// Usage:
+// Usage:
+
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import fs from 'fs';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+// console.log(parentBlocks.map(b => b.name).join("\n"));
+
+const parentBlockPromises = parentBlocks.map(async (parent) => {
+  let childBlocks = await run(graphUrl, childPagesQuery(parent.id));
+
+  const content = buildContentInOrder(parent.id, [parent, ...childBlocks]);
+  // console.log("content", content)
+  if(content){
+    const dirPath = path.join(__dirname, 'out');
+    if (!fs.existsSync(dirPath)){
+      fs.mkdirSync(dirPath, { recursive: true });
+    }
+    const safeName = parent.name.replace(/\//g, '_');
+    await fs.promises.writeFile(path.join(dirPath, `block_${safeName}.md`), content);
+  }
+});
+
+await Promise.all(parentBlockPromises);
+// while(childBlocks.length > 0){
+//   const leftMostBlock = childBlocks.reduce((leftBlock: Block, currentBlock: Block) => {
+//     return (!leftBlock || !currentBlock.left || currentBlock.left.id < leftBlock.left.id) ? currentBlock : leftBlock;
+//   }, childBlocks[0]);
+
+//   if (leftMostBlock) {
+//     results.push(leftMostBlock);
+//     childBlocks = childBlocks.filter(block => block.id !== leftMostBlock.id);
+//   } else {
+//     break;
+//   }
+// }
+// console.log(childBlocks.map(b => b.content).join("\n"));
+// const blockTreeQuery = (parentBlockId: number, previousBlockId: number) => `[:find (pull ?b [*])
+// :where
+// [?b :block/left ${previousBlockId}]
+// [?b :block/parent ${parentBlockId}]]`;
+
+// for (const block of childBlocks){
+//   const blockTree = await run(graphUrl, blockTreeQuery(block.parent.id, block.left.id));
+//   console.log(blockTree)
+// }
