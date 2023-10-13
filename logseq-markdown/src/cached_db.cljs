@@ -48,9 +48,15 @@ encapsulated in this ns"
       (fs/writeFileSync cache-file (dt/write-transit-str @conn))))
   nil)
 
-(defn- main [graph-dir query-str]
-(let [{:keys [conn]} (gp-cli/parse-graph graph-dir {:verbose false})
-      query* (edn/read-string query-str)
-      query (into query* [:in '$ '%]) ;; assumes no :in are in queries
-      results (map first (apply d/q query @conn [(vals rules/query-dsl-rules)]))]
-  (clj->js results)))
+  (defn- main [graph-dir query-str]
+  (let [cache-exists? (fs/existsSync cache-file)
+        conn (if cache-exists?
+               (d/conn-from-db (read-db))
+               (do
+                 (let [conn (:conn (gp-cli/parse-graph graph-dir {:verbose false}))]
+                   (write-db graph-dir [])
+                   conn)))
+        query* (edn/read-string query-str)
+        query (into query* [:in '$ '%]) ;; assumes no :in are in queries
+        results (map first (apply d/q query @conn [(vals rules/query-dsl-rules)]))]
+    (clj->js results)))
