@@ -14,6 +14,43 @@ async function run(graph, query) {
               [logseq.db.rules :as rules]
               [datascript.core :as d]
               [clojure.edn :as edn]))
+              (def ^:private cache-file
+                "Cache file for storing transit db"
+                ".cached-db-transit.json")
+              
+              (defn ^:api read-db
+                "Reads db from cache file"
+                []
+                (dt/read-transit-str (fs/readFileSync cache-file)))
+              
+              (defn write-db
+                "Writes cache db file given the graph directory. First time writing the cache
+                can take long for large graphs since all files are parsed. Subsequent writes
+                are quick as the cache only needs to update changed files."
+                [dir changed-files]
+                (if (fs/existsSync cache-file)
+                  (let [old-conn (d/conn-from-db (read-db))
+                        files (->> changed-files
+                                    ;; Can remove if the graph-parser filters with frontend.util.fs/ignored-path?
+                                   (remove #(string/includes? % "logseq/bak"))
+                                   (map #(hash-map :file/path %
+                                                   :file/content (str (fs/readFileSync %)))))
+                        delete-blocks (fn [db file-page file-path uuid-blocks]
+                                        (into (graph-parser/get-blocks-to-delete db file-page file-path uuid-blocks)
+                                              ;; Delete page to allow for page properties to be redefined
+                                              ;; Assumes no page rename for now
+                                              [[:db.fn/retractEntity [:block/name (:block/name file-page)]]]))
+                        conn (:conn (gp-cli/parse-graph dir
+                                                        {:conn old-conn
+                                                         :files files
+                                                         :verbose true
+                                                         :parse-file-options {:delete-blocks-fn delete-blocks}}))]
+                    (println "Updating cache file" cache-file)
+                    (fs/writeFileSync cache-file (dt/write-transit-str @conn)))
+                  (let [conn (:conn (gp-cli/parse-graph dir {:verbose false}))]
+                    (println "Writing cache file" cache-file)
+                    (fs/writeFileSync cache-file (dt/write-transit-str @conn))))
+                nil)
 
   (defn- main [graph-dir query*]
     (let [{:keys [conn]} (gp-cli/parse-graph graph-dir {:verbose false})
