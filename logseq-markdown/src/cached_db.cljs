@@ -6,9 +6,27 @@ encapsulated in this ns"
             [logseq.graph-parser.cli :as gp-cli]
             [logseq.graph-parser :as graph-parser]
             [clojure.string :as string]
-              [logseq.db.rules :as rules]
-              [clojure.edn :as edn]
+            [logseq.db.rules :as rules]
+            [clojure.edn :as edn]
+            [promesa.core :as p]
             ["fs" :as fs]))
+
+(defn write-file!
+  [fpath content]
+  (p/create
+   (fn [resolve reject]
+     (fs/writeFile fpath content (fn [err]
+                                   (if err
+                                     (reject err)
+                                     (resolve nil)))))))
+(defn read-file
+  [fpath]
+  (p/create
+   (fn [resolve reject]
+     (fs/readFile fpath (fn [err content]
+                          (if err
+                            (reject err)
+                            (resolve content)))))))
 
 (def ^:private cache-file
   "Cache file for storing transit db"
@@ -18,6 +36,7 @@ encapsulated in this ns"
   "Reads db from cache file"
   []
   (dt/read-transit-str (fs/readFileSync cache-file)))
+  
 
 (defn write-db
   "Writes cache db file given the graph directory. First time writing the cache
