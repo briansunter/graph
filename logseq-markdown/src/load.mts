@@ -14,6 +14,11 @@ const pagesQuery = `[:find (pull ?p [*])
                 [?p :block/created-at]
                 [?p :block/updated-at]]`;
 
-const result = await main.root(logseqPath, pagesQuery);
-
-console.log(result);
+const promises = []
+for (let i = 0; i < 50; i++) {
+promises.push(await main.root(logseqPath, pagesQuery))
+// .then((p:{name: string}[]) => p.map(p => console.log(p.name  ))));
+}
+// await Promise.all(promises);
+// console.log(result);
+// console.log(await main.root(logseqPath, pagesQuery))

@@ -10,6 +10,9 @@ encapsulated in this ns"
             [clojure.edn :as edn]
             [promesa.core :as p]
             ["fs" :as fs]))
+(def ^:private cache-file
+  "Cache file for storing transit db"
+  ".cached-db-transit.json")
 
 (defn write-file!
   [fpath content]
@@ -27,10 +30,13 @@ encapsulated in this ns"
                           (if err
                             (reject err)
                             (resolve content)))))))
+(defn ^:api read-db
+  "Reads db from cache file"
+  []
+  (-> (read-file cache-file)
+      (p/then dt/read-transit-str)))
 
-(def ^:private cache-file
-  "Cache file for storing transit db"
-  ".cached-db-transit.json")
+
 
 (defn ^:api read-db
   "Reads db from cache file"
@@ -67,15 +73,15 @@ encapsulated in this ns"
       (fs/writeFileSync cache-file (dt/write-transit-str @conn))))
   nil)
 
-  (defn- main [graph-dir query-str]
-  (let [cache-exists? (fs/existsSync cache-file)
-        conn (if cache-exists?
-               (d/conn-from-db (read-db))
-               (do
-                 (let [conn (:conn (gp-cli/parse-graph graph-dir {:verbose false}))]
-                   (write-db graph-dir [])
-                   conn)))
-        query* (edn/read-string query-str)
-        query (into query* [:in '$ '%]) ;; assumes no :in are in queries
-        results (map first (apply d/q query @conn [(vals rules/query-dsl-rules)]))]
+(defn- main [graph-dir query-str]
+  (p/let [conn (-> (read-file cache-file)
+                   (p/catch (fn [_]
+                              (p/create (fn [resolve _]
+                                          (let [conn (:conn (gp-cli/parse-graph graph-dir {:verbose false}))]
+                                            (p/then (write-db graph-dir []) (fn [_] (resolve conn))))))))
+                   (p/then (fn [content]
+                             (d/conn-from-db (dt/read-transit-str content)))))
+          query* (edn/read-string query-str)
+          query (into query* [:in '$ '%]) ;; assumes no :in are in queries
+          results (map first (apply d/q query @conn [(vals rules/query-dsl-rules)]))]
     (clj->js results)))
