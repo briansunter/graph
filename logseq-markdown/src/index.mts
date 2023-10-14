@@ -170,25 +170,3 @@ const parentBlockPromises = parentBlocks.map(async (parent) => {
 });
 
 await Promise.all(parentBlockPromises);
-// while(childBlocks.length > 0){
-//   const leftMostBlock = childBlocks.reduce((leftBlock: Block, currentBlock: Block) => {
-//     return (!leftBlock || !currentBlock.left || currentBlock.left.id < leftBlock.left.id) ? currentBlock : leftBlock;
-//   }, childBlocks[0]);
-
-//   if (leftMostBlock) {
-//     results.push(leftMostBlock);
-//     childBlocks = childBlocks.filter(block => block.id !== leftMostBlock.id);
-//   } else {
-//     break;
-//   }
-// }
-// console.log(childBlocks.map(b => b.content).join("\n"));
-// const blockTreeQuery = (parentBlockId: number, previousBlockId: number) => `[:find (pull ?b [*])
-// :where
-// [?b :block/left ${previousBlockId}]
-// [?b :block/parent ${parentBlockId}]]`;
-
-// for (const block of childBlocks){
-//   const blockTree = await run(graphUrl, blockTreeQuery(block.parent.id, block.left.id));
-//   console.log(blockTree)
-// }
