@@ -1,3 +1,0 @@
-{
-  :externs ["datascript/externs.js"]
-}
