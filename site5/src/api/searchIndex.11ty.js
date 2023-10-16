@@ -8,7 +8,6 @@
     data() {
       return {
         permalink: "public/api/search.json",
-        // permalinkBypassOutputDir: true
       };
     }
   
@@ -34,9 +33,6 @@
     
       const searchCollection = await Promise.all(searchCollectionPromises);
     
-      // const index = Fuse.createIndex(options.keys, searchCollection);
-      
-  //  return "{FOO" 
       return JSON.stringify(searchCollection);
     } 
       

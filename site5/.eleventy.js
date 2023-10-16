@@ -58,6 +58,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/css')
 	eleventyConfig.addPassthroughCopy('src/assets/js')
+  eleventyConfig.addPassthroughCopy('src/scripts')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
 
@@ -67,14 +68,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss); // just includes absolute url helper function
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPassthroughCopy("public");
+  // eleventyConfig.addPassthroughCopy("public");
+
 
   // eleventyConfig.addPlugin(
   //   slinkity.plugin,
   //   slinkity.defineConfig({
   //     renderers: [preact()],
+  //     viteConfig: {
+  //       plugins: [noTrailingSlash()]
+  //     }
   //   })
   // ) 
+
   eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
 
   eleventyConfig.addUrlTransform(({url}) => {
