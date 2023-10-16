@@ -12,7 +12,7 @@ title: Brian Sunter
 short_intro: I'm a software engineer based in London, UK. I'm currently working at Monzo.
 long_intro: I have a passion for building products that make people's lives easier. I'm currently working at Monzo, where I'm helping to build the future of banking. I'm also a keen open source contributor, and I'm always looking for new projects to get involved with.
 ---
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.min.js"></script>
 {% include "intro.njk" %}
 {% import "macros/blog-preview.njk" as blogPreview %}
 
@@ -44,8 +44,9 @@ long_intro: I have a passion for building products that make people's lives easi
 {% for post in collections.all %}
   {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description }) %}
 {% endfor %}
-
-<section x-data="{ sortKey: 'title', sortDesc: false, posts: {{ items | dump | safe | forceescape }} }">
+<section x-data="{ sortKey: 'title', sortDesc: false, posts: null, search: '', fuse: null }" 
+         x-init="posts={{ items | dump | safe | forceescape }}; $nextTick(() => { fuse = new Fuse(posts, { keys: ['title', 'description'], threshold: 0.5 }) })">
+  <input type="text" x-model="search" placeholder="Search posts...">
   <table class="table-auto max-w-5xl">
     <thead>
       <tr>
@@ -55,7 +56,7 @@ long_intro: I have a passion for building products that make people's lives easi
       </tr>
     </thead>
     <tbody>
-      <template x-for="post in posts.sort((a, b) => {
+      <template x-for="post in (search.length ? fuse.search(search).map(result => result.item) : posts).sort((a, b) => {
         let aValue = a[sortKey];
         let bValue = b[sortKey];
 
