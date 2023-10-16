@@ -14,12 +14,72 @@ long_intro: I have a passion for building products that make people's lives easi
 ---
 
 {% include "intro.njk" %}
+{% import "macros/blog-preview.njk" as blogPreview %}
+
 <section>
-  {% import "macros/blog-preview.njk" as blogPreview %}
+  <hr>
+  <h2 class="text-6xl font-bold my-8">Blog</h2>
+  <p class="text-lg text-gray-600 my-4">Here you'll find my latest blog posts about software development, technology, and my experiences in the tech industry.</p>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-5xl">
     {% set sortedPosts = collections.newsletter | sort(attribute='data.date') | reverse %}
-    {% for post in sortedPosts.slice(0,9) %}
+    {% for post in sortedPosts.slice(0,6) %}
       {{ blogPreview.blogPostPreview(post) }}
     {% endfor %}
   </div>
+</section>
+
+<section>
+  <hr>
+  <h2 class="text-6xl font-bold my-8">Projects</h2>
+  <p class="text-lg text-gray-600 my-4">Here you'll find a showcase of my latest projects, spanning various technologies and industries.</p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-5xl">
+    {% set sortedPosts = collections.newsletter | sort(attribute='data.date') | reverse %}
+    {% for post in sortedPosts.slice(0,6) %}
+      {{ blogPreview.blogPostPreview(post) }}
+    {% endfor %}
+  </div>
+</section>
+
+{% set items = [] %}
+{% for post in collections.all %}
+  {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description }) %}
+{% endfor %}
+
+<section x-data="{ sortKey: 'title', sortDesc: false, posts: {{ items | dump | safe | forceescape }} }">
+  <table class="table-auto max-w-5xl">
+    <thead>
+      <tr>
+        <th class="px-4 py-2" @click="sortKey = 'title'; sortDesc = !sortDesc">Title</th>
+        <th class="px-4 py-2" @click="sortKey = 'date'; sortDesc = !sortDesc">Date</th>
+        <th class="px-4 py-2" @click="sortKey = 'description'; sortDesc = !sortDesc">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <template x-for="post in posts.sort((a, b) => {
+        let aValue = a[sortKey];
+        let bValue = b[sortKey];
+
+        if (sortKey === 'date') {
+          aValue = new Date(aValue).getTime();
+          bValue = new Date(bValue).getTime();
+        }
+
+        if (aValue === undefined || bValue === undefined) {
+          return 0;
+        }
+
+        if (typeof aValue === 'string') {
+          return sortDesc ? -aValue.localeCompare(bValue) : aValue.localeCompare(bValue);
+        } else {
+          return sortDesc ? bValue - aValue : aValue - bValue;
+        }
+      })">
+        <tr>
+          <td class="border px-4 py-2" x-text="post.title"></td>
+          <td class="border px-4 py-2" x-text="post.date"></td>
+          <td class="border px-4 py-2" x-text="post.description"></td>
+        </tr>
+      </template>
+    </tbody>
+  </table>
 </section>
