@@ -142,7 +142,7 @@ module.exports = function(eleventyConfig) {
       layouts: "layouts", // this path is releative to input-path (src/)
       data: "data", // this path is releative to input-path (src/)
     },
-    templateFormats: ["njk", "md"],
+    templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
   };

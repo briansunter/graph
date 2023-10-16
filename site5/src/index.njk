@@ -42,14 +42,14 @@ long_intro: I have a passion for building products that make people's lives easi
 
 {% set items = [] %}
 {% for post in collections.all %}
-  {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description }) %}
+    {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description, tags: post.data.tags }) %}
+
 {% endfor %}
 
-{% set staticItems = items.slice(0, 5) %}
-{% set dynamicItems = items.slice(5) %}
+{% set staticItems = items.slice(0, 10) %}
 
 <section x-data="{ sortKey: 'title', sortDesc: false, posts: null, search: '', fuse: null }" 
-x-init="posts = {{ dynamicItems | dump | safe | forceescape  }} ; let static = {{ staticItems | dump | safe | forceescape  }}; $nextTick(() => {  fuse = new Fuse([...posts,...static], { keys: ['title', 'description'], threshold: 0.4 }) })"
+x-init="posts = {{ staticItems | dump | safe | forceescape  }} ; let res = await fetch('/api/search-index.json'); let  index = await res.json(); $nextTick(() => {fuse = new Fuse(index, { keys: ['content', 'description', 'tags', 'title', 'url'], threshold: 0.3, ignoreLocation: true })}) ">
   <hr>
   <h2 class="text-6xl font-bold my-8">All Pages and Notes</h2>
   <p class="text-lg text-gray-600 my-4">Here you'll find a comprehensive list of all pages and notes on this site. Use the search bar to find specific posts.</p>
@@ -67,6 +67,8 @@ x-init="posts = {{ dynamicItems | dump | safe | forceescape  }} ; let static = {
         <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'title'; sortDesc = !sortDesc">Title</th>
         <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'date'; sortDesc = !sortDesc">Date</th>
         <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'description'; sortDesc = !sortDesc">Description</th>
+        <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'tags'; sortDesc = !sortDesc">Tags</th>
+
       </tr>
     </thead>
     <tbody>
@@ -75,6 +77,8 @@ x-init="posts = {{ dynamicItems | dump | safe | forceescape  }} ; let static = {
           <td class="border px-4 py-2">{{ post.title }}</td>
           <td class="border px-4 py-2">{{ post.date }}</td>
           <td class="border px-4 py-2">{{ post.description }}</td>
+          <td class="border px-4 py-2">{{ (post.tags | default([])).join(', ') }}</td>
+
         </tr>
       {% endfor %}
       <template x-for="post in (search.length ? fuse.search(search).map(result => result.item) : posts).sort((a, b) => {
@@ -101,6 +105,7 @@ x-init="posts = {{ dynamicItems | dump | safe | forceescape  }} ; let static = {
           <td class="border px-4 py-2" x-text="post.title"></td>
           <td class="border px-4 py-2" x-text="post.date"></td>
           <td class="border px-4 py-2" x-text="post.description"></td>
+          <td class="border px-4 py-2">{{ (post.tags | default([])).join(', ') }}</td>
         </tr>
       </template>
     </tbody>
