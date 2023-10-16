@@ -1,0 +1,24 @@
+exports.data = function () {
+  return {
+    permalink: "public/api/search2.json",
+    layout: false,
+  };
+};
+
+exports.render = function (data) {
+  const entries = [];
+  for (const entry of data.collections.blog) {
+    const o = {
+      url: entry.data.page.url,
+      title: entry.data.title,
+      date: entry.data.page.date,
+      excerpt: entry.data.excerpt || "",
+      content: entry.template.frontMatter.content,
+    };
+    entries.push(o);
+  }
+
+  return JSON.stringify({
+    blog: entries, // Using a key allows future extensions like "site-pages"
+  });
+};

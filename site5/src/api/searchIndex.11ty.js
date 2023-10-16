@@ -7,7 +7,8 @@
   class SearchIndex {
     data() {
       return {
-        permalink: "/api/search-index.json"
+        permalink: "public/api/search.json",
+        // permalinkBypassOutputDir: true
       };
     }
   
@@ -26,6 +27,7 @@
           url: item.url,
           description: item.data.description,
           content: wordsString,
+          date: item.date,
           tags: item.data.tags,
         };
       });
@@ -33,10 +35,12 @@
       const searchCollection = await Promise.all(searchCollectionPromises);
     
       // const index = Fuse.createIndex(options.keys, searchCollection);
-    
+      
+  //  return "{FOO" 
       return JSON.stringify(searchCollection);
     } 
       
   }
   
-  module.exports = SearchIndex;
+
+  module.exports = SearchIndex

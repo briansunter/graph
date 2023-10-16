@@ -63,16 +63,20 @@ module.exports = function(eleventyConfig) {
 
 
   /* --- PLUGINS --- */
-  eleventyConfig.addPlugin(
-    slinkity.plugin,
-    slinkity.defineConfig({
-      renderers: [preact()],
-    })
-  )
+ 
+
   eleventyConfig.addPlugin(pluginRss); // just includes absolute url helper function
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPassthroughCopy("public");
+
+  // eleventyConfig.addPlugin(
+  //   slinkity.plugin,
+  //   slinkity.defineConfig({
+  //     renderers: [preact()],
+  //   })
+  // ) 
   eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
-  
+
   eleventyConfig.addUrlTransform(({url}) => {
     return url.replace(/\/$/, "");
   });
@@ -89,6 +93,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPairedShortcode("logseqOrgWARNING", function(url) { return `logseq url` });
   eleventyConfig.addPairedShortcode("logseqOrgSRC", function(url) { return `logseq url` });
   eleventyConfig.addPairedShortcode("logseqOrgQUOTE", function(url) { return `logseq url` });
+  eleventyConfig.addShortcode("jsonPosts", function(url) { 
+    
+  
+  })
   // Image shortcode config
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 
@@ -133,6 +141,7 @@ module.exports = function(eleventyConfig) {
      // other config likely here
    });
   /* --- BASE CONFIG --- */
+  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
   return {
     dir: {
