@@ -45,9 +45,12 @@ long_intro: I have a passion for building products that make people's lives easi
   {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description }) %}
 {% endfor %}
 
+{% set staticItems = items.slice(0, 5) %}
+{% set dynamicItems = items.slice(5) %}
+
 <section x-data="{ sortKey: 'title', sortDesc: false, posts: null, search: '', fuse: null }" 
-         x-init="posts={{ items | dump | safe | forceescape }}; $nextTick(() => { fuse = new Fuse(posts, { keys: ['title', 'description'], threshold: 0.5 }) })">
-           <hr>
+x-init="posts = {{ dynamicItems | dump | safe | forceescape  }} ; let static = {{ staticItems | dump | safe | forceescape  }}; $nextTick(() => {  fuse = new Fuse([...posts,...static], { keys: ['title', 'description'], threshold: 0.4 }) })"
+  <hr>
   <h2 class="text-6xl font-bold my-8">All Pages and Notes</h2>
   <p class="text-lg text-gray-600 my-4">Here you'll find a comprehensive list of all pages and notes on this site. Use the search bar to find specific posts.</p>
   <div class="relative">
@@ -67,6 +70,13 @@ long_intro: I have a passion for building products that make people's lives easi
       </tr>
     </thead>
     <tbody>
+      {% for post in staticItems %}
+            <tr x-show="search.length === 0">
+          <td class="border px-4 py-2">{{ post.title }}</td>
+          <td class="border px-4 py-2">{{ post.date }}</td>
+          <td class="border px-4 py-2">{{ post.description }}</td>
+        </tr>
+      {% endfor %}
       <template x-for="post in (search.length ? fuse.search(search).map(result => result.item) : posts).sort((a, b) => {
         let aValue = a[sortKey];
         let bValue = b[sortKey];
@@ -87,6 +97,7 @@ long_intro: I have a passion for building products that make people's lives easi
         }
       })">
         <tr>
+          
           <td class="border px-4 py-2" x-text="post.title"></td>
           <td class="border px-4 py-2" x-text="post.date"></td>
           <td class="border px-4 py-2" x-text="post.description"></td>
