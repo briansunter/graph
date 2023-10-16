@@ -1,6 +1,4 @@
 ---
-tags:
-- newsletter
 date: 2022-07-10
 title: newsletter-roadmap
 categories:

@@ -6,6 +6,8 @@ const Image = require("@11ty/eleventy-img");
 const yaml = require("js-yaml"); // Because yaml is nicer than json for editors
 const slinkity = require('slinkity')
 const preact = require('@slinkity/preact')
+const { DateTime } = require("luxon");
+
 require('dotenv').config();
 
 const noTrailingSlash = () => ({
@@ -125,7 +127,11 @@ module.exports = function(eleventyConfig) {
     return prefix + "-" + Math.floor(Math.random() * 1000000);
   });
 
-
+  eleventyConfig.addFilter("asPostDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+ 
+     // other config likely here
+   });
   /* --- BASE CONFIG --- */
 
   return {
