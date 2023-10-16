@@ -44,15 +44,26 @@ long_intro: I have a passion for building products that make people's lives easi
 {% for post in collections.all %}
   {% set _ = items.push({ title: post.data.title, date: post.data.date, description: post.data.description }) %}
 {% endfor %}
+
 <section x-data="{ sortKey: 'title', sortDesc: false, posts: null, search: '', fuse: null }" 
          x-init="posts={{ items | dump | safe | forceescape }}; $nextTick(() => { fuse = new Fuse(posts, { keys: ['title', 'description'], threshold: 0.5 }) })">
-  <input type="text" x-model="search" placeholder="Search posts...">
-  <table class="table-auto max-w-5xl">
+           <hr>
+  <h2 class="text-6xl font-bold my-8">All Pages and Notes</h2>
+  <p class="text-lg text-gray-600 my-4">Here you'll find a comprehensive list of all pages and notes on this site. Use the search bar to find specific posts.</p>
+  <div class="relative">
+    <input type="text" x-model="search" placeholder="Search posts..." class="w-full p-2 border-2 border-gray-300 bg-white h-10 rounded-lg text-sm focus:outline-none">
+    <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+      <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.966 56.966">
+        <path d="M55.146 51.887L41.588 37.786c3.486-4.144 5.396-9.358 5.396-14.786 0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c5.428 0 10.642-1.911 14.786-5.396l13.557 14.101c0.571 0.593 1.339 0.92 2.162 0.92 0.779 0 1.518-0.297 2.104-0.883 1.17-1.171 1.17-3.073 0-4.243zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z"/>
+      </svg>
+    </button>
+  </div>
+  <table class="table-auto max-w-5xl mt-4 w-full text-left whitespace-no-wrap">
     <thead>
       <tr>
-        <th class="px-4 py-2" @click="sortKey = 'title'; sortDesc = !sortDesc">Title</th>
-        <th class="px-4 py-2" @click="sortKey = 'date'; sortDesc = !sortDesc">Date</th>
-        <th class="px-4 py-2" @click="sortKey = 'description'; sortDesc = !sortDesc">Description</th>
+        <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'title'; sortDesc = !sortDesc">Title</th>
+        <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'date'; sortDesc = !sortDesc">Date</th>
+        <th class="px-4 py-2 cursor-pointer" @click="sortKey = 'description'; sortDesc = !sortDesc">Description</th>
       </tr>
     </thead>
     <tbody>
