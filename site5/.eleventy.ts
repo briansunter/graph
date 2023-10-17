@@ -1,13 +1,13 @@
-const path = require('path')
-const pluginRss = require("@11ty/eleventy-plugin-rss"); // needed for absoluteUrl SEO feature
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
-const Image = require("@11ty/eleventy-img");
-const yaml = require("js-yaml"); // Because yaml is nicer than json for editors
-const slinkity = require('slinkity')
-const preact = require('@slinkity/preact')
-const { DateTime } = require("luxon");
-const fs = require("fs");
+import path from 'path';
+import pluginRss from "@11ty/eleventy-plugin-rss"; // needed for absoluteUrl SEO feature
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
+import Image from "@11ty/eleventy-img";
+import yaml from "js-yaml"; // Because yaml is nicer than json for editors
+import slinkity from 'slinkity';
+import preact from '@slinkity/preact';
+import { DateTime } from "luxon";
+import fs from "fs";
 
 require('dotenv').config();
 
@@ -202,7 +202,7 @@ module.exports = function(eleventyConfig) {
       require: require,
       module: {},
       console: console,
-      exports: {},
+      exports: {} as any,
     };
   
     // Run the code in the new context
@@ -236,7 +236,17 @@ module.exports = function(eleventyConfig) {
     </div>
     `
   }); 
+  eleventyConfig.addExtension('11ty.tsx', {
+    key: '11ty.js',
+  });
   
+  // dev server doesn't spider js dependencies properly, so opt for hard browsersync with watch. 
+  eleventyConfig.setServerOptions({
+    module: "@11ty/eleventy-server-browsersync",
+    snippet: true,
+    watch: "src", 
+    server: '_site'
+  }); 
    /* --- FILTERS --- */
 
   // Custom Random Helper Filter (useful for ID attributes)
@@ -262,7 +272,7 @@ module.exports = function(eleventyConfig) {
       layouts: "layouts", // this path is releative to input-path (src/)
       data: "data", // this path is releative to input-path (src/)
     },
-    templateFormats: ["njk", "md", "11ty.js"],
+    templateFormats: ["njk", "md", "11ty.js", "11ty.tsx"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
   };

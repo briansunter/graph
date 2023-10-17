@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "dev": "npx @11ty/eleventy --serve",
     "serve": "npx @11ty/eleventy --serve",
     "watch": "npx @11ty/eleventy --watch",
-    "build": "npx @11ty/eleventy",
-    "clean": "del-cli _site"
+    "clean": "del-cli _site",
+    "dev": "node --require esbuild-register node_modules/@11ty/eleventy/cmd.js --config=.eleventy.ts --serve",
+    "build": "node --require esbuild-register node_modules/.bin/eleventy --config=.eleventy.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "@11ty/eleventy-plugin-vite": "^4.0.0",
     "@slinkity/preact": "^1.0.1",
     "@types/react": "^18.2.28",
+    "@types/vhtml": "^2.2.5",
     "autoprefixer": "^10.4.14",
     "del-cli": "^5.0.0",
     "dotenv": "^16.0.3",
@@ -32,6 +33,7 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@11ty/eleventy-server-browsersync": "^1.0.2",
     "@fortawesome/fontawesome-free": "^6.4.2",
     "alpinejs": "^3.12.0",
     "eleventy": "^1.0.6",
@@ -39,6 +41,7 @@
     "fuse.js": "^6.6.2",
     "patch-package": "^8.0.0",
     "preact": "^10.18.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vhtml": "^2.2.0"
   }
 }
