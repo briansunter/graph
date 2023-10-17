@@ -1,5 +1,6 @@
 import path from 'path';
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import preactSSR from './src/lib/preactSSR';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import Image from "@11ty/eleventy-img";
@@ -43,6 +44,7 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   eleventyConfig.addPlugin(pluginRss); 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyLogseq, { baseUrl: baseUrl })
+  eleventyConfig.addPlugin(preactSSR);
 
   // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {
@@ -89,92 +91,11 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
 
 
-  const tsNode = require('ts-node');
-  const { h } = require('preact');
-  const render = require('preact-render-to-string');
-  const ts = require('typescript');
- 
- tsNode.register({
-    transpileOnly: true,
-    extensions: ['.ts', '.tsx']
-  }); 
-  const vm = require('vm');
-
-  eleventyConfig.addAsyncShortcode("react", async function(component) {
-    let filename = `src/scripts/${component.comp}`;
-    // console.log('filename', filename)
-  
-    // Read the TypeScript file
-    const source = fs.readFileSync(path.resolve(__dirname, filename), 'utf8');
-  
-    // Compile the TypeScript to JavaScript
-    // const result = ts.transpileModule(source, {
-    //   compilerOptions: { module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.React, esModuleInterop: true },
-    // });
-
-    const serverResult = ts.transpileModule(source, {
-      compilerOptions: { module: ts.ModuleKind.Node16, jsx: ts.JsxEmit.React, esModuleInterop: true },
-    });
-   
-    // Evaluate the JavaScript code
-    const outputDir = path.join(__dirname, '_site', 'scripts');
-    const outputFile = path.join(outputDir, `${component.comp}.js`);
-  
-    // Ensure the output directory exists
-    fs.mkdirSync(outputDir, { recursive: true });
-  
-    // Write the transpiled code to the output file
-    // fs.writeFileSync(outputFile, result.outputText, 'utf8'); 
-    const context = {
-      require: require,
-      module: {},
-      console: console,
-      exports: {} as any,
-    };
-  
-    // Run the code in the new context
-    vm.runInNewContext(serverResult.outputText, context);
-  
-    // Access the exported Component function
-    const Component = context.exports.default;
-
-    // Render the component to a string
-    const componentHTML = render(h(Component));
-    // console.log('componentHTML', componentHTML)
- 
-    const uuid = `pr-${Math.floor(Math.random() * 1000000)}`;
-
-    return `
-    <script type="module">
-    import c from '/scripts/${component.comp}'
-    import hydrate from '/scripts/hydrate.ts'
-    const domNode = document.getElementById("foo");
-
-    if (!domNode) {
-        throw new Error("Could not find element with id ");
-    }
-    const props = ${JSON.stringify(component.props)}; 
-
-    hydrate("foo",c, props);
-    </script>
-    
-    <div id="foo">
-    ${componentHTML}
-    </div>
-    `
-  }); 
-
+  eleventyConfig.addExtension('ts', {key: 'ts'})
   eleventyConfig.addExtension('11ty.tsx', {
     key: '11ty.js',
   });
   
-  // dev server doesn't spider js dependencies properly, so opt for hard browsersync with watch. 
-  eleventyConfig.setServerOptions({
-    module: "@11ty/eleventy-server-browsersync",
-    snippet: true,
-    watch: "src", 
-    server: '_site'
-  }); 
    /* --- FILTERS --- */
 
   // Custom Random Helper Filter (useful for ID attributes)
@@ -188,7 +109,8 @@ module.exports = function(eleventyConfig: EleventyConfig) {
      // other config likely here
    });
 
-   eleventyConfig.addWatchTarget("./src/scripts/");
+   eleventyConfig.addWatchTarget("src");
+
   /* --- BASE CONFIG --- */
   // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
