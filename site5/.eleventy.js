@@ -171,9 +171,8 @@ module.exports = function(eleventyConfig) {
     transpileOnly: true,
     extensions: ['.ts', '.tsx']
   }); 
+  const vm = require('vm');
 
-
-  
   eleventyConfig.addAsyncShortcode("react", async function(component) {
     let filename = `src/scripts/${component.comp}`;
     console.log('filename', filename)
@@ -185,20 +184,40 @@ module.exports = function(eleventyConfig) {
     const result = ts.transpileModule(source, {
       compilerOptions: { module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.React, esModuleInterop: true },
     });
+
+    const serverResult = ts.transpileModule(source, {
+      compilerOptions: { module: ts.ModuleKind.Node16, jsx: ts.JsxEmit.React, esModuleInterop: true },
+    });
+   
     // Evaluate the JavaScript code
-    // const Component = eval(result.outputText);
     const outputDir = path.join(__dirname, '_site', 'scripts');
     const outputFile = path.join(outputDir, `${component.comp}.js`);
-    
+  
     // Ensure the output directory exists
     fs.mkdirSync(outputDir, { recursive: true });
-    
+  
     // Write the transpiled code to the output file
     fs.writeFileSync(outputFile, result.outputText, 'utf8'); 
-    // const Component = eval(result.outputText);
-    // const componentHTML = render(h(Component));
- 
+    const context = {
+      require: require,
+      module: {},
+      console: console,
+      exports: {},
+    };
+  
+    // Run the code in the new context
+    vm.runInNewContext(serverResult.outputText, context);
+  
+    // Access the exported Component function
+    const Component = context.exports.Component;
+    console.log('Component', Component)
+    // const Component =  eval(serverResult.outputText)
+    console.log(Component())
 
+    // Render the component to a string
+    const componentHTML = render(h(Component));
+    console.log('componentHTML', componentHTML)
+  
     return `
     <script type="module">
     import c from '/scripts/${component.comp}.js'
@@ -206,12 +225,11 @@ module.exports = function(eleventyConfig) {
     
     </script>
     
-    <div id="foo"></div>
-    
+    <div id="foo">${componentHTML}</div>
     `
   }); 
-
-  /* --- FILTERS --- */
+  
+   /* --- FILTERS --- */
 
   // Custom Random Helper Filter (useful for ID attributes)
   eleventyConfig.addFilter("generateRandomIdString", function (prefix) {
@@ -223,6 +241,8 @@ module.exports = function(eleventyConfig) {
  
      // other config likely here
    });
+
+   eleventyConfig.addWatchTarget("./src/scripts/");
   /* --- BASE CONFIG --- */
   // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 

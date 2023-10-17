@@ -1,22 +1,27 @@
-// import { html, Component } from 'htm/preact';
+
 import React from 'preact/compat';
 
 interface Foo {
     name: string;
 }
 
-console.log('testing');
+// console.log('testing');
 
-
-export function Component(){
-    return <h1>foobar</h1>
+export function Component() {
+    return <div><h1>foobar</h1> 
+    <button onClick={() => {
+        console.log('clicked');
+    }}> Click me </button>
+    
+    </div>
 }
 
-
-export default function(id: string) {
-    const domNode = document.getElementById(id);
-    if (!domNode) {
-        throw new Error(`Could not find element with id ${id}`);
+export default function (id: string) {
+    // Check if document is defined
+        const domNode = document.getElementById(id);
+        if (!domNode) {
+            throw new Error(`Could not find element with id ${id}`);
         }
-    React.render(Component(), domNode);
-  }
+
+        React.hydrate(Component(), domNode);
+}
