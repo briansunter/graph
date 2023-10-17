@@ -21,15 +21,6 @@ export default function (eleventyConfig: EleventyConfig, options = {}) {
       },
     });
 
-    // Evaluate the JavaScript code
-    const outputDir = path.join(__dirname, "_site", "scripts");
-    const outputFile = path.join(outputDir, `${component.comp}.js`);
-
-    // Ensure the output directory exists
-    fs.mkdirSync(outputDir, { recursive: true });
-
-    // Write the transpiled code to the output file
-    // fs.writeFileSync(outputFile, result.outputText, 'utf8');
     const context = {
       require: require,
       module: {},
@@ -55,9 +46,7 @@ export default function (eleventyConfig: EleventyConfig, options = {}) {
   import hydrate from '/scripts/hydrate.ts'
   const domNode = document.getElementById("foo");
 
-
   if (!domNode) {
-
       throw new Error("Could not find element with id ");
   }
   const props = ${JSON.stringify(component.props)}; 

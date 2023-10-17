@@ -8,6 +8,6 @@ export default function Component() {
     return <div><h1>foobear</h1> 
     <button onClick={() => {
         console.log('clicked');
-    }}> Click me </button>
+    }}> Click me</button>
     </div>
 }

@@ -59,7 +59,6 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
   /* --- SHORTCODES --- */
 
-
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 
   eleventyConfig.addShortcode("image", async function(src, alt, sizes=defaultSizesConfig) {
@@ -90,8 +89,6 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
 
-
-  eleventyConfig.addExtension('ts', {key: 'ts'})
   eleventyConfig.addExtension('11ty.tsx', {
     key: '11ty.js',
   });
@@ -105,14 +102,9 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
   eleventyConfig.addFilter("asPostDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
- 
-     // other config likely here
    });
 
-   eleventyConfig.addWatchTarget("src");
-
   /* --- BASE CONFIG --- */
-  // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
   return {
     dir: {
