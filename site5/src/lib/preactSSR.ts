@@ -1,4 +1,5 @@
 import { EleventyConfig } from "../../eleventy";
+import uuid from "short-uuid";
 
 import { h } from "preact";
 import render from "preact-render-to-string";
@@ -11,7 +12,7 @@ export default function (eleventyConfig: EleventyConfig, options = {}) {
   eleventyConfig.addAsyncShortcode("react", async function (component) {
     let filename = `src/scripts/${component.comp}`;
 
-    const source = fs.readFileSync( filename, "utf8");
+    const source = fs.readFileSync(filename, "utf8");
 
     const serverResult = ts.transpileModule(source, {
       compilerOptions: {
@@ -35,26 +36,26 @@ export default function (eleventyConfig: EleventyConfig, options = {}) {
     const Component = context.exports.default as any;
 
     // Render the component to a string
-    const compString = Component 
+    const compString = Component;
     const componentHTML = render(compString);
 
-    const uuid = `pr-${Math.floor(Math.random() * 1000000)}`;
+    const domId = `pr-${uuid().new()}`;
 
     return `
   <script type="module">
   import c from '/scripts/${component.comp}'
   import hydrate from '/scripts/hydrate.ts'
-  const domNode = document.getElementById("foo");
+  const domNode = document.getElementById("${domId}");
 
   if (!domNode) {
       throw new Error("Could not find element with id ");
   }
   const props = ${JSON.stringify(component.props)}; 
 
-  hydrate("foo",c, props);
+  hydrate("${domId}",c, props);
   </script>
   
-  <div id="foo">
+  <div id="${domId}">
   ${componentHTML}
   </div>
   `;
