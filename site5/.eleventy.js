@@ -59,7 +59,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/css')
 	eleventyConfig.addPassthroughCopy('src/assets/js')
-  // eleventyConfig.addPassthroughCopy('src/scripts')
+  eleventyConfig.addPassthroughCopy('src/scripts')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
 
@@ -209,23 +209,31 @@ module.exports = function(eleventyConfig) {
     vm.runInNewContext(serverResult.outputText, context);
   
     // Access the exported Component function
-    const Component = context.exports.Component;
-    console.log('Component', Component)
-    // const Component =  eval(serverResult.outputText)
-    console.log(Component())
+    const Component = context.exports.default;
 
     // Render the component to a string
     const componentHTML = render(h(Component));
     console.log('componentHTML', componentHTML)
-  
+ 
+    const uuid = `pr-${Math.floor(Math.random() * 1000000)}`;
+
     return `
     <script type="module">
     import c from '/scripts/${component.comp}.js'
-    c("foo");
-    
+    import hydrate from '/scripts/hydrate.ts'
+    const domNode = document.getElementById("foo");
+
+    if (!domNode) {
+        throw new Error("Could not find element with id ");
+    }
+    const props = ${JSON.stringify(component.props)}; 
+
+    hydrate("foo",c, props);
     </script>
     
-    <div id="foo">${componentHTML}</div>
+    <div id="foo">
+    ${componentHTML}// assuming component.props is an object containing the props
+    </div>
     `
   }); 
   
