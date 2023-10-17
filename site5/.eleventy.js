@@ -7,6 +7,7 @@ const yaml = require("js-yaml"); // Because yaml is nicer than json for editors
 const slinkity = require('slinkity')
 const preact = require('@slinkity/preact')
 const { DateTime } = require("luxon");
+const fs = require("fs");
 
 require('dotenv').config();
 
@@ -58,7 +59,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/css')
 	eleventyConfig.addPassthroughCopy('src/assets/js')
-  eleventyConfig.addPassthroughCopy('src/scripts')
+  // eleventyConfig.addPassthroughCopy('src/scripts')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
 
@@ -81,7 +82,11 @@ module.exports = function(eleventyConfig) {
   //   })
   // ) 
 
-  eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
+  // eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
+  eleventyConfig.addPlugin(EleventyVitePlugin, {
+    viteOptions: {
+      plugins: [noTrailingSlash()],
+  }});
 
   eleventyConfig.addUrlTransform(({url}) => {
     return url.replace(/\/$/, "");
@@ -100,9 +105,31 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPairedShortcode("logseqOrgSRC", function(url) { return `logseq url` });
   eleventyConfig.addPairedShortcode("logseqOrgQUOTE", function(url) { return `logseq url` });
   eleventyConfig.addShortcode("jsonPosts", function(url) { 
-    
+
   
   })
+//   eleventyConfig.addTemplateFormats("ts");
+//   eleventyConfig.addExtension("ts", {
+//     outputFileExtension: "js",
+//     compileOptions: {
+//       permalink: function(contents, inputPath) {
+//         return (data) => {
+//           return '/public/scripts/test.js'
+//           // Return a string to override: you’ll want to use `data.page`
+//           // Or `return;` (return undefined) to fallback to default behavior
+//         }
+//       }
+//     },
+//     compile: function (src) {
+//       return () => `
+
+// export function foobar(){
+//   console.log("foofdsfbar")
+// } 
+
+//     console.log('de000mo');`;
+//     },
+//   });
   // Image shortcode config
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 
@@ -133,6 +160,56 @@ module.exports = function(eleventyConfig) {
   // Output year for copyright notices
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+
+
+  const tsNode = require('ts-node');
+  const { h } = require('preact');
+  const render = require('preact-render-to-string');
+  const ts = require('typescript');
+ 
+ tsNode.register({
+    transpileOnly: true,
+    extensions: ['.ts', '.tsx']
+  }); 
+
+
+  
+  eleventyConfig.addAsyncShortcode("react", async function(component) {
+    let filename = `src/scripts/${component.comp}`;
+    console.log('filename', filename)
+  
+    // Read the TypeScript file
+    const source = fs.readFileSync(path.resolve(__dirname, filename), 'utf8');
+  
+    // Compile the TypeScript to JavaScript
+    const result = ts.transpileModule(source, {
+      compilerOptions: { module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.React, esModuleInterop: true },
+    });
+    // Evaluate the JavaScript code
+    // const Component = eval(result.outputText);
+    const outputDir = path.join(__dirname, '_site', 'scripts');
+    const outputFile = path.join(outputDir, `${component.comp}.js`);
+    
+    // Ensure the output directory exists
+    fs.mkdirSync(outputDir, { recursive: true });
+    
+    // Write the transpiled code to the output file
+    fs.writeFileSync(outputFile, result.outputText, 'utf8'); 
+    // const Component = eval(result.outputText);
+    // const componentHTML = render(h(Component));
+ 
+
+    return `
+    <script type="module">
+    import c from '/scripts/${component.comp}.js'
+    c("foo");
+    
+    </script>
+    
+    <div id="foo"></div>
+    
+    `
+  }); 
 
   /* --- FILTERS --- */
 
