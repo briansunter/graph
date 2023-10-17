@@ -1,18 +1,14 @@
 import path from 'path';
-import pluginRss from "@11ty/eleventy-plugin-rss"; // needed for absoluteUrl SEO feature
+import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import Image from "@11ty/eleventy-img";
-import yaml from "js-yaml"; // Because yaml is nicer than json for editors
-import slinkity from 'slinkity';
-import preact from '@slinkity/preact';
+import yaml from "js-yaml"; 
 import { DateTime } from "luxon";
 import { noTrailingSlash } from './src/lib/noTrailingSlash';
 import fs from "fs";
-
+import type { EleventyConfig } from './eleventy';
 require('dotenv').config();
-
-
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 console.log('baseUrl is set to ...', baseUrl);
@@ -24,11 +20,10 @@ const globalSiteData = {
   baseUrl: baseUrl,
 }
 
-module.exports = function(eleventyConfig) {
+module.exports = function(eleventyConfig: EleventyConfig) {
 
   /* --- GLOBAL DATA --- */
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
- 
   eleventyConfig.addGlobalData("site", globalSiteData);
 
   /* --- YAML SUPPORT --- */
@@ -40,28 +35,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/css')
 	eleventyConfig.addPassthroughCopy('src/assets/js')
-  eleventyConfig.addPassthroughCopy('src/scripts')
+  // eleventyConfig.addPassthroughCopy('src/scripts')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
 
-
   /* --- PLUGINS --- */
  
-
   eleventyConfig.addPlugin(pluginRss); // just includes absolute url helper function
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPassthroughCopy("public");
-
-
-  // eleventyConfig.addPlugin(
-  //   slinkity.plugin,
-  //   slinkity.defineConfig({
-  //     renderers: [preact()],
-  //     viteConfig: {
-  //       plugins: [noTrailingSlash()]
-  //     }
-  //   })
-  // ) 
 
   // eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
   eleventyConfig.addPlugin(EleventyVitePlugin, {
@@ -86,32 +68,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPairedShortcode("logseqOrgSRC", function(url) { return `logseq url` });
   eleventyConfig.addPairedShortcode("logseqOrgQUOTE", function(url) { return `logseq url` });
   eleventyConfig.addShortcode("jsonPosts", function(url) { 
-
-  
+    return "foo"
   })
-//   eleventyConfig.addTemplateFormats("ts");
-//   eleventyConfig.addExtension("ts", {
-//     outputFileExtension: "js",
-//     compileOptions: {
-//       permalink: function(contents, inputPath) {
-//         return (data) => {
-//           return '/public/scripts/test.js'
-//           // Return a string to override: you’ll want to use `data.page`
-//           // Or `return;` (return undefined) to fallback to default behavior
-//         }
-//       }
-//     },
-//     compile: function (src) {
-//       return () => `
 
-// export function foobar(){
-//   console.log("foofdsfbar")
-// } 
-
-//     console.log('de000mo');`;
-//     },
-//   });
-  // Image shortcode config
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 
   eleventyConfig.addShortcode("image", async function(src, alt, sizes=defaultSizesConfig) {
@@ -217,6 +176,7 @@ module.exports = function(eleventyConfig) {
     </div>
     `
   }); 
+
   eleventyConfig.addExtension('11ty.tsx', {
     key: '11ty.js',
   });
