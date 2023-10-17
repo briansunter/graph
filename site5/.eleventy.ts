@@ -8,10 +8,10 @@ import { DateTime } from "luxon";
 import { noTrailingSlash } from './src/lib/noTrailingSlash';
 import fs from "fs";
 import type { EleventyConfig } from './eleventy';
+import eleventyLogseq from './eleventyLogseq';
 require('dotenv').config();
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
-console.log('baseUrl is set to ...', baseUrl);
 
 const globalSiteData = {
   title: "11ty Starter Site",
@@ -35,41 +35,28 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets/css')
 	eleventyConfig.addPassthroughCopy('src/assets/js')
-  // eleventyConfig.addPassthroughCopy('src/scripts')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
 
   /* --- PLUGINS --- */
  
-  eleventyConfig.addPlugin(pluginRss); // just includes absolute url helper function
+  eleventyConfig.addPlugin(pluginRss); 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  // eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPlugin(eleventyLogseq, { baseUrl: baseUrl })
 
-  // eleventyConfig.addPlugin(EleventyVitePlugin, {viteOptions: {plugins: [noTrailingSlash()]}});
+  // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
       plugins: [noTrailingSlash()],
   }});
 
+  // Remove trailing slashes from urls
   eleventyConfig.addUrlTransform(({url}) => {
     return url.replace(/\/$/, "");
   });
 
   /* --- SHORTCODES --- */
-  eleventyConfig.addShortcode("youtube", function(videoId) { return `https://www.youtube.com/watch?v=${videoId}` });
-  eleventyConfig.addShortcode("tweet", function(userId, tweetId) { return `https://twitter.com/${userId}/status/${tweetId}` })
-  eleventyConfig.addShortcode("sref", function(url) { return `${baseUrl}${url}` });
-  eleventyConfig.addShortcode("embed", function(url) { return `embed url` });
-  eleventyConfig.addShortcode("renderer", function(url) { return `renderer url` });
-  eleventyConfig.addShortcode("ytime", function(url) { return `ytime url` });
-  eleventyConfig.addPairedShortcode("logseq", function(url) { return `logseq url` });
-  eleventyConfig.addPairedShortcode("logseqOrgNOTE", function(url) { return `logseq url` });
-  eleventyConfig.addPairedShortcode("logseqOrgWARNING", function(url) { return `logseq url` });
-  eleventyConfig.addPairedShortcode("logseqOrgSRC", function(url) { return `logseq url` });
-  eleventyConfig.addPairedShortcode("logseqOrgQUOTE", function(url) { return `logseq url` });
-  eleventyConfig.addShortcode("jsonPosts", function(url) { 
-    return "foo"
-  })
+
 
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 

@@ -10,7 +10,7 @@
     "clean": "del-cli _site",
     "test": "jest --config=jest.config.js",
     "dev": "node --require esbuild-register node_modules/@11ty/eleventy/cmd.js --config=.eleventy.ts --serve",
-    "build": "node --require esbuild-register node_modules/.bin/eleventy --config=.eleventy.ts"
+    "build": "node --require esbuild-register  node_modules/@11ty/eleventy/cmd.js --config=.eleventy.ts"
   },
   "keywords": [],
   "author": "",

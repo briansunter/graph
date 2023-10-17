@@ -174,7 +174,8 @@ export declare interface PluginExtend {
    *
    * [11ty Docs](https://www.11ty.dev/docs/plugins/)
    */
-   addPlugin<O, F extends (o: O) => unknown>(plugin: F, options?: O): void
+  addPlugin<O extends object, F extends (o: EleventyConfig, options?: O) => unknown>(plugin: F, options?: O): void
+
 }
 
 export declare interface EleventyConfig extends Filters, ShortCodes, PluginExtend {
