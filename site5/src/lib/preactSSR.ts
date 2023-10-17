@@ -5,7 +5,6 @@ import { h } from "preact";
 import render from "preact-render-to-string";
 import ts from "typescript";
 import fs from "fs";
-import path from "path";
 import vm from "vm";
 export default function (eleventyConfig: EleventyConfig, options = {}) {
   eleventyConfig.addPassthroughCopy("src/scripts");
@@ -33,11 +32,10 @@ export default function (eleventyConfig: EleventyConfig, options = {}) {
     vm.runInNewContext(serverResult.outputText, context);
 
     // Access the exported Component function
-    const Component = context.exports.default as any;
-
-    // Render the component to a string
-    const compString = Component;
-    const componentHTML = render(compString);
+    const Component = context.exports.default as preact.ComponentType<any>;
+    const componentInstance = h(Component, component.props||{});
+    const componentHTML = render(componentInstance);
+    console.log("foobar",componentHTML)
 
     const domId = `pr-${uuid().new()}`;
 

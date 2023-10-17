@@ -4,8 +4,8 @@ interface Foo {
     name: string;
 }
 
-export default function Component() {
-    return <div><h1>foobear</h1> 
+export default function Component(props: Foo) {
+    return <div><h1>Hello {props.name|| "World"} </h1> 
     <button onClick={() => {
         console.log('clicked');
     }}> Click me</button>
