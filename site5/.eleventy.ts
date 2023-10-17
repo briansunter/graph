@@ -7,31 +7,12 @@ import yaml from "js-yaml"; // Because yaml is nicer than json for editors
 import slinkity from 'slinkity';
 import preact from '@slinkity/preact';
 import { DateTime } from "luxon";
+import { noTrailingSlash } from './src/lib/noTrailingSlash';
 import fs from "fs";
 
 require('dotenv').config();
 
-const noTrailingSlash = () => ({
-  name: 'configure-server',
-  configureServer(server) {
-    server.middlewares.use((req, res, next) => {
-      let [url, queryString] = req.url.split('?');
-      queryString = queryString ? '?' + queryString : '';
 
-      const lastSegment = url.split("/").pop();
-
-      if (url !== "/" && url.endsWith("/")) {
-        res.writeHead(301, { Location: url.slice(0, -1) + queryString });
-        res.end();
-      } else if (url !== "/" && !/\.[\w-]+$/i.test(lastSegment) && !url.startsWith('/@vite/')) {
-        req.url = url + "/index.html" + queryString;
-        next();
-      } else {
-        next();
-      }
-    })
-  },
-})
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 console.log('baseUrl is set to ...', baseUrl);

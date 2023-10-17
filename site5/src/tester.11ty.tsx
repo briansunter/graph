@@ -1,5 +1,5 @@
 import React from 'preact/compat';
-import { Context } from "./Context";
+import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';
 
 export const data = {
