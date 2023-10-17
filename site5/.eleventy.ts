@@ -175,15 +175,15 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addAsyncShortcode("react", async function(component) {
     let filename = `src/scripts/${component.comp}`;
-    console.log('filename', filename)
+    // console.log('filename', filename)
   
     // Read the TypeScript file
     const source = fs.readFileSync(path.resolve(__dirname, filename), 'utf8');
   
     // Compile the TypeScript to JavaScript
-    const result = ts.transpileModule(source, {
-      compilerOptions: { module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.React, esModuleInterop: true },
-    });
+    // const result = ts.transpileModule(source, {
+    //   compilerOptions: { module: ts.ModuleKind.ESNext, jsx: ts.JsxEmit.React, esModuleInterop: true },
+    // });
 
     const serverResult = ts.transpileModule(source, {
       compilerOptions: { module: ts.ModuleKind.Node16, jsx: ts.JsxEmit.React, esModuleInterop: true },
@@ -197,7 +197,7 @@ module.exports = function(eleventyConfig) {
     fs.mkdirSync(outputDir, { recursive: true });
   
     // Write the transpiled code to the output file
-    fs.writeFileSync(outputFile, result.outputText, 'utf8'); 
+    // fs.writeFileSync(outputFile, result.outputText, 'utf8'); 
     const context = {
       require: require,
       module: {},
@@ -213,13 +213,13 @@ module.exports = function(eleventyConfig) {
 
     // Render the component to a string
     const componentHTML = render(h(Component));
-    console.log('componentHTML', componentHTML)
+    // console.log('componentHTML', componentHTML)
  
     const uuid = `pr-${Math.floor(Math.random() * 1000000)}`;
 
     return `
     <script type="module">
-    import c from '/scripts/${component.comp}.js'
+    import c from '/scripts/${component.comp}'
     import hydrate from '/scripts/hydrate.ts'
     const domNode = document.getElementById("foo");
 
@@ -232,7 +232,7 @@ module.exports = function(eleventyConfig) {
     </script>
     
     <div id="foo">
-    ${componentHTML}// assuming component.props is an object containing the props
+    ${componentHTML}
     </div>
     `
   }); 
