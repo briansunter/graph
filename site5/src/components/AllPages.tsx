@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
-import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState,
+import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
 
 type Post = {
@@ -24,7 +24,11 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<Post[]>([]);
   const [sorting, setSorting] = React.useState<SortingState>([])
-
+  const handleSort = (columnId: string) => {
+    const isDesc = sorting.find(d => d.id === columnId)?.desc;
+    const newSorting: SortingState = [{ id: columnId, desc: !isDesc }];
+    setSorting(newSorting);
+  };
   const columns = useMemo<ColumnDef<Post>[]>(() => [
     {
       header: 'Cover Image',
@@ -32,7 +36,17 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
       cell: info => <img src={info.getValue() as string} alt={info.row.original.title} className="mb-2 h-10" />,
     },
     {
-      header: 'Title',
+      header: (headerInfo) => (
+        <div 
+        onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
+      >
+        Title
+        {{
+          asc: ' 🔼',
+          desc: ' 🔽',
+        }[headerInfo.column.getIsSorted() as string] ?? null}
+      </div>
+      ),
       accessorKey: 'title',
       cell: info => <h2 className="text-xl font-bold">{info.getValue() as string}</h2>,
     },
@@ -72,6 +86,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const table = useReactTable({
     data: results,
     columns,
+    getSortedRowModel: getSortedRowModel<Post>(),
     getCoreRowModel: getCoreRowModel<Post>(),
     state: {
       sorting,
