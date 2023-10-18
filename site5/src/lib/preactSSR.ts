@@ -4,12 +4,23 @@ import { VNode, h } from "preact";
 import render from "preact-render-to-string";
 import path from "path";
 
+interface Options {
+  componentDir: string;
+}
+
+const defaultOptions: Options = {
+  componentDir: 'src/components'
+}
+
 export default function (
   eleventyConfig: EleventyConfig,
-  options = { componentDir: "src/components" }
+  userOptions: Partial<Options> = {}
 ) {
+  const options: Options = { ...defaultOptions, ...userOptions };
+
   eleventyConfig.addPassthroughCopy(options.componentDir);
   eleventyConfig.addAsyncShortcode("react", async function (component) {
+
     let filename = path.resolve(process.cwd(), options.componentDir, component.comp);
  
     // Dynamically import the component
