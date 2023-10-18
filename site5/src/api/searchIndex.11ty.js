@@ -28,12 +28,20 @@
           content: wordsString,
           date: item.date,
           tags: item.data.tags,
+          coverimage: item.data.coverimage,
         };
       });
     
       const searchCollection = await Promise.all(searchCollectionPromises);
+
+      // repeat 10 x times
+      const duped = []
+      for (let i = 0; i < 20; i++) {
+        duped.push(...searchCollection)
+      }
+      
     
-      return JSON.stringify(searchCollection);
+      return JSON.stringify(duped);
     } 
       
   }

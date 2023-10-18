@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'preact/compat';
+import React, { useState, useEffect, useMemo } from 'preact/compat';
 import Fuse from 'fuse.js';
+import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel } from '@tanstack/react-table';
 
-type PostData = {
-}
-export type Post = {
-    coverimage: string;
+type Post = {
+  coverimage: string;
   title: string;
   description: string;
   publishDate: string;
@@ -14,40 +13,80 @@ export type Post = {
 };
 
 interface Props {
-    allPosts: Post[]
-}
+  allPosts: Post[]
+} 
 
-const Search: React.FC<Props> = ({allPosts}) => {
+const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const isBrowser = typeof window !== 'undefined';
   const [searchData, setSearchData] = useState<Post[]>(allPosts);
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<Post[]>([]);
 
-  const topPosts = searchData.slice(0, 10);
+  const columns = useMemo<ColumnDef<Post>[]>(() => [
+    {
+      header: 'Cover Image',
+      accessorKey: 'coverimage',
+      cell: info => <img src={info.getValue() as string} alt={info.row.original.title} className="mb-2 h-10" />,
+    },
+    {
+      header: 'Title',
+      accessorKey: 'title',
+      cell: info => <h2 className="text-xl font-bold">{info.getValue() as string}</h2>,
+    },
+    {
+      header: 'Description',
+      accessorKey: 'description',
+      cell: info => <p className="mb-2">{info.getValue() as string}</p>,
+    },
+    {
+      header: 'Publish Date',
+      accessorKey: 'publishDate',
+      cell: info => <p className="text-sm text-gray-500">Published: {info.getValue()}</p>,
+    },
+    {
+      header: 'Updated Date',
+      accessorKey: 'updatedDate',
+      cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue()}</p>,
+    },
+    {
+      header: 'Tags',
+      accessorKey: 'tags',
+      cell: info => {
+        const cellInfo = info.getValue() as string[];
+        
+        return (
+        <div className="flex flex-wrap">
+          {cellInfo?.map((tag, index) => (
+            <span key={index} className="mr-2 text-sm text-gray-700">
+              #{tag}
+            </span>
+          ))}
+        </div>
+      )},
+    },
+  ], []);
 
-
-
+  const table = useReactTable({
+    data: results,
+    columns,
+    getCoreRowModel: getCoreRowModel<Post>(),
+  });
 
   useEffect(() => {
-      fetch('/api/search.json')
-        .then(response => response.json())
-        .then(data => setSearchData(data));
+    fetch('/api/search.json')
+      .then(response => response.json())
+      .then(data => setSearchData(data));
   }, [isBrowser]);
+
   useEffect(() => {
-    const fuse = new Fuse(searchData, { keys: [{name: 'title', weight: 3},{name:  'description', weight: 2}, {name: 'tags', weight: 3}, {name: 'content', weight: 1}], threshold: 0.4, useExtendedSearch: true, distance: 10000,});
+    const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 10000,});
     if (search !== '') {
       setResults(fuse.search(search).map(({ item }) => item));
     } else {
-      setResults(topPosts);
+      setResults(searchData.slice(0, 10));
     }
   }, [search, searchData]);
 
-  let serverOrClientResults
-  if (isBrowser) {
-    serverOrClientResults = results
-  } else {
-    serverOrClientResults = topPosts;
-  }
   return (
     <div className="p-4">
       <input
@@ -57,24 +96,30 @@ const Search: React.FC<Props> = ({allPosts}) => {
         value={search}
         onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
       />
-      {serverOrClientResults.map((post, index) => (
-        <div key={index} className="mb-4">
-          <img src={post.coverimage} alt={post.title} className="mb-2" />
-          <h2 className="text-xl font-bold">{post.title}</h2>
-          <p className="mb-2">{post.description}</p>
-          <p className="text-sm text-gray-500">
-            Published: {post.publishDate} | Updated: {post.updatedDate}
-          </p>
-          <div className="flex flex-wrap">
-            {post.tags?.map((tag, index) => (
-              <span key={index} className="mr-2 text-sm text-gray-700">
-                #{tag}
-              </span>
-            ))}
-          </div>
-          {/* <p>{post.content}</p> */}
-        </div>
-      ))}
+      <table className="max-h-screen">
+        <thead>
+          {table.getHeaderGroups().map(headerGroup => (
+            <tr key={headerGroup.id}>
+              {headerGroup.headers.map(header => (
+                <th key={header.id}>
+                  {flexRender(header.column.columnDef.header, header.getContext())}
+                </th>
+              ))}
+            </tr>
+          ))}
+        </thead>
+        <tbody>
+          {table.getRowModel().rows.map(row => (
+            <tr key={row.id}>
+              {row.getVisibleCells().map(cell => (
+                <td key={cell.id}>
+                  {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };

@@ -11,6 +11,7 @@ import fs from "fs";
 import type { EleventyConfig } from './eleventy';
 import eleventyLogseq from './eleventyLogseq';
 require('dotenv').config();
+import preact from "@preact/preset-vite";
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 
@@ -49,7 +50,10 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
-      plugins: [noTrailingSlash()],
+      esbuild: {
+        jsxInject: `import React from 'react'`,
+      },
+      plugins: [noTrailingSlash(), preact()],
   }});
 
   // Remove trailing slashes from urls
