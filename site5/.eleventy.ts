@@ -12,6 +12,7 @@ import type { EleventyConfig } from './eleventy';
 import eleventyLogseq from './eleventyLogseq';
 require('dotenv').config();
 import preact from "@preact/preset-vite";
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 
