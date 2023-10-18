@@ -1,6 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'preact/compat';
+import React from 'react'
+import { useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
-import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel } from '@tanstack/react-table';
+import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState,
+} from '@tanstack/react-table';
 
 type Post = {
   coverimage: string;
@@ -21,6 +23,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const [searchData, setSearchData] = useState<Post[]>(allPosts);
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<Post[]>([]);
+  const [sorting, setSorting] = React.useState<SortingState>([])
 
   const columns = useMemo<ColumnDef<Post>[]>(() => [
     {
@@ -70,6 +73,10 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     data: results,
     columns,
     getCoreRowModel: getCoreRowModel<Post>(),
+    state: {
+      sorting,
+    },
+    onSortingChange: setSorting,
   });
 
   useEffect(() => {
@@ -79,7 +86,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   }, [isBrowser]);
 
   useEffect(() => {
-    const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 10000,});
+    const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 1000,});
     if (search !== '') {
       setResults(fuse.search(search).map(({ item }) => item));
     } else {

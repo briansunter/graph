@@ -1,4 +1,4 @@
-import React from 'preact/compat';
+import React from 'react';
 import {Post} from './components/AllPages';
 import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';

@@ -50,9 +50,6 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
-      esbuild: {
-        jsxInject: `import React from 'react'`,
-      },
       plugins: [noTrailingSlash(), preact()],
   }});
 
