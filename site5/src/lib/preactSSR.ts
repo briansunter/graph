@@ -1,6 +1,6 @@
 import { EleventyConfig } from "../../eleventy";
 import uuid from "short-uuid";
-import { h } from "preact";
+import { VNode, h } from "preact";
 import render from "preact-render-to-string";
 import path from "path";
 
@@ -13,9 +13,9 @@ export default function (
     let filename = path.resolve(process.cwd(), options.componentDir, component.comp);
  
     // Dynamically import the component
-    const Component = require(filename).default as preact.ComponentType<any>;
+    const Component = (await import(filename)).default.default as preact.FunctionComponent<typeof component.props>;
 
-    const componentInstance = h(Component, component.props || {});
+    const componentInstance:VNode<any> = h(Component, component.props);
     const componentHTML = render(componentInstance);
 
     const domId = `pr-${uuid().new()}`;
