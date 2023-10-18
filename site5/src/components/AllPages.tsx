@@ -26,14 +26,21 @@ const Search: React.FC<Props> = ({allPosts}) => {
   const topPosts = searchData.slice(0, 10);
 
 
+
+
   useEffect(() => {
-    const fuse = new Fuse(allPosts, { keys: [{name: 'title', weight: 3},{name:  'description', weight: 2}, {name: 'tags', weight: 3}, {name: 'content', weight: 1}], threshold: 0.4, useExtendedSearch: true, distance: 10000,});
+      fetch('/api/search.json')
+        .then(response => response.json())
+        .then(data => setSearchData(data));
+  }, [isBrowser]);
+  useEffect(() => {
+    const fuse = new Fuse(searchData, { keys: [{name: 'title', weight: 3},{name:  'description', weight: 2}, {name: 'tags', weight: 3}, {name: 'content', weight: 1}], threshold: 0.4, useExtendedSearch: true, distance: 10000,});
     if (search !== '') {
       setResults(fuse.search(search).map(({ item }) => item));
     } else {
       setResults(topPosts);
     }
-  }, [search]);
+  }, [search, searchData]);
 
   let serverOrClientResults
   if (isBrowser) {
@@ -41,7 +48,6 @@ const Search: React.FC<Props> = ({allPosts}) => {
   } else {
     serverOrClientResults = topPosts;
   }
-
   return (
     <div className="p-4">
       <input

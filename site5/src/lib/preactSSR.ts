@@ -19,7 +19,6 @@ export default function (
   const options: Options = { ...defaultOptions, ...userOptions };
 
   eleventyConfig.addPassthroughCopy(options.componentDir);
-  eleventyConfig.addWatchTarget(options.componentDir);
   eleventyConfig.addAsyncShortcode("react", async function (name, props) {
 
     let filename = path.resolve(process.cwd(), options.componentDir, name);
@@ -33,7 +32,6 @@ export default function (
     const domId = `pr-${uuid().new()}`;
 
     return `
-
   <script type="module">
   import c from '/components/${name}'
   import hydrate from '/components/hydrate.ts'
@@ -43,9 +41,9 @@ export default function (
       throw new Error("Could not find element with id ");
   }
 
-  const dataElement = document.getElementById("${domId}-data");
-  const storedProps = "${encodeURIComponent(JSON.stringify(props))}";
-  const props = JSON.parse(decodeURIComponent(storedProps));
+  const safeProps = "${encodeURIComponent(JSON.stringify(props))}"
+  const props = JSON.parse(decodeURIComponent(safeProps));
+
   hydrate("${domId}",c, props);
   </script>
   

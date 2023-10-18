@@ -27,7 +27,7 @@ export async function render(this: Context, data: Context) {
       };
       });
       const posts = await Promise.all(postPromises);
-  const rendered = await this.react('AllPages.tsx', { allPosts: posts})
+  const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 10)})
   return renderToString(
     <div>
     <section>
