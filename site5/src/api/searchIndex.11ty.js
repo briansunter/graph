@@ -36,7 +36,7 @@
 
       // repeat 10 x times
       const duped = []
-      for (let i = 0; i < 1; i++) {
+      for (let i = 0; i < 10; i++) {
         duped.push(...searchCollection)
       }
       

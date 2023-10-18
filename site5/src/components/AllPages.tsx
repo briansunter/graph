@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
+import fuzzysort from 'fuzzysort'
 import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
 
@@ -101,9 +102,14 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   }, [isBrowser]);
 
   useEffect(() => {
-    const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 1000,});
+    // const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 1000,});
     if (search !== '') {
-      setResults(fuse.search(search).map(({ item }) => item));
+      const results = fuzzysort.go(search, searchData, {keys:['title', 'description', 'tags', 'content'],
+      threshold: -100000
+    })
+      const searchResults = results.map(result => result.obj);
+
+      setResults(searchResults);
     } else {
       setResults(searchData.slice(0, 10));
     }
