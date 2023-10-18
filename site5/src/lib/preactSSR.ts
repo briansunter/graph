@@ -19,29 +19,33 @@ export default function (
   const options: Options = { ...defaultOptions, ...userOptions };
 
   eleventyConfig.addPassthroughCopy(options.componentDir);
-  eleventyConfig.addAsyncShortcode("react", async function (component) {
+  eleventyConfig.addWatchTarget(options.componentDir);
+  eleventyConfig.addAsyncShortcode("react", async function (name, props) {
 
-    let filename = path.resolve(process.cwd(), options.componentDir, component.comp);
+    let filename = path.resolve(process.cwd(), options.componentDir, name);
  
     // Dynamically import the component
-    const Component = (await import(path.resolve(options.componentDir, component.comp))).default.default as preact.FunctionComponent<typeof component.props>;
+    const Component = (await import(path.resolve(options.componentDir, name))).default.default as preact.FunctionComponent<typeof props>;
 
-    const componentInstance = h(Component, component.props);
+    const componentInstance = h(Component, props);
     const componentHTML = render(componentInstance);
 
     const domId = `pr-${uuid().new()}`;
 
     return `
+
   <script type="module">
-  import c from '/components/${component.comp}'
+  import c from '/components/${name}'
   import hydrate from '/components/hydrate.ts'
   const domNode = document.getElementById("${domId}");
 
   if (!domNode) {
       throw new Error("Could not find element with id ");
   }
-  const props = ${JSON.stringify(component.props)}; 
 
+  const dataElement = document.getElementById("${domId}-data");
+  const storedProps = "${encodeURIComponent(JSON.stringify(props))}";
+  const props = JSON.parse(decodeURIComponent(storedProps));
   hydrate("${domId}",c, props);
   </script>
   

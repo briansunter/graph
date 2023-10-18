@@ -1,4 +1,5 @@
 import React from 'preact/compat';
+import {Post} from './components/AllPages';
 import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';
 import { BlogPostPreview } from './BlogPostPreview';
@@ -9,11 +10,24 @@ export const data = {
   permalink: '/home/index.html',
   layout: "base",
   eleventyImport: {
-    collections: ['newsletter']
+    collections: ['newsletter','programming']
   }
 };
-
-export function render(data: Context) {
+export async function render(this: Context, data: Context) {
+  const postPromises : Promise<Post>[] = data.collections.all.map(async (post: any) => {
+    const template = await  post.template.read();
+    return {
+      title: post.data.title,
+      description: post.data.description,
+      publishDate: post.data.publishDate,
+      updatedDate: post.data.updatedDate,
+      content: template.content,
+      tags: post.data.tags,
+      coverimage: post.data.coverimage,
+      };
+      });
+      const posts = await Promise.all(postPromises);
+  const rendered = await this.react('AllPages.tsx', { allPosts: posts})
   return renderToString(
     <div>
     <section>
@@ -42,6 +56,10 @@ export function render(data: Context) {
           }
         </div>
       </section>
+      <section>
+        <h1>All Pages</h1>
+        <div dangerouslySetInnerHTML={{__html: rendered}} />
+        </section>
       </div>
   );
 }
