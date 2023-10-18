@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import fuzzysort from 'fuzzysort'
+import uFuzzy from '@leeoniya/ufuzzy'
 import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
 
@@ -100,16 +101,36 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
       .then(response => response.json())
       .then(data => setSearchData(data));
   }, [isBrowser]);
-
   useEffect(() => {
-    // const fuse = new Fuse(searchData, { keys: ['title', 'description', 'tags', 'content'], threshold: 0.4,  distance: 1000,});
     if (search !== '') {
-      const results = fuzzysort.go(search, searchData, {keys:['title', 'description', 'tags', 'content'],
-      threshold: -100000
-    })
-      const searchResults = results.map(result => result.obj);
-
-      setResults(searchResults);
+      const uf = new uFuzzy();
+      const searchResults = uf.search(searchData.map(p=>p.content), search);
+      
+      // Handle the search results
+      if (Array.isArray(searchResults)) {
+        const [haystackIdxs, info, infoIdxOrder] = searchResults;
+        
+        if (haystackIdxs && info && infoIdxOrder) {
+          // This is a RankedResult
+          // You can use the info and infoIdxOrder to sort and display your results
+          const sortedResults = infoIdxOrder.map(idx => {
+            const post = searchData[haystackIdxs[idx]];
+            const highlightRanges = info.ranges[idx];
+            const highlightedPostContent = uFuzzy.highlight(post.content, highlightRanges);
+            return { ...post, highlightedContent: highlightedPostContent };
+          });
+          setResults(sortedResults);
+        } else if (haystackIdxs) {
+          // This is a FilteredResult
+          // You can use the haystackIdxs to display your results
+          const filteredResults = haystackIdxs.map(idx => searchData[idx]);
+          setResults(filteredResults);
+        } else {
+          // This is an AbortedResult
+          // You can handle this case as you see fit, for example, by setting results to an empty array
+          setResults([]);
+        }
+      }
     } else {
       setResults(searchData.slice(0, 10));
     }

@@ -11,6 +11,9 @@ dependencies:
   '@fortawesome/fontawesome-free':
     specifier: ^6.4.2
     version: 6.4.2
+  '@leeoniya/ufuzzy':
+    specifier: ^1.0.11
+    version: 1.0.11
   '@panoply/11ty':
     specifier: ^0.2.0
     version: 0.2.0(@11ty/eleventy@2.0.1)
@@ -1061,6 +1064,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+
+  /@leeoniya/ufuzzy@1.0.11:
+    resolution: {integrity: sha512-QWyEseqEK9t50h9baDmoPkTPSczWZH5TaZAXSBBWbSI6+AxHFd6ldZRmyvCKfyNvjceJ6MwqKCeizsVT+gyJPw==}
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
