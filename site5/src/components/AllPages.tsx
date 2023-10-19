@@ -19,7 +19,13 @@ type Post = {
 interface Props {
   allPosts: Post[]
 } 
-
+const debounce = (fn: Function, ms = 300) => {
+  let timeoutId: ReturnType<typeof setTimeout>;
+  return function (this: any, ...args: any[]) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn.apply(this, args), ms);
+  };
+}; 
 const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const isBrowser = typeof window !== 'undefined';
   const [isPending, startTransition] = useTransition();
@@ -111,29 +117,27 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   
     const worker = workerRef.current;
     worker.onmessage = (event) => {
-      // startTransition(() => {
+      startTransition(() => {
       setResults(event.data);
-      // });
+      });
     };
   
     return () => {
       workerRef.current?.terminate();
     };
   }, []);
-  const debounce = (fn: Function, ms = 300) => {
-    let timeoutId: ReturnType<typeof setTimeout>;
-    return function (this: any, ...args: any[]) {
-      clearTimeout(timeoutId);
-      timeoutId = setTimeout(() => fn.apply(this, args), ms);
-    };
-  }; 
+
+  const debouncedPostMessage = debounce((worker: Worker, search: string) => {
+    worker.postMessage({ search });
+  }, 300);
+  
 
 
   useEffect(() => {
     const worker = workerRef.current;
     if (!worker) return;
-  
-    worker.postMessage({  search });
+    debouncedPostMessage(worker, search);
+ 
   }, [search, searchData]); 
 
   // useEffect(() => {

@@ -10,10 +10,52 @@ fetch('/api/search.json')
     searchData = data;
   });
 
+  const cmp = new Intl.Collator('en').compare;
+  const typeAheadSort = (info:uFuzzy.Info, haystack: string[], needle: string) => {
+    const { idx, terms, interLft2, interLft1, interRgt2, interRgt1, intraIns, interIns, chars, ranges } = info;
+  
+    return idx.map((v, i) => i).sort((ia, ib) => {
+      const haystackIa = haystack[idx[ia]];
+      const haystackIb = haystack[idx[ib]];
+  
+      // least char intra-fuzz (most contiguous)
+      const intraDiff = intraIns[ia] - intraIns[ib];
+  
+      // earliest start of match
+      const startDiff = ranges[ia][0] - ranges[ib][0];
+  
+      // shortest match first
+      const lengthDiff = haystackIa.length - haystackIb.length;
+  
+      // most prefix/suffix bounds, boosted by full term matches
+      const termDiff = (
+        (terms[ib] + interLft2[ib] + 0.5 * interLft1[ib] + interRgt2[ib] + 0.5 * interRgt1[ib]) -
+        (terms[ia] + interLft2[ia] + 0.5 * interLft1[ia] + interRgt2[ia] + 0.5 * interRgt1[ia])
+      );
+  
+      // highest density of match (least term inter-fuzz)
+      const interDiff = interIns[ia] - interIns[ib];
+  
+      // alphabetic
+      const cmpDiff = cmp(haystackIa, haystackIb);
+  
+      return intraDiff || startDiff || lengthDiff || termDiff || interDiff || cmpDiff;
+    });
+  };
+
 self.onmessage = (event) => {
   const { search } = event.data;
-  const uf = new uFuzzy();
-  const searchResults = uf.search(searchData.map((p:{content: string})=>p.content), search);
+  const uf = new uFuzzy({
+    unicode: false,
+    intraMode: 1,
+    intraDel: 1,
+    intraIns: 1,
+    intraTrn: 1,
+    sort: typeAheadSort,
+  });
+
+  const latinizedSearch = uFuzzy.latinize(search|| ''); // convert search string to ASCII
+  const searchResults = uf.search(searchData.map((p:{content: string})=>uFuzzy.latinize(p.content||'')), latinizedSearch);
   let results = [];
 
   if (Array.isArray(searchResults)) {
