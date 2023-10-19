@@ -55,7 +55,8 @@ self.onmessage = (event) => {
   });
 
   const latinizedSearch = uFuzzy.latinize(search|| ''); // convert search string to ASCII
-  const searchResults = uf.search(searchData.map((p:{content: string})=>uFuzzy.latinize(p.content||'')), latinizedSearch);
+  const searchStrings: string[]  = searchData.map((p:Post)=>uFuzzy.latinize([p.title, p?.tags?.join(' '), p.description, p.content ?? ''].join(' ')));
+  const searchResults = uf.search(searchStrings, latinizedSearch);
   let results = [];
 
   if (Array.isArray(searchResults)) {
@@ -73,5 +74,10 @@ self.onmessage = (event) => {
     }
   }
 
-  self.postMessage(results);
+  const resultsWithoutContent = results.map((r:Post) => {
+    const { content, ...rest } = r;
+    return rest;
+  });
+
+  self.postMessage(resultsWithoutContent);
 }

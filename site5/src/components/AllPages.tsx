@@ -6,16 +6,6 @@ import uFuzzy from '@leeoniya/ufuzzy'
 import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
 
-type Post = {
-  coverimage: string;
-  title: string;
-  description: string;
-  publishDate: string;
-  updatedDate: string;
-  tags: string[];
-  content: string;
-};
-
 interface Props {
   allPosts: Post[]
 } 
