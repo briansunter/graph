@@ -2,12 +2,14 @@ import uFuzzy from '@leeoniya/ufuzzy';
 
 declare const self: DedicatedWorkerGlobalScope;
 let searchData: any[] = [];
+let searchStrings: string[] = [];
 
 // Fetch the search data once on initial startup
 fetch('/api/search.json')
   .then(response => response.json())
   .then(data => {
     searchData = data;
+    searchStrings   = searchData.map((p:Post)=>uFuzzy.latinize([p.title, p?.tags?.join(' '), p.description, p.content ?? ''].join(' ')));
   });
 
   const cmp = new Intl.Collator('en').compare;
@@ -55,7 +57,6 @@ self.onmessage = (event) => {
   });
 
   const latinizedSearch = uFuzzy.latinize(search|| ''); // convert search string to ASCII
-  const searchStrings: string[]  = searchData.map((p:Post)=>uFuzzy.latinize([p.title, p?.tags?.join(' '), p.description, p.content ?? ''].join(' ')));
   const searchResults = uf.search(searchStrings, latinizedSearch);
   let results = [];
 
