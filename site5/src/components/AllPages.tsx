@@ -82,8 +82,10 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     },
   ], []);
 
+  const resultsOrDefault = isBrowser ? results : allPosts.slice(0, 10);
+
   const table = useReactTable({
-    data: results,
+    data: resultsOrDefault,
     columns,
     getSortedRowModel: getSortedRowModel<Post>(),
     getCoreRowModel: getCoreRowModel<Post>(),
