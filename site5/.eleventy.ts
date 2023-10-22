@@ -1,4 +1,5 @@
 import path from 'path';
+import { wordCount } from "eleventy-plugin-wordcount";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import preactSSR from './src/lib/preactSSR';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
@@ -47,6 +48,7 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyLogseq, { baseUrl: baseUrl })
   eleventyConfig.addPlugin(preactSSR);
+  eleventyConfig.addPlugin(wordCount);
 
   // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {

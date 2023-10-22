@@ -1,4 +1,5 @@
   const Fuse = require('fuse.js');
+  import wordsCounter from 'word-counting'
 
   const options = {
     keys: ['title', 'content', 'tags', 'description'],
@@ -29,6 +30,7 @@
           date: item.date,
           tags: item.data.tags,
           coverimage: item.data.coverimage,
+          wordCount: wordsCounter(content.content).wordsCount,
         };
       });
     

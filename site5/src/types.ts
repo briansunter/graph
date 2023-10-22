@@ -1,4 +1,4 @@
-type Post = {
+export type Post = {
     coverimage: string;
     title: string;
     description: string;
@@ -7,3 +7,7 @@ type Post = {
     tags: string[];
     content: string;
   };
+
+export interface  SearchPost extends Post {
+  wordCount: number;
+}

@@ -1,13 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faSort, faSortDown, faSortUp} from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect, useMemo, useRef, useTransition } from 'react';
 import Fuse from 'fuse.js';
 import fuzzysort from 'fuzzysort'
 import uFuzzy from '@leeoniya/ufuzzy'
 import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
+import { SearchPost, Post } from '../types';
 
 interface Props {
-  allPosts: Post[]
+  allPosts: SearchPost[]
 } 
 const debounce = (fn: Function, ms = 300) => {
   let timeoutId: ReturnType<typeof setTimeout>;
@@ -19,16 +22,10 @@ const debounce = (fn: Function, ms = 300) => {
 const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const isBrowser = typeof window !== 'undefined';
   const [isPending, startTransition] = useTransition();
-  const [searchData, setSearchData] = useState<Post[]>(allPosts);
   const [search, setSearch] = useState('');
-  const [results, setResults] = useState<Post[]>([]);
-  const [sorting, setSorting] = React.useState<SortingState>([])
-  const handleSort = (columnId: string) => {
-    const isDesc = sorting.find(d => d.id === columnId)?.desc;
-    const newSorting: SortingState = [{ id: columnId, desc: !isDesc }];
-    setSorting(newSorting);
-  };
-  const columns = useMemo<ColumnDef<Post>[]>(() => [
+  const [results, setResults] = useState<SearchPost[]>([]);
+  const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: false}])
+  const columns = useMemo<ColumnDef<SearchPost>[]>(() => [
     {
       header: 'Cover Image',
       accessorKey: 'coverimage',
@@ -41,9 +38,9 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
       >
         Title
         {{
-          asc: ' 🔼',
-          desc: ' 🔽',
-        }[headerInfo.column.getIsSorted() as string] ?? null}
+          asc: <FontAwesomeIcon icon={faSortUp} />,
+          desc: <FontAwesomeIcon icon={faSortDown} />,
+        }[headerInfo.column.getIsSorted() as string] ?? <FontAwesomeIcon icon={faSort} />}
       </div>
       ),
       accessorKey: 'title',
@@ -56,13 +53,22 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     },
     {
       header: 'Publish Date',
-      accessorKey: 'publishDate',
+      accessorKey: 'date',
       cell: info => <p className="text-sm text-gray-500">Published: {info.getValue() as string}</p>,
     },
     {
       header: 'Updated Date',
       accessorKey: 'updatedDate',
       cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue() as string}</p>,
+    },
+    {
+      header: 'Word Count',
+      accessorKey: 'wordCount',
+      cell: info => {
+        const post = info.row.original;
+        const wordCount = post.wordCount;
+        return <p>{wordCount}</p>;
+      },
     },
     {
       header: 'Tags',
@@ -87,21 +93,14 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const table = useReactTable({
     data: resultsOrDefault,
     columns,
-    getSortedRowModel: getSortedRowModel<Post>(),
-    getCoreRowModel: getCoreRowModel<Post>(),
+    getSortedRowModel: getSortedRowModel<SearchPost>(),
+    getCoreRowModel: getCoreRowModel<SearchPost>(),
     state: {
       sorting,
     },
     onSortingChange: setSorting,
   });
 
-  // useEffect(() => {
-  //   fetch('/api/search.json')
-  //     .then(response => response.json())
-  //     .then(data => setSearchData(data));
-  // }, [isBrowser]);
-
-  
   const workerRef = useRef<Worker | null>(null);
 
   useEffect(() => {
@@ -130,42 +129,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     if (!worker) return;
     debouncedPostMessage(worker, search);
  
-  }, [search, searchData]); 
-
-  // useEffect(() => {
-  //   if (search !== '') {
-  //     const uf = new uFuzzy();
-  //     const searchResults = uf.search(searchData.map(p=>p.content), search);
-      
-  //     // Handle the search results
-  //     if (Array.isArray(searchResults)) {
-  //       const [haystackIdxs, info, infoIdxOrder] = searchResults;
-        
-  //       if (haystackIdxs && info && infoIdxOrder) {
-  //         // This is a RankedResult
-  //         // You can use the info and infoIdxOrder to sort and display your results
-  //         const sortedResults = infoIdxOrder.map(idx => {
-  //           const post = searchData[haystackIdxs[idx]];
-  //           const highlightRanges = info.ranges[idx];
-  //           const highlightedPostContent = uFuzzy.highlight(post.content, highlightRanges);
-  //           return { ...post, highlightedContent: highlightedPostContent };
-  //         });
-  //         setResults(sortedResults);
-  //       } else if (haystackIdxs) {
-  //         // This is a FilteredResult
-  //         // You can use the haystackIdxs to display your results
-  //         const filteredResults = haystackIdxs.map(idx => searchData[idx]);
-  //         setResults(filteredResults);
-  //       } else {
-  //         // This is an AbortedResult
-  //         // You can handle this case as you see fit, for example, by setting results to an empty array
-  //         setResults([]);
-  //       }
-  //     }
-  //   } else {
-  //     setResults(searchData.slice(0, 10));
-  //   }
-  // }, [search, searchData]);
+  }, [search]); 
 
   return (
     <div className="p-4">
@@ -183,7 +147,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
               {headerGroup.headers.map(header => (
                 
                 <th key={header.id}>
-                  {flexRender(header.column.columnDef.header, header.getContext())}
+                  {flexRender(header.column.columnDef.header, header.getContext()) as JSX.Element}
                 </th>
               ))}
             </tr>
@@ -194,7 +158,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
             <tr key={row.id}>
               {row.getVisibleCells().map(cell => (
                 <td key={cell.id}>
-                  {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  {flexRender(cell.column.columnDef.cell, cell.getContext()) as JSX.Element}
                 </td>
               ))}
             </tr>
