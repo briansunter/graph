@@ -90,7 +90,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
         }[headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
       </div>
       ),
-      accessorKey: 'updatedDate',
+      accessorKey: 'lastModified',
       cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue() as string}</p>,
     },
     {

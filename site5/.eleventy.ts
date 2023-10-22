@@ -13,7 +13,10 @@ import type { EleventyConfig } from './eleventy';
 import eleventyLogseq from './eleventyLogseq';
 require('dotenv').config();
 import preact from "@preact/preset-vite";
-import tsconfigPaths from 'vite-tsconfig-paths'
+
+import util from 'util';
+
+const stat = util.promisify(fs.stat);
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 
@@ -106,6 +109,12 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
   eleventyConfig.addFilter("asPostDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+   });
+
+   eleventyConfig.addAsyncFilter("lastModified", async function (value) {
+     const fileStats = await stat(value.inputPath);
+     const updatedAt = fileStats.mtime;
+     return updatedAt;
    });
 
   /* --- BASE CONFIG --- */

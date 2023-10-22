@@ -3,6 +3,7 @@ import { Post } from './components/AllPages';
 import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';
 import { BlogPostPreview } from './BlogPostPreview';
+import { EleventyPage } from './types';
 
 export const data = {
   title: 'Blog',
@@ -14,7 +15,10 @@ export const data = {
   }
 };
 export async function render(this: Context, data: Context) {
-  const postPromises: Promise<Post>[] = data.collections.all.map(async (post: any) => {
+  const postPromises: Promise<Post>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
+    const filePath = post.inputPath;
+    // get updatedAt date by reading filePath
+    
     const template = await post.template.read();
     return {
       title: post.data.title,

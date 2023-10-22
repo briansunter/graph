@@ -11,3 +11,17 @@ export type Post = {
 export interface  SearchPost extends Post {
   wordCount: number;
 }
+
+export interface EleventyPage<T = any> {
+  template: string;
+  data: T;
+  page: any;
+  inputPath: string;
+  fileSlug: string;
+  filePathStem: string;
+  date: Date;
+  outputPath: string;
+  url: string;
+  templateContent: string;
+  content: string;
+}
