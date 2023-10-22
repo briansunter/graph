@@ -1,6 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faSort, faSortDown, faSortUp} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon, FontAwesomeIconProps} from '@fortawesome/react-fontawesome'
+import {IconDefinition, faSort, faSortDown, faSortUp} from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect, useMemo, useRef, useTransition } from 'react';
 import Fuse from 'fuse.js';
 import fuzzysort from 'fuzzysort'
@@ -19,11 +19,20 @@ const debounce = (fn: Function, ms = 300) => {
     timeoutId = setTimeout(() => fn.apply(this, args), ms);
   };
 }; 
+
+const SortIcon = (props: FontAwesomeIconProps) => {
+  return <div className="h-4 w-4 overflow-hidden" >
+    <FontAwesomeIcon {...props} />
+    
+    </div>;
+}
+
 const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
+  const initialPosts = allPosts.slice(0, 10);
   const isBrowser = typeof window !== 'undefined';
   const [isPending, startTransition] = useTransition();
   const [search, setSearch] = useState('');
-  const [results, setResults] = useState<SearchPost[]>([]);
+  const [results, setResults] = useState<SearchPost[]>(initialPosts);
   const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: false}])
   const columns = useMemo<ColumnDef<SearchPost>[]>(() => [
     {
@@ -34,13 +43,14 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     {
       header: (headerInfo) => (
         <div 
+        className='flex flex-row items-center'
         onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
       >
         Title
         {{
-          asc: <FontAwesomeIcon icon={faSortUp} />,
-          desc: <FontAwesomeIcon icon={faSortDown} />,
-        }[headerInfo.column.getIsSorted() as string] ?? <FontAwesomeIcon icon={faSort} />}
+          asc: <SortIcon icon={faSortUp} />,
+          desc: <SortIcon icon={faSortDown} />,
+        }[headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
       </div>
       ),
       accessorKey: 'title',
@@ -52,17 +62,50 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
       cell: info => <p className="mb-2">{info.getValue() as string}</p>,
     },
     {
-      header: 'Publish Date',
+      header: (headerInfo) => (
+        <div 
+        className='flex flex-row items-center'
+        onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
+      >
+        Published
+        {{
+          asc: <SortIcon icon={faSortUp} />,
+          desc: <SortIcon icon={faSortDown} />,
+        }[headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
+      </div>
+      ),
       accessorKey: 'date',
       cell: info => <p className="text-sm text-gray-500">Published: {info.getValue() as string}</p>,
     },
     {
-      header: 'Updated Date',
+      header: (headerInfo) => (
+        <div 
+        className='flex flex-row items-center'
+        onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
+      >
+        Updated Date
+        {{
+          asc: <SortIcon icon={faSortUp} />,
+          desc: <SortIcon icon={faSortDown} />,
+        }[headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
+      </div>
+      ),
       accessorKey: 'updatedDate',
       cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue() as string}</p>,
     },
     {
-      header: 'Word Count',
+      header: (headerInfo) => (
+        <div 
+        className='flex flex-row items-center'
+        onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
+      >
+        Word Count
+        {{
+          asc: <SortIcon icon={faSortUp} />,
+          desc: <SortIcon icon={faSortDown} />,
+        }[headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
+      </div>
+      ),
       accessorKey: 'wordCount',
       cell: info => {
         const post = info.row.original;
@@ -88,7 +131,7 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     },
   ], []);
 
-  const resultsOrDefault = isBrowser ? results : allPosts.slice(0, 10);
+  const resultsOrDefault = isBrowser ? results : initialPosts;
 
   const table = useReactTable({
     data: resultsOrDefault,
@@ -127,6 +170,12 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   useEffect(() => {
     const worker = workerRef.current;
     if (!worker) return;
+    if (!search) {
+      startTransition(() => {
+        setResults(initialPosts);
+      });
+      return;
+    }
     debouncedPostMessage(worker, search);
  
   }, [search]); 
