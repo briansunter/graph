@@ -21,9 +21,8 @@ const debounce = (fn: Function, ms = 300) => {
 }; 
 
 const SortIcon = (props: FontAwesomeIconProps) => {
-  return <div className="h-4 w-4 overflow-hidden" >
-    <FontAwesomeIcon {...props} />
-    
+  return <div>
+    <FontAwesomeIcon className="mx-2 h-4 w-4"  {...props} />
     </div>;
 }
 
@@ -38,7 +37,8 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     {
       header: 'Cover Image',
       accessorKey: 'coverimage',
-      cell: info => <img src={info.getValue() as string} alt={info.row.original.title} className="mb-2 h-10" />,
+      cell: info => 
+        <img className="cellImage" src={info.getValue() as string} alt={info.row.original.title} />
     },
     {
       header: (headerInfo) => (
@@ -54,12 +54,12 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
       </div>
       ),
       accessorKey: 'title',
-      cell: info => <h2 className="text-xl font-bold">{info.getValue() as string}</h2>,
+      cell: info => <h2 className="cellTitle">{info.getValue() as string}</h2>,
     },
     {
       header: 'Description',
       accessorKey: 'description',
-      cell: info => <p className="mb-2">{info.getValue() as string}</p>,
+      cell: info => <p className="mb-2 max-w-xs text-sm">{info.getValue() as string}</p>,
     },
     {
       header: (headerInfo) => (
@@ -179,7 +179,6 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
     debouncedPostMessage(worker, search);
  
   }, [search]); 
-
   return (
     <div className="p-4">
       <input
@@ -189,13 +188,12 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
         value={search}
         onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
       />
-      <table className="max-h-screen">
-        <thead>
+      <table className="w-full text-left table-auto">
+        <thead className="bg-gray-200">
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
               {headerGroup.headers.map(header => (
-                
-                <th key={header.id}>
+                <th className="px-2 py-2" key={header.id}>
                   {flexRender(header.column.columnDef.header, header.getContext()) as JSX.Element}
                 </th>
               ))}
@@ -204,9 +202,9 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
         </thead>
         <tbody>
           {table.getRowModel().rows.map(row => (
-            <tr key={row.id}>
+            <tr className="hover:bg-gray-100" key={row.id}>
               {row.getVisibleCells().map(cell => (
-                <td key={cell.id}>
+                <td className="border px-2 py-2" key={cell.id}>
                   {flexRender(cell.column.columnDef.cell, cell.getContext()) as JSX.Element}
                 </td>
               ))}
