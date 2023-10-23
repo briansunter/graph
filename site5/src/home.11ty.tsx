@@ -1,10 +1,13 @@
 import React from 'react';
+// import 'src/assets/css/index.css';
 import { ResultPost } from './components/AllPages';
 import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';
 import { BlogPostPreview } from './BlogPostPreview';
 import { Post, EleventyPage } from './types';
 import wordsCounter from 'word-counting'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import fs from 'fs';
 import util from 'util';
 const readFile = util.promisify(fs.readFile);
@@ -23,8 +26,8 @@ export async function render(this: Context, data: Context) {
     const wordCount = wordsCounter(content).wordsCount;
     let smallImage = '';
     if (post.data.coverimage) {
-    const imageMeta = await this.imageMeta('src/assets'+ post.data.coverimage);
-    smallImage = imageMeta['webp'][0].url
+      const imageMeta = await this.imageMeta('src/assets' + post.data.coverimage);
+      smallImage = imageMeta['webp'][0].url
     }
 
     const resultPost: ResultPost = {
@@ -51,24 +54,20 @@ export async function render(this: Context, data: Context) {
         <p className="text-lg text-gray-600 my-4">
           Here you'll find my latest blog posts about software development, technology, and my experiences in the tech industry.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-5xl">
-          {data.collections.newsletter.slice(0, 3).map((post: any) =>
-            <BlogPostPreview post={post} />
+        <div className="grid grid-cols-6 gap-4 max-w-8xl p-4">
+          {data.collections.newsletter.slice(0, 5).map((post: any) =>
+              <BlogPostPreview post={post} />
           )
           }
-        </div>
-      </section>
-      <section>
-        <hr />
-        <h2 className="text-6xl font-bold my-8">Projects</h2>
-        <p className="text-lg text-gray-600 my-4">
-          Here you'll find my latest blog posts about software development, technology, and my experiences in the tech industry.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto max-w-5xl">
-          {data.collections.newsletter.slice(0, 3).map((post: any) =>
-            <BlogPostPreview post={post} />
-          )
-          }
+
+
+
+<div className="bg-gray-100 p-4 rounded-md shadow-md flex items-center justify-center">
+  <a href="/more-posts" className="text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-200 ease-in-out flex flex-col">
+    <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
+    <span className="mt-4">More Blogs</span>
+  </a>
+</div>
         </div>
       </section>
       <section>

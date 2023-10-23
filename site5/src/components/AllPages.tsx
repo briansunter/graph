@@ -66,7 +66,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         </div>
       ),
       accessorKey: 'title',
-      cell: info => <h2 className="cellTitle">{info.getValue() as string}</h2>,
+      cell: info => <a href={info.row.original.url}><h2 className="cellTitle">{info.getValue() as string}</h2></a>,
     },
     {
       size: 1,
