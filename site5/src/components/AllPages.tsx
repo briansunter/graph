@@ -7,10 +7,22 @@ import fuzzysort from 'fuzzysort'
 import uFuzzy from '@leeoniya/ufuzzy'
 import { useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel,  SortingState, getSortedRowModel
 } from '@tanstack/react-table';
-import { SearchPost, Post } from '../types';
+
+import { Post } from '../types';
+
+export interface ResultPost {
+  coverimage: string;
+  title: string;
+  description: string;
+  date: Date;
+  lastModified: Date;
+  wordCount: number;
+  tags: string[];
+  url: string;
+}
 
 interface Props {
-  allPosts: SearchPost[]
+  allPosts: ResultPost[]
 } 
 const debounce = (fn: Function, ms = 300) => {
   let timeoutId: ReturnType<typeof setTimeout>;
@@ -27,13 +39,13 @@ const SortIcon = (props: FontAwesomeIconProps) => {
 }
 
 const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
-  const initialPosts = allPosts.slice(0, 10);
+  const initialPosts = allPosts;
   const isBrowser = typeof window !== 'undefined';
   const [isPending, startTransition] = useTransition();
   const [search, setSearch] = useState('');
-  const [results, setResults] = useState<SearchPost[]>(initialPosts);
+  const [results, setResults] = useState<ResultPost[]>(initialPosts);
   const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: false}])
-  const columns = useMemo<ColumnDef<SearchPost>[]>(() => [
+  const columns = useMemo<ColumnDef<ResultPost>[]>(() => [
     {
       header: 'Cover Image',
       accessorKey: 'coverimage',
@@ -136,8 +148,8 @@ const Search: React.FC<Props> = ({allPosts}): JSX.Element => {
   const table = useReactTable({
     data: resultsOrDefault,
     columns,
-    getSortedRowModel: getSortedRowModel<SearchPost>(),
-    getCoreRowModel: getCoreRowModel<SearchPost>(),
+    getSortedRowModel: getSortedRowModel<ResultPost>(),
+    getCoreRowModel: getCoreRowModel<ResultPost>(),
     state: {
       sorting,
     },

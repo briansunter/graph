@@ -8,9 +8,6 @@ export type Post = {
     content: string;
   };
 
-export interface  SearchPost extends Post {
-  wordCount: number;
-}
 
 export interface EleventyPage<T = any> {
   template: string;

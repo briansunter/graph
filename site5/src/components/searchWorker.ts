@@ -1,4 +1,5 @@
 import uFuzzy from '@leeoniya/ufuzzy';
+import { SearchPost } from '../api/searchIndex.11ty';
 
 declare const self: DedicatedWorkerGlobalScope;
 let searchData: any[] = [];
@@ -9,7 +10,7 @@ fetch('/api/search.json')
   .then(response => response.json())
   .then(data => {
     searchData = data;
-    searchStrings   = searchData.map((p:Post)=>uFuzzy.latinize([p.title, p?.tags?.join(' '), p.description, p.content ?? ''].join(' ')));
+    searchStrings   = searchData.map((p:SearchPost)=>uFuzzy.latinize([p.title, p?.tags?.join(' '), p.description, p.keywords ?? ''].join(' ')));
   });
 
   const cmp = new Intl.Collator('en').compare;
@@ -45,7 +46,7 @@ fetch('/api/search.json')
     });
   };
 
-self.onmessage = (event) => {
+self.onmessage = (event: MessageEvent) => {
   const { search } = event.data;
   const uf = new uFuzzy({
     unicode: false,
@@ -67,7 +68,7 @@ self.onmessage = (event) => {
       results = infoIdxOrder.map(idx => {
         const post = searchData[haystackIdxs[idx]];
         const highlightRanges = info.ranges[idx];
-        const highlightedPostContent = uFuzzy.highlight(post.content, highlightRanges);
+        const highlightedPostContent = uFuzzy.highlight(post.keywords, highlightRanges);
         return { ...post, highlightedContent: highlightedPostContent };
       });
     } else if (haystackIdxs) {
@@ -75,8 +76,8 @@ self.onmessage = (event) => {
     }
   }
 
-  const resultsWithoutContent = results.map((r:Post) => {
-    const { content, ...rest } = r;
+  const resultsWithoutContent = results.map((r:SearchPost) => {
+    const { keywords , ...rest } = r;
     return rest;
   });
 

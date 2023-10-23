@@ -1,10 +1,13 @@
 import React from 'react';
-import { Post } from './components/AllPages';
+import { ResultPost } from './components/AllPages';
 import { Context } from "./lib/Context";
 import renderToString from 'preact-render-to-string';
 import { BlogPostPreview } from './BlogPostPreview';
-import { EleventyPage } from './types';
-
+import { Post, EleventyPage } from './types';
+import wordsCounter from 'word-counting'
+import fs from 'fs';
+import util from 'util';
+const readFile = util.promisify(fs.readFile);
 export const data = {
   title: 'Blog',
   description: 'Here you\'ll find my latest blog posts about software development, technology, and my experiences in the tech industry.',
@@ -15,23 +18,26 @@ export const data = {
   }
 };
 export async function render(this: Context, data: Context) {
-  const postPromises: Promise<Post>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
-    const filePath = post.inputPath;
-    // get updatedAt date by reading filePath
-    
-    const template = await post.template.read();
-    return {
+  const postPromises: Promise<ResultPost>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
+    const content = await readFile(post.inputPath, 'utf-8');
+    const wordCount = wordsCounter(content).wordsCount;
+
+    const resultPost:ResultPost ={
       title: post.data.title,
+      url: post.url,
       description: post.data.description,
-      publishDate: post.data.publishDate,
-      updatedDate: post.data.updatedDate,
-      content: template.content,
       tags: post.data.tags,
       coverimage: post.data.coverimage,
+      date: post.date,
+      lastModified: await this.lastModified(post),
+      wordCount
     };
+
+    return resultPost;
   });
-  const posts = await Promise.all(postPromises);
-  const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 10) })
+
+  const posts: ResultPost[] = await Promise.all(postPromises);
+  const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 100) })
   return renderToString(
     <div>
       <section>
