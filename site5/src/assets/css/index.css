@@ -20,13 +20,13 @@
 }
 
 .cellImage {
-  @apply w-24 h-24 object-scale-down;
-  flex-grow: 1;
+  @apply w-24 h-24 object-cover;
+  /* flex-grow: 1; */
 }
 
 .cellTitle {
 @apply text-xl font-bold w-80;
-flex-grow: 3;
+/* flex-grow: 3; */
 }
 
 .searchView {
@@ -37,4 +37,9 @@ overscroll-y: auto;
 
 body {
   overscroll-behavior: none;
+}
+
+.container {
+  height: 600px;
+  overflow: auto;
 }
