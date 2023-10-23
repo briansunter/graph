@@ -20,11 +20,13 @@
 }
 
 .cellImage {
-  @apply w-16 h-16 object-cover;
+  @apply w-24 h-24 object-scale-down;
+  flex-grow: 1;
 }
 
 .cellTitle {
 @apply text-xl font-bold w-80;
+flex-grow: 3;
 }
 
 .searchView {

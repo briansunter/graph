@@ -46,7 +46,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
   const [isPending, startTransition] = useTransition();
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<ResultPost[]>(initialPosts);
-  const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: false }])
+  const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: true}])
   const tableContainerRef = useRef<HTMLDivElement>(null);
 
 
@@ -55,14 +55,13 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
       header: 'Cover Image',
       accessorKey: 'coverimage',
       cell: info =>
-        <img className="cellImage" src={info.getValue() as string} alt={info.row.original.title} />
+        <img className="cellImage" src={info.getValue() as string} alt={info.row.original.title} loading='lazy'/>
     },
     {
       header: (headerInfo) => (
         <div
           className='flex flex-row items-center'
-          onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
-        >
+          onClick={headerInfo.column.getToggleSortingHandler()}>
           Title
           {{
             asc: <SortIcon icon={faSortUp} />,
@@ -74,14 +73,16 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
       cell: info => <h2 className="cellTitle">{info.getValue() as string}</h2>,
     },
     {
+      size: 1,
       header: 'Description',
       accessorKey: 'description',
-      cell: info => <p className="mb-2 max-w-xs text-sm">{info.getValue() as string}</p>,
+      cell: info =><p className="mb-2 text-sm grow">{info.getValue() as string}</p>
     },
     {
+      size: 1,
       header: (headerInfo) => (
         <div
-          className='flex flex-row items-center'
+          className='flex flex-row items-center grow'
           onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
         >
           Published
@@ -92,12 +93,12 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         </div>
       ),
       accessorKey: 'date',
-      cell: info => <p className="text-sm text-gray-500">Published: {info.getValue() as string}</p>,
+      cell: info => <p className="text-sm text-gray-500 grow">Published: {info.getValue() as string}</p>,
     },
     {
       header: (headerInfo) => (
         <div
-          className='flex flex-row items-center'
+          className='flex flex-row items-center grow'
           onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
         >
           Updated Date
@@ -108,12 +109,12 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         </div>
       ),
       accessorKey: 'lastModified',
-      cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue() as string}</p>,
+      cell: info => <p className="text-sm text-gray-500 grow">Updated: {info.getValue() as string}</p>,
     },
     {
       header: (headerInfo) => (
         <div
-          className='flex flex-row items-center'
+          className='flex flex-row items-center grow'
           onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
         >
           Word Count
@@ -127,7 +128,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
       cell: info => {
         const post = info.row.original;
         const wordCount = post.wordCount;
-        return <p>{wordCount}</p>;
+        return <p className='grow'>{wordCount}</p>;
       },
     },
     {
@@ -137,7 +138,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         const cellInfo = info.getValue() as string[];
 
         return (
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap grow">
             {cellInfo?.map((tag, index) => (
               <span key={index} className="mr-2 text-sm text-gray-700">
                 #{tag}
@@ -172,10 +173,6 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
 
   const paddingTop = virtualRows.length > 0 ? virtualRows?.[0]?.start || 0 : 0;
   const paddingBottom = virtualRows.length > 0 ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0) : 0;
-
-
-
-
 
   const workerRef = useRef<Worker | null>(null);
 
@@ -221,7 +218,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         value={search}
         onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
       />
-      <div ref={tableContainerRef} className="w-full text-left table-auto searchView">
+      <div ref={tableContainerRef} className='searchView'>
         <table>
           <thead className="bg-gray-200">
             {table.getHeaderGroups().map(headerGroup => (

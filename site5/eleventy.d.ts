@@ -408,9 +408,9 @@ export declare interface EleventyConfig extends Filters, ShortCodes, PluginExten
   /**
    * Add an asynchronous shortcode.
    */
-  addAsyncShortcode(name: string, handler: (...args: any[]) => Promise<string>): void;
+  addAsyncShortcode<T=string>(name: string, handler: (...args: any[]) => Promise<T>): void;
 
-  addAsyncFilter(name: string, handler: async (...args: any[]) => Promise<string>): void;
+  addAsyncFilter<T=string>(name: string, handler: (...args: any[]) => Promise<T>): void;
   /**
    * Set server options.
    */

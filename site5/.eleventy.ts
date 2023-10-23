@@ -10,6 +10,7 @@ import { DateTime } from "luxon";
 import { noTrailingSlash } from './src/lib/noTrailingSlash';
 import fs from "fs";
 import type { EleventyConfig } from './eleventy';
+import {ImageMetadata} from './src/types';
 import eleventyLogseq from './eleventyLogseq';
 require('dotenv').config();
 import preact from "@preact/preset-vite";
@@ -19,6 +20,7 @@ import util from 'util';
 const stat = util.promisify(fs.stat);
 
 const baseUrl = process.env.BASE_URL || "http://localhost:8080";
+
 
 const globalSiteData = {
   title: "11ty Starter Site",
@@ -68,10 +70,11 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
 
-  eleventyConfig.addShortcode("image", async function(src, alt, sizes=defaultSizesConfig) {
-		console.log(`Generating image(s) from:  ${src}`)
-    let metadata = await Image(src, {
-			widths: [800, 1500],
+
+
+  async function metaDataFromSrc(src: string): Promise<ImageMetadata>{
+    return Image(src, {
+			widths: [256, 800, 1500],
 			formats: ["webp", "jpeg"],
       urlPath: "/images/",
 			outputDir: "./_site/images/",
@@ -81,7 +84,15 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 				return `${name}-${width}w.${format}`
 			}
 		});
+  }
 
+  eleventyConfig.addAsyncShortcode("imageMeta", async function(src) {
+    const metadata = await metaDataFromSrc(src);
+    return metadata;
+  });
+
+  eleventyConfig.addShortcode("image", async function(src, alt, sizes=defaultSizesConfig) {
+    const metadata = await metaDataFromSrc(src);
 		let imageAttributes = {
 			alt,
 			sizes,

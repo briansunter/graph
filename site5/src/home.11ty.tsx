@@ -21,13 +21,18 @@ export async function render(this: Context, data: Context) {
   const postPromises: Promise<ResultPost>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
     const content = await readFile(post.inputPath, 'utf-8');
     const wordCount = wordsCounter(content).wordsCount;
+    let smallImage = '';
+    if (post.data.coverimage) {
+    const imageMeta = await this.imageMeta('src/assets'+ post.data.coverimage);
+    smallImage = imageMeta['webp'][0].url
+    }
 
-    const resultPost:ResultPost ={
+    const resultPost: ResultPost = {
       title: post.data.title,
       url: post.url,
       description: post.data.description,
       tags: post.data.tags,
-      coverimage: post.data.coverimage,
+      coverimage: smallImage,
       date: post.date,
       lastModified: await this.lastModified(post),
       wordCount

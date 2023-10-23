@@ -45,13 +45,20 @@ class SearchIndex {
       });
 
       const wordsString = words.join(' ');
+
+      let smallImage = '';
+      if (item.data.coverimage) {
+      const imageMeta = await this.imageMeta('src/assets'+ item.data.coverimage);
+      smallImage = imageMeta['webp'][0].url
+      }
+
       const searchPost: SearchPost = {
         title: item.data.title,
         url: item.url,
         description: item.data.description,
         date: item.date,
         tags: item.data.tags,
-        coverimage: item.data.coverimage,
+        coverimage: smallImage,
         wordCount: wordsCounter(content).wordsCount,
         lastModified: lastModified,
         keywords: wordsString,
@@ -63,7 +70,7 @@ class SearchIndex {
 
     // repeat 10 x times
     const duped = []
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 100; i++) {
       duped.push(...searchCollection)
     }
 

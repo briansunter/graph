@@ -22,3 +22,19 @@ export interface EleventyPage<T = any> {
   templateContent: string;
   content: string;
 }
+
+export interface ImageFormat {
+  format: string;
+  width: number;
+  height: number;
+  url: string;
+  sourceType: string;
+  srcset: string;
+  filename: string;
+  outputPath: string;
+  size: number;
+}
+
+export interface ImageMetadata {
+  [key: string]: ImageFormat[];
+}
