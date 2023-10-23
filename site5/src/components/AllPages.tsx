@@ -3,9 +3,6 @@ import { DateTime } from 'luxon';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
 import { IconDefinition, faSort, faSortDown, faSortUp } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect, useMemo, useRef, useTransition } from 'react';
-import Fuse from 'fuse.js';
-import fuzzysort from 'fuzzysort'
-import uFuzzy from '@leeoniya/ufuzzy'
 import {
   useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel, SortingState, getSortedRowModel, Row
 } from '@tanstack/react-table';
@@ -65,7 +62,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
           onClick={headerInfo.column.getToggleSortingHandler()}>
           Title
           {
-          [headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
+            [headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
         </div>
       ),
       accessorKey: 'title',
@@ -85,15 +82,13 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
           onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
         >
           Published
-          {
-          [headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
         </div>
       ),
       accessorKey: 'date',
       cell: info => {
-        const date = DateTime.fromJSDate(info.getValue() as Date);
-        const formattedDate = date.toFormat('yyyy LLL dd');
-        return <p className="text-sm text-gray-500">Published: {formattedDate}</p>;
+        const date = DateTime.fromISO(info.getValue() as string);
+        const formattedDate = date.toFormat('MMM dd, yyyy');
+        return <p className="text-sm text-gray-500">{formattedDate}</p>;
       },
     },
     {
@@ -103,12 +98,14 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
           onClick={headerInfo.column.getToggleSortingHandler()} // Add this line
         >
           Updated Date
-          {
-          [headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
         </div>
       ),
       accessorKey: 'lastModified',
-      cell: info => <p className="text-sm text-gray-500">Updated: {info.getValue() as string}</p>,
+      cell: info => {
+        const date = DateTime.fromISO(info.getValue() as string);
+        const formattedDate = date.toFormat('MMM dd, yyyy');
+        return <p className="text-sm text-gray-500">{formattedDate}</p>;
+      },
     },
     {
       header: (headerInfo) => (
@@ -162,7 +159,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
     getScrollElement: () => tableContainerRef.current,
     count: rows.length,
     estimateSize: React.useCallback(() => 35, []),
-    overscan: 50 
+    overscan: 50
   });
 
   // const { virtualItems: virtualRows, totalSize } = rowVirtualizer;
@@ -217,74 +214,74 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         value={search}
         onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
       />
-    <div ref={tableContainerRef} className="container">
-      <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
-        <table>
-          <thead>
-            {table.getHeaderGroups().map((headerGroup) => (
-              <tr key={headerGroup.id}>
-                {headerGroup.headers.map((header) => {
-                  return (
-                    <th
-                      key={header.id}
-                      colSpan={header.colSpan}
-                      style={{ width: header.getSize() }}
-                    >
-                      {header.isPlaceholder ? null : (
-                        <div
-                          {...{
-                            className: header.column.getCanSort()
-                              ? 'flex flex-row items-center cursor-pointer select-none'
-                              : '',
-                            onClick: header.column.getToggleSortingHandler(),
-                          }}
-                        >
-                          {flexRender(
-                            header.column.columnDef.header,
-                            header.getContext(),
-                          )}
-                          {{asc: <SortIcon icon={faSortUp} />,
-                          false:           <SortIcon icon={faSort} />,
-                            desc: <SortIcon icon={faSortDown} />,
-                          }[header.column.getIsSorted() as string] ?? null}
-                        </div>
-                      )}
-                    </th>
-                  )
-                })}
-              </tr>
-            ))}
-          </thead>
-          <tbody>
-            {rowVirtualizer.getVirtualItems().map((virtualRow, index) => {
-              const row = rows[virtualRow.index] as Row<ResultPost>
-              return (
-                <tr
-                  key={row.id}
-                  style={{
-                    height: `${virtualRow.size}px`,
-                    transform: `translateY(${
-                      virtualRow.start - index * virtualRow.size
-                    }px)`,
-                  }}
-                >
-                  {row.getVisibleCells().map((cell) => {
+      <div ref={tableContainerRef} className="container">
+        <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
+          <table>
+            <thead>
+              {table.getHeaderGroups().map((headerGroup) => (
+                <tr key={headerGroup.id}>
+                  {headerGroup.headers.map((header) => {
                     return (
-                      <td key={cell.id}>
-                        {flexRender(
-                          cell.column.columnDef.cell,
-                          cell.getContext(),
+                      <th
+                        key={header.id}
+                        colSpan={header.colSpan}
+                        style={{ width: header.getSize() }}
+                      >
+                        {header.isPlaceholder ? null : (
+                          <div
+                            {...{
+                              className: header.column.getCanSort()
+                                ? 'flex flex-row items-center cursor-pointer select-none'
+                                : '',
+                              onClick: header.column.getToggleSortingHandler(),
+                            }}
+                          >
+                            {flexRender(
+                              header.column.columnDef.header,
+                              header.getContext(),
+                            ) as React.Element}
+                            {{
+                              asc: <SortIcon icon={faSortUp} />,
+                              false: <SortIcon icon={faSort} />,
+                              desc: <SortIcon icon={faSortDown} />,
+                            }[header.column.getIsSorted() as string] ?? null}
+                          </div>
                         )}
-                      </td>
+                      </th>
                     )
                   })}
                 </tr>
-              )
-            })}
-          </tbody>
-        </table>
+              ))}
+            </thead>
+            <tbody>
+              {rowVirtualizer.getVirtualItems().map((virtualRow, index) => {
+                const row = rows[virtualRow.index] as Row<ResultPost>
+                return (
+                  <tr
+                    key={row.id}
+                    style={{
+                      height: `${virtualRow.size}px`,
+                      transform: `translateY(${virtualRow.start - index * virtualRow.size
+                        }px)`,
+                    }}
+                  >
+                    {row.getVisibleCells().map((cell) => {
+                      return (
+                        <td key={cell.id}>
+                          {flexRender(
+                            cell.column.columnDef.cell,
+                            cell.getContext(),
+                          ) as React.Element}
+                        </td>
+                      )
+                    })}
+                  </tr>
+                )
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
     </div>
   )
 };
