@@ -72,7 +72,7 @@ export async function render(this: Context, data: Context) {
         </div>
       </section>
       <section>
-        <h1>All Pages</h1>
+        <h1 className="text-6xl font-bold my-8">All Pages</h1>
         <div className="" dangerouslySetInnerHTML={{ __html: rendered }} />
       </section>
     </div>

@@ -158,7 +158,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
   const rowVirtualizer = useVirtualizer({
     getScrollElement: () => tableContainerRef.current,
     count: rows.length,
-    estimateSize: React.useCallback(() => 35, []),
+    estimateSize: React.useCallback(() => 120, []),
     overscan: 50
   });
 
@@ -214,9 +214,9 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
         value={search}
         onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
       />
-      <div ref={tableContainerRef} className="container">
+      <div ref={tableContainerRef} className="tableContainer">
         <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
-          <table>
+          <table className="w-4/5 mx-auto table-auto border-collapse border border-gray-300">
             <thead>
               {table.getHeaderGroups().map((headerGroup) => (
                 <tr key={headerGroup.id}>
@@ -225,7 +225,8 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
                       <th
                         key={header.id}
                         colSpan={header.colSpan}
-                        style={{ width: header.getSize() }}
+                        className="border border-gray-300 p-2"
+                        // style={header.id === 'title' ? { width: '30%' } : {}}
                       >
                         {header.isPlaceholder ? null : (
                           <div
@@ -267,11 +268,11 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
                   >
                     {row.getVisibleCells().map((cell) => {
                       return (
-                        <td key={cell.id}>
+                        <td key={cell.id} className="border border-gray-300 p-2  text-justify ">
                           {flexRender(
                             cell.column.columnDef.cell,
                             cell.getContext(),
-                          ) as React.Element}
+                          )}
                         </td>
                       )
                     })}

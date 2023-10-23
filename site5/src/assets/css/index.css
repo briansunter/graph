@@ -25,7 +25,7 @@
 }
 
 .cellTitle {
-@apply text-xl font-bold w-80;
+@apply text-xl font-bold ;
 /* flex-grow: 3; */
 }
 
@@ -39,7 +39,7 @@ body {
   overscroll-behavior: none;
 }
 
-.container {
+.tableContainer {
   height: 600px;
   overflow: auto;
 }
