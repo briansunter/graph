@@ -40,6 +40,6 @@ body {
 }
 
 .tableContainer {
-  height: 600px;
+  height: 70vh;
   overflow: auto;
 }

@@ -216,7 +216,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
       />
       <div ref={tableContainerRef} className="tableContainer">
         <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
-          <table className="w-4/5 mx-auto table-auto border-collapse border border-gray-300">
+          <table className="mx-auto table-auto border-collapse border border-gray-300">
             <thead>
               {table.getHeaderGroups().map((headerGroup) => (
                 <tr key={headerGroup.id}>

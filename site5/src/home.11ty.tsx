@@ -56,18 +56,14 @@ export async function render(this: Context, data: Context) {
         </p>
         <div className="grid grid-cols-6 gap-4 max-w-8xl p-4">
           {data.collections.newsletter.slice(0, 5).map((post: any) =>
-              <BlogPostPreview post={post} />
-          )
-          }
-
-
-
-<div className="bg-gray-100 p-4 rounded-md shadow-md flex items-center justify-center">
-  <a href="/more-posts" className="text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-200 ease-in-out flex flex-col">
-    <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
-    <span className="mt-4">More Blogs</span>
-  </a>
-</div>
+            <BlogPostPreview post={post} />
+          )}
+          <div className="bg-gray-100 p-4 rounded-md shadow-md flex items-center justify-center">
+            <a href="/more-posts" className="text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-200 ease-in-out flex flex-col">
+              <FontAwesomeIcon icon={faArrowCircleRight} size="3x" />
+              <span className="mt-4">More Blogs</span>
+            </a>
+          </div>
         </div>
       </section>
       <section>
