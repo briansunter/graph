@@ -37,7 +37,7 @@ export async function render(this: Context, data: Context) {
   });
 
   const posts: ResultPost[] = await Promise.all(postPromises);
-  const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 100) })
+  const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 200) })
   return renderToString(
     <div>
       <section>

@@ -26,3 +26,13 @@
 .cellTitle {
 @apply text-xl font-bold w-80;
 }
+
+.searchView {
+max-height: 70vh;
+overflow-y: scroll;
+overscroll-y: auto;
+}
+
+body {
+  overscroll-behavior: none;
+}

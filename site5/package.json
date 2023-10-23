@@ -53,6 +53,7 @@
     "fuzzysort": "^2.0.4",
     "patch-package": "^8.0.0",
     "preact": "^10.18.1",
+    "react-virtual": "^2.10.4",
     "short-uuid": "^4.2.2",
     "typescript": "^5.2.2",
     "vhtml": "^2.2.0",
