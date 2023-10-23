@@ -1,7 +1,7 @@
 import React from 'react'
 import { DateTime } from 'luxon';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
-import { IconDefinition, faSort, faSortDown, faSortUp } from '@fortawesome/free-solid-svg-icons'
+import { IconDefinition, faSort, faSortDown, faSortUp, faTimesCircle, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect, useMemo, useRef, useTransition } from 'react';
 import {
   useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel, SortingState, getSortedRowModel, Row
@@ -207,13 +207,28 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
 
   return (
     <div>
-      <input
-        className="w-full p-2 mb-4 border border-gray-300 rounded"
-        type="text"
-        placeholder="Search..."
-        value={search}
-        onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
-      />
+<div className="relative align-center">
+  <input
+    className="w-full p-4 mb-4 border border-gray-300 rounded text-lg pl-10 pr-10"
+    type="text"
+    placeholder="Search..."
+    value={search}
+    onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
+  />
+  <FontAwesomeIcon 
+    icon={faSearch} 
+    className="absolute bottom-1/2 left-4 transform text-gray-500 fa-lg" 
+    
+
+  />
+  {search && (
+    <FontAwesomeIcon 
+      icon={faTimesCircle} 
+      className="absolute top-1/2 right-4 transform -translate-y-[80%] text-gray-500 cursor-pointer fa-lg align-center" 
+      onClick={() => setSearch('')}
+    />
+  )}
+</div>
       <div ref={tableContainerRef} className="tableContainer">
         <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
           <table className="mx-auto table-auto border-collapse border border-gray-300">
@@ -226,7 +241,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
                         key={header.id}
                         colSpan={header.colSpan}
                         className="border border-gray-300 p-2"
-                        // style={header.id === 'title' ? { width: '30%' } : {}}
+                      // style={header.id === 'title' ? { width: '30%' } : {}}
                       >
                         {header.isPlaceholder ? null : (
                           <div
