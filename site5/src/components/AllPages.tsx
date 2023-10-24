@@ -1,15 +1,13 @@
 import React from 'react';
-import {FC, useCallback}from 'react'
+import { useCallback } from 'react'
 import { DateTime } from 'luxon';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
-import { IconDefinition, faSort, faSortDown, faSortUp, faTimesCircle, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSort, faSortDown, faSortUp, faTimesCircle, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect, useMemo, useRef, useTransition } from 'react';
 import {
   useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel, SortingState, getSortedRowModel, Row
 } from '@tanstack/react-table';
 import { useVirtualizer } from '@tanstack/react-virtual';
-
-import { Post } from '../types';
 
 export interface ResultPost {
   coverimage: string;
@@ -160,12 +158,6 @@ const Search: React.FC<Props> = ({ allPosts }) => {
     overscan: 50
   });
 
-  // const { virtualItems: virtualRows, totalSize } = rowVirtualizer;
-
-  const virtualItems = rowVirtualizer.getVirtualItems();
-
-  // const paddingTop = virtualRows.length > 0 ? virtualRows?.[0]?.start || 0 : 0;
-  // const paddingBottom = virtualRows.length > 0 ? totalSize - (virtualRows?.[virtualRows.length - 1]?.end || 0) : 0;
 
   const workerRef = useRef<Worker | null>(null);
 
@@ -205,26 +197,26 @@ const Search: React.FC<Props> = ({ allPosts }) => {
 
   return (
     <div>
-<div className="relative align-center">
-  <input
-    className="w-full p-4 mb-4 border border-gray-300 rounded text-lg pl-10 pr-10"
-    type="text"
-    placeholder="Search..."
-    value={search}
-    onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
-  />
-  <FontAwesomeIcon 
-    icon={faSearch} 
-    className="absolute bottom-1/2 left-4 transform text-gray-500 h-4 w-4" /> 
-    
-  {search && (
-    <FontAwesomeIcon 
-      icon={faTimesCircle} 
-      className="absolute top-1/2 right-4 transform -translate-y-[80%] text-gray-500 cursor-pointer fa-lg align-center" 
-      onClick={() => setSearch('')}
-    />
-  )}
-</div>
+      <div className="relative align-center">
+        <input
+          className="w-full p-4 mb-4 border border-gray-300 rounded text-lg pl-10 pr-10"
+          type="text"
+          placeholder="Search..."
+          value={search}
+          onChange={(e) => setSearch((e.target as HTMLInputElement).value)}
+        />
+        <FontAwesomeIcon
+          icon={faSearch}
+          className="absolute bottom-1/2 left-4 transform text-gray-500 h-4 w-4" />
+
+        {search && (
+          <FontAwesomeIcon
+            icon={faTimesCircle}
+            className="absolute top-1/2 right-4 transform -translate-y-[80%] text-gray-500 cursor-pointer fa-lg align-center"
+            onClick={() => setSearch('')}
+          />
+        )}
+      </div>
       <div ref={tableContainerRef} className="tableContainer">
         <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
           <table className="mx-auto table-auto border-collapse border border-gray-300 w-full">
@@ -265,7 +257,7 @@ const Search: React.FC<Props> = ({ allPosts }) => {
               ))}
             </thead>
             <tbody>
-              {rowVirtualizer.getVirtualItems().map((virtualRow, index) => {
+              {(rowVirtualizer.getVirtualItems() ).map((virtualRow, index) => {
                 const row = rows[virtualRow.index] as Row<ResultPost>
                 return (
                   <tr

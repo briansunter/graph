@@ -3,6 +3,7 @@ import uuid from "short-uuid";
 import { VNode, h } from "preact";
 import render from "preact-render-to-string";
 import path from "path";
+import fs from 'fs/promises';
 
 interface Options {
   componentDir: string;
@@ -29,8 +30,17 @@ export default function (
     const componentInstance = h(Component, props);
     const componentHTML = render(componentInstance);
 
-    const domId = `pr-${uuid().new()}`;
 
+    
+    const domId = `pr-${uuid().new()}`;
+    const propsFilePath = path.resolve(process.cwd(), '_site' , 'public', 'props', `${domId}.json`);
+  
+    // Ensure directory exists
+    await fs.mkdir(path.dirname(propsFilePath), { recursive: true });
+  
+    // Write file
+    await fs.writeFile(propsFilePath, JSON.stringify(props));
+  
     return `
   <script type="module">
   import c from '/components/${name}'
@@ -38,13 +48,14 @@ export default function (
   const domNode = document.getElementById("${domId}");
 
   if (!domNode) {
-      throw new Error("Could not find element with id ");
-  }
+    throw new Error("Could not find element with id ");
+}
 
-  const safeProps = "${encodeURIComponent(JSON.stringify(props))}"
-  const props = JSON.parse(decodeURIComponent(safeProps));
-
+  fetch('/props/${domId}.json').then(res => res.json()).then(props=> {
   hydrate("${domId}",c, props);
+  });
+
+
   </script>
   
   <div id="${domId}">
