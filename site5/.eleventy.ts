@@ -12,7 +12,8 @@ import fs from "fs";
 import type { EleventyConfig } from './eleventy';
 import {ImageMetadata} from './src/types';
 import eleventyLogseq from './eleventyLogseq';
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
 import preact from "@preact/preset-vite";
 
 import util from 'util';

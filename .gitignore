@@ -6,3 +6,4 @@ cdk.out
 .lsp
 infra/**/*.js
 !infra/functions/**/*.js
+.ssr

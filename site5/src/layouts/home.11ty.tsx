@@ -3,7 +3,6 @@ import React from 'react';
 import { ResultPost } from '../components/AllPages';
 import { Context } from "../lib/Context";
 import renderToString from 'preact-render-to-string';
-// import { BlogPostPreview } from '../BlogPostPreview';
 import { Post, EleventyPage } from '../types';
 import wordsCounter from 'word-counting'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,8 +27,8 @@ interface HomePageData extends Context {
   content: string;
 }
 export async function render(this: Context, data: Context) {
-  const { Intro } = require('../includes/Intro.tsx');
-  const { BlogPostPreview }= require('../BlogPostPreview.tsx')
+  const { Intro } = (await import('../includes/Intro.tsx')).default as unknown as typeof import('../includes/Intro.tsx');
+  const { BlogPostPreview } = (await import('../includes/BlogPostPreview.tsx')).default as unknown as typeof import('../includes/BlogPostPreview.tsx');
 
   const {title, avatar, intro, content} = data as HomePageData;
   const contentComponent = <div className="" dangerouslySetInnerHTML={{ __html: content }} />

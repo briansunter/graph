@@ -154,7 +154,7 @@ const Search: React.FC<Props> = ({ allPosts }) => {
   const rowVirtualizer = useVirtualizer({
     getScrollElement: () => tableContainerRef.current,
     count: rows.length,
-    estimateSize: useCallback(() => 150, []),
+    estimateSize: useCallback(() => 200, []),
     overscan: 50
   });
 
@@ -270,7 +270,7 @@ const Search: React.FC<Props> = ({ allPosts }) => {
                   >
                     {row.getVisibleCells().map((cell) => {
                       return (
-                        <td key={cell.id} className="border border-gray-300 p-2  text-justify ">
+                        <td key={cell.id} className="border border-gray-300 p-2  text-left">
                           {flexRender(
                             cell.column.columnDef.cell,
                             cell.getContext(),

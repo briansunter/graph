@@ -22,3 +22,4 @@ export function BlogPostPreview({ post }:any) {
   );
 }
 
+export default BlogPostPreview;
