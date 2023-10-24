@@ -128,6 +128,9 @@ module.exports = function(eleventyConfig: EleventyConfig) {
      return updatedAt;
    });
 
+   eleventyConfig.addWatchTarget("./src/**/*.tsx");
+   eleventyConfig.addWatchTarget("./src/**/*.ts");
+   eleventyConfig.addWatchTarget("./src/**/*.11ty.tsx");
   /* --- BASE CONFIG --- */
 
   return {

@@ -24,11 +24,6 @@
   /* flex-grow: 1; */
 }
 
-.cellTitle {
-@apply text-2xl font-bold ;
-/* flex-grow: 3; */
-}
-
 .searchView {
 max-height: 70vh;
 overflow-y: scroll;

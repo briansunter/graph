@@ -38,3 +38,13 @@ export interface ImageFormat {
 export interface ImageMetadata {
   [key: string]: ImageFormat[];
 }
+
+export interface SocialIcon {
+  name: string;
+  url: string;
+  icon: string;
+}
+
+export interface SocialConfig {
+  socialIcons: SocialIcon[];
+}

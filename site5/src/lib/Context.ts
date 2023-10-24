@@ -1,4 +1,4 @@
-import { ImageMetadata } from '../types';
+import { ImageMetadata, SocialConfig } from '../types';
 export interface Context {
     log(message: string): void;
     generateRandomIdString(prefix: string): string;
@@ -7,4 +7,5 @@ export interface Context {
     lastModified: (value: any) => Promise<Date>;
     image: (src: string, alt: string, sizes: string) => Promise<string>;
     imageMeta: (src: string) => Promise<ImageMetadata>;
+    social: SocialConfig;
   };

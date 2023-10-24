@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {FC, useCallback}from 'react'
 import { DateTime } from 'luxon';
 import { FontAwesomeIcon, FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
 import { IconDefinition, faSort, faSortDown, faSortUp, faTimesCircle, faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -38,13 +39,13 @@ const SortIcon = (props: FontAwesomeIconProps) => {
   </div>;
 }
 
-const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
+const Search: React.FC<Props> = ({ allPosts }) => {
   const initialPosts = allPosts;
   const isBrowser = typeof window !== 'undefined';
   const [isPending, startTransition] = useTransition();
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<ResultPost[]>(initialPosts);
-  const [sorting, setSorting] = React.useState<SortingState>([{ id: 'date', desc: true }])
+  const [sorting, setSorting] = useState<SortingState>([{ id: 'date', desc: true }])
   const tableContainerRef = useRef<HTMLDivElement>(null);
 
 
@@ -61,18 +62,15 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
           className='flex flex-row items-center'
           onClick={headerInfo.column.getToggleSortingHandler()}>
           Title
-          {
-            [headerInfo.column.getIsSorted() as string] ?? <SortIcon icon={faSort} />}
         </div>
       ),
       accessorKey: 'title',
-      cell: info => <a href={info.row.original.url}><h2 className="cellTitle">{info.getValue() as string}</h2></a>,
+      cell: info => <a href={info.row.original.url}><h2 className="text-xl font-bold">{info.getValue() as string}</h2></a>,
     },
     {
-      size: 1,
       header: 'Description',
       accessorKey: 'description',
-      cell: info => <p className="mb-2 text-sm">{info.getValue() as string}</p>
+      cell: info => <p className="mb-2 m-2">{info.getValue() as string}</p>
     },
     {
       size: 1,
@@ -158,7 +156,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
   const rowVirtualizer = useVirtualizer({
     getScrollElement: () => tableContainerRef.current,
     count: rows.length,
-    estimateSize: React.useCallback(() => 120, []),
+    estimateSize: useCallback(() => 150, []),
     overscan: 50
   });
 
@@ -217,10 +215,8 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
   />
   <FontAwesomeIcon 
     icon={faSearch} 
-    className="absolute bottom-1/2 left-4 transform text-gray-500 fa-lg" 
+    className="absolute bottom-1/2 left-4 transform text-gray-500 h-4 w-4" /> 
     
-
-  />
   {search && (
     <FontAwesomeIcon 
       icon={faTimesCircle} 
@@ -231,7 +227,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
 </div>
       <div ref={tableContainerRef} className="tableContainer">
         <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
-          <table className="mx-auto table-auto border-collapse border border-gray-300">
+          <table className="mx-auto table-auto border-collapse border border-gray-300 w-full">
             <thead>
               {table.getHeaderGroups().map((headerGroup) => (
                 <tr key={headerGroup.id}>
@@ -241,7 +237,6 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
                         key={header.id}
                         colSpan={header.colSpan}
                         className="border border-gray-300 p-2"
-                      // style={header.id === 'title' ? { width: '30%' } : {}}
                       >
                         {header.isPlaceholder ? null : (
                           <div
@@ -255,7 +250,7 @@ const Search: React.FC<Props> = ({ allPosts }): JSX.Element => {
                             {flexRender(
                               header.column.columnDef.header,
                               header.getContext(),
-                            ) as React.Element}
+                            )}
                             {{
                               asc: <SortIcon icon={faSortUp} />,
                               false: <SortIcon icon={faSort} />,
