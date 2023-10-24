@@ -6,7 +6,7 @@ export function BlogPostPreview({ post }:any) {
     <div className="bg-gray-100 p-4 rounded-md shadow-md flex flex-col justify-between">
       <div>
         <img src={post.data.coverimage} alt={title} className="w-full h-48 object-cover rounded-t-md mb-4" />
-        <h1 className="text-2xl font-bold mb-2">{title}</h1>
+        <h1 className="text-xl font-bold mb-2">{title}</h1>
         <p className="text-gray-600 mb-2">{post.data.description}</p>
       </div>
       

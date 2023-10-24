@@ -12,7 +12,7 @@ interface IntroProps {
 }
 
 export const Intro: React.FC<IntroProps> = ({ image_src, title, short_intro, long_intro, socialIcons }) => (
-  <div className="flex flex-wrap items-center justify-center space-x-6 h-fit w-5/6">
+  <div className="flex flex-wrap items-center pl-8 space-x-6 h-fit w-5/6">
     <div className="px-4 h-80 w-80 flex-shrink-0">
       <img src={image_src} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
     </div>
