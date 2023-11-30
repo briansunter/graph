@@ -2,7 +2,7 @@ import { getFiles } from '../../lib/fileProcessor'
 import type { OnBeforePrerenderStartAsync, PageContext } from 'vike/types';
 import { DateTime } from 'luxon';
 import path from 'path';
-import { ImageProcessor } from '../../lib/imageProcessor'; // Update this import based on your project structure
+import { ImageProcessor } from '../../lib/ImageProcessor'; // Update this import based on your project structure
 
 const imageProcessor = ImageProcessor.getInstance();
 
