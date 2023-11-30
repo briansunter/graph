@@ -3,10 +3,14 @@ jobs:
   aws_cdk:
     runs-on: ubuntu-latest
     steps:
+    
       - name: Checkout Code
         uses: actions/checkout@v3
       - name: Build
         run: cd site && pnpm i && pnpm run build 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@v0.1
         with:
