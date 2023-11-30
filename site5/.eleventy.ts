@@ -1,4 +1,5 @@
 import path from 'path';
+import {Md5} from 'ts-md5';
 import { wordCount } from "eleventy-plugin-wordcount";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import preactSSR from './src/lib/preactSSR';
@@ -47,6 +48,7 @@ module.exports = function(eleventyConfig: EleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/assets/js')
   eleventyConfig.addPassthroughCopy('src/assets/images')
   eleventyConfig.addPassthroughCopy({"src/assets/assets":"assets"})
+  eleventyConfig.addPassthroughCopy("public")
 
   /* --- PLUGINS --- */
  
@@ -56,11 +58,25 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   eleventyConfig.addPlugin(preactSSR);
   eleventyConfig.addPlugin(wordCount);
 
-  // Vite Plugin, handles /index.html and index/ redirects
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     viteOptions: {
       plugins: [noTrailingSlash(), preact()],
   }});
+
+  async function metaDataFromSrc(src: string): Promise<ImageMetadata>{
+    return Image(src, {
+			widths: [256, 800, 1500],
+			formats: ["webp", "jpeg"],
+      urlPath: "/assets/",
+			outputDir: "./_site/assets",
+		});
+  }
+
+  eleventyConfig.addAsyncShortcode("imageMeta", async function(src) {
+    const metadata = await metaDataFromSrc(src);
+    return metadata;
+  });
+  // Vite Plugin, handles /index.html and index/ redirects
 
   // Remove trailing slashes from urls
   eleventyConfig.addUrlTransform(({url}) => {
@@ -70,27 +86,6 @@ module.exports = function(eleventyConfig: EleventyConfig) {
   /* --- SHORTCODES --- */
 
   let defaultSizesConfig = "(min-width: 1200px) 1400px, 100vw"; // above 1200px use a 1400px image at least, below just use 100vw sized image
-
-
-
-  async function metaDataFromSrc(src: string): Promise<ImageMetadata>{
-    return Image(src, {
-			widths: [256, 800, 1500],
-			formats: ["webp", "jpeg"],
-      urlPath: "/images/",
-			outputDir: "./_site/images/",
-			filenameFormat: function (id, src, width, format, options) {
-				const extension = path.extname(src)
-				const name = path.basename(src, extension)
-				return `${name}-${width}w.${format}`
-			}
-		});
-  }
-
-  eleventyConfig.addAsyncShortcode("imageMeta", async function(src) {
-    const metadata = await metaDataFromSrc(src);
-    return metadata;
-  });
 
   eleventyConfig.addShortcode("image", async function(src, alt, sizes=defaultSizesConfig) {
     const metadata = await metaDataFromSrc(src);

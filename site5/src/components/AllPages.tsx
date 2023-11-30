@@ -8,17 +8,8 @@ import {
   useReactTable, ColumnDef, flexRender, RowModel, Table, getCoreRowModel, SortingState, getSortedRowModel, Row
 } from '@tanstack/react-table';
 import { useVirtualizer } from '@tanstack/react-virtual';
+import { ResultPost } from '../types';
 
-export interface ResultPost {
-  coverimage: string;
-  title: string;
-  description: string;
-  date: Date;
-  lastModified: Date;
-  wordCount: number;
-  tags: string[];
-  url: string;
-}
 
 interface Props {
   allPosts: ResultPost[]
@@ -45,7 +36,110 @@ const Search: React.FC<Props> = ({ allPosts }) => {
   const [results, setResults] = useState<ResultPost[]>(initialPosts);
   const [sorting, setSorting] = useState<SortingState>([{ id: 'date', desc: true }])
   const tableContainerRef = useRef<HTMLDivElement>(null);
+  const ServerTable = () => (
+    <table className="mx-auto table-auto border-collapse border border-gray-300 w-full">
+      <thead>
+        {table.getHeaderGroups().map((headerGroup) => (
+          <tr key={headerGroup.id}>
+            {headerGroup.headers.map((header) => (
+              <th
+                key={header.id}
+                colSpan={header.colSpan}
+                className="border border-gray-300 p-2"
+              >
+                {flexRender(
+                  header.column.columnDef.header,
+                  header.getContext(),
+                )}
+              </th>
+            ))}
+          </tr>
+        ))}
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr key={row.id}>
+            {row.getVisibleCells().map((cell) => (
+              <td key={cell.id} className="border border-gray-300 p-2 text-left">
+                {flexRender(
+                  cell.column.columnDef.cell,
+                  cell.getContext(),
+                )}
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
 
+  const ClientTable = () => (
+    <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
+    <table className="mx-auto table-auto border-collapse border border-gray-300 w-full">
+      <thead>
+        {table.getHeaderGroups().map((headerGroup) => (
+          <tr key={headerGroup.id}>
+            {headerGroup.headers.map((header) => {
+              return (
+                <th
+                  key={header.id}
+                  colSpan={header.colSpan}
+                  className="border border-gray-300 p-2"
+                >
+                  {header.isPlaceholder ? null : (
+                    <div
+                      {...{
+                        className: header.column.getCanSort()
+                          ? 'flex flex-row items-center cursor-pointer select-none'
+                          : '',
+                        onClick: header.column.getToggleSortingHandler(),
+                      }}
+                    >
+                      {flexRender(
+                        header.column.columnDef.header,
+                        header.getContext(),
+                      )}
+                      {{
+                        asc: <SortIcon icon={faSortUp} />,
+                        false: <SortIcon icon={faSort} />,
+                        desc: <SortIcon icon={faSortDown} />,
+                      }[header.column.getIsSorted() as string] ?? null}
+                    </div>
+                  )}
+                </th>
+              )
+            })}
+          </tr>
+        ))}
+      </thead>
+      <tbody>
+        {(rowVirtualizer.getVirtualItems() ).map((virtualRow, index) => {
+          const row = rows[virtualRow.index] as Row<ResultPost>
+          return (
+            <tr
+              key={row.id}
+              style={{
+                height: `${virtualRow.size}px`,
+                transform: `translateY(${virtualRow.start - index * virtualRow.size
+                  }px)`,
+              }}
+            >
+              {row.getVisibleCells().map((cell) => {
+                return (
+                  <td key={cell.id} className="border border-gray-300 p-2  text-left">
+                    {flexRender(
+                      cell.column.columnDef.cell,
+                      cell.getContext(),
+                    )}
+                  </td>
+                )
+              })}
+            </tr>
+          )
+        })}
+      </tbody>
+    </table>
+  </div>);
 
   const columns = useMemo<ColumnDef<ResultPost>[]>(() => [
     {
@@ -218,72 +312,7 @@ const Search: React.FC<Props> = ({ allPosts }) => {
         )}
       </div>
       <div ref={tableContainerRef} className="tableContainer">
-        <div style={{ height: `${rowVirtualizer.getTotalSize()}px` }}>
-          <table className="mx-auto table-auto border-collapse border border-gray-300 w-full">
-            <thead>
-              {table.getHeaderGroups().map((headerGroup) => (
-                <tr key={headerGroup.id}>
-                  {headerGroup.headers.map((header) => {
-                    return (
-                      <th
-                        key={header.id}
-                        colSpan={header.colSpan}
-                        className="border border-gray-300 p-2"
-                      >
-                        {header.isPlaceholder ? null : (
-                          <div
-                            {...{
-                              className: header.column.getCanSort()
-                                ? 'flex flex-row items-center cursor-pointer select-none'
-                                : '',
-                              onClick: header.column.getToggleSortingHandler(),
-                            }}
-                          >
-                            {flexRender(
-                              header.column.columnDef.header,
-                              header.getContext(),
-                            )}
-                            {{
-                              asc: <SortIcon icon={faSortUp} />,
-                              false: <SortIcon icon={faSort} />,
-                              desc: <SortIcon icon={faSortDown} />,
-                            }[header.column.getIsSorted() as string] ?? null}
-                          </div>
-                        )}
-                      </th>
-                    )
-                  })}
-                </tr>
-              ))}
-            </thead>
-            <tbody>
-              {(rowVirtualizer.getVirtualItems() ).map((virtualRow, index) => {
-                const row = rows[virtualRow.index] as Row<ResultPost>
-                return (
-                  <tr
-                    key={row.id}
-                    style={{
-                      height: `${virtualRow.size}px`,
-                      transform: `translateY(${virtualRow.start - index * virtualRow.size
-                        }px)`,
-                    }}
-                  >
-                    {row.getVisibleCells().map((cell) => {
-                      return (
-                        <td key={cell.id} className="border border-gray-300 p-2  text-left">
-                          {flexRender(
-                            cell.column.columnDef.cell,
-                            cell.getContext(),
-                          )}
-                        </td>
-                      )
-                    })}
-                  </tr>
-                )
-              })}
-            </tbody>
-          </table>
-        </div>
+      {!isBrowser? <ServerTable /> : <ClientTable />}
       </div>
     </div>
   )

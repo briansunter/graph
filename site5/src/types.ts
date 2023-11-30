@@ -48,3 +48,14 @@ export interface SocialIcon {
 export interface SocialConfig {
   socialIcons: SocialIcon[];
 }
+
+export interface ResultPost {
+  coverimage: string;
+  title: string;
+  description: string;
+  date: Date;
+  lastModified: Date;
+  wordCount: number;
+  tags: string[];
+  url: string;
+}

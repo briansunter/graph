@@ -1,9 +1,10 @@
 import React from 'react';
+import {Intro as IntroComponent} from '../includes/Intro';
+import {BlogPostPreview as BlogPostPreviewComponent} from '../includes/BlogPostPreview';
 
-import { ResultPost } from '../components/AllPages';
 import { Context } from "../lib/Context";
 import renderToString from 'preact-render-to-string';
-import { Post, EleventyPage } from '../types';
+import { Post, EleventyPage, ResultPost } from '../types';
 import wordsCounter from 'word-counting'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
@@ -26,54 +27,65 @@ interface HomePageData extends Context {
   intro: string;
   content: string;
 }
+
+interface ImageOptimizedPost extends ResultPost {
+  smallImage: string;
+  mediumImage: string;
+}
+
 export async function render(this: Context, data: Context) {
-  const { Intro } = (await import('../includes/Intro.tsx')).default as unknown as typeof import('../includes/Intro.tsx');
-  const { BlogPostPreview } = (await import('../includes/BlogPostPreview.tsx')).default as unknown as typeof import('../includes/BlogPostPreview.tsx');
+  const  Intro = require('../includes/Intro.tsx').default as typeof IntroComponent;
+  const BlogPostPreview  = require('../includes/BlogPostPreview.tsx').default as typeof BlogPostPreviewComponent;
 
   const {title, avatar, intro, content} = data as HomePageData;
   const contentComponent = <div className="" dangerouslySetInnerHTML={{ __html: content }} />
-  const postPromises: Promise<ResultPost>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
+  const postPromises: Promise<ImageOptimizedPost>[] = data.collections.all.map(async (post: EleventyPage<Post>) => {
     const content = await readFile(post.inputPath, 'utf-8');
     const wordCount = wordsCounter(content).wordsCount;
     let smallImage = '';
+    let mediumImage = '';
     if (post.data.coverimage) {
       const imageMeta = await this.imageMeta('src/assets' + post.data.coverimage);
       smallImage = imageMeta['webp'][0].url
+      mediumImage = imageMeta['webp'][1]?.url
     }
 
-    const resultPost: ResultPost = {
+    const ImageOptimizedPost: ImageOptimizedPost = {
       title: post.data.title,
       url: post.url,
       description: post.data.description,
-      tags: post.data.tags,
+      tags: post.data.tags || [],
       coverimage: smallImage,
+      smallImage,
+      mediumImage,
       date: post.date,
       lastModified: await this.lastModified(post),
       wordCount
     };
-
-    return resultPost;
+    return ImageOptimizedPost;
   });
 
-  const posts: ResultPost[] = await Promise.all(postPromises);
+  const posts: ImageOptimizedPost[] = await Promise.all(postPromises);
+
+  const blogPosts = posts.filter(p=> p.tags.includes('newsletter')).slice(-7).reverse()
   const rendered = await this.react('AllPages.tsx', { allPosts: posts.slice(0, 200) })
   return renderToString(
     <div>
-      <section className='flex flex-col items-center'>
+      <section className='flex items-center flex-col'>
         <Intro socialIcons={data.social.socialIcons} image_src={avatar} title={title} short_intro={intro} long_intro={contentComponent} />
         </section>
       <section className='flex items-center flex-col'>
         <hr />
-        <div className='w-11/12 p-4'>
+        <div className='w-5/6 p-4'>
           <h2 className="text-6xl font-bold my-8">Blog</h2>
           <p className="text-lg text-gray-600 my-4">
-            Here you'll find my latest blog posts about software development, technology, and my experiences in the tech industry.
+            Here you;&aposll find my latest blog posts about software development, technology, and my experiences in the tech industry.
           </p>
         </div>
         <div className="flex justify-center">
-          <div className="grid grid-cols-4 gap-4 w-11/12 p-4">
-            {data.collections.newsletter.slice(-7).reverse().map((post: any) =>
-              <BlogPostPreview post={post} />
+          <div className="grid grid-cols-4 gap-4 w-5/6 p-4">
+            {blogPosts.map((post: ImageOptimizedPost) =>
+              <BlogPostPreview {...post} coverimage={post.mediumImage } />
             )}
             <div className="bg-gray-100 p-4 rounded-md shadow-md flex items-center justify-center">
               <a href="/more-posts" className="text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-200 ease-in-out flex flex-col items-center">
@@ -94,8 +106,8 @@ export async function render(this: Context, data: Context) {
         </div>
         <div className="flex justify-center">
           <div className="grid grid-cols-4 gap-4 w-11/12 p-4">
-            {data.collections.newsletter.slice(0, 3).map((post: any) =>
-              <BlogPostPreview post={post} />
+            {posts.slice(0, 3).map((post: ImageOptimizedPost) =>
+              <BlogPostPreview {...post} />
             )}
             <div className="bg-gray-100 p-4 rounded-md shadow-md flex items-center justify-center">
               <a href="/more-posts" className="text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-200 ease-in-out flex flex-col items-center">

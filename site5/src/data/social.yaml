@@ -1,34 +1,34 @@
 socialIcons: # optional
     - name: "X"
       url: "https://twitter.com/bsunter"
-      icon: assets/images/icons/square-x-twitter.svg
+      icon: /assets/images/icons/square-x-twitter.svg
     - name: "GitHub"
       url: "https://github.com/briansunter"
-      icon: assets/images/icons/square-github.svg
+      icon: /assets/images/icons/square-github.svg
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/briansunter/"
-      icon: assets/images/icons/linkedin.svg
+      icon: /assets/images/icons/linkedin.svg
     - name: "YouTube"
       url: "https://www.youtube.com/channel/UC4Nu4dncIcTC1DyOG5XG2Vg"
-      icon: assets/images/icons/youtube.svg
+      icon: /assets/images/icons/youtube.svg
     - name: "rss"
       url: "https://briansunter.com/index.xml"
-      icon: assets/images/icons/square-rss.svg
+      icon: /assets/images/icons/square-rss.svg
     - name: "kofi" 
       url: "https://buymeacoffee.com/bsunter"
-      icon: assets/images/icons/coffee.svg
+      icon: /assets/images/icons/coffee.svg
     - name: "bitcoin"
       url: "pages/bitcoin"
-      icon: assets/images/icons/bitcoin.svg
+      icon: /assets/images/icons/bitcoin.svg
     - name: "email"
       url: #
-      icon: assets/images/icons/email.svg
+      icon: /assets/images/icons/email.svg
     - name: "instagram"
       url: "https://www.instagram.com/bsunter/"
-      icon: assets/images/icons/square-instagram.svg
+      icon: /assets/images/icons/square-instagram.svg
     - name: "matrix"
       url: "https://matrix.to/#/@bsunter:matrix.org"
-      icon: assets/images/icons/matrix.svg
+      icon: /assets/images/icons/matrix.svg
     # - name: "goodreads"
     #   url: "https://www.goodreads.com/user/show/16975785-brian-sunter"
     # - name: "ycombinator"
