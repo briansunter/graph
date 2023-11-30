@@ -1,7 +1,7 @@
 import { Page as PageType } from './+onBeforeRender';
-import { Navbar } from '../../../sitev3/components/Navbar';
-import { Tag } from '../../../sitev3/components/Tag';
-import { ImageData } from 'lib/ImageProcessor';
+import { Navbar } from '../../components/Navbar';
+import { Tag } from '../../components/Tag';
+import { ImageData } from '../../lib/ImageProcessor';
 export { Page };
 
 interface Props {
