@@ -10,10 +10,12 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
+      - name: Install
+        run: cd site && pnpm i
       - name: Install Playwright browsers
         run: cd site && pnpm exec playwright install
       - name: Build
-        run: cd site && pnpm i && pnpm run build 
+        run: cd site && pnpm run build
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@v0.1
         with:
