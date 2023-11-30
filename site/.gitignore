@@ -1,2 +1,6 @@
-resources/
-jsconfig.json
+node_modules/
+dist/
+.ssg
+.DS_Store
+public/assets/
+.node-persist

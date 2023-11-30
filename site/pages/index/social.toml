@@ -1,0 +1,50 @@
+[[social]]
+name = "X"
+url = "https://twitter.com/bsunter"
+icon = "square-x-twitter.svg"
+
+[[social]]
+name = "email"
+icon = "email.svg"
+url = "qvcmjdAcsjbotvoufs/dpn"
+
+[[social]]
+name = "GitHub"
+url = "https://github.com/briansunter"
+icon = "square-github.svg"
+
+[[social]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/briansunter/"
+icon = "linkedin.svg"
+
+[[social]]
+name = "YouTube"
+url = "https://www.youtube.com/channel/UC4Nu4dncIcTC1DyOG5XG2Vg"
+icon = "youtube.svg"
+
+[[social]]
+name = "RSS"
+url = "https://briansunter.com/index.xml"
+icon = "square-rss.svg"
+
+[[social]]
+name = "Buy Coffee"
+url = "https://buymeacoffee.com/bsunter"
+icon = "coffee.svg"
+
+[[social]]
+name = "bitcoin"
+url = "pages/bitcoin"
+icon = "bitcoin.svg"
+
+
+[[social]]
+name = "instagram"
+url = "https://www.instagram.com/bsunter/"
+icon = "square-instagram.svg"
+
+[[social]]
+name = "matrix"
+url = "https://matrix.to/#/@bsunter:matrix.org"
+icon = "matrix.svg"
