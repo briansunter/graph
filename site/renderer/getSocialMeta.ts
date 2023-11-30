@@ -14,7 +14,7 @@ function getPageSocialMeta(pageContext: PageContext): SocialMeta {
   console.log('page', page)
   const title = page?.title || pageContext.config.title || 'Brian Sunter'
   const description = page?.description || pageContext.config.description || 'Brian Sunter'
-  const imageUrl = domain + ( page?.props.coverimage || '')
+  const imageUrl = domain + ( page?.coverimage || '')
   const twitterHandle = '@bsunter' 
   const pageUrl = domain + (page?.permalink || '')
 
