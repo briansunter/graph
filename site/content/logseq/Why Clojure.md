@@ -6,7 +6,7 @@ tags:
 - programming
 - functional programming
 - clojure
-coverimage: /assets/clojure_logo.svg_1660983015847_0.png
+coverimage: /assets/Clojure_logo.svg_1660983015847_0.png
 blogtitle: Why Clojure?
 title: Why Clojure
 categories:
