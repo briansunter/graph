@@ -3,15 +3,43 @@ export { onRenderHtml }
 
 import { renderToStream } from 'react-streaming/server'
 import React from 'react'
-import { escapeInject } from 'vike/server'
+import { dangerouslySkipEscape, escapeInject } from 'vike/server'
 import { PageShell } from './PageShell'
 import { getPageTitle } from './getPageTitle'
 import type { OnRenderHtmlAsync } from 'vike/types'
+import { getPageSocialMeta } from './getSocialMeta'
 // Function to generate Twitter Card meta tags
 
+interface SocialMeta {
+  title: string;
+  description: string;
+  imageUrl: string;
+  twitterHandle: string;
+  pageUrl: string;
+}
+
+const generateTwitterCardMetaTags = ({title, description, imageUrl, twitterHandle, pageUrl}:SocialMeta) => {
+  return `
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="${twitterHandle}">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${description}">
+    <meta name="twitter:image" content="${imageUrl}">
+
+    <!-- OpenGraph tags for iMessage, Facebook, LinkedIn, etc. -->
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${description}">
+    <meta property="og:image" content="${imageUrl}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:type" content="website">
+  `;
+}
 
 const onRenderHtml: OnRenderHtmlAsync = async (pageContext): ReturnType<OnRenderHtmlAsync> => {
-  const { Page, pageProps } = pageContext
+  const { Page, pageProps, config } = pageContext
+  // const page = pageProps?.page || {}
+  const socialMeta = getPageSocialMeta(pageContext)
+  const twitterCardMetaTags = generateTwitterCardMetaTags(socialMeta);
 
   const stream = await renderToStream(
     <PageShell pageContext={pageContext}>
@@ -27,6 +55,7 @@ const onRenderHtml: OnRenderHtmlAsync = async (pageContext): ReturnType<OnRender
     <html>
       <head>
         <title>${title}</title>
+        ${dangerouslySkipEscape(twitterCardMetaTags)}
       </head>
       <body>
         <div id="page-view">${stream}</div>

@@ -35,6 +35,8 @@ export default async function onBeforeRender(pageContext: PageContextBuiltInServ
 
   return {
     pageContext: {
+      title: `Tags: ${name}`,
+      description: `Posts tagged with ${name}`,
       pageProps: { pages: pagesWithTag },
     },
   };

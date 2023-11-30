@@ -11,6 +11,9 @@ export default {
     title: {
       env: { server: true, client: true }
     },
+    description: {
+      env: { server: true, client: true }
+    },
     domain: {
       env: { server: true, client: true }
     },
