@@ -27,12 +27,12 @@ module.exports = {
         '6xl': '5rem',
         '7xl': '6rem',
         '8xl': '6rem',
-        '9xl': '12rem',
+        '9xl': '11rem',
       },
       fontFamily: {
-        'header': ['Times', 'serif'],
+        'header': ['Inter', 'sans-serif'],
         'body': ['Lora', 'serif'],
-        'ui': ['Lato', 'sans-serif'],
+        'ui': ['Inter', 'sans-serif'],
       },
       fontWeight: {
         'light': 300,

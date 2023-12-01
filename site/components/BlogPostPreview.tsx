@@ -87,7 +87,7 @@ interface BlogSectionProps {
 export const BlogSection = ({ title, blogAbout, blogPosts=[] }: BlogSectionProps) => {
   return (
     <main className="">
-      <h2 className="text-4xl md:text-5xl font-bold text-center md:text-left">{title}</h2>
+      <h2 className="text-6xl md:text-6xl font-bold text-center md:text-left">{title}</h2>
       <p className="text-lg mb-4 md:w-3/4">
         {blogAbout}
       </p>

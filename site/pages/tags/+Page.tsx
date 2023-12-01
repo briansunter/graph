@@ -63,7 +63,7 @@ type SocialIcons = typeof socialIcons.social;
 const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
   return (
     <div>
-      <h2 className="text-4xl font-bold">Social Media</h2>
+      <h2 className="text-6xl font-bold">Social Media</h2>
       <p className="text-lg mb-4 w-11/12"> 
       {socialAbout}
       </p>

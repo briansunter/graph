@@ -3,14 +3,12 @@
 @import './code.css';
 @import './prism-dracula.css';
 @import './page-transition-loading-animation.css';
+@import './fonts.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
+/* @font-face {
   font-family: 'Christmas';
   src: url('../static/fonts/christmas.ttf') format('truetype');
 }
@@ -25,7 +23,7 @@
 @font-face {
   font-family: 'Caslon';
   src: url('../static/fonts/Caslon/F37Caslon-BoldDisplay.otf') format('opentype');
-}
+} */
 
 @layer base {
   body {

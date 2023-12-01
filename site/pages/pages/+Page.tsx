@@ -17,7 +17,7 @@ const Content = ({ content }: { content: string }) => (
 
 const Details = ({ title, date, responsiveCoverImage=[], description, tags, placeholder }: { title: string; date: string; responsiveCoverImage: ImageData[], placeholder: string, description: string; tags: string[] }) => (
   <div className="bg-gray-200">
-    <h1 className="text-6xl font-extrabold tracking-tight text-gray-800">{title}</h1>
+    <h1 className="text-6xl font-extrabold font-header tracking-tight text-gray-800">{title}</h1>
     <p className="text-xl mb-4 w-10/12 text-gray-600">{description}</p>
     <div className="flex flex-wrap items-center mb-4">
       <span className="text-lg font-medium mr-4 font-ui text-gray-500 text-center">{date}</span>
@@ -50,7 +50,7 @@ const Page = (props: Props) => {
   const { content, props: pageProps } = props.page;
   return (
     <div className="min-h-screen p-4 bg-gray-200">
-    <Navbar title="Brian Sunter" />
+    <Navbar title="Brian Sunter's Blog" />
       <div className="mx-auto rounded-lg overflow-hidden">
         <Details 
           title={pageProps.blogtitle} 

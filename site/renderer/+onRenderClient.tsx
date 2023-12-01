@@ -2,6 +2,7 @@
 export { onRenderClient }
 
 import './css/index.css'
+import './css/fonts.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { PageShell } from './PageShell'
