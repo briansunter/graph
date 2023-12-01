@@ -82,6 +82,8 @@
   height: 600px;
 }
 .md-content > p,
+.md-content > div,
+.md-content > a,
 .md-content > ul,
 .md-content > ol,
 .md-content > blockquote,
@@ -93,7 +95,7 @@
 .md-content > h4,
 .md-content > h5,
 .md-content > h6 {
-  @apply mx-auto w-7/12;
+  @apply mx-auto w-7/12 block
 }
 
 .md-content pre {
