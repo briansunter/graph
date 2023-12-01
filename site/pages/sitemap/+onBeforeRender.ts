@@ -1,55 +1,3 @@
-// // https://vike.dev/onBeforeRender
-// export { onBeforeRender };
-
-// import type { OnBeforeRenderAsync, PageContextBuiltInServer } from "vike/types";
-// import { render } from "vike/abort";
-// import { names } from "./names";
-// import { promises as fs } from "fs";
-// import { getFiles } from "../../lib/fileProcessor";
-// import path from "path";
-
-// export interface PageProps {
-//   blogtitle: string;
-//   description: string;
-//   permalink: string;
-//   tags: string[];
-//   coverimage?: string;
-//   responsiveCoverImage?: ImageData[];
-//   coverPlaceholder?: string;
-//   date: string;
-//   aliases?: string[];
-// }
-
-// export interface Page {
-//   isAlias?: boolean;
-//   permalink: string;
-//   originalFile: string;
-//   content: string;
-//   props: PageProps;
-// }
-// export default async function onBeforeRender(pageContext: PageContextBuiltInServer) {
-//   const allFiles = await getFiles();
-//   const processedFiles = Object.keys(allFiles).filter((file) => !allFiles[file].isAlias);
-
-//   const allPages: string[] = [
-//     ...pageContext._pageRoutes.map((route) =>  route.pageId),
-//     ...processedFiles,
-//   ];
-
-//   // const xml = allPages
-//   //   .map((page) => `<url><loc>https://localhost:3000/${page}</loc></url>`)
-//   //   .join("");
-//   // await fs.writeFile(
-//   //   "public/sitemap.xml",
-//   //   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${xml}</urlset>`
-//   // );
-//   return {
-//     pageContext: {
-//     pageProps: { page: pageProps },
-//     }
-//   }
-// };
-
 // https://vike.dev/onBeforeRender
 export { onBeforeRender };
 
@@ -78,8 +26,10 @@ const onBeforeRender: OnBeforeRenderAsync = async (
     ...processedFiles,
   ];
 
+  const domain = pageContext.config.domain;
+
   const xmlPages = allPages
-    .map((page) => `<url><loc>https://localhost:3000${page}</loc></url>`)
+    .map((page) => `<url><loc>${domain}${page}</loc></url>`)
     .join("\n");
 
     const xml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${xmlPages}</urlset>`
