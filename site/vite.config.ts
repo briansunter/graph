@@ -25,6 +25,7 @@ import remarkTweetPlugin from "./lib/remarkTweetPlugin";
 import rehypeRaw from 'rehype-raw'
 import remarkPrism from  'remark-prism'
 import remarkMermaid from 'remark-mermaidjs'
+import rehypeYoutubeEmbed from "./lib/rehypeLogseq";
 
 
 const config: UserConfig = {
@@ -45,6 +46,7 @@ const config: UserConfig = {
     .use(remarkPrism)
     .use(remarkRehype, {allowDangerousHtml: true})
     .use(remarkTweetPlugin)
+    .use(rehypeYoutubeEmbed)
     .use(rehypeRaw)
     .use(remarkLazyLoadImages)
     .use(rehypeKatex)
