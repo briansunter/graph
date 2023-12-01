@@ -46,7 +46,7 @@ export class ImageProcessor {
     
         const d = cwd();
         const localImagePath = path.join(d, imagePath);
-        await fs.mkdir(path.join(d, 'public', 'assets'), { recursive: true });
+        await fs.mkdir(path.join(d, 'dist', 'client', 'assets'), { recursive: true });
     
         const imageBuffer = await fs.readFile(localImagePath);
         const hash = crypto.createHash('sha256');
@@ -58,7 +58,7 @@ export class ImageProcessor {
     
         for (const size of sizes) {
             const sizeHashedFilename = `${hashedFilenameBase}-${size}.webp`;
-            const sizeImagePath = path.join(d, 'public', 'assets', sizeHashedFilename);
+            const sizeImagePath = path.join(d, 'dist', 'client', 'assets', sizeHashedFilename);
     
             if (!await fileExists(sizeImagePath)) {
                 try {
@@ -99,7 +99,7 @@ public async generateLowQualityImage(imagePath: string): Promise<string> {
     if (cached && typeof cached === 'string') return cached;
 
     const d = cwd();
-    await fs.mkdir(path.join(d, 'public', 'assets'), { recursive: true });
+    await fs.mkdir(path.join(d, 'dist', 'client', 'assets'), { recursive: true });
 
     const localImagePath = path.join(d, imagePath);
     const imageBuffer = await fs.readFile(localImagePath);
@@ -109,7 +109,7 @@ public async generateLowQualityImage(imagePath: string): Promise<string> {
     const hashedFilename = `${hash.digest('hex')}.webp`;
 
     // Check if a file with the same hash already exists
-    const finalImagePath = path.join(d, 'public', 'assets', hashedFilename);
+    const finalImagePath = path.join(d, 'dist', 'client', 'assets', hashedFilename);
     if (await fileExists(finalImagePath)) {
         const placeHolderImageBuffer = await fs.readFile(finalImagePath);
         const base64Image = `data:image/webp;base64,${placeHolderImageBuffer.toString('base64')}`;
@@ -118,7 +118,7 @@ public async generateLowQualityImage(imagePath: string): Promise<string> {
     }
 
     const uniqueTempFilename = `${uuid()}-${hashedFilename}`;
-    const tempImagePath = path.join(d, 'public', 'assets', uniqueTempFilename);
+    const tempImagePath = path.join(d, 'dist', 'client', 'assets', uniqueTempFilename);
 
     try {
         await sharp(localImagePath)

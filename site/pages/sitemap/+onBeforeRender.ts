@@ -85,7 +85,7 @@ const onBeforeRender: OnBeforeRenderAsync = async (
     const xml = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${xmlPages}</urlset>`
 
   await fs.writeFile(
-    "public/sitemap.xml",
+    "dist/client/sitemap.xml",
     xml
   );
   return {
