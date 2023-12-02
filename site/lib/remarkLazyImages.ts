@@ -27,10 +27,11 @@ export function remarkLazyLoadImages() {
           );
           const lastHeight = responsiveSizes[responsiveSizes.length - 1].height;
 
+
           node.properties.style = `background-image: url(${lowQualityImage});
+                                      object-fit: cover;
                                       background-repeat: no-repeat;
-                                      background-size: contain;
-                                      object-position: center center;
+                                      background-size: cover;
                                       background-position: center center; 
                                       height: ${lastHeight}px;
                                       width: 100%;`;

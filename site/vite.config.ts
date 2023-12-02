@@ -25,7 +25,7 @@ import remarkTweetPlugin from "./lib/remarkTweetPlugin";
 import rehypeRaw from 'rehype-raw'
 import remarkPrism from  'remark-prism'
 import remarkMermaid from 'remark-mermaidjs'
-import {rehypeConvertMp4ImgToVideo, rehypeYoutubeEmbed, rehypeYoutubeTimestampEmbed} from "./lib/rehypeLogseq";
+import {rehypeConvertMp4ImgToVideo, rehypeRemoveLogseqBlocks, rehypeYoutubeEmbed, rehypeYoutubeTimestampEmbed, remarkRemoveLogseqBlocks} from "./lib/rehypeLogseq";
 
 
 const config: UserConfig = {
@@ -52,6 +52,7 @@ const config: UserConfig = {
     .use(rehypeRaw)
     .use(remarkLazyLoadImages)
     .use(rehypeKatex)
+    .use(rehypeRemoveLogseqBlocks)
     .use(rehypeStringify),
   //   remarkHtml.default( { exclude: /\/node_modules\//,
   //   allowDangerousHtml: true,

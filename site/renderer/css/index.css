@@ -8,22 +8,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @font-face {
-  font-family: 'Christmas';
-  src: url('../static/fonts/christmas.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Body';
-  src: url('../static/fonts/body.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Elgraine';
-  src: url('../static/fonts/Elgraine-ExtraBold.otf') format('opentype');
-}
-@font-face {
-  font-family: 'Caslon';
-  src: url('../static/fonts/Caslon/F37Caslon-BoldDisplay.otf') format('opentype');
-} */
+
 
 @layer base {
   body {
@@ -41,7 +26,7 @@
   }
 
   p {
-    @apply mb-3;
+    @apply my-3;
     font-size: 1.4rem;
     line-height: 1.4;
   }
@@ -70,13 +55,20 @@
     @apply text-purple-600;
   }
 
+.md-content pre {
+  @apply  flex justify-center mx-auto py-12;
+}
+
+.md-content pre code {
+  @apply min-w-7/12;
+}
 .md-content code {
   @apply py-1 px-2 rounded-lg overflow-x-auto my-2;
   background-color: #282a36;
-  /* font-family: 'Courier New', Courier, monospace; */
   color: #f8f8f2;
   font-size: 0.8em;
 }
+
 .md-content iframe {
   @apply mx-auto w-7/12;
   height: 600px;
@@ -98,13 +90,7 @@
   @apply mx-auto w-7/12 block
 }
 
-.md-content pre {
-  @apply  flex justify-center mx-auto py-12;
-}
 
-.md-content pre code {
-  @apply min-w-7/12;
-}
   .md-content ul {
     @apply list-disc list-inside;
   }
@@ -122,11 +108,9 @@
   /* .md-content img {
     @apply max-w-full h-auto rounded-lg my-6;
   } */
-  .md-content img {
+  .md-content img, .md-content video {
     @apply rounded-lg my-6 object-contain;
     max-height: 900px;
-    
-
   }
 
   /* Adjusting blockquotes for a distinct style */

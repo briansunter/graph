@@ -2,6 +2,7 @@ import { visit } from 'unist-util-visit';
 import { Element, Node } from 'hast';
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 export function rehypeYoutubeEmbed(): (tree: Node) => void {
     return function transformer(tree: Node): void {
         visit<Element>(tree, 'element', (node: Element, index: number | null, parent: Element | undefined) => {
@@ -79,7 +80,6 @@ function convertToSeconds(formattedTimestamp: string): number {
 }
 
 
-import crypto from 'crypto';
 
 export function rehypeConvertMp4ImgToVideo(): (tree: Element) => void {
     return async function transformer(tree: Element): Promise<void> {
@@ -124,5 +124,16 @@ function createVideoNode(videoPath: string, altText: string, shouldAutoplay: boo
         tagName: 'video',
         properties: videoProperties,
         children: []
+    };
+}
+
+export function rehypeRemoveLogseqBlocks(): (tree: Node) => void {
+    return function transformer(tree: Node): void {
+        visit(tree, 'text', (node) => {
+            if (!node.value || typeof node.value !== 'string') return;
+
+            const logseqRegex = /\{% (.*?(logseq|endlogseq).*?) %\}/g;
+            node.value = node.value.replace(logseqRegex, '');
+        });
     };
 }
