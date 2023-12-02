@@ -15,9 +15,9 @@ async function startServer() {
 const distPath = path.join(process.cwd(), 'dist')
   const app = express()
 
-  if (fs.existsSync(distPath)) {
-    fs.rmdirSync(distPath, { recursive: true }) // Delete the 'dist' directory
-  }
+  // if (fs.existsSync(distPath)) {
+  //   fs.rmdirSync(distPath, { recursive: true }) // Delete the 'dist' directory
+  // }
   // We don't need gzip compression for dev. We use compression just to show
   // that it's properly handled by Vike and react-streaming.
   app.use(compression())

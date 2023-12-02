@@ -1,6 +1,7 @@
 import { visit } from 'unist-util-visit';
 import { Element, Node } from 'hast';
-
+import fs from 'fs';
+import path from 'path';
 export function rehypeYoutubeEmbed(): (tree: Node) => void {
     return function transformer(tree: Node): void {
         visit<Element>(tree, 'element', (node: Element, index: number | null, parent: Element | undefined) => {
@@ -78,19 +79,30 @@ function convertToSeconds(formattedTimestamp: string): number {
 }
 
 
+import crypto from 'crypto';
+
 export function rehypeConvertMp4ImgToVideo(): (tree: Element) => void {
-    return function transformer(tree: Element): void {
-        tree.children = tree.children.flatMap((node: Element) => {
+    return async function transformer(tree: Element): Promise<void> {
+        const copyPromises = tree.children.flatMap((node: Element) => {
             if (node.tagName === 'p' && node.children.length === 1 && node.children[0].tagName === 'img' && node.children[0].properties.src.endsWith('.mp4')) {
                 const imgNode = node.children[0];
-                const videoNode = createVideoNode(imgNode.properties.src, imgNode.properties.alt || '', true);
-                return videoNode;
+
+                // Copy video asset to dist/client/assets
+                const srcPath = path.join(__dirname, '..', imgNode.properties.src);
+                const hash = crypto.createHash('md5').update(imgNode.properties.src).digest('hex');
+                const ext = path.extname(imgNode.properties.src);
+                const destPath = path.join(__dirname, '..', 'dist', 'client', 'assets', `${hash}${ext}`);
+                const videoNode = createVideoNode(`/assets/${hash}${ext}`, imgNode.properties.alt || '', true);
+                return fs.promises.copyFile(srcPath, destPath).then(() => videoNode);
             } else {
                 return node;
             }
         });
+
+        tree.children = await Promise.all(copyPromises);
     };
 }
+
 
 function createVideoNode(videoPath: string, altText: string, shouldAutoplay: boolean): Element {
     const videoProperties = {
