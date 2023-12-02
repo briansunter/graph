@@ -25,7 +25,7 @@ import remarkTweetPlugin from "./lib/remarkTweetPlugin";
 import rehypeRaw from 'rehype-raw'
 import remarkPrism from  'remark-prism'
 import remarkMermaid from 'remark-mermaidjs'
-import {rehypeYoutubeEmbed, rehypeYoutubeTimestampEmbed} from "./lib/rehypeLogseq";
+import {rehypeConvertMp4ImgToVideo, rehypeYoutubeEmbed, rehypeYoutubeTimestampEmbed} from "./lib/rehypeLogseq";
 
 
 const config: UserConfig = {
@@ -45,6 +45,7 @@ const config: UserConfig = {
     .use(remarkMath)
     .use(remarkPrism)
     .use(remarkRehype, {allowDangerousHtml: true})
+    .use(rehypeConvertMp4ImgToVideo)
     .use(remarkTweetPlugin)
     .use(rehypeYoutubeEmbed)
     .use(rehypeYoutubeTimestampEmbed)

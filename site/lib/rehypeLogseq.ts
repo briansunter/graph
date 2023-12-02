@@ -76,3 +76,41 @@ function convertToSeconds(formattedTimestamp: string): number {
 
     return seconds;
 }
+
+
+export function rehypeConvertMp4ImgToVideo(): (tree: Element) => void {
+    return function transformer(tree: Element): void {
+        tree.children = tree.children.flatMap((node: Element) => {
+            if (node.tagName === 'p' && node.children.length === 1 && node.children[0].tagName === 'img' && node.children[0].properties.src.endsWith('.mp4')) {
+                const imgNode = node.children[0];
+                const videoNode = createVideoNode(imgNode.properties.src, imgNode.properties.alt || '', true);
+                return videoNode;
+            } else {
+                return node;
+            }
+        });
+    };
+}
+
+function createVideoNode(videoPath: string, altText: string, shouldAutoplay: boolean): Element {
+    const videoProperties = {
+        className: ['post-video'],
+        src: videoPath,
+        alt: altText,
+        controls: !shouldAutoplay
+    };
+
+    if (shouldAutoplay) {
+        videoProperties['muted'] = true;
+        videoProperties['playsInline'] = true;
+        videoProperties['autoPlay'] = true;
+        videoProperties['loop'] = true;
+    }
+
+    return {
+        type: 'element',
+        tagName: 'video',
+        properties: videoProperties,
+        children: []
+    };
+}
