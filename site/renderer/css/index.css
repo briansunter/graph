@@ -26,10 +26,15 @@
   }
 
   p {
-    @apply my-3;
-    font-size: 1.4rem;
-    line-height: 1.4;
+    @apply my-4;
+    font-size: 1.45rem;
+    line-height: 1.45;
   }
+
+.md-content h1 {
+    @apply text-5xl font-bold;
+  }
+
 .md-content h2 {
     @apply text-4xl font-bold;
   }
@@ -39,7 +44,7 @@
 
 /* Specific markdown content adjustments */
 .md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
-    @apply mb-4 mt-4;
+    @apply mb-4 mt-8;
     line-height: 1;
   }
 
