@@ -10,7 +10,7 @@ coverimage: /assets/image_1662087082755_0.png
 description: How to get started with Logseq and publish your notes online in 30 minutes.
 blogtitle: Logseq Getting Started
 title: logseq-getting-started
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 How to get started with Logseq and publish your notes online in 30 minutes.
 
@@ -35,6 +35,7 @@ If you are unsure, I recommend starting with Netlify. Logseq generates a site th
 I recommend getting something basic up online right away, then researching other options later on.
 
 # Download Logseq
+heading:: 1
 
 Logseq is still in "beta" so you need to [download it here from the github releases page](https://github.com/logseq/logseq/releases)
 
@@ -45,6 +46,7 @@ select darwin-arm for m1 mac, darwin-x64 for intel mac, or windows
 ![image.png](/assets/image_1662087068660_0.png)
 
 # Set up Logseq
+heading:: 1
 
 After downloading and installing logseq you will see this page
 
@@ -55,14 +57,16 @@ Make a folder called `Logseq` in iCloud Drive, then make a folder for your graph
 ![image.png](/assets/image_1662087093541_0.png)
 
 # Start writing in daily notes
+heading:: 1
 
 Now you will see an empty page with todays date. This is called your "daily notes". It's usually my starting place for ideas. I just type some thoughts and start creating `[[backlinks]]` for important concepts, so I can find my notes later on when doing research or writing.
 
 Take a little bit of time to experiment writing, making backlinks, clicking the backlinks, etc.
 
-{% tweet "Conaw", "1315078546763603968" %}
+{{< tweet user="Conaw" id="1315078546763603968" >}}
 
 # Make your public homepage
+heading:: 1
 
 Now let's create a home for you on the internet.
 
@@ -81,8 +85,10 @@ This way ou can have most of your graph private, with just a few pages public.
 Every time you want a page to be public, select this option on the page so it will appear on your site.
 
 # Export your public graph
+heading:: 1
 
 ## Set your homepage
+heading:: 2
 
 Logseq has a notion of a "home page"
 
@@ -115,6 +121,7 @@ Then after exporting we'll comment it out with two semicolons `;;`, so our priva
 ![image.png](/assets/image_1662087142333_0.png)
 
 # Publish your public graph online
+heading:: 1
 
 There are tons of good options, but I recommend netlify which is good and free. You can switch to something else later.
 
@@ -135,8 +142,10 @@ Click the box at the bottom to upload a new version of your site.
 ![image.png](/assets/image_1662087164166_0.png)
 
 # Next Steps
+heading:: 1
 
 ## Set up Custom Domain
+heading:: 2
 
 I highly suggest setting up a custom domain like yourname.com.
 
@@ -149,6 +158,7 @@ I think it's easiest to buy it through netlify. They will set everything up so t
 ![image.png](/assets/image_1662087184888_0.png)
 
 # Conclusion
+heading:: 1
 
 There are a ton of ways to host your public graph, but I think just uploading it to netlify drop is the easiest and best way for non technical users to get their site online.
 
@@ -158,4 +168,4 @@ I find people get to paralyzed with options, so just get your site up now on net
 
 Now go to the docs and learn more about logseq
 
-{% embed [[website-outro]]%}
+{{embed [[website-outro]]}}

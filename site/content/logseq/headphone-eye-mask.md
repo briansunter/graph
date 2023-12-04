@@ -9,7 +9,7 @@ description: How I use a Bluetooth headphone eye mask to sleep better
 blogtitle: Headphone Eye Mask
 title: headphone-eye-mask
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 
 
@@ -18,10 +18,12 @@ lastMod: 2023-09-27
 [Amazon Link to headphone eye mask that I use (affiliate)](https://www.amazon.com/dp/B07TPLZY74?tag=mus0a-21)
 
 ## Why are you staying up so late?
+heading:: 2
 
 You likely have "revenge bedtime procrastination" and are messing up your circadian rhythm with bright light exposure before bed.
 
 ## Revenge Bedtime Procrastination
+heading:: 2
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Learned a very relatable term today: “報復性熬夜” (revenge bedtime procrastination), a phenomenon in which people who don’t have much control over their daytime life refuse to sleep early in order to regain some sense of freedom during late night hours.</p>&mdash; daphne (@daphnekylee) <a href="?ref_src=twsrc%5Etfw">June 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -34,6 +36,7 @@ You know you should be asleep hours ago, but you can’t seem to drift off. You 
 It's a common problem in our 24/7 world, where we're always connected, and there's always something new to consume. A [survey from the American Academy of Sleep Medicine](https://aasm.org/are-you-tiktok-tired-93-of-gen-z-admit-to-staying-up-past-their-bedtime-due-to-social-media/) found that 93% of Gen Z have lost sleep because they stayed up “past their bedtime” to view or participate in social media.
 
 ## Circadian Rhythm
+heading:: 2
 
 Bright light from electronics is terrible for your natural sleep cycles. Studies have shown that exposure to bright light before bed can disrupt your circadian rhythm and make it harder to fall asleep.
 
@@ -41,11 +44,12 @@ Circadian rhythm is the 24-hour internal clock that dictates hormones, energy le
 
 You'll naturally feel sleepy at night and get better sleep if you avoid disrupting your circadian rhythm.
 
-{% tweet "hubermanlab", "1518987142453547009" %}
+{{< tweet user="hubermanlab" id="1518987142453547009" >}}
 
-{% tweet "hubermanlab", "1585455763916345344" %}
+{{< tweet user="hubermanlab" id="1585455763916345344" >}}
 
 ### Headphone Eye Mask
+heading:: 3
 
 So what's the solution?
 
@@ -76,6 +80,7 @@ Sometimes I feel guilty about not fully absorbing the podcasts, but there's so m
 I don't listen to audiobooks since those are a bit more stimulating and require more long-term attention.
 
 ### Suggested Podcasts
+heading:: 3
 
 These are some of the podcasts I've been listening to recently.
 

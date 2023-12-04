@@ -51,7 +51,7 @@ const config: UserConfig = {
       .use(remarkMath)
       .use(remarkPrism)
       .use(wikilinkPlugin, {
-        pageResolver: (name) => [name.replace(/ /g, '-').toLowerCase()],
+        pageResolver: (name) => [name.replace(/ /g, '=').toLowerCase()],
         hrefTemplate: (permalink: string) => `/${permalink}`,
       })
       .use(remarkRehype, { allowDangerousHtml: true })

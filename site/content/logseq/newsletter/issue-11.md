@@ -10,11 +10,12 @@ description: Some thoughts on moving to Hawaii and what I'm doing to improve my 
 blogtitle: Newsletter 11 - Moving to Hawaii and Fitness Routine
 url: /newsletter/issue-11
 title: newsletter/issue-11
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ![Drone view of honolulu](/assets/honolulu_1676694313546_0.jpg)
 
 # Moving to Hawaii
+heading:: 1
 
 Hi everyone. This post is an update on my personal life.
 
@@ -40,17 +41,16 @@ There are great beaches right next to our apartment, and the view of the Diamond
 
 I've started getting into stand-up paddleboarding, which is a ton of fun (though more challenging than it looks). The ocean temperature is really pleasant and much warmer than the frigid beaches in California.
 
-![paddleboarding](/assets/IMG_5326_1676932910632_0.jpg)
-
 I'm looking forward to trying my hand at surfing soon. There are tons of surfers out at the beach, and watching them is entertaining, especially the people hydrofoil surfing, gliding on top of the water using a hydrofoil under the board.
 
 <iframe width="515" height="915" src="https://www.youtube.com/embed/uz7NN1osyHw" title="Hydrofoil Surfing in Waikiki - Honolulu Hawaii" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 We've been road-tripping around the island, discovering new beaches and unique scenery in every area. It's an incredible place to live if you're a fan of the outdoors, and there's always something new to explore. Living in Hawaii has been a dream, and I'm incredibly grateful to be here.
 
-{% youtube 4iJDXBfc6C8 %}
+{{< youtube 4iJDXBfc6C8 >}}
 
 # Improving my Health and Fitness
+heading:: 1
 
 I wasn't taking care of my health as much as I should have in the past few years, so my top priority is building a healthier lifestyle. I used to be pretty active when walking to work and going to the gym a few times a week, but when Covid hit, and I started working from home, it threw a wrench in my fitness routine, so now I'm trying to get back on track.
 

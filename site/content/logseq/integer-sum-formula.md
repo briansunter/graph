@@ -6,13 +6,13 @@ categories:
 - math
 date: 2022-10-02
 math: true
-coverimage: /assets/image_1665341986063_0.png
 description: How do we find the sum of the numbers 1 through 100?
 blogtitle: Integer Sum Formula (Gauss Sum)
 title: integer-sum-formula
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ## Summary
+heading:: 2
 
 How do we find the sum of the numbers 1 through 100?
 
@@ -22,14 +22,15 @@ In code this would look like
 
 ```js
 let sum = 0;
-  for (let i = 1; i <= 100; i++){
-  sum += i;
+for (let i = 1; i <= 100; i++){
+sum += i;
 }
 ```
 
 If you sum up these numbers, the result will be $5050$
 
 ## Sum of n Integers Equation
+heading:: 2
 
 Instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
 
@@ -46,8 +47,10 @@ We do the calculations to find our answer
 $$\frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
 
 ## Proof
+heading:: 2
 
 ### Visual Proof
+heading:: 3
 
 ![2022-10-09-08-39-52](assets/2022-10-09-08-39-52.svg)
 
@@ -56,8 +59,6 @@ One way of looking at the problem is to imagine stacking boxes like a set of sta
 You have one box, two boxes, three boxes stacked, etc
 
 The bottom and side are both length n. We need to find the "area" to find the total sum
-
-![image.png](/assets/image_1665341986063_0.png)
 
 We can create a square by duplicating this stack and flipping it upside down
 
@@ -74,14 +75,17 @@ We need to divide this by two, because we only want the blue staircase part
 This gives us the final equation $\frac{n(n+1)}{2}$
 
 ### Proof by Induction
+heading:: 3
 
 #### Base Case
+heading:: 4
 
 The base case is just the sum of the first number, $1$ , so let $n=1$
 
 $$\sum_{i=1}^1 i = \frac{1(1 + 1)}{2}=\frac{2}{2} = 1$$
 
 ### Inductive Step
+heading:: 3
 
 Now lets find the next sum, in terms of $n+1$
 
@@ -114,6 +118,7 @@ $\frac{n(n + 1)}{2}$ vs  $\frac{(n + 1)((n + 1) +1)}{2}$
 This shows how you can validate the equation is correct using induction. We start with the known base case, then show that given n, we can find any n+1
 
 ## Resources
+heading:: 2
 
 [Sum of n, n², or n³ | Brilliant Math & Science Wiki](https://brilliant.org/wiki/sum-of-n-n2-or-n3)
 

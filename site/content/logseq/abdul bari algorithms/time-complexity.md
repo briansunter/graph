@@ -1,27 +1,27 @@
 ---
-aliases: 
-- "/pages/abdul-bari-algorithms-part-1"
+description: An introduction to analyzing algorithms, comparing functions, and Big O notation, such as Big O, Theta, and Omega.
 tags:
 - programming
 - course
 - algorithms
 - time complexity
 - abdul bari algorithms
+date: 2022-08-22
 blogtitle: Abdul Bari Algorithms - Time Complexity
 categories:
 - programming
+aliases: "/pages/abdul-bari-algorithms-part-1"
 math: true
-date: 2022-08-22
-coverimage: /assets/image_1666064845040_0.png
-description: An introduction to analyzing algorithms, comparing functions, and Big O notation, such as Big O, Theta, and Omega.
 title: abdul bari algorithms/time-complexity
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 # Introduction to Algorithms
+heading:: 1
 
-{% youtube 0IAPZzGSbME %}
+{{< youtube 0IAPZzGSbME >}}
 
 ## Algorithms vs Programs
+heading:: 2
 
 |Algorithm|Program|
 |--|--|
@@ -31,12 +31,14 @@ lastMod: 2023-09-27
 |Analyze|Testing|
 
 # Priori Analysis and Posteriori Testing
+heading:: 1
 
-{% youtube -JTq1BFBwmo %}
+{{< youtube -JTq1BFBwmo >}}
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({% sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" %}) notes
+[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}}) notes
 
 ## Priori Analysis
+heading:: 2
 
 Hardware independent
 
@@ -47,18 +49,22 @@ Language independent
 Time and space function
 
 ## Posteriori
+heading:: 2
 
 Watch time and bytes
 
 # Algorithm Characteristics
+heading:: 1
 
-{% youtube FbYzBWdhMb0 %}
+{{< youtube FbYzBWdhMb0 >}}
 
 ## Input
+heading:: 2
 
 Algorithms can take 0 or more inputs
 
 ## Output
+heading:: 2
 
 Algorithms must generate some result or output
 
@@ -67,6 +73,7 @@ If it doesn't give you any output, an algorithm is not useful
 Even if a function returns void, it should return a result in some other method, like modifying a variable somewhere
 
 ## Definiteness
+heading:: 2
 
 Everything should be unambiguous and clear.
 
@@ -75,70 +82,80 @@ If you can't describe the problem to a human, you don't know it well enough to w
 You can't pass an imaginary number like $\sqrt{-1}$ without specifying how to deal with it
 
 ## Finiteness
+heading:: 2
 
 Algorithms must terminate at some point
 
 A web server, which keeps running until you stop it, is a program, not an algorithm. Programs may use algorithms while running.
 
 ## Effectiveness
+heading:: 2
 
 Don't have any unnecessary procedures in your algorithm.
 
 For example, in chemistry, you wouldn't boil a chemical and not use it in the experiment. That would be unnecessary.
 
 # How to Write and Analyze Algorithms
+heading:: 1
 
-{% youtube xGYsEqe9Vl0 %}
+{{< youtube xGYsEqe9Vl0 >}}
 
 ## Swapping two numbers
+heading:: 2
 
 This is the pseudo code for swapping two values.
 
 We won't always use full language syntax in algorithms
 
-{% logseqOrgNOTE %}This particular function only works for languages that support "pass by reference" like C/C++. Read more [here](https://www.javadude.com/articles/passbyvalue.htm)
-{% endlogseqOrgNOTE %}
+{{< logseq/orgNOTE >}}This particular function only works for languages that support "pass by reference" like C/C++. Read more [here](https://www.javadude.com/articles/passbyvalue.htm)
+{{< / logseq/orgNOTE >}}
 
 
 
-id:: 62f9c6d7-a570-43c5-87b3-9c9467cc11d9
 ```js
 function swap(a, b){
-	tmp = a;
-	a = b;
-	b = tmp;
+tmp = a;
+a = b;
+b = tmp;
 }
 ```
 
 ## Criteria for Analyzing Algorithms
+heading:: 2
 
 Time and space are the most important criteria when analyzing algorithms
 
 ### Time
+heading:: 3
 
 How long will the algorithm take to run?
 
 ### Space
+heading:: 3
 
 How much memory does the algorithm need to run?
 
 There are other important characteristics we may care about, but are usually less important.
 
 ### Network Traffic
+heading:: 3
 
 How much data needs to be sent over the network when the algorithm runs?
 
 ### Power
+heading:: 3
 
 How much power does the algorithm need to run?
 
 This is important when designing for mobile devices
 
 ### CPU Registers
+heading:: 3
 
 Sometimes for low level software, you may need to know hardware details like how many CPU registers your algorithms needs.
 
 ### Time Analysis
+heading:: 3
 
 Every "simple" statement in an algorithm takes one "unit" of time
 
@@ -151,6 +168,7 @@ This is a **constant** value. It doesn't matter what you give it, it always take
 For simplicity, we usually say things like `y = 3*a + 6*b` is just 1 unit of time. It's usually not necessary to go into such great detail
 
 ### Space Analysis
+heading:: 3
 
 What is the space complexity of this algorithm? How much memory does it use?
 
@@ -161,32 +179,37 @@ It uses 3 variables always, regardless of the input, so we say $$s(n)=3$$ which 
 Each statement is one "unit" of time and each variable is one "unit" of space
 
 # Frequency Count Method
+heading:: 1
 
-{% youtube 1U3Uwct45IY %}
+{{< youtube 1U3Uwct45IY >}}
 
 ## Frequency Count Method
+heading:: 2
 
 The time taken by an algorithm can be determined by assigning one "unit" of time for each "statement"
 
 If a statement is repeating, the frequency of execution will determine the time taken by the algorithm to run
 
 ### Sum of elements in array
+heading:: 3
 
 ```js
 function(nums){
-  sum = 0
-  for (i = 0; i < nums.length; i++){
-    sum = sum + nums[i];
-  }
-  return sum;
+sum = 0
+for (i = 0; i < nums.length; i++){
+  sum = sum + nums[i];
+}
+return sum;
 }
 ```
 
 ### Time Complexity
+heading:: 3
 
 If I give it an array of length n, the sum function runs n times, so the algorithm takes $$O(n) = n$$ time to run. We call this "order of n"
 
 ### Space Complexity
+heading:: 3
 
 we have variables `sum`, `i` and `nums`
 
@@ -197,18 +220,20 @@ Since `nums` has a space complexity of `n` so we say the space complexity is $$O
 
 
 ### Matrix Addition
+heading:: 3
 
 ```js
 function addMatrix(a,b){
-  for(i= 0; i < a.length; i++){
-    for(j = 0; j < a[0].length; j++){
-      c[i][j] = a[i][j] + b[i][j];
-    }
+for(i= 0; i < a.length; i++){
+  for(j = 0; j < a[0].length; j++){
+    c[i][j] = a[i][j] + b[i][j];
   }
+}
 }
 ```
 
 ### Time Complexity
+heading:: 3
 
 Two for nested for loops, each taking n time.
 
@@ -217,14 +242,16 @@ n procedures executing n times
 Order of n^2 or $$O(n^2)$$
 
 ### Space Complexity
+heading:: 3
 
 variables `a,b,c` matrices.
 
 variables `i,j` scalar variables.
 
 # Time Complexity
+heading:: 1
 
-{% youtube 9TlHvipP5yA %}
+{{< youtube 9TlHvipP5yA >}}
 
 How do we analyze time complexity for given code?
 
@@ -233,56 +260,61 @@ What things affect time complexity?
 We need to figure out how many times `stmt` executes
 
 ## Normal for loops
+heading:: 2
 
 `stmt` will be executed n times, so it's $$O(n)$$
 
 ```js
 for(i=0; i<n;i++){
-  stmt()
+stmt()
 }
 ```
 
 ## Decrementing for loop
+heading:: 2
 
 Even though `i` is decrementing, it will be executed n times, so it's also $$O(n)$$
 
 ```js
 for(i=n; i>0;i--){
-  stmt()
+stmt()
 }
 ```
 
 ## Increment by two
+heading:: 2
 
 ```js
 for(i=0; i<n;i+=2){
-  stmt()
+stmt()
 }
 ```
 
 In this code we increment by two, so it will be executed  n/2 times. It is $$O(n)$$ because n * anything is $$O(n)$$
 
 ## Nested for loops
+heading:: 2
 
 ```js
 for(i=0; i<n;i++){
-  for(j=0; j<n;j++){
-    stmt()
-   }
+for(j=0; j<n;j++){
+  stmt()
+ }
 }
 ```
 
 Each loop executes `n` times so `stmt` is executed `n` * `n` times or $$O(n^2)$$
 
 ## Dependent For Loops
+heading:: 2
 
 What happens if the inner loop is dependent on the outer loop?
 
 ```js
 for(i=0; i<n;i++){
-  for(j=0; j<i;j++){
-    stmt()
-   }
+for(j=0; j<i;j++){
+  stmt()
+ }
 }
 ```
 
@@ -305,7 +337,7 @@ When `i` is 1, `stmt` is executed 1 times
 
 When `i` is 2, `stmt` is executed 2 times
 
-Finding out how many times `stmt` is executed is the same as the [integer-sum-formula]({% sref "/pages/integer-sum-formula" %})
+Finding out how many times `stmt` is executed is the same as the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
 
 This is equivalent to 1 + 2 + 3 + 4 ... + n
 
@@ -316,12 +348,13 @@ This can be expanded out to $$f(n)=\frac{(n^2+n)}{2}$$
 This is simplified to to $$O(n^2)$$ because we only care about the biggest exponent.
 
 ## Outer loop does not execute n times
+heading:: 2
 
 ```js
 p=0
 for(i=1; p<=n;i++){
- p=p+i
-  stmt()
+p=p+i
+stmt()
 }
 ```
 
@@ -337,7 +370,7 @@ Let's make a table that shows the values at each iteration
 |4|1+2+3+4|
 |k|1+2+3+...+k|
 
-We can use the [integer-sum-formula]({% sref "/pages/integer-sum-formula" %}) again to find `p` for a given  `i`
+We can use the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) again to find `p` for a given  `i`
 
 $$ P=\frac{k(k+1)}{2} $$
 
@@ -356,10 +389,11 @@ $$k > \sqrt{n}$$
 Therefore, the time complexity is $$O(n^2)$$
 
 ### Multiply i value
+heading:: 3
 
 ```js
 for(i=0; i<n;i=i*2){
-  stmt()
+stmt()
 }
 ```
 
@@ -385,10 +419,11 @@ $k=\log_2 n$
 The time complexity is $O(\log n)$
 
 ### Divide i value
+heading:: 3
 
 ```js
 for(i=0; i<n;i=i/2){
-  stmt()
+stmt()
 }
 ```
 
@@ -405,8 +440,9 @@ $k=\log_2 n$
 The time complexity is $O(\log n)$
 
 # While loops and If
+heading:: 1
 
-{% youtube p1EnSvS3urU %}
+{{< youtube p1EnSvS3urU >}}
 
 How can we analyze functions with while loops and if statements?
 
@@ -414,11 +450,11 @@ We can make a table of values to understand the exection
 
 ```js
 while (m != n){
-  if (m > n){
-    m=m-n
-  } else {
-    n = n-m
-  }
+if (m > n){
+  m=m-n
+} else {
+  n = n-m
+}
 }
 ```
 
@@ -437,36 +473,45 @@ We can see that with an input of 16, it will run 7 times, so 16/2 = 8, which can
 The time complexity is n/2 which simplifies to $O(n)$
 
 # Classes of Functions
+heading:: 1
 
-{% youtube w7t4_JUUTeg %}
+{{< youtube w7t4_JUUTeg >}}
 
 ## Types of time functions
+heading:: 2
 
 These are listed in increasing size
 
 ### Constant time $O(1)$
+heading:: 3
 
 Always runs in a fixed amount of time, doesn't depend on input
 
 $f(n)=2$ or $f(n)=5000$ are both constant, which is described as $O(1)$
 
 ### Logarithmic $O(log(n))$
+heading:: 3
 
 $\sqrt{n}$
 
 ### Linear $O(n)$
+heading:: 3
 
 $f(n)=2n+3$ and $500n+700$ both simplify to $O(n)$
 
 $O(n * log(n))$
 
 ### Quadratic $O(n^2)$
+heading:: 3
 
 ### Cubic $O(n^3)$
+heading:: 3
 
 ### Exponential $O(2^n)$
+heading:: 3
 
 ### Sample values for different classes
+heading:: 3
 
 |$\log_2 n$|$n$|$n^2$|$2^n$|
 |--|--|--|--|
@@ -479,15 +524,15 @@ We can see that the growth is much faster for the exponential equations
 
 When n gets large, $n^{100}$ will always be less than $2^n$
 
-![image.png](/assets/image_1666064845040_0.png)
-
 By [Cmglee](https://commons.wikimedia.org/wiki/File:Comparison_computational_complexity.svg)
 
 # Asymptotic Notation
+heading:: 1
 
-{% youtube A03oI0znAoc %}
+{{< youtube A03oI0znAoc >}}
 
 ## Big O - $O$
+heading:: 2
 
 Upper Bound
 
@@ -508,6 +553,7 @@ $10n > 2n+3$ 10 is the constant c, from the Big o definition $c *g(n)$
 Try to use the closest function for the upper bound, even though higher values like $n^2$ could be the upper bound, it's less useful
 
 ## Big Omega - Ω
+heading:: 2
 
 Lower Bound
 
@@ -520,6 +566,7 @@ $f(n) = O(g(n))$ means there are positive constants c and k, such that $ f(n) �
 
 
 ## Theta - Θ
+heading:: 2
 
 Average Bound
 
@@ -544,10 +591,12 @@ Since this is average notation, you can't use $Θ(n^2)$, it's out of the bounds
 ![image.png](/assets/image_1666139032348_0.png)
 
 # Properties of asymptotic notation
+heading:: 1
 
-{% youtube NI4OKSvGAgM %}
+{{< youtube NI4OKSvGAgM >}}
 
 ## General Property
+heading:: 2
 
 if $f(n)$ is $O(g(n))$ then $a * f(n)$ is $O(g(n))$
 
@@ -556,12 +605,14 @@ e.g. $f(n) = 2 * n^2 + 5$ is $O(n^2)$
 $f(n) = 7 (2n^2 +5) = 14n^2 + 35$ is $O(n^2)$
 
 ## Reflexive Property
+heading:: 2
 
 If $f(n)$ is given, then $f(n)$ = $O(n)$
 
 ex $f(n) = n^2$ then $O(n^2)$
 
 ## Transitive Property
+heading:: 2
 
 if $f(n)$ is $O(g(n))$ and $g(n)$ is $O(h(n))$
 
@@ -570,6 +621,7 @@ then $f(n)$ is $O(h(n))$
 if $g(n)$ is upper bound for $f(n)$ and $h(n)$ is upper bound for $g(n)$, then $h(n)$ is also an upper bound for $f(n)$
 
 ## Symmetric Property
+heading:: 2
 
 Only true for Θ notation
 
@@ -582,6 +634,7 @@ $f(n) = Θ(n^2)$
 $g(n) = Θ(n^2)$
 
 ## Transpose Symmetric
+heading:: 2
 
 True for $O$ and  $Ω$
 
@@ -614,8 +667,9 @@ $f(n) + d(n) , O(max(g(n), d(n)))$
 Also $f(n) * d(n) = f(n) * d(n^2) =O(g(n) * e(n))$
 
 # Comparison of functions
+heading:: 1
 
-{% youtube mwN18xfwNhk %}
+{{< youtube mwN18xfwNhk >}}
 
 If we have two functions, how can we show which is the upper bound and which is the lower bound?
 
@@ -642,6 +696,7 @@ This simplifies to $2log(n)$ vs $3log(n)$
 We can see that 2log(n) is always less than 3log(n)
 
 ## Logarithms guide
+heading:: 2
 
 $log(a*b) = log(a) + log(b)$
 
@@ -650,9 +705,12 @@ $log(\frac{a}{b}) = log(a) - log(b)$
 $log(a^b) = b *log(a)$
 $a^{log_c(b)} = b^{log_c(a)}$
 $a^b=n$ then $b=log_a(n)$
+
 ## Comparison of functions
+heading:: 2
 
 ### First example
+heading:: 3
 
 $f(n)=n^2*log(n)$
 
@@ -677,10 +735,13 @@ $log(n) + log(log(n))^{10}$
 $log(n) + 10 * log(log(n))$
 
 ### Second Example
+heading:: 3
 
 ### $f(n)=3*n^{\sqrt{n}}$
+heading:: 3
 
 ### $g(n) = 2^{\sqrt{n} * log_2(n)}$
+heading:: 3
 
 using the property $log(a^b) = b *log(a)$
 
@@ -699,8 +760,10 @@ so it simplifies to $n^{\sqrt{n}}$
 so $f(n)=3*n^{\sqrt{n}}$ and $g(n)=n^{\sqrt{n}}$
 
 ### Third example
+heading:: 3
 
 ### $f(n) = n^{log(n)}$
+heading:: 3
 
 Apply log
 
@@ -714,6 +777,7 @@ $log(a^b) = b *log(a)$
 $log(n) * log(n)$
 
 ### $g(n)=2^{\sqrt{n}}$
+heading:: 3
 
 Apply log
 
@@ -733,10 +797,12 @@ Simplify to one $log_2(2)=1$
 So $f(n) = log(n)^2$ and $g(n) = \sqrt{n}$
 
 # Best, Worst, and Average Case Analysis
+heading:: 1
 
-{% youtube lj3E24nnPjI %}
+{{< youtube lj3E24nnPjI >}}
 
 ## Linear Search
+heading:: 2
 
 Given a list `[8,6,12,5,9,7,4,3,16,18]`
 
@@ -747,6 +813,7 @@ Linear search starts at the first element, checking each element one at a time m
 If we search for something that doesn't exist like `20` it will search from left to right until it reaches the end of the list.
 
 ### Best Case
+heading:: 3
 
 The best case is the fastest the algorithm can possibly run
 
@@ -755,6 +822,7 @@ In linear search, If the element you're searching for is present at the first in
 Best case time is $O(1)$ , it will always take one iteration no matter how long the list is, if the key value is at the first index
 
 ### Worst Case
+heading:: 3
 
 The worst case is the slowest the algorithm can run
 
@@ -763,6 +831,7 @@ In linear search, if the element you're searching for is present at the last ind
 Worst case is $O(n)$ because you have to search every element in the list
 
 ### Average Case
+heading:: 3
 
 All possible case times divided by number of cases. Usually this isn't feasible to find, so we rarely do it and focus on the worst case time instead
 
@@ -782,7 +851,7 @@ So 1 + 2 +3 + .. +n is the total possible case time
 
 and there are n possible cases
 
-We can use [integer-sum-formula]({% sref "/pages/integer-sum-formula" %}) to add up the time of all cases
+We can use [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) to add up the time of all cases
 
 $$\frac{n(n+1)}{2}$$
 
@@ -797,6 +866,7 @@ $$\frac{(n+1)}{2}$$
 Which is the average case time
 
 ### Asymptotic notation
+heading:: 3
 
 Don't confuse best, worst, and average case with Big O, Big Omega, and Theta
 
@@ -813,6 +883,7 @@ Best case(n) = $Ω(1)$
 Best case(n) = $Θ(1)$
 
 ## Binary Search
+heading:: 2
 
 ![Screenshot 2022-11-28 at 2.22.08 PM.png](/assets/Screenshot_2022-11-28_at_2.22.08_PM_1669681356817_0.png)
 
@@ -823,10 +894,12 @@ Is `15` bigger or smaller than `20`? smaller so move left
 Then check `10`, is `15` larger than `10`? larger, so move right
 
 ### Best Case
+heading:: 3
 
 If the element you're searching for is the root, the best case time is constant 1
 
 ### Worst Case
+heading:: 3
 
 In the worst case, the element you're searching for is a leaf
 
@@ -835,6 +908,7 @@ So the worst case is the height of the binary tree, which is $log(n)$
 So the worst case is $log(n)$
 
 ### Unbalanced binary search tree
+heading:: 3
 
 ![Screenshot 2022-11-28 at 2.28.42 PM.png](/assets/Screenshot_2022-11-28_at_2.28.42_PM_1669681918917_0.png)
 

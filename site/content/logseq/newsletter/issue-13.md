@@ -11,7 +11,7 @@ date: 2023-07-27
 description: Uploading a dataset about coffee and using ChatGPT to automatically clean the data, understand insights, and generate cool charts.
 blogtitle: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 title: newsletter/issue-13
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 One of my favorite new features of [ChatGPT](https://chat.openai.com/) is the "[code interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter)," which allows ChatGPT to execute code and read data files you upload.
 
@@ -26,6 +26,7 @@ I'm interested in examining this dataset to answer questions like: "Which countr
 ![Screenshot 2023-07-27 at 1.22.44 PM.png](/assets/Screenshot_2023-07-27_at_1.22.44_PM_1690521743533_0.png)
 
 ## Loading and Cleaning Data
+heading:: 2
 
 One of my favorite features of the ChatGPT code interpreter is its ability to clean data and do a preliminary analysis quickly.
 
@@ -34,6 +35,7 @@ The coffee dataset is of decent quality but has quite a few issues, like missing
 It starts by loading the dataset and printing it to discover the most important columns of data.
 
 ### Load, print, and preliminary analysis
+heading:: 3
 
 ```python
 # First, let's load and inspect the dataset
@@ -46,7 +48,7 @@ df = pd.read_csv('/mnt/data/coffee_data.csv')
 df.head()
 ```
 
-{% logseqOrgQUOTE %}The dataset contains 44 columns. Here are a few key ones:
+{{< logseq/orgQUOTE >}}The dataset contains 44 columns. Here are a few key ones:
 Species: The species of the coffee bean.
 Owner: The owner of the coffee farm.
 Country.of.Origin: The country where the coffee bean was grown.
@@ -55,13 +57,14 @@ Altitude: The altitude at which the coffee was grown.
 Region: The region where the coffee was grown.
 Processing.Method: The method used to process the coffee beans.
 Aroma, Flavor, Aftertaste, Acidity, Body, Balance, Uniformity, Clean.Cup, Sweetness, Cupper.Points: These are the scores given to the coffee on various attributes by a professional coffee taster (cupper).
-{% endlogseqOrgQUOTE %}
+{{< / logseq/orgQUOTE >}}
 
 > Our target variable would be Total.Cup.Points as we are trying to find out what makes the best coffee. The higher the total cup points, the better the coffee is considered to be.
 
 > For our analysis, we'll mainly focus on the factors that might affect the coffee quality, such as Country.of.Origin, Variety, Processing.Method, Altitude, and sensory profiles (Aroma, Flavor, Aftertaste, Acidity, Body, Balance).
 
 ### Missing Values
+heading:: 3
 
 It checks for missing values and decides how to handle them.
 
@@ -75,34 +78,35 @@ missing_values = df.isnull().sum()
 desc_stats, missing_values
 ```
 
-{% logseqOrgQUOTE %}The dataset has some missing values in several columns:
+{{< logseq/orgQUOTE >}}The dataset has some missing values in several columns:
 
 Owner: 7 missing values
 Country.of.Origin: 1 missing value
 Farm.Name: 356 missing values
 Lot.Number: 1041 missing values 
-{% endlogseqOrgQUOTE %}
+{{< / logseq/orgQUOTE >}}
 
 It will drop columns with a high amount of missing data or come up with values for the missing data, such as median and mode, where appropriate.
 
 ## Analyzing Data
+heading:: 2
 
 It starts with a quick analysis to show the distribution of the most important data points.
 
 ### Distribution of Ratings
+heading:: 3
 
 > The left plot shows the distribution of the total cup points, representing the coffee's overall quality. The distribution is approximately normal, with a slight skew towards higher scores, indicating that most of the coffee in this dataset is of good quality.
 
 ![image.png](/assets/image_1690423253013_0.png)
 
 ### Initial Analysis
+heading:: 3
 
 Next, ChatGPT does a more detailed analysis by automatically graphing what it thinks are the most important pieces of data.
 
-{% logseqOrgQUOTE %}Next, let's examine the relationships between coffee quality (`Total.Cup.Points`) and some potentially influential factors (`Country.of.Origin`, `Variety`, `Processing.Method`, `altitude_mean_meters`, and sensory profiles). We will use box plots to visualize these relationships. For the sake of clarity, we'll only consider the top 5 categories for `Country.of.Origin`, `Variety`, and `Processing.Method`. For sensory profiles, we'll use scatter plots to see the correlation with `Total.Cup.Points`.
-{% endlogseqOrgQUOTE %}
-
-![image.png](/assets/image_1690528406281_0.png)
+{{< logseq/orgQUOTE >}}Next, let's examine the relationships between coffee quality (`Total.Cup.Points`) and some potentially influential factors (`Country.of.Origin`, `Variety`, `Processing.Method`, `altitude_mean_meters`, and sensory profiles). We will use box plots to visualize these relationships. For the sake of clarity, we'll only consider the top 5 categories for `Country.of.Origin`, `Variety`, and `Processing.Method`. For sensory profiles, we'll use scatter plots to see the correlation with `Total.Cup.Points`.
+{{< / logseq/orgQUOTE >}}
 
 > The visualizations suggest that:
 
@@ -114,6 +118,7 @@ Next, ChatGPT does a more detailed analysis by automatically graphing what it th
 Altitude does not exhibit a clear correlation with coffee quality.
 
 ## Loading Data and Removing Outliers
+heading:: 2
 
 The graph above was generated by this code, written by ChatGPT:
 
@@ -124,12 +129,12 @@ df = pd.read_csv('/mnt/data/coffee_data.csv')
 
 # Define a function to remove outliers
 def remove_outliers(df, column):
-    Q1 = df[column].quantile(0.25)
-    Q3 = df[column].quantile(0.75)
-    IQR = Q3 - Q1
+  Q1 = df[column].quantile(0.25)
+  Q3 = df[column].quantile(0.75)
+  IQR = Q3 - Q1
 
-    df_no_outliers = df[~((df[column] < (Q1 - 1.5 * IQR)) | (df[column] > (Q3 + 1.5 * IQR)))]
-    return df_no_outliers
+  df_no_outliers = df[~((df[column] < (Q1 - 1.5 * IQR)) | (df[column] > (Q3 + 1.5 * IQR)))]
+  return df_no_outliers
 
 # Remove rows where 'Total.Cup.Points' is 0
 df_no_zero_quality = df[df['Total.Cup.Points'] != 0]
@@ -146,6 +151,7 @@ df_no_outliers_flavor = remove_outliers(df_no_zero_quality, 'Flavor')
 ```
 
 ## Generating Charts with Matplotlib and seaborn
+heading:: 2
 
 The second part of the code generates the charts
 
@@ -156,7 +162,7 @@ plt.figure(figsize=(18, 12))
 # Box plot for Country.of.Origin
 plt.subplot(2, 3, 1)
 sns.boxplot(x='Total.Cup.Points', y='Country.of.Origin', data=df_no_zero_quality[df_no_zero_quality['Country.of.Origin'].isin(top_countries_mean)], 
-            order=top_countries_mean)  # Sort by descending mean
+          order=top_countries_mean)  # Sort by descending mean
 plt.title('Coffee Quality by Country of Origin')
 plt.xticks(rotation=30)
 plt.xlim(80, 95)  # Set x-axis limit to focus on majority of data
@@ -164,7 +170,7 @@ plt.xlim(80, 95)  # Set x-axis limit to focus on majority of data
 # Box plot for Variety
 plt.subplot(2, 3, 2)
 sns.boxplot(x='Total.Cup.Points', y='Variety', data=df_no_zero_quality[df_no_zero_quality['Variety'].isin(top_varieties_mean)], 
-            order=top_varieties_mean)  # Sort by descending mean
+          order=top_varieties_mean)  # Sort by descending mean
 plt.title('Coffee Quality by Variety')
 plt.xticks(rotation=30)
 plt.xlim(80, 95)  # Set x-axis limit to focus on majority of data
@@ -196,29 +202,35 @@ plt.show()
 ```
 
 ## Visualizations
+heading:: 2
 
 I continued asking it questions to generate visualizations, such as "Generate a bar chart for top mean cup scores by country, sorted in descending order.
 
 Here are some of my favorite visualizations
 
 ## Coffee Quality by Country
+heading:: 2
 
 ![image.png](/assets/image_1690426601354_0.png)
 
 ![image.png](/assets/image_1690426630484_0.png)
+
 ## Coffee Quality by Variety
+heading:: 2
 
 ![image.png](/assets/image_1690436660242_0.png)
 
 ![image.png](/assets/image_1690436538061_0.png)
 
 ## Coffee Quality by Altitude Range
+heading:: 2
 
 The median coffee quality increases with altitude, suggesting that coffee grown at higher altitudes tends to have slightly higher quality.
 
 ![image.png](/assets/image_1690426458643_0.png)
 
 ## Quality by processing method
+heading:: 2
 
 What are processing methods? These are how the beans are dried and prepared before roasting.
 
@@ -233,14 +245,14 @@ What are processing methods? These are how the beans are dried and prepared befo
 ![image.png](/assets/image_1690507618154_0.png)
 
 ## Flavor Profile by Variety
+heading:: 2
 
 How the different varieties compare on different flavor profiles, such as sweetness and acidity.
 
 This uses an interesting chart called a "Radar Chart"
 
-![image.png](/assets/image_1690435832644_0.png)
-
 ## Flavor Profile by Country
+heading:: 2
 
 ![countries1.jpg](/assets/countries1_1690522288775_0.jpg)
 
@@ -251,6 +263,7 @@ This uses an interesting chart called a "Radar Chart"
 ![countries4.jpg](/assets/countries4_1690527523796_0.jpg)
 
 # Conclusion
+heading:: 1
 
 The code interpreter of ChatGPT has been proving immensely useful for exploratory data analysis.
 

@@ -13,31 +13,35 @@ description: One of the best introductory courses on algorithms. It's thorough, 
 blogtitle: Abdul Bari Algorithms Course
 math: true
 title: abdul bari algorithms
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 
 ![Screenshot 2022-12-07 at 12.29.34 PM.png](/assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png)
 
 # Video Course Link
+heading:: 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IAPZzGSbME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Time Complexity
+heading:: 1
 
-**Notes**: [abdul bari algorithms/time-complexity]({% sref "/pages/abdul bari algorithms/time-complexity" %})
+**Notes**: [abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}})
 
 ## Introduction to algorithms
+heading:: 2
 
 What is an algorithm?
 
-[Priori vs Poesteriori Analysis]({% sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" %})
+[Priori vs Poesteriori Analysis]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
 
 Algorithm Characteristics and analysis
 
 Frequency count method to find time taken by an algorithm
 
 ## Algorithm analysis
+heading:: 2
 
 Time Complexity
 
@@ -52,6 +56,7 @@ Big Omega - Ω
 Theta - Θ
 
 ## Properties of asymptotic notation
+heading:: 2
 
 General
 
@@ -64,6 +69,7 @@ Symmetric
 Transpose Symmetric
 
 ## Comparisons of functions
+heading:: 2
 
 Best, worst, and average case analysis
 
@@ -72,8 +78,9 @@ Linear Search
 Binary Search
 
 # Recurrence Relation and Master's Theorem for Subtracting Functions
+heading:: 1
 
-**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-subtracting]({% sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-subtracting" %})
+**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-subtracting]({{< sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-subtracting" >}})
 
 Divide and Conquer Intro
 
@@ -84,13 +91,15 @@ Substitution method for finding recurrence relation
 Tree method for finding recurrence relation
 
 ## Master's Theorem
+heading:: 2
 
 For the general form $T(n)=aT(n-b)+f(n)$
 
 
 # Recurrence Relation and Master's Theorem for Dividing Functions
+heading:: 1
 
-**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-dividing]({% sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-dividing" %})
+**Notes**: [abdul bari algorithms/recurrence-relation-masters-theorem-dividing]({{< sref "/pages/abdul bari algorithms/recurrence-relation-masters-theorem-dividing" >}})
 
 Examples where the subproblems reduce by n/b
 
@@ -99,21 +108,24 @@ Substitution method for finding recurrence relation
 Tree method for finding recurrence relation
 
 ## Master's Theorem
+heading:: 2
 
 For the general form $T(n)=a * T(\frac{n}{b}) + f(n)$
 
 
 # Binary Search
+heading:: 1
 
-**Notes**: [abdul bari algorithms/binary search]({% sref "/pages/abdul bari algorithms/binary search" %})
+**Notes**: [abdul bari algorithms/binary search]({{< sref "/pages/abdul bari algorithms/binary search" >}})
 
 Iterative Implementation
 
 Recursive Implementation
 
 # Heap
+heading:: 1
 
-**Notes**: [abdul bari algorithms/heap]({% sref "/pages/abdul bari algorithms/heap" %})
+**Notes**: [abdul bari algorithms/heap]({{< sref "/pages/abdul bari algorithms/heap" >}})
 
 Array Representation of Binary Heap
 
@@ -132,6 +144,7 @@ Heapify
 Priority Queue
 
 # Merge Sort
+heading:: 1
 
 **Notes:** [[abdul bari algorithms/merge sort]]
 
@@ -144,3 +157,4 @@ k-way merge
 Iterative Merge sort
 
 # Quick Sort
+heading:: 1

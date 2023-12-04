@@ -17,11 +17,12 @@ coverimage: /assets/kubernetes-gpt_1672123546658_0.jpeg
 start-date:
 - Jun 15th, 2022
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ![kubernetes-gpt.jpeg](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 
 ## Summary and Reflection 🤔
+heading:: 2
 
 I couldn't be happier about the positive reactions to my new projects and newsletter.
 
@@ -46,52 +47,54 @@ The plugin is called [logseq-gtp3-openai](https://github.com/briansunter/logseq-
 In this newsletter, I'll share some of the community's reactions to my new AI plugin, some thoughts on productivity, a few interesting reads from the week, and what I have for the next newsletter issue.
 
 # Updates 🆕
+heading:: 1
 
 Here is some feedback for users on Twitter
 
 # Feedback on [[logseq-openai/project]] plugin
+heading:: 1
 
 This user summed up how I feel perfectly. Now that AI is part of my workflow, I want to keep it.
 
 As far as I know, there is nothing on the market similar to OpenAI's GPT3.
 
-{% tweet "irace", "1535056205441277962" %}
+{{< tweet user="irace" id="1535056205441277962" >}}
 
 AI and humans will work together more closely and sooner than we thought. We're getting "autocomplete for everything."
 
-{% tweet "Daniel_Van_Zant", "1535985529627484160" %}
+{{< tweet user="Daniel_Van_Zant" id="1535985529627484160" >}}
 
 Dentists love the plugin. I wonder how/if my own dentist stays up to date on the latest cutting-edge dental research 🤔
 
-{% tweet "zeno_dox", "1533923814899318785" %}
+{{< tweet user="zeno_dox" id="1533923814899318785" >}}
 
-{% tweet "wirtzdan", "1535136325527080960" %}
+{{< tweet user="wirtzdan" id="1535136325527080960" >}}
 
 Google docs and Microsoft word are about to get smart. Clippy is going to be a genius soon.
 
-{% tweet "sceeto", "1535235258756521984" %}
+{{< tweet user="sceeto" id="1535235258756521984" >}}
 
 I thought this was funny. I usually ask the AI questions. But this user was instead getting the AI to ask him questions. I've tried making philosophical content like this as well, and it's fascinating to see what the AI thinks about things like the meaning of life (even though it's fancy autocomplete)
 
-{% tweet "teo_IDT", "1534447943503302656" %}
+{{< tweet user="teo_IDT" id="1534447943503302656" >}}
 
-{% tweet "ilmarsV", "1534466432620281858" %}
+{{< tweet user="ilmarsV" id="1534466432620281858" >}}
 
 This user told me they found the plugin helpful in helping them understand code in an obscure language. You can ask it to explain any code in English.
 
-{% tweet "haveanicedavid", "1534950374779392009" %}
+{{< tweet user="haveanicedavid" id="1534950374779392009" >}}
 
 A feature I still need to release made it into one of the videos. For now, type `Summarize Text:` instead.
 
-{% tweet "shezthedev", "1534498138932842498" %}
+{{< tweet user="shezthedev" id="1534498138932842498" >}}
 
 This AI tech became available to the general public six months ago, so many people tried it for the first time through this plugin. I have yet to learn about consumer products using GPT3.
 
-{% tweet "Ashish_situ", "1534399620230545408" %}
+{{< tweet user="Ashish_situ" id="1534399620230545408" >}}
 
-{% tweet "WuPingJu", "1537072229091246080" %}
+{{< tweet user="WuPingJu" id="1537072229091246080" >}}
 
-{% tweet "Aaron3lias", "1537201417022083072" %}
+{{< tweet user="Aaron3lias" id="1537201417022083072" >}}
 
 Putting your work on the internet makes you realize how big the world is. I love seeing the international developer community try out the plugin. You know your idea is making the rounds when you see your name surrounded by mandarin Chinese.
 
@@ -99,13 +102,14 @@ https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-use-logseq-plu
 
 ![Screenshot 2022-12-26 at 8.52.16 PM.png](/assets/Screenshot_2022-12-26_at_8.52.16_PM_1672123954817_0.png)
 
-{% tweet "gpbollbach", "1537146633116340226" %}
+{{< tweet user="gpbollbach" id="1537146633116340226" >}}
 
 # Productivity Toolkit 🛠️
+heading:: 1
 
 In this section, I'll share a productivity tip I've learned recently.
 
-One of my favorite productivity techniques is the [daily highlight productivity technique]({% sref "/pages/daily highlight productivity technique" %})
+One of my favorite productivity techniques is the [daily highlight productivity technique]({{< sref "/pages/daily highlight productivity technique" >}})
 
 For a long time, I always had a sinking feeling I didn't accomplish "enough" at the end of the day.
 
@@ -115,11 +119,13 @@ Now, I pick one thing I want to accomplish in the morning.
 
 This technique helps me focus on what will truly move my life forward and end each day with a sense of accomplishment.
 
-See my post on the subject here: [daily highlight productivity technique]({% sref "/pages/daily highlight productivity technique" %})
+See my post on the subject here: [daily highlight productivity technique]({{< sref "/pages/daily highlight productivity technique" >}})
 
 # Brain Food 🧠
+heading:: 1
 
 ## Quote
+heading:: 2
 
 The Last Question is a short story by Isaac Asimov.
 
@@ -128,9 +134,9 @@ It's a timely short story about asking AI the answers to life's biggest question
 Isaac Asimov said it was his favorite short story he’d written.
 
 > "Ask Multivac."
-     "You ask Multivac. I dare you. Five dollars says it can't be done."  
- Adell was just drunk enough to try, just sober enough to be able to phrase the necessary  
- symbols and operations into a question which, in words, might have corresponded to this: ...
+   "You ask Multivac. I dare you. Five dollars says it can't be done."  
+Adell was just drunk enough to try, just sober enough to be able to phrase the necessary  
+symbols and operations into a question which, in words, might have corresponded to this: ...
 
 [The Last Question by Isaac Asimov](https://www.physics.princeton.edu/ph115/LQ.pdf)
 
@@ -141,6 +147,7 @@ Isaac Asimov said it was his favorite short story he’d written.
 Related: [The Last Answer](https://highexistence.com/the-last-answer-short-story/)
 
 ## Link of the week
+heading:: 2
 
 I remember when I first moved to San Francisco, and Uber was doing a "match muni" promotion, where you could take an Uber anywhere in the city for $2.25 (same as the "muni" bus)
 
@@ -152,16 +159,18 @@ I'll expect to see more ads on youtube, Facebook, Instagram, TikTok, etc., and p
 
 It may be an excellent excuse to find other hobbies than watching Netflix and ordering Uber Eats.
 
-{% tweet "Bsunter", "1537546979357564928" %}
+{{< tweet user="Bsunter" id="1537546979357564928" >}}
 
 # Analytics 📈
+heading:: 1
 
 Twitter Analytics are fun. I am the ultimate late-comer to Twitter and started using it for the first time this month. Last month I had -1 new follower. This month I gained around 200 so far. I had a few "hit" logseq plugins, so I don't expect this growth to continue forever, but seeing the numbers go up is fun.
 
 # Outro
+heading:: 1
 
 Thanks for reading! This week I announced my new plugin and shared some feedback from the community.
 
 Next week I plan on writing about some productivity techniques in Logseq and how I manage "projects" in my life, using this newsletter as an example.
 
-Check out the [newsletter-roadmap]({% sref "/pages/newsletter-roadmap" %}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)

@@ -21,25 +21,28 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 title: newsletter/issue-7
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 
 ![FYqjtUnX0AAsVJEE.jpeg](/assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg)
 
 # Summary and Reflection 🤔
+heading:: 1
 
-This week I wrote a post announcing my [new personal website]({% sref "/pages/new website on logseq hugo" %}).
+This week I wrote a post announcing my [new personal website]({{< sref "/pages/new website on logseq hugo" >}}).
 
-I also wrote a post on [analysis of algorithms]({% sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" %})  for the algorithms-boot-camp.
+I also wrote a post on [analysis of algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})  for the algorithms-boot-camp.
 
 This post focuses on the different ways of measuring algorithms theoretically and on actual hardware.
 
 For some “brain food,” I share one of my favorite talks, “You and your Research” by Richard Hamming, and an announcement of a new Open Source image generation AI called “Stable Diffusion.”
 
 # Updates 🆕
+heading:: 1
 
-### [new website on logseq hugo]({% sref "/pages/new website on logseq hugo" %})
+### [new website on logseq hugo]({{< sref "/pages/new website on logseq hugo" >}})
+heading:: 3
 
 I launched a “beta” version of my website that’s built almost entirely in Logseq using the [Hugo Plugin](https://github.com/sawhney17/logseq-schrodinger?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter).
 
@@ -47,25 +50,28 @@ I write all my posts in Logseq and then push a button to export them to files co
 
 I’m still migrating my old pages and customizing them, but I’m pleased with the results.
 
-[Read my post on it here]({% sref "/pages/new website on logseq hugo" %}).
+[Read my post on it here]({{< sref "/pages/new website on logseq hugo" >}}).
 
 The site,logseq graph, and AWS CDK deployment tooling[ is on Github.](https://github.com/briansunter/graph?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter)
 
-### [abdul bari algorithms]({% sref "/pages/abdul bari algorithms" %})
+### [abdul bari algorithms]({{< sref "/pages/abdul bari algorithms" >}})
+heading:: 3
 
 I’m going through the excellent [Abdul Bari Algorithms Course on Youtube](https://www.youtube.com/watch?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter&v=0IAPZzGSbME)
 
-[See my notes on Part 1 of his course here]([abdul bari algorithms/time-complexity]({% sref "/pages/abdul bari algorithms/time-complexity" %}))
+[See my notes on Part 1 of his course here]([abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}}))
 
-[I wrote a post on posterior vs a priori analysis of algorithms] ([posteriori-vs-a-priori-analysis-of-algorithms]({% sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" %}))
+[I wrote a post on posterior vs a priori analysis of algorithms] ([posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}}))
 
-As I watch various courses, I’ll [link to the concepts on the algorithms boot camp page]({% sref "/pages/algorithms-boot-camp" %}) as a learning roadmap
+As I watch various courses, I’ll [link to the concepts on the algorithms boot camp page]({{< sref "/pages/algorithms-boot-camp" >}}) as a learning roadmap
 
 # Productivity Toolkit 🛠️
+heading:: 1
 
 In this section, I'll share a productivity tip I've learned recently.
 
-### [five-minute-journal]({% sref "/pages/five-minute-journal" %})
+### [five-minute-journal]({{< sref "/pages/five-minute-journal" >}})
+heading:: 3
 
 The five-minute journal is one of the best places to start with journaling and productivity.
 
@@ -79,15 +85,18 @@ Here are the prompts I use:
 
 > What Am I Worried About?
 
-[Read my post about it here]({% sref "/pages/five-minute-journal" %})
+[Read my post about it here]({{< sref "/pages/five-minute-journal" >}})
 
 # Brain Food 🧠
+heading:: 1
 
 In this section, I'll share some interesting articles and "food for thought"
 
 ## Quote
+heading:: 2
 
-### [you and your research]({% sref "/pages/you and your research" %})
+### [you and your research]({{< sref "/pages/you and your research" >}})
+heading:: 3
 
 [My notes on this talk from 1986](https://beta.briansunter.com/pages/you-and-your-research?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter) about what it takes to do Nobel prize-level work.
 
@@ -111,9 +120,10 @@ When pressed, many of his fellow scientists admitted they didn’t believe the p
 
 I highly recommend reading [his full talk](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) if you consider yourself a scientist or researcher.
 
-[See my notes here]({% sref "/pages/you and your research" %})
+[See my notes here]({{< sref "/pages/you and your research" >}})
 
 ## Link of the week - Stable Diffusion
+heading:: 2
 
 AI image generation is advancing incredibly rapidly. You describe the image you want to AI programs, and they will generate an original idea.
 
@@ -123,7 +133,7 @@ The AI art generation is getting so good that it will replace a lot of concept a
 
 There is a lot of controversy around having something that can automate the work of human artists, especially since the AI was trained on the work of professional artists.
 
-{% tweet "EMostaque", "1552233024259063811" %}
+{{< tweet user="EMostaque" id="1552233024259063811" >}}
 
 I was very impressed when I first saw DALL-E, but I was disappointed too.
 
@@ -135,8 +145,9 @@ Stable Diffusion will be massive because people can now run powerful AI image ge
 
 I’m sure we’ll see a lot of crazy stuff with this soon, but I can’t wait for the creative potential this unlocks.
 
-{% tweet "EMostaque", "1561777122082824192" %}
+{{< tweet user="EMostaque" id="1561777122082824192" >}}
 
 # Outro
+heading:: 1
 
-Check out the [newsletter-roadmap]({% sref "/pages/newsletter-roadmap" %}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)

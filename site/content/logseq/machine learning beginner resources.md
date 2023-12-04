@@ -9,19 +9,23 @@ tags:
 description: Best resources for machine learning
 coverimage: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 title: machine learning beginner resources
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 # [Deeplearning.ai](https://Deeplearning.ai)
+heading:: 1
 
 # [Deeplearning AI Intro Course](https://www.coursera.org/specializations/machine-learning-introduction)
+heading:: 1
 
 Introductory course by Andrew Ng covering practical machine learning topics using Python
 
 Time: 2.5 months (5 hours/week)
 
 ## Topics
+heading:: 2
 
 ### Supervised learning
+heading:: 3
 
 linear regression
 
@@ -34,6 +38,7 @@ decision trees
 Tree Ensembles
 
 ### Unsupervised learning
+heading:: 3
 
 clustering
 
@@ -44,6 +49,7 @@ recommender systems
 anomaly detection
 
 ### Tools
+heading:: 3
 
 Python
 
@@ -56,6 +62,7 @@ Tensorflow
 XGBoost
 
 ### Best Practices
+heading:: 3
 
 Regularization to Avoid Overfitting
 
@@ -64,12 +71,14 @@ evaluating and tuning models
 improving performance
 
 # Deeplearning.ai Deep Learning Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/deep-learning-specialization/)
 
 Practical intermediate deep learning course by Andrew Ng
 
 ## Topics
+heading:: 2
 
 Tensorflow
 
@@ -110,6 +119,7 @@ Attention Models
 Natural Language Processing
 
 # Deeplearning.ai Natural Language Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
 
@@ -118,6 +128,7 @@ how to design NLP applications that perform question-answering and sentiment ana
 Time: 4 months (6 hours/week)
 
 ## Topics
+heading:: 2
 
 Sentiment Analysis
 
@@ -158,6 +169,7 @@ Chatbots
 T5 + BERT Models
 
 # Deeplearning.io Tensorflow Data and Deployment Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-data-and-deployment-specialization/)
 
@@ -166,6 +178,7 @@ Learn how to get your machine learning models into the hands of real people on a
 Time: 4 months (3 hours/week)
 
 ## Topics
+heading:: 2
 
 Tensorflow
 
@@ -186,6 +199,7 @@ Extraction, Transformation And Loading (ETL)
 Data Pipelines
 
 # Deeplearning.io Generative Adversarial Networks Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization/)
 
@@ -194,6 +208,7 @@ Introduction to image generation with GANs, charting a path from foundational co
 Time: 3 months (8 hours/week)
 
 ## Topics
+heading:: 2
 
 Generator
 
@@ -220,6 +235,7 @@ Bias in GANs
 StyleGANs
 
 # Deeplearning.io Tensorflow Advanced
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-advanced-techniques-specialization/)
 
@@ -228,6 +244,7 @@ Expand your knowledge of the Functional API and build exotic non-sequential mode
 Time: 5 months (6 hours/week)
 
 ## Topics
+heading:: 2
 
 Model Interpretability
 
@@ -254,6 +271,7 @@ Basic Tensor Functionality
 GradientTape for Optimization
 
 # Deeplearning.io MLOps Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/)
 
@@ -262,6 +280,7 @@ How to conceptualize, build, and maintain integrated systems that continuously o
 Time: 4 months (5 hours/week)
 
 ## Topics
+heading:: 2
 
 Data Pipelines
 
@@ -310,6 +329,7 @@ General Data Protection Regulation (GDPR)
 Model Registries
 
 # Deeplearning.io Data Science on AWS Course
+heading:: 1
 
 [Course Link](https://www.deeplearning.ai/courses/practical-data-science-specialization/)
 
@@ -318,6 +338,7 @@ Develop the practical skills to effectively deploy your data science projects an
 Time: 3 months (5 hours/week)
 
 ## Topics
+heading:: 2
 
 Automated Machine Learning (AutoML)
 
@@ -354,6 +375,7 @@ Cost Savings and Performance Improvements
 Human-in-the-Loop Pipelines
 
 # Introduction to Statistical Learning
+heading:: 1
 
 Accessible overview of the field of statistical learning, an essential toolset for making sense of the vast and complex data sets that have emerged in fields ranging from biology to finance to marketing to astrophysics in the past twenty years. This book presents some of the most important modeling and prediction techniques, along with relevant applications
 
@@ -368,6 +390,7 @@ Easier than **Elements of Statistical Learning**
 [Site](https://www.statlearning.com/)
 
 ## Topics
+heading:: 2
 
 linear regression
 
@@ -398,6 +421,7 @@ Bayesian additive regression trees
 matrix completion
 
 # Elements of Statistical Learning
+heading:: 1
 
 
 
@@ -454,20 +478,25 @@ Papers
 
 
 # Areas
+heading:: 1
 
 ## Math
+heading:: 2
 
 ### Statistics
+heading:: 3
 
 Linear Algebra
 
 ## Deep Learning
+heading:: 2
 
 
 
 
 
 ## Tools
+heading:: 2
 
 Python
 
@@ -484,9 +513,12 @@ Huggingface
 Sagemaker
 
 ## Programming
+heading:: 2
 
 ## SQL
+heading:: 2
 
 ## Python
+heading:: 2
 
 

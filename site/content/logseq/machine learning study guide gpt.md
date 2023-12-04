@@ -6,15 +6,17 @@ tags:
 - programming
 title: machine learning study guide gpt
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ## GPT-3 Prompts to Generate a Machine Learning Study Guide
+heading:: 2
 
 This text was written with GPT-3 AI.
 
-It was used to build this page: [machine learning study guide]({% sref "/pages/machine learning study guide" %})
+It was used to build this page: [machine learning study guide]({{< sref "/pages/machine learning study guide" >}})
 
 ## Prompts
+heading:: 2
 
 What machine learning concepts should I know to fully understand gpt-3
 
@@ -201,7 +203,7 @@ Bayesian inference
 
 Monte Carlo methods
 
-		  Each concept will be covered in depth, with plenty of examples and practice problems. By the end of the course, students will be well-equipped to tackle machine learning problems with a strong understanding of probability.
+  Each concept will be covered in depth, with plenty of examples and practice problems. By the end of the course, students will be well-equipped to tackle machine learning problems with a strong understanding of probability.
 
 Write a curriculum for a programmer to study the most important probability concepts for machine learning
 
@@ -252,11 +254,11 @@ vector spaces, linear equations, matrices, determinants, inverses, eigenvectors 
 
 2. Calculus
 
- limits, derivatives, integrals, and partial derivatives
+limits, derivatives, integrals, and partial derivatives
 
 3. Statistics
 
- probability, distributions, estimators, and hypothesis testing
+probability, distributions, estimators, and hypothesis testing
 
 4. Optimization
 
@@ -281,7 +283,7 @@ Write a curriculum for a programmer to study the most important deep learning co
 
 1. Artificial Neural Networks:
 
- Artificial neural networks (ANNs) are algorithmically-based models that are used to simulate the workings of the human brain. ANNs are composed of a series of interconnected processing nodes, or neurons, that can learn to recognize patterns of input data. This enables them to carry out complex tasks, such as image recognition or machine translation.
+Artificial neural networks (ANNs) are algorithmically-based models that are used to simulate the workings of the human brain. ANNs are composed of a series of interconnected processing nodes, or neurons, that can learn to recognize patterns of input data. This enables them to carry out complex tasks, such as image recognition or machine translation.
 
 2. Convolutional Neural Networks:
 
@@ -359,9 +361,9 @@ Write a study guide for a programmer to understand gpt3 machine learning in dept
 In machine learning, GPT3 is a family of statistical models that are used to predict the probability of a target class, based on one or more predictor variables. 
 
 The three main types of GPT3 models are: 
- Linear 
- Nearest Neighbor 
- Logistic 
+Linear 
+Nearest Neighbor 
+Logistic 
 
 Linear models are the simplest type of GPT3 models and are used when the target class is a linear function of the predictor variables. Nearest neighbor models are more complex and are used when the target class is not a linear function of the predictor variables. Logistic models are the most complex type of GPT3 models and are used when the target class is a binary variable (i.e., it can take on only two values, such as 0 or 1). 
 

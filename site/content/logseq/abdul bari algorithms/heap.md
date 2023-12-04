@@ -13,15 +13,17 @@ date: 2023-01-05
 coverimage: /assets/heap_1673042424667_0.jpg
 description: Describes the Heap data structure, the operations it supports, and its time complexity.
 title: abdul bari algorithms/heap
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ![heap.jpg](/assets/heap_1673042424667_0.jpg)
 
 # Heap - Heap Sort - Heapify - Priority Queues
+heading:: 1
 
-{% youtube HqPJF2L5h9U %}
+{{< youtube HqPJF2L5h9U >}}
 
 ## Array Representation of Binary Tree
+heading:: 2
 
 `[a,b,c,d,e,f,g]`
 
@@ -35,14 +37,15 @@ c-->f
 c-->g
 ```
 
-{% ytime "HqPJF2L5h9U" , "181" , "03:01" %} You can store a binary tree as an array
+{{< ytime videoId="HqPJF2L5h9U" start="181" time="03:01" >}} You can store a binary tree as an array
 
 When storing a binary tree we need store the elements as well as the relationship between the element
 
 ## Binary Tree Representation Formula
+heading:: 2
 
-{% logseqOrgNOTE %}He uses an array index starting at 1, but I converted it to an array with a 0 index
-{% endlogseqOrgNOTE %}
+{{< logseq/orgNOTE >}}He uses an array index starting at 1, but I converted it to an array with a 0 index
+{{< / logseq/orgNOTE >}}
 
 if a node is at index `i`
 
@@ -53,22 +56,24 @@ The right child is at index `2*i+2`
 The parent is at `Math.floor((i-1)/2)`
 
 ## Examples
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "245" , "04:05" %} what is the left child of `b` which is at index 1?
+{{< ytime videoId="HqPJF2L5h9U" start="245" time="04:05" >}} what is the left child of `b` which is at index 1?
 
 The left child index is `2*1+1` = 3, and the element at index 3 is `d`
 
-{% ytime "HqPJF2L5h9U" , "267" , "04:27" %} What is the right child of `b` which is at index 1?
+{{< ytime videoId="HqPJF2L5h9U" start="267" time="04:27" >}} What is the right child of `b` which is at index 1?
 
 The right child index is `2*1+2` = 4, and the element at index 4 is `e`
 
-{% ytime "HqPJF2L5h9U" , "296" , "04:56" %} What is the parent of `f` which is at index 5?
+{{< ytime videoId="HqPJF2L5h9U" start="296" time="04:56" >}} What is the parent of `f` which is at index 5?
 
 The parent child index is `Math.floor((5-1)/2)` = 2, and the element at index 2 is `c`
 
 You can also think about filling them level by level
 
 ### Missing nodes at the end
+heading:: 3
 
 ```mermaid
 graph TD
@@ -83,8 +88,9 @@ b-->e
 leave out the missing elements at the end.
 
 ### Gaps
+heading:: 3
 
-{% ytime "HqPJF2L5h9U" , "358" , "05:58" %} Imagine filling it level by level, but leave a gap
+{{< ytime videoId="HqPJF2L5h9U" start="358" time="05:58" >}} Imagine filling it level by level, but leave a gap
 
 ```mermaid
 graph TD
@@ -99,8 +105,10 @@ c-->g
 children of b are missing, so leave a gap
 
 ## Complete Binary Tree
+heading:: 2
 
 ### Full Binary Tree
+heading:: 3
 
 ```mermaid
 graph TD
@@ -112,15 +120,17 @@ c-->f
 c-->g
 ```
 
-{% ytime "HqPJF2L5h9U" , "450" , "07:30" %} a Full binary tree has the maximum number of nodes for its height, you can't add another node without increasing its height
+{{< ytime videoId="HqPJF2L5h9U" start="450" time="07:30" >}} a Full binary tree has the maximum number of nodes for its height, you can't add another node without increasing its height
 
-{% ytime "HqPJF2L5h9U" , "497" , "08:17" %} The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
+{{< ytime videoId="HqPJF2L5h9U" start="497" time="08:17" >}} The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
 
 ### Complete Binary Tree
+heading:: 3
 
-{% ytime "HqPJF2L5h9U" , "512" , "08:32" %} When represented as an array, a complete binary tree doesn't have any gaps
+{{< ytime videoId="HqPJF2L5h9U" start="512" time="08:32" >}} When represented as an array, a complete binary tree doesn't have any gaps
 
 #### Complete Binary Tree Example
+heading:: 4
 
 ```mermaid
 graph TD
@@ -135,6 +145,7 @@ c-->g
 Its array representation is `[a,b,c,d,e,f,g]` and it has no gaps, so it's a complete binary tree
 
 #### Non complete binary tree
+heading:: 4
 
 ```mermaid
 graph TD
@@ -144,21 +155,23 @@ c-->f
 c-->g
 ```
 
-{% ytime "HqPJF2L5h9U" , "532" , "08:52" %} Its array representation is`[a,b,c,null,null,d,e]` and has gaps, so it is not a complete binary tree.
+{{< ytime videoId="HqPJF2L5h9U" start="532" time="08:52" >}} Its array representation is`[a,b,c,null,null,d,e]` and has gaps, so it is not a complete binary tree.
 
 Every full binary tree is also a complete binary tree
 
 ## Heap
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "876" , "14:36" %}  A heap is a complete binary tree
+{{< ytime videoId="HqPJF2L5h9U" start="876" time="14:36" >}}  A heap is a complete binary tree
 
 Max heap is a complete binary tree where every node is greater than or equal than its descendants. The largest node is the root
 
 Min heap is a complete binary tree where every node is smaller than it's descendants. The smallest node is the root.
 
 ## Insert
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "998" , "16:38" %} We want to insert an element into a max heap
+{{< ytime videoId="HqPJF2L5h9U" start="998" time="16:38" >}} We want to insert an element into a max heap
 
 ```mermaid
 graph TD
@@ -178,7 +191,7 @@ The root should have the largest element so the root should be `60`
 
 We need to maintain completeness while inserting
 
-{% ytime "HqPJF2L5h9U" , "1189" , "19:49" %} We start by inserting `60` at the end of the array, which corresponds to the bottom left element of the complete binary tree. `[50,30,20,15,10,8,16,60]`
+{{< ytime videoId="HqPJF2L5h9U" start="1189" time="19:49" >}} We start by inserting `60` at the end of the array, which corresponds to the bottom left element of the complete binary tree. `[50,30,20,15,10,8,16,60]`
 
 ```mermaid
 graph TD
@@ -210,11 +223,12 @@ style 60 fill:#f9f
 
 We add new element as leaf, then adjusts it's ancestors upward
 
-{% ytime "HqPJF2L5h9U" , "1244" , "20:44" %} How much time does it take? The maximum number of swaps, which is the height of a complete binary tree, which is $O(log(n))$
+{{< ytime videoId="HqPJF2L5h9U" start="1244" time="20:44" >}} How much time does it take? The maximum number of swaps, which is the height of a complete binary tree, which is $O(log(n))$
 
 ## Delete
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "1345" , "22:25" %} You should only delete root element
+{{< ytime videoId="HqPJF2L5h9U" start="1345" time="22:25" >}} You should only delete root element
 
 Imagine picking an apple at the top of a pyramid at the supermarket
 
@@ -246,7 +260,7 @@ style 16 fill:#f9f
 style A display:none
 ```
 
-{% ytime "HqPJF2L5h9U" , "1526" , "25:26" %} Now we adjust the elements from the root towards leaf, maintaining complete binary property
+{{< ytime videoId="HqPJF2L5h9U" start="1526" time="25:26" >}} Now we adjust the elements from the root towards leaf, maintaining complete binary property
 
 Check 16's child elements, which child is greater? `30` so swap with `30`
 
@@ -277,8 +291,9 @@ style A display:none
 ```
 
 ## Heap Sort
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "1696" , "28:16" %} If you keep deleting, the next largest element goes to the top in max heap. In min heap the next smallest comes to the top
+{{< ytime videoId="HqPJF2L5h9U" start="1696" time="28:16" >}} If you keep deleting, the next largest element goes to the top in max heap. In min heap the next smallest comes to the top
 
 After deleting the largest element, we have a "free space" at the end
 
@@ -290,7 +305,7 @@ After deleting
 
 `[30,10,20,15,10,8,null]`
 
-{% ytime "HqPJF2L5h9U" , "1774" , "29:34" %} We can keep the element we removed at at the end of the array to preserve it
+{{< ytime videoId="HqPJF2L5h9U" start="1774" time="29:34" >}} We can keep the element we removed at at the end of the array to preserve it
 
 `[30,10,20,15,10,8,50]`
 
@@ -305,16 +320,19 @@ But we preserve 30 at the end of the heap
 We can see that we're sorting the array by deleting the largest element, and filling it in at the free space at the end of the new array
 
 ### How to do heap sort
+heading:: 3
 
-{% ytime "HqPJF2L5h9U" , "1876" , "31:16" %} Heap sort has two steps, create a heap from an array by inserting the elements one by one
+{{< ytime videoId="HqPJF2L5h9U" start="1876" time="31:16" >}} Heap sort has two steps, create a heap from an array by inserting the elements one by one
 
 Then delete the elements one by one
 
 ### Heap Sort Example
+heading:: 3
 
 ### Create Heap
+heading:: 3
 
-{% ytime "HqPJF2L5h9U" , "1913" , "31:53" %} These are the unsorted set of elements `[10,20,15,30,40]`
+{{< ytime videoId="HqPJF2L5h9U" start="1913" time="31:53" >}} These are the unsorted set of elements `[10,20,15,30,40]`
 
 Assume `10` is the root of the heap
 
@@ -441,6 +459,7 @@ We inserted n elements, each element was moved up the height of the binary tree
 So we have $n$ elements moved up by height $log(n)$ so time complexity to build heap is $n*log(n)$
 
 ### Delete all elements
+heading:: 3
 
 ```mermaid
 graph TD
@@ -452,7 +471,7 @@ B[30]-->C[20]
 
 `[40,20,15,10,20]`
 
-{% ytime "HqPJF2L5h9U" , "2184" , "36:24" %} 40 gets deleted and 20 takes it's place at the root
+{{< ytime videoId="HqPJF2L5h9U" start="2184" time="36:24" >}} 40 gets deleted and 20 takes it's place at the root
 
 ```mermaid
 graph TD
@@ -468,7 +487,7 @@ style C display: none
 
 Now we need to adjust the binary tree by swapping downward
 
-{% ytime "HqPJF2L5h9U" , "2229" , "37:09" %} Check where of the children of 20 are greater, than swap
+{{< ytime videoId="HqPJF2L5h9U" start="2229" time="37:09" >}} Check where of the children of 20 are greater, than swap
 
 `30` is greater, so swap `20` and `30`
 
@@ -495,7 +514,7 @@ B[20]-->C[.]
 style C display: none
 ```
 
-{% ytime "HqPJF2L5h9U" , "2276" , "37:56" %} `30` get's deleted and the last element `10` takes its place at the root
+{{< ytime videoId="HqPJF2L5h9U" start="2276" time="37:56" >}} `30` get's deleted and the last element `10` takes its place at the root
 
 ```mermaid
 graph TD
@@ -566,8 +585,9 @@ Our heap is `[10]` and our reserved elements at the end are `[15,20,30,40]`
 So together now the array is sorted `10,15,20,30,40`
 
 ## Heapify
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "2538" , "42:18" %} Heapify is a procedure for creating a heap from a binary tree
+{{< ytime videoId="HqPJF2L5h9U" start="2538" time="42:18" >}} Heapify is a procedure for creating a heap from a binary tree
 
 ```mermaid
 graph TD
@@ -581,17 +601,17 @@ graph TD
 
 Array representation `[10,20,15,12,40,25,18]`
 
-{% ytime "HqPJF2L5h9U" , "2549" , "42:29" %} It's similar to creating a heap from scratch. Before we saw when creating a heap from scratch, we insert from the root and adjust down. However, in heapify we adjust upwards.
+{{< ytime videoId="HqPJF2L5h9U" start="2549" time="42:29" >}} It's similar to creating a heap from scratch. Before we saw when creating a heap from scratch, we insert from the root and adjust down. However, in heapify we adjust upwards.
 
 We start with a complete binary tree, but it isn't a max heap
 
-{% ytime "HqPJF2L5h9U" , "2595" , "43:15" %} In heapify we go from right to left, instead of left to right in creating a heap
+{{< ytime videoId="HqPJF2L5h9U" start="2595" time="43:15" >}} In heapify we go from right to left, instead of left to right in creating a heap
 
-{% ytime "HqPJF2L5h9U" , "2609" , "43:29" %} When going from right to left, we adjust downward, similar to deletion
+{{< ytime videoId="HqPJF2L5h9U" start="2609" time="43:29" >}} When going from right to left, we adjust downward, similar to deletion
 
-{% ytime "HqPJF2L5h9U" , "2627" , "43:47" %} Start with element `18` and look at it's descendents. It's a leaf with no children, so alone it is a heap. Continuing on we see the same with `25`, `40`, and `12`
+{{< ytime videoId="HqPJF2L5h9U" start="2627" time="43:47" >}} Start with element `18` and look at it's descendents. It's a leaf with no children, so alone it is a heap. Continuing on we see the same with `25`, `40`, and `12`
 
-{% ytime "HqPJF2L5h9U" , "2660" , "44:20" %} We get to `15` and adjust downards. We compare it to it's children and swap. Which child is greater? `25` is greater, so we swap with `15`. `25` goes up and `15` goes down, in its place
+{{< ytime videoId="HqPJF2L5h9U" start="2660" time="44:20" >}} We get to `15` and adjust downards. We compare it to it's children and swap. Which child is greater? `25` is greater, so we swap with `15`. `25` goes up and `15` goes down, in its place
 
 ```mermaid
 graph TD
@@ -604,7 +624,7 @@ graph TD
 style 25 fill:#f9f
 ```
 
-{% ytime "HqPJF2L5h9U" , "2700" , "45:00" %} Now we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
+{{< ytime videoId="HqPJF2L5h9U" start="2700" time="45:00" >}} Now we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
 
 ```mermaid
 graph TD
@@ -617,9 +637,9 @@ graph TD
 style 40 fill:#f9f
 ```
 
-{% ytime "HqPJF2L5h9U" , "2693" , "44:53" %} Now we get to the first element, the root
+{{< ytime videoId="HqPJF2L5h9U" start="2693" time="44:53" >}} Now we get to the first element, the root
 
-{% ytime "HqPJF2L5h9U" , "2709" , "45:09" %} We compare 40 with it's children, and swap 10 with 40
+{{< ytime videoId="HqPJF2L5h9U" start="2709" time="45:09" >}} We compare 40 with it's children, and swap 10 with 40
 
 ```mermaid
 graph TD
@@ -632,7 +652,7 @@ graph TD
 style 40 fill:#f9f
 ```
 
-{% ytime "HqPJF2L5h9U" , "2732" , "45:32" %} We continue heapifying down, and check `10`'s children. `20` is greater so we swap with `10`
+{{< ytime videoId="HqPJF2L5h9U" start="2732" time="45:32" >}} We continue heapifying down, and check `10`'s children. `20` is greater so we swap with `10`
 
 ```mermaid
 graph TD
@@ -645,22 +665,23 @@ graph TD
 style 20 fill:#f9f
 ```
 
-{% ytime "HqPJF2L5h9U" , "2777" , "46:17" %} What is the time taken by heapify? $O(n)$
+{{< ytime videoId="HqPJF2L5h9U" start="2777" time="46:17" >}} What is the time taken by heapify? $O(n)$
 
-{% ytime "HqPJF2L5h9U" , "2792" , "46:32" %} The earlier procedure for creating a heap was $O(n*log(n))$, which is slower than heapify
+{{< ytime videoId="HqPJF2L5h9U" start="2792" time="46:32" >}} The earlier procedure for creating a heap was $O(n*log(n))$, which is slower than heapify
 
 ## Priority Queue
+heading:: 2
 
-{% ytime "HqPJF2L5h9U" , "2829" , "47:09" %} Elements have priority, and inserted and deleted based on element
+{{< ytime videoId="HqPJF2L5h9U" start="2829" time="47:09" >}} Elements have priority, and inserted and deleted based on element
 
-{% ytime "HqPJF2L5h9U" , "2850" , "47:30" %} Elements with the highest priority is removed
+{{< ytime videoId="HqPJF2L5h9U" start="2850" time="47:30" >}} Elements with the highest priority is removed
 
-{% ytime "HqPJF2L5h9U" , "2869" , "47:49" %} In a numeric array, the priority is based on the number itself
+{{< ytime videoId="HqPJF2L5h9U" start="2869" time="47:49" >}} In a numeric array, the priority is based on the number itself
 
-{% ytime "HqPJF2L5h9U" , "2904" , "48:24" %} We can say that the highest priority is the smallest number, or we can say the largest number has the highest priority, depending on the use case. We can do either method of priority
+{{< ytime videoId="HqPJF2L5h9U" start="2904" time="48:24" >}} We can say that the highest priority is the smallest number, or we can say the largest number has the highest priority, depending on the use case. We can do either method of priority
 
-{% ytime "HqPJF2L5h9U" , "2966" , "49:26" %} The time for insert or delete for a a regular array is $O(n)$ because we have to shift the elements
+{{< ytime videoId="HqPJF2L5h9U" start="2966" time="49:26" >}} The time for insert or delete for a a regular array is $O(n)$ because we have to shift the elements
 
-{% ytime "HqPJF2L5h9U" , "3007" , "50:07" %} The time for insert or delete for a priority queue is $O(log(n))$ which is faster than a normal array
+{{< ytime videoId="HqPJF2L5h9U" start="3007" time="50:07" >}} The time for insert or delete for a priority queue is $O(log(n))$ which is faster than a normal array
 
 

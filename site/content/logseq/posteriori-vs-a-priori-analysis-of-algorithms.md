@@ -10,9 +10,10 @@ date: 2022-08-22
 blogtitle: Posteriori vs A Priori Analysis of Algorithms
 description: Theoretical analysis of algorithms vs benchmarking
 title: posteriori-vs-a-priori-analysis-of-algorithms
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ## A Posteriori Analysis (Profiling)
+heading:: 2
 
 The most straightforward method to measure the speed of an algorithm is to run and time it.
 
@@ -27,6 +28,7 @@ This measure is hardware dependent, since it's a real program.
 A Posteriori Analysis also depends on which language the program was written in. In general, a program written in C would run faster than one written in Javascript.
 
 ## A Priori Analysis (Time Complexity)
+heading:: 2
 
 Sometimes we also want a theoretical measure of how long an algorithm takes to run, without needing to actually run it. This method is called **A priori** and is Latin for "from the earlier".
 
@@ -39,6 +41,7 @@ An example of A Priori analysis is time complexity analysis.
 For example, bubble-sort has a time complexity of $$O(n^2)$$. This is always the same, no matter what the programming language or hardware is.
 
 ## A Priori vs A Posteriori Analysis
+heading:: 2
 
 |                                     A Posteriori analysis                                     |                                                    A priori analysis                                                    |
 |--|--|

@@ -11,7 +11,7 @@ description: I go over a few new useful AI and NLP techniques and how to use the
 blogtitle: Notetaking with NLP and AI
 title: notetaking-with-AI
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 
@@ -24,6 +24,7 @@ These new technologies allow you to search, summarize and categorize your notes.
 Here are a few of my favorite new techniques and technologies. Some of these you can use today, but many haven't been built into any notes app. The big tech companies are using all these techniques, but the average user doesn't know they exist.
 
 # Graph Analysis
+heading:: 1
 
 Graph Analysis or graph theory studies graphs, which are relationships between objects. The main ideas are that "nodes" have connections to other nodes, and "edges" are the connections between nodes. You can imagine a social network with people and their friends.
 
@@ -34,6 +35,7 @@ Graph Theory can also be used to find relationships between your notes.
 This type of analysis works well for bidirectional note-taking apps with backlinks because the links provide a lot of information about the relationship between the notes. AI can then discover "hidden" relationships between notes.
 
 #### Game of Thrones Social Network
+heading:: 4
 
 Here's what Game of Thrones would look like if it were a social network. You can see how all the characters such as "Jon Snow" and "Daenerys Targaryen" are connected.
 
@@ -42,6 +44,7 @@ Here's what Game of Thrones would look like if it were a social network. You can
 [Source](https://www.researchgate.net/figure/Graph-theory-analysis-in-social-network-Image-courtesy-of-5_fig1_321846685)
 
 ## Adamic Adar and "Link Prediction"
+heading:: 2
 
 The Adamic–Adar index is a method to "predict" links in a social network according to the number of shared links between two nodes.
 
@@ -54,6 +57,7 @@ The technique could also suggest new links between notes, depending on the share
 This Adamic-Adar link prediction algorithm is implemented in the [Logseq graph analysis plugin](https://github.com/trashhalo/logseq-graph-analysis).
 
 ### It shows how similar notes are, even if they aren't linked directly
+heading:: 3
 
 These are notes closely related to "AWS VPC".
 
@@ -62,6 +66,7 @@ The size of the bubble shows the strength of the relationship.
 ![image.png](/assets/image_1662087221258_0.png)
 
 ### It can find hidden relationships throughout your entire graph, even from very distant links
+heading:: 3
 
 These are more distant notes related to "AWS VPC".
 
@@ -72,6 +77,7 @@ They don't have any close links, but we can still detect that these ideas are re
 Adamic-Adar index is similar to a calculation called the Jaccard index, which is an older method of computing similarity.
 
 ## Shortest Path
+heading:: 2
 
 There are also algorithms for finding the shortest paths between your notes.
 
@@ -82,6 +88,7 @@ The [logseq graph analysis plugin](https://github.com/trashhalo/logseq-graph-ana
 [@trashhalo](https://twitter.com/trashhalo/status/1541809751344005121)'s [logseq graph analysis plugin](https://github.com/trashhalo/logseq-graph-analysis)
 
 ## Co-Citations
+heading:: 2
 
 Co-citation is the frequency with which two documents are cited together by other documents.
 
@@ -94,6 +101,7 @@ The more co-citations two documents receive, the higher their co-citation streng
 - [Wikipedia](https://en.wikipedia.org/wiki/Co-citation)
 
 ## Community Detection
+heading:: 2
 
 ![image.png](/assets/image_1662087262978_0.png)
 
@@ -110,6 +118,7 @@ Community detection is **specifically tailored for network analysis** and depend
 [See this guide to Community Detection Algorithms for more](https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae)
 
 ## Label Propagation
+heading:: 2
 
 ![image.png](/assets/image_1662087274720_0.png)
 
@@ -120,6 +129,7 @@ Given a "label" like "liking cricket," can we predict how likely someone is to l
 [See this guide for more](https://towardsdatascience.com/label-propagation-demystified-cd5390f27472)
 
 # Summarization
+heading:: 1
 
 ![image.png](/assets/image_1662087287500_0.png)
 
@@ -134,12 +144,14 @@ There are two types of machine summarization: **Extractive** (the old way, based
 The older extractive methods are fast and free, but the new abstractive methods produce beautiful summaries that are original explanations instead of just key sentences pulled from the article.
 
 ## Extractive Summarization
+heading:: 2
 
 Extractive summarization is the traditional method that pulls out the most significant sentences in a document.
 
 The summary from Extractive Summarization is written using almost the same sentences from the original text.
 
 ### TextRank
+heading:: 3
 
 TextRank is an extractive summarization technique.
 
@@ -150,6 +162,7 @@ It is similar to Google's PageRank algorithm, which decides the websites to show
 Other methods are based on this same idea, including "Inverse Document Frequency," which ranks the importance of words based on how "rare" they are in other documents.
 
 ## Abstractive Summarization
+heading:: 2
 
 Abstract summarization is a state-of-the-art method that rephrases the text and generates new original phrases.
 
@@ -164,8 +177,10 @@ Out of all these, the best by far is OpenAI's GPT-3, but it is expensive.
 [For more, read here](https://www.machinelearningplus.com/nlp/text-summarization-approaches-nlp-example/)
 
 # Semantic Search and Vector Embeddings
+heading:: 1
 
 ## Semantic Search
+heading:: 2
 
 "Semantic Search" is a way of searching documents by meaning instead of just keywords.
 
@@ -174,6 +189,7 @@ For example, you could search for pages on food, and a page on burritos would ap
 Most techniques around semantic search involve breaking down the text into "vector embeddings," which are representations that can be searched in systems like "vector databases."
 
 ## Vector Embeddings
+heading:: 2
 
 Vector embeddings are central to many NLP, recommendation, and search algorithms.
 
@@ -192,33 +208,36 @@ For example, words like "king” and “queen” and “prince” will all clust
 We can use tools to explore the similarity of these words in 3D space.
 
 ### Exploring Similar Words in 3D Space
+heading:: 3
 
 
-  
 
 Words most similar to "football" in meaning
 
 ![football.jpg](/assets/football_1672273858980_0.jpg)
 
-{% tweet "Bsunter", "1543295071860035584" %}
+{{< tweet user="Bsunter" id="1543295071860035584" >}}
 
 Words Similar to "guitar"
 
-{% tweet "Bsunter", "1543295726402187264" %}
+{{< tweet user="Bsunter" id="1543295726402187264" >}}
 
 #### All Words
+heading:: 4
 
-{% tweet "Bsunter", "1543323775185235968" %}
+{{< tweet user="Bsunter" id="1543323775185235968" >}}
 
 #### Handwritten numbers
+heading:: 4
 
 Handwritten numbers are shown in terms of visual similarity to each-other
 
 You can see that "7" is similar to "9", so these numbers are grouped closely together in 3D space.
 
-{% tweet "Bsunter", "1543323996644487168" %}
+{{< tweet user="Bsunter" id="1543323996644487168" >}}
 
 # GPT-3 and Large Language Models
+heading:: 1
 
 GPT-3 is a model made by OpenAI, based on a "transformer architecture." GPT-3 was trained in an unsupervised manner on a large amount of text gathered online.
 
@@ -245,6 +264,7 @@ Most AI until now has focused on analysis, but I'm excited by the generative cap
 Using the [OpenAI Fine Tuning API](https://beta.openai.com/docs/guides/fine-tuning),we can build very powerful "prompts"
 
 ## OpenAI Embeddings
+heading:: 2
 
 OpenAI also has a system to process text and images into "vector embeddings" that can be used in NLP and machine learning algorithms.
 One exciting thing about OpenAI is its method processes text and images into the same 3d space. That means that you can see how similar conceptually words are to images and vice versa.
@@ -252,12 +272,14 @@ One exciting thing about OpenAI is its method processes text and images into the
 [For more, read here](https://towardsdatascience.com/gpt-3-a-complete-overview-190232eb25fd)
 
 # Traditional NLP
+heading:: 1
 
 You can still accomplish much with older techniques that look more at words than conceptually.
 
 These methods are cheaper and faster, so they should be used whenever possible.
 
 ## Sentiment Analysis
+heading:: 2
 
 Sentiment analysis detects the emotion of the text and grades it as positive or negative.
 
@@ -268,6 +290,7 @@ For example, just by reading your movie review, a machine can tell if you liked 
 - [Source](https://www.expressanalytics.com/blog/social-media-sentiment-analysis)
 
 ## Entity Recognition
+heading:: 2
 
 You can use NLP to extract "important" things from plain text, such as person names, organizations, locations, time, etc.
 
@@ -278,6 +301,7 @@ This could pull certain critical pieces of information out of your notes like pe
 [Source](https://umagunturi789.medium.com/everything-you-need-to-know-about-named-entity-recognition-2a136f38c08f)
 
 ## Text Classification
+heading:: 2
 
 Text can be organized into groups, either by simple rules or statistics.
 
@@ -285,11 +309,10 @@ One example of simple machine-based classification is a "bag of words" represent
 
 You could imagine using this to suggest backlinks in your notes or finding similar notes.
 
-![image.png](/assets/image_1662087333307_0.png)
-
 - [Source](https://www.programmersought.com/article/4304366575/)
 
 ## Keyword Extraction
+heading:: 2
 
 Keyword extraction algorithms like TextRank allow you to find the essential words in a text and how they're related.
 
@@ -297,11 +320,10 @@ These are also good ideas for backlinks or similar pages.
 
 ![image.png](/assets/image_1662087346012_0.png)
 
-![image.png](/assets/image_1662087353849_0.png)
-
 - [Source](https://towardsdatascience.com/textrank-for-keyword-extraction-by-python-c0bae21bcec0)
 
 # Conclusion
+heading:: 1
 
 I hope you enjoyed this overview of NLP and AI techniques relevant to note-taking.
 

@@ -22,11 +22,12 @@ start-date:
 - Jun 26th, 2022
 profile-visits: 42200
 description: This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ![image.png](/assets/image_1662087305440_0.png)
 
 # Summary and Reflection 🤔
+heading:: 1
 
 This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
 
@@ -35,16 +36,20 @@ We are living in an exciting time for AI right now. Several new cutting-edge tec
 I also include some articles about Yann LeCun, head of AI at Meta (Facebook), who has many exciting ideas about the future of AI. This week he put out a research roadmap on what he thinks is a potential path forward to human-level artificial intelligence.
 
 # Updates 🆕
+heading:: 1
 
-## [notetaking-with-AI]({% sref "/pages/notetaking-with-AI" %})
+## [notetaking-with-AI]({{< sref "/pages/notetaking-with-AI" >}})
+heading:: 2
 
 See this guide to learn how you can use the latest AI techniques for personal knowledge management.
 
 # Productivity Toolkit 🛠️
+heading:: 1
 
 In this section, I'll share a productivity tip I've learned recently.
 
 ## [[logseq-tasks]]
+heading:: 2
 
 In this guide, I write a basic tutorial on how to use Logseq for task management.
 
@@ -55,18 +60,21 @@ The tasks determine what notes I write based on the projects I'm working on.
 One of the most powerful ideas of Logseq is mixing your tasks throughout your pages and notes, then organizing and grouping them with queries.
 
 # Brain Food 🧠
+heading:: 1
 
 In this section, I'll share some interesting articles and "food for thought"
 
 Yann LeCun is the head of AI at Meta (Facebook) and one of the top AI researchers in the world.
 
 ## Quote
+heading:: 2
 
 LeCun believes that machines observing the world aren't nearly enough for them to become intelligent. Real progress will happen when machines can take action in the real world and learn from the consequences of their actions, observing with the most high-fidelity inputs possible, like vision and sound.
 
 > What's missing (from AI) is a principle that would allow our machine to learn how the world works by observation and by interaction with the world. A learning predictive world model is what we're missing today, and in my opinion is the biggest obstacle to significant progress in AI.”
 
 ## Link of the week
+heading:: 2
 
 I highly recommend this article for hearing about his vision for the future of AI. [A bold new vision for the future of AI](https://www.technologyreview.com/2022/06/24/1054817/yann-lecun-bold-new-vision-future-ai-deep-learning-meta/?utm_medium=tr_social&utm_campaign=site_visitor.unpaid.engagement&utm_source=Twitter)
 
@@ -121,6 +129,7 @@ Take a look at these interviews and his new paper for more about Yann LeCun and 
 [A Path Towards Autonomous Machine Intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf)
 
 # Analytics 📈
+heading:: 1
 
 I can't believe the newsletter has already grown to over 100 subscribers!
 
@@ -129,6 +138,7 @@ It's doubling almost every week, going from 10 -> 30 -> 60 -> 120 -> ??
 That is already way more people than I was expecting. Knowing even a few people are looking at this motivates me to continue creating and posting high quality notes.
 
 # Outro
+heading:: 1
 
 I hope you enjoyed this week's newsletter.
 
@@ -136,4 +146,4 @@ Next week, we'll continue with more Logseq guides, like how to manage projects.
 
 I'll also get started on my data structures and algorithms guide with an intro. In future issues, we'll build up this guide on algorithms in great detail. Hopefully, this will help others learn algorithms and showcase my approach to note-taking.
 
-Check out the [newsletter-roadmap]({% sref "/pages/newsletter-roadmap" %}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)

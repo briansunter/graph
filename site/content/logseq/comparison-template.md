@@ -5,10 +5,12 @@ tags:
 date: 2022-07-10
 title: comparison-template
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
-[comparison-template]({% sref "/pages/comparison-template" %})
+[comparison-template]({{< sref "/pages/comparison-template" >}})
 template:: comparison
+template-including-parent:: false
+
 |Option|Pros|Cons|Notes|
 |--|--|--|--|
 |Option A| | | | 

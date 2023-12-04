@@ -13,13 +13,15 @@ tags:
 - notetaking
 - logseq
 description: I've started using GPT-3 to create text summaries, outlines and perform many other AI-powered tasks directly within the Logseq notetaking app using a new plugin I developed.
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 ![image.png](/assets/image_1661149276371_0.png)
 
 ### [Link to the `logseq-plugin-gpt3-openai` project on GitHub](https://github.com/briansunter/logseq-plugin-gpt3-openai)
+heading:: 3
 
 ## What is Logseq and GPT-3?
+heading:: 2
 
 [Logseq](https://logseq.com/) is an open-source bullet point notetaking app. I recently wrote an AI text generation plugin for it powered by the [OpenAI company](https://openai.com/)'s GPT-3 API.
 GPT-3 is a machine learning model that can generate human-like text from a given prompt. You type a command as you would to a human and run the Logseq  `gpt3` command, and it then inserts a response underneath.
@@ -27,6 +29,7 @@ GPT-3 is a machine learning model that can generate human-like text from a given
 Let's use the plugin to ask `What is OpenAI GPT3?`.
 
 ## How to get started
+heading:: 2
 
 Here are the steps on how to get started with the plugin.
 
@@ -45,30 +48,38 @@ Write a gpt-3 command in a block and type `/gpt3` or right click on the block me
 Visit the [OpenAI Examples Page](https://beta.openai.com/examples/) to understand what types of questions you can ask.
 
 ## Text Summarization
+heading:: 2
 
 The original motivation for the project was text summarization. After reading an article, I wanted to turn the paper into a summary to look back on for my notes. GPT-3 does an incredible job of turning long text into a few-sentence summary. Keeping these short summaries in my notes helps me remember what I read. GPT-3 often does a better job summarizing text than I could do by hand.
 
 ## Text Generation
+heading:: 2
 
 The most impressive feature of GPT-3 is the text generation. You can ask it to write many different kinds of things, and sometimes its answers are a bit off or unpredictable, but it's usually a good starting point for you to edit down yourself. It generates a surprisingly good workout routine.
 
 ## Code Explanation
+heading:: 2
 
 GPT-3 can do a decent job of explaining code in human-readable English. It's a hit or miss, and sometimes it's overly robotic, but occasionally it writes an excellent explanation and shows an impressively high-level understanding of the algorithm. The plugin uses the same technology as [Github Copilot](https://copilot.github.com/). In addition to explaining code, it can write code to do a given task or translate code into different programming languages.
 
 ### Max Profit Leetcode Question Explanation
+heading:: 3
 
 ### Bubble Sort Algorithm Explanation
+heading:: 3
 
 ## Create tables of data
+heading:: 2
 
 You can ask it to create tables of data from scratch. If you want to watch the top-rated IMDb movies of all time, you can request the AI to make you a table with the movie title, rating, and IMDb link.
 
 ## Create Study Plan
+heading:: 2
 
 If you want to learn a new topic, the AI can create a study plan for you to get an overview of the field.
 
 ## Conclusion
+heading:: 2
 
 I've found the gpt-3 plugin extremely useful for text summarization. If you give it a text block, it can reliably create a beautiful summary.
 

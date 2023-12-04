@@ -3,27 +3,29 @@ title: logseq-social/profile
 date: 2022-08-21
 tags:
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 # "Follow" me on logseq
+heading:: 1
 
 ^^<---^^ To follow me, make a page on your graph called [[logseq-social/profile/bsunter]] with the page properties that are nested under this block. Learn more at [logseq-social](https://briansunter.com/graph/#/page/logseq-social)
 
 ```		  public:: true
-			  type:: logseq-social/profile
-			  logseq-social/version:: 0.0.1
-			  logseq-social/id:: bsunter
-			  logseq-social/name:: Brian Sunter
-			  logseq-social/tags:: #logseq #productivity #programming #health
-			  logseq-social/avatar:: https://briansunter.com/images/blog/author.jpg
-			  logseq-social/about:: Software Engineer in San Francisco interested in coding, productivity, and health.
-			  logseq-social/public-graph:: https://briansunter.com/graph
-			  logseq-social/twitter:: [bsunter](https://twitter.com/Bsunter)
-			  title:: logseq-social/profile/bsunter
+	  type:: logseq-social/profile
+	  logseq-social/version:: 0.0.1
+	  logseq-social/id:: bsunter
+	  logseq-social/name:: Brian Sunter
+	  logseq-social/tags:: #logseq #productivity #programming #health
+	  logseq-social/avatar:: https://briansunter.com/images/blog/author.jpg
+	  logseq-social/about:: Software Engineer in San Francisco interested in coding, productivity, and health.
+	  logseq-social/public-graph:: https://briansunter.com/graph
+	  logseq-social/twitter:: [bsunter](https://twitter.com/Bsunter)
+	  title:: logseq-social/profile/bsunter
 r
 ```
 
 # About Me
+heading:: 1
 
 Hey everyone! 👋 My name is Brian Sunter. I'm a software engineer in San Francisco.  I've been taking notes since I opened a .docx file 15 years ago and started writing down my feelings in a stream of consciousness.  I hope to share some things I found useful with you all!
 
@@ -38,6 +40,7 @@ I'm on a relentless quest to learn everything. I have a philosophy that everythi
 I'm constantly inspired by what you all are doing, so I hope you find this interesting! Feel free to get in touch any time.
 
 # Social Profiles
+heading:: 1
 
 If you want to follow what I'm doing, I'm posting links to my public graph on twitter   
 https://twitter.com/Bsunter

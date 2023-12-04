@@ -9,12 +9,14 @@ tags:
 calories: 200
 source: https://www.joshuaweissman.com/post/making-texas-roadhouse-rolls-at-home-but-better
 ingredients: 
-title: texas roadhouse rolls
-lastMod: 2023-09-27
+title: Texas Roadhouse rolls
+lastMod: 2023-10-28
 ---
 ## INGREDIENTS:
+heading:: 2
 
 ### Roadhouse Rolls
+heading:: 3
 
 3.25 teaspoons instant yeast - 12g
 
@@ -39,6 +41,7 @@ lastMod: 2023-09-27
 Smoked flakey salt
 
 ### Charred Cinnamon Honey Butter:
+heading:: 3
 
 3 cinnamon sticks, lightly charred, broken into tiny pieces by pounding
 
@@ -59,6 +62,7 @@ Smoked flakey salt
 1 vanilla bean, scraped of beans
 
 ## INSTRUCTIONS:
+heading:: 2
 
 Roadhouse Rolls (around 65-68% hydration)
 
@@ -81,11 +85,13 @@ Take the wrap off, spray them with water and immediately put them in the oven fo
 Brush each one of the buns with melted butter, and sprinkle some smoked flaky salt on top.
 
 ### Cinnamon Honey Butter:
+heading:: 3
 
 Place the softened butter, salt, a black pepper pinch, two teaspoons of cinnamon powder, a pinch of freshly grated nutmeg, and the beans of a vanilla bean pod in a mixing bowl and whisk until smooth. Add powder sugar and whisk vigorously to incorporate some air.
 
 Add and incorporate honey.
 
 ## Notes
+heading:: 2
 
 (65-68% hydration)

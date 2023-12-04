@@ -11,7 +11,7 @@ description: Large language models have a number of interesting properties
 coverimage: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 blogtitle: Why Large Language Models are Interesting
 title: why-large-language-models-are-interesting
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
 I continue to be interested in this new AI technology called "Large Language Models" (LLMs)
 
@@ -22,6 +22,7 @@ They were trained by analyzing massive amounts of text from Wikipedia and Reddit
 I think they are interesting for three reasons:
 
 ### Natural Language Interface
+heading:: 3
 
 First, you can interact with the text generation capabilities using natural language instead of code.
 
@@ -31,11 +32,10 @@ This is a new way of coding, where you can use English language to perform valua
 
 There's exciting research in this area, such as Google's "PromptChainer," which lets you build AI-enabled apps by chaining together these English commands using a visual interface.
 
-![FhuU9ZRUUAEXf9e.jpeg](/assets/FhuU9ZRUUAEXf9e_1669150904874_0.jpeg)
-
 AI-enabled "no code" interfaces like this could allow non-programmers to perform useful tasks and create powerful applications.
 
 ### Generality and Emergence
+heading:: 3
 
 Second, LLMs extremely general and can perform a wide variety of tasks, even things they weren't originally trained to do. Earlier AI models could only perform tasks they were explicitly trained to do, like summarization or translation. GPT-3 can do things like multiply numbers, even though it wasn't trained to do multiplication.
 
@@ -52,6 +52,7 @@ This opens up the exciting possibility that by feeding AI more data, it can gain
 We see similar behavior in "reinforcement learning," like Google's Alpha Zero Go board game engine. Instead of experts building strategies for board games, like a database of optimal opening and endgame moves, these systems teach themselves by playing millions of games against themselves. This allows them to develop strategies the creators couldn't have imagined.
 
 ### Semantic Search and Classification
+heading:: 3
 
 Third, in addition to generating text, these models can also be used for search and classification. Instead of just searching for words that appear in the text, they can find text with similar meanings.
 

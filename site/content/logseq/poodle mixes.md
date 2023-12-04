@@ -4,14 +4,12 @@ tags:
 - gpt3
 blogtitle: Generating Poodle Mix Names with AI
 description: With a few examples of poodle mixes, it is able to generate names for every poodle mix
-coverimage: /assets/sheepadoodle_1672271478535_0.png
 title: poodle mixes
 categories:
-lastMod: 2023-09-27
+lastMod: 2023-10-28
 ---
-![sheepadoodle.png](/assets/sheepadoodle_1672271478535_0.png)
-
 # Generating Poodle Mix Names with AI
+heading:: 1
 
 Openai [[gpt3]] is good at generating ideas given a few examples.
 
@@ -31,6 +29,7 @@ Poodle + Afghan Hound = Afganipoo
 background-color:: #978626
 
 # Poodle Mix Names
+heading:: 1
 
 | Breed | Poodle Mix Name |
 | --- | --- |
