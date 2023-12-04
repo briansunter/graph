@@ -29,9 +29,10 @@ export async function getFiles(): Promise<Record<string, Page>> {
     const f = (await files[page]()) as ProcessedPage;
     const props = f.data.matter as PageProps;
     const url = ensureStartsWithSlash(props.permalink || filePathToURL(page));
+    const title = props.blogtitle || path.basename(page, ".md");
     const p: Page = {
       permalink: url,
-      title: props.blogtitle,
+      title: title,
       description: props.description,
       originalFile: page,
       content: f.html,
