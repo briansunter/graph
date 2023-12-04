@@ -29,9 +29,9 @@ export function remarkLazyLoadImages() {
 
 
           node.properties.style = `background-image: url(${lowQualityImage});
-                                      object-fit: cover;
+                                      object-fit: contain;
                                       background-repeat: no-repeat;
-                                      background-size: cover;
+                                      background-size: contain;
                                       background-position: center center; 
                                       height: ${lastHeight}px;
                                       width: 100%;`;
