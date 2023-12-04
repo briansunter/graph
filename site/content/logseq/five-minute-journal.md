@@ -4,12 +4,11 @@ tags:
 - blog
 - writing
 - logseq
-url: /blog/five-minute-journal
 coverimage: /assets/image_1661064164296_0.png
 description: Daily journal prompts and the 5 minute journal have been helpful to improve my writing skills, productivity, self-awareness, and thinking. I've included a list of journal prompts and journal questions I use for daily journaling , including the five minute journal writing prompts.
 title: five-minute-journal
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-03
 ---
 ![image.png](/assets/image_1661064164296_0.png)
 

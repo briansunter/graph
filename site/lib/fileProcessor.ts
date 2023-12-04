@@ -2,7 +2,7 @@ import path from "path";
 import { ImageProcessor } from "./ImageProcessor";
 import { Page, PageProps } from "../pages/pages/+onBeforeRender";
 import { ProcessedPage } from "./remark-vite";
-
+import { globalRedirects } from "./redirects";
 const imageProcessor = ImageProcessor.getInstance();
 const files: Record<string, () => Promise<any>> = import.meta.glob("../content/logseq/**/*.md");
 
@@ -21,6 +21,7 @@ function filePathToURL(filePath: string): string {
   return ensureStartsWithSlash(relativePath);
 }
 
+
 export async function getFiles(): Promise<Record<string, Page>> {
   const urlToPageMap: Record<string, Page> = {};
   const supportedImages = [".png", ".jpg", ".jpeg", ".webp", ".gif"];
@@ -29,6 +30,7 @@ export async function getFiles(): Promise<Record<string, Page>> {
     const f = (await files[page]()) as ProcessedPage;
     const props = f.data.matter as PageProps;
     const url = ensureStartsWithSlash(props.permalink || filePathToURL(page));
+    //title or default based on filename
     const title = props.blogtitle || path.basename(page, ".md");
     const p: Page = {
       permalink: url,
@@ -69,6 +71,21 @@ export async function getFiles(): Promise<Record<string, Page>> {
         urlToPageMap[alias] = aliasPage;
       }
     }
+
+
   }
+
+  for (const redirect in globalRedirects) {
+    const redirectPage: Page = {
+      isAlias: true,
+      permalink: redirect,
+      originalFile: null,
+      content: `<meta http-equiv="refresh" content="0; URL='${globalRedirects[redirect]}'" />
+       <link rel="canonical" href="${globalRedirects[redirect]}" />`,
+      props: {},
+    };
+    urlToPageMap[redirect] = redirectPage;
+  }
+
   return urlToPageMap;
 }

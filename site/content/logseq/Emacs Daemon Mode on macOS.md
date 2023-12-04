@@ -1,5 +1,5 @@
 ---
-url: blog/emacs-daemon-macos
+permalink: blog/emacs-daemon-macos
 title: Emacs Daemon Mode on macOS
 date: 2019-06-25
 coverimage: /assets/image_1661148998101_0.png
@@ -9,7 +9,7 @@ tags:
 - emacs
 categories:
 - programming
-lastMod: 2023-10-28
+lastMod: 2023-12-03
 ---
 ![image.png](/assets/image_1661148998101_0.png)
 
