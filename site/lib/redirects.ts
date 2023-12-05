@@ -51,4 +51,3 @@ export const globalRedirects: Record<string, string> = {
     "/blog/gtp3-openai-logseq-notetaking": "/gtp3-openai-logseq-notetaking",
     "/blog/cooklang": "/cooklang",
 };
-

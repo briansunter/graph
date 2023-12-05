@@ -26,18 +26,24 @@ export interface Page {
 
 const files = await getFiles();
 
-export default async function onBeforeRender(pageContext: PageContextBuiltInServer) {
-  const { name } = pageContext.routeParams
+export default async function onBeforeRender(
+  pageContext: PageContextBuiltInServer
+) {
+  const { name } = pageContext.routeParams;
 
   const pagesWithTag = Object.values(files).filter((page) => {
     return page.props.tags && page.props.tags.includes(name);
   });
 
+  const capitalizedPageTitle = name.charAt(0).toUpperCase() + name.slice(1);
+
   return {
     pageContext: {
-      title: `Tags: ${name}`,
+      title: `${name}`,
       description: `Posts tagged with ${name}`,
-      pageProps: { pages: pagesWithTag },
+      pageProps: {
+        pages: pagesWithTag,
+      },
     },
-  };
+  }
 }
