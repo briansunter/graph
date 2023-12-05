@@ -26,7 +26,7 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
       url: `/tags/${tag}`,
       pageContext: {
         title: `${capitalizedPageTitle}`,
-        description: `Posts tagged with ${name}`,
+        description: `Posts tagged with ${tag}`,
         pageProps: {
           title: capitalizedPageTitle,
           pages: pagesWithTag,
