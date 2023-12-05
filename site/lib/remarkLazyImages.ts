@@ -26,6 +26,7 @@ export function remarkLazyLoadImages() {
             node.properties.src
           );
           const lastHeight = responsiveSizes[responsiveSizes.length - 1].height;
+          const lastWidth = responsiveSizes[responsiveSizes.length - 1].width;
 
 
           node.properties.style = `background-image: url(${lowQualityImage});
@@ -37,6 +38,7 @@ export function remarkLazyLoadImages() {
                                       width: 100%;`;
 
           node.properties.height = Math.min(lastHeight,500);
+          node.properties.width = lastWidth;
           node.properties.loading = "lazy";
           node.properties.srcset = responsiveSizes
             .map((size: ImageData) => size.srcset)
