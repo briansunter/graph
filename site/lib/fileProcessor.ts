@@ -3,6 +3,7 @@ import { ImageProcessor } from "./ImageProcessor";
 import { Page, PageProps } from "../pages/pages/+onBeforeRender";
 import { ProcessedPage } from "./remark-vite";
 import { globalRedirects } from "./redirects";
+
 const imageProcessor = ImageProcessor.getInstance();
 const files: Record<string, () => Promise<any>> = import.meta.glob("../content/logseq/**/*.md");
 
@@ -20,7 +21,6 @@ function filePathToURL(filePath: string): string {
     .split(".")[0]; // Remove the file extension
   return ensureStartsWithSlash(relativePath);
 }
-
 
 export async function getFiles(): Promise<Record<string, Page>> {
   const urlToPageMap: Record<string, Page> = {};
@@ -71,8 +71,6 @@ export async function getFiles(): Promise<Record<string, Page>> {
         urlToPageMap[alias] = aliasPage;
       }
     }
-
-
   }
 
   for (const redirect in globalRedirects) {

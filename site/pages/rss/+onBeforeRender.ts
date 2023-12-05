@@ -33,7 +33,7 @@ const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBe
     if (props.responsiveCoverImage && props.responsiveCoverImage.length > 0) {
       const lastImage = props.responsiveCoverImage[props.responsiveCoverImage.length - 1];
       const imageUrl = `${domain}/assets/${lastImage.hashedFilename}`;
-      imageLine = `<image>${imageUrl}</image>`; // or use <enclosure url="${imageUrl}" /> depending on RSS reader support
+      imageLine = `<image>${imageUrl}</image>`; 
     }
 
     return `
@@ -51,9 +51,9 @@ const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBe
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
       <channel>
-        <title>Your Blog Title</title>
+        <title>Brian Sunter's Blog</title>
         <link>${domain}</link>
-        <description>Your Blog Description</description>
+        <description>A blog about programming and productivity</description>
         ${rssItems}
       </channel>
     </rss>

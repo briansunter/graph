@@ -33,10 +33,10 @@ export function remarkLazyLoadImages() {
                                       background-repeat: no-repeat;
                                       background-size: contain;
                                       background-position: center center; 
-                                      height: ${lastHeight}px;
+                                      height: ${Math.min(lastHeight,500)}px;
                                       width: 100%;`;
 
-          node.properties.height = lastHeight;
+          node.properties.height = Math.min(lastHeight,500);
           node.properties.loading = "lazy";
           node.properties.srcset = responsiveSizes
             .map((size: ImageData) => size.srcset)
