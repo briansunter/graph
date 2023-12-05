@@ -21,10 +21,17 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
     const pagesWithTag = Object.values(urlToPageMap).filter((page) => {
       return page.props.tags && page.props.tags.includes(tag);
     });
-
+    const capitalizedPageTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
     return {
       url: `/tags/${tag}`,
-      pageContext: {pageProps: {pages: pagesWithTag}},
+      pageContext: {
+        title: `${capitalizedPageTitle}`,
+        description: `Posts tagged with ${name}`,
+        pageProps: {
+          title: capitalizedPageTitle,
+          pages: pagesWithTag,
+        },
+      },
     };
   });
 
