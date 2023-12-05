@@ -39,9 +39,10 @@ export default async function onBeforeRender(
 
   return {
     pageContext: {
-      title: `${name}`,
+      title: `${capitalizedPageTitle} | ${pageContext.config.title}`,
       description: `Posts tagged with ${name}`,
       pageProps: {
+        title: capitalizedPageTitle,
         pages: pagesWithTag,
       },
     },
