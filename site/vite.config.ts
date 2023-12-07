@@ -52,16 +52,15 @@ const config: UserConfig = {
       .use(remarkPrism)
       .use(wikilinkPlugin, {
         pageResolver: (name) => [name.replace(/ /g, '=').toLowerCase()],
-        hrefTemplate: (permalink: string) => `/${permalink}`,
-      })
+        hrefTemplate: (permalink: string) => `/${permalink}`,})
       .use(remarkRehype, { allowDangerousHtml: true })
+      .use(rehypeKatex, {output: 'html',})
       .use(rehypeConvertMp4ImgToVideo)
       .use(remarkTweetPlugin)
       .use(rehypeYoutubeEmbed)
       .use(rehypeYoutubeTimestampEmbed)
       .use(rehypeRaw)
       .use(remarkLazyLoadImages)
-      .use(rehypeKatex)
       .use(rehypeRemoveLogseqBlocks)
       .use(rehypeStringify),
     //   remarkHtml.default( { exclude: /\/node_modules\//,

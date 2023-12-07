@@ -35,6 +35,7 @@ export function remarkLazyLoadImages() {
                                       background-size: contain;
                                       background-position: center center; 
                                       height: ${Math.min(lastHeight,500)}px;
+                                      border-radius: 4px;
                                       width: 100%;`;
 
           node.properties.height = Math.min(lastHeight,500);

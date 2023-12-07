@@ -28,8 +28,8 @@ const distPath = path.join(process.cwd(), 'dist')
     })
   ).middlewares
 
-  app.use(express.static(`${process.cwd()}/dist/client/`))
   app.use(viteDevMiddleware)
+  app.use(express.static(`${process.cwd()}/dist/client/`))
 
   app.get('*', async (req, res, next) => {
     const userAgent = req.headers['user-agent']

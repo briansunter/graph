@@ -2,6 +2,7 @@ import { Page as PageType } from './+onBeforeRender';
 import { Navbar } from '../../components/Navbar';
 import { Tag } from '../../components/Tag';
 import { ImageData } from '../../lib/ImageProcessor';
+import '../../renderer/css/katex.min.css'
 export { Page };
 
 interface Props {

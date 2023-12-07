@@ -25,6 +25,9 @@ const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBe
     }
 
     // Conditional rendering of title and description
+    if(!title){
+      console.error(`Missing title for page ${permalink}`);
+    }
     const titleLine = title ? `<title>${title}</title>` : '';
     const descriptionLine = description ? `<description>${description}</description>` : '';
 

@@ -36,7 +36,11 @@ Suppose we want to search for key element 42 in this list
 
 `[3,6,8,12,14,17,25,29,31,36,42,47,53,55,62]`
 
-`middle` is the floor of $\frac{\text{low} + \text{high}}{2}$
+`middle` is the floor of 
+
+$$
+\frac{\text{low} + \text{high}}{2}
+$$
 
 {{< logseq/orgNOTE >}}His examples used starting index of 1, but I changed it to index starting at 0 in these notes. I also changed end index to length-1
 {{< / logseq/orgNOTE >}}
@@ -172,7 +176,9 @@ We use case 2 from the master's theorem
 
 We can think of the recurrence relation as $T(n)=1*T(\frac{n}{2}) + 1$
 
-Remember the master's theorem $T(n)=a * T(\frac{n}{b}) + f(n)$
+Remember the master's theorem 
+
+$$T(n)=a * T(\frac{n}{b}) + f(n)$$
 
 In this equation $a=1$ and $b=2$
 
