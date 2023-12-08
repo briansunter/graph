@@ -87,11 +87,12 @@ interface BlogSectionProps {
 export const BlogSection = ({ title, blogAbout, blogPosts=[] }: BlogSectionProps) => {
   return (
     <main className="">
-      <h2 className="text-6xl md:text-6xl font-bold text-center md:text-left">{title}</h2>
-      <p className="text-lg mb-4 md:w-3/4">
+      <h2 className="text-6xl font-bold  text-left">{title}</h2>
+      <p className="lg:text-lg text-3xl mb-4 lg:w-3/4">
         {blogAbout}
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 items-stretch w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 items-stretch w-full">
+
         {blogPosts.map((post, index) => (
           <BlogPostCard key={index} {...post} {...post.props} />
         ))}

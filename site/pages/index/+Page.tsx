@@ -101,7 +101,7 @@ const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons
   return (
     <div>
       <h2 className="text-6xl font-bold">Social</h2>
-      <p className="text-lg mb-4 w-11/12"> 
+      <p className="text-3xl lg:text-lg mb-4 w-11/12"> 
       {socialAbout}
       </p>
       <div className="grid grid-flow-col gap-4 bg-gray-200 w-10/12"> 

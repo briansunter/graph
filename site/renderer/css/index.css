@@ -146,7 +146,7 @@ a {
 }
 
   .home-intro p {
-    @apply text-lg;
+    @apply text-3xl lg:text-lg;
   }
 
 
