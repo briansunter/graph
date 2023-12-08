@@ -92,7 +92,7 @@
 .md-content > h4,
 .md-content > h5,
 .md-content > h6 {
-  @apply mx-auto w-7/12 block
+  @apply mx-auto lg:w-7/12 block
 }
 
 
@@ -133,7 +133,7 @@
     @apply min-w-full divide-y divide-gray-300 my-6;
   }
   .md-content p {
-    @apply text-base text-gray-700 my-4;
+    @apply text-2xl lg:text-base  text-gray-700 my-4;
   }
 
   .md-content th, .md-content td {
