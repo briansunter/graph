@@ -15,22 +15,34 @@ interface ProfileProps {
   aboutDescription: string;
 }
 
-const Profile = ({title, aboutHeader, aboutDescription }:ProfileProps) => {
+const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
   return (
     <div className="bg-gray-200 mb-8 w-11/12">
-      <h1 className="text-9xl font-extrabold text-gray-900 leading-none mb-4">{title}</h1>
-      <div className="md:flex md:items-center">
-        <img src={avatar} alt="Brian Sunter" className="w-64 h-64 rounded-full mx-auto md:mx-0" />
-        <div className="mt-4 md:mt-0 md:ml-6">
-          <h2 className="text-3xl font-semibold text-gray-500 mb-2">{aboutHeader}</h2>
-          <div className="home-intro mr-20" style={{ minHeight: '100px' }}>
-            <div dangerouslySetInnerHTML={{__html: aboutDescription }} />
+      <h1 className="text-6xl sm:text-9xl font-extrabold text-gray-900 leading-none mb-4">{title}</h1>
+      
+      {/* Layout container */}
+      <div className="flex flex-col md:flex-row">
+        
+        {/* Avatar */}
+        <div className="md:flex-shrink-0">
+          <img src={avatar} alt="Profile Image" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full" />
+        </div>
+
+        {/* About Header and Description */}
+        <div className="flex flex-col flex-grow ml-4 justify-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-500 mb-2 justify-center">{aboutHeader}</h2>
+          <div className="home-intro mt-4 lg:mt-0 hidden lg:block " style={{ minHeight: '100px' }}>
+            <div dangerouslySetInnerHTML={{ __html: aboutDescription }} />
           </div>
         </div>
+      </div>
+      <div className="home-intro mt-10 lg:mt-0 lg:hidden" style={{ minHeight: '100px' }}>
+          <div dangerouslySetInnerHTML={{ __html: aboutDescription }} />
       </div>
     </div>
   );
 };
+
 
 const iconModules = import.meta.glob('/static/images/icons/*.svg', { eager: true });
 
@@ -104,7 +116,8 @@ const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons
 const Page = ({socialIcons, blogPosts, blogAbout, homePages, title, socialAbout, aboutHeader, aboutDescription }: PageProps) => {
   return (
     <div className="bg-gray-200 min-w-screen">
-      <div className="container mx-auto px-4 md:px-8 "> 
+      <div className="lg:container lg:mx-auto lg:px-8 "> 
+      
         {/* <Navbar title=""/> */}
         <Profile title={title} aboutHeader={aboutHeader} aboutDescription={aboutDescription}/>
         <SocialLinks socialIcons={socialIcons} socialAbout={socialAbout} />
