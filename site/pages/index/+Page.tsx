@@ -22,8 +22,8 @@ const Profile = ({title, aboutHeader, aboutDescription }:ProfileProps) => {
       <div className="md:flex md:items-center">
         <img src={avatar} alt="Brian Sunter" className="w-64 h-64 rounded-full mx-auto md:mx-0" />
         <div className="mt-4 md:mt-0 md:ml-6">
-          <h2 className="text-2xl font-semibold text-gray-500 mb-2">{aboutHeader}</h2>
-          <div className="md-content mr-20" style={{ minHeight: '100px' }}>
+          <h2 className="text-3xl font-semibold text-gray-500 mb-2">{aboutHeader}</h2>
+          <div className="home-intro mr-20" style={{ minHeight: '100px' }}>
             <div dangerouslySetInnerHTML={{__html: aboutDescription }} />
           </div>
         </div>

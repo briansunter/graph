@@ -18,10 +18,10 @@ module.exports = {
       },
       fontSize: {
         'base': '1.1rem',
-        'lg': '1.4rem',
+        'lg': '1.6rem',
         'xl': '1.8rem',
         '2xl': '2.0rem',
-        '3xl': '2rem',
+        '3xl': '2.5rem',
         '4xl': '3rem',
         '5xl': '3.5rem',
         '6xl': '5rem',

@@ -132,6 +132,9 @@
   .md-content table {
     @apply min-w-full divide-y divide-gray-300 my-6;
   }
+  .md-content p {
+    @apply text-base text-gray-700 my-4;
+  }
 
   .md-content th, .md-content td {
     @apply px-4 py-2 text-left;
@@ -141,4 +144,10 @@
 a {
   @apply underline;
 }
+
+  .home-intro p {
+    @apply text-lg;
+  }
+
+
 
