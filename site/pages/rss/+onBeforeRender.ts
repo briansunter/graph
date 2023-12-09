@@ -15,7 +15,7 @@ const imageProcessor = ImageProcessor.getInstance();
 const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBeforeRenderAsync> => {
   const allPages = await getFiles();
   const domain = pageContext.config.domain; 
-  const rssItems = Object.values(allPages).map((page) => {
+  const rssItems = Object.values(allPages).filter(page=> !page.isAlias).map((page) => {
     const { title, permalink, description, props } = page;
 
     let pubDateLine = '';
@@ -62,7 +62,7 @@ const onBeforeRender: OnBeforeRenderAsync = async (pageContext): ReturnType<OnBe
     </rss>
   `;
 
-  await fs.writeFile("dist/client/rss.xml", rss);
+  await fs.writeFile("dist/client/index.xml", rss);
   return {
     pageContext: {
       pageProps: {
