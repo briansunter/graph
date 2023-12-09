@@ -6,6 +6,7 @@ import { BlogSection } from '../../components/BlogPostPreview';
 import { Navbar } from '../../components/Navbar';
 import { PageProps } from './+onBeforeRender';
 import { useEffect } from 'react';
+import SubstackEmbed, { SubstackSection } from '../../components/SubstackEmbed';
 
 export { Page }
 
@@ -121,6 +122,7 @@ const Page = ({socialIcons, blogPosts, blogAbout, homePages, title, socialAbout,
         {/* <Navbar title=""/> */}
         <Profile title={title} aboutHeader={aboutHeader} aboutDescription={aboutDescription}/>
         <SocialLinks socialIcons={socialIcons} socialAbout={socialAbout} />
+        <SubstackSection title='Newsletter' substackAbout={'Sign up for my newsletter to recieve updates on my projects and ideas. I write about programming, AI, web development, and my personal interests. You can see previous issues in the next section. '} />
         <BlogSection title="Blog" blogPosts={blogPosts} blogAbout={blogAbout}/>
         <BlogSection title="Pages" blogPosts={homePages} blogAbout={blogAbout}/>
       </div>
