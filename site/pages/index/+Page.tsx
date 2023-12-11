@@ -18,12 +18,12 @@ interface ProfileProps {
 
 const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
   return (
-    <div className="bg-gray-200 mb-8 w-11/12">
-      <h1 className="text-6xl sm:text-9xl font-extrabold text-gray-900 leading-none mb-4">{title}</h1>
-      
+    <div className="bg-gray-200 mb-8 w-full lg:w-11/12">
+      <h1 className="text-6xl md:text-8xl lg:text-8xl font-extrabold text-gray-900 leading-none mb-4">{title}</h1>
+
       {/* Layout container */}
       <div className="flex flex-col md:flex-row">
-        
+
         {/* Avatar */}
         <div className="md:flex-shrink-0">
           <img src={avatar} alt="Profile Image" className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full" />
@@ -38,7 +38,7 @@ const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
         </div>
       </div>
       <div className="home-intro mt-10 lg:mt-0 lg:hidden" style={{ minHeight: '100px' }}>
-          <div dangerouslySetInnerHTML={{ __html: aboutDescription }} />
+        <div dangerouslySetInnerHTML={{ __html: aboutDescription }} />
       </div>
     </div>
   );
@@ -60,13 +60,13 @@ const getIcon = (icon: string) => {
   };
 };
 
-function encryptEmail(email:string){
+function encryptEmail(email: string) {
   return email.split("").map((char) => {
     return String.fromCharCode(char.charCodeAt(0) + 1);
   }).join("");
 }
 
-function decryptEmail(encrypedEmail:string){
+function decryptEmail(encrypedEmail: string) {
   return encrypedEmail.split("").map((char) => {
     return String.fromCharCode(char.charCodeAt(0) - 1);
   }).join("");
@@ -75,13 +75,13 @@ function decryptEmail(encrypedEmail:string){
 const SocialMediaIcon = ({ icon, url, name }: { icon: string, url: string, name: string }) => {
   const iconElement = getIcon(icon);
 
-  if (name === 'email'){
-  useEffect(() => {
-    const emailUrl = `mailto:${decryptEmail(url)}`; 
-    setTimeout(() => {
-    document.getElementById(`social-${name}`).setAttribute('href', emailUrl);
-    }, 2000);
-}, []);
+  if (name === 'email') {
+    useEffect(() => {
+      const emailUrl = `mailto:${decryptEmail(url)}`;
+      setTimeout(() => {
+        document.getElementById(`social-${name}`).setAttribute('href', emailUrl);
+      }, 2000);
+    }, []);
   }
 
   return (
@@ -98,14 +98,14 @@ const SocialMediaIcon = ({ icon, url, name }: { icon: string, url: string, name:
 
 type SocialIcons = typeof socialIcons.social;
 
-const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
+const SocialLinks = ({ socialIcons = [], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
   return (
     <div>
       <h2 className="text-6xl font-bold">Social</h2>
-      <p className="text-3xl lg:text-lg mb-4 w-11/12"> 
-      {socialAbout}
+      <p className="text-3xl lg:text-lg mb-4 w-11/12">
+        {socialAbout}
       </p>
-      <div className="grid grid-flow-col gap-4 bg-gray-200 w-10/12"> 
+      <div className="grid grid-flow-col gap-4 bg-gray-200 w-10/12">
         {socialIcons.map((icon) =>
           <SocialMediaIcon key={icon.icon} {...icon} />
         )}
@@ -114,17 +114,16 @@ const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons
   );
 }
 
-const Page = ({socialIcons, blogPosts, blogAbout, homePages, title, socialAbout, aboutHeader, aboutDescription }: PageProps) => {
+const Page = ({ socialIcons, blogPosts, blogAbout, homePages, title, socialAbout, aboutHeader, aboutDescription }: PageProps) => {
   return (
     <div className="bg-gray-200 min-w-screen">
-      <div className="lg:container lg:mx-auto lg:px-8 "> 
-      
+      <div className="lg:container lg:mx-auto lg:px-8 ">
         {/* <Navbar title=""/> */}
-        <Profile title={title} aboutHeader={aboutHeader} aboutDescription={aboutDescription}/>
+        <Profile title={title} aboutHeader={aboutHeader} aboutDescription={aboutDescription} />
         <SocialLinks socialIcons={socialIcons} socialAbout={socialAbout} />
         <SubstackSection title='Newsletter' substackAbout={'Sign up for my newsletter to recieve updates on my projects and ideas. I write about programming, AI, web development, and my personal interests. You can see previous issues in the next section. '} />
-        <BlogSection title="Blog" blogPosts={blogPosts} blogAbout={blogAbout}/>
-        <BlogSection title="Pages" blogPosts={homePages} blogAbout={blogAbout}/>
+        <BlogSection title="Blog" blogPosts={blogPosts} blogAbout={blogAbout} />
+        <BlogSection title="Pages" blogPosts={homePages} blogAbout={blogAbout} />
       </div>
     </div>
   );

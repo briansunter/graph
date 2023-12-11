@@ -24,10 +24,10 @@ module.exports = {
         '3xl': '2.5rem',
         '4xl': '3rem',
         '5xl': '3.5rem',
-        '6xl': '5rem',
+        '6xl': '6rem',
         '7xl': '6rem',
-        '8xl': '6rem',
-        '9xl': '11rem',
+        '8xl': '8rem',
+        '9xl': '10rem',
       },
       fontFamily: {
         'header': ['Inter', 'sans-serif'],
