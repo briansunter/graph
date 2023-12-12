@@ -26,9 +26,7 @@ const onBeforeRender: OnBeforeRenderAsync = async (
   pageContext
 ): ReturnType<OnBeforeRenderAsync> => {
   const f = await getFiles();
-  const blogPosts = await Promise.all(
-    Object.values(f)
-  );
+  const blogPosts = Object.values(f);
 
   const homeBlogPosts = blogPosts.filter((post) => post.props.tags && post.props.tags.includes("newsletter"))
   .sort((b, a) => DateTime.fromISO(a.props.date).toMillis() - DateTime.fromISO(b.props.date).toMillis());

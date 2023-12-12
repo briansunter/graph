@@ -20,24 +20,21 @@ function getRandomGradient() {
 export const BlogPostCard = ({
   title,
   description,
-  responsiveCoverImage,
-  coverPlaceholder,
-  coverimage,
   tags,
-  date,
-  permalink
+  permalink,
+  props,
 }: BlogPostCardProps) => {
-  const formattedDate = DateTime.fromISO(date).toLocaleString(DateTime.DATE_MED);
+  const formattedDate = DateTime.fromISO(props.date).toLocaleString(DateTime.DATE_MED);
   // const srcSet = responsiveCoverImage.map(imageData => imageData.srcset).join(', ');
   // const sortedImages = responsiveCoverImage.sort((a, b) => a.width - b.width);
   // const sizes = '100vw';
 
   // const srcSet = sortedImages.map(imageData => imageData.srcset).join(', ');
   // const sizes = '(min-width: 480px) 480px, 100vw';
-  const srcSet = responsiveCoverImage  && responsiveCoverImage[0].srcset || "";
+  const srcSet = props.responsiveCoverImage  && props.responsiveCoverImage[0].srcset || "";
   const imageStyle = 
   {
-    background: coverPlaceholder ? `url(${coverPlaceholder})` : getRandomGradient(),
+    background: props.coverPlaceholder ? `url(${props.coverPlaceholder})` : getRandomGradient(),
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     objectPosition: 'center center',
@@ -94,7 +91,7 @@ export const BlogSection = ({ title, blogAbout, blogPosts=[] }: BlogSectionProps
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 items-stretch w-full">
 
         {blogPosts.map((post, index) => (
-          <BlogPostCard key={index} {...post} {...post.props} />
+          <BlogPostCard key={index} {...post} />
         ))}
       </div>
       {/* <div className="flex justify-center mt-6">

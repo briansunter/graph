@@ -35,7 +35,7 @@ const Details = ({ title, date, responsiveCoverImage=[], description, tags, plac
       objectPosition: 'center center',
       backgroundPosition: 'center center',
       width: '100%',
-      height: '45vw'
+      height: '30vw'
     }}
     alt="Cover"
     height="800"

@@ -34,7 +34,7 @@ export function remarkLazyLoadImages() {
                                       background-repeat: no-repeat;
                                       background-size: contain;
                                       background-position: center center; 
-                                      height: ${Math.min(lastHeight,500)}px;
+                                      height: ${Math.min(lastHeight,800)}px;
                                       border-radius: 4px;
                                       width: 100%;`;
 
