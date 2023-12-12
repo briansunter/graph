@@ -8,6 +8,8 @@ import { PageShell } from './PageShell'
 import { getPageTitle } from './getPageTitle'
 import type { OnRenderHtmlAsync } from 'vike/types'
 import { getPageSocialMeta } from './getSocialMeta'
+import { renderToString } from 'react-dom/server'
+import GoogleAnalytics from './GoogleAnalytics'
 // Function to generate Twitter Card meta tags
 
 interface SocialMeta {
@@ -50,12 +52,14 @@ const onRenderHtml: OnRenderHtmlAsync = async (pageContext): ReturnType<OnRender
   )
 
   const title = getPageTitle(pageContext)
+  const analyticsString = renderToString(<GoogleAnalytics />)
 
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html>
       <head>
         <title>${title}</title>
         ${dangerouslySkipEscape(twitterCardMetaTags)}
+        ${dangerouslySkipEscape(analyticsString)}
       </head>
       <body>
         <div id="page-view">${stream}</div>
