@@ -42,6 +42,10 @@
     @apply text-3xl font-bold;
   }
 
+  .md-content h4 {
+    @apply text-2xl font-bold;
+  }
+
 /* Specific markdown content adjustments */
 .md-content h1, .md-content h2, .md-content h3, .md-content h4, .md-content h5, .md-content h6 {
     @apply mb-4 mt-8;
