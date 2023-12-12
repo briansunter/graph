@@ -3,7 +3,7 @@ interface SubstackEmbedProps {
   height?: number;
 }
 
-export const SubstackEmbed: React.FC<SubstackEmbedProps> = ({ width = 480, height = 320 }) => (
+export const SubstackEmbed: React.FC<SubstackEmbedProps> = ({ width = 480, height = 220 }) => (
   <iframe 
   className="w-full lg:w-1/2"
     src="https://newsletter.briansunter.com/embed" 
