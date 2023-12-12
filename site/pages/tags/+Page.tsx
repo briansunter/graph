@@ -78,9 +78,9 @@ const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons
 
 const Page = ({pages, title, redirectTo}: PageProps) => {
   return (
-    <div className="bg-gray-200 min-w-screen">
+    <div className="bg-gray-200">
       {redirectTo && <meta httpEquiv="refresh" content={`0; URL=${redirectTo}`} />}
-      <div className="container mx-auto px-4 md:px-8 "> 
+      <div className="lg:container mx-auto"> 
         <Navbar title="Brian Sunter"/>
         <BlogSection title={title} blogPosts={pages} blogAbout={""}/>
       </div>
