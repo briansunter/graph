@@ -5,6 +5,7 @@ import path from "path";
 import { ImageData } from "../../lib/ImageProcessor";
 import { ImageProcessor } from "../../lib/ImageProcessor";
 import { DateTime } from "luxon";
+import {getPagesWithTag} from './tagHelper'
 
 export interface PageProps {
   blogtitle: string;
@@ -15,6 +16,7 @@ export interface PageProps {
   responsiveCoverImage?: ImageData[];
   coverPlaceholder?: string;
   date: string;
+  redirectTo: string;
 }
 
 export interface Page {
@@ -24,19 +26,20 @@ export interface Page {
   props: PageProps;
 }
 
-const files = await getFiles();
-
 export default async function onBeforeRender(
   pageContext: PageContextBuiltInServer
 ) {
-  const { name } = pageContext.routeParams;
-
-  const pagesWithTag = Object.values(files).filter((page) => {
-    return page.props.tags && page.props.tags.includes(name);
-  });
-
-  const capitalizedPageTitle = name.charAt(0).toUpperCase() + name.slice(1);
-
+  let { name } = pageContext.routeParams;
+ let redirectTo;
+ if (name === 'newsletter') {
+   redirectTo = '/newsletter'
+ }
+  if (!name && pageContext.urlPathname === '/newsletter') {
+    name = 'newsletter'
+  }
+ const pagesWithTag = await getPagesWithTag(name);
+ const capitalizedPageTitle = name.charAt(0).toUpperCase() + name.slice(1);
+ 
   return {
     pageContext: {
       title: `${capitalizedPageTitle} | ${pageContext.config.title}`,
@@ -44,6 +47,7 @@ export default async function onBeforeRender(
       pageProps: {
         title: capitalizedPageTitle,
         pages: pagesWithTag,
+        redirectTo,
       },
     },
   }

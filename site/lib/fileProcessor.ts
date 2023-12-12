@@ -85,5 +85,11 @@ export async function getFiles(): Promise<Record<string, Page>> {
     urlToPageMap[redirect] = redirectPage;
   }
 
+  // special cases
+
+
+
+
+
   return urlToPageMap;
 }

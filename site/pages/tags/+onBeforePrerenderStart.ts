@@ -17,10 +17,16 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
     }
   });
 
-  const pages = Array.from(tags).map(async (tag) => {
-    const pagesWithTag = Object.values(urlToPageMap).filter((page) => {
-      return page.props.tags && page.props.tags.includes(tag);
-    });
+    const pages = Array.from(tags).map(async (tag) => {
+      let redirectTo;
+      if (tag === 'newsletter') {
+        redirectTo = '/newsletter';
+      }
+
+      const pagesWithTag = Object.values(urlToPageMap).filter((page) => {
+        return page.props.tags && page.props.tags.includes(tag);
+      });
+   
     const capitalizedPageTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
     return {
       url: `/tags/${tag}`,
@@ -30,6 +36,7 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
         pageProps: {
           title: capitalizedPageTitle,
           pages: pagesWithTag,
+          redirectTo
         },
       },
     };
