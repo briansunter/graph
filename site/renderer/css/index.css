@@ -32,14 +32,14 @@
   }
 
 .md-content h1 {
-    @apply text-5xl font-bold;
+    @apply text-6xl font-bold;
   }
 
 .md-content h2 {
-    @apply text-4xl font-bold;
+    @apply text-6xl font-bold;
   }
 .md-content h3 {
-    @apply text-xl font-bold;
+    @apply text-3xl font-bold;
   }
 
 /* Specific markdown content adjustments */
@@ -133,7 +133,7 @@
     @apply min-w-full divide-y divide-gray-300 my-6;
   }
   .md-content p {
-    @apply text-2xl lg:text-base  text-gray-700 my-4;
+    @apply text-3xl lg:text-xl text-gray-700 my-4;
   }
 
   .md-content th, .md-content td {
