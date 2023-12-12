@@ -59,7 +59,7 @@ if (srcSet === "" || srcSet === undefined){
           <a className="no-underline" href={permalink}>
             <h3 className="no-underline font-bold text-5xl lg:text-2xl my-3 line-clamp-3 font-ui text-gray-800">{title}</h3>
           </a>
-          <p className="text-gray-800 flex-grow line-clamp-4 text-lg">
+          <p className="text-gray-800 flex-grow line-clamp-4 text-2xl lg:text-lg">
             {description}
           </p>
         </div>
@@ -68,7 +68,7 @@ if (srcSet === "" || srcSet === undefined){
             <Tag key={index} text={tag} shouldMargin={true}/>
           ))}
         </div>
-        <p className="text-gray-600 text-base font-ui px-6 py-3">{formattedDate}</p>
+        <p className="text-gray-600 text-xl lg:text-base font-ui px-6 py-3">{formattedDate}</p>
       </div>
     </div>
   );
