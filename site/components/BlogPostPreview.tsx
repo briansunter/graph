@@ -20,7 +20,6 @@ function getRandomGradient() {
 export const BlogPostCard = ({
   title,
   description,
-  tags,
   permalink,
   props,
 }: BlogPostCardProps) => {
@@ -46,9 +45,9 @@ const handleImageError = (e) => {
   e.target.style.visibility = 'hidden';
 };
 
-let image = <img className="w-full h-64 object-cover object-center" loading='lazy' srcSet={srcSet} alt={`Image for ${title}`} style={imageStyle} onError={handleImageError}/>;
+let image = <img className="w-full h-96 lg:h-64 object-cover object-center" loading='lazy' srcSet={srcSet} alt={`Image for ${title}`} style={imageStyle} onError={handleImageError}/>;
 if (srcSet === "" || srcSet === undefined){
-  image = <div className="w-full h-64 object-cover object-center" style={imageStyle}></div>
+  image = <div className="w-full h-96 lg:h-64 object-cover object-center" style={imageStyle}></div>
 }
   return (
     <div className="no-underline">
@@ -58,14 +57,14 @@ if (srcSet === "" || srcSet === undefined){
         </a>
         <div className="px-6 py-2 flex-grow flex flex-col">
           <a className="no-underline" href={permalink}>
-            <h3 className="no-underline font-bold text-xl my-3 line-clamp-3 font-ui text-gray-800" style={{ minHeight: '4.5rem', lineHeight: '1.1' }}>{title}</h3>
+            <h3 className="no-underline font-bold text-5xl lg:text-2xl my-3 line-clamp-3 font-ui text-gray-800">{title}</h3>
           </a>
-          <p className="text-gray-800 text-base flex-grow line-clamp-3" style={{ minHeight: '8.0rem' }}>
+          <p className="text-gray-800 flex-grow line-clamp-4 text-lg">
             {description}
           </p>
         </div>
         <div className="px-6 pt-4 pb-2">
-          {tags?.map((tag, index) => (
+          {props.tags?.map((tag, index) => (
             <Tag key={index} text={tag} shouldMargin={true}/>
           ))}
         </div>
@@ -85,7 +84,7 @@ export const BlogSection = ({ title, blogAbout, blogPosts=[] }: BlogSectionProps
   return (
     <main className="lg:w-10/12">
       <h2 className="text-6xl font-bold text-left">{title}</h2>
-      <p className="lg:text-lg text-3xl mb-8">
+      <p className="lg:text-xl text-3xl mb-8">
         {blogAbout}
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 items-stretch w-full">

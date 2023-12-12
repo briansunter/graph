@@ -26,7 +26,7 @@ interface SubstackSectionProps {
     return (
       <main className="flex flex-col items-start lg:w-10/12">
         <h2 className="text-6xl font-bold text-left">{title}</h2>
-        <p className="lg:text-lg text-3xl mb-8">
+        <p className="lg:text-xl text-3xl mb-8">
           {substackAbout}
         </p>
         <div className="flex flex-col lg:flex-row gap-8 mb-8 items-stretch w-full">
