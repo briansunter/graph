@@ -56,7 +56,7 @@ const getIcon = (icon: string) => {
   if (!iconImage) return { image: null, name: null };
   return {
     image: <img width="20" height="20" src={iconImage.default} className="w-20 h-20 transform hover:scale-110" />,
-    name: <span className="hover:underline text-lg mt-auto">{socialIcon.name}</span>
+    name: <span className="hover:underline text-xl mt-auto">{socialIcon.name}</span>
   };
 };
 
@@ -98,14 +98,14 @@ const SocialMediaIcon = ({ icon, url, name }: { icon: string, url: string, name:
 
 type SocialIcons = typeof socialIcons.social;
 
-const SocialLinks = ({ socialIcons = [], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
+const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
   return (
-    <div className='lg:w-10/12'>
-      <h2 className="text-6xl font-bold">Social</h2>
-      <p className="text-3xl lg:text-xl mb-6">
-        {socialAbout}
+    <div className="lg:w-10/12">
+      <h2 className="text-6xl font-bold">Social Media</h2>
+      <p className="lg:text-xl text-3xl mb-4"> 
+      {socialAbout}
       </p>
-      <div className="grid grid-flow-col gap-4 bg-gray-200">
+      <div className="grid grid-flow-row-dense gap-4 bg-gray-200 grid-cols-6 lg:grid-cols-6"> 
         {socialIcons.map((icon) =>
           <SocialMediaIcon key={icon.icon} {...icon} />
         )}
