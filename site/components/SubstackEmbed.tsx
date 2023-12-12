@@ -24,9 +24,9 @@ interface SubstackSectionProps {
   }
   export const SubstackSection: React.FC<SubstackSectionProps> = ({ title, substackAbout }) => {
     return (
-      <main className="flex flex-col items-start">
+      <main className="flex flex-col items-start lg:w-10/12">
         <h2 className="text-6xl font-bold text-left">{title}</h2>
-        <p className="lg:text-lg text-3xl mb-4 lg:w-3/4">
+        <p className="lg:text-lg text-3xl mb-8">
           {substackAbout}
         </p>
         <div className="flex flex-col lg:flex-row gap-8 mb-8 items-stretch w-full">

@@ -18,8 +18,8 @@ interface ProfileProps {
 
 const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
   return (
-    <div className="bg-gray-200 mb-8 w-full lg:w-11/12">
-      <h1 className="text-6xl md:text-8xl lg:text-8xl font-extrabold text-gray-900 leading-none mb-4">{title}</h1>
+    <div className="bg-gray-200 mb-8 w-full lg:w-10/12">
+      <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold text-gray-900 leading-none mt-4 mb-14">{title}</h1>
 
       {/* Layout container */}
       <div className="flex flex-col md:flex-row">
@@ -100,12 +100,12 @@ type SocialIcons = typeof socialIcons.social;
 
 const SocialLinks = ({ socialIcons = [], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
   return (
-    <div>
+    <div className='lg:w-10/12'>
       <h2 className="text-6xl font-bold">Social</h2>
-      <p className="text-3xl lg:text-lg mb-4 w-11/12">
+      <p className="text-3xl lg:text-lg mb-8 lg:mb-4">
         {socialAbout}
       </p>
-      <div className="grid grid-flow-col gap-4 bg-gray-200 w-10/12">
+      <div className="grid grid-flow-col gap-4 bg-gray-200">
         {socialIcons.map((icon) =>
           <SocialMediaIcon key={icon.icon} {...icon} />
         )}
