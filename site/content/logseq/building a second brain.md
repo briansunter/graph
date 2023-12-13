@@ -11,7 +11,7 @@ lastMod: 2023-10-28
 ![basb.jpeg](/assets/basb_1672455079106_0.jpeg)
 
 # The Book in 3 Sentences
-heading:: 1
+
 
 Tiago Forte's Building a Second Brain book is a guide to developing a productivity system that helps you better manage information and improve your creativity, productivity, and ability to generate insights.
 
@@ -20,7 +20,7 @@ Forte teaches readers to create a digital system, or a “second brain," to help
 The heart of the Second Brain process is a workflow called **CODE**: **Capture**, **Organize**, **Distill**, and **Express**.
 
 # Impressions
-heading:: 1
+
 
 I enjoyed the book overall and the CODE process he outlines in the book.
 
@@ -29,7 +29,7 @@ I'm a big fan of tool-agnostic workflows and philosophical frameworks for produc
 For a book about summarization, it's wordy, and there are a lot of anecdotes and tangents. This additional background and context might be helpful to those beginning notetaking, but as someone following Forte for several years, I found them lengthy and unnecessary.
 
 # Who Should Read It?
-heading:: 1
+
 
 Someone completely new to productivity and notetaking
 
@@ -40,7 +40,7 @@ Someone looking for a good tool agnostic notetaking workflow framework
 Someone who liked similar books such as Getting Things Done by David Allen or How to Take Smart notes by Sönke Ahrens.
 
 # How the Book Changed Me
-heading:: 1
+
 
 This book inspired my current notetaking system. I organize my notes based on specific projects and categorize them into broad life areas, similar to the PARA project organization structure he proposes.
 
@@ -51,7 +51,7 @@ The project checklist and weekly review are good ideas that I incorporated into 
 I like the idea of having different "modes" of working, like "convergent" mode and "divergent" mode. In divergent mode (Capture and Organize), you cast a wide net and let your curiosity guide you. In convergent mode (Distill and Express), you focus on the task at hand. This book encouraged me to minimize mode shifts while working. For example, instead of finding an article, summarizing it, then finding another article, I would capture a bunch, then summarize them during a dedicated time.
 
 # My Top 3 Quotes
-heading:: 1
+
 
 > What’s the point of knowing something if it doesn’t positively impact anyone, not even yourself?
 
@@ -60,22 +60,22 @@ heading:: 1
 > PARA isn’t a filing system; it’s a production system. It’s no use trying to find the “perfect place” where a note or file belongs. There isn’t one. The whole system is constantly shifting and changing in sync with your constantly changing life.
 
 # Summary + Notes
-heading:: 1
+
 
 # CODE
-heading:: 1
+
 
 ![code.png](/assets/code_1672433388815_0.png)
 
 # Capture
-heading:: 1
+
 
 The second brain process starts by capturing information that resonates with you from external sources or your internal moments of insight.
 
 Capturing information frees you from the burden of trying to remember everything and helps you focus on the higher-level creative process.
 
 ### Examples of external sources to capture
-heading:: 3
+
 
 **Highlights**: insightful passages from books or articles you read
 
@@ -88,7 +88,7 @@ heading:: 3
 **Images**: photos or other images you find inspiring and interesting
 
 ### Examples of internal sources to capture
-heading:: 3
+
 
 **Stories**: things that happened to you or someone else
 
@@ -99,7 +99,7 @@ heading:: 3
 **Reflections**: personal thoughts and lessons
 
 ### How to decide what to capture
-heading:: 3
+
 
 You want to avoid capturing too much information or too little, so Forte offers insights on deciding what to capture.
 
@@ -118,7 +118,7 @@ Is it personal?
 Is it surprising?
 
 ### Favorite questions
-heading:: 3
+
 
 Another technique that helps decide what to capture is having a list of "favorite questions" and capturing any information that relates to these questions.
 
@@ -133,7 +133,7 @@ This could include grand, sweeping questions like “How can we make society fai
 It might include questions about relationships, such as “How can I have closer relationships with the people I love?” or productivity, like “How can I spend more of my time doing high-value work?”
 
 #### Examples of favorite questions
-heading:: 4
+
 
 > How do I live less in the past, and more in the present?
 
@@ -156,7 +156,7 @@ heading:: 4
 > How can we make the healthcare system more responsive
 
 ### Capture tools
-heading:: 3
+
 
 You should leverage technology to make it easier to capture information and automatically send it to your second brain.
 
@@ -175,7 +175,7 @@ You should leverage technology to make it easier to capture information and auto
 **Voice memos** There are apps where you can record your voice and transcribe it to text for your notes
 
 # Organize
-heading:: 1
+
 
 As you capture information, you'll need a system to organize and retrieve it.
 
@@ -188,10 +188,10 @@ Organizing your information around focused projects and broad areas of your life
 Forte proposes an organization structure called **PARA**, which stands for Project, Area, Resource, and Archive.
 
 ## PARA
-heading:: 2
+
 
 ### Projects
-heading:: 3
+
 
 Short-term efforts in your work or life that you’re working on now.
 
@@ -200,7 +200,7 @@ Projects have a beginning and an end.
 Projects also have a clear outcome needed for the project to be considered "done."
 
 #### Examples of projects
-heading:: 4
+
 
 **Projects at work**: Complete web-page design; Create slide deck for conference; Develop project schedule; Plan recruitment drive.
 
@@ -209,7 +209,7 @@ heading:: 4
 **Side projects**: Publish blog post; Launch crowdfunding campaign; Research best podcast microphone; Complete online course.
 
 ### Areas
-heading:: 3
+
 
 Projects are the main focus of the PARA system, but not everything is a project.
 
@@ -226,7 +226,7 @@ Usually, projects are associated with an area.
 |Develop Contract Template|Legal|
 
 #### Examples of areas
-heading:: 4
+
 
 Activities or places you are responsible for: Home/apartment; Cooking; Travel; Car.
 
@@ -241,7 +241,7 @@ People or teams you are responsible for or accountable to: Direct reports; Manag
 Standards of performance you are responsible for: Professional development; Sales and marketing; Relationships and networking; Recruiting and hiring.
 
 ### Resources
-heading:: 3
+
 
 Resources are a catchall for everything that isn't an area or project.
 
@@ -256,7 +256,7 @@ It's a personal library of references, facts, and inspiration.
 > Which hobbies or passions do you have? Coffee; Classic movies; Hip-hop music; Japanese anime.
 
 ### Archives
-heading:: 3
+
 
 Archives are things you've completed or put on hold.
 
@@ -269,7 +269,7 @@ Areas of responsibility that are no longer relevant
 Resources that are no longer relevant, for example, hobbies you've discontinued
 
 ### How to decide where to put notes
-heading:: 3
+
 
 The moment you decide to capture something isn't the best time to organize it.
 
@@ -294,14 +294,14 @@ Don't organize ideas where they came from; organize them based on where they're 
 PARA isn't just about organizing your notes but also about identifying the structure of your life.
 
 # Distill
-heading:: 1
+
 
 It's important to distill notes to their most essential points so they are helpful in the future. Summarizing helps you quickly refresh your memory on a note without rereading the whole thing.
 
 You don't have to go through all the layers. You can tune the amount of summarization you do based on how important the note is and how much time you have.
 
 # Progressive Summarization
-heading:: 1
+
 
 ![progressive-summary.png](/assets/progressive-summary_1672433105894_0.png)
 
@@ -314,14 +314,14 @@ Highlight the main points of those highlights
 And so on, distilling the essence of a note in several “layers.”
 
 ## Layer one - Captured notes
-heading:: 2
+
 
 Layer one is the excerpts of the articles you've captured.
 
 Don't try to capture the entire article.
 
 ## Layer two - Bolding the most important parts
-heading:: 2
+
 
 Layer two is where you bold the main points of your captured note: phrases that capture the essence of what the author is trying to say.
 
@@ -330,7 +330,7 @@ This step and the subsequent steps should be done when you have time for focused
 These bolded passes are much faster to look back on than reading the entire article or your captured excerpts. It might only take a minute to refresh your memory instead of several minutes reading your full excerpts.
 
 ## Layer three- Highlighting the bolded passages
-heading:: 2
+
 
 Layer three highlights only the most critical points of the bolded passages from layer two.
 
@@ -339,24 +339,24 @@ This optional step is reserved for particularly long, interesting, or valuable n
 These highlights are often just a few sentences or half sentences from everything you've captured.
 
 ## Layer four - Executive Summary
-heading:: 2
+
 
 The executive summary is a few bullet points at the top of your note summarizing the article in your own words.
 
 This is usually only done for your most valuable notes, which you return to often.
 
 ## Common Mistakes
-heading:: 2
+
 
 ### Highlighting too much
-heading:: 3
+
 
 Don't highlight paragraph after paragraph of text or capture entire books or articles.
 
 Each layer in Progressive Summarization should only include about 20% of the previous layer.
 
 ### Highlighting without a purpose in mind
-heading:: 3
+
 
 When should you be doing progressive summarization? When you are getting ready to create something
 
@@ -365,14 +365,14 @@ It takes time to distill your notes, so wait until you have a clear purpose. Oth
 One rule of thumb is to make the note a little more discoverable every time you "touch" it by summarizing or adding a commentary.
 
 ### Making highlighting difficult
-heading:: 3
+
 
 Don't overthink highlighting; rely on your intuition.
 
 Use tools that make highlighting easy.
 
 # Express
-heading:: 1
+
 
 The ultimate goal of the system is to produce creative work and share it
 
@@ -391,17 +391,17 @@ Examples of previous work you can leverage:
 **Documents created by others:** Knowledge assets created by people on your team, contractors or consultants, or even clients or customers, that you can reference and incorporate into your work.
 
 ## How to resurface your past work
-heading:: 2
+
 
 ### Search
-heading:: 3
+
 
 Digital notetaking systems have a considerable advantage over physical systems: you can search their entire contents in less than a second.
 
 This should be the first retrieval method you turn to, and it's most beneficial when you already know what you're looking for.
 
 ### Browsing
-heading:: 3
+
 
 If you've followed the second brain system, you already have your notes categorized by projects and areas.
 
@@ -410,7 +410,7 @@ Browsing is slower than search but lets you gradually hone in on the information
 It's helpful to take advantage of sorting, such as by date created.
 
 ### Tags
-heading:: 3
+
 
 Tags allow you to apply labels to notes regardless of location.
 
@@ -421,7 +421,7 @@ You might have a frequently asked question page for a project and tag it with FA
 The downside of tags is they require a lot of energy compared to searches and folders.
 
 ### Serendipity
-heading:: 3
+
 
 Sometimes a connection will jump out at you.
 
@@ -438,14 +438,14 @@ Another powerful method is sharing your ideas with others. Feedback from others 
 Other people can give you valuable feedback, such as pointing out aspects of your ideas or sources to consider.
 
 # Essential notetaking habits
-heading:: 1
+
 
 ![basb-project.jpg](/assets/basb-project_1672457363980_0.jpg)
 
 How do we create sustainable habits and routines to build "compound interest" from our projects, notes, and knowledge?
 
 # Project Checklists
-heading:: 1
+
 
 Ensure you start and consistently finish your projects leveraging past work.
 
@@ -454,10 +454,10 @@ The two most important moments in projects are when you start and finish them.
 Since these moments are so important, you should have a defined process.
 
 # Project kickoff checklist
-heading:: 1
+
 
 ## 1. Capture your current thinking on the project
-heading:: 2
+
 
 Create a dedicated note for the project and start brainstorming
 
@@ -476,24 +476,24 @@ Forte has a lists of questions he asks himself:
 > What can I read or listen to for relevant ideas?
 
 ## 2. Review notes from folders and tags
-heading:: 2
+
 
 Look through existing notes that could be relevant to the new project.
 
 Browse through a handful of folders that contain summarized notes
 
 ## 3. Search for related terms across all folders
-heading:: 2
+
 
 Search through your notes, which are more focused and higher quality than the stuff on the internet
 
 ## 4. Tag relevent notes to the project
-heading:: 2
+
 
 You can use the features from your notetaking app to tag, link, or move relevant notes to the project.
 
 ## 5. Create an outline of collected notes and plan the project
-heading:: 2
+
 
 Create an outline that makes it clear what you should do next
 
@@ -506,10 +506,10 @@ For an essay, these are the main points or headings of the final piece.
 If it's a collaborative project, you should outline each person's objectives and areas of responsibility.
 
 ## More ideas for your project kickoff checklist
-heading:: 2
+
 
 ## Answer premortem questions:
-heading:: 2
+
 
 > What do you want to learn?
 
@@ -518,34 +518,34 @@ heading:: 2
 > What is most likely to fail?
 
 ## Communicate with stakeholders
-heading:: 2
+
 
 > Explain to your manager, colleagues, clients, customers, shareholders, contractors, etc., what the project is about and why it matters.
 
 ## Define success criteria:
-heading:: 2
+
 
 > What needs to happen for this project to be considered successful?
 
 > What are the minimum results you need to achieve, or the “stretch goals” you’re striving for?
 
 ## Have an official kickoff:
-heading:: 2
+
 
 > Schedule check-in calls, make a budget and timeline, and write out the goals and objectives to make sure everyone is informed, aligned, and clear on what is expected of them. I find that doing an official kickoff is useful even if it’s a solo project!
 
 # Project completion checklist
-heading:: 1
+
 
 Completing a project is unique because it is a rare moment when something ends.
 
 ## 1. Mark project as complete
-heading:: 2
+
 
 When all the tasks as done, mark the project as complete in your notetaking app
 
 ## 2. Cross out the associated project goal and move to “Completed” section.
-heading:: 2
+
 
 Review the goal of the project and reflect on how it panned out
 
@@ -554,29 +554,29 @@ Review the goal of the project and reflect on how it panned out
 >If you fell short, what happened? What can you change to avoid making the same mistakes?
 
 ## 3. Review and organize parts that could be reused
-heading:: 2
+
 
 Often components of your projects can be reused in the future.
 
 For example, a web page design could be used as a template for future sites, an agenda for a one-on-one performance review, or interview questions you used for hiring.
 
 ## 4. Move project to archives across all platforms.
-heading:: 2
+
 
 Archive the project to get it out of the way and avoid it cluttering up your environment
 
 ## 5. If canceled or paused, record current status
-heading:: 2
+
 
 If you cancel or postpone a project, you can archive it but mark the current status with some comments.
 
 For example, could you describe your last action and why you postponed it?
 
 ## More ideas for project completion checklist
-heading:: 2
+
 
 ### Answer postmortem questions:
-heading:: 3
+
 
 > What did you learn?
 
@@ -587,12 +587,12 @@ heading:: 3
 > What can you improve for next time?
 
 ### Communicate with stakeholders:
-heading:: 3
+
 
 > Notify your manager, colleagues, clients, customers, shareholders, contractors, etc., that the project is complete and what the outcomes were.
 
 ### Evaluate success criteria
-heading:: 3
+
 
 > Were the objectives of the project achieved?
 
@@ -601,24 +601,24 @@ heading:: 3
 > What was the return on investment?
 
 ### Tie up loose ends
-heading:: 3
+
 
 > Send any last emails, invoices, receipts, feedback forms, or documents
 
 ### Celebrate
-heading:: 3
+
 
 > Celebrate your accomplishments with your team or collaborators so you receive the feeling of fulfillment for all the effort you put in.
 
 # Weekly and Monthly Reviews
-heading:: 1
+
 
 Periodically review your work and life and decide if you want to change anything.
 
 The idea of weekly reviews comes from David Allen's book Getting Things Done
 
 ## Weekly review template
-heading:: 2
+
 
 Clear email inbox
 
@@ -631,7 +631,7 @@ Clear notes inbox.
 Choose my tasks for the week.
 
 ## Monthly review template
-heading:: 2
+
 
 Review and update goals
 
@@ -644,7 +644,7 @@ Review someday/maybe tasks
 Reprioritize tasks
 
 ## Noticing Habits
-heading:: 2
+
 
 Notice small opportunities to edit, highlight, or move notes to make them more discoverable for your future self.
 

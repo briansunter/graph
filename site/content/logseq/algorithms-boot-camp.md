@@ -15,10 +15,10 @@ lastMod: 2023-10-28
 ![image_1657488579000_0.png](/assets/image_1657488579000_0_1672131758605_0.png)
 
 # Intro
-heading:: 1
+
 
 ## About this Guide
-heading:: 2
+
 
 Data structures and algorithms are among the most valuable concepts to learn in computer science.
 
@@ -31,11 +31,11 @@ I'm not writing this guide from an expert's perspective but rather from a studen
 Feel free to [correct me, make suggestions, and ask questions on Twitter.](https://twitter.com/Bsunter) This guide is a living document; hopefully, a community of like-minded people will benefit from it.
 
 ## How the Bootcamp Works
-heading:: 2
 
-I built out a complete outline for every algorithm topic here [algorithms-boot-camp-study-guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}})
 
-The [complete guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}}) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
+I built out a complete outline for every algorithm topic here [[algorithms-boot-camp-study-guide]]
+
+The [complete guide]([[algorithms-boot-camp-study-guide]]) of what I plan to learn is extensive, so I'm building it out in public as a series of 3-month long "boot camp" learning sprints.
 
 There's a curriculum for the next 3-months on this page, so people will know what to expect and can give their input on what they want to see.
 
@@ -44,7 +44,7 @@ I'll send a [[newsletter]] post about a new topic each week. All the future topi
 If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [[newsletter]] to get updates.
 
 ## Why Learn Algorithms?
-heading:: 2
+
 
 Sometimes you will face a complex problem at work requiring in-depth knowledge of data structures and algorithms.
 
@@ -53,7 +53,7 @@ If you don't understand algorithms, you may accidentally write code that runs ex
 Companies are also asking questions like these in technical interviews, so even if you don't use them daily, you should know them if you're interviewing or conducting interviews. It's like the new IQ test.
 
 ## Who is this for?
-heading:: 2
+
 
 You know a little bit of programming and want to get better at algorithms
 
@@ -62,16 +62,16 @@ You are an experienced programmer and want to solidify your knowledge of algorit
 You are interested in my process for taking notes on code in logseq
 
 # Roadmap
-heading:: 1
+
 
 ## Phase 1
-heading:: 2
+
 
 ### Intro to Algorithms, Sorting, and Time Complexity
-heading:: 3
 
-#### [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
-heading:: 4
+
+#### [[intro-to-algorithms]]
+
 
 Intro to the Boot Camp
 
@@ -82,9 +82,9 @@ Data Structures 101
 Sorting and Bubble Sort
 
 #### [[time complexity]]
-heading:: 4
 
-[posteriori-vs-a-priori-analysis-of-algorithms]({{< sref "/pages/posteriori-vs-a-priori-analysis-of-algorithms" >}})
+
+[[posteriori-vs-a-priori-analysis-of-algorithms]]
 
 Time Complexity / Space Complexity Overview
 
@@ -104,7 +104,7 @@ Arithmetic Series
 Bubble Sort Analysis
 
 #### Typescript Overview
-heading:: 4
+
 
 Typescript Intro
 
@@ -115,7 +115,7 @@ Test Driven Development
 Design Patterns
 
 ### Recursion
-heading:: 3
+
 
 Recursion 101
 
@@ -152,20 +152,20 @@ Call Stack
 Tail Recursion
 
 ### Divide and Conquer
-heading:: 3
+
 
 Merge Sort
 
 ### Linked List
-heading:: 3
+
 
 #### Linked List 101
-heading:: 4
+
 
 Typescript Implementation
 
 #### Operations
-heading:: 4
+
 
 Insert
 
@@ -174,7 +174,7 @@ Delete
 Find
 
 #### Problems
-heading:: 4
+
 
 Reverse
 

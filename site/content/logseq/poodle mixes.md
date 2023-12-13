@@ -9,7 +9,7 @@ categories:
 lastMod: 2023-10-28
 ---
 # Generating Poodle Mix Names with AI
-heading:: 1
+
 
 Openai [[gpt3]] is good at generating ideas given a few examples.
 
@@ -29,7 +29,7 @@ Poodle + Afghan Hound = Afganipoo
 background-color:: #978626
 
 # Poodle Mix Names
-heading:: 1
+
 
 | Breed | Poodle Mix Name |
 | --- | --- |

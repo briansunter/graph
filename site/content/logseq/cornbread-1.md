@@ -1,6 +1,5 @@
 ---
 type: recipe
-image: '![image.png](../assets/image_1656397386112_0.png)'
 tags:
 - bread
 - southern
@@ -12,7 +11,7 @@ date: 2023-10-28
 lastMod: 2023-10-28
 ---
 # Ingredients
-heading:: 1
+
 1/2 cup (113g) butter
 
 1/2 bunch fresh sage
@@ -36,7 +35,7 @@ heading:: 1
 1.5 cup (350ml) buttermilk
 
 # Directions
-heading:: 1
+
 
 Start by placing a cast iron pan into a cold oven and begin preheating to 400F.
 

@@ -16,7 +16,7 @@ lastMod: 2023-10-28
 ![kubernetes.png](/assets/kubernetes_1672272543261_0.png)
 
 # Intro
-heading:: 1
+
 
 GPT-3 is the ultimate learning and study tool
 
@@ -32,7 +32,7 @@ Basically I ask it to create high level overviews and outlines, the ask it follo
 
 This guide just assumes you have a basic knowledge of OpenAI and GPT-3. You just need to know that you send it a human like command and it gives you a response, based on data from a huge training set. It can do well at both technical and creative use cases, in my experience. [Learn more about GPT-3 here](https://www.vox.com/future-perfect/21355768/gpt-3-ai-openai-turing-test-language)
 
-**{{< logseq/mark >}}I'll highlight the prompts I send to OpenAI to write this article{{< / logseq/mark >}}**
+**==I'll highlight the prompts I send to OpenAI to write this article==**
 
 The blocks nested underneath are OpenAI's responses.
 
@@ -41,39 +41,39 @@ To use OpenAI with my plugin, you just type `/gpt3` on a selected block or right
 Let's start with an overview of what you should know about openai, in addition to following its [usage guidelines.](https://beta.openai.com/docs/usage-guidelines)
 
 ## OpenAI Completions, Prompts, and Prompt Design
-heading:: 2
+
 
 From, [the OpenAI docs. Go here for more info](https://beta.openai.com/docs/guides/completion)
 
 OpenAI calls the main service they provide a "completion"
 
-{{< logseq/mark >}}**What is an openai completion?**{{< / logseq/mark >}}
+==**What is an openai completion?**==
 
 An openai completion is a machine learning model that is trained to predict the next word in a sentence.
 
 So, it's sort of like "autocomplete" for everything.
 
 ## Prompt Design
-heading:: 2
+
 
 > Our models can do everything from generating original stories to performing complex text analysis. Because they can do so many things, you have to be explicit in describing what you want. Showing, not just telling, is often the secret to a good prompt.
 
 "Prompts" are basically
 
 ### Basics
-heading:: 3
 
-{{< logseq/mark >}}**Summarize this text:**{{< / logseq/mark >}} Show and tell. Make it clear what you want either through instructions, examples, or a combination of the two. If you want the model to rank a list of items in alphabetical order or to classify a paragraph by sentiment, show it that's what you want.
+
+==**Summarize this text:**== Show and tell. Make it clear what you want either through instructions, examples, or a combination of the two. If you want the model to rank a list of items in alphabetical order or to classify a paragraph by sentiment, show it that's what you want.
 
 For example, if you want the model to do a certain task, show it examples of inputs and outputs for that task.
 
-{{< logseq/mark >}}**Summarize this text:**{{< / logseq/mark >}} Check your settings. The temperature and top_p settings control how deterministic the model is in generating a response. If you're asking it for a response where there's only one right answer, then you'd want to set these lower. If you're looking for more diverse responses, then you might want to set them higher. The number one mistake people use with these settings is assuming that they're "cleverness" or "creativity" controls.
+==**Summarize this text:**== Check your settings. The temperature and top_p settings control how deterministic the model is in generating a response. If you're asking it for a response where there's only one right answer, then you'd want to set these lower. If you're looking for more diverse responses, then you might want to set them higher. The number one mistake people use with these settings is assuming that they're "cleverness" or "creativity" controls.
 
 1. Set temperature and top_p settings to lower values if you want the model to produce repeatable results with one right answer.
 2. Set temperature and top_p settings to higher values if you want the model to produce more diverse results.
 
 ### Troubleshooting Queries
-heading:: 3
+
 
 Is it clear what the intended generation should be?
 
@@ -84,10 +84,10 @@ Did you check your examples for mistakes? (The API won't tell you directly)
 Are you using temperature and top_p correctly?
 
 ## Examples from OpenAI
-heading:: 2
+
 
 ### Classification
-heading:: 3
+
 
 Note how they give it examples and set it up to "complete" the rest.
 
@@ -102,11 +102,11 @@ Sentiment:
 
 
 ### Text Generation
-heading:: 3
+
 
 In addition to giving it examples and letting it "complete" them, you can outright tell it to do someting which often works well. I sometimes use a combination of direct generation commands and examples
 
-{{< logseq/mark >}}Brainstorm some ideas combining VR and fitness:{{< / logseq/mark >}}
+==Brainstorm some ideas combining VR and fitness:==
 
 1. A VR fitness game that simulates different obstacles courses or running environments to make working out more fun and engaging.
 
@@ -121,27 +121,27 @@ In addition to giving it examples and letting it "complete" them, you can outrig
 There's a lot more you can do, but that's enough to know for now. [See here for more information from the OpenAI docs](https://beta.openai.com/docs/guides/completion)
 
 # Learning Kubernetes
-heading:: 1
+
 
 Let's start by getting an overview.
 
-{{< logseq/mark >}}Explain what kubernetes software is{{< / logseq/mark >}}
+==Explain what kubernetes software is==
 
 Kubernetes is a system for managing containerized applications across a cluster of servers. It provides a platform for automating deployment, scaling, and operation of application containers.
 
-{{< logseq/mark >}}What is a containerized software application in the context of kubernetes ?{{< / logseq/mark >}}
+==What is a containerized software application in the context of kubernetes ?==
 
 Applications in Kubernetes are typically packaged as Docker images, which can be run in Kubernetes pods.
 
-{{< logseq/mark >}}Why is kubernetes important?{{< / logseq/mark >}}
+==Why is kubernetes important?==
 
 Kubernetes is important because it is a portable, extensible system for managing containerized workloads and services that facilitates both declarative configuration and automation. It has a wide range of features including container orchestration, service discovery and load balancing, storage provisioning, and secrets and configuration management.
 
-{{< logseq/mark >}}What technologies are similar to kubernetes?{{< / logseq/mark >}}
+==What technologies are similar to kubernetes?==
 
 Some technologies that are similar to Kubernetes are Apache Mesos and Docker Swarm.
 
-{{< logseq/mark >}}What are the top five most important things to know about kubernetes?{{< / logseq/mark >}}
+==What are the top five most important things to know about kubernetes?==
 
 1.Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.
 2. It has a large, rapidly growing ecosystem. 
@@ -149,11 +149,11 @@ Some technologies that are similar to Kubernetes are Apache Mesos and Docker Swa
 4. Kubernetes is a production-ready platform that is constantly evolving, with new features and functionality being added on a regular basis.
 5. Kubernetes is an open source project and contributions are welcome from anyone who wants to help.
 
-{{< logseq/mark >}}What are the components that make up kubernetes?  For example, pods, volumes, secrets{{< / logseq/mark >}}
+==What are the components that make up kubernetes?  For example, pods, volumes, secrets==
 
 Pods, Replication Controllers, Services, Volumes, Secrets, Config Maps, Jobs, Daemon Sets, and Stateful Sets
 
-{{< logseq/mark >}}Explain kubernetes pods to a programmer{{< / logseq/mark >}}
+==Explain kubernetes pods to a programmer==
 
 who is used to process-based containers
 
@@ -161,7 +161,7 @@ In process-based containers, each container is isolated from the others and has 
 
 Kubernetes pods are different in that they allow multiple containers to run together in a single pod. This means that the containers in a pod can share data and communicate with each other. This can be useful for microservices that need to communicate with each other.
 
-{{< logseq/mark >}}Write advanced guide to kubernetes{{< / logseq/mark >}}
+==Write advanced guide to kubernetes==
 
 Kubernetes is a powerful container orchestration tool that can help you streamline the process of deploying and managing containerized applications at scale. In this guide, we will take a deep dive into the features and functionality of Kubernetes, and explain how you can use it to automate the process of deploying and managing your applications.
 
@@ -184,7 +184,7 @@ Kubernetes Maintenance: How to perform common maintenance tasks for your Kuberne
 
 By the end of this guide, you should have a good understanding of the features available in Kubernetes and how you can use them to deploy and manage your applications at scale.
 
-{{< logseq/mark >}}Write guide to Kubernetes Basics: An introduction to the Kubernetes toolset{{< / logseq/mark >}}
+==Write guide to Kubernetes Basics: An introduction to the Kubernetes toolset==
 
 Kubernetes is a toolset used for managing containerized applications. It provides a platform for automating deployment, scaling, and operations of application containers across clusters of hosts. It is designed to provide strong guarantees about the ordering and co-existence of concurrent updates.
 
@@ -227,7 +227,7 @@ To use DaemonSets, you first need to create a DaemonSet resource. This resource 
 
 You can update the DaemonSet resource to change the application or other settings. Kubernetes will then automatically update the application on all nodes in the cluster.
 
-{{< logseq/mark >}}Write advanced guide to Kubernetes Services: How to expose your applications to the outside world using Kubernetes Services.{{< / logseq/mark >}}
+==Write advanced guide to Kubernetes Services: How to expose your applications to the outside world using Kubernetes Services.==
 
 Kubernetes Services offer a simple and consistent way to expose your applications to the outside world. By creating a Service, you can specify which Pods should be exposed and the Port that should be used to access them. When a Service is created, Kubernetes will automatically create a DNS entry for the Service, allowing you to access the Service by its DNS name.
 
@@ -283,7 +283,7 @@ service/my-app exposed
 
 Kubernetes Services are a great way to expose your applications to the outside world. By creating a Service, you can specify which Pods should be exposed and the Port that should be used to access them. When a Service is created, Kubernetes will automatically create a DNS entry for the Service, allowing you to access the Service by its DNS name.
 
-{{< logseq/mark >}}write advanced guide to Kubernetes Networking: An overview of the networking features available in Kubernetes, and how you can use them to connect your applications.{{< / logseq/mark >}}
+==write advanced guide to Kubernetes Networking: An overview of the networking features available in Kubernetes, and how you can use them to connect your applications.==
 
 Kubernetes networking provides a wide variety of features and capabilities to connect your applications. In this guide, we will cover the basics of Kubernetes networking and how you can use it to connect your applications.
 
@@ -311,7 +311,7 @@ In addition to the methods described above, you can also use network policies to
 
 Now that you know the basics of Kubernetes networking, you can start using it to connect your applications. For more information, refer to the Kubernetes documentation.
 
-{{< logseq/mark >}}write advanced guide to Kubernetes Security: Best practices for securing your Kubernetes cluster and applications.{{< / logseq/mark >}}
+==write advanced guide to Kubernetes Security: Best practices for securing your Kubernetes cluster and applications.==
 
 Kubernetes is a powerful container orchestration tool that has many features and options. While this provides great flexibility, it also means that there are many ways to configure Kubernetes. This can make it difficult to know which options are the most secure.
 
@@ -377,7 +377,7 @@ Kubernetes is a powerful container orchestration tool that has many features and
 
 In this article, we have discussed some of the best practices for securing your Kubernetes cluster and applications. We have also discussed some of the trade-offs that you need to consider when choosing security options.
 
-{{< logseq/mark >}}write guide to Kubernetes Monitoring: Recommendations for monitoring your Kubernetes cluster and applications.{{< / logseq/mark >}}
+==write guide to Kubernetes Monitoring: Recommendations for monitoring your Kubernetes cluster and applications.==
 
 Kubernetes is a powerful container orchestration tool that helps you to deploy and manage containerized applications at scale. While Kubernetes offers a lot of features and benefits, it can be challenging to monitor and troubleshoot a Kubernetes cluster and the applications running on it. In this article, we will recommend some of the best practices for monitoring your Kubernetes cluster and applications.
 
@@ -403,7 +403,7 @@ It is important to setup alerts to notify you when there are problems with your 
 
 following these recommendations will help you to effectively monitor your Kubernetes cluster and applications, and to troubleshoot problems when they occur.
 
-{{< logseq/mark >}}Write example of kubernetes pod yaml files{{< / logseq/mark >}}
+==Write example of kubernetes pod yaml files==
 
 ```yaml 
 yaml mypod.yaml
@@ -420,7 +420,7 @@ containers:
   command: ["echo", "hello world"]`
 ```
 
-{{< logseq/mark >}}Write tutorial on how to deploy nodejs application on kubenetes{{< / logseq/mark >}}
+==Write tutorial on how to deploy nodejs application on kubenetes==
 
 In this tutorial, we will learn how to deploy a Node.js application on a Kubernetes cluster. We will be using the Minikube Kubernetes distribution.
 
@@ -481,11 +481,11 @@ $ kubectl describe service my-node-app | grep NodePort
 
 8. Access the application in your browser at `http://<Minikube IP>:<NodePort>`
 
-{{< logseq/mark >}}How should I host kubernetes in production?{{< / logseq/mark >}}
+==How should I host kubernetes in production?==
 
 There are a number of ways to host Kubernetes in production. One way is to use a managed service, such as Google Container Engine or Amazon Elastic Container Service for Kubernetes. Alternatively, you can install Kubernetes on premise using tools such as Kubeadm.
 
-{{< logseq/mark >}}Write tutorial on how to set up kubernetes on aws{{< / logseq/mark >}}
+==Write tutorial on how to set up kubernetes on aws==
 
 Setting up Kubernetes on AWS
 
@@ -628,11 +628,11 @@ EksSecurityGroup:
         ToPort: 22
 ```
 
-{{< logseq/mark >}}What config files are required to setup kubernetes?{{< / logseq/mark >}}
+==What config files are required to setup kubernetes?==
 
 There are numerous config files required to setup kubernetes, depending on the environment and Distro being used. A comprehensive list can be found here: https://kubernetes.io/docs/concepts/overview/components/#configuration
 
-{{< logseq/mark >}}Write examples of the different types of kubernetes config files{{< / logseq/mark >}}
+==Write examples of the different types of kubernetes config files==
 
 -Kubernetes config files are typically written in YAML or JSON and are used to define objects and parameters for Kubernetes deployments.
 

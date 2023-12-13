@@ -15,7 +15,7 @@ lastMod: 2023-10-28
 ![Drone view of honolulu](/assets/honolulu_1676694313546_0.jpg)
 
 # Moving to Hawaii
-heading:: 1
+
 
 Hi everyone. This post is an update on my personal life.
 
@@ -47,10 +47,10 @@ I'm looking forward to trying my hand at surfing soon. There are tons of surfers
 
 We've been road-tripping around the island, discovering new beaches and unique scenery in every area. It's an incredible place to live if you're a fan of the outdoors, and there's always something new to explore. Living in Hawaii has been a dream, and I'm incredibly grateful to be here.
 
-{{< youtube 4iJDXBfc6C8 >}}
+{{ youtube 4iJDXBfc6C8 }}
 
 # Improving my Health and Fitness
-heading:: 1
+
 
 I wasn't taking care of my health as much as I should have in the past few years, so my top priority is building a healthier lifestyle. I used to be pretty active when walking to work and going to the gym a few times a week, but when Covid hit, and I started working from home, it threw a wrench in my fitness routine, so now I'm trying to get back on track.
 

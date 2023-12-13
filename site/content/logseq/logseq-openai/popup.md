@@ -20,7 +20,7 @@ There are three modes: **custom commands**, **built-in commands**, and **user-de
 There's also a way for the community to contribute useful commands to the plugin for everyone to use.
 
 # Background
-heading:: 1
+
 
 [OpenAI's GPT-3](https://openai.com/api/) is an AI tool that allows you to analyze and generate text. It can perform many tasks, such as answering questions about a topic, writing blog posts, summarizing text, and more.
 
@@ -35,7 +35,7 @@ These tools are nice and have good user interfaces but have some limitations for
 The plugin is free and open source but uses OpenAI's API, which does charge per API request; however, using their API directly with your key is much cheaper than any commercial option.
 
 # Getting started
-heading:: 1
+
 
 Go to the logseq plugin marketplace and search for "openai" or update the plugin to get the latest version.
 
@@ -54,7 +54,7 @@ For now, the input text from the block is appended after the command prompt you 
 If you are on a page and don't have a block selected, the plugin will append the result in a block at the bottom of the page and won't use any text as input.
 
 # Custom commands
-heading:: 1
+
 
 You can open the popup and type in any task you want to perform.
 
@@ -71,7 +71,7 @@ If you're in an empty block, you can ask it to perform a task without input.
 ![custom autoplay](/assets/2023-01-18_16.22.13_1674095036177_0_1675214083513_0.mp4)
 
 ## Built-in commands
-heading:: 2
+
 
 There are many built-in commands for common use cases
 
@@ -110,34 +110,34 @@ Translate to other languages
 Here are some demos of the built-in commands:
 
 ### Summarize text
-heading:: 3
+
 
 ![summarize.gif](/assets/summarize_1674095683669_0.gif)
 
 ### Create outline of text
-heading:: 3
+
 
 ![outline autoplay](/assets/outline2_1674095716959_0_1675214186883_0.mp4)
 
 ### Most important ideas in a text
-heading:: 3
+
 
 ![important-ideas autoplay](/assets/important-ideas_1674095953444_0_1675214231308_0.mp4)
 
 ### Common objections to an idea
-heading:: 3
+
 
 ![common-objections autoplay](/assets/common-objections_1674095797741_0_1675214273662_0.mp4)
 
 ## User-Defined commands
-heading:: 2
+
 
 You can define your own commands to show up in the popup.
 
 These are defined similarly as [Logseq templates.](https://docs.logseq.com/#/page/templates)
 
 ### How to create a user-defined command
-heading:: 3
+
 
 Create a block with a property `prompt-template:: Template Name`
 
@@ -146,7 +146,7 @@ Indent a block underneath the prompt template block that contains a code block o
 These can be written anywhere in your notes and they'll be detected in the popup (like logseq templates)
 
 ### Language flash cards
-heading:: 3
+
 
 Here's an example of making language learning flashcards from a YouTube transcript.
 
@@ -155,49 +155,49 @@ Here's an example of making language learning flashcards from a YouTube transcri
 ![chinese flashcards autoplay](/assets/2023-01-13_14.20.49_1675294883999_0.mp4)
 
 ### Student teacher dialog example
-heading:: 3
+
 
 This is an example of defining a custom prompt to rewrite a piece of text as a dialog between a student and teacher.
 
 ![Screenshot 2023-01-31 at 1.55.21 PM.png](/assets/Screenshot_2023-01-31_at_1.55.21_PM_1675209353980_0.png)
 
-{{< logseq/orgSRC >}}- # Student Teacher Dialog
+- # Student Teacher Dialog
 prompt-template:: Student Teacher Dialog
 -  ```prompt
    Rewrite the following text as a dialog between a teacher and a student:
    ```
-{{< / logseq/orgSRC >}}
+
 
 ![user-prompt autoplay](/assets/user-prompt_1675204065803_0.mp4)
 
 ## Preview
-heading:: 2
+
 
 After you hit enter to run a command, the popup will show you a preview of the result from GPT-3, so you can decide if you want to insert the result into your notes
 
 ![Screenshot 2023-01-20 at 10.54.06 AM.png](/assets/Screenshot_2023-01-20_at_10.54.06_AM_1675203364365_0.png)
 
 ## Insert and Replace
-heading:: 2
+
 
 After you run the command, you can either insert the GPT-3 result underneath the current block or replace the current block with the GPT-3 result.
 
 The replace feature is helpful when using the plugin to improve the tone of existing writing, fix grammar/spelling, and translate text into different languages.
 
 ### Replace example
-heading:: 3
+
 
 ![replace translate autoplay](/assets/video_1675205191234_0.mp4)
 
 ## Regenerate
-heading:: 2
+
 
 Sometimes the first try doesn't generate optimal results, so you can click "Regenerate" to re-run the prompt until you get something good.
 
 ![regenerate outline autoplay](/assets/video_1675205447669_0.mp4)
 
 ## Share Prompts
-heading:: 2
+
 
 Do you have a prompt that the community would find useful? Contribute it to the [built-in prompts list](https://github.com/briansunter/logseq-plugin-gpt3-openai/blob/master/src/prompts/prompts.toml).
 
@@ -206,7 +206,7 @@ There's a TOML text file in the repo where you can easily add new prompts.
 Go [here](https://github.com/briansunter/logseq-plugin-gpt3-openai/blob/master/src/prompts/prompts.toml) to see the prompt file in the repo
 
 ## Future work
-heading:: 2
+
 
 I have several enhancements in mind to add to the plugin.
 

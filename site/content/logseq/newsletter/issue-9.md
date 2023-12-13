@@ -23,44 +23,44 @@ lastMod: 2023-10-28
 ![stop.jpg](/assets/stop_1672218528540_0.jpg)
 
 # Summary
-heading:: 1
+
 
 I'm continuing to add features to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
 
 I'm really interested in this new AI technology called "Large Language Models" which allows AI to understand the meaning behind text, as well as generate humanlike text.
 
 # Logseq GPT-3 OpenAI plugin
-heading:: 1
+
 
 I recently added some new features to the logseq OpenAI GPT-3 plugin.
 
 ### Logseq OpenAI Plugin Video
-heading:: 3
+
 
 The [productivity Youtuber Shu Omi](https://www.youtube.com/@ShuOmi_Official) made a great video about my [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai). I recommend checking it out as an introduction to the plugin and AI-assisted note-taking.
 
 I've been a fan of Shu's videos for a long time while learning about notetaking, and I am delighted he highlighted my plugin in one of his videos!
 
-{{< youtube 1R1Pq_41wFw >}}
+{{ youtube 1R1Pq_41wFw }}
 
 ### GPT-3 Page
-heading:: 3
+
 
 The new `gpt-page` feature sends the entire current page to GPT-3, which should be more convenient for certain use cases where additional context is needed to make the suggestions more accurate. This feature makes it behave more like the OpenAI playground.
 
-{{< tweet user="Bsunter" id="1587513598896525312" >}}
+{{ tweet user="Bsunter" id="1587513598896525312" }}
 
 ### DALL-E
-heading:: 3
+
 
 OpenAI released their [DALL-E](https://openai.com/dall-e-2/) image generation API. I recently incorporated this into the [Logseq GPT-3 plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), so you can generate images inside Logseq, which are inserted into the editor and saved locally.
 
 It's nice to use GPT-3 to generate the prompt, then send it to [DALL-E](https://openai.com/dall-e-2/) within the same tool.
 
-{{< tweet user="Bsunter" id="1590174757651378177" >}}
+{{ tweet user="Bsunter" id="1590174757651378177" }}
 
 ### GPT-3 Prompt Templates
-heading:: 3
+
 
 I'm working on a future feature to add "prompt templates" to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai).
 
@@ -76,10 +76,10 @@ They will behave similarly to Logseq templates, where you can define them in pla
 
 I'll eventually include these in a modal popup, like other AI tools.
 
-[See more thoughts on writing prompts and prompt templates here]({{< sref "/pages/logseq-openai/prompt-template" >}})
+[See more thoughts on writing prompts and prompt templates here]([[logseq-openai/prompt-template]])
 
 # Large Language Models
-heading:: 1
+
 
 Large language models (LLMs) are AI tools that can perform a wide variety of tasks. LLMs can be used for both search and classification based on the meaning of the text and generating human-like text.
 
@@ -92,14 +92,14 @@ I think they're interesting for several reasons:
 3. They exhibit a property called "emergence," where as you train them on more data, they gain new abilities that the creators didn't anticipate
 4. They can search and classify text based on meaning instead of just by keywords that appear in the text. I'm really interested in using this for note-taking to find "similar" notes, even if they don't share any text in common, to uncover interesting connections and relationships.
 
-[See more of my thoughts on why large language models are interesting here]({{< sref "/pages/why-large-language-models-are-interesting" >}})
+[See more of my thoughts on why large language models are interesting here]([[why-large-language-models-are-interesting]])
 
 # Headphone Eyemask
-heading:: 1
+
 
 ![image_1667858995655_0.jpeg](/assets/image_1667858995655_0_1667859078784_0.jpeg)
 
-The [headphone-eye-mask]({{< sref "/pages/headphone-eye-mask" >}}) is my new favorite sleep hack.
+The [[headphone-eye-mask]] is my new favorite sleep hack.
 
 It's an eye mask with built-in Bluetooth headphones, so you can listen to podcasts while falling asleep.
 
@@ -107,10 +107,10 @@ I often stayed up too late on my phone or computer, overstimulating my brain and
 
 The headphone eye mask helps slow down my brain with a nightly ritual I enjoy and helps me get to sleep earlier.
 
-I wrote about [how I use it and some podcast recommendations here.]([headphone-eye-mask]({{< sref "/pages/headphone-eye-mask" >}}))
+I wrote about [how I use it and some podcast recommendations here.]([[headphone-eye-mask]])
 
 # Alamack of Naval Ravikant
-heading:: 1
+
 
 I enjoyed this book called the [[almanack-of-naval-ravikant]], which is a collection of philosophical[tweets by Naval(https://twitter.com/naval) on wealth creation, learning, mindset, and health.
 
@@ -121,17 +121,17 @@ The book is completely free and you can [download it here](https://www.navalmana
 [Read my review and notes on the book here]([[almanack-of-naval-ravikant]])
 
 # Brain Food 🧠
-heading:: 1
+
 
 ## Quote
-heading:: 2
+
 
 > Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 
 [Naval Ravikant](https://twitter.com/naval) (from [[almanack-of-naval-ravikant]] )
 
 ## Link of the Week
-heading:: 2
+
 
 You need to try [ChatGPT](https://chat.openai.com/chat). It's easy and free to get started. Just log in and ask it anything.
 
@@ -141,12 +141,12 @@ Here are some examples of what it can do:
 
 It can write an A- college history essay
 
-{{< tweet user="corry_wang" id="1598176074604507136" >}}
+{{ tweet user="corry_wang" id="1598176074604507136" }}
 
 It's also good at coding
 
-{{< tweet user="amasad" id="1598042665375105024" >}}
+{{ tweet user="amasad" id="1598042665375105024" }}
 
 Some of my favorite examples are the weird, funny ones. Here's one where it writes a Seinfeld script about Jerry learning programming
 
-{{< tweet user="goodside" id="1598077257498923010" >}}
+{{ tweet user="goodside" id="1598077257498923010" }}

@@ -14,7 +14,7 @@ lastMod: 2023-12-03
 ![image.png](/assets/image_1661147875071_0.png)
 
 # Managing Python projects in 2022
-heading:: 1
+
 
 There are many different options for managing Python projects and their dependencies.
 Overall, I recommend using `pyenv` + `poetry`. I will describe why we need these tools, how they work, and what they replace.
@@ -28,7 +28,7 @@ There are three main things to think about when managing a Python project:
 3. How to perform administrative tasks, like project initialization and publishing packages.
 
 # Tools Overview
-heading:: 1
+
 
 **Homebrew** installs development tools on macOS. Follow the instructions here to set it up if you haven't already [https://brew.sh/](https://brew.sh/).
 
@@ -39,39 +39,39 @@ heading:: 1
 **[poetry](https://python-poetry.org/)** helps us download Python dependencies and has tools to help Python project administration, such as project initialization and publishing packages.
 
 # Initial Setup
-heading:: 1
+
 
 ## Set up pyenv
-heading:: 2
+
 
 First, let's set up `pyenv` and set our terminal's default Python version to 3.9.0.
 
 ### Install pyenv using homebrew
-heading:: 3
+
 
 `brew install pyenv`
 
 ### Install Python 3.9
-heading:: 3
+
 
 `pyenv install 3.9.0`
 
 ### Use Python 3.9 globally
-heading:: 3
+
 
 `pyenv global 3.9.0`
 
 Now we will be using Python 3.9 in our terminal by default. If we work with a project that needs a different version of Python, `pyenv` can be configured to use a different version for that project.
 
 ## Install poetry
-heading:: 2
+
 
 Install the poetry tool using homebrew.
 
 `brew install poetry`
 
 # Django Project Setup Example
-heading:: 1
+
 
 Let's start by setting up a new Django project using poetry.
 
@@ -86,7 +86,7 @@ Now let's initialize the Python project using Poetry. You can just keep hitting 
 `poetry init`
 
 ## pyproject.toml
-heading:: 2
+
 
 Poetry should create a file called `pyproject.toml`, which configures our project and define our dependencies.
 
@@ -109,7 +109,7 @@ build-backend = "poetry.core.masonry.api"
 ```
 
 ## Add a dependency
-heading:: 2
+
 
 Add Django to the list of dependencies and install it.
 
@@ -126,7 +126,7 @@ Django = "^4.0.2"
 ```
 
 ## poetry.lock
-heading:: 2
+
 
 Poetry adds the [semver](https://semver.org) `^` syntax in the dependency version in `pyproject.toml`. This allows for "loose" versions, meaning this `^4.0.2` syntax allows for any version greater or equal to `4.0.2` but less than `5.0.0`. According to the semver syntax `MAJOR.MINOR.PATCH`, anything besides `MAJOR` version dependency upgrades should be backward compatible. This allows easy upgrades to the latest dependency version to get backward-compatible improvements.
 
@@ -137,7 +137,7 @@ When you install or update dependencies, poetry creates a `poetry.lock` file, wh
 When we want to upgrade dependencies, we can run `poetry update` to fetch the latest compatible versions of all dependencies or run `poetry update django` to only update Django. This will update the exact versions in the `poetry.lock` file to the latest compatible version. Although these updates are backward compatible in theory, I'm still careful to test that things still work correctly.
 
 ## Virtualenv
-heading:: 2
+
 
 Behind the scenes, Poetry uses a tool built into Python called virtualenv, which isolates dependencies to the project you're working on. Poetry enables virtualenv by default and handles it automatically, whereas other tools do not. virtualenv makes it easier to work on multiple Python projects on the same computer.
 
@@ -146,7 +146,7 @@ virtualenv makes poetry save dependencies to a `.venv` folder inside your projec
 We want the option to work on multiple projects locally, so we'll use poetry with its default settings and let it manage virtualenv for us automatically.
 
 # Initialize Django project
-heading:: 1
+
 
 Django includes some command line tools for generating projects like `django-admin`. You'll see these if you follow any Django tutorials.
 
@@ -169,22 +169,22 @@ Run `python mysite/manage.py runserver` to start your local server.
 Type `CONTROL-D` to exit the poetry shell.
 
 # Other Tools
-heading:: 1
+
 
 You will probably encounter many different tools and options, but you shouldn't need most of them.
 
 ## Pip
-heading:: 2
+
 
 pip is a dependency management tool included with Python 3.4 and later, though it's pretty simplistic. It can install dependencies from a `requirements.txt` file, but it doesn't have a concept like `poetry.lock` and doesn't handle virtualenv for you.
 
 ## setup.py
-heading:: 2
+
 
 `pyproject.toml` is the future standard for declaring Python project metadata and dependencies. You may encounter a `setup.py` file to declare project metadata, but this is no longer needed with `pyproject.toml`.
 
 ## [Pipenv](https://github.com/pypa/pipenv)
-heading:: 2
+
 
 Pipenv solves many of the same problems as Poetry but uses its own file format for listing dependencies called a `Pipfile`. This `Pipfile` is very similar to `pyproject.toml` but is nonstandard, so I prefer Poetry.
 
@@ -193,11 +193,11 @@ There seem to have been some stalls in Pipenv's development during its history. 
 > As of writing, it's been 381 days and 669 commits since a release. Please consider the impact of the project maintainers' silence regarding the lack of a release.
 
 ## Conda / Anaconda
-heading:: 2
+
 
 Anaconda is commonly used in data science projects to manage dependencies. It includes tools like conda and miniconda. Not only does it have its own dependency file format and lockfile, but it also uses a different package repository than any of the other tools. I would avoid using nonstandard build specification formats like the conda and Pipenv formats.
 
 # Conclusion
-heading:: 1
+
 
 `poetry` + `pyenv` takes the place of older tools such as `pip`, `pipenv`, `setup.py`, and manual `virtualenv` commands. If you see these commands in other tutorials or projects, you can just use `poetry` instead.

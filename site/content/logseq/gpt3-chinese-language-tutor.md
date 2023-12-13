@@ -13,7 +13,7 @@ lastMod: 2023-10-28
 ![chinese-robot.jpg](/assets/chinese-robot_1672272679577_0.jpg)
 
 # Special Purpose AI Tutor Chat Bots
-heading:: 1
+
 
 Can you create a special purpose tutoring chat bot to teach yourself Chinese internet slang?
 
@@ -30,10 +30,10 @@ The first quote block is my prompt to GPT-3 to make it act like a chat bot
 The blocks underneath are responses from the GPT-3 tutoring bot.
 
 # GPT Chinese Tutoring Session
-heading:: 1
+
 
 ## How to talk to Chinese Twitter Followers
-heading:: 2
+
 
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
@@ -75,7 +75,7 @@ Teacher:
 "没有办法" - "There's no way!"
 
 ## Chinese Internet Slang
-heading:: 2
+
 
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
@@ -127,7 +127,7 @@ Here are a few popular Chinese internet slang phrases to help you get started:
 吃鸡 (chījī): This term is used to describe the act of winning in an online game. It is the equivalent of saying “gg” (good game) or “WP” (well played).
 
 ## Chinese Internet Culture
-heading:: 2
+
 
 ```
 Student: What should I know about chinese internet culture?
@@ -141,7 +141,7 @@ There are a few things to know about Chinese internet culture. The most popular 
 Twitter has around 330 million active users.
 
 ## How to Introduce Yourself
-heading:: 2
+
 
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
@@ -155,7 +155,7 @@ Teacher:
 Introducing yourself in Chinese on the internet is easy! Just start by saying 你好 (nǐ hǎo), which means "hello." From there, you can tell people your name, where you're from, and what you're interested in. Don't forget to include a few pleasantries to make sure your introduction goes over well!
 
 ## Chinese AI vocabulary
-heading:: 2
+
 
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
@@ -171,7 +171,7 @@ There is a lot of vocabulary related to AI in Chinese, but some of the most impo
 Some other useful phrases might be 我们使用机器来完成这项任务 (wǒ men shǐ yòng jī qì lái wán chéng zhè xiàng rèn wù) - we use machines to complete this task, or 机器人将会取代人类工作 (jī qì rén jiāng huì qǔ fftdài rén lèi gōng zuò) - robots will replace human workers.
 
 ## Colloquial Chinese
-heading:: 2
+
 
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:

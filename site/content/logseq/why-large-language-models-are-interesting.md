@@ -22,7 +22,7 @@ They were trained by analyzing massive amounts of text from Wikipedia and Reddit
 I think they are interesting for three reasons:
 
 ### Natural Language Interface
-heading:: 3
+
 
 First, you can interact with the text generation capabilities using natural language instead of code.
 
@@ -35,7 +35,7 @@ There's exciting research in this area, such as Google's "PromptChainer," which 
 AI-enabled "no code" interfaces like this could allow non-programmers to perform useful tasks and create powerful applications.
 
 ### Generality and Emergence
-heading:: 3
+
 
 Second, LLMs extremely general and can perform a wide variety of tasks, even things they weren't originally trained to do. Earlier AI models could only perform tasks they were explicitly trained to do, like summarization or translation. GPT-3 can do things like multiply numbers, even though it wasn't trained to do multiplication.
 
@@ -52,7 +52,7 @@ This opens up the exciting possibility that by feeding AI more data, it can gain
 We see similar behavior in "reinforcement learning," like Google's Alpha Zero Go board game engine. Instead of experts building strategies for board games, like a database of optimal opening and endgame moves, these systems teach themselves by playing millions of games against themselves. This allows them to develop strategies the creators couldn't have imagined.
 
 ### Semantic Search and Classification
-heading:: 3
+
 
 Third, in addition to generating text, these models can also be used for search and classification. Instead of just searching for words that appear in the text, they can find text with similar meanings.
 

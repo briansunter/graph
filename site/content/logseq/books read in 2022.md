@@ -20,7 +20,7 @@ I collected my thoughts on the books I read and some excerpts that gave a feel f
 Out of these, some of my favorites were "**Hard-Boiled Wonderland and the End of the World by Haruki Murakami**", "**Mistborn by Brandon Sanderson**", "**The Picture of Dorian Gray by Oscar Wilde**", and "**The Gay Science by Friedrich Nietzsche**".
 
 ## Building a Second Brain by Tiago Forte
-heading:: 2
+
 
 ![basb.jpeg](/assets/basb_1672455079106_0.jpeg)
 
@@ -34,10 +34,10 @@ I incorporated many ideas from his book into my system, like focusing on project
 
 > What’s the point of knowing something if it doesn’t positively impact anyone, not even yourself?
 
-[Read my full summary here]({{< sref "/pages/building a second brain" >}})
+[Read my full summary here]([[building a second brain]])
 
 ## The Untethered Soul by Michael Singer
-heading:: 2
+
 
 [Amazon Link](https://www.amazon.com/dp/1572245379?tag=bsunter06-20)
 
@@ -53,7 +53,7 @@ I thought it was a good introduction to mindfulness. I liked the concept of "The
 Notice that the voice takes both sides of the conversation. It doesn’t care which side it takes, just as long as it gets to keep on talking.
 
 ## Simple Path to Wealth  by J.L Collins
-heading:: 2
+
 
 ![31QRvVZpizL._AC_SY780_.jpg](/assets/31QRvVZpizL._AC_SY780_1672620409758_0.jpg)
 
@@ -82,7 +82,7 @@ This book helped me develop a plan for my finances and feel good about my strate
 > When you can live on 4% of your investments per year, you are financially independent.
 
 ## Hold Me Tight by Dr. Sue Johnson
-heading:: 2
+
 
 ![hold-me-tight.jpeg](/assets/hold-me-tight_1672771838590_0.jpeg)
 
@@ -103,7 +103,7 @@ One of my goals last year was to improve communication with my partner and be mo
 > Engagement: Do I know you will value me and stay close? The dictionary defines *engaged* as being absorbed, attracted, pulled, captivated, pledged, involved. Emotional engagement here means the very special kind of attention that we give only to a loved one. We gaze at them longer, touch them more. Partners often talk of this as being emotionally present.
 
 ## Authority and the Individual by Bertrand Russel
-heading:: 2
+
 
 ![418Mwg6YAqL.jpg](/assets/418Mwg6YAqL_1672620426734_0.jpg)
 
@@ -118,7 +118,7 @@ A nuanced take on one of my favorite topics: the tension between the individual 
 > The sphere of individual action is not to be regarded as ethically inferior to that of social duty. On the contrary, some of the best of human activities are, at least in feeling, rather personal than social. Prophets, mystics, poets, scientific discoverers, are men whose lives are dominated by a vision; they are essentially solitary men. When their dominant impulse is strong, they feel that they cannot obey authority if it runs counter to what they profoundly believe to be good. Although, on this account, they are often persecuted in their own day, they are apt to be, of all men, those to whom posterity pays the highest honour. It is such men who put into the world the things that we most value, not only in religion, in art, and in science, but also in our way of feeling towards our neighbour, for improvements in the sense of social obligation, as in everything else, have been largely due to solitary men whose thoughts and emotions were not subject to the dominion of the herd.
 
 ## The Screwtape Letters by C.S. Lewis
-heading:: 2
+
 
 ![screwtape.jpg](/assets/screwtape_1672620785526_0.jpg)
 
@@ -129,7 +129,7 @@ A religious satire defending Christianity in the form of imagined letters betwee
 > Nearly all vices are rooted in the future. Gratitude looks to the past and love to the present; fear, avarice, lust and ambition look ahead.
 
 ## The Gay Science by Friedrich Nietzsche
-heading:: 2
+
 
 ![gay-science.jpeg](/assets/gay-science_1672621370939_0.jpeg)
 
@@ -150,7 +150,7 @@ The book doesn't propose a philosophical system but is more a series of question
 > Excelsior.— “You will never pray again, never adore again, never again rest in endless trust; you do not permit yourself to stop before any ultimate wisdom, ultimate goodness, ultimate power, while unharnessing your thoughts; you have no perpetual guardian and friend for your seven solitudes; there is no avenger for you any more nor any final improver; there is no longer any reason in what happens, no love in what will happen to you; no resting place is open any longer to your heart.
 
 ## Almanack of Naval Ravikant by Eric Jorgenson
-heading:: 2
+
 
 ![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 
@@ -167,7 +167,7 @@ Collection of tweets by naval on entrepreneurship, happiness, and health. Lots o
 See my [full notes on the book here]([[almanack-of-naval-ravikant]])
 
 ## Man's Search for Meaning Viktor E. Frankl
-heading:: 2
+
 
 ![mans-meaning.jpeg](/assets/mans-meaning_1672626609393_0.jpeg)
 
@@ -180,7 +180,7 @@ The first half is about his experiences in a concentration camp, and the second 
 > “Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.”
 
 ## Apology by Plato/Socrates
-heading:: 2
+
 
 ![socrates.jpg](/assets/socrates_1672728321436_0.jpg)
 
@@ -205,7 +205,7 @@ An excellent example of greek rhetoric. I highly recommend reading a commentary 
 > I found that the men most in repute were all but the most foolish; and that some inferior men were really wiser and better.
 
 ## The Gateless Gate by Wumen Huikai
-heading:: 2
+
 
 [Amazon Link](https://www.amazon.com/dp/0861713826?tag=bsunter06-20)
 
@@ -232,7 +232,7 @@ He could have cooked his rice much sooner.
 Gutei heard about the boy's mischief. He seized him and cut off his finger. The boy cried and ran away. Gutei called and stopped him. When the boy turned his head to Gutei, Gutei raised up his own finger. In that instant the boy was enlightened.
 
 ## Typescript Handbook
-heading:: 2
+
 
 ![typescript-handbook.jpg](/assets/typescript-handbook_1672627324910_0.jpg)
 
@@ -257,7 +257,7 @@ pet.fly();
 ```
 
 ## Let's Explore Diabetes with Owls by David Sedaris
-heading:: 2
+
 
 [Amazon Link](https://www.amazon.com/dp/0316154709?tag=bsunter06-20)
 
@@ -272,7 +272,7 @@ Hilarious neurotic bizarre, yet relatable essays by David Sedaris. The anecdotes
 > The beaches in Hawaii look as if they’ve been bleached; that’s how white the sand is. The water is warm—even in winter—and so clear you can see not just your toes but the corns cleaving, barnacle-like, to the sides of them.
 
 ## Hard-Boiled Wonderland and the End of the World by Haruki Murakami
-heading:: 2
+
 
 ![hardboiled.jpeg](/assets/hardboiled_1672628001084_0.jpeg)
 
@@ -299,7 +299,7 @@ Our organization is generally called the System, theirs the Factory. The System 
 “Not even I know all the rules,” says the old officer under his breath. “There are things that cannot and should not be explained. But there is no cause for concern. The Town is fair in its own way. The things you need, the things you need to know, one by one the Town will set these before you. Hear me now: this Town is perfect. And by perfect, I mean complete. It has everything. If you cannot see that, then it has nothing. A perfect nothing. Remember this well. That is as much as anyone can tell you; the rest you must learn for yourself. Open your eyes, train your ears, use your head. If a mind you have, then use it while you can.”
 
 ## The Picture of Dorian Gray by Oscar Wilde
-heading:: 2
+
 
 ![dorian.jpeg](/assets/dorian_1672628846521_0.jpeg)
 
@@ -317,7 +317,7 @@ Why, my dear Basil, he is a Narcissus, and you—well, of course you have an int
 > Beauty is a form of Genius--is higher, indeed, than Genius, as it needs no explanation. It is one of the great facts of the world, like sunlight, or springtime, or the reflection in the dark waters of that silver shell we call the moon. It cannot be questioned. It has divine right of sovereignty. It makes princes of those who have it.
 
 ## Where the Crawdads Sing by Delia Owens
-heading:: 2
+
 
 ![crawdads.jpg](/assets/crawdads_1672629636504_0.jpg)
 
@@ -332,7 +332,7 @@ This was a nice easy read, and I liked the imagery of the marshy small town in N
 > She knew the years of isolation had altered her behavior until she was different from others, but it wasn't her fault she'd been alone. Most of what she knew, she'd learned from the wild. Nature had nurtured, tutored, and protected her when no one else would.
 
 ## Dune by Frank Herbert
-heading:: 2
+
 
 ![dune.jpg](/assets/dune_1672629693314_0.jpg)
 
@@ -356,7 +356,7 @@ Pride overcame Paul’s fear. ‘You dare suggest a duke’s son is an animal?�
 Paul swallowed, suddenly aware of the moisture in his mouth, remembering a dream of thirst. That people could want so for water they had to recycle their body moisture struck him with a feeling of desolation. ‘Water’s precious there,’ he said.
 
 ## Master and Margarita by Mikhail Bulgakov
-heading:: 2
+
 
 ![master-margarita.jpeg](/assets/master-margarita_1672629817618_0.jpeg)
 
@@ -389,7 +389,7 @@ Ah, how interesting!’ exclaimed the foreigner.
 ‘I didn’t go on,’ said the prisoner. ‘Here men ran in, bound me, and took me away to prison.’
 
 ## Travels with Charley by John Steinbeck
-heading:: 2
+
 
 ![travels-with-charley.jpeg](/assets/travels-with-charley_1672052430785_0.jpeg)
 
@@ -399,12 +399,12 @@ John Steinbeck sets out on a road trip across 1960s America with his standard po
 
 This book does a great job of capturing the spirit of the American road trip and has the exceptional lyricism in plain English of all Steinbeck books.
 
-[Read my full summary here]({{< sref "/pages/travels with charley" >}})
+[Read my full summary here]([[travels with charley]])
 
 > I took one companion on my journey—an old French gentleman poodle known as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he knows a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
 
 ## Neuromancer by William Gibson
-heading:: 2
+
 
 ![neuromancer.jpg](/assets/neuromancer_1672630101925_0.jpg)
 
@@ -420,7 +420,7 @@ I loved the central plotline of a rogue AI trying to escape and manipulate human
 A year here and he still dreamed of cyberspace, hope fading nightly. All the speed he took, all the turns he’d taken and the corners he’d cut in Night City, and still he’d see the matrix in his sleep, bright lattices of logic unfolding across that colorless void. . . . The Sprawl was a long strange way home over the Pacific now, and he was no console man, no cyberspace cowboy. Just another hustler, trying to make it through. But the dreams came on in the Japanese night like livewire voodoo, and he’d cry for it, cry in his sleep, and wake alone in the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temperfoam bunched between his fingers, trying to reach the console that wasn’t there.
 
 ## Mistborn by Brandon Sanderson
-heading:: 2
+
 
 ![mistborn.jpg](/assets/mistborn_1672630557858_0.jpg)
 
@@ -437,7 +437,7 @@ Tresting stood with his guest on a small hilltop patio that overlooked the field
 > The second man was tall with a strong build. As he turned, Kelsier was able to see that a thick metal spike had been pounded tip-first through each of the man’s eyes. With shafts as wide as an eye socket, the nail-like spikes were long enough that their sharp points jutted out about an inch from the back of the man’s clean-shaven skull. The flat spike ends shone like two silvery disks, sticking out of the sockets in the front, where the eyes should have been. A Steel Inquisitor.
 
 ## Exhalation by Ted Chiang
-heading:: 2
+
 
 ![Exhalation.jpg](/assets/Exhalation_1672630657446_0.jpg)
 
@@ -451,7 +451,7 @@ I enjoyed some of the stories much more than others. In general, I liked the sho
 But in the normal course of life, our need for air is far from our thoughts, and indeed many would say that satisfying that need is the least important part of going to the filling stations. For the filling stations are the primary venue for social conversation, the places from which we draw emotional sustenance as well as physical. We all keep spare sets of full lungs in our homes, but when one is alone, the act of opening one’s chest and replacing one’s lungs can seem little better than a chore. In the company of others, however, it becomes a communal activity, a shared pleasure.
 
 ## Shogun by James Clavell
-heading:: 2
+
 
 ![shogun.jpg](/assets/shogun_1672634122828_0.jpg)
 
@@ -470,7 +470,7 @@ The priest said nervously, “Kasigi Omi-san says, ‘Where do you come from and
 You’d better learn to be polite—and find some manners quickly. Here they don’t tolerate lack of manners.
 
 ## Minority Report by Phillip K. Dick
-heading:: 2
+
 
 ![minority.jpeg](/assets/minority_1672634296433_0.jpeg)
 
@@ -492,7 +492,7 @@ This was an excellent short science fiction story with great pacing. It presents
 We claim they’re culpable. They, on the other hand, eternally claim they’re innocent. And, in a sense, they are innocent."
 
 ## The Little Prince by Antoine de Saint-Exupéry
-heading:: 2
+
 
 ![little-prince.jpg](/assets/little-prince_1672634527260_0.jpg)
 
@@ -514,7 +514,7 @@ other. To me, you will be unique in all the world. To you, I shall
 be unique in all the world...”
 
 ## Saga by Brian K. Vaughan and Fiona Staples
-heading:: 2
+
 
 ![saga.jpeg](/assets/saga_1672635052100_0.jpeg)
 
@@ -529,7 +529,7 @@ Amazing artwork, incredibly creative and imaginative characters and settings, an
 ![saga-14.jpg](/assets/saga-14_1672731345885_0.jpg)
 
 ## The Dark Knight Returns by Frank Miller
-heading:: 2
+
 
 ![dark-knight.jpg](/assets/dark-knight_1672635481754_0.jpg)
 

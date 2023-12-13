@@ -14,12 +14,12 @@ title: newsletter/issue-10
 lastMod: 2023-10-28
 ---
 # Intro
-heading:: 1
+
 
 I migrated the newsletter to [Substack](https://newsletter.briansunter.com), released a big update to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), and added some features to the [Logseq YouTube captions plugin](https://github.com/briansunter/logseq-get-youtube-captions).
 
 # Migrating to substack
-heading:: 1
+
 
 This is the first newsletter sent out through [Substack](https://newsletter.briansunter.com). The response to the newsletter has exceeded my expectations, and I'm thrilled that over 300 of you have subscribed so far. One of my goals this year is to be more consistent in publishing the newsletter, so I hope you enjoy keeping up with my projects and thoughts.
 
@@ -42,7 +42,7 @@ I hope the combination of sharing content under my domain and the newsletter for
 You can read all the newsletter issues [on my site](https://briansunter.com/newsletter), on [my Substack](https://newsletter.briansunter.com), or receive updates via [RSS](https://briansunter.com/index.xml).
 
 # Logseq GPT-3 OpenAI plugin updates
-heading:: 1
+
 
 I updated the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to include a popup window to perform AI tasks powered by OpenAI's GPT-3 in Logseq.  I hope this new popup user interface makes the plugin easier and more convenient.
 
@@ -57,12 +57,12 @@ There's also a way for the community to contribute useful commands to the plugin
 Just hit `cmd+g` while your cursor is in a text block to activate the plugin.
 
 ## Custom commands
-heading:: 2
+
 
 After you open the popup, you can ask the AI to perform a task by typing any command in the popup. If your cursor is in a text box, it will use that text as context for the command.
 
 ### Flash cards
-heading:: 3
+
 
 For example, if you have a block of text and want to generate question-and-answer flashcards to help you remember important points, you could type
 
@@ -71,7 +71,7 @@ For example, if you have a block of text and want to generate question-and-answe
 ![custom-prompt autoplay](/assets/custom-prompt_1674094160276_0_1675213615966_0.mp4)
 
 ### Study topics
-heading:: 3
+
 
 If your cursor is in an empty block, you can ask it to perform a task without input.
 
@@ -82,7 +82,7 @@ If your cursor is in an empty block, you can ask it to perform a task without in
 This often gives me better, more direct results than searching on Google
 
 ## Built-in commands
-heading:: 2
+
 
 There are many built-in commands for common use cases such as:
 
@@ -99,17 +99,17 @@ Finding common objections to ideas in a text
 Here are some demos:
 
 ### Summarize text
-heading:: 3
+
 
 ![summarize.gif](/assets/summarize_1674095683669_0.gif)
 
 ### Common objections to an idea
-heading:: 3
+
 
 ![common-objections autoplay](/assets/common-objections_1674095797741_0_1675214273662_0.mp4)
 
 ## User-defined commands
-heading:: 2
+
 
 You can define your own commands to show up in the popup.
 
@@ -126,7 +126,7 @@ You can then activate the popup and your custom commands will show up
 
 
 ## Preview, Insert, and Replace
-heading:: 2
+
 
 After you hit enter to run a command, the popup will show you a preview of the result from GPT-3, so you can decide if you want to insert the result into your notes.
 
@@ -136,10 +136,10 @@ From here, you can either insert the AI output underneath the current block, or 
 
 You can also hit "regenerate" to rerun the command and get a new output. The result of the AI commands differs each time, and sometimes the first try doesn't give the best result.
 
-I wrote a [full blog post on the plugin here]({{< sref "/pages/logseq-openai/popup" >}}) if you want to learn more
+I wrote a [full blog post on the plugin here]([[logseq-openai/popup]]) if you want to learn more
 
 # Logseq YouTube captions plugin updates
-heading:: 1
+
 
 The  [Logseq YouTube captions plugin](https://github.com/briansunter/logseq-get-youtube-captions) lets you download the captions from a YouTube video directly into your notes.
 

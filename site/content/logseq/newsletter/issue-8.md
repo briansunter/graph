@@ -25,36 +25,36 @@ description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
 lastMod: 2023-10-28
 ---
 # Summary and Reflection 🤔
-heading:: 1
 
-I'm continuing to work on the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) section of this site.
 
-I'm working through a few courses now including the [abdul bari algorithms]({{< sref "/pages/abdul bari algorithms" >}}) course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [abdul bari algorithms/time-complexity]({{< sref "/pages/abdul bari algorithms/time-complexity" >}})
+I'm continuing to work on the [[algorithms-boot-camp]] section of this site.
+
+I'm working through a few courses now including the [[abdul bari algorithms]] course and [Stanford's algorithms course](https://stanford-cs161.github.io/winter2021/lectures/). See my notes on [[abdul bari algorithms/time-complexity]]
 
 I'm going over some math in Volume 1 of The Art of Computer Programming by Donald Knuth. I included a funny anecdote about his approach to email, and how he stays focused on writing his book.
 
-I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})
+I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
 
 # Updates 🆕
-heading:: 1
 
-### [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
-heading:: 3
+
+### [[integer-sum-formula]]
+
 
 ![image.png](/assets/image_1665465573710_0.png)
 
 How do you find the sum of the numbers 1 through 100?
 
-There's a [legend about the mathematician Carl Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}}) as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding numbers 1 through 100. Gauss could come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
+There's a [legend about the mathematician Carl Gauss](https://www.americanscientist.org/article/gausss-day-of-reckoning) coming up with the [[integer-sum-formula]] as a child in school. Supposedly the teacher asked the class to do a tedious assignment of adding numbers 1 through 100. Gauss could come up with the answer instantly, whereas the other students took 30 minutes to find the answer.
 
 You can use the formula sum = n(n+1)/2 to find the sum of 1 to n numbers.
 
 This is a good problem for studying math proofs because this equation has many different proofs and variations. I linked a video in the note that includes 12+ proofs.
 
-For more, see my note on [integer-sum-formula]({{< sref "/pages/integer-sum-formula" >}})
+For more, see my note on [[integer-sum-formula]]
 
 # Productivity Toolkit 🛠️
-heading:: 1
+
 
 In this section, I'll share a productivity tip I've learned recently.
 
@@ -65,7 +65,7 @@ We are more connected and have more information than ever, but it's almost impos
 Interestingly, some of the most outstanding computer scientists, like Donald Knuth and Edsger W. Dijkstra, were cautious about certain technology trends like email.
 
 ## On Email
-heading:: 2
+
 
 ![image.png](/assets/image_1665467044511_0.png)
 
@@ -90,7 +90,7 @@ Here's what he thinks about email:
 [See Knuth's post on email, for more.](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
 ## Knuth Reward Checks
-heading:: 2
+
 
 ![image.png](/assets/image_1665466908028_0.png)
 
@@ -101,14 +101,14 @@ If you are the first to find an error, Donald Knuth will personally write you a 
 For more info on [Knuth Checks, see here.](https://en.wikipedia.org/wiki/Knuth_reward_check)
 
 # Brain Food 🧠 Theater of Thought
-heading:: 1
+
 
 In this section, I'll share some interesting articles and "food for thought"
 
 Werner Herzog is a german filmmaker who has produced, written, and directed more than sixty feature and documentary films. I appreciate his unconventional creativity and the sound of his voice.
 
-### [Werner Herzog Rules for Filmmaking]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})
-heading:: 3
+### [[Werner Herzog Rules for Filmmaking]]
+
 
 He just released a new movie about consciousness and brain-computer interfaces called "Theatre of Thought."
 
@@ -118,9 +118,9 @@ He interviews people working on technology that lets your brain communicate dire
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I've taken some [notes on Herzog's creative approach to filmmaking here]([Werner Herzog Rules for Filmmaking]({{< sref "/pages/Werner Herzog Rules for Filmmaking" >}})).
+I've taken some [notes on Herzog's creative approach to filmmaking here]([[Werner Herzog Rules for Filmmaking]]).
 
 # Outro
-heading:: 1
 
-Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!
+
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!

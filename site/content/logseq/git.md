@@ -7,6 +7,6 @@ title: git
 lastMod: 2023-10-28
 ---
 ## Remove files from gitignore
-heading:: 2
+
 
 `git rm --cached 'git ls-files -i -c --exclude-from=.gitignore'

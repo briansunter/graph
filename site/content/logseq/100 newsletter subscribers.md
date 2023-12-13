@@ -22,7 +22,7 @@ categories:
 lastMod: 2023-10-28
 ---
 ## Summary
-heading:: 2
+
 
 I am starting a newsletter about my learnings on coding, technology, health, and productivity.
 
@@ -33,7 +33,7 @@ My newsletter will mostly be curated tweets, which will be high quality links to
 My website will be used for permantently storing the articles, my twitter will be used for promotion and commenting,
 
 ## Related long term goals
-heading:: 2
+
 
 write book
 
@@ -42,36 +42,36 @@ write book
 become financially independent
 
 ## Desired output
-heading:: 2
+
 
 Gain 100 [[newsletter]] followers in the next 3 months.
 
 ## Tasks
-heading:: 2
+
 
 revue
 
-{{< tweet user="Bsunter" id="1536775128175915009" >}}
+{{ tweet user="Bsunter" id="1536775128175915009" }}
 
 ## Templates
-heading:: 2
 
-[comparison-template]({{< sref "/pages/comparison-template" >}})
+
+[[comparison-template]]
 
 newsletter/template
 
-## Habits [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
-heading:: 2
+## Habits [[100 newsletter subscribers]]
+
 
 analytics
 
 status
 
 ## Notes
-heading:: 2
+
 
 ### Newsletter Hosting Providers Comparison
-heading:: 3
+
 
 id:: 62a91c1d-7848-41e8-bf52-5a229fb61ab6
 |Option|Pros|Cons|Notes|

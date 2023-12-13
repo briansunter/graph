@@ -8,12 +8,12 @@ lastMod: 2023-10-28
 Most of what I do in logseq is centered around "projects"
 
 # Intro to my task management system
-heading:: 1
+
 
 I categorize my tasks into four categories:
 
 ## routine
-heading:: 2
+
 
 Routine tasks I have tasks I have scheduled every day, like exercise, cooking, or chores. I use recurring scheduled tasks for these
 
@@ -29,7 +29,7 @@ SCHEDULED: <2022-06-05 Sun .+1d>
 ```
 
 ## adhoc
-heading:: 2
+
 
 Adhoc tasks are small random tasks that pop up, like responding to an email
 
@@ -40,7 +40,7 @@ Just get everything in daily notes, tag it, and query it later.
 `TODO Respond to [[Eric Smith]] [[email]]`
 
 ## Long Term Goals
-heading:: 2
+
 
 These are my most ambitious goals that take months or years long effort.
 
@@ -53,7 +53,7 @@ Some examples of values are: having a great group of friends, improving my relat
 Some examples long term goals related to these values would be starting a business, buying a house, starting a family, etc.
 
 ## Short term projects
-heading:: 2
+
 
 Projects are anything that requires more than a few hours or few steps to complete, typically these are 1-3 months for me, but can be as short as a few days.
 
@@ -75,19 +75,19 @@ Mid point check in: half way between the start date and end date. I evaluate how
 Expected outcome: What metric do I want to improve.
 
 # Project Template
-heading:: 1
 
-I have a logseq template to help me quickly generate new projects. Feel free to copy it here [project/template]({{< sref "/pages/project/template" >}})
 
-{{embed [project/template]({{< sref "/pages/project/template" >}})}}
+I have a logseq template to help me quickly generate new projects. Feel free to copy it here [[project/template]]
 
-## Tour of the [project/template]({{< sref "/pages/project/template" >}})
-heading:: 2
+{{embed [[project/template]]}}
 
-Heres an examples for my [100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}}) project
+## Tour of the [[project/template]]
+
+
+Heres an examples for my [[100 newsletter subscribers]] project
 
 ### Project Page Properties
-heading:: 3
+
 
 I have a number of properties in the project template to help me query it later
 
@@ -106,7 +106,7 @@ type:: project
 ```
 
 # Working on projects
-heading:: 1
+
 
 Most of my time and focus is on my projects
 

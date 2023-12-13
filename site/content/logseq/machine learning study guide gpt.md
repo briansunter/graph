@@ -9,14 +9,14 @@ categories:
 lastMod: 2023-10-28
 ---
 ## GPT-3 Prompts to Generate a Machine Learning Study Guide
-heading:: 2
+
 
 This text was written with GPT-3 AI.
 
-It was used to build this page: [machine learning study guide]({{< sref "/pages/machine learning study guide" >}})
+It was used to build this page: [[machine learning study guide]]
 
 ## Prompts
-heading:: 2
+
 
 What machine learning concepts should I know to fully understand gpt-3
 

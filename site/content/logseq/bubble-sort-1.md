@@ -13,7 +13,7 @@ date: 2023-10-28
 lastMod: 2023-10-28
 ---
 # About
-heading:: 1
+
 
 Bubble sort is a simple yet inefficient sorting algorithm
 
@@ -24,7 +24,7 @@ You should avoid it, because it gets exponentially slower as the input size grow
 Instead, you should use faster sorting algorithms like quick-sort and merge-sort. These algorithms can sort much more quickly as the input size grows.
 
 # Psuedo Code
-heading:: 1
+
 
 Scan the array from left to right
 
@@ -33,7 +33,7 @@ If the left element is greater than the right, swap them
 Repeat n times until the largest elements "bubble up" to the end of the array
 
 # Code
-heading:: 1
+
 
 {{renderer :github_ehqxq, briansunter::algorithms:src/lib/bubbleSort.ts,662775cf3827cd22d973b2c2e23178d5552d9617,update bubble sort, false}}
 
@@ -69,7 +69,7 @@ export default bubbleSort;
 ```
 
 # Tests
-heading:: 1
+
 
 {{renderer :github_tprer, briansunter::algorithms:src/test/bubbleSort.test.ts, 662775cf3827cd22d973b2c2e23178d5552d9617, update bubble sort, true}}
 

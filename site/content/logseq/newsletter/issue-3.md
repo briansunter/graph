@@ -24,15 +24,15 @@ lastMod: 2023-10-28
 ![get-youtube-captions.jpg](/assets/get-youtube-captions_1672134947975_0.jpg)
 
 # Summary and Reflection 🤔
-heading:: 1
+
 
 This week I wrote a few [guides](https://briansunter.com/graph/). I released a [new plugin](https://github.com/briansunter/logseq-get-youtube-captions) to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
 
 # Updates 🆕
-heading:: 1
+
 
 ## [[get-youtube-subtitles]]
-heading:: 2
+
 
 My [get-youtube-captions plugin](https://github.com/briansunter/logseq-get-youtube-captions) launched in the Logseq marketplace. This tool can pull the captions from a YouTube video into your notes. Just search for “get-youtube-captions” in the Logseq marketplace to install it.
 
@@ -40,16 +40,16 @@ There is a lot of good content on YouTube, but I need help remembering. This plu
 
 The plugin inserts all spoken words from the video as text directly underneath the video link in your notes.
 
-{{< tweet user="Bsunter" id="1537107686973616128" >}}
+{{ tweet user="Bsunter" id="1537107686973616128" }}
 
 Feeding the captions text into my [[logseq-openai/project]] plugin works incredibly well to summarize the video and clean up the wording of the captions. I use it to get a video summary before watching it too.
 
-{{< tweet user="Bsunter" id="1537115206412664833" >}}
+{{ tweet user="Bsunter" id="1537115206412664833" }}
 
-{{< tweet user="Bsunter" id="1537117777038757889" >}}
+{{ tweet user="Bsunter" id="1537117777038757889" }}
 
-## [omnivore-logseq-guide]({{< sref "/pages/omnivore-logseq-guide" >}})
-heading:: 2
+## [[omnivore-logseq-guide]]
+
 
 If you read a lot of content online, you need a “read it later app” to save interesting links, then read and highlight everything all at once. Keeping the article for later is much more efficient than reading a link as soon as you find it.
 
@@ -59,14 +59,14 @@ The [Omnivore web app and backend are open-source](https://github.com/omnivore-a
 
 This is a screenshot in the Omnivore reader view with my highlights:
 
-{{< tweet user="Bsunter" id="1539118080944656386" >}}
+{{ tweet user="Bsunter" id="1539118080944656386" }}
 
 The highlighter in reader mode is essential.
 
 ![image.png](/assets/image_1662086941972_0.png)
 
 ## [[logseq-social]]
-heading:: 2
+
 
 Logseq social was a quick idea I had one night when setting up the about me page on my public graph.
 
@@ -76,7 +76,7 @@ My thought process went like this:
 
 I need to set up an about me page for my public graph, so people know who I am
 
-Instead of choosing a random page name, I make a page at a known location in my graph called `[logseq-social/profile]({{< sref "/pages/logseq-social/profile" >}})`
+Instead of choosing a random page name, I make a page at a known location in my graph called `[[logseq-social/profile]]`
 
 Instead of just writing plain text, I use logseq properties to add a little bit of structure. This means I add properties like
 
@@ -90,21 +90,21 @@ This allows me to have a nice about me profile page and display a list of intere
 In the future, it would be cool to search others' graphs and have a plugin to make the social features easier. Lots of interesting features could be built on this simple idea.
 
 I'm excited by the people who set this up already!
-{{< tweet user="Bsunter" id="1539677453076922368" >}}
+{{ tweet user="Bsunter" id="1539677453076922368" }}
 
-## [logseq-getting-started]({{< sref "/pages/logseq-getting-started" >}})
-heading:: 2
+## [[logseq-getting-started]]
+
 
 Logseq is still in beta, so there aren't many "getting started" guides, especially for nontechnical users.
 
-I [wrote a quick guide]({{< sref "/pages/logseq-getting-started" >}}) on how you can get started with logseq and share your notes online in just 30 minutes.
+I [wrote a quick guide]([[logseq-getting-started]]) on how you can get started with logseq and share your notes online in just 30 minutes.
 
 I go over the bare minimum to install logseq and make a public website like mine with a hosting company called Netlify. This will help anyone reading this newsletter who hasn't tried logseq yet or wants to follow along with some of my note taking.
 
-All you need to do is download logseq from github and upload your site to Netlify. [I go over it in detail in this guide.]([logseq-getting-started]({{< sref "/pages/logseq-getting-started" >}})) I highly recommend buying your own domain to go along with it.
+All you need to do is download logseq from github and upload your site to Netlify. [I go over it in detail in this guide.]([[logseq-getting-started]]) I highly recommend buying your own domain to go along with it.
 
 # Productivity Toolkit 🛠️
-heading:: 1
+
 
 I highly recommend [Tiago Forte’s book Building a Second Brain](https://www.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3) as an introduction to the whole note-taking and “second brain” movement.
 
@@ -126,13 +126,13 @@ The main workflow is a four-step process called [CODE](https://www.keepproductiv
 
 [Check out this video for an excellent summary](https://www.youtube.com/watch?v=K-ssUVyfn5g)
 
-{{< youtube K-ssUVyfn5g >}}
+{{ youtube K-ssUVyfn5g }}
 
 # Brain Food 🧠
-heading:: 1
+
 
 ## Quote
-heading:: 2
+
 
 When starting notetaking, the biggest question is how to organize your notes and what to turn into backlinks.
 
@@ -149,7 +149,7 @@ When making a backlink, think more about how you’ll use the note and how the n
 
 
 ## Link of the week
-heading:: 2
+
 
 Have you seen [DALL-E](https://openai.com/blog/dall-e/) by OpenAI? It's an AI that can create an image of anything you ask and generate a completely original picture. It's a website with a text box. You type the scene you want to see in the box, and the AI generates an image. The same company makes it as gpt3.
 
@@ -159,56 +159,56 @@ Soon, you will see stuff like DALL-E and GPT-3 everywhere. All entertainment con
 
 One of the potentials for the "multiverse" is to generate tons and tons of content like this using AI.
 
-{{< tweet user="Znegil" id="1539715979713847298" >}}
+{{ tweet user="Znegil" id="1539715979713847298" }}
 
 It can generate brand new original, realistic faces
 
-{{< tweet user="Merzmensch" id="1539366833920286722" >}}
+{{ tweet user="Merzmensch" id="1539366833920286722" }}
 
 You'll be seeing this in every product soon.
 
-{{< tweet user="IHaveFunWithAi" id="1537503259044233222" >}}
+{{ tweet user="IHaveFunWithAi" id="1537503259044233222" }}
 
-{{< tweet user="EndlessCofStars" id="1539780804192002048" >}}
+{{ tweet user="EndlessCofStars" id="1539780804192002048" }}
 
 Most of the use cases I've seen for DALL-e are making artwork, and it's even better at this than the photorealistic stuff.
 
-{{< tweet user="tunafizzle" id="1538689602583764996" >}}
+{{ tweet user="tunafizzle" id="1538689602583764996" }}
 
-{{< tweet user="IHaveFunWithAi" id="1537882832697061377" >}}
+{{ tweet user="IHaveFunWithAi" id="1537882832697061377" }}
 
-{{< tweet user="FelurianFelicis" id="1539649183342546944" >}}
+{{ tweet user="FelurianFelicis" id="1539649183342546944" }}
 
-{{< tweet user="codexeditor" id="1539452993397211136" >}}
+{{ tweet user="codexeditor" id="1539452993397211136" }}
 
 However, my favorite ones by far are the crazy funny creative ones
 
-{{< tweet user="Dalle2Pics" id="1536423975605178369" >}}
+{{ tweet user="Dalle2Pics" id="1536423975605178369" }}
 
-{{< tweet user="Dalle2Pics" id="1539380193445519360" >}}
+{{ tweet user="Dalle2Pics" id="1539380193445519360" }}
 
-{{< tweet user="Dalle2Pics" id="1539137896246038530" >}}
+{{ tweet user="Dalle2Pics" id="1539137896246038530" }}
 
-{{< tweet user="Dalle2Pics" id="1537479108376072192" >}}
+{{ tweet user="Dalle2Pics" id="1537479108376072192" }}
 
-{{< tweet user="Dalle2Pics" id="1538629689685725184" >}}
+{{ tweet user="Dalle2Pics" id="1538629689685725184" }}
 
-{{< tweet user="Dalle2Pics" id="1539005769017958404" >}}
+{{ tweet user="Dalle2Pics" id="1539005769017958404" }}
 
 Learn more about DALL-E from this video.
 
-{{< youtube SVcsDDABEkM >}}
+{{ youtube SVcsDDABEkM }}
 
 # Analytics 📈
-heading:: 1
+
 
 Really happy that the openai plugin just broke 100 stars on github!
 
 On top of that, I've gained around 30 newsletters to a total of 60 in about two weeks. I also gained about 220 followers. It feels like pretty good progress considering I had -1 followers last month!
 
 # Outro
-heading:: 1
+
 
 I hope you enjoyed the newsletter! Next week I plan to talk more in-depth about using AI for notetaking using the latest next-generation database, AI, and NLP(Natural Language Processing) technology.
 
-Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [Twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [Twitter @bsunter](https://twitter.com)

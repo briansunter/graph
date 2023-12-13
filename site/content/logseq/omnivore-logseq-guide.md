@@ -38,7 +38,7 @@ It allows you to generate emails so you can read [newsletters in omnivore](https
 It has a really nice logseq plugin
 
 # Omnivore Plugin
-heading:: 1
+
 
 This is what it looks like in your graph
 
@@ -51,7 +51,7 @@ Whenever you push the yellow omnivore button, it syncs this page with your omniv
 It shows a nice list of links, a short excerpt, and all your highlights nested underneath.
 
 #  Plugin Setup Guide
-heading:: 1
+
 
 First sign up for an omnivore account, just visit https://omnivore.app/
 
@@ -72,10 +72,10 @@ Click the yellow omnivore button on your logseq toolbar.
 Now all of the articles you saved and your highlights from the app and chrome extension show up in your Logseq graph on a page called Omnivore.
 
 # Omnivore app
-heading:: 1
+
 
 ## Web app
-heading:: 2
+
 
 The web app is clean and straightforward.
 
@@ -88,7 +88,7 @@ It has an awesome reader view for web articles
 ![image.png](/assets/image_1662086866434_0.png)
 
 ## iOS app
-heading:: 2
+
 
 The iOS app is simple and excellent as well. It has a nice list view of your links.
 
@@ -107,7 +107,7 @@ My new workflow is to discover content from reddit, hackernews, twitter, and blo
 ![image.png](/assets/image_1662086941972_0.png)
 
 # Conclusion
-heading:: 1
+
 
 Overall I couldn't be happier to have a nice simple open source read it later app that integrates with logseq. It's awesome that it supports the reader mode and highlights as well, which I use heavily. It has been great so far for optimizing my information diet.
 

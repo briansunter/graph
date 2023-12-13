@@ -11,10 +11,10 @@ This is the content plan for my [[newsletter]]
 The dates are only rough guidelines, this is more of a content ordering and flow
 
 # Roadmap #.ol-nested
-heading:: 1
 
-## intro [newsletter/issue-1]({{< sref "/pages/newsletter/issue-1" >}}) [[Jun 12th, 2022]]
-heading:: 2
+
+## intro [[newsletter/issue-1]] [[Jun 12th, 2022]]
+
 
 Intro [[newsletter]]
 
@@ -24,32 +24,32 @@ Starting my public graph [[homepage]]
 
 Introducing my [[logseq-openai/project]]
 
-## Newsletter Project  [newsletter/issue-2]({{< sref "/pages/newsletter/issue-2" >}})  [[Jun 19th, 2022]]
-heading:: 2
+## Newsletter Project  [[newsletter/issue-2]]  [[Jun 19th, 2022]]
+
 
 feedback on [[logseq-openai/project]]
 
 launching my [[get-youtube-subtitles]] plugin
 
-## Getting started with logseq [newsletter/issue-3]({{< sref "/pages/newsletter/issue-3" >}}) [[Jun 26th, 2022]]
-heading:: 2
+## Getting started with logseq [[newsletter/issue-3]] [[Jun 26th, 2022]]
+
 
 [[get-youtube-subtitles]]
 
-[omnivore-logseq-guide]({{< sref "/pages/omnivore-logseq-guide" >}})
+[[omnivore-logseq-guide]]
 
 Launching [[logseq-social]]
 
-[logseq-getting-started]({{< sref "/pages/logseq-getting-started" >}})
+[[logseq-getting-started]]
 
 [[second-brain]]
 
-##  Newsletter intro and Productivity with AI [newsletter/issue-4]({{< sref "/pages/newsletter/issue-4" >}})  [[Jul 3rd, 2022]]
-heading:: 2
+##  Newsletter intro and Productivity with AI [[newsletter/issue-4]]  [[Jul 3rd, 2022]]
+
 
 [[logseq-tasks]]
 
-[notetaking-with-AI]({{< sref "/pages/notetaking-with-AI" >}})
+[[notetaking-with-AI]]
 
 summarize
 
@@ -75,18 +75,18 @@ Fine Tune
 
 CoAuthor
 
-## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [newsletter/issue-5]({{< sref "/pages/newsletter/issue-5" >}})
-heading:: 2
+## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue-5]]
+
 
 Updates
 
-[algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}})
+[[algorithms-boot-camp]]
 
-[algorithms-boot-camp-study-guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}})
+[[algorithms-boot-camp-study-guide]]
 
 Productivity Toolkit
 
-[comparison-template]({{< sref "/pages/comparison-template" >}})
+[[comparison-template]]
 
 Brain Food
 
@@ -127,16 +127,16 @@ Link
 
 [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
-## Intro to Algorithms [newsletter/issue-6]({{< sref "/pages/newsletter/issue-6" >}})
-heading:: 2
+## Intro to Algorithms [[newsletter/issue-6]]
+
 
 Updates
 
-[intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
+[[intro-to-algorithms]]
 
 Productivity Toolkit
 
-[logseq-projects]({{< sref "/pages/logseq-projects" >}})
+[[logseq-projects]]
 
 [[tour of my project template]]
 
@@ -152,7 +152,7 @@ Quote
 
 One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md). It's mostly a philosophical talk, it doesn't have much code in it.
 
-{{< youtube SxdOUGdseq4 >}}
+{{ youtube SxdOUGdseq4 }}
 
 Link
 
@@ -165,7 +165,7 @@ This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 
 https://t.co/xXagujMfmw
 
 ## Time Complexity - Intro
-heading:: 2
+
 
 Updates
 
@@ -175,13 +175,13 @@ two sum
 
 Productivity Toolkit
 
-[100 newsletter subscribers]({{< sref "/pages/100 newsletter subscribers" >}})
+[[100 newsletter subscribers]]
 
 
 
 Brain Food
 
-[you and your research]({{< sref "/pages/you and your research" >}})
+[[you and your research]]
 
 Quote
 
@@ -190,7 +190,7 @@ Quote
 Link
 
 ## Intermediate typescript
-heading:: 2
+
 
 Updates
 
@@ -237,7 +237,7 @@ UN Population study
 
 
 ## Intro to Recursion
-heading:: 2
+
 
 Updates
 
@@ -272,7 +272,7 @@ tree recursion
 fibbonacci number
 
 ## Divide and Conquer
-heading:: 2
+
 
 Updates
 
@@ -297,7 +297,7 @@ Link
 
 
 ## Quicksort
-heading:: 2
+
 
 Updates
 
@@ -326,7 +326,7 @@ Link
 
 
 ## Sorting, Stacks, and Queues
-heading:: 2
+
 
 Stack and Queue
 
@@ -337,7 +337,7 @@ Queue
 quicksort
 
 ## Linked List
-heading:: 2
+
 
 Insert
 
@@ -348,7 +348,7 @@ Reverse
 Middle
 
 ## Tree
-heading:: 2
+
 
 Binary Tree
 

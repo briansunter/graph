@@ -31,7 +31,7 @@ If you are unsure, I recommend starting with Netlify. Logseq generates a site th
 I recommend getting something basic up online right away, then researching other options later on.
 
 # Download Logseq
-heading:: 1
+
 
 Logseq is still in "beta" so you need to [download it here from the github releases page](https://github.com/logseq/logseq/releases)
 
@@ -42,7 +42,7 @@ select darwin-arm for m1 mac, darwin-x64 for intel mac, or windows
 ![Screen Shot 2022-06-20 at 11.03.48 PM.png](/assets/Screen_Shot_2022-06-20_at_11.03.48_PM_1655791431674_0.png)
 
 # Set up Logseq
-heading:: 1
+
 
 After downloading and installing logseq you will see this page
 
@@ -53,16 +53,16 @@ Make a folder called `Logseq` in iCloud Drive, then make a folder for your graph
 ![Screen Shot 2022-06-20 at 11.06.33 PM.png](/assets/Screen_Shot_2022-06-20_at_11.06.33_PM_1655867799306_0.png)
 
 # Start writing in daily notes
-heading:: 1
+
 
 Now you will see an empty page with todays date. This is called your "daily notes". It's usually my starting place for ideas. I just type some thoughts and start creating `[[backlinks]]` for important concepts, so I can find my notes later on when doing research or writing.
 
 Take a little bit of time to experiment writing, making backlinks, clicking the backlinks, etc.
 
-{{< tweet user="Conaw" id="1315078546763603968" >}}
+{{ tweet user="Conaw" id="1315078546763603968" }}
 
 # Make your public homepage
-heading:: 1
+
 
 Now let's create a home for you on the internet.
 
@@ -81,10 +81,10 @@ This way ou can have most of your graph private, with just a few pages public.
 Every time you want a page to be public, select this option on the page so it will appear on your site.
 
 # Export your public graph
-heading:: 1
+
 
 ## Set your homepage
-heading:: 2
+
 
 Logseq has a notion of a "home page"
 
@@ -117,7 +117,7 @@ Then after exporting we'll comment it out with two semicolons `;;`, so our priva
 ![Screen Shot 2022-06-21 at 10.01.05 PM.png](/assets/Screen_Shot_2022-06-21_at_10.01.05_PM_1655874093350_0.png)
 
 # Publish your public graph online
-heading:: 1
+
 
 There are tons of good options, but I recommend netlify which is good and free. You can switch to something else later.
 
@@ -138,10 +138,10 @@ Click the box at the bottom to upload a new version of your site.
 ![Screen Shot 2022-06-21 at 9.23.52 PM.png](/assets/Screen_Shot_2022-06-21_at_9.23.52_PM_1655871930673_0.png)
 
 # Next Steps
-heading:: 1
+
 
 ## Set up Custom Domain
-heading:: 2
+
 
 I highly suggest setting up a custom domain like yourname.com.
 
@@ -154,7 +154,7 @@ I think it's easiest to buy it through netlify. They will set everything up so t
 ![Screen Shot 2022-06-21 at 9.30.38 PM.png](/assets/Screen_Shot_2022-06-21_at_9.30.38_PM_1655872240770_0.png)
 
 # Conclusion
-heading:: 1
+
 
 There are a ton of ways to host your public graph, but I think just uploading it to netlify drop is the easiest and best way for non technical users to get their site online.
 

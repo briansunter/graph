@@ -25,17 +25,17 @@ description: I wrote a simple introduction to algorithms and why they're importa
 lastMod: 2023-10-28
 ---
 # Summary and Reflection 🤔
-heading:: 1
 
-This week I wrote the first section [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}}) from the [algorithms-boot-camp]({{< sref "/pages/algorithms-boot-camp" >}}) which focuses on a simple introduction to what algorithms are and why they're important
+
+This week I wrote the first section [[intro-to-algorithms]] from the [[algorithms-boot-camp]] which focuses on a simple introduction to what algorithms are and why they're important
 
 For some "brain food" I share some thoughts from my all time favorite tech talk and an interesting paper on AI playing Stratego.
 
 # Updates 🆕
-heading:: 1
 
-## [intro-to-algorithms]({{< sref "/pages/intro-to-algorithms" >}})
-heading:: 2
+
+## [[intro-to-algorithms]]
+
 
 The first section in the bootcamp focuses on introducing what an algorithm is.
 
@@ -46,22 +46,22 @@ In computer science, an algorithm is a series of steps written in code that a co
 I go through some examples of algorithms, what they can do, and why they're useful.
 
 # Productivity Toolkit 🛠️
-heading:: 1
+
 
 In this section, I'll share a productivity tip I've learned recently.
 
-## [logseq-projects]({{< sref "/pages/logseq-projects" >}})
-heading:: 2
+## [[logseq-projects]]
 
-I manage almost everything I do with [logseq-projects]({{< sref "/pages/logseq-projects" >}}) . I use them to group tasks across different initiatives, prioritize them, and make progress on them. See this guide for an explanation or jump straight to my logseq [[project-template]]
+
+I manage almost everything I do with [[logseq-projects]] . I use them to group tasks across different initiatives, prioritize them, and make progress on them. See this guide for an explanation or jump straight to my logseq [[project-template]]
 
 # Brain Food 🧠
-heading:: 1
+
 
 In this section, I'll share some interesting articles and "food for thought"
 
 ## Quote
-heading:: 2
+
 
 > Simplicity is a prerequisite for reliability.
 
@@ -69,7 +69,7 @@ heading:: 2
 
 One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md). It's mostly a philosophical talk, it doesn't have much code in it.
 
-{{< youtube SxdOUGdseq4 >}}
+{{ youtube SxdOUGdseq4 }}
 
 This talk is about the difference between simple and easy, in the context of designing complex systems like computer software.
 
@@ -78,7 +78,7 @@ Many programmers are obsessed with making things "easy" for themselves but we sh
 Tools focused on programmer convenience may do things you don't fully understand.
 
 ### Simple vs Complex
-heading:: 3
+
 
 Programmers use the word simple and easy interchangeably. However, they're two different yet related concepts.
 
@@ -93,7 +93,7 @@ Examining the root word of "simple" and "complex" sheds some light on the differ
 We can look at something and see that it’s “simple”. We can’t do the same for “easy”.
 
 ### Simple vs Easy
-heading:: 3
+
 
 "Simple" is a concept we can objectively look at, whereas "easy" is much more relative to the individual.
 
@@ -106,7 +106,7 @@ What's easy for me may be hard for you and vice versa.
 > If you want everything to be familiar, you will never learn anything new because it can't be significantly different from what you already know
 
 ### Focus on the output of your process
-heading:: 3
+
 
 We focus so much on our familiarity with tools and short-term convenience. Let's focus more on the quality of the product we're shipping and the sustainability of developing it.
 
@@ -119,10 +119,10 @@ Instead we need to focus on making things "simple" above all else.
 Simple may be harder, unfamiliar, and slower at first, but in the long run simplicity is the only sustainable way forward.
 
 ## Link of the week
-heading:: 2
+
 
 ## AI Masters Stratego Board Game
-heading:: 2
+
 
 AI can play Stratego at an expert level now
 
@@ -141,13 +141,13 @@ Knowing that it's a mathematically interesting game renewed my interest a bit, a
 [Read the paper here](https://t.co/xXagujMfmw)
 
 # Analytics 📈
-heading:: 1
+
 
 Still amazed at the res pins
 
 ![Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0.png](/assets/Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0_1672132794501_0.png)
 
 # Outro
-heading:: 1
 
-Check out the [newsletter-roadmap]({{< sref "/pages/newsletter-roadmap" >}}) to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
+
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)

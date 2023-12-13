@@ -14,7 +14,7 @@ title: newsletter/issue-12
 lastMod: 2023-10-28
 ---
 # GPT-4 Announcement
-heading:: 1
+
 
 [OpenAI just released a new AI model](https://openai.com/research/gpt-4), GPT-4, which I recently integrated into my [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) (You do need a [GPT-4 private beta key](https://openai.com/waitlist/gpt-4-api) to use it until it's released publicly)
 
@@ -33,7 +33,7 @@ This opens up so many new possibilities, such as feeding entire research papers 
 Not only is the model "smarter" in general, but feeding in a ton of additional context and instructions makes it much, much more capable.
 
 # OpenAI GPT-4 Demo
-heading:: 1
+
 
 In [OpenAI's examples](https://openai.com/research/gpt-4), they show it taking many human standardized tests like the AP Chemistry test and Bar Exam (that lawyers need to pass to practice law)
 
@@ -59,10 +59,10 @@ GPT-4 was able to completely code this website, including the content, styling, 
 
 Watch the full demo here:
 
-{{< youtube outcGtbnMuQ >}}
+{{ youtube outcGtbnMuQ }}
 
 # GPT-4 in the Logseq OpenAI plugin
-heading:: 1
+
 
 Generating plans and systems with GPT-4 and Logseq
 
@@ -95,7 +95,7 @@ I'm fascinated by the idea of AI generating plans for humans to follow and actin
 In another example, I asked it to write me a college-style curriculum to learn AI in a year, and it did a beautiful job. My primary use case for AI is to self-study various subjects, and I'm excited about the possibilities AI opens up for self-directed learners.
 
 # ChatGPT API in the Logseq Plugin
-heading:: 1
+
 
 [OpenAI also recently released its ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
 
@@ -110,7 +110,7 @@ Regarding the quality of answers, ChatGPT is less likely to make up information 
 Overall, the answers from ChatGPT are better than the regular GPT-3 model users of the [Logseq OpenAI GPT-3 plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) can expect to spend 90% less while still receiving quality results.
 
 # Should I use GPT-4 or ChatGPT
-heading:: 1
+
 
 GPT-4 is much more expensive than ChatGPT.
 
@@ -121,7 +121,7 @@ These calculations will be in terms of words to make them easier to understand
 For reference, there are around 300 words per page in a paperback book.
 
 ### GPT-4 Price
-heading:: 3
+
 
 Input to GPT-4 costs $0.03 per 750 words.
 
@@ -130,19 +130,19 @@ Generating text with GPT-4 costs $0.06 per 750 words.
 The average cost is $0.045 per 750 words, assuming roughly equal inputs and outputs
 
 ### ChatGPT Price
-heading:: 3
+
 
 Input and generation both cost $0.002 per 750 words.
 
 ### GPT-3 (old)
-heading:: 3
+
 
 Input and generation both cost $0.02 per 750 words.
 
 Here's a breakdown of how much my moderate personal notetaking usage would cost monthly, assuming I analyze and generate an equal amount of text.
 
 ## Total cost for my usage
-heading:: 2
+
 
 According to the OpenAI dashboard, I use around 300k words per month.
 
@@ -153,7 +153,7 @@ ChatGPT would cost me **$0.8 per month**
 GPT-3 would cost me **$8 per month**
 
 ## Conclusion
-heading:: 2
+
 
 GPT-4 is **~22x** more expensive than ChatGPT for my personal notetaking purposes
 

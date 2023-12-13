@@ -23,7 +23,7 @@ description: Launching my newsletter, public graph, and logseq gpt3 AI plugin
 lastMod: 2023-10-28
 ---
 ## Summary and Reflection 🤔
-heading:: 2
+
 
 Hello Everyone,
 I’m launching a weekly newsletter to share my writing. I’ve started publishing my notes on both [my personal website](https://briansunter.com) as well as my [full Logseq graph](https://briansunter.com/graph).
@@ -33,10 +33,10 @@ I’ve been taking notes for a long time. The [logseq](https://logseq.com/) note
 I enjoy learning how others take notes since everyone’s process is unique. I also hope to share something useful or inspire you since I’ve already been so inspired seeing what you all are doing!
 
 ## Updates 🆕
-heading:: 2
+
 
 ## Starting my Public Graph
-heading:: 2
+
 
 The [Logseq note taking app](https://logseq.com) has a feature where you can publish your knowledge graph as a static site.
 
@@ -47,7 +47,7 @@ It lets you visualize your notes as a set of interconnected nodes
 I've built up quite a few of these notes over time and I have lots of ideas for posts.
 
 ### Overview of my Private Graph
-heading:: 3
+
 
 I have thousands of private notes migrated to [@logseq](https://twitter.com/logseq) from [@RoamResearch](https://twitter.com/RoamResearch) that I've written over the past few years, so it's a bit of a project to curate them.
 
@@ -56,12 +56,12 @@ I have thousands of private notes migrated to [@logseq](https://twitter.com/logs
 I'm hoping to share a lot of the stuff I've learned over the years.
 
 ### Zoomed In
-heading:: 3
+
 
 This is it zoomed all the way in. The density is impressive.
 
 ### Lifehacking Holidays
-heading:: 3
+
 
 Many of my notes fall into the "lifehacking" category and are ways of trying to live my life more efficiently.
 
@@ -72,7 +72,7 @@ Most of my notes are just on boring things I use to run my life. If you zoom in 
 That's a page based on my thanksgiving template. So I have template workflows for everything in my life, like holidays.
 
 ## Launching my OpenAI Plugin
-heading:: 2
+
 
 ![image](/assets/image_1660707354608_0.png)
 
@@ -89,7 +89,7 @@ I plan on talking much more about using AI to study in future newsletters.
 Go here to learn more about [OpenAI GPT-3](https://beta.openai.com/docs/introduction)
 
 ### OpenAI GPT-3 Logseq Plugin Demo
-heading:: 3
+
 
 [Here's a demo of using GPT-3 to study](https://youtu.be/zV-gx28onmg)
 
@@ -98,43 +98,43 @@ Using GPT3 for studying is a use case brand new to most people. I wrote a quick 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zV-gx28onmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GPT-3 study guides
-heading:: 2
+
 
 My favorite general use case for gpt3 for learning is generating study guides for topics.
 
 You can just ask it to `Write a guide to kubernetes for a programmer` and it will write a whole comprehensive original article for you.
 
-See the study guide and the commands I used to make it here [how to use gpt3 to learn kubernetes]({{< sref "/pages/how to use gpt3 to learn kubernetes" >}})
+See the study guide and the commands I used to make it here [[how to use gpt3 to learn kubernetes]]
 
 Once you have the list of topics, I enjoy arranging high-level study guides as mind maps. You need to indent some lines, and the logseq mindmap plugin makes a great visual representation.
 
 ## Algorithms Study Guide
-heading:: 2
+
 
 I also like using GPT-3 for really personalized learning guides.
 
 This is a diagram for my generated based on the logseq markmap plugin.
 
-Visit the [algorithms-boot-camp-study-guide]({{< sref "/pages/algorithms-boot-camp-study-guide" >}})
+Visit the [[algorithms-boot-camp-study-guide]]
 
 ![image](/assets/image_1660701101843_0.png)
 
 ## Machine Learning Study Guide
-heading:: 2
 
-I asked GPT-3 what to study to learn machine learning to create this guide [machine learning study guide]({{< sref "/pages/machine learning study guide" >}})
+
+I asked GPT-3 what to study to learn machine learning to create this guide [[machine learning study guide]]
 
 ![image](/assets/image_1660701161556_0.png)
 
 See the AI output I used to hand assemble this guide here [[logseq gpt3 AI plugin]]
 
 ## GPT-3 Chinese Slang Tutorial
-heading:: 2
 
-I asked gpt-3 to write me a guide on how to talk to my Chinese followers here: [gpt3-chinese-language-tutor]({{< sref "/pages/gpt3-chinese-language-tutor" >}})
+
+I asked gpt-3 to write me a guide on how to talk to my Chinese followers here: [[gpt3-chinese-language-tutor]]
 
 ## Generating diagrams from english prompts with GPT-3
-heading:: 2
+
 
 [mermaid.js](https://mermaid-js.github.io/mermaid/#/) is a text-based language and tool that helps you visualize diagrams.
 
@@ -143,7 +143,7 @@ You can write some plain text, and the tool creates a visual flow chart.
 Since it's represented in plain text, GPT-3 can write it for us and does a good job.
 
 ### CI/CD mermaid chart
-heading:: 3
+
 
 This diagram is for a "deploy on commit" CI/CD system.
 
@@ -160,7 +160,7 @@ This is what the mermaidjs text looks like:
 ![FU2lSsbUYAEWiD_.png](/assets/FU2lSsbUYAEWiD_1660704904870_0.png)
 
 ## Getting Things Done Mermaid Diagram
-heading:: 2
+
 
 GPT-3 can visualize the main workflow from getting things done as a mermaid markup diagram.
 
@@ -169,14 +169,14 @@ GPT-3 can visualize the main workflow from getting things done as a mermaid mark
 For fun, I had it generate a far larger diagram than any sane human would for every dog breed by type.
 
 ### American Kennel Club Dog Breeds
-heading:: 3
 
-See my list of [poodle mixes]({{< sref "/pages/poodle mixes" >}}) generated by AI.
+
+See my list of [[poodle mixes]] generated by AI.
 
 ![image](/assets/image_1660704945441_0.png)
 
 ## Interview With an AI
-heading:: 2
+
 
 Another fun experiment was using GPT-3 as a conversational interface.
 
@@ -189,15 +189,15 @@ It has an uncanny ability to sound human-like sometimes.
 I thought it was funny the google engineer leaked his AI chat transcripts right after I had the same idea...
 
 ## Productivity Toolkit 🛠️
-heading:: 2
 
-My favorite overall productivity technique: [daily highlight productivity technique]({{< sref "/pages/daily highlight productivity technique" >}}), centering yourself on your most crucial day task as early as possible
+
+My favorite overall productivity technique: [[daily highlight productivity technique]], centering yourself on your most crucial day task as early as possible
 
 ## Brain Food 🧠
-heading:: 2
+
 
 ### Quote
-heading:: 3
+
 
 I just picked up [Tiago Forte](https://twitter.com/fortelabs)'s [building a second brain book](https://www.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=). I've just flipped through it, but it seems fantastic so far. I plan to read it in depth over the long weekend.
 
@@ -206,7 +206,7 @@ I just picked up [Tiago Forte](https://twitter.com/fortelabs)'s [building a seco
 [Tiago Forte](https://twitter.com/fortelabs/status/1535994853649096705?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1535994853649096705%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=file%3A%2F%2F%2FApplications%2FLogseq.app%2FContents%2FResources%2Fapp%2Felectron.html%2Fpage%2Fnewsletter-1)
 
 ### Link of the week
-heading:: 3
+
 
 [Is Lambda Sentient?](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917)
 
@@ -229,7 +229,7 @@ You can guess how it wants to complete the sentence: "Are you sentient?" based o
 Plus, it's easy to "lead" these AIs to make them say what you want or argue in either direction.
 
 ## Analytics
-heading:: 2
+
 
 I love seeing others' analytics. So I will include them in this newsletter.
 
