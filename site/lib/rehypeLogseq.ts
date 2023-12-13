@@ -11,7 +11,7 @@ export function rehypeYoutubeEmbed(): (tree: Node) => void {
                 const textNode = node.children.find(child => child.type === 'text');
                 if (!textNode || typeof textNode.value !== 'string') return;
                 
-                const youtubeMatch = textNode.value.match(/\{% youtube (\w+) %\}/);
+                const youtubeMatch = textNode.value.match(/\{\{ youtube (\w+) \}\}/);
 
                 if (youtubeMatch) {
                     const youtubeHtml = createYoutubeEmbed(youtubeMatch[1]);
@@ -38,7 +38,8 @@ export function rehypeYoutubeTimestampEmbed(): (tree: Node) => void {
                 node.children = node.children.flatMap(child => {
                     if (child.type === 'text') {
                         const textNode = child as Text;
-                        const ytimeRegex = /\{% ytime "(\w+)" , "(\d+)" , "(.+?)" %\}/;
+                        const ytimeRegex = /\{\{ ytime videoId="(\w+)" start="(\d+)" time="(.+?)" \}\}/;
+
                         const parts = textNode.value.split(ytimeRegex);
 
                         if (parts.length > 1) {
