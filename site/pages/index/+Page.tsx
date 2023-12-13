@@ -19,7 +19,7 @@ interface ProfileProps {
 const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
   return (
     <div className="bg-gray-200 mb-8 w-full lg:w-10/12">
-      <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold text-gray-900 leading-none mt-4 mb-14">{title}</h1>
+      <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold text-gray-950 leading-none mt-4 mb-14">{title}</h1>
 
       {/* Layout container */}
       <div className="flex flex-col md:flex-row">

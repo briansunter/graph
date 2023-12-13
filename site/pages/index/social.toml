@@ -35,7 +35,7 @@ icon = "coffee.svg"
 
 [[social]]
 name = "bitcoin"
-url = "pages/bitcoin"
+url = "/bitcoin"
 icon = "bitcoin.svg"
 
 
