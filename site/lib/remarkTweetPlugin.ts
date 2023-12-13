@@ -12,8 +12,7 @@ export default function rehypeTweetPlugin() {
       if (index === undefined) return;
       if (node.tagName === 'p' && node.children.some(child => child.type === 'text')) {
         const textNode = node.children.find(child => child.type === 'text');
-        const tweetMatch = textNode.value.match(/\{% tweet "(\w+)", "(\d+)" %\}/);
-
+        const tweetMatch = textNode.value.match(/\{\{ tweet user="(\w+)" id="(\d+)" \}\}/);
 
         if (tweetMatch) {
           const promise = fetchAndReplaceTweet(node, index, parent, tweetMatch);

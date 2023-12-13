@@ -11,8 +11,7 @@ export function rehypeYoutubeEmbed(): (tree: Node) => void {
                 const textNode = node.children.find(child => child.type === 'text');
                 if (!textNode || typeof textNode.value !== 'string') return;
                 
-                const youtubeMatch = textNode.value.match(/\{\{ youtube (\w+) \}\}/);
-
+                const youtubeMatch = textNode.value.match(/\{\{ youtube ([\w-]+) \}\}/);
                 if (youtubeMatch) {
                     const youtubeHtml = createYoutubeEmbed(youtubeMatch[1]);
                     const youtubeNode = {
