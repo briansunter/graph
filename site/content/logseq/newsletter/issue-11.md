@@ -12,7 +12,7 @@ url: /newsletter/issue-11
 title: newsletter/issue-11
 lastMod: 2023-10-28
 ---
-![Drone view of honolulu](/assets/honolulu_1676694313546_0.jpg)
+![Drone view of honolulu | hidden](/assets/honolulu_1676694313546_0.jpg)
 
 # Moving to Hawaii
 

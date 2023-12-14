@@ -33,6 +33,7 @@ import {
   remarkRemoveLogseqBlocks,
 } from "./lib/rehypeLogseq";
 import wikilinkPlugin from "remark-wiki-link";
+import { remarkRemoveHiddenImages } from "./lib/remarkImagetools";
 
 const config: UserConfig = {
   ssr: {
@@ -53,6 +54,7 @@ const config: UserConfig = {
       .use(wikilinkPlugin, {
         pageResolver: (name) => [name.replace(/ /g, '=').toLowerCase()],
         hrefTemplate: (permalink: string) => `/${permalink}`,})
+      .use(remarkRemoveHiddenImages)
       .use(remarkRehype, { allowDangerousHtml: true })
       .use(rehypeKatex, {output: 'html',})
       .use(rehypeConvertMp4ImgToVideo)
