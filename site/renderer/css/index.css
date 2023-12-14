@@ -79,10 +79,6 @@
   font-size: 0.8em;
 }
 
-.md-content div {
-  @apply mx-auto w-full lg:w-7/12;
-}
-
 .md-content iframe {
   @apply mx-auto w-full lg:w-7/12;
   height: 600px;
