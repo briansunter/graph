@@ -119,8 +119,8 @@
     @apply max-w-full h-auto rounded-lg my-6;
   } */
   .md-content img, .md-content video {
-    @apply rounded-lg my-6 object-contain;
-    max-height: 900px;
+    @apply rounded-lg my-6 object-contain w-full;
+    max-height: 75vh;
   }
 
   /* Adjusting blockquotes for a distinct style */
