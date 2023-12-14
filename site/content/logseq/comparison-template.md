@@ -5,7 +5,7 @@ tags:
 date: 2022-07-10
 title: comparison-template
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 [[comparison-template]]
 template:: comparison

@@ -8,8 +8,8 @@ tags:
 - deliberate practice
 title: daily highlight productivity technique-1
 categories:
-date: 2023-10-28
-lastMod: 2023-10-28
+date: 2023-12-13
+lastMod: 2023-12-13
 ---
 The most powerful productivity technique I've discovered is also the simplest: the "Daily Highlight".
 

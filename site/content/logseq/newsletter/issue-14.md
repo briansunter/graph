@@ -9,7 +9,7 @@ date: 2023-09-27
 description: Using machine learning to automatically organize notes by meaning and exploring them in a browser 3D interface
 blogtitle: Organizing Notes in 3D with AI
 title: newsletter/issue-14
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 ![draggraph-autoplay](/assets/draggraph_1695963788730_0.mp4)
 

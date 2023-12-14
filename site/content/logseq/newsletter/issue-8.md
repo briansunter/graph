@@ -22,7 +22,7 @@ start-date:
 profile-visits: 
 revue-link: 
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 # Summary and Reflection 🤔
 

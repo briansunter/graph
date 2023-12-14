@@ -5,6 +5,7 @@ sent-date:
 - Jul 10th, 2022
 tags:
 - algorithms-boot-camp
+- newsletter
 blogtitle: Newsletter Issue 5
 categories:
 - newsletter
@@ -17,7 +18,7 @@ coverimage: /assets/image_1657488579000_0_1672131763262_0.png
 start-date:
 - Jul 6th, 2022
 description: Algorithms Bootcamp and the Elon Musk Controversy
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 # Summary and Reflection 🤔
 
@@ -29,7 +30,7 @@ I'm starting a 3(+) month-long ["Algorithms Boot Camp"]([[algorithms-boot-camp]]
 
 [[algorithms-boot-camp]]
 
-![image_1657488579000_0.png](/assets/image_1657488579000_0_1672131763262_0.png)
+![image_1657488579000_0.png | hidden](/assets/image_1657488579000_0_1672131763262_0.png)
 
 [This]([[algorithms-boot-camp]]) is the 3-month curriculum for the [[algorithms-boot-camp]].
 

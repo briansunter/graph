@@ -26,15 +26,16 @@ const onBeforeRender: OnBeforeRenderAsync = async (
   pageContext
 ): ReturnType<OnBeforeRenderAsync> => {
   const f = await getFiles();
-  const blogPosts = Object.values(f);
+  const blogPosts = Object.values(f).filter(p => !p.isAlias);
 
-  const homeBlogPosts = blogPosts.filter((post) => post.props.tags && post.props.tags.includes("newsletter"))
+  const homeBlogPosts = blogPosts.filter((post) => post.props.tags && (post.props.tags.includes("newsletter") || post.props.tags.includes("blog")))
   .sort((b, a) => DateTime.fromISO(a.props.date).toMillis() - DateTime.fromISO(b.props.date).toMillis());
 
-  const homePages = blogPosts.filter((post) => post.props.tags && !post.props.tags.includes("newsletter"))
+  const homePages = blogPosts.filter((post) => post.props.tags && !post.props.tags.includes("newsletter") && !post.props.tags.includes("blog"))
   .sort((b, a) => DateTime.fromISO(a.props.date).toMillis() - DateTime.fromISO(b.props.date).toMillis());
 
   return {
+    
     pageContext: {
       pageProps: {
         ...homeProps,

@@ -9,7 +9,7 @@ math: true
 description: How do we find the sum of the numbers 1 through 100?
 blogtitle: Integer Sum Formula (Gauss Sum)
 title: integer-sum-formula
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 ## Summary
 

@@ -6,7 +6,7 @@ blogtitle: Generating Poodle Mix Names with AI
 description: With a few examples of poodle mixes, it is able to generate names for every poodle mix
 title: poodle mixes
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 # Generating Poodle Mix Names with AI
 

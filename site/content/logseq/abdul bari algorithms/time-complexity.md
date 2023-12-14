@@ -13,7 +13,7 @@ categories:
 aliases: "/pages/abdul-bari-algorithms-part-1"
 math: true
 title: abdul bari algorithms/time-complexity
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 # Introduction to Algorithms
 

@@ -18,9 +18,9 @@ start-date:
 profile-visits: 27500
 revue-link: 
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
-![stop.jpg](/assets/stop_1672218528540_0.jpg)
+![stop.jpg | hidden](/assets/stop_1672218528540_0.jpg)
 
 # Summary
 

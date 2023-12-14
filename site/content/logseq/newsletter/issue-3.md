@@ -19,9 +19,9 @@ coverimage: /assets/get-youtube-captions_1672134947975_0.jpg
 start-date:
 - Jun 23rd, 2022
 description: This week, I wrote a few guides. I released a new plugin to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
-![get-youtube-captions.jpg](/assets/get-youtube-captions_1672134947975_0.jpg)
+![get-youtube-captions.jpg | hidden](/assets/get-youtube-captions_1672134947975_0.jpg)
 
 # Summary and Reflection 🤔
 
@@ -31,8 +31,7 @@ This week I wrote a few [guides](https://briansunter.com/graph/). I released a [
 # Updates 🆕
 
 
-## [[get-youtube-subtitles]]
-
+## get-youtube-subtitles
 
 My [get-youtube-captions plugin](https://github.com/briansunter/logseq-get-youtube-captions) launched in the Logseq marketplace. This tool can pull the captions from a YouTube video into your notes. Just search for “get-youtube-captions” in the Logseq marketplace to install it.
 
@@ -65,8 +64,7 @@ The highlighter in reader mode is essential.
 
 ![image.png](/assets/image_1662086941972_0.png)
 
-## [[logseq-social]]
-
+## logseq-social
 
 Logseq social was a quick idea I had one night when setting up the about me page on my public graph.
 

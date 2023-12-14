@@ -10,9 +10,9 @@ description: Some thoughts on moving to Hawaii and what I'm doing to improve my 
 blogtitle: Newsletter 11 - Moving to Hawaii and Fitness Routine
 url: /newsletter/issue-11
 title: newsletter/issue-11
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
-![Drone view of honolulu | hidden](/assets/honolulu_1676694313546_0.jpg)
+![Drone view of honolulu](/assets/honolulu_1676694313546_0.jpg)
 
 # Moving to Hawaii
 

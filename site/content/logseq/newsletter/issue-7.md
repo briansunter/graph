@@ -9,6 +9,7 @@ tags:
 - algorithms
 - algorithms-boot-camp
 - programming
+- newsletter
 blogtitle: Newsletter Issue 7
 tweet-impressions: 47
 categories:
@@ -21,7 +22,7 @@ start-date:
 - Jun 12th, 2022
 profile-visits: 45
 title: newsletter/issue-7
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 

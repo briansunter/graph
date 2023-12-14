@@ -13,7 +13,7 @@ coverimage: /assets/binary-tree_1672273112314_0.png
 description: An outline of all the most important topics for studying algorithms
 title: algorithms-boot-camp-study-guide
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 ![binary-tree.png](/assets/binary-tree_1672273112314_0.png)
 

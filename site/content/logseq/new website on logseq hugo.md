@@ -3,10 +3,11 @@ description: I've remade my website using Logseq and the Hugo static site genera
 tags:
 - logseq
 - programming
+- blog
 date: 2022-08-19
 title: new website on logseq hugo
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 I've remade my website using Logseq and the Hugo static site generator.
 

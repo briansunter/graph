@@ -9,9 +9,10 @@ categories:
 tags:
 - programming
 - python
-lastMod: 2023-12-03
+- blog
+lastMod: 2023-12-13
 ---
-![image.png](/assets/image_1661147875071_0.png)
+![image.png | hidden](/assets/image_1661147875071_0.png)
 
 # Managing Python projects in 2022
 

@@ -9,7 +9,7 @@ tags:
 description: Best resources for machine learning
 coverimage: /assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png
 title: machine learning beginner resources
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 # [Deeplearning.ai](https://Deeplearning.ai)
 

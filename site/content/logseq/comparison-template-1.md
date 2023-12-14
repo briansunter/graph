@@ -4,8 +4,8 @@ tags:
 - productivity
 title: comparison-template-1
 categories:
-date: 2023-10-28
-lastMod: 2023-10-28
+date: 2023-12-13
+lastMod: 2023-12-13
 ---
 [[comparison-template]]
 template:: comparison

@@ -8,7 +8,7 @@ description: Notes from the talk You and Your Research by Richard Hamming, about
 coverimage: /assets/image_1660798082719_0.png
 title: you and your research
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 ![image.png](/assets/image_1660798082719_0.png)
 

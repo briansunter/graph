@@ -2,8 +2,8 @@
 title: life-operating-system-1
 tags:
 categories:
-date: 2023-10-28
-lastMod: 2023-10-28
+date: 2023-12-13
+lastMod: 2023-12-13
 ---
 Most of what I do in logseq is centered around "projects"
 

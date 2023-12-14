@@ -5,13 +5,14 @@ tags:
 - productivity
 - writing
 - notetaking
+- blog
 date: 2022-08-21
 coverimage: /assets/image_1662087221258_0.png
 description: I go over a few new useful AI and NLP techniques and how to use them for notetaking
 blogtitle: Notetaking with NLP and AI
 title: notetaking-with-AI
 categories:
-lastMod: 2023-10-28
+lastMod: 2023-12-13
 ---
 There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 
