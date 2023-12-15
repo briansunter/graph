@@ -216,5 +216,3 @@ Heuristics are similar to algorithms but may not be as exact
 Data structures are used along with Algorithms to arrange data while performing a task.
 
 Next week I'll go into more detail about how to analyze algorithms using time complexity notation.
-
-{{embed [[website-outro]]}}

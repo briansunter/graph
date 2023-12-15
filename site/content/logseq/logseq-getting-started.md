@@ -168,5 +168,3 @@ I find people get to paralyzed with options, so just get your site up now on net
 [Let me know if you found this guide useful on twitter](https://twitter.com/Bsunter),  especially if you set up your own public graph!
 
 Now go to the docs and learn more about logseq
-
-{{embed [[website-outro]]}}

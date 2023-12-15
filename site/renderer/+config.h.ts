@@ -6,7 +6,7 @@ export default {
   clientRouting: true,
   hydrationCanBeAborted: true,
   // https://vike.dev/meta
-  domain: 'https://beta.briansunter.com',
+  domain: 'https://briansunter.com',
   meta: {
     title: {
       env: { server: true, client: true }
