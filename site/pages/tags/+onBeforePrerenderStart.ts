@@ -1,4 +1,5 @@
 import { getFiles } from "../../lib/fileProcessor";
+import { getPagesWithTag } from "./tagHelper";
 
 const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType<OnBeforePrerenderStartAsync> => {
   const urlToPageMap = await getFiles();
@@ -17,12 +18,9 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
       redirectTo = '/newsletter';
     }
 
-    const pagesWithTag = Object.values(urlToPageMap).filter((page) => {
-      return page.props.tags && page.props.tags.includes(tag);
-    });
+    const pagesWithTag = await getPagesWithTag(tag);
 
     const capitalizedPageTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
-
 
     return {
       url: `/tags/${tag}`,
@@ -46,9 +44,7 @@ const onBeforePrerenderStart: OnBeforePrerenderStartAsync = async (): ReturnType
       description: 'Posts tagged with newsletter',
       pageProps: {
         title: 'Newsletter',
-        pages: Object.values(urlToPageMap).filter((page) => {
-          return page.props.tags && page.props.tags.includes('newsletter');
-        }),
+        pages: await getPagesWithTag('newsletter'),
       },
     },
   };
