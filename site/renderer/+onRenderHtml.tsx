@@ -57,6 +57,7 @@ const onRenderHtml: OnRenderHtmlAsync = async (pageContext): ReturnType<OnRender
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html>
       <head>
+        <meta charset="UTF-8"> 
         <title>${title}</title>
         ${dangerouslySkipEscape(twitterCardMetaTags)}
         ${dangerouslySkipEscape(analyticsString)}
