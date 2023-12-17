@@ -3,20 +3,24 @@ jobs:
   aws_cdk:
     runs-on: ubuntu-latest
     steps:
+    
       - name: Checkout Code
         uses: actions/checkout@v3
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
         with:
-          hugo-version: '0.108.0'
-          extended: true
+          version: 8
+      - name: Install
+        run: cd site && pnpm i
+      - name: Install Playwright browsers
+        run: cd site && pnpm exec playwright install
       - name: Build
-        run: cd site && hugo --minify
-      - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@v0.1
-        with:
-          src: logseq
-          dest: site/public/graph
+        run: cd site && pnpm run build
+      # - name: Logseq Publish 🚩
+      #   uses: pengx17/logseq-publish@v0.1
+      #   with:
+      #     src: logseq
+      #     dest: site/dist/client/graph
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
@@ -44,7 +48,7 @@ jobs:
         if:   github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: Noelware/s3-action@1.3.1
         with:
-          directories: 'site/public'
+          directories: 'site/dist/client'
           endpoint: https://s3.filebase.com
           bucket: briansunter
           access-key: ${{ secrets.FILEBASE_ACCESS_KEY }}
