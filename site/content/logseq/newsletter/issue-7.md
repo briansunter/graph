@@ -99,7 +99,7 @@ In this section, I'll share some interesting articles and "food for thought"
 ### [[you and your research]]
 
 
-[My notes on this talk from 1986](https://beta.briansunter.com/pages/you-and-your-research?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter) about what it takes to do Nobel prize-level work.
+[My notes on this talk from 1986](https://briansunter.com/pages/you-and-your-research?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter) about what it takes to do Nobel prize-level work.
 
 Richard Hamming was a mathematician and computer scientist who worked on calculating machines for the Manhattan Project and Bell Labs.
 
