@@ -18,6 +18,7 @@ const homeProps: PageProps = {
   socialIcons: social.social,
   aboutDescription: about,
   pagesAbout: homeContent.matter.pagesAbout,
+  newsletterAbout: homeContent.matter.newsletterAbout,
   blogPosts: [],
 };
 
@@ -57,6 +58,7 @@ export interface PageProps {
   blogPosts: Post[];
   homePages: Post[];
   pagesAbout: string;
+  newsletterAbout: string;
 }
 
 export interface Page {

@@ -114,14 +114,14 @@ const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons
   );
 }
 
-const Page = ({ socialIcons, blogPosts, blogAbout, homePages, title, socialAbout, aboutHeader, aboutDescription, pagesAbout }: PageProps) => {
+const Page = ({ socialIcons, blogPosts, blogAbout, homePages, title, socialAbout, aboutHeader, aboutDescription, pagesAbout, newsletterAbout }: PageProps) => {
   return (
     <div className="bg-gray-200 min-w-screen">
       <div className="lg:container lg:mx-auto lg:px-8 ">
         {/* <Navbar title=""/> */}
         <Profile title={title} aboutHeader={aboutHeader} aboutDescription={aboutDescription} />
         <SocialLinks socialIcons={socialIcons} socialAbout={socialAbout} />
-        <SubstackSection title='Newsletter' substackAbout={'Sign up for my newsletter to recieve updates on my projects and ideas. I write about programming, AI, web development, and my personal interests. You can see previous issues in the next section. '} />
+        <SubstackSection title='Newsletter' substackAbout={newsletterAbout} />
         <BlogSection title="Blog" blogPosts={blogPosts} blogAbout={blogAbout} />
         <BlogSection title="Pages" blogPosts={homePages} blogAbout={pagesAbout} />
       </div>
