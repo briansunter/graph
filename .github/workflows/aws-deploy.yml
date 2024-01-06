@@ -22,7 +22,7 @@ jobs:
           src: logseq
           dest: site/dist/client/graph
       - name: Copy assets
-        run: cp -r site/assets site/dist/client/graph/assets
+        run: cp -r site/assets site/dist/client/graph/
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
