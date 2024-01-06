@@ -19,7 +19,7 @@ const Content = ({ content }: { content: string }) => (
 const Details = ({ title, date, responsiveCoverImage=[], description, tags, placeholder }: { title: string; date: string; responsiveCoverImage: ImageData[], placeholder: string, description: string; tags: string[] }) => (
   <div className="bg-gray-200">
     <h1 className="text-6xl font-extrabold font-header tracking-tight text-gray-800">{title}</h1>
-    <p className="text-4xl lg:text-2xl mb-4 lg:w-10/12 text-gray-600">{description}</p>
+    <p className="text-4xl lg:text-2xl mb-4  text-gray-600">{description}</p>
     <div className="flex flex-row items-center mb-4">
       <span className="text-xl lg:text-lg font-medium mr-4 font-ui text-gray-500 text-center">{date}</span>
       {tags && <div className="flex flex-wrap"> {tags.map(tag => <Tag key={tag} shouldMargin={false} text={tag}  />)} </div> }

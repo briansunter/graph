@@ -18,7 +18,7 @@ interface ProfileProps {
 
 const Profile = ({ title, aboutHeader, aboutDescription }: ProfileProps) => {
   return (
-    <div className="bg-gray-200 mb-8 w-full lg:w-10/12">
+    <div className="bg-gray-200 mb-8 w-full mx-auto">
       <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold text-gray-950 leading-none mt-4 mb-14">{title}</h1>
 
       {/* Layout container */}
@@ -100,7 +100,7 @@ type SocialIcons = typeof socialIcons.social;
 
 const SocialLinks = ({ socialIcons=[], socialAbout }: { socialIcons: SocialIcons, socialAbout: string }) => {
   return (
-    <div className="lg:w-10/12">
+    <div className="lg:w-10/12 mx-auto">
       <h2 className="text-6xl font-bold">Social Media</h2>
       <p className="lg:text-xl text-3xl mb-4"> 
       {socialAbout}

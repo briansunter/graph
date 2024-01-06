@@ -5,7 +5,7 @@ interface SubstackEmbedProps {
 
 export const SubstackEmbed: React.FC<SubstackEmbedProps> = ({ width = 480, height = 220 }) => (
   <iframe 
-  className="w-full lg:w-1/2"
+  className="w-full lg:w-3/4 mx-auto"
     src="https://newsletter.briansunter.com/embed" 
     width={width} 
     height={height} 
@@ -24,7 +24,7 @@ interface SubstackSectionProps {
   }
   export const SubstackSection: React.FC<SubstackSectionProps> = ({ title, substackAbout }) => {
     return (
-      <main className="flex flex-col items-start lg:w-10/12">
+      <main className="flex flex-col items-start lg:w-10/12 mx-auto">
         <h2 className="text-6xl font-bold text-left">{title}</h2>
         <p className="lg:text-xl text-3xl mb-8">
           {substackAbout}

@@ -27,7 +27,7 @@ module.exports = {
         '6xl': '5rem',
         '7xl': '6rem',
         '8xl': '8rem',
-        '9xl': '10rem',
+        '9xl': '9rem',
       },
       fontFamily: {
         'header': ['Inter', 'sans-serif'],
