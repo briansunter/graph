@@ -15,13 +15,13 @@ jobs:
         run: cd site && pnpm exec playwright install
       - name: Build
         run: cd site && pnpm run build
-      - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@v0.1
-        with:
-          src: logseq
-          dest: site/dist/client/graph
-      - name: Copy assets
-        run: cp -r logseq/assets site/dist/client/graph/
+      # - name: Logseq Publish 🚩
+      #   uses: pengx17/logseq-publish@v0.1
+      #   with:
+      #     src: logseq
+      #     dest: site/dist/client/graph
+      # - name: Copy assets
+      #   run: cp -r logseq/assets site/dist/client/graph/
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
