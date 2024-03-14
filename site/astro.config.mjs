@@ -19,9 +19,9 @@ import remarkWikiLinkPlugin from 'remark-wiki-link';
 // https://astro.build/config
 export default defineConfig({
   site: "https://briansunter.com",
-  build: {
-    format: "file",
-  },
+  // build: {
+  //   format: "file",
+  // },
   // experimental: {
   //   contentCollectionCache: true,
   // },
