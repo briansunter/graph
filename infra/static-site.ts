@@ -147,11 +147,11 @@ export class StaticSite extends Construct {
     // Deploy site contents to S3 bucket
     new s3deploy.BucketDeployment(this, "DeployHTMLWithInvalidation", {
       sources: [
-        s3deploy.Source.asset("../site/dist/client", {
-          exclude: ["assets/*" ],
+        s3deploy.Source.asset("../site/dist/", {
+          exclude: ["_astro/*" ],
         }),
       ],
-      exclude: ["assets/*"],
+      exclude: ["_astro/*"],
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/*"],
@@ -160,10 +160,10 @@ export class StaticSite extends Construct {
     });
     new s3deploy.BucketDeployment(this, "DeployAssetsWithInvalidation", {
       sources: [
-        s3deploy.Source.asset("../site/dist/client/assets", {
+        s3deploy.Source.asset("../site/dist/_astro", {
         }),
       ],
-      destinationKeyPrefix: "assets/",
+      destinationKeyPrefix: "_astro/",
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/*"],
