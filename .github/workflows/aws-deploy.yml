@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: "20"
       - name: Install Playwright browsers
-        run: cd site && pnpm exec playwright install
+        run: cd site && npm exec playwright install
       - name: Install
         run: cd site && npm i
       - name: Build
