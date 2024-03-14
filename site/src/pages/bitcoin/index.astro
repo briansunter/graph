@@ -1,0 +1,22 @@
+---
+import bitcoinQRCode from './bitcoin-qr-code.svg';
+import bitcoinLogo from './bitcoin-logo.svg'; // Assuming you have a Bitcoin logo SVG
+import Navbar from '../../components/Header.astro';
+import { Image } from 'astro:assets'
+const bitcoinAddress = 'bc1qxnf3v8e9jfavfuyp2f70z03h7ncq8ju7efv3jm';
+---
+
+<div class="min-w-screen">
+    <Navbar title="Brian Sunter's Blog" />
+    <div class="lg:container lg:mx-auto lg:px-8 ">
+        <div class="flex flex-col items-center">
+            <Image src={bitcoinLogo} alt="Bitcoin Logo" class="w-32 h-32 mb-4" />
+            <h1 class="text-6xl font-extrabold mb-4">Bitcoin Donation</h1>
+            <p class="text-xl text-gray-600 mb-4">Scan the QR code below or click the link to donate Bitcoin to Brian&nbsp;Sunter:</p>
+            <a href={`bitcoin:${bitcoinAddress}`} class="text-blue-500 hover:underline mb-4">{bitcoinAddress}</a>
+            <a href={`bitcoin:${bitcoinAddress}`} class="">
+                <Image src={bitcoinQRCode} alt="Bitcoin QR Code" class="w-64 h-64" />
+            </a>
+        </div>
+    </div>
+</div>

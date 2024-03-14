@@ -1,0 +1,26 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+  icon: string;
+  name: string;
+  url: string;
+}
+
+const { icon, name, url } = Astro.props;
+const iconsWithPrefix = import.meta.glob<{ default: ImageMetadata }>('./icons/*.svg');
+const icons = Object.fromEntries(
+  Object.entries(iconsWithPrefix).map(([key, value]) => [
+    key.replace('./icons/', ''), 
+    value
+  ])
+);
+
+if (!icons[icon]) throw new Error(`"${icon}" does not exist in glob: "./icons/*.{svg}"`);
+
+---
+<a href={url} target="_blank" rel="noopener noreferrer" class="flex flex-col items-center text-center text-current">
+    <Image src={icons[icon]()} alt={name} class="w-20 h-20" />
+    <span class="mt-2 text-lg">{name}</span>
+</a>

@@ -1,0 +1,163 @@
+/* Inter Font Variants */
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/static/Inter-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter Variable Font */
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lora Font Variants */
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/static/Lora-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Lora Variable Fonts */
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/Lora-VariableFont_wght.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("/fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
