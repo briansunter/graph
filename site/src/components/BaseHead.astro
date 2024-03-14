@@ -25,6 +25,29 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <link rel="preload" href="/fonts/Lora/Lora-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin />
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+<!-- Google Analytics -->
+<!-- Preconnects -->
+<link rel='preconnect' href='https://google-analytics.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://analytics.google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://www.google-analytics.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://googletagmanager.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://www.google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://stats.g.doubleclick.net' crossorigin='anonymous' />
+
+<!-- DNS Prefetch -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin='anonymous' />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin='anonymous' />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18360473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-18360473-1');
+  gtag('config', 'G-J2B5KTRCSH');
+</script>
+
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
