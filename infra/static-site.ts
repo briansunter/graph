@@ -98,8 +98,10 @@ export class StaticSite extends Construct {
     const rewriteFunction = new cloudfront.Function(this, "Function", {
       code: cloudfront.FunctionCode.fromFile({
         filePath: "functions/url-rewrite.js",
+        mem
       }),
     });
+
 
     // CloudFront distribution
     const distribution = new cloudfront.Distribution(this, "SiteDistribution", {
@@ -167,7 +169,7 @@ export class StaticSite extends Construct {
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/*"],
-      memoryLimit: 512,
+      memoryLimit: 1024,
       cacheControl: [
         CacheControl.fromString("max-age=31536000,public,immutable"),
       ],
