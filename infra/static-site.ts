@@ -98,7 +98,6 @@ export class StaticSite extends Construct {
     const rewriteFunction = new cloudfront.Function(this, "Function", {
       code: cloudfront.FunctionCode.fromFile({
         filePath: "functions/url-rewrite.js",
-        mem
       }),
     });
 
