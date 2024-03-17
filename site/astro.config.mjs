@@ -60,5 +60,6 @@ export default defineConfig({
     "/blog/how-to-take-smart-notes-roam-research/": "/how-to-take-smart-notes",
     "/blog/why-clojure/": "/why-clojure",
     "/blog/five-minute-journal:": "/five-minute-journal",
+    "/pages/ai-learning-resources": "/ai-learning-resources",
   },
 });
