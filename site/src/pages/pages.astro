@@ -26,6 +26,10 @@ const posts = blogs.filter(
   (post) =>
     post.data.blogtitle || post.data.title
 );
+
+type PostsObject = {
+  [key: string]: any[];
+};
 ---
 
 <!doctype html>
@@ -86,7 +90,7 @@ const posts = blogs.filter(
         <div>
           <h2 class="text-4xl md:text-5xl font-bold mb-4">All Pages</h2>
           {
-            Object.entries(posts.reduce((acc, post) => {
+            Object.entries(posts.reduce((acc: PostsObject, post) => {
               const monthYear = format(new Date(post.data.date), 'MMMM yyyy');
               if (!acc[monthYear]) {
                 acc[monthYear] = [];
