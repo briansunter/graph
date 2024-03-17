@@ -3,3 +3,5 @@
 
 export const SITE_TITLE = 'Brian Sunter';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+
+export const NEWSLETTER_LINK = 'https://newsletter.briansunter.com';

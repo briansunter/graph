@@ -1,60 +1,35 @@
 ---
-import {
-  StickyHeader,
-  Astronav,
-  MenuItems,
-  MenuIcon,
-  Dropdown,
-  DropdownItems,
-} from "astro-navbar";
-import { SITE_TITLE } from "../consts";
+import { StickyHeader, Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import { SITE_TITLE, NEWSLETTER_LINK } from "../consts";
 ---
 
 <header class="sticky">
   <StickyHeader
     class="sticky top-0 border-b z-20 transition-all"
     scrollY={50}
-    defaultClass="py-2 border-transparent"
-    activeClass="py-2 bg-white/80 border-gray-200 backdrop-blur-lg"
+    defaultClass="py-2 border-transparent backdrop-blur-lg"
+    activeClass="py-2 bg-white/90 border-gray-200 backdrop-blur-lg text-gray-900"
   >
     <Astronav>
       <div class="flex justify-between items-center px-4">
         <span class="underline md:text-2xl font-bold">
-          <a class="m-0 text-black" href="/">{SITE_TITLE}</a>
+          <a class="m-0 text-gray-900 hover:text-gray-300" href="/"
+            >{SITE_TITLE}</a
+          >
         </span>
-        <MenuIcon class="w-12 h-12 text-gray-800" />
+        <MenuIcon class="w-12 h-12 hover:text-gray-300" />
       </div>
       <MenuItems class="hidden md:flex">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Pages</a></li>
-          <li>
-            <Dropdown class="group">
-              <button>
-                <span>Subscribe</span>
-                <svg class="group-open:rotate-180">...arrow..</svg>
-              </button>
-              <DropdownItems>
-                <div class="absolute top-0">
-                  <ul>
-                    <li>
-                      <a href="https://newsletter.briansunter.com"
-                        >Brian's Newsletter</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </DropdownItems>
-            </Dropdown>
+        <ul class="flex flex-col">
+          <li class="ml-4"><a class="hover:text-gray-300" href="/">Home</a></li>
+          <li class="ml-4">
+            <a class="hover:text-gray-300" href="/pages">All Pages</a>
+          </li>
+          <li class="ml-4">
+            <a class="hover:text-gray-300" href={NEWSLETTER_LINK}>Newsletter</a>
           </li>
         </ul>
       </MenuItems>
     </Astronav>
   </StickyHeader>
 </header>
-
-<style scoped>
-  .hidden {
-    display: none;
-  }
-</style>
