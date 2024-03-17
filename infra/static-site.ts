@@ -1,15 +1,15 @@
 #!/usr/bin/env node
-import * as route53 from 'aws-cdk-lib/aws-route53';
-import * as s3 from 'aws-cdk-lib/aws-s3';
-import * as acm from 'aws-cdk-lib/aws-certificatemanager';
-import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
-import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
-import * as targets from 'aws-cdk-lib/aws-route53-targets';
-import * as cloudfront_origins from 'aws-cdk-lib/aws-cloudfront-origins';
-import { CfnOutput, Duration, RemovalPolicy, Stack } from 'aws-cdk-lib';
-import * as iam from 'aws-cdk-lib/aws-iam';
-import { Construct } from 'constructs';
-import { CacheControl } from 'aws-cdk-lib/aws-s3-deployment';
+import * as route53 from "aws-cdk-lib/aws-route53";
+import * as s3 from "aws-cdk-lib/aws-s3";
+import * as acm from "aws-cdk-lib/aws-certificatemanager";
+import * as cloudfront from "aws-cdk-lib/aws-cloudfront";
+import * as s3deploy from "aws-cdk-lib/aws-s3-deployment";
+import * as targets from "aws-cdk-lib/aws-route53-targets";
+import * as cloudfront_origins from "aws-cdk-lib/aws-cloudfront-origins";
+import { CfnOutput, Duration, RemovalPolicy, Stack } from "aws-cdk-lib";
+import * as iam from "aws-cdk-lib/aws-iam";
+import { Construct } from "constructs";
+import { CacheControl } from "aws-cdk-lib/aws-s3-deployment";
 
 export interface StaticSiteProps {
   domainName: string;
@@ -101,7 +101,6 @@ export class StaticSite extends Construct {
       }),
     });
 
-
     // CloudFront distribution
     const distribution = new cloudfront.Distribution(this, "SiteDistribution", {
       certificate: certificate,
@@ -149,45 +148,40 @@ export class StaticSite extends Construct {
     new s3deploy.BucketDeployment(this, "DeployHTMLWithInvalidation", {
       sources: [
         s3deploy.Source.asset("../site/dist/", {
-          exclude: ["_astro/*", "graph/assets/*" ],
+          exclude: ["_astro/*", "graph/assets/*"],
         }),
       ],
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/**/*"],
-      exclude: ["_astro/*", "graph/assets/*" ],
+      exclude: ["_astro/*", "graph/assets/*"],
       memoryLimit: 2048,
-      cacheControl: [CacheControl.fromString("public,max-age=600,stale-while-revalidate=60")],
+      cacheControl: [
+        CacheControl.fromString("public,max-age=600,stale-while-revalidate=60"),
+      ],
     });
     new s3deploy.BucketDeployment(this, "DeployAssetsWithInvalidation", {
-      sources: [
-        s3deploy.Source.asset("../site/dist/_astro", {
-        }),
-      ],
+      sources: [s3deploy.Source.asset("../site/dist/_astro", {})],
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/_astro/**/*"],
+      destinationKeyPrefix: "_astro",
+      memoryLimit: 2048,
+      cacheControl: [
+        CacheControl.fromString("max-age=31536000,public,immutable"),
+      ],
+    });
+    new s3deploy.BucketDeployment(this, "DeployGraphAssetsWithInvalidation", {
+      sources: [s3deploy.Source.asset("../site/dist/graph/assets", {})],
+      destinationBucket: siteBucket,
+      destinationKeyPrefix: "graph/assets",
+      distribution,
+      distributionPaths: ["/graph/assets/**/*"],
 
       memoryLimit: 2048,
       cacheControl: [
         CacheControl.fromString("max-age=31536000,public,immutable"),
       ],
     });
-  new s3deploy.BucketDeployment(this, "DeployGraphAssetsWithInvalidation", {
-    sources: [
-      s3deploy.Source.asset("../site/dist/graph/assets", {
-      }),
-    ],
-    destinationBucket: siteBucket,
-    distribution,
-    distributionPaths: ["/graph/assets/**/*"],
-
-    memoryLimit: 2048,
-    cacheControl: [
-      CacheControl.fromString("max-age=31536000,public,immutable"),
-    ],
-  });
-
-    
   }
 }
