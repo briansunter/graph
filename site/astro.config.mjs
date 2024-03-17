@@ -59,5 +59,6 @@ export default defineConfig({
     "/pages/newsletter-issue-9": "/newsletter/issue-9",
     "/blog/how-to-take-smart-notes-roam-research/": "/how-to-take-smart-notes",
     "/blog/why-clojure/": "/why-clojure",
+    "/blog/five-minute-journal:": "/five-minute-journal",
   },
 });
