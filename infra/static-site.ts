@@ -154,8 +154,8 @@ export class StaticSite extends Construct {
       ],
       destinationBucket: siteBucket,
       distribution,
-      distributionPaths: ["/**/*", "!/_astro/**/*", "!/graph/assets/**/*"],
-
+      distributionPaths: ["/**/*"],
+      exclude: ["_astro/*", "graph/assets/*" ],
       memoryLimit: 2048,
       cacheControl: [CacheControl.fromString("public,max-age=600,stale-while-revalidate=60")],
     });
