@@ -22,9 +22,9 @@ export default defineConfig({
   // build: {
   //   format: "file",
   // },
-  experimental: {
-    contentCollectionCache: true,
-  },
+  // experimental: {
+  //   contentCollectionCache: true,
+  // },
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     gfm: false,
