@@ -6,13 +6,28 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
+import AboutSection from "../components/about/AboutSection.astro";
+import SocialProfiles from "../components/social/SocialProfiles.astro";
+import SubstackEmbed from "../components/SubstackEmbed.astro";
 
-const posts = (await getCollection("blog")).sort((a, b) => {
-  if (!a.data.pubDate && !b.data.pubDate) return 0;
-  if (!a.data.pubDate) return 1;
-  if (!b.data.pubDate) return -1;
-  return b.data.pubDate.valueOf() - a.data.pubDate.valueOf(); // normal comparison
+export function randomGradient() {
+  const deg = Math.floor(Math.random() * 360);
+  const color1 = '#' + Math.floor(Math.random()*1048575 + 1048576).toString(16);
+  const color2 = '#' + Math.floor(Math.random()*1048575 + 1048576).toString(16);
+  return `linear-gradient(${deg}deg, ${color1}, ${color2})`;
+}
+
+const blogs = (await getCollection("logseq")).sort((a, b) => {
+  if (!a.data.date && !b.data.date) return 0;
+  if (!a.data.date) return 1;
+  if (!b.data.date) return -1;
+  return b.data.date.valueOf() - a.data.date.valueOf(); // normal comparison
 });
+
+const posts = blogs.filter(
+  (post) =>
+    post.data.blogtitle || post.data.title
+);
 ---
 
 <!doctype html>
@@ -45,13 +60,17 @@ const posts = (await getCollection("blog")).sort((a, b) => {
         text-decoration: none;
         transition: 0.2s ease;
       }
-  
+      /* ul li:first-child {
+        width: 100%;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
       ul li:first-child img {
         width: 100%;
       }
       ul li:first-child .title {
         font-size: 2.369rem;
-      }
+      } */
       ul li img {
         margin-bottom: 0.5rem;
         border-radius: 12px;
@@ -89,33 +108,39 @@ const posts = (await getCollection("blog")).sort((a, b) => {
           font-size: 1.563em;
         }
       }
+      .gradient-bg {
+  height: 360px;
+  border-radius: 12px; /* Add this line */
+}
     </style>
   </head>
   <body>
     <Header />
     <main class="w-full max-w-[1000px]">
       <section class="space-y-8">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">All Pages</h2>
           <ul>
             {
               posts.map((post) => (
                 <li class="mb-24 md:mb-2">
                   <a href={`/${post.slug}`}>
-                    {post.data.heroImage ? (
+                    {post.data.coverimage ? (
                       <Image
                         width={720}
                         height={360}
-                        src={post.data.heroImage}
+                        src={post.data.coverimage}
                         alt=""
                         style={{ objectFit: "cover", height: "360px" }}
                       />
                     ) : (
-                      <div style={{ width: "720px", height: "360px", backgroundColor: "#ccc" }}></div>
+                    <div style={`background: ${randomGradient()};`} class="gradient-bg"></div>
                     )}
                     <h4 class="title mt-4 line-clamp-3">
-                      {post.data.title}
+                      {post.data.blogtitle || post.data.title}
                     </h4>
                     <p class="date">
-                      <FormattedDate date={post.data.pubDate} />
+                      <FormattedDate date={post.data.date} />
                     </p>
                     <p class="description text-gray-500 mt-2 mb-4 text-base leading-relaxed">
                       {post.data.description}
