@@ -61,5 +61,9 @@ export default defineConfig({
     "/blog/why-clojure/": "/why-clojure",
     "/blog/five-minute-journal": "/five-minute-journal",
     "/pages/ai-learning-resources": "/ai-learning-resources",
+    "/pages/newsletter/issue-13": "/newsletter/issue-13",
+    "/pages/almanack-of-naval-ravikant": "/almanack-of-naval-ravikant",
+    "/pages/[...slug]": "/[...slug]",
+    "/blog/[...slug]": "/[...slug]",
   },
 });
