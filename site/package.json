@@ -15,6 +15,7 @@
     "@astrojs/rss": "^4.0.5",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.4.15",
+    "astro-navbar": "^2.3.1",
     "node-persist": "^4.0.1",
     "playwright": "^1.42.1",
     "react-tweet": "^3.2.0",

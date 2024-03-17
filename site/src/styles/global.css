@@ -16,6 +16,9 @@
 		0 16px 32px rgba(var(--gray), 33%);
 }
 
+.hidden {
+	  display: none;
+	}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Inter', sans-serif;
@@ -48,7 +51,11 @@ body {
 	font-size: 20px;
 	line-height: 1.7;
 }
-
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Adjust this value as needed to ensure the header is above other elements */
+}
 /* button, input, select, textarea {
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
