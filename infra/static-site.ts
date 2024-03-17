@@ -149,13 +149,13 @@ export class StaticSite extends Construct {
     new s3deploy.BucketDeployment(this, "DeployHTMLWithInvalidation", {
       sources: [
         s3deploy.Source.asset("../site/dist/", {
-          exclude: ["_astro/*" ],
+          exclude: ["_astro/*", "graph/assets/*" ],
         }),
       ],
-      exclude: ["_astro/*"],
       destinationBucket: siteBucket,
       distribution,
-      distributionPaths: ["/*"],
+      distributionPaths: ["/**/*", "!/_astro/**/*", "!/graph/assets/**/*"],
+
       memoryLimit: 2048,
       cacheControl: [CacheControl.fromString("public,max-age=600,stale-while-revalidate=60")],
     });
@@ -164,14 +164,30 @@ export class StaticSite extends Construct {
         s3deploy.Source.asset("../site/dist/_astro", {
         }),
       ],
-      destinationKeyPrefix: "_astro/",
       destinationBucket: siteBucket,
       distribution,
-      distributionPaths: ["/*"],
+      distributionPaths: ["/_astro/**/*"],
+
       memoryLimit: 2048,
       cacheControl: [
         CacheControl.fromString("max-age=31536000,public,immutable"),
       ],
     });
+  new s3deploy.BucketDeployment(this, "DeployGraphAssetsWithInvalidation", {
+    sources: [
+      s3deploy.Source.asset("../site/dist/graph/assets", {
+      }),
+    ],
+    destinationBucket: siteBucket,
+    distribution,
+    distributionPaths: ["/graph/assets/**/*"],
+
+    memoryLimit: 2048,
+    cacheControl: [
+      CacheControl.fromString("max-age=31536000,public,immutable"),
+    ],
+  });
+
+    
   }
 }
