@@ -1,0 +1,67 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import "../../styles/katex.min.css";
+import { Content } from "./404.md";
+
+type Props = CollectionEntry<"logseq">["data"];
+const { description, blogtitle } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={blogtitle} description={description} />
+    <style>
+      main {
+        overflow-x: hidden;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .hero-image {
+        width: 100%;
+      }
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+      }
+      .prose {
+        /* width: 800px; */
+        margin: auto;
+        padding: 1em;
+        color: rgb(var(--gray-dark));
+      }
+      .title {
+        padding: 1em 0;
+        text-align: center;
+        line-height: 1;
+      }
+      .title h1 {
+        font-weight: bold;
+      }
+      .date {
+        margin-bottom: 0.5em;
+        color: rgb(var(--gray));
+      }
+      .last-updated-on {
+        font-style: italic;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <div class="flex flex-col justify-center items-center"></div>
+      <div class="w:full mx-auto mt-8">
+        <Content />
+        <a href="/" class="text-blue-500 hover:underline">
+          Go back to the homepage
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
