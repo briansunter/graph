@@ -27,7 +27,7 @@ jobs:
       #     src: logseq
       #     dest: site/dist/graph
       - name: Copy assets
-        run: cp -r logset/assets site/dist/graph/
+        run: cp -r logseq/assets site/dist/graph/
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
