@@ -5,26 +5,29 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - name: Install
-        run: cd site && pnpm i
-      - name: Install Playwright browsers
-        run: cd site && pnpm exec playwright install
-      - name: Build
-        run: cd site && pnpm run build
-      - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@v0.1
-        with:
-          src: logseq
-          dest: site/dist/client/graph
-      - name: Copy assets
-        run: cp -r logseq/assets site/dist/client/graph/
       - uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "18"
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install Playwright browsers
+        run: cd site && npm exec playwright install
+      - name: Install
+        run: cd site && npm i
+      - name: Build
+        run: cd site && npm run build
+      # - name: Logseq Publish 🚩
+      #   uses: pengx17/logseq-publish@v0.1
+      #   with:
+      #     src: logseq
+      #     dest: site/dist/graph
+      - name: Copy assets
+        run: cp -r logseq/assets site/dist/graph/
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
@@ -35,6 +38,8 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: 'us-east-1'
+      - name: Install
+        run: cd infra && npm i
       - name: Build stack
         run: cd infra && npm run build
       - name: Synth stack

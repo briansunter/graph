@@ -1,0 +1,69 @@
+---
+// Import the global.css file here so that it is included on
+// all pages through the use of the <BaseHead /> component.
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description: string;
+	image?: string;
+}
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Font preloads -->
+<link rel="preload" href="/fonts/Inter/Inter-VariableFont_slnt,wght.ttf" as="font" type="font/ttf" crossorigin />
+<link rel="preload" href="/fonts/Lora/Lora-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin />
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+<!-- Google Analytics -->
+<!-- Preconnects -->
+<link rel='preconnect' href='https://google-analytics.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://analytics.google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://www.google-analytics.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://googletagmanager.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://www.google.com' crossorigin='anonymous' />
+<link rel='preconnect' href='https://stats.g.doubleclick.net' crossorigin='anonymous' />
+
+<!-- DNS Prefetch -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" crossorigin='anonymous' />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin='anonymous' />
+
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=UA-18360473-1"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-18360473-1');
+  gtag('config', 'G-J2B5KTRCSH');
+</script>
+
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={Astro.url} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image, Astro.url)} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={new URL(image, Astro.url)} />
