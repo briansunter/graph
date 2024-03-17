@@ -156,7 +156,7 @@ export class StaticSite extends Construct {
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/*"],
-      memoryLimit: 1024,
+      memoryLimit: 2048,
       cacheControl: [CacheControl.fromString("public,max-age=600,stale-while-revalidate=60")],
     });
     new s3deploy.BucketDeployment(this, "DeployAssetsWithInvalidation", {
@@ -168,7 +168,7 @@ export class StaticSite extends Construct {
       destinationBucket: siteBucket,
       distribution,
       distributionPaths: ["/*"],
-      memoryLimit: 1024,
+      memoryLimit: 2048,
       cacheControl: [
         CacheControl.fromString("max-age=31536000,public,immutable"),
       ],
