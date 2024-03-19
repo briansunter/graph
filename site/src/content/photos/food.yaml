@@ -1,0 +1,66 @@
+name: Food Collection
+description: A delightful collection of mouthwatering food photographs
+location: Various Locations
+cover: https://source.unsplash.com/random?food
+map_url: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d103999.2884473478!2d-118.32641395512605!3d34.09938916398033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623346897845!5m2!1sen!2sus
+photos:
+  - title: Colorful Macarons
+    description: A delightful assortment of colorful and delicate macarons
+    filename: https://source.unsplash.com/random?macarons
+    location: Paris, France
+    gps:
+      lat: 48.8566
+      lng: 2.3522
+    unsplash:
+      photographer: Emma Dubois
+      profile: https://unsplash.com/@emmadubois
+  - title: Sushi Platter
+    description: A beautifully arranged sushi platter with various rolls and nigiri
+    filename: https://source.unsplash.com/random?sushi
+    location: Tokyo, Japan
+    gps:
+      lat: 35.6762
+      lng: 139.6503
+    unsplash:
+      photographer: Hiroshi Tanaka
+      profile: https://unsplash.com/@hiroshitanaka
+  - title: Gourmet Burger
+    description: A mouthwatering gourmet burger with fresh ingredients
+    filename: https://source.unsplash.com/random?burger
+    location: New York City, USA
+    gps:
+      lat: 40.7128
+      lng: -74.0060
+    unsplash:
+      photographer: Olivia Johnson
+      profile: https://unsplash.com/@oliviajohnson
+  - title: Pasta Dish
+    description: A delicious pasta dish with creamy sauce and fresh herbs
+    filename: https://source.unsplash.com/random?pasta
+    location: Rome, Italy
+    gps:
+      lat: 41.9028
+      lng: 12.4964
+    unsplash:
+      photographer: Luca Rossi
+      profile: https://unsplash.com/@lucarossi
+  - title: Smoothie Bowl
+    description: A vibrant and healthy smoothie bowl topped with fresh fruits and granola
+    filename: https://source.unsplash.com/random?smoothie
+    location: Bali, Indonesia
+    gps:
+      lat: -8.4095
+      lng: 115.1889
+    unsplash:
+      photographer: Ayu Dewi
+      profile: https://unsplash.com/@ayudewi
+  - title: Chocolate Dessert
+    description: A decadent chocolate dessert with layers of rich flavors
+    filename: https://source.unsplash.com/random?chocolate
+    location: Brussels, Belgium
+    gps:
+      lat: 50.8503
+      lng: 4.3517
+    unsplash:
+      photographer: Sophie Dubois
+      profile: https://unsplash.com/@sophiedubois

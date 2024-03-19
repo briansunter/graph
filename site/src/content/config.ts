@@ -31,6 +31,8 @@ const photoCollection = defineCollection({
     description: z.string(),
     location: z.string(),
     map_url: z.string().url(),
+    cover: image(),
+    date: z.date(),
     photos: z.array(
       z.object({
         title: z.string(),

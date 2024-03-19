@@ -1,0 +1,57 @@
+name: Urban Collection
+description: A collection of stunning urban photographs capturing the essence of city life
+location: Various Cities
+cover: https://source.unsplash.com/random?city
+map_url: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193595.15831228695!2d-74.11976308671874!3d40.69766374873451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623346511845!5m2!1sen!2sus
+date: 2023-02-01
+photos:
+  - title: Skyscrapers at Night
+    description: A breathtaking view of illuminated skyscrapers against the night sky
+    filename: https://source.unsplash.com/random?skyscrapers
+    location: New York City, USA
+    gps:
+      lat: 40.7128
+      lng: -74.0060
+    unsplash:
+      photographer: Alex Smith
+      profile: https://unsplash.com/@alexsmith
+  - title: Bustling Street
+    description: A lively street scene with people, vehicles, and vibrant city life
+    filename: https://source.unsplash.com/random?street
+    location: Tokyo, Japan
+    gps:
+      lat: 35.6762
+      lng: 139.6503
+    unsplash:
+      photographer: Yuki Nakamura
+      profile: https://unsplash.com/@yukinakamura
+  - title: Historic Architecture
+    description: A magnificent historic building with intricate architectural details
+    filename: https://source.unsplash.com/random?architecture
+    location: Paris, France
+    gps:
+      lat: 48.8566
+      lng: 2.3522
+    unsplash:
+      photographer: Sophie Martin
+      profile: https://unsplash.com/@sophiemartin
+  - title: Urban Skyline
+    description: A panoramic view of a city skyline during golden hour
+    filename: https://source.unsplash.com/random?skyline
+    location: Chicago, USA
+    gps:
+      lat: 41.8781
+      lng: -87.6298
+    unsplash:
+      photographer: Ethan Brown
+      profile: https://unsplash.com/@ethanbrown
+  - title: Neon Signs
+    description: Colorful neon signs illuminating a city street at night
+    filename: https://source.unsplash.com/random?neon
+    location: Hong Kong, China
+    gps:
+      lat: 22.3193
+      lng: 114.1694
+    unsplash:
+      photographer: Liam Wong
+      profile: https://unsplash.com/@liamwong
