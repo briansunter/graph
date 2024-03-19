@@ -4,7 +4,7 @@ slug: books-read-in-2022
 tags:
   - reading
 date: 2023-01-01
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Books Read in 2022
 description: List of books I read in 2022 with short summaries
 coverimage: ../../assets/books-read-site_1672793412235_0.jpg

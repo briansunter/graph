@@ -5,7 +5,7 @@ tags:
   - reading
   - travel
 date: 2022-05-08
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 description: John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
 coverimage: ../../assets/travels-with-charley_1672052430785_0.jpeg
 ---date-finished:: [[May 20th, 2022]]

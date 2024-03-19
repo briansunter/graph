@@ -1,13 +1,14 @@
 {
   "name": "newsite",
-  "type": "module",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "extract": "node --no-warnings --loader ts-node/esm bin/extract.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.6",
@@ -29,6 +30,7 @@
     "remark-math": "^6.0.0",
     "remark-mermaidjs": "^6.0.0",
     "remark-wiki-link": "^2.0.1",
+    "ts-node": "^10.9.2",
     "vfile-matter": "^5.0.0"
   }
 }

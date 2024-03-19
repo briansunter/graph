@@ -8,7 +8,7 @@ tags:
   - productivity
 categories: programming
 date: 2023-01-31
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Logseq GPT-3 OpenAI Popup
 description: I updated the Logseq GPT-3 OpenAI plugin to have a popup UI and support user-defined commands.
 coverimage: ../../assets/summarize_1674095683669_0.gif

@@ -5,7 +5,7 @@ tags:
   - gaming
   - review
 date: 2022-10-24
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Soma Game Review
 description: My review of Soma, a survival exploration game
 coverimage: ../../assets/ss_21b43d4cb49ef3332eefbb4957ec96e075543ef1.1920x1080_1666656957286_0.jpg

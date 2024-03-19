@@ -4,7 +4,7 @@ slug: how-to-take-smart-notes
 tags:
   - blog
 date: 2021-02-08
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: How to Take Smart Notes
 description: By focusing on what is interesting and keeping written track of your own intellectual development, topics, questions, and arguments will naturally emerge without force.
 coverimage: ../../assets/image_1661224819843_0.png

@@ -6,7 +6,7 @@ tags:
   - emacs
 categories: programming
 date: 2019-06-25
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 description: How to have emacs launch quickly and always be available on macos
 coverimage: ../../assets/image_1661148998101_0.png
 ---

@@ -7,12 +7,11 @@ tags:
   - blog
 categories: programming
 date: 2022-02-13
-lastMod: 2024-03-10
+lastMod: 2024-03-18
 blogtitle: Managing Python Projects and Dependencies in 2024
 description: How to set up a Python project with the latest tools and best practices
 coverimage: ../../assets/image_1661147875071_0.png
 ---
-
 
 ![image.png | hidden](/assets/image_1661147875071_0.png)
 

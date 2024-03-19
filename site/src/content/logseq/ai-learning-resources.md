@@ -6,7 +6,7 @@ tags:
   - programming
 categories: programming, ai
 date: 2022-12-09
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 description: Best resources for studying machine learning
 coverimage: ../../assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 ---

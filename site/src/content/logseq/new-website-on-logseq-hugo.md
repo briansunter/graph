@@ -6,7 +6,7 @@ tags:
   - programming
   - blog
 date: 2022-08-19
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: New Website on Logseq Hugo
 description: I've remade my website using Logseq and the Hugo static site generator.
 ---

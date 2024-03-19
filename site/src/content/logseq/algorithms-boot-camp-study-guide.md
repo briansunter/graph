@@ -4,7 +4,7 @@ slug: algorithms-boot-camp-study-guide
 tags:
   - programming
 date: 2022-06-26
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Algorithms Boot Camp Topics
 description: An outline of all the most important topics for studying algorithms
 coverimage: ../../assets/binary-tree_1672273112314_0.png

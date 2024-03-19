@@ -7,7 +7,7 @@ tags:
   - ali abdaal
   - blog
 date: 2022-06-17
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Daily Highlight Productivity Technique
 description: My favorite productivity technique, the "Daily Highlight"
 coverimage: ../../assets/daily-highlight_1672273385215_0.jpg

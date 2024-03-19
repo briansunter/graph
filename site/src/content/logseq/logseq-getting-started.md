@@ -8,7 +8,7 @@ tags:
   - blog
 categories: productivity
 date: 2022-10-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Logseq Getting Started
 description: How to get started with Logseq and publish your notes online in 30 minutes.
 coverimage: ../../assets/image_1662087082755_0.png

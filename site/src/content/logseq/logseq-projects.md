@@ -4,7 +4,7 @@ slug: logseq-projects
 tags:
   - blog
 date: 2022-08-21
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: How to manage projects in Logseq
 description: How can we organize complex tasks that involve multiple steps over multiple days in Logseq?
 coverimage: ../../assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg
@@ -139,10 +139,7 @@ NEXT means this will be the project I work on next, after I finish one of my cur
 This helps me prepare for upcoming projects
 
 ### 
-:LOGBOOK:
-CLOCK: [2022-07-13 Wed 20:22:15]
-CLOCK: [2022-07-13 Wed 20:22:48]
-:END:
+
 
 This is a project I'm currently working on
 

@@ -6,11 +6,12 @@ tags:
   - reading
 categories: newsletter
 date: 2023-02-17
-lastMod: 2024-03-10
+lastMod: 2024-03-18
 blogtitle: Newsletter 11 - Moving to Hawaii and Fitness Routine
 description: Some thoughts on moving to Hawaii and what I'm doing to improve my fitness
 coverimage: ../../assets/honolulu_1676694313546_0.jpg
----slug:: newsletter/issue-11
+---
+
 
 ![Drone view of honolulu | hidden](/assets/honolulu_1676694313546_0.jpg)
 

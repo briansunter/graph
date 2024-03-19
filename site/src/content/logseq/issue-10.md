@@ -7,11 +7,12 @@ tags:
   - logseq-openai
 categories: newsletter
 date: 2023-02-01
-lastMod: 2024-03-10
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 10
 description: Logseq GPT-3 OpenAI popup, YouTube captions plugin updates, and migrating to Substack
 coverimage: ../../assets/Screenshot_2023-02-02_at_1.42.14_PM_1675381393942_0.png
----slug:: newsletter/issue-10
+---
+
 
 # Intro
 

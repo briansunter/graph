@@ -2,7 +2,7 @@
 title: logseq-openai/prompt-template
 slug: logseq-openai/prompt-template
 date: 2022-11-16
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Logseq GPT Prompt Templates
 description: Thoughts on prompt templates for the Logseq OpenAI Plugin
 coverimage: ../../assets/prompt-template_1668636545451_0.png

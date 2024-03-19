@@ -8,7 +8,7 @@ tags:
   - AI
 categories: newsletter
 date: 2023-07-27
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Analyzing Coffee with Data Science + ChatGPT Code Interpreter
 description: Uploading a dataset about coffee and using ChatGPT to automatically clean the data, understand insights, and generate cool charts.
 coverimage: ../../assets/image_1690426630484_0.png

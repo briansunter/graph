@@ -8,7 +8,7 @@ tags:
   - large language models
 categories: AI
 date: 2022-11-26
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Why Large Language Models are Interesting
 description: Large language models have a number of interesting properties
 coverimage: ../../assets/Screen_Shot_2022-09-11_at_8.35.17_PM_1668815306606_0.png

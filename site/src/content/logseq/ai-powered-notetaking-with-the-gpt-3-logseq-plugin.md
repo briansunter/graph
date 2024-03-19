@@ -10,7 +10,7 @@ tags:
   - blog
 categories: programming, logseq
 date: 2022-06-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: AI Powered Notetaking with the GPT-3 Logseq plugin
 description: I've started using GPT-3 to create text summaries, outlines and perform many other AI-powered tasks directly within the Logseq notetaking app using a new plugin I developed.
 coverimage: ../../assets/image_1661149276371_0.png

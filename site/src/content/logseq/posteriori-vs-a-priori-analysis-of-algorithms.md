@@ -8,7 +8,7 @@ tags:
   - algorithms-boot-camp
 categories: programming
 date: 2022-08-22
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Posteriori vs A Priori Analysis of Algorithms
 description: Theoretical analysis of algorithms vs benchmarking
 ---

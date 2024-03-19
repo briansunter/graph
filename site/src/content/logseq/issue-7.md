@@ -9,7 +9,7 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-08-10
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 7
 coverimage: ../../assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg
 ---newsletter-subscribers:: 245
@@ -143,7 +143,7 @@ Stable Diffusion will be massive because people can  run powerful AI image gener
 
 I’m sure we’ll see a lot of crazy stuff with this soon, but I can’t wait for the creative potential this unlocks.
 
-{{twitter https://twitter.com/EMostaque/status/1561777122082824192 }}
+{{< tweet user="EMostaque" id="1561777122082824192" >}}
 
 # Outro
 

@@ -8,7 +8,7 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-06-19
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 2
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
 coverimage: ../../assets/kubernetes-gpt_1672123546658_0.jpeg
@@ -81,7 +81,7 @@ I thought this was funny. I usually ask the AI questions. But this user was inst
 
 This user told me they found the plugin helpful in helping them understand code in an obscure language. You can ask it to explain any code in English.
 
-{{twitter https://twitter.com/haveanicedavid/status/1534950374779392009 }}
+{{< tweet user="haveanicedavid" id="1534950374779392009" >}}
 
 A feature I still need to release made it into one of the videos. For , type `Summarize Text:` instead.
 
@@ -158,7 +158,7 @@ I'll expect to see more ads on youtube, Facebook, Instagram, TikTok, etc., and p
 
 It may be an excellent excuse to find other hobbies than watching Netflix and ordering Uber Eats.
 
-{{twitter https://twitter.com/Bsunter/status/1537546979357564928 }}
+{{< tweet user="Bsunter" id="1537546979357564928" >}}
 
 # Analytics 📈
 

@@ -7,7 +7,7 @@ tags:
   - algorithms
 categories: programming
 date: 2022-07-10
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Algorithms Boot Camp
 description: I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.
 coverimage: ../../assets/image_1657488579000_0_1672131758605_0.png

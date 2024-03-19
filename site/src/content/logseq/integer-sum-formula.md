@@ -6,7 +6,7 @@ tags:
   - math
 categories: math
 date: 2022-10-02
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Integer Sum Formula (Gauss Sum)
 description: How do we find the sum of the numbers 1 through 100?
 ---

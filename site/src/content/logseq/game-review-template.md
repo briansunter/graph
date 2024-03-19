@@ -4,7 +4,7 @@ slug: game-review-template
 tags:
   - template
 date: 2022-10-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 ---
 
 # Game Review Template

@@ -8,7 +8,7 @@ tags:
   - algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Binary Search
 description: How to implement binary search recursively and iteratively
 coverimage: ../../assets/binary-search_1673042669678_0.jpeg

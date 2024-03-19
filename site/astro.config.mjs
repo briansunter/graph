@@ -15,7 +15,6 @@ import {
 import { remarkRemoveHiddenImages } from "./src/lib/remarkHiddenImages";
 import remarkMermaid from "remark-mermaidjs";
 import remarkWikiLinkPlugin from 'remark-wiki-link';
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://briansunter.com",

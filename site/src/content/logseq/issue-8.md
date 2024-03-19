@@ -7,7 +7,7 @@ tags:
   - algorithms
 categories: newsletter
 date: 2022-08-23
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 8
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
 coverimage: ../../assets/image_1665465573710_0.png

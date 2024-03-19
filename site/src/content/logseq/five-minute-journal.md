@@ -6,7 +6,7 @@ tags:
   - writing
   - logseq
 date: 2021-08-01
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Five Minute Journal
 description: Daily journal prompts and the 5 minute journal have been helpful to improve my writing skills, productivity, self-awareness, and thinking. I've included a list of journal prompts and journal questions I use for daily journaling , including the five minute journal writing prompts.
 coverimage: ../../assets/image_1661064164296_0.png

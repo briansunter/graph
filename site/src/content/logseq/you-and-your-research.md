@@ -4,10 +4,11 @@ slug: you-and-your-research
 tags:
   - greatperson
 date: 2022-08-17
-lastMod: 2024-03-11
+lastMod: 2024-03-18
 description: Notes from the talk You and Your Research by Richard Hamming, about how to do Nobel Prize level work.
 coverimage: ../../assets/image_1660798082719_0.png
 ---
+
 
 ![image.png | hidden](/assets/image_1660798082719_0.png)
 

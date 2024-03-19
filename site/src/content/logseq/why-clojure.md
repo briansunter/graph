@@ -7,7 +7,7 @@ tags:
   - functional programming
   - clojure
 date: 2018-09-30
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Why Clojure?
 description: What makes Clojure interesting and well suited for modern software development?
 coverimage: ../../assets/clojure_logo.svg_1660983015847_0.png

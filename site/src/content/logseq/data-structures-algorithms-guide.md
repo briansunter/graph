@@ -3,9 +3,11 @@ title: data-structures-algorithms-guide
 slug: data-structures-algorithms-guide
 tags:
   - programming
-date: 2024-02-26
-lastMod: 2024-02-26
+date: 2022-11-26
+lastMod: 2024-03-18
+blogtitle: Data Structures and Algorithms Guide
 ---gpt-sources:: [[gpt data structures guide]], [[gpt algorithms guide]]
+
 
 
 # Array

@@ -5,7 +5,7 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-11-26
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 9
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
 coverimage: ../../assets/stop_1672218528540_0.jpg

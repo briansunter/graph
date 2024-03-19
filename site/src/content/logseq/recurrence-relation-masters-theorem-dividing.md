@@ -8,7 +8,7 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Dividing Functions
 description: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 coverimage: ../../assets/recurrence-dividing_1673047600738_0.jpeg

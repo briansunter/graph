@@ -9,7 +9,7 @@ tags:
   - notetaking
   - blog
 date: 2022-08-21
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Notetaking with NLP and AI
 description: I go over a few new useful AI and NLP techniques and how to use them for notetaking
 coverimage: ../../assets/image_1662087221258_0.png

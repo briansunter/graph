@@ -2,7 +2,7 @@
 title: newsletter-roadmap
 slug: newsletter-roadmap
 date: 2022-07-10
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 ---
 
 This is the content plan for my [[newsletter]]

@@ -6,7 +6,7 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-07-10
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 5
 description: Algorithms Bootcamp and the Elon Musk Controversy
 coverimage: ../../assets/image_1657488579000_0_1672131763262_0.png

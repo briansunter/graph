@@ -6,7 +6,7 @@ tags:
   - AI
   - programming
 date: 2022-07-12
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 ---
 
 ## GPT-3 Prompts to Generate a Machine Learning Study Guide

@@ -5,7 +5,7 @@ tags:
   - programming
   - AI
 date: 2022-07-17
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Machine Learning Study Guide Outline
 description: An outline of topics to study machine learning, suggested by GPT
 ---

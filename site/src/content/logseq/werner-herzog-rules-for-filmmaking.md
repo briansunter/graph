@@ -4,7 +4,7 @@ slug: werner-herzog-rules-for-filmmaking
 tags:
   - writing
 date: 2022-10-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 coverimage: ../../assets/herzog_1672134562808_0.jpeg
 ---
 

@@ -7,7 +7,7 @@ tags:
   - sleep
   - blog
 date: 2022-11-07
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Headphone Eye Mask
 description: How I use a Bluetooth headphone eye mask to sleep better
 coverimage: ../../assets/image_1667858995655_0_1667859078784_0.jpeg

@@ -2,7 +2,7 @@
 title: building a second brain
 slug: building-a-second-brain
 date: 2022-12-30
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Building a Second Brain - Summary
 description: My summary of Building a Second Brain by Tiago Forte, which is a guide to developing a productivity system to manage information and produce creative works.
 coverimage: ../../assets/basb_1672455079106_0.jpeg

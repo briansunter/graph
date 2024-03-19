@@ -2,7 +2,7 @@
 title: logseq-social/profile
 slug: logseq-social/profile
 date: 2022-08-21
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 ---
 
 # "Follow" me on logseq

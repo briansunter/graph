@@ -8,7 +8,7 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-06-12
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 1
 description: Launching my newsletter, public graph, and logseq gpt3 AI plugin
 coverimage: ../../assets/image_1660689722955_0.png

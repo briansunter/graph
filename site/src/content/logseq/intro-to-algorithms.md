@@ -4,7 +4,7 @@ slug: intro-to-algorithms
 tags:
   - blog
 date: 2022-10-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Intro to Algorithms
 description: What is an algorithm? And why are algorithms important? This guide will help you understand basic algorithms concepts and how to use them to solve problems.
 coverimage: ../../assets/image_1662087569135_0.png

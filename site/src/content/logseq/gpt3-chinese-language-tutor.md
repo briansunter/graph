@@ -5,7 +5,7 @@ tags:
   - chinese
   - gpt3
 date: 2022-07-03
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: GPT-3 Chinese Language Tutor
 description: Can you create a special purpose tutoring chat bot to teach yourself Chinese internet slang?
 coverimage: ../../assets/chinese-robot_1672272679577_0.jpg

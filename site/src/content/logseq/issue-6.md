@@ -7,7 +7,7 @@ tags:
   - algorithms-boot-camp
 categories: newsletter, programming
 date: 2022-07-17
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Newsletter Issue 6
 description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
 coverimage: ../../assets/image_1657735112414_0_1672132400967_0.png

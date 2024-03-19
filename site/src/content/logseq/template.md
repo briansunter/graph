@@ -1,9 +1,14 @@
 ---
 title: project/template
 slug: project/template
-date: 2024-02-26
-lastMod: 2024-02-26
+tags:
+  - logseq
+date: 2022-10-26
+lastMod: 2024-03-18
+blogtitle: Logseq Project Template
+description: a template I use to organize my projects in Logseq
 ---
+
 
 [[project/template]]
 template-including-parent:: false

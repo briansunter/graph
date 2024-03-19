@@ -9,7 +9,7 @@ tags:
   - algorithms
 categories: programming
 date: 2022-10-04
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms Course
 description: One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 coverimage: ../../assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png

@@ -9,7 +9,7 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions
 description: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 coverimage: ../../assets/recurrence-relation-subtraction_1673041572921_0.jpg

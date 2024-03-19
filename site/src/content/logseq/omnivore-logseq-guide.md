@@ -6,7 +6,7 @@ tags:
   - productivity
   - reading
 date: 2022-10-26
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Omnivore Logseq Guide
 description: How to use the Omnivore read it later app
 coverimage: ../../assets/image_1662086881256_0.png

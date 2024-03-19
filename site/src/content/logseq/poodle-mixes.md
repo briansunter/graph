@@ -4,7 +4,7 @@ slug: poodle-mixes
 tags:
   - gpt3
 date: 2022-07-10
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Generating Poodle Mix Names with AI
 description: With a few examples of poodle mixes, it is able to generate names for every poodle mix
 ---

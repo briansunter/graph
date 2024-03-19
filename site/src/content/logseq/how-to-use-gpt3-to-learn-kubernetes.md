@@ -8,7 +8,7 @@ tags:
   - gpt3
   - kubernetes
 date: 2022-06-29
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: How to use GPT-3 to learn Kubernetes
 description: How to use GPT-3 to make a Kubernetes Study Guide
 coverimage: ../../assets/kubernetes_1672272543261_0.png

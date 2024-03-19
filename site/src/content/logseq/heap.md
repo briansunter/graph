@@ -8,7 +8,7 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-02-26
+lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Heap, Heap Sort, Heapify, and Priority Queues
 description: Describes the Heap data structure, the operations it supports, and its time complexity.
 coverimage: ../../assets/heap_1673042424667_0.jpg
