@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from "astro:assets";
+
+const photoCollections = await getCollection('photos');
+const allPhotos = photoCollections.map((collection) => collection.data.photos).flat();
+---
+
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold mb-8">Photo Gallery</h1>
+  <div class="masonry-grid">
+    {allPhotos.map((photo) => (
+      <div class="masonry-item bg-white rounded-lg shadow-md overflow-hidden">
+        <Image src={photo.filename} alt={photo.title} width={400} height={400} format="webp" class="w-full h-64 object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">{photo.title}</h3>
+          <p class="text-gray-600 mb-2">{photo.description}</p>
+          <p class="text-gray-500 text-sm mb-1">Location: {photo.location}</p>
+          <p class="text-gray-500 text-sm">GPS: {photo.gps.lat}, {photo.gps.lng}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
+</style>
