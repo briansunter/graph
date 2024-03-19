@@ -25,7 +25,9 @@ export default defineConfig({
   //   contentCollectionCache: true,
   // },
   integrations: [mdx(), sitemap(), tailwind()],
-  prefetch: true,
+  prefetch:{
+    prefetchAll: true,
+  },
   markdown: {
     gfm: false,
     remarkPlugins: [
