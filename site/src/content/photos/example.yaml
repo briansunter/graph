@@ -1,13 +1,14 @@
 # src/content/photos/collection.yaml
-name: Nature Collection
-description: A collection of beautiful nature photos from Unsplash
+name: London 2015
+description: Visiting London on the first stop of our backpacking trip
 location: Various Locations
-cover: https://source.unsplash.com/random?1
+cover: ./images/london.jpeg
 map_url: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31908.869078615547!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623345987845!5m2!1sen!2sus
+date: 2023-02-01
 photos:
   - title: Majestic Mountain
     description: A stunning view of a majestic mountain peak
-    filename: https://source.unsplash.com/random?2
+    filename: ./images/london-buildings.jpeg
     location: Rocky Mountains, Colorado
     gps:
       lat: 39.113014
@@ -17,7 +18,7 @@ photos:
       profile: https://unsplash.com/@johndoe
   - title: Serene Lake
     description: A tranquil lake surrounded by lush greenery
-    filename: https://source.unsplash.com/random?3
+    filename: ./images/city-of-london.jpeg
     location: Lake Louise, Canada
     gps:
       lat: 51.4253
@@ -27,7 +28,27 @@ photos:
       profile: https://unsplash.com/@janesmith
   - title: Enchanting Forest
     description: A mesmerizing forest with tall trees and a mysterious atmosphere
-    filename: https://source.unsplash.com/random?4
+    filename: ./images/london-finance.jpeg
+    location: Black Forest, Germany
+    gps:
+      lat: 48.5414
+      lng: 8.2733
+    unsplash:
+      photographer: Michael Johnson
+      profile: https://unsplash.com/@michaeljohnson
+  - title: Enchanting Forest
+    description: A mesmerizing forest with tall trees and a mysterious atmosphere
+    filename: ./images/thames.jpeg
+    location: Black Forest, Germany
+    gps:
+      lat: 48.5414
+      lng: 8.2733
+    unsplash:
+      photographer: Michael Johnson
+      profile: https://unsplash.com/@michaeljohnson
+  - title: Enchanting Forest
+    description: A mesmerizing forest with tall trees and a mysterious atmosphere
+    filename: ./images/shard.jpeg
     location: Black Forest, Germany
     gps:
       lat: 48.5414

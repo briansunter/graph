@@ -24,8 +24,8 @@ const logseq = defineCollection({
   })
 });
 
-const photoCollection = defineCollection({
-  type: "content",
+const photos = defineCollection({
+  type: "data",
   schema: ({ image }) => z.object({
     name: z.string(),
     description: z.string(),
@@ -48,5 +48,5 @@ const photoCollection = defineCollection({
   })
 });
 
-export const collections = { logseq, blog, photoCollection };
+export const collections = { logseq, blog, photos};
 

@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import BaseHead from "../components/BaseHead.astro";
 const photoCollections = await getCollection("photos");
 import "photoswipe/dist/photoswipe.css";
+
 ---
 
 <!doctype html>
@@ -81,11 +82,11 @@ import "photoswipe/dist/photoswipe.css";
                 </div>
               </div>
             </div>
-            {            // @ts-ignore
+            {            
               collection.data.photos.map((photo) => (
               <div class="relative bg-white shadow-md overflow-hidden">
                 <a
-                  href={photo.filename}
+                  href={photo.filename.src}
                   data-pswp-width={photo.filename.width}
                   data-pswp-height={photo.filename.height}
                   target="_blank"
@@ -119,7 +120,7 @@ import "photoswipe/dist/photoswipe.css";
     const lightbox = new PhotoSwipeLightbox({
       gallery: ".masonry-grid",
       children: "a",
-      showHideAnimationType: 'fade',
+      showHideAnimationType: 'zoom',
       pswpModule: PhotoSwipe,
     });
     lightbox.init();
