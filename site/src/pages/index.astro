@@ -21,7 +21,7 @@ const blogs = (await getCollection("logseq")).sort((a, b) => {
   if (!a.data.date && !b.data.date) return 0;
   if (!a.data.date) return 1;
   if (!b.data.date) return -1;
-  return b.data.date.valueOf() - a.data.date.valueOf(); // normal comparison
+  return b.data.date.valueOf() - a.data.date.valueOf();
 });
 
 const posts = blogs.filter(
@@ -35,130 +35,53 @@ const posts = blogs.filter(
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      .placeholder {
-        width: 720px;
-        height: 360px;
-        filter: blur(20px);
-      }
-    </style>
-    <style>
-      /* main {
-        width: 960px;
-      } */
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      ul li {
-        width: calc(50% - 1rem);
-      }
-      ul li * {
-        text-decoration: none;
-        transition: 0.2s ease;
-      }
-      ul li:first-child {
-        width: 100%;
-        margin-bottom: 1rem;
-        text-align: center;
-      }
-      ul li:first-child img {
-        width: 100%;
-      }
-      ul li:first-child .title {
-        font-size: 2.369rem;
-      }
-      ul li img {
-        margin-bottom: 0.5rem;
-        border-radius: 12px;
-      }
-      ul li a {
-        display: block;
-      }
-      .title {
-        margin: 0;
-        color: rgb(var(--black));
-        line-height: 1;
-      }
-      .date {
-        margin: 0;
-        color: rgb(var(--gray));
-      }
-      ul li a:hover h4 {
-        color: rgb(var(--accent));
-      }
-      ul a:hover img {
-        box-shadow: var(--box-shadow);
-      }
-      @media (max-width: 720px) {
-        ul {
-          gap: 0.5em;
-        }
-        ul li {
-          width: 100%;
-          text-align: center;
-        }
-        ul li:first-child {
-          margin-bottom: 0;
-        }
-        ul li:first-child .title {
-          font-size: 1.563em;
-        }
-      }
-      .gradient-bg {
-  height: 360px;
-  border-radius: 12px; /* Add this line */
-}
-    </style>
   </head>
-  <body>
+  <body class="min-h-screen flex flex-col">
     <Header />
-    <main class="w-full max-w-[1000px]">
-      <section class="space-y-8">
-        <AboutSection aboutDescription={"test"} />
-        <div>
-          <h2 class="text-3xl md:text-5xl font-bold">Social Media</h2>
-          <SocialProfiles />
-        </div>
-        <SubstackEmbed title="Subscribe" substack />
-        <div>
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">Blog</h2>
-          <ul>
-            {
-              posts.map((post) => (
-                <li class="mb-24 md:mb-2">
-                  <a href={`/${post.slug}`}>
-                    {post.data.coverimage ? (
-                      <Image
-                        width={720}
-                        height={360}
-                        src={post.data.coverimage}
-                        alt=""
-                        style={{ objectFit: "cover", height: "360px" }}
-                      />
-                    ) : (
-                    <div style={`background: ${randomGradient()};`} class="gradient-bg"></div>
-                    )}
-                    <h4 class="title mt-4 line-clamp-3">
-                      {post.data.blogtitle}
-                    </h4>
-                    <p class="date">
-                      <FormattedDate date={post.data.date} />
-                    </p>
-                    <p class="description text-gray-500 mt-2 mb-4 text-base leading-relaxed">
-                      {post.data.description}
-                    </p>
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
-        </div>
-      </section>
+    <main class="flex-grow">
+      <div class="max-w-5xl mx-auto sm:px-6 lg:px-8">
+        <section class="space-y-8">
+          <AboutSection aboutDescription={"test"} />
+          <div>
+            <h2 class="text-3xl sm:text-5xl font-bold">Social Media</h2>
+            <SocialProfiles />
+          </div>
+          <SubstackEmbed title="Subscribe" substack />
+          <div>
+            <h2 class="text-4xl sm:text-5xl font-bold mb-4">Blog</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+              {
+                posts.map((post, index) => (
+                  <li class={`${index === 0 ? 'sm:col-span-2 lg:col-span-3 text-center' : ''} mb-2 sm:mb-2`}>
+                    <a href={`/${post.slug}`} class="block p-4 rounded-lg transition duration-200 ease-in-out hover:bg-gray-100">
+                      {post.data.coverimage ? (
+                        <Image
+                          width={720}
+                          height={360}
+                          src={post.data.coverimage}
+                          alt=""
+                          class="object-cover h-[260px] mb-2 w-full rounded-lg shadow-md transition duration-200 ease-in-out hover:shadow-lg"
+                        />
+                      ) : (
+                        <div style={`background: ${randomGradient()};`} class="h-[260px] rounded-lg mb-2"></div>
+                      )}
+                      <h4 class={`${index === 0 ? 'text-xl sm:text-3xl' : 'text-lg sm:text-lg'} font-bold mt-4 line-clamp-3 transition duration-200 ease-in-out hover:text-accent`}>
+                        {post.data.blogtitle}
+                      </h4>
+                      <p class="text-gray-500 text-sm">
+                        <FormattedDate date={post.data.date} />
+                      </p>
+                      <p class="text-gray-600 mt-2 mb-4 text-base leading-relaxed">
+                        {post.data.description}
+                      </p>
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
     <Footer />
   </body>

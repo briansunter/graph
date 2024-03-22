@@ -5,21 +5,25 @@ import { Image } from 'astro:assets';
 ---
 <div class="items-center">
   <div class="sm:block">
-    <div class="flex flex-col flex-grow ml-4 sm:ml-8 md:ml-12 lg:ml-16 justify-center">
-      <div class="flex flex-row mb-4">
-    <Image src={avatar} alt="Profile Image" class="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full mr-4" />
-      <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-500 mb-2 justify-center">{aboutMeData.aboutHeader}</h2>
-  </div>
-  <AboutMe />
-    </div>
-  </div>
-      <div class="hidden md:block">
-      <div class="flex flex-col flex-grow ml-4 sm:ml-8 md:ml-12 lg:ml-16 justify-center">
-        <div class="flex flex-row mb-4">
-      <Image src={avatar} alt="Profile Image" class="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full mr-4" />
-      <div>
-        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-500 mb-2 justify-center">{aboutMeData.aboutHeader}</h2>
-        <AboutMe />
+    <div class="flex flex-col flex-grow justify-center">
+      <div class="flex flex-row mb-4 align-center justify-center">
+        <div class="flex items-center">
+          <Image src={avatar} alt="Profile Image" class="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full mr-4" />
+          <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-500 mb-2">{aboutMeData.aboutHeader}</h2>
         </div>
+      </div>
+      <AboutMe />
     </div>
+  </div>
+  <div class="hidden md:block">
+    <div class="flex flex-col flex-grow justify-center">
+      <div class="flex flex-row mb-4">
+        <div class="flex items-center">
+          <Image src={avatar} alt="Profile Image" class="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full mr-4" />
+          <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-500 mb-2">{aboutMeData.aboutHeader}</h2>
+        </div>
+      </div>
+      <AboutMe />
+    </div>
+  </div>
 </div>
