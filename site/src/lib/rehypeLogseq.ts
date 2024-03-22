@@ -1,19 +1,21 @@
 // @ts-nocheck 
 import { visit } from 'unist-util-visit';
-import type { Element, Node, Text, ElementContent } from 'hast';
+import type { Element, Node, Text } from 'hast';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 
-export function rehypeYoutubeEmbed(): (tree: Element) => void {
-    return function transformer(tree: Element): void {
-        tree.children = tree.children.map((node: ElementContent) => {
+import type { Root } from 'hast';
+
+export function rehypeYoutubeEmbed(): (tree: Root) => void {
+    return function transformer(tree: Root): void {
+        tree.children = tree.children.map((node: any) => {
             if (node.type === 'element' && node.tagName === 'p') {
                 return {
                     ...node,
-                    children: node.children.map((child: Node) => {
+                    children: node.children.map((child: any) => {
                         if (child.type === 'text') {
-                            const textNode = child as Text;
+                            const textNode = child;
                             const youtubeMatch = textNode.value.match(/\{\{\s*<\s*youtube\s+([\w-]+)\s*>\s*\}\}/);
 
                             if (youtubeMatch) {
@@ -24,7 +26,7 @@ export function rehypeYoutubeEmbed(): (tree: Element) => void {
                                 };
                             }
                         }
-                        return child as ElementContent;
+                        return child;
                     })
                 };
             }

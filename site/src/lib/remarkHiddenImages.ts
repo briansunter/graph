@@ -1,17 +1,14 @@
-import type { Element } from 'hast';
-import {visit } from 'unist-util-visit';
-
-interface ImageElement extends Element {
-  alt?: string;
-}
+import type { Root, Image } from 'mdast';
+import { visit } from 'unist-util-visit';
 
 export function remarkRemoveHiddenImages() {
-    return (tree: Element) => {
-      visit(tree, 'image', (node: ImageElement, index: number, parent: Element) => {
+    return (tree: Root) => {
+      visit(tree, 'image', (node: Image, index?: number, parent?: any) => {
           const regex = /\|\s*hidden/;
-          if (node.alt && regex.test(node.alt)) {
+          if (node.alt && regex.test(node.alt) && index !== undefined && parent) {
             parent.children.splice(index, 1);
           }
       });
+      return tree;
     };
 }

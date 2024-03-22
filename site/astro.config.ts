@@ -32,7 +32,7 @@ export default defineConfig({
     gfm: false,
     remarkPlugins: [
       [remarkWikiLinkPlugin, {
-        hrefTemplate: (permalink) => `/${permalink.replace(/_/g, "-").toLowerCase()}`
+        hrefTemplate: (permalink:string) => `/${permalink.replace(/_/g, "-").toLowerCase()}`
       }],
       renameImagesRemark,
       remarkRemoveHiddenImages,
