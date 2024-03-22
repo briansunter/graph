@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
@@ -8,58 +9,21 @@ import { Image } from "astro:assets";
 import "../styles/katex.min.css";
 
 type Props = CollectionEntry<"logseq">["data"];
+
 const { coverimage, date, description, blogtitle } = Astro.props;
 ---
 
 <html lang="en">
   <head>
     <BaseHead title={blogtitle} description={description} />
-    <style>
-      main {
-        overflow-x: hidden;
-        max-width: 100%;
-        margin: 0 auto;
-      }
-      .hero-image {
-        width: 100%;
-      }
-      .hero-image img {
-        display: block;
-        margin: 0 auto;
-        border-radius: 12px;
-        box-shadow: var(--box-shadow);
-      }
-      .prose {
-        /* width: 800px; */
-        margin: auto;
-        padding: 1em;
-        color: rgb(var(--gray-dark));
-      }
-      .title {
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
-      }
-      .title h1 {
-        font-weight: bold;
-      }
-      .date {
-        margin-bottom: 0.5em;
-        color: rgb(var(--gray));
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
   </head>
-
   <body>
     <Header />
-    <main>
+    <main class="overflow-x-hidden max-w-full mx-auto">
       <article>
-        <div class="hero-image flex flex-col justify-center items-center">
-          <div class="title">
-            <h1>{blogtitle}</h1>
+        <div class="flex flex-col justify-center items-center">
+          <div class="py-4 text-center">
+            <h1 class="font-bold">{blogtitle}</h1>
             <p class="text-gray-500 mb-4 text-base leading-relaxed">
               {description}
             </p>
@@ -67,13 +31,17 @@ const { coverimage, date, description, blogtitle } = Astro.props;
               <FormattedDate date={date} />
             </div>
           </div>
-          {
-            coverimage && (
-              <Image width={1020} height={510} src={coverimage} alt="" />
-            )
-          }
+          {coverimage && (
+            <Image
+              width={1020}
+              height={510}
+              src={coverimage}
+              alt=""
+              class="block mx-auto rounded-lg shadow-lg"
+            />
+          )}
         </div>
-        <div class="w:full mx-auto mt-8">
+        <div class="w-full mx-auto mt-8 prose text-gray-800 p-4">
           <slot />
         </div>
       </article>

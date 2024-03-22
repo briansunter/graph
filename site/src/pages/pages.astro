@@ -36,59 +36,13 @@ type PostsObject = {
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      .placeholder {
-        width: 720px;
-        height: 360px;
-        filter: blur(20px);
-      }
-    </style>
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      ul li {
-        display: flex;
-        flex-direction: row;
-        align-items: start;
-        margin-bottom: 1rem;
-      }
-      ul li img {
-        margin-right: 0.5rem;
-        border-radius: 12px;
-        width: 50px;
-        height: 50px;
-      }
-
-      .title {
-        margin: 0;
-        color: rgb(var(--black));
-        line-height: 1;
-        font-size: 1rem;
-      }
-      .date {
-        margin: 0;
-        color: rgb(var(--gray));
-        font-size: 0.8rem;
-      }
-      .description {
-        display: none;
-      }
-      .gradient-bg {
-        width: 50px;
-        height: 50px;
-        border-radius: 12px;
-      }
-    </style>
   </head>
   <body>
     <Header />
-    <main class="w-full max-w-[1000px]">
-      <section class="space-y-8">
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section class="space-y-12">
         <div>
-          <h2 class="text-4xl md:text-5xl font-bold mb-4">All Pages</h2>
+          <h2 class="text-4xl font-bold mb-8">All Pages</h2>
           {
             Object.entries(posts.reduce((acc: PostsObject, post) => {
               const monthYear = format(new Date(post.data.date), 'MMMM yyyy');
@@ -98,32 +52,32 @@ type PostsObject = {
               acc[monthYear].push(post);
               return acc;
             }, {})).map(([monthYear, posts]) => (
-              <>
-                <h3>{monthYear}</h3>
-                <ul>
+              <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-4">{monthYear}</h3>
+                <ul class="space-y-4">
                   {
                     posts.map((post) => (
                       <li>
-                        <a class="flex items-center" href={`/${post.slug}`}>
+                        <a class="flex items-center p-3 rounded-lg transition-all duration-200 hover:bg-gray-100" href={`/${post.slug}`}>
                           {post.data.coverimage ? (
                             <Image
-                              width={100}
-                              height={100}
+                              width={80}
+                              height={80}
                               src={post.data.coverimage}
                               alt=""
-                              style={{ objectFit: "cover" }}
+                              class="flex-shrink-0 w-20 h-20 rounded-lg object-cover mr-4"
                             />
                           ) : (
-                          <div style={`background: ${randomGradient()};`} class="gradient-bg w-24 h-24"></div>
+                            <div style={`background: ${randomGradient()};`} class="flex-shrink-0 w-20 h-20 rounded-lg mr-4"></div>
                           )}
-                          <div class="ml-2">
-                            <h4 class="title mt-4 line-clamp-3">
+                          <div>
+                            <h4 class="text-lg font-medium mb-1">
                               {post.data.blogtitle || post.data.title}
                             </h4>
-                            <p class="date">
+                            <p class="text-sm text-gray-500 mb-2">
                               <FormattedDate date={post.data.date} />
                             </p>
-                            <p class="text-sm text-gray-500 mt-2 mb-4">
+                            <p class="text-sm text-gray-600 line-clamp-2">
                               {post.data.description}
                             </p>
                           </div>
@@ -132,7 +86,7 @@ type PostsObject = {
                     ))
                   }
                 </ul>
-              </>
+              </div>
             ))
           }
         </div>
