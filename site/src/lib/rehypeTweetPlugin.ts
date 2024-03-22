@@ -61,7 +61,7 @@ function createTweetHtml(tweet:any) {
   const createdAt = new Date(tweet.created_at).toLocaleString();
 
   return `
-  <div style="position: relative;padding: 10px; display: flex; justify-content: center; align-items: center;max-width: 600px; margin-right:auto; margin-left:auto">
+  <div class="not-prose" style="position: relative;padding: 10px; display: flex; justify-content: center; align-items: center;max-width: 600px; margin-right:auto; margin-left:auto">
   <a href="https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}" target="_blank" style="text-decoration: none; color: inherit;padding:.5rem; width:100%">
       <div style="background-color: white; padding: 20px; border-radius: 15px; border: 1px solid #ddd; ">
       

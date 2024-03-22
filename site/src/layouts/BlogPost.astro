@@ -23,8 +23,8 @@ const { coverimage, date, description, blogtitle } = Astro.props;
       <article>
         <div class="flex flex-col justify-center items-center">
           <div class="py-4 text-center">
-            <h1 class="font-bold">{blogtitle}</h1>
-            <p class="text-gray-500 mb-4 text-base leading-relaxed">
+            <h1 class="font-bold text-3xl md:text-5xl leading-tight">{blogtitle}</h1>
+            <p class="text-gray-500 my-4 text-base leading-relaxed">
               {description}
             </p>
             <div class="flex justify-center mt-2 text-gray-500">
@@ -41,7 +41,7 @@ const { coverimage, date, description, blogtitle } = Astro.props;
             />
           )}
         </div>
-        <div class="w-full mx-auto mt-8 prose text-gray-800 ">
+        <div class="w-full mx-auto mt-8 text-gray-800 ">
           <slot />
         </div>
       </article>

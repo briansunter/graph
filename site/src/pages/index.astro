@@ -65,13 +65,13 @@ const posts = blogs.filter(
                       ) : (
                         <div style={`background: ${randomGradient()};`} class="h-[260px] rounded-lg mb-2"></div>
                       )}
-                      <h4 class={`${index === 0 ? 'text-xl sm:text-3xl' : 'text-lg sm:text-lg'} font-bold mt-4 line-clamp-3 transition duration-200 ease-in-out hover:text-accent`}>
+                      <h4 class={`${index === 0 ? 'text-xl sm:text-3xl' : 'text-lg sm:text-lg'} font-bold mt-4 line-clamp-3 text-gray-900 leading-tight`}>
                         {post.data.blogtitle}
                       </h4>
-                      <p class="text-gray-500 text-sm">
+                      <p class="text-gray-500 text-xs">
                         <FormattedDate date={post.data.date} />
                       </p>
-                      <p class="text-gray-600 mt-2 mb-4 text-base leading-relaxed">
+                      <p class="text-gray-600 mt-2 mb-4 text-sm leading-relaxed">
                         {post.data.description}
                       </p>
                     </a>
