@@ -74,7 +74,7 @@ The experiment features two datasets: [Wikipedia's 1000 "Level 3 Vital Articles"
 
 These lists are articles that Wikipedia thinks are most essential. Wikipedia editors manually organize them into history, people, geography, and science categories.
 
-![wiki1k.png](/assets/wiki1k_1695962173772_0.png)
+![Wikipedia essential articles](/assets/wiki1k_1695962173772_0.png)
 
 The demo has examples for the 1k and 10k sets of articles. Selecting the 10K option needs a reasonably powerful computer.
 

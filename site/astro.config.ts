@@ -16,6 +16,7 @@ import { remarkRemoveHiddenImages } from "./src/lib/remarkHiddenImages";
 import remarkMermaid from "remark-mermaidjs";
 import remarkWikiLinkPlugin from 'remark-wiki-link';
 import icon from "astro-icon";
+import rehypeFigure from "@microflash/rehype-figure";
 
 // https://astro.build/config
 export default defineConfig({
@@ -48,6 +49,7 @@ export default defineConfig({
       rehypeYoutubeTimestampEmbed,
       rehypeRemoveLogseqBlocks,
       [rehypeKatex, { output: "html" }],
+      rehypeFigure,
     ],
   },
   redirects: {

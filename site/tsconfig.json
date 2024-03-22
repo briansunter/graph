@@ -3,6 +3,7 @@
   "compilerOptions": {
     "strictNullChecks": true
   },
+  "include": ["src"],
   "exclude": [
     "public/**/*",
     "dist/**/*",
