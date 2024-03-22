@@ -7,10 +7,11 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
 import "../styles/katex.min.css";
+import SocialShare from "../components/SocialShare.astro";
 
-type Props = CollectionEntry<"logseq">["data"];
+// type Props = CollectionEntry<"logseq">["data"];
 
-const { coverimage, date, description, blogtitle } = Astro.props;
+const { coverimage, date, description, blogtitle, slug  } = Astro.props;
 ---
 
 <html lang="en">
@@ -45,6 +46,8 @@ const { coverimage, date, description, blogtitle } = Astro.props;
           <slot />
         </div>
       </article>
+      <SocialShare 
+      slug={slug}/>
     </main>
     <Footer />
   </body>

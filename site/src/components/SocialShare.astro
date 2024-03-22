@@ -1,0 +1,64 @@
+---
+// SocialShare.astro
+import { getCollection } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+
+const { slug } = Astro.params;
+const articles = await getCollection('logseq');
+let article = articles.find((article) => article.slug === slug);
+
+if (!article) {
+  throw new Error(`Article not found: ${slug}`);
+}
+
+const { blogtitle, description, coverimage } = article.data;
+const articleUrl = `https://briansunter.com/${slug}`;
+
+const socialShareLinks = [
+  {
+    platform: "logos:twitter",
+    link: `https://twitter.com/intent/tweet?url=${articleUrl}&text=${encodeURIComponent(blogtitle)}`,
+  },
+  {
+    platform: "logos:ycombinator",
+    link: `https://news.ycombinator.com/submitlink?u=${articleUrl}&t=${encodeURIComponent(blogtitle)}`,
+  },
+  {
+    platform: "logos:facebook",
+    link: `https://www.facebook.com/sharer/sharer.php?u=${articleUrl}`,
+  },
+  {
+    platform: "logos:linkedin-icon",
+    link: `https://www.linkedin.com/shareArticle?url=${articleUrl}&title=${encodeURIComponent(blogtitle)}`,
+  },
+  {
+    platform: "logos:reddit-icon",
+    link: `https://www.reddit.com/submit?url=${articleUrl}&title=${encodeURIComponent(blogtitle)}`,
+  },
+
+  {
+    platform: "logos:whatsapp-icon",
+    link: `https://api.whatsapp.com/send?text=${encodeURIComponent(blogtitle + ' ' + articleUrl)}`,
+  },
+  {
+    platform: "logos:telegram",
+    link: `https://telegram.me/share/url?url=${articleUrl}&text=${encodeURIComponent(blogtitle)}`,
+  },
+];
+---
+
+<div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+  <h3 class="text-xl font-semibold mb-4 text-center">Share this post</h3>
+  <div class="flex justify-center space-x-4">
+    {socialShareLinks.map(({ platform, link }) => (
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-center w-12 h-12 bg-gray-200 rounded-full transition-all duration-300 hover:bg-gray-300 hover:scale-110"
+      >
+        <Icon name={platform} class="w-6 h-6 text-gray-800" />
+      </a>
+    ))}
+  </div>
+</div>

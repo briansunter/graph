@@ -15,6 +15,8 @@ import {
 import { remarkRemoveHiddenImages } from "./src/lib/remarkHiddenImages";
 import remarkMermaid from "remark-mermaidjs";
 import remarkWikiLinkPlugin from 'remark-wiki-link';
+import icon from "astro-icon";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://briansunter.com",
@@ -24,7 +26,7 @@ export default defineConfig({
   // experimental: {
   //   contentCollectionCache: true,
   // },
-  integrations: [mdx(), sitemap(), tailwind()],
+  integrations: [mdx(), sitemap(), tailwind(),icon()],
   prefetch:{
     prefetchAll: true,
   },
