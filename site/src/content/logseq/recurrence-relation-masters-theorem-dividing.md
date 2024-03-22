@@ -8,15 +8,14 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Dividing Functions
 description: Discusses the recurrence relation for dividing functions, which decrease the number of subproblems by dividing
 coverimage: ../../assets/recurrence-dividing_1673047600738_0.jpeg
 ---
 
-![recurrence-dividing.jpeg](/assets/recurrence-dividing_1673047600738_0.jpeg)
+![ ](/assets/recurrence-dividing_1673047600738_0.jpeg)
 
-# Dividing Recurrence Relation 1
+## Dividing Recurrence Relation 1
 
 
 {{< youtube 8gt0D0IqU5w >}}
@@ -34,12 +33,12 @@ When a function takes a parameter n, it can make it smaller by either subtractin
 
 Amount of work is $T(n)=T(n/2) + 1$
 
-## Recurrence Relation Dividing
+### Recurrence Relation Dividing
 
 
 $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
-## Tree Method
+### Tree Method
 
 
 ![2022-12-09-14-05-14](/assets/2022-12-09-14-05-14.svg)
@@ -56,7 +55,7 @@ Since there's one unit of work per level, the number of levels is the total unit
 
 $O(log(n))$
 
-## Substitution Method
+### Substitution Method
 
 
 Original Equation $T(n)=T(n/2)+1$
@@ -85,20 +84,20 @@ $T(n) = 1 + log(n)$
 
 Answer $O(log(n)$
 
-# Dividing Recurrence Relation 2
+## Dividing Recurrence Relation 2
 
 
 {{< youtube XcZw01FuH18 >}}
 
-## Recurrence Relation
+### Recurrence Relation
 
 
 $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
-## Tree Method
+### Tree Method
 
 
-![Screenshot 2022-12-11 at 11.52.59 PM.png](/assets/Screenshot_2022-12-11_at_11.52.59_PM_1670838851213_0.png)
+![ ](/assets/Screenshot_2022-12-11_at_11.52.59_PM_1670838851213_0.png)
 
 Each level does $\frac{n}{2^k}$ amount of work
 
@@ -110,7 +109,7 @@ This simplifies to n * 1
 
 so answer is $O(n)$
 
-## Substitution Method
+### Substitution Method
 
 
 $T(n)=T(n/2)+n$
@@ -137,7 +136,7 @@ $T(n) = 1 + 2n$
 
 Answer $O(n)$
 
-# Dividing Recurrence Relation 3
+## Dividing Recurrence Relation 3
 
 
 ``` js
@@ -156,7 +155,7 @@ The recurrence relation is $T(n)=2T(n/2) + n$
 
 $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ 2T(n/2)+n & \text{when } n > 1 \end{cases}$$
 
-## Tree Method
+### Tree Method
 
 
 ![2022-12-04-19-48-18](/assets/2022-12-04-19-48-18.svg)
@@ -181,7 +180,7 @@ $k=log(n)$
 
 So total amount of work is $n*log(n)$
 
-## Substitution Method
+### Substitution Method
 
 
 $T(n)=2T(n/2)+n$
@@ -204,65 +203,65 @@ $\frac{n}{2^k}=1$
 
 $k=log(n)$
 
-# Master's Theorem for Dividing 1
+## Master's Theorem for Dividing 1
 
 
 {{< youtube OynWkEj0S-s >}}
 
 $T(n)=a * T(\frac{n}{b}) + f(n)$
-id:: 63b7b2ee-3228-41c9-a931-891900cb009e
+
 
 Assume $a>=1$ and $b>1$
 
 $f(n)=O(n^k*log(n)^p)$
 
-## Case 1
+### Case 1
 
 
 if $log_b(a) > k$ then $O(n^{log_b(a)})$
 
-## Case 2
+### Case 2
 
 
 if $log_b(a) = k$
 
-### Case 2.1
+#### Case 2.1
 
 
 if $p>-1$ then $O(n^k*log(n)^{p+1})$
 
-### Case 2.2
+#### Case 2.2
 
 
 if $p = -1$ then $O(n^k*log(log(n))$
 
-### Case 2.3
+#### Case 2.3
 
 
 if $p <-1$ then $O(n^k)$
 
-## Case 3
+### Case 3
 
 
 if $log_b(a) > k$
 
-### Case 3.1
+#### Case 3.1
 
 
 if $p>=0$ then $O(n^k*log(n)^p)$
 
-### Case 3.2
+#### Case 3.2
 
 
 if $p <0$ then $O(n^k)$
 
-## Examples
+### Examples
 
 
-### Case 1
+#### Case 1
 
 
-### Example 1
+#### Example 1
 
 
 $T(n) = 2T(n/2)+1$
@@ -281,7 +280,7 @@ $log_2(2)=1$ which is bigger than $k$ so it is case 1
 
 $O(n^1)$
 
-### Example 2
+#### Example 2
 
 
 $T(n)=4T(n/2)+n$
@@ -292,7 +291,7 @@ $log_2(4) = 2$ which is bigger than k (1) so case 1
 
 $O(n^2)$
 
-### Example 3
+#### Example 3
 
 
 $T(n)=8T(n/2)+n$
@@ -301,7 +300,7 @@ $log_2(8)=3$ > $k=1$
 
 Also case 1, so $O(n^3)$
 
-### Example 4
+#### Example 4
 
 
 $T(n)=8T(n/2)+n^2$
@@ -310,7 +309,7 @@ $log_2(8)=3$ > $k=2$
 
 Still case 1, so $O(n^3)$
 
-### Example 5
+#### Example 5
 
 
 $T(n)=9T(n/3)+1$
@@ -319,10 +318,10 @@ $log_3(9)=2$ > $k=0$
 
 case 1, so $O(n^2)$
 
-### Case 2
+#### Case 2
 
 
-### Example 1
+#### Example 1
 
 
 $T(n)=2T(n/2)+n$
@@ -337,7 +336,7 @@ so $p=0$
 
 $O(n*log(n))$
 
-### Example 2
+#### Example 2
 
 
 $T(n)=4T(n/2)+n^2$
@@ -350,7 +349,7 @@ so $p=0$
 
 $O(n^2*log(n))$
 
-### Example 3
+#### Example 3
 
 
 $T(n)=4T(n/2)+n^2*log(n)$
@@ -363,7 +362,7 @@ so $p=1$
 
 $O(n^2*log(n)^2)$
 
-### Example 4
+#### Example 4
 
 
 $T(n)=8T(n/2)+n^3$
@@ -376,7 +375,7 @@ so $p=0$
 
 $O(n^3*log(n))$
 
-### Example 5
+#### Example 5
 
 
 $T(n)=2T(n/2)+\frac{n}{log(n)}$
@@ -393,7 +392,7 @@ So case 2.2
 
 $O(n*log(log(n))$
 
-### Example 6
+#### Example 6
 
 
 $T(n)=2T(n/2)+\frac{n}{log(n)^2}$
@@ -410,10 +409,10 @@ So case 2.3
 
 $O(n^1)$ or $O(n)$
 
-### Case 3
+#### Case 3
 
 
-### Example 1
+#### Example 1
 
 
 $T(n)=T(n/2) + n^2$
@@ -424,7 +423,7 @@ So case 3.1
 
 So $O(n^2)$
 
-### Example 2
+#### Example 2
 
 
 $T(n)=T(n/2) + n^2*log(n)$
@@ -435,7 +434,7 @@ So case 3.1, take the entire $f(n)$
 
 So $O(n^2*log(n))$
 
-### Example 3
+#### Example 3
 
 
 If log is in denominator, then case 3.2
@@ -448,12 +447,12 @@ So case 3.2, so just take $n^3$
 
 So $O(n^3)$
 
-# Master's Theorem for Dividing 2
+## Master's Theorem for Dividing 2
 
 
 {{< youtube kGcO-nAm9Vc >}}
 
-## Case 1 Examples
+### Case 1 Examples
 
 
 $T(n)=2T(n/2)+1$ -> $O(n^1)$
@@ -466,7 +465,7 @@ $T(n)=8T(n/2) + n^2$ -> $O(n^3)$
 
 $T(n)=16T(n/2)+n^2$ -> $O(n^4)$
 
-## Case 2
+### Case 2
 
 
 $T(n)=T(n/2) + 1$ -> $O(log(n)$
@@ -483,7 +482,7 @@ $T(n) = 2T(n/2) + \frac{n}{log(n)}$ -> $O(n*log(log(n))$
 
 $T(n) = 2T(n/2) + \frac{n}{log(n)^2}$ -> $O(n)$
 
-## Case 3
+### Case 3
 
 
 $T(n)=T(n/2)+n^1$ -> $O(n)$
@@ -496,7 +495,7 @@ $T(n)=4T(n/2) + n^3*log(n)^2$ -> $O(n^3*log(n)^2)$
 
 $T(n)=2T(n/2)+ \frac{n^2}{log(n)}$ -> $O(n^2)$
 
-# Root Function (Recurrence Relation)
+## Root Function (Recurrence Relation)
 
 
 {{< youtube 9rVuyjxzwgM >}}

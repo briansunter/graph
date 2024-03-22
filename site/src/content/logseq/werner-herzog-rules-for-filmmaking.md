@@ -4,11 +4,10 @@ slug: werner-herzog-rules-for-filmmaking
 tags:
   - writing
 date: 2022-10-04
-lastMod: 2024-03-18
 coverimage: ../../assets/herzog_1672134562808_0.jpeg
 ---
 
-![herzog.jpeg](/assets/herzog_1672134562808_0.jpeg)
+![ ](/assets/herzog_1672134562808_0.jpeg)
 
 Werner Herzog is a German filmmaker who has produced, written, and directed more than sixty feature and documentary films. I appreciate his unconventional creativity and the sound of his voice.
 
@@ -18,7 +17,7 @@ I'm excited to watch his new movie, "Theatre of Thought," about brain-computer i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9P0nHSKwWMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Werner Herzog's Rogue Film School
+### Werner Herzog's Rogue Film School
 
 
 Herzog teaches his unconventional approach to filmmaking in his workshop called [Rogue Film School](http://www.roguefilmschool.com/default.asp)
@@ -35,7 +34,7 @@ Here's the intro to the school, which does a good job of illustrating his philos
 
 From the [about page](http://www.roguefilmschool.com/about.asp)
 
-### Rogue film school required reading list
+#### Rogue film school required reading list
 
 
 Virgil’s “Georgics”,
@@ -50,7 +49,7 @@ The Warren Commission Report
 
 “True History of the Conquest of New Spain” by Bernal Diaz del Castillo
 
-## Werner Herzog's Advice for filmmaking
+### Werner Herzog's Advice for filmmaking
 
 
 This is his advice for filmmaking, from the book [Werner Herzog – A Guide for the Perplexed](https://www.amazon.com/dp/B00KEW6ACQ?tag=mus0a-21)

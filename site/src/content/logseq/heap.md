@@ -8,20 +8,19 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Heap, Heap Sort, Heapify, and Priority Queues
 description: Describes the Heap data structure, the operations it supports, and its time complexity.
 coverimage: ../../assets/heap_1673042424667_0.jpg
 ---
 
-![heap.jpg](/assets/heap_1673042424667_0.jpg)
+![ ](/assets/heap_1673042424667_0.jpg)
 
-# Heap - Heap Sort - Heapify - Priority Queues
+## Heap - Heap Sort - Heapify - Priority Queues
 
 
 {{< youtube HqPJF2L5h9U >}}
 
-## Array Representation of Binary Tree
+### Array Representation of Binary Tree
 
 
 `[a,b,c,d,e,f,g]`
@@ -40,12 +39,12 @@ c-->g
 
 When storing a binary tree we need store the elements as well as the relationship between the element
 
-## Binary Tree Representation Formula
+### Binary Tree Representation Formula
 
 
-#+BEGIN_NOTE
+##+BEGIN_NOTE
 He uses an array index starting at 1, but I converted it to an array with a 0 index
-#+END_NOTE
+##+END_NOTE
 
 if a node is at index `i`
 
@@ -55,7 +54,7 @@ The right child is at index `2*i+2`
 
 The parent is at `Math.floor((i-1)/2)`
 
-## Examples
+### Examples
 
 
 {{youtube-timestamp 245}} what is the left child of `b` which is at index 1?
@@ -72,7 +71,7 @@ The parent child index is `Math.floor((5-1)/2)` = 2, and the element at index 2 
 
 You can also think about filling them level by level
 
-### Missing nodes at the end
+#### Missing nodes at the end
 
 
 ```mermaid
@@ -87,7 +86,7 @@ b-->e
 
 leave out the missing elements at the end.
 
-### Gaps
+#### Gaps
 
 
 {{youtube-timestamp 358}} Imagine filling it level by level, but leave a gap
@@ -104,10 +103,10 @@ c-->g
 
 children of b are missing, so leave a gap
 
-## Complete Binary Tree
+### Complete Binary Tree
 
 
-### Full Binary Tree
+#### Full Binary Tree
 
 
 ```mermaid
@@ -124,12 +123,12 @@ c-->g
 
 {{youtube-timestamp 497}} The number of nodes in a full binary tree with height $h$ is $2^{h+1}-1$
 
-### Complete Binary Tree
+#### Complete Binary Tree
 
 
 {{youtube-timestamp 512}} When represented as an array, a complete binary tree doesn't have any gaps
 
-#### Complete Binary Tree Example
+##### Complete Binary Tree Example
 
 
 ```mermaid
@@ -144,7 +143,7 @@ c-->g
 
 Its array representation is `[a,b,c,d,e,f,g]` and it has no gaps, so it's a complete binary tree
 
-#### Non complete binary tree
+##### Non complete binary tree
 
 
 ```mermaid
@@ -159,7 +158,7 @@ c-->g
 
 Every full binary tree is also a complete binary tree
 
-## Heap
+### Heap
 
 
 {{youtube-timestamp 876}}  A heap is a complete binary tree
@@ -168,7 +167,7 @@ Max heap is a complete binary tree where every node is greater than or equal tha
 
 Min heap is a complete binary tree where every node is smaller than it's descendants. The smallest node is the root.
 
-## Insert
+### Insert
 
 
 {{youtube-timestamp 998}} We want to insert an element into a max heap
@@ -225,7 +224,7 @@ We add new element as leaf, then adjusts it's ancestors upward
 
 {{youtube-timestamp 1244}} How much time does it take? The maximum number of swaps, which is the height of a complete binary tree, which is $O(log(n))$
 
-## Delete
+### Delete
 
 
 {{youtube-timestamp 1345}} You should only delete root element
@@ -290,7 +289,7 @@ style 16 fill:#f9f
 style A display:none
 ```
 
-## Heap Sort
+### Heap Sort
 
 
 {{youtube-timestamp 1696}} If you keep deleting, the next largest element goes to the top in max heap. In min heap the next smallest comes to the top
@@ -319,17 +318,17 @@ But we preserve 30 at the end of the heap
 
 We can see that we're sorting the array by deleting the largest element, and filling it in at the free space at the end of the new array
 
-### How to do heap sort
+#### How to do heap sort
 
 
 {{youtube-timestamp 1876}} Heap sort has two steps, create a heap from an array by inserting the elements one by one
 
 Then delete the elements one by one
 
-### Heap Sort Example
+#### Heap Sort Example
 
 
-### Create Heap
+#### Create Heap
 
 
 {{youtube-timestamp 1913}} These are the unsorted set of elements `[10,20,15,30,40]`
@@ -458,7 +457,7 @@ We inserted n elements, each element was moved up the height of the binary tree
 
 So we have $n$ elements moved up by height $log(n)$ so time complexity to build heap is $n*log(n)$
 
-### Delete all elements
+#### Delete all elements
 
 
 ```mermaid
@@ -584,7 +583,7 @@ Our heap is `[10]` and our reserved elements at the end are `[15,20,30,40]`
 
 So together  the array is sorted `10,15,20,30,40`
 
-## Heapify
+### Heapify
 
 
 {{youtube-timestamp 2538}} Heapify is a procedure for creating a heap from a binary tree
@@ -669,7 +668,7 @@ style 20 fill:#f9f
 
 {{youtube-timestamp 2792}} The earlier procedure for creating a heap was $O(n*log(n))$, which is slower than heapify
 
-## Priority Queue
+### Priority Queue
 
 
 {{youtube-timestamp 2829}} Elements have priority, and inserted and deleted based on element

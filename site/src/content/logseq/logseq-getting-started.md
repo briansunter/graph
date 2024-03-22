@@ -8,7 +8,6 @@ tags:
   - blog
 categories: productivity
 date: 2022-10-04
-lastMod: 2024-03-18
 blogtitle: Logseq Getting Started
 description: How to get started with Logseq and publish your notes online in 30 minutes.
 coverimage: ../../assets/image_1662087082755_0.png
@@ -36,7 +35,7 @@ If you are unsure, I recommend starting with Netlify. Logseq generates a site th
 
 I recommend getting something basic up online right away, then researching other options  on.
 
-# Download Logseq
+## Download Logseq
 
 
 Logseq is still in "beta" so you need to [download it here from the github releases page](https://github.com/logseq/logseq/releases)
@@ -45,20 +44,20 @@ Find the release tagged with "Latest" (not "Pre-release")
 
 select darwin-arm for m1 mac, darwin-x64 for intel mac, or windows
 
-![image.png](/assets/image_1662087068660_0.png)
+![ ](/assets/image_1662087068660_0.png)
 
-# Set up Logseq
+## Set up Logseq
 
 
 After downloading and installing logseq you will see this page
 
-![image.png](/assets/image_1662087082755_0.png)
+![ ](/assets/image_1662087082755_0.png)
 
 Make a folder called `Logseq` in iCloud Drive, then make a folder for your graph inside of it named something like `notes` iCloud Drive allows notes will be available in the mobile app
 
-![image.png](/assets/image_1662087093541_0.png)
+![ ](/assets/image_1662087093541_0.png)
 
-# Start writing in daily notes
+## Start writing in daily notes
 
 
  you will see an empty page with todays date. This is called your "daily notes". It's usually my starting place for ideas. I just type some thoughts and start creating `[[backlinks]]` for important concepts, so I can find my notes  on when  research or writing.
@@ -67,7 +66,7 @@ Take a little bit of time to experiment writing, making backlinks, clicking the 
 
 {{< tweet user="Conaw" id="1315078546763603968" >}}
 
-# Make your public homepage
+## Make your public homepage
 
 
  let's create a home for you on the internet.
@@ -78,7 +77,7 @@ Type some text here about you and your interests.
 
  make it public by clicking the three dots in the upper right hand corner and selecting "Make it public for publishing"
 
-![image.png](/assets/image_1662087105153_0.png)
+![ ](/assets/image_1662087105153_0.png)
 
 Only the pages you select to make public will be published.
 
@@ -86,10 +85,10 @@ This way ou can have most of your graph private, with just a few pages public.
 
 Every time you want a page to be public, select this option on the page so it will appear on your site.
 
-# Export your public graph
+## Export your public graph
 
 
-## Set your homepage
+### Set your homepage
 
 
 Logseq has a notion of a "home page"
@@ -104,25 +103,25 @@ Click the three dots in the upper right hand corner, then select settings.
 
 Select edit config.edn
 
-![image.png](/assets/image_1662087114284_0.png)
+![ ](/assets/image_1662087114284_0.png)
 
  we'll add a line to the config file with the page we want to be our homepage
 
-![image.png](/assets/image_1662087124359_0.png)
+![ ](/assets/image_1662087124359_0.png)
 
 This is a little inconvenient to do each time you publish, but besides this the experience is pretty good. I expect some of these publishing features will be built out more in the future.
 
 When you are ready to publish your select, select the three dots in the upper right hand corner, select "export graph" and then "export public pages"
 
-![image.png](/assets/image_1662087133034_0.png)
+![ ](/assets/image_1662087133034_0.png)
 
 Pick a folder for the output where you'll remember it
 
 Then after exporting we'll comment it out with two semicolons `;;`, so our private journal goes back to using the daily notes page as the default page.
 
-![image.png](/assets/image_1662087142333_0.png)
+![ ](/assets/image_1662087142333_0.png)
 
-# Publish your public graph online
+## Publish your public graph online
 
 
 There are tons of good options, but I recommend netlify which is good and free. You can switch to something else .
@@ -131,7 +130,7 @@ There are tons of good options, but I recommend netlify which is good and free. 
 
 After signing in, go to [netlify drop](https://app.netlify.com/drop).
 
-![image.png](/assets/image_1662087153089_0.png)
+![ ](/assets/image_1662087153089_0.png)
 
 Click the folder icon and select the folder where you exported your public graph to.
 
@@ -141,12 +140,12 @@ To update your site next time you export your public graph, click on the "Deploy
 
 Click the box at the bottom to upload a new version of your site.
 
-![image.png](/assets/image_1662087164166_0.png)
+![ ](/assets/image_1662087164166_0.png)
 
-# Next Steps
+## Next Steps
 
 
-## Set up Custom Domain
+### Set up Custom Domain
 
 
 I highly suggest setting up a custom domain like yourname.com.
@@ -155,11 +154,11 @@ You want the links you share to work forever, and if you own your own domain, yo
 
 I think it's easiest to buy it through netlify. They will set everything up so the domain points to your website and just works. It costs 11.99 a year to own your own domain. You can transfer the domain name you buy to somewhere else , or set up an existing domain name you already own if you k how.
 
-![image.png](/assets/image_1662087175738_0.png)
+![ ](/assets/image_1662087175738_0.png)
 
-![image.png](/assets/image_1662087184888_0.png)
+![ ](/assets/image_1662087184888_0.png)
 
-# Conclusion
+## Conclusion
 
 
 There are a ton of ways to host your public graph, but I think just uploading it to netlify drop is the easiest and best way for non technical users to get their site online.

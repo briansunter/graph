@@ -9,7 +9,6 @@ tags:
   - algorithms
 categories: programming
 date: 2022-10-04
-lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms Course
 description: One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 coverimage: ../../assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png
@@ -17,19 +16,19 @@ coverimage: ../../assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.pn
 
 One of the best introductory courses on algorithms. It's thorough, yet succinct and gives a broad overview of algorithms.
 
-![Screenshot 2022-12-07 at 12.29.34 PM.png](/assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png)
+![ ](/assets/Screenshot_2022-12-07_at_12.29.34_PM_1670452221345_0.png)
 
-# Video Course Link
+## Video Course Link
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IAPZzGSbME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Time Complexity
+## Time Complexity
 
 
 *Notes**: [[abdul bari algorithms/time-complexity]]
 
-## Introduction to algorithms
+### Introduction to algorithms
 
 
 What is an algorithm?
@@ -40,7 +39,7 @@ Algorithm Characteristics and analysis
 
 Frequency count method to find time taken by an algorithm
 
-## Algorithm analysis
+### Algorithm analysis
 
 
 Time Complexity
@@ -55,7 +54,7 @@ Big Omega - Ω
 
 Theta - Θ
 
-## Properties of asymptotic notation
+### Properties of asymptotic notation
 
 
 General
@@ -68,7 +67,7 @@ Symmetric
 
 Transpose Symmetric
 
-## Comparisons of functions
+### Comparisons of functions
 
 
 Best, worst, and average case analysis
@@ -77,7 +76,7 @@ Linear Search
 
 Binary Search
 
-# Recurrence Relation and Master's Theorem for Subtracting Functions
+## Recurrence Relation and Master's Theorem for Subtracting Functions
 
 
 *Notes**: [[abdul bari algorithms/recurrence-relation-masters-theorem-subtracting]]
@@ -90,12 +89,12 @@ Substitution method for finding recurrence relation
 
 Tree method for finding recurrence relation
 
-## Master's Theorem
+### Master's Theorem
 
 
 For the general form $T(n)=aT(n-b)+f(n)$
 
-# Recurrence Relation and Master's Theorem for Dividing Functions
+## Recurrence Relation and Master's Theorem for Dividing Functions
 
 
 *Notes**: [[abdul bari algorithms/recurrence-relation-masters-theorem-dividing]]
@@ -106,12 +105,12 @@ Substitution method for finding recurrence relation
 
 Tree method for finding recurrence relation
 
-## Master's Theorem
+### Master's Theorem
 
 
 For the general form $T(n)=a * T(\frac{n}{b}) + f(n)$
 
-# Binary Search
+## Binary Search
 
 
 *Notes**: [[abdul bari algorithms/binary search]]
@@ -120,7 +119,7 @@ Iterative Implementation
 
 Recursive Implementation
 
-# Heap
+## Heap
 
 
 *Notes**: [[abdul bari algorithms/heap]]
@@ -141,7 +140,7 @@ Heapify
 
 Priority Queue
 
-# Merge Sort
+## Merge Sort
 
 
 *Notes:** [[abdul bari algorithms/merge sort]]
@@ -154,6 +153,6 @@ k-way merge
 
 Iterative Merge sort
 
-# Quick Sort
+## Quick Sort
 
 

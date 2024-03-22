@@ -7,30 +7,23 @@ tags:
   - algorithms-boot-camp
 categories: newsletter, programming
 date: 2022-07-17
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 6
 description: I wrote a simple introduction to algorithms and why they're important and a short guide to my current logseq-projects template.
 coverimage: ../../assets/image_1657735112414_0_1672132400967_0.png
----newsletter-subscribers:: 219
-site-hits::
-tweet-impressions::
-sent-date:: [[Jul 17th, 2022]]
-profile-visits::
-start-date:: [[Jul 15th, 2022]]
+---
 
 
-
-# Summary and Reflection 🤔
+## Summary and Reflection 🤔
 
 
 This week I wrote the first section [[intro-to-algorithms]] from the [[algorithms-boot-camp]] which focuses on a simple introduction to what algorithms are and why they're important
 
 For some "brain food" I share some thoughts from my all time favorite tech talk and an interesting paper on AI playing Stratego.
 
-# Updates 🆕
+## Updates 🆕
 
 
-## [[intro-to-algorithms]]
+### [[intro-to-algorithms]]
 
 
 The first section in the bootcamp focuses on introducing what an algorithm is.
@@ -41,22 +34,22 @@ In computer science, an algorithm is a series of steps written in code that a co
 
 I go through some examples of algorithms, what they can do, and why they're useful.
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 In this section, I'll share a productivity tip I've learned recently.
 
-## [[logseq-projects]]
+### [[logseq-projects]]
 
 
 I manage almost everything I do with [[logseq-projects]] . I use them to group tasks across different initiatives, prioritize them, and make progress on them. See this guide for an explanation or jump straight to my logseq [[project-template]]
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
 In this section, I'll share some interesting articles and "food for thought"
 
-## Quote
+### Quote
 
 
 > Simplicity is a prerequisite for reliability.
@@ -73,14 +66,14 @@ Many programmers are obsessed with making things "easy" for themselves but we sh
 
 Tools focused on programmer convenience may do things you don't fully understand.
 
-### Simple vs Complex
+#### Simple vs Complex
 
 
 Programmers use the word simple and easy interchangeably. However, they're two different yet related concepts.
 
 Examining the root word of "simple" and "complex" sheds some light on the difference between "simple" and "easy."
 
-![image_1657735112414_0.png](/assets/image_1657735112414_0_1672132400967_0.png)
+![ ](/assets/image_1657735112414_0_1672132400967_0.png)
 
 > So the first word is simple. And the roots of this word are sim and plex, and that means one fold or one braid or twist.
 
@@ -88,7 +81,7 @@ Examining the root word of "simple" and "complex" sheds some light on the differ
 
 We can look at something and see that it’s “simple”. We can’t do the same for “easy”.
 
-### Simple vs Easy
+#### Simple vs Easy
 
 
 "Simple" is a concept we can objectively look at, whereas "easy" is much more relative to the individual.
@@ -101,12 +94,12 @@ What's easy for me may be hard for you and vice versa.
 
 > If you want everything to be familiar, you will never learn anything new because it can't be significantly different from what you already k
 
-### Focus on the output of your process
+#### Focus on the output of your process
 
 
 We focus so much on our familiarity with tools and short-term convenience. Let's focus more on the quality of the product we're shipping and the sustainability of developing it.
 
-![image_1657735246074_0.png](/assets/image_1657735246074_0_1672132643414_0.png)
+![ ](/assets/image_1657735246074_0_1672132643414_0.png)
 
 Modern tools and processes are so focused on making things fast and "easy" for those making the software, but these processes often produce "complex" results, which eventually becomes "hard" to maintain long term.
 
@@ -114,10 +107,10 @@ Instead we need to focus on making things "simple" above all else.
 
 Simple may be harder, unfamiliar, and slower at first, but in the long run simplicity is the only sustainable way forward.
 
-## Link of the week
+### Link of the week
 
 
-## AI Masters Stratego Board Game
+### AI Masters Stratego Board Game
 
 
 AI can play Stratego at an expert level 
@@ -132,18 +125,18 @@ The reason it's so difficult is because you can't see your oppononents pieces. I
 
 King that it's a mathematically interesting game renewed my interest a bit, and I've been playing it on mobile. It has a great "quick play" mode which randomizes the initial layout which makes it much faster to practice.
 
-![image_1657604178916_0.png](/assets/image_1657604178916_0_1672132676533_0.png)
+![ ](/assets/image_1657604178916_0_1672132676533_0.png)
 
 [Read the paper here](https://t.co/xXagujMfmw)
 
-# Analytics 📈
+## Analytics 📈
 
 
 Still amazed at the res pins
 
-![Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0.png](/assets/Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0_1672132794501_0.png)
+![ ](/assets/Screen_Shot_2022-07-14_at_8.43.42_PM_1657856650764_0_1672132794501_0.png)
 
-# Outro
+## Outro
 
 
 Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)

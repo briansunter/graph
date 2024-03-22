@@ -2,17 +2,16 @@
 title: newsletter-roadmap
 slug: newsletter-roadmap
 date: 2022-07-10
-lastMod: 2024-03-18
 ---
 
 This is the content plan for my [[newsletter]]
 
 The dates are only rough guidelines, this is more of a content ordering and flow
 
-# Roadmap #.ol-nested
+## Roadmap #.ol-nested
 
 
-## intro [[newsletter/issue-1]] [[Jun 12th, 2022]]
+### intro [[newsletter/issue-1]] [[Jun 12th, 2022]]
 
 
 Intro [[newsletter]]
@@ -23,14 +22,14 @@ Starting my public graph [[homepage]]
 
 Introducing my [[logseq-openai/project]]
 
-## Newsletter Project  [[newsletter/issue-2]]  [[Jun 19th, 2022]]
+### Newsletter Project  [[newsletter/issue-2]]  [[Jun 19th, 2022]]
 
 
 feedback on [[logseq-openai/project]]
 
 launching my [[get-youtube-subtitles]] plugin
 
-## Getting started with logseq [[newsletter/issue-3]] [[Jun 26th, 2022]]
+### Getting started with logseq [[newsletter/issue-3]] [[Jun 26th, 2022]]
 
 
 [[get-youtube-subtitles]]
@@ -43,7 +42,7 @@ Launching [[logseq-social]]
 
 [[second-brain]]
 
-##  Newsletter intro and Productivity with AI [[newsletter/issue-4]]  [[Jul 3rd, 2022]]
+###  Newsletter intro and Productivity with AI [[newsletter/issue-4]]  [[Jul 3rd, 2022]]
 
 
 [[logseq-tasks]]
@@ -74,7 +73,7 @@ Fine Tune
 
 CoAuthor
 
-## Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue-5]]
+### Algorithms Bootcamp and Elon Musk [[Jul 10th, 2022]] [[newsletter/issue-5]]
 
 
 Updates
@@ -92,7 +91,7 @@ Brain Food
 Quotes
 
 Draft
-collapsed:: true
+
 
 If I could only pick one favorite podcast, it would be Huberman Labs, which is about health and neuroscience by a Stanford Professor, Andrew Huberman.
 
@@ -126,7 +125,7 @@ Link
 
 [Elon Musk Rejects Twitter Deal](https://www.sec.gov/Archives/edgar/data/1418091/000110465922078413/tm2220599d1_ex99-p.htm)
 
-## Intro to Algorithms [[newsletter/issue-6]]
+### Intro to Algorithms [[newsletter/issue-6]]
 
 
 Updates
@@ -163,7 +162,7 @@ This popular game has an enormous game tree on the order of 10^535 nodes, i.e., 
 
 https://t.co/xXagujMfmw
 
-## Time Complexity - Intro
+### Time Complexity - Intro
 
 
 Updates
@@ -184,7 +183,7 @@ Quote
 
 Link
 
-## Intermediate typescript
+### Intermediate typescript
 
 
 Updates
@@ -225,7 +224,7 @@ UN Population study
 
 [[bubble-sort]
 
-## Intro to Recursion
+### Intro to Recursion
 
 
 Updates
@@ -252,7 +251,7 @@ tree recursion
 
 fibbonacci number
 
-## Divide and Conquer
+### Divide and Conquer
 
 
 Updates
@@ -271,7 +270,7 @@ Quote
 
 Link
 
-## Quicksort
+### Quicksort
 
 
 Updates
@@ -294,7 +293,7 @@ Quote
 
 Link
 
-## Sorting, Stacks, and Queues
+### Sorting, Stacks, and Queues
 
 
 Stack and Queue
@@ -305,7 +304,7 @@ Queue
 
 quicksort
 
-## Linked List
+### Linked List
 
 
 Insert
@@ -316,7 +315,7 @@ Reverse
 
 Middle
 
-## Tree
+### Tree
 
 
 Binary Tree

@@ -9,15 +9,14 @@ tags:
   - abdul bari algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Recurrence Relation and Master's Theorem for Subtracting Functions
 description: Discusses the recurrence relation, which is a mathematical notation to describe a sequence of values based on the previous term, which is useful for describing recursion and time complexity.
 coverimage: ../../assets/recurrence-relation-subtraction_1673041572921_0.jpg
 ---
 
-![recurrence-relation-subtraction.jpg](/assets/recurrence-relation-subtraction_1673041572921_0.jpg)
+![ ](/assets/recurrence-relation-subtraction_1673041572921_0.jpg)
 
-# Divide and Conquer
+## Divide and Conquer
 
 
 {{< youtube 2Rr2tW9zvRg >}}
@@ -26,7 +25,7 @@ If a problem is large, divide the problem into subproblems, solve them, then rec
 
 The subproblems should be the same type of problems, for example, if the main problem is sorting, then the subproblems are sorting
 
-## Examples of Divide and Conquer Problems
+### Examples of Divide and Conquer Problems
 
 
 Binary search
@@ -39,12 +38,12 @@ Quick Sort
 
 Strassen's Matrix Multiplication
 
-# Subtraction Recurrence Relation 1
+## Subtraction Recurrence Relation 1
 
 
 {{< youtube 4V30R3I1vLI >}}
 
-## Recursive function example
+### Recursive function example
 
 
 ```js
@@ -81,7 +80,7 @@ $$T(n) = \begin{cases}
 T(n-1)+1 & \text{when } n > 0 
 \end{cases}$$
 
-### $T(n)$ based on $T(n-1)$
+#### $T(n)$ based on $T(n-1)$
 
 
 The original equation
@@ -92,7 +91,7 @@ We can find $T(n)$ if we k $T(n-1)$
 
 How do we find $T(n-1)$?
 
-### $T(n)$ based on $T(n-2)$
+#### $T(n)$ based on $T(n-2)$
 
 
 Let's substitute $n-1$ into the equation for $T(n)$
@@ -113,7 +112,7 @@ This simplifies to $T(n) = T(n-2) +2$
 
 So  $T(n)$ is in terms of $T(n-2)$ instead of being based on $T(n-1)$
 
-### $T(n)$ based on $T(n-3)$
+#### $T(n)$ based on $T(n-3)$
 
 
 We can keep  this
@@ -155,7 +154,7 @@ We k $T(0)=1$
 
 So $T(n)=1+n$
 
-# Subtraction Recurrence Relation 2
+## Subtraction Recurrence Relation 2
 
 
 {{< youtube IawM82BQ4II >}}
@@ -177,7 +176,7 @@ $$T(n) = \begin{cases} 1 & \text{when } n=1 \\\ T(n-1)+n & \text{when } n > 0 \e
 
 For each iteration, it takes $n$ units of time, then calls itself -1
 
-## Tree Method
+### Tree Method
 
 
 ![2022-12-01-13-33-20](/assets/2022-12-01-13-33-20.svg)
@@ -190,7 +189,7 @@ $$\sum_{i=1}^n i = \frac{n(n + 1)}{2}$$
 
 This simplifies to $O(n^2)$ for measuring time complexity
 
-## Substitution Method
+### Substitution Method
 
 
 Original equation is $T(n) = T(n-1) + n$
@@ -237,7 +236,7 @@ So the answer is $1 + \frac{n(n + 1)}{2}$
 
 Which simplifies to $O(n^2)$ in Big O notation
 
-# Subtraction Recurrence Relation 3
+## Subtraction Recurrence Relation 3
 
 
 {{< youtube MhT7XmxhaCE >}}
@@ -257,7 +256,7 @@ We k `(let i=1; i< n; i=i*2)` will execute $log(n)$ times
 
 $$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ T(n-1)+ log(n) & \text{when } n > 0 \end{cases}$$
 
-## Tree Method
+### Tree Method
 
 
 ![2022-12-05-15-12-40](/assets/2022-12-05-15-12-40.svg)
@@ -270,7 +269,7 @@ $log(n!)$ -> log n factorial
 
 Equivalent to $O(nlog(n))$
 
-## Substitution method
+### Substitution method
 
 
 $T(n)=T(n-1) + log(n)$
@@ -293,7 +292,7 @@ $T(n) = 1 + log(n!)$
 
 $O(n log(n))$
 
-## Directly Get Answer
+### Directly Get Answer
 
 
 $T(n)=T(n-1) + 1$ -> $O(n)$
@@ -314,7 +313,7 @@ $T(n) = T(n-100) + n$ -> $O(n^2)$
 
 However, if there's a coeffecient on the function ,it's different though. $T(n) = 2*T(n-1) +1$
 
-# Subtraction Recurrence Relation 4
+## Subtraction Recurrence Relation 4
 
 
 ```js
@@ -331,7 +330,7 @@ $T(n)=2T(n-1)+1$
 
 $$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ 2T(n-1)+1 & \text{when } n > 0 \end{cases}$$
 
-## Tree Method
+### Tree Method
 
 
 ![2022-12-06-13-53-46](/assets/2022-12-06-13-53-46.svg)
@@ -362,7 +361,7 @@ $2^{n+1}-1$
 
 So Big O is $O(2^n)$
 
-## Subsitution Method
+### Subsitution Method
 
 
 $T(n)=2T(n-1) + 1$
@@ -389,7 +388,7 @@ $T(n) = 2^{n+1}-1$
 
 $O(2^n)$
 
-# Master's Theorem for Subtracting Functions
+## Master's Theorem for Subtracting Functions
 
 
 {{< youtube OynWkEj0S-s >}}
@@ -406,13 +405,13 @@ $T(n) = 3T(n-1) + 1$ -> $O(3^n)$
 
 $T(n) = 2T(n-1) + n$ -> $O(n * 3^n)$
 
-## Master's Theorem
+### Master's Theorem
 
 
 General form of recurrence relation
 
 $T(n)=aT(n-b)+f(n)$
-id:: 63b7c0eb-89cf-49b6-a406-72f907cfc184
+
 
 Assume
 
@@ -422,7 +421,7 @@ $b > 0$
 
 $f(n)=O(n^k)$ where $k ≥ 0$
 
-### Case 1  $a=1$
+#### Case 1  $a=1$
 
 
 For example $T(n)=T(n-1) + 1$
@@ -431,14 +430,14 @@ Then $O(n^{k+1})$
 
 also can be thought of as $O(n*f(n))$
 
-### Case 2 $a>1$
+#### Case 2 $a>1$
 
 
 For example $T(n) = 2T(n-1) + 1$
 
 Then $O(n^k * a^n)$
 
-### Case 3 $a>1$
+#### Case 3 $a>1$
 
 
 If you're decreasing by more than 1, for example  $T(n) = 2T(n-2) + 1$

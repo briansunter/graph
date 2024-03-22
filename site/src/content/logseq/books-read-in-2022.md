@@ -4,7 +4,6 @@ slug: books-read-in-2022
 tags:
   - reading
 date: 2023-01-01
-lastMod: 2024-03-18
 blogtitle: Books Read in 2022
 description: List of books I read in 2022 with short summaries
 coverimage: ../../assets/books-read-site_1672793412235_0.jpg
@@ -19,10 +18,10 @@ I collected my thoughts on the books I read and some excerpts that gave a feel f
 
 Out of these, some of my favorites were "**Hard-Boiled Wonderland and the End of the World by Haruki Murakami**", "**Mistborn by Brandon Sanderson**", "**The Picture of Dorian Gray by Oscar Wilde**", and "**The Gay Science by Friedrich Nietzsche**".
 
-## Building a Second Brain by Tiago Forte
+### Building a Second Brain by Tiago Forte
 
 
-![basb.jpeg](/assets/basb_1672455079106_0.jpeg)
+![ ](/assets/basb_1672455079106_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/1982167386?tag=bsunter06-20)
 
@@ -36,7 +35,7 @@ I incorporated many ideas from his book into my system, like focusing on project
 
 [Read my full summary here]([[building a second brain]])
 
-## The Untethered Soul by Michael Singer
+### The Untethered Soul by Michael Singer
 
 
 [Amazon Link](https://www.amazon.com/dp/1572245379?tag=bsunter06-20)
@@ -52,10 +51,10 @@ I thought it was a good introduction to mindfulness. I liked the concept of "The
 > While you’re driving, you hear internal conversations like, “Wasn’t I supposed to call Fred? I should have. Oh my God, I can’t believe I forgot! He’s going to be so mad. He may never talk to me again. Maybe I should stop and call him right . No. I don’t want to stop the car right …”
 Notice that the voice takes both sides of the conversation. It doesn’t care which side it takes, just as long as it gets to keep on talking.
 
-## Simple Path to Wealth  by J.L Collins
+### Simple Path to Wealth  by J.L Collins
 
 
-![31QRvVZpizL._AC_SY780_.jpg](/assets/31QRvVZpizL._AC_SY780_1672620409758_0.jpg)
+![ ](/assets/31QRvVZpizL._AC_SY780_1672620409758_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/B0725RFDPY?tag=bsunter06-20)
 
@@ -81,10 +80,10 @@ This book helped me develop a plan for my finances and feel good about my strate
 
 > When you can live on 4% of your investments per year, you are financially independent.
 
-## Hold Me Tight by Dr. Sue Johnson
+### Hold Me Tight by Dr. Sue Johnson
 
 
-![hold-me-tight.jpeg](/assets/hold-me-tight_1672771838590_0.jpeg)
+![ ](/assets/hold-me-tight_1672771838590_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/1491513810?tag=bsunter06-20)
 
@@ -102,10 +101,10 @@ One of my goals last year was to improve communication with my partner and be mo
 
 > Engagement: Do I k you will value me and stay close? The dictionary defines *engaged* as being absorbed, attracted, pulled, captivated, pledged, involved. Emotional engagement here means the very special kind of attention that we give only to a loved one. We gaze at them longer, touch them more. Partners often talk of this as being emotionally present.
 
-## Authority and the Individual by Bertrand Russel
+### Authority and the Individual by Bertrand Russel
 
 
-![418Mwg6YAqL.jpg](/assets/418Mwg6YAqL_1672620426734_0.jpg)
+![ ](/assets/418Mwg6YAqL_1672620426734_0.jpg)
 
 [Amazon Links](https://www.amazon.com/dp/0415487331?tag=bsunter06-20)
 
@@ -117,10 +116,10 @@ A nuanced take on one of my favorite topics: the tension between the individual 
 
 > The sphere of individual action is not to be regarded as ethically inferior to that of social duty. On the contrary, some of the best of human activities are, at least in feeling, rather personal than social. Prophets, mystics, poets, scientific discoverers, are men whose lives are dominated by a vision; they are essentially solitary men. When their dominant impulse is strong, they feel that they cannot obey authority if it runs counter to what they profoundly believe to be good. Although, on this account, they are often persecuted in their own day, they are apt to be, of all men, those to whom posterity pays the highest honour. It is such men who put into the world the things that we most value, not only in religion, in art, and in science, but also in our way of feeling towards our neighbour, for improvements in the sense of social obligation, as in everything else, have been largely due to solitary men whose thoughts and emotions were not subject to the dominion of the herd.
 
-## The Screwtape Letters by C.S. Lewis
+### The Screwtape Letters by C.S. Lewis
 
 
-![screwtape.jpg](/assets/screwtape_1672620785526_0.jpg)
+![ ](/assets/screwtape_1672620785526_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/0060652934?tag=bsunter06-20)
 
@@ -128,10 +127,10 @@ A religious satire defending Christianity in the form of imagined letters betwee
 
 > Nearly all vices are rooted in the future. Gratitude looks to the past and love to the present; fear, avarice, lust and ambition look ahead.
 
-## The Gay Science by Friedrich Nietzsche
+### The Gay Science by Friedrich Nietzsche
 
 
-![gay-science.jpeg](/assets/gay-science_1672621370939_0.jpeg)
+![ ](/assets/gay-science_1672621370939_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/B003E8AJEM?tag=bsunter06-20)
 
@@ -149,10 +148,10 @@ The book doesn't propose a philosophical system but is more a series of question
 
 > Excelsior.— “You will never pray again, never adore again, never again rest in endless trust; you do not permit yourself to stop before any ultimate wisdom, ultimate goodness, ultimate power, while unharnessing your thoughts; you have no perpetual guardian and friend for your seven solitudes; there is no avenger for you any more nor any final improver; there is no longer any reason in what happens, no love in what will happen to you; no resting place is open any longer to your heart.
 
-## Almanack of Naval Ravikant by Eric Jorgenson
+### Almanack of Naval Ravikant by Eric Jorgenson
 
 
-![41ZZY5+kzLL.jpg](/assets/41ZZY5kzLL_1670306664477_0.jpg)
+![ ](/assets/41ZZY5kzLL_1670306664477_0.jpg)
 
 [Free Book Link](https://www.navalmanack.com/)
 
@@ -166,10 +165,10 @@ Collection of tweets by naval on entrepreneurship, happiness, and health. Lots o
 
 See my [full notes on the book here]([[almanack-of-naval-ravikant]])
 
-## Man's Search for Meaning Viktor E. Frankl
+### Man's Search for Meaning Viktor E. Frankl
 
 
-![mans-meaning.jpeg](/assets/mans-meaning_1672626609393_0.jpeg)
+![ ](/assets/mans-meaning_1672626609393_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/B009U9S6FI?tag=bsunter06-20)
 
@@ -179,10 +178,10 @@ The first half is about his experiences in a concentration camp, and the second 
 
 > “Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.”
 
-## Apology by Plato/Socrates
+### Apology by Plato/Socrates
 
 
-![socrates.jpg](/assets/socrates_1672728321436_0.jpg)
+![ ](/assets/socrates_1672728321436_0.jpg)
 
 [Amazon Link](https://www.amazon.com/Last-Days-Socrates-Penguin-Classics/dp/0140449280)
 
@@ -204,7 +203,7 @@ An excellent example of greek rhetoric. I highly recommend reading a commentary 
 
 > I found that the men most in repute were all but the most foolish; and that some inferior men were really wiser and better.
 
-## The Gateless Gate by Wumen Huikai
+### The Gateless Gate by Wumen Huikai
 
 
 [Amazon Link](https://www.amazon.com/dp/0861713826?tag=bsunter06-20)
@@ -231,10 +230,10 @@ He could have cooked his rice much sooner.
 > Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When anyone asked the boy what his master had preached about, the boy would raise his finger.
 Gutei heard about the boy's mischief. He seized him and cut off his finger. The boy cried and ran away. Gutei called and stopped him. When the boy turned his head to Gutei, Gutei raised up his own finger. In that instant the boy was enlightened.
 
-## Typescript Handbook
+### Typescript Handbook
 
 
-![typescript-handbook.jpg](/assets/typescript-handbook_1672627324910_0.jpg)
+![ ](/assets/typescript-handbook_1672627324910_0.jpg)
 
 [Free Book Link](https://www.typescriptlang.org/docs/handbook/intro.html)
 
@@ -256,12 +255,12 @@ pet.fly();
 
 ```
 
-## Let's Explore Diabetes with Owls by David Sedaris
+### Let's Explore Diabetes with Owls by David Sedaris
 
 
 [Amazon Link](https://www.amazon.com/dp/0316154709?tag=bsunter06-20)
 
-![diabetes.jpeg](/assets/diabetes_1672627569188_0.jpeg)
+![ ](/assets/diabetes_1672627569188_0.jpeg)
 
 Hilarious neurotic bizarre, yet relatable essays by David Sedaris. The anecdotes come from observations from his personal life and the funny situations he gets in. Topics range from living in France taxidermy owls, and colonoscopies.
 
@@ -271,10 +270,10 @@ Hilarious neurotic bizarre, yet relatable essays by David Sedaris. The anecdotes
 
 > The beaches in Hawaii look as if they’ve been bleached; that’s how white the sand is. The water is warm—even in winter—and so clear you can see not just your toes but the corns cleaving, barnacle-like, to the sides of them.
 
-## Hard-Boiled Wonderland and the End of the World by Haruki Murakami
+### Hard-Boiled Wonderland and the End of the World by Haruki Murakami
 
 
-![hardboiled.jpeg](/assets/hardboiled_1672628001084_0.jpeg)
+![ ](/assets/hardboiled_1672628001084_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/0679743464?tag=bsunter06-20)
 
@@ -298,10 +297,10 @@ Our organization is generally called the System, theirs the Factory. The System 
 > “Excuse me for asking so many questions,” I say. “I k nothing about this Town. How it works, why it needs the Wall, why the beasts are herded in and out every day. I do not understand any of it. You are the only one I can ask.”
 “Not even I k all the rules,” says the old officer under his breath. “There are things that cannot and should not be explained. But there is no cause for concern. The Town is fair in its own way. The things you need, the things you need to k, one by one the Town will set these before you. Hear me : this Town is perfect. And by perfect, I mean complete. It has everything. If you cannot see that, then it has nothing. A perfect nothing. Remember this well. That is as much as anyone can tell you; the rest you must learn for yourself. Open your eyes, train your ears, use your head. If a mind you have, then use it while you can.”
 
-## The Picture of Dorian Gray by Oscar Wilde
+### The Picture of Dorian Gray by Oscar Wilde
 
 
-![dorian.jpeg](/assets/dorian_1672628846521_0.jpeg)
+![ ](/assets/dorian_1672628846521_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/1515190994?tag=bsunter06-20)
 
@@ -316,10 +315,10 @@ Why, my dear Basil, he is a Narcissus, and you—well, of course you have an int
 
 > Beauty is a form of Genius--is higher, indeed, than Genius, as it needs no explanation. It is one of the great facts of the world, like sunlight, or springtime, or the reflection in the dark waters of that silver shell we call the moon. It cannot be questioned. It has divine right of sovereignty. It makes princes of those who have it.
 
-## Where the Crawdads Sing by Delia Owens
+### Where the Crawdads Sing by Delia Owens
 
 
-![crawdads.jpg](/assets/crawdads_1672629636504_0.jpg)
+![ ](/assets/crawdads_1672629636504_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/0735219095?tag=bsunter06-20)
 
@@ -331,10 +330,10 @@ This was a nice easy read, and I liked the imagery of the marshy small town in N
 
 > She knew the years of isolation had altered her behavior until she was different from others, but it wasn't her fault she'd been alone. Most of what she knew, she'd learned from the wild. Nature had nurtured, tutored, and protected her when no one else would.
 
-## Dune by Frank Herbert
+### Dune by Frank Herbert
 
 
-![dune.jpg](/assets/dune_1672629693314_0.jpg)
+![ ](/assets/dune_1672629693314_0.jpg)
 
 A science fiction space opera centered around the desert planet of Arrakis, which has spice, the most valuable resource in the universe because it gives those that use it the power to navigate open space.
 
@@ -355,10 +354,10 @@ Pride overcame Paul’s fear. ‘You dare suggest a duke’s son is an animal?�
 ‘Like as not I have seen them,’ he said. ‘There’s little to tell them from the folk of the graben and sink. They all wear those great flowing robes. And they stink to heaven in any closed space. It’s from those suits they wear – call them “stillsuits” – that reclaim the body’s own water.’
 Paul swallowed, suddenly aware of the moisture in his mouth, remembering a dream of thirst. That people could want so for water they had to recycle their body moisture struck him with a feeling of desolation. ‘Water’s precious there,’ he said.
 
-## Master and Margarita by Mikhail Bulgakov
+### Master and Margarita by Mikhail Bulgakov
 
 
-![master-margarita.jpeg](/assets/master-margarita_1672629817618_0.jpeg)
+![ ](/assets/master-margarita_1672629817618_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/0141180145?tag=bsunter06-20)
 
@@ -388,10 +387,10 @@ Ah, how interesting!’ exclaimed the foreigner.
 ‘Go on!’
 ‘I didn’t go on,’ said the prisoner. ‘Here men ran in, bound me, and took me away to prison.’
 
-## Travels with Charley by John Steinbeck
+### Travels with Charley by John Steinbeck
 
 
-![travels-with-charley.jpeg](/assets/travels-with-charley_1672052430785_0.jpeg)
+![ ](/assets/travels-with-charley_1672052430785_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/0140053204?tag=bsunter06-20)
 
@@ -403,10 +402,10 @@ This book does a great job of capturing the spirit of the American road trip and
 
 > I took one companion on my journey—an old French gentleman poodle kn as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he ks a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
 
-## Neuromancer by William Gibson
+### Neuromancer by William Gibson
 
 
-![neuromancer.jpg](/assets/neuromancer_1672630101925_0.jpg)
+![ ](/assets/neuromancer_1672630101925_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/B0058R83CW?tag=bsunter06-20)
 
@@ -419,10 +418,10 @@ I loved the central plotline of a rogue AI trying to escape and manipulate human
 >The black clinics of Chiba were the cutting edge, whole bodies of technique supplanted monthly, and still they couldn’t repair the damage he’d suffered in that Memphis hotel.
 A year here and he still dreamed of cyberspace, hope fading nightly. All the speed he took, all the turns he’d taken and the corners he’d cut in Night City, and still he’d see the matrix in his sleep, bright lattices of logic unfolding across that colorless void. . . . The Sprawl was a long strange way home over the Pacific , and he was no console man, no cyberspace cowboy. Just another hustler, trying to make it through. But the dreams came on in the Japanese night like livewire voodoo, and he’d cry for it, cry in his sleep, and wake alone in the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temperfoam bunched between his fingers, trying to reach the console that wasn’t there.
 
-## Mistborn by Brandon Sanderson
+### Mistborn by Brandon Sanderson
 
 
-![mistborn.jpg](/assets/mistborn_1672630557858_0.jpg)
+![ ](/assets/mistborn_1672630557858_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/B001QKBHG4?tag=bsunter06-20)
 
@@ -436,10 +435,10 @@ Tresting stood with his guest on a small hilltop patio that overlooked the field
 
 > The second man was tall with a strong build. As he turned, Kelsier was able to see that a thick metal spike had been pounded tip-first through each of the man’s eyes. With shafts as wide as an eye socket, the nail-like spikes were long enough that their sharp points jutted out about an inch from the back of the man’s clean-shaven skull. The flat spike ends shone like two silvery disks, sticking out of the sockets in the front, where the eyes should have been. A Steel Inquisitor.
 
-## Exhalation by Ted Chiang
+### Exhalation by Ted Chiang
 
 
-![Exhalation.jpg](/assets/Exhalation_1672630657446_0.jpg)
+![ ](/assets/Exhalation_1672630657446_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/B07PP9MXPL?tag=bsunter06-20)
 
@@ -450,10 +449,10 @@ I enjoyed some of the stories much more than others. In general, I liked the sho
 >For most of history, the proposition that we draw life from air was so obvious that there was no need to assert it. Every day we consume two lungs heavy with air; every day we remove the empty ones from our chest and replace them with full ones. If a person is careless and lets his air level run too low, he feels the heaviness of his limbs and the growing need for replenishment. It is exceedingly rare that a person is unable to get at least one replacement lung before his installed pair runs empty; on those unfortunate occasions where this has happened—when a person is trapped and unable to move, with no one nearby to assist him—he dies within seconds of his air running out.
 But in the normal course of life, our need for air is far from our thoughts, and indeed many would say that satisfying that need is the least important part of going to the filling stations. For the filling stations are the primary venue for social conversation, the places from which we draw emotional sustenance as well as physical. We all keep spare sets of full lungs in our homes, but when one is alone, the act of opening one’s chest and replacing one’s lungs can seem little better than a chore. In the company of others, however, it becomes a communal activity, a shared pleasure.
 
-## Shogun by James Clavell
+### Shogun by James Clavell
 
 
-![shogun.jpg](/assets/shogun_1672634122828_0.jpg)
+![ ](/assets/shogun_1672634122828_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/B00SNM5552?tag=bsunter06-20)
 
@@ -469,10 +468,10 @@ The priest said nervously, “Kasigi Omi-san says, ‘Where do you come from and
 “No. He’s a samurai, the samurai in charge of the village. His surname’s Kasigi, Omi’s his given name. Here they always put their surnames first. ‘San’ means ‘honorable,’ and you add it to all names as a politeness. 
 You’d better learn to be polite—and find some manners quickly. Here they don’t tolerate lack of manners.
 
-## Minority Report by Phillip K. Dick
+### Minority Report by Phillip K. Dick
 
 
-![minority.jpeg](/assets/minority_1672634296433_0.jpeg)
+![ ](/assets/minority_1672634296433_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/1596065982?tag=bsunter06-20)
 
@@ -491,10 +490,10 @@ This was an excellent short science fiction story with great pacing. It presents
 > "In our society we have no major crimes but we do have a detention camp full of would-be criminals."
 We claim they’re culpable. They, on the other hand, eternally claim they’re innocent. And, in a sense, they are innocent."
 
-## The Little Prince by Antoine de Saint-Exupéry
+### The Little Prince by Antoine de Saint-Exupéry
 
 
-![little-prince.jpg](/assets/little-prince_1672634527260_0.jpg)
+![ ](/assets/little-prince_1672634527260_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/9386538229?tag=bsunter06-20)
 
@@ -513,10 +512,10 @@ thousand other foxes. But if you tame me, then we shall need each
 other. To me, you will be unique in all the world. To you, I shall
 be unique in all the world...”
 
-## Saga by Brian K. Vaughan and Fiona Staples
+### Saga by Brian K. Vaughan and Fiona Staples
 
 
-![saga.jpeg](/assets/saga_1672635052100_0.jpeg)
+![ ](/assets/saga_1672635052100_0.jpeg)
 
 [Amazon Link](https://www.amazon.com/dp/1632150786?tag=bsunter06-20)
 
@@ -526,12 +525,12 @@ I loved the bounty hunter's "Lying Cat," who had the psychic ability to sense wh
 
 Amazing artwork, incredibly creative and imaginative characters and settings, and very sexual.
 
-![saga-14.jpg](/assets/saga-14_1672731345885_0.jpg)
+![ ](/assets/saga-14_1672731345885_0.jpg)
 
-## The Dark Knight Returns by Frank Miller
+### The Dark Knight Returns by Frank Miller
 
 
-![dark-knight.jpg](/assets/dark-knight_1672635481754_0.jpg)
+![ ](/assets/dark-knight_1672635481754_0.jpg)
 
 [Amazon Link](https://www.amazon.com/dp/1401263119?tag=bsunter06-20)
 
@@ -539,7 +538,7 @@ Bruce Wayne comes out of retirement at age 55 to fight crime and save Gotham fro
 
 I liked it quite a bit. Batman is a very human superhero in this book, especially at 55, compared to most seemingly invulnerable superheroes. It's a great story of someone incredibly uncompromising fighting back against crime, the corrupt establishment, and the apathy to moral decay.
 
-![dark-knight.jpg](/assets/dark-knight_1672731748148_0.jpg)
+![ ](/assets/dark-knight_1672731748148_0.jpg)
 
-![batman-2.jpg](/assets/batman-2_1672782289208_0.jpg)
+![ ](/assets/batman-2_1672782289208_0.jpg)
 

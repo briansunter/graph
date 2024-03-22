@@ -6,7 +6,6 @@ tags:
   - reading
 categories: newsletter
 date: 2023-02-17
-lastMod: 2024-03-18
 blogtitle: Newsletter 11 - Moving to Hawaii and Fitness Routine
 description: Some thoughts on moving to Hawaii and what I'm doing to improve my fitness
 coverimage: ../../assets/honolulu_1676694313546_0.jpg
@@ -15,7 +14,7 @@ coverimage: ../../assets/honolulu_1676694313546_0.jpg
 
 ![Drone view of honolulu | hidden](/assets/honolulu_1676694313546_0.jpg)
 
-# Moving to Hawaii
+## Moving to Hawaii
 
 
 Hi everyone. This post is an update on my personal life.
@@ -34,11 +33,11 @@ As someone who grew up in Florida, I love warm weather, but not the extreme heat
 
 The outdoors in Hawaii are spectacular. We're constantly reminded we're not in an ordinary place by the unique scenery around us. The volcanic ridges in the distance are particularly striking, and we have a good view of them from our apartment. I love watching the clouds and mist pass over them, and I've never seen so many rainbows.
 
-![A2DB81CB-32D2-431F-8B94-3F86694B329C_1_105_c.jpeg](/assets/A2DB81CB-32D2-431F-8B94-3F86694B329C_1_105_c_1676932322748_0.jpeg)
+![ ](/assets/A2DB81CB-32D2-431F-8B94-3F86694B329C_1_105_c_1676932322748_0.jpeg)
 
 There are great beaches right next to our apartment, and the view of the Diamond Head crater is breathtaking. I swim in the ocean as frequently as possible for exercise, and I often see sea turtles while swimming and sometimes get startled when one of their huge heads pops up for air next to me.
 
-![Screenshot 2023-02-20 at 1.00.37 PM.png](/assets/Screenshot_2023-02-20_at_1.00.37_PM_1676934104689_0.png)
+![ ](/assets/Screenshot_2023-02-20_at_1.00.37_PM_1676934104689_0.png)
 
 I've started getting into stand-up paddleboarding, which is a ton of fun (though more challenging than it looks). The ocean temperature is really pleasant and much warmer than the frigid beaches in California.
 
@@ -50,7 +49,7 @@ We've been road-tripping around the island, discovering new beaches and unique s
 
 {{< youtube 4iJDXBfc6C8 >}}
 
-# Improving my Health and Fitness
+## Improving my Health and Fitness
 
 
 I wasn't taking care of my health as much as I should have in the past few years, so my top priority is building a healthier lifestyle. I used to be pretty active when walking to work and going to the gym a few times a week, but when Covid hit, and I started working from home, it threw a wrench in my fitness routine, so  I'm trying to get back on track.

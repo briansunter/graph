@@ -8,22 +8,15 @@ tags:
   - logseq-openai/project
 categories: newsletter
 date: 2022-07-03
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 4
 description: This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
 coverimage: ../../assets/image_1662087305440_0.png
----newsletter-subscribers:: 120
-site-hits::
-tweet-impressions:: 211000
-sent-date:: [[Jul 3rd, 2022]]
-profile-visits:: 42200
-start-date:: [[Jun 26th, 2022]]
-
+---
 
 
 ![image.png | hidden](/assets/image_1662087305440_0.png)
 
-# Summary and Reflection 🤔
+## Summary and Reflection 🤔
 
 
 This newsletter is a deep dive on using the latest AI techniques for kledge management and a tutorial on using Logseq for task management.
@@ -32,20 +25,20 @@ We are living in an exciting time for AI right . Several new cutting-edge techni
 
 I also include some articles about Yann LeCun, head of AI at Meta (Facebook), who has many exciting ideas about the future of AI. This week he put out a research roadmap on what he thinks is a potential path forward to human-level artificial intelligence.
 
-# Updates 🆕
+## Updates 🆕
 
 
-## [[notetaking-with-AI]]
+### [[notetaking-with-AI]]
 
 
 See this guide to learn how you can use the latest AI techniques for personal kledge management.
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 In this section, I'll share a productivity tip I've learned recently.
 
-## [[logseq-tasks]]
+### [[logseq-tasks]]
 
 
 In this guide, I write a basic tutorial on how to use Logseq for task management.
@@ -56,21 +49,21 @@ The tasks determine what notes I write based on the projects I'm working on.
 
 One of the most powerful ideas of Logseq is mixing your tasks throughout your pages and notes, then organizing and grouping them with queries.
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
 In this section, I'll share some interesting articles and "food for thought"
 
 Yann LeCun is the head of AI at Meta (Facebook) and one of the top AI researchers in the world.
 
-## Quote
+### Quote
 
 
 LeCun believes that machines observing the world aren't nearly enough for them to become intelligent. Real progress will happen when machines can take action in the real world and learn from the consequences of their actions, observing with the most high-fidelity inputs possible, like vision and sound.
 
 > What's missing (from AI) is a principle that would allow our machine to learn how the world works by observation and by interaction with the world. A learning predictive world model is what we're missing today, and in my opinion is the biggest obstacle to significant progress in AI.”
 
-## Link of the week
+### Link of the week
 
 
 I highly recommend this article for hearing about his vision for the future of AI. [A bold new vision for the future of AI](https://www.technologyreview.com/2022/06/24/1054817/yann-lecun-bold-new-vision-future-ai-deep-learning-meta/?utm_medium=tr_social&utm_campaign=site_visitor.unpaid.engagement&utm_source=Twitter)
@@ -125,7 +118,7 @@ Take a look at these interviews and his new paper for more about Yann LeCun and 
 
 [A Path Towards Autonomous Machine Intelligence](https://openreview.net/forum?id=BZ5a1r-kVsf)
 
-# Analytics 📈
+## Analytics 📈
 
 
 I can't believe the newsletter has already grown to over 100 subscribers!
@@ -134,7 +127,7 @@ It's doubling almost every week, going from 10 -> 30 -> 60 -> 120 -> ??
 
 That is already way more people than I was expecting. King even a few people are looking at this motivates me to continue creating and posting high quality notes.
 
-# Outro
+## Outro
 
 
 I hope you enjoyed this week's newsletter.

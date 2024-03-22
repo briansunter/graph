@@ -6,12 +6,11 @@ tags:
   - math
 categories: math
 date: 2022-10-02
-lastMod: 2024-03-18
 blogtitle: Integer Sum Formula (Gauss Sum)
 description: How do we find the sum of the numbers 1 through 100?
 ---
 
-## Summary
+### Summary
 
 
 How do we find the sum of the numbers 1 through 100?
@@ -29,7 +28,7 @@ sum += i;
 
 If you sum up these numbers, the result will be $5050$
 
-## Sum of n Integers Equation
+### Sum of n Integers Equation
 
 
 Instead of adding up the numbers 1 through $n$ by hand or in a loop, we can use an equation to find the answer instantly.
@@ -46,10 +45,10 @@ We do the calculations to find our answer
 
 $$\frac{100(100 + 1)}{2} = \frac{10100}{2}=5050$$
 
-## Proof
+### Proof
 
 
-### Visual Proof
+#### Visual Proof
 
 
 ![2022-10-09-08-39-52](/assets/2022-10-09-08-39-52.svg)
@@ -64,7 +63,7 @@ We can create a square by duplicating this stack and flipping it upside down
 
 ![2022-10-09-09-07-45](/assets/2022-10-09-09-07-45.svg)
 
-![image.png](/assets/image_1665465573710_0.png)
+![ ](/assets/image_1665465573710_0.png)
 
 Notice by flipping it, one side is n and the other is n +1
 
@@ -74,17 +73,17 @@ We need to divide this by two, because we only want the blue staircase part
 
 This gives us the final equation $\frac{n(n+1)}{2}$
 
-### Proof by Induction
+#### Proof by Induction
 
 
-#### Base Case
+##### Base Case
 
 
 The base case is just the sum of the first number, $1$ , so let $n=1$
 
 $$\sum_{i=1}^1 i = \frac{1(1 + 1)}{2}=\frac{2}{2} = 1$$
 
-### Inductive Step
+#### Inductive Step
 
 
  lets find the next sum, in terms of $n+1$
@@ -117,7 +116,7 @@ $\frac{n(n + 1)}{2}$ vs  $\frac{(n + 1)((n + 1) +1)}{2}$
 
 This shows how you can validate the equation is correct using induction. We start with the kn base case, then show that given n, we can find any n+1
 
-## Resources
+### Resources
 
 
 [Sum of n, n², or n³ | Brilliant Math & Science Wiki](https://brilliant.org/wiki/sum-of-n-n2-or-n3)

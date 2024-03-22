@@ -4,20 +4,19 @@ slug: intro-to-algorithms
 tags:
   - blog
 date: 2022-10-04
-lastMod: 2024-03-18
 blogtitle: Intro to Algorithms
 description: What is an algorithm? And why are algorithms important? This guide will help you understand basic algorithms concepts and how to use them to solve problems.
 coverimage: ../../assets/image_1662087569135_0.png
 ---
 
-# Introduction
+## Introduction
 
 
 What is an algorithm? And why are algorithms important?
 
 This guide will help you understand basic algorithms concepts and how to use them to solve problems.
 
-## Background
+### Background
 
 
 An algorithm is a **sequence of steps to solve a problem.**
@@ -34,25 +33,25 @@ Algorithms are closely related to "data structures," which is how the computer s
 
 An example of a "data structure" is an array, which can store and retrieve data in a specific order.
 
-# Real World Algorithms
+## Real World Algorithms
 
 
 An algorithm is just a name for a series of steps.
 
 In computer science, algorithms are written in code, but many examples of algorithms exist in the real world.
 
-## Real World Algorithm - Recipes
+### Real World Algorithm - Recipes
 
 
 In cooking, a recipe is a real-world example of an algorithm. It is a list of steps to follow to make a dish.
 
 Anyone can follow the same steps and make the same dish
 
-![image.png](/assets/image_1662087569135_0.png)
+![ ](/assets/image_1662087569135_0.png)
 
 [by seuraa](https://www.behance.net/gallery/95101957/Desserts-recipes-in-infographics?locale=fi_FI)
 
-## Real World Data Structures - Cookware
+### Real World Data Structures - Cookware
 
 
 ![person cooking on stainless steel cooking pot](https://images.unsplash.com/photo-1584990347955-2ec0431a6e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNDYwNDl8MHwxfHNlYXJjaHw4fHxjb29rd2FyZXxlbnwwfHx8fDE2NTc5Mjc5MTQ&ixlib=rb-1.2.1&q=80&w=400)
@@ -65,7 +64,7 @@ Examples of data structures are arrays, linked lists, stacks, queues, and trees.
 
 In cooking, the cookware is a real-world example of a data structure. You can use cookware to store and access the ingredients you need to make a dish. You might need a stove, a pan, and a bowl to cook your dish.
 
-# Algorithm vs Heuristics
+## Algorithm vs Heuristics
 
 
 A heuristic is similar to an algorithm, but it may not specify what you should do exactly, or it may not guarantee correct or optimal results.
@@ -76,35 +75,35 @@ A new cooking trend called "no-recipe recipes" is just a general list of ingredi
 
 A "No-Recipe Recipe" is an excellent example of a heuristic. Since they don't list quantities of ingredients, the outcome will be different every time.
 
-## No-Recipe Recipe - Cooking Heuristics
+### No-Recipe Recipe - Cooking Heuristics
 
 
 This recipe is more like a heuristic than an algorithm
 
-### Bulgogi-Style Tofu
+#### Bulgogi-Style Tofu
 
 
-![image.png](/assets/image_1662087583121_0.png)
+![ ](/assets/image_1662087583121_0.png)
 
 > Press some firm tofu to extract as much liquid as you can. Make a marinade of soy sauce, brown sugar, sesame oil, minced garlic, grated ginger, a spoonful of gochujang, a splash of neutral oil, some sliced scallions and toasted sesame seeds. Slice the tofu into bite-size cubes, and slide them into the marinade. Let that sit — a half-hour works; a few hours works better. Then roast them in a hot oven on an oiled foil-lined pan until they’re crisp.
 
-# Algorithm Efficiency
+## Algorithm Efficiency
 
 
 Making programs run faster is a key part of computer programming.
 
 Some methods of  things are faster than others yet produce the same results.
 
-## "Mise en Place" in cooking
+### "Mise en Place" in cooking
 
 
-![image.png](/assets/image_1662087595225_0.png)
+![ ](/assets/image_1662087595225_0.png)
 
 By **[Michael A. Gisondi](https://icenetblog.royalcollege.ca/about/about-the-editors/) **([@MikeGisondi](https://twitter.com/MikeGisondi))
 
 There is a concept called "mise en place" in cooking. This French phrase is the name of a technique where you prepare all your ingredients and cookware before you start cooking.
 
-### 5 Steps of "mise en place"
+#### 5 Steps of "mise en place"
 
 
 K your recipe — required ingredients, cookware, temperatures, and cook times
@@ -121,7 +120,7 @@ Preparing your ingredients ahead of time doesn't require more work or change the
 
 Similarly, in computer science, we can organize our data ahead of time, so it's easier to access while the algorithm runs.
 
-### Algorithms "mise en place"
+#### Algorithms "mise en place"
 
 
 K your algorithms -- use case, possible approaches, tradeoffs
@@ -136,7 +135,7 @@ Arrange your tools -- set up additional tools like auto test runners
 
 Similar to cooking, in computer science, there are usually different ways of  things that take different amounts of time and may yield slightly different results.
 
-# Algorithm Example
+## Algorithm Example
 
 
 There are many different types of algorithms that have other uses.
@@ -149,7 +148,7 @@ Examples of sorting algorithms include bubble sort, merge sort, and quicksort.
 
 Bubble sort is easy for humans to understand, but it is a very inefficient algorithm. It would take much longer to sort a list of numbers using bubble sort than quicksort.
 
-## Bubble Sort
+### Bubble Sort
 
 
 Bubble sort works by comparing two adjacent numbers and swapping them if they are in the wrong order.
@@ -160,17 +159,17 @@ It continues to do this until the list is sorted.
 
 The algorithm is called bubble sort because the largest number "bubbles" up to the top of the list.
 
-## Diagram
+### Diagram
 
 
-![image.png](/assets/image_1662087609939_0.png)
+![ ](/assets/image_1662087609939_0.png)
 
 [by ProductPlan](https://www.productplan.com/glossary/bubble-sort/)
 
-## Code
+### Code
 
 
-{{renderer :github_vvgyk, briansunter::algorithms:src/lib/bubbleSort.ts, 662775cf3827cd22d973b2c2e23178d5552d9617, update bubble sort, true}}
+
 
 ```javascript
 /*
@@ -205,7 +204,7 @@ export default bubbleSort;
 
 You should avoid using bubble sort and use faster algorithms like quick sort instead.
 
-# Conclusion
+## Conclusion
 
 
 This guide hopefully helped you understand algorithms at a high level

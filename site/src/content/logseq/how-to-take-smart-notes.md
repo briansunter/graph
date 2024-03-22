@@ -4,7 +4,6 @@ slug: how-to-take-smart-notes
 tags:
   - blog
 date: 2021-02-08
-lastMod: 2024-03-18
 blogtitle: How to Take Smart Notes
 description: By focusing on what is interesting and keeping written track of your own intellectual development, topics, questions, and arguments will naturally emerge without force.
 coverimage: ../../assets/image_1661224819843_0.png
@@ -17,9 +16,9 @@ coverimage: ../../assets/image_1661224819843_0.png
 
 [Logseq](https://logseq.com/) is a tool for finding, collecting, and connecting related ideas that works well with the Smart Notes method. You can use it to take bullet point notes with headings and subheadings.
 
-![image.png](/assets/image_1661224843104_0.png)
+![ ](/assets/image_1661224843104_0.png)
 
-# Summary and Impressions
+## Summary and Impressions
 
 
 The author of the book, Sönke Ahrens, describes a workflow to take notes on what you read, integrate notes into your total body of kledge, and use your notes to generate new ideas. The book encourages you to take notes while reading in two phases. In the first phase, you take "fleeting notes" whenever you have a passing idea and "literature notes" when reading the source material. Next, you transform these into "permanent notes," fully formed self-contained ideas in 1-3 sentences.
@@ -30,7 +29,7 @@ I enjoyed this book; it warmed me up to the idea of notetaking. Before, I though
 
 Logseq is an excellent tool for this workflow, compared to tools that use a folder organization structure like Evernote, which makes it challenging to connect unrelated topics.
 
-![image.png](/assets/image_1661224965779_0.png)
+![ ](/assets/image_1661224965779_0.png)
 
 > The problem with sorting by topic is you're faced with the dilemma of adding either more notes to one topic which makes the letters harder to find or adding more topics and subtopics to it which causes the same problem at a higher level.
 
@@ -38,7 +37,7 @@ You can use the smart notes method for both idea generation and notetaking. The 
 
 The method originates from the technique called Zettelkasten, developed by the 19th-century German sociologist [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann). He took notes on index cards with references to other notes rather than organizing the notes purely by topic. The author spends a lot of time detailing Luhmann's method, and it's a good source of inspiration. However, I don't take his method too literally and try to leverage new technology to enable workflows that might not have been possible for him.
 
-# Permanent notes
+## Permanent notes
 
 > Permanent Notes are directed towards an audience who are ignorant of the thoughts behind the text and unaware of the original context. They are only equipped with a general kledge of the field.
 
@@ -51,12 +50,12 @@ For example:
 
 > A 5% improvement in some area of your life per year can mean that you are twice as good at something in 15 years.
 
-## Ideas for Permanent Notes
+### Ideas for Permanent Notes
 
 
 The criteria for a permanent note is the idea is "permanently" applicable outside the original context. These permanent notes live on pages related to topics such as "AWS Networking" or a page for the book I discovered the idea. In Logseq, the location of the note isn't that important because you can embed and reference it on other pages.
 
-# Backlinks
+## Backlinks
 
 
 > The archivist asks which keyword is the most fitting. The writer asks under which circumstances will I want to stumble upon this note again, even if I forget it?
@@ -71,69 +70,69 @@ Examples of backlinks:
 
 Logseq makes it easy to discover backlinks  with the linked references view.
 
-![logseq-backlinks.png](/assets/logseq-backlinks_1672106283718_0.png)
+![ ](/assets/logseq-backlinks_1672106283718_0.png)
 
-# Index pages
+## Index pages
 
 
 Another useful concept is creating an index page that is meant to be the entry point to a topic and organizing other pages that may contain many links. These can include short descriptions to introduce a topic.
 
-![logseq-index-page.png](/assets/logseq-index-page_1672106310847_0.png)
+![ ](/assets/logseq-index-page_1672106310847_0.png)
 
-# Smart Notes Method
+## Smart Notes Method
 
 
-## 1. Make fleeting notes whenever you have an idea
+### 1. Make fleeting notes whenever you have an idea
 
 
 Sometimes you'll spontaneously have an idea and want to write it down. These might be questions you have or ideas to investigate.
 
 Logseq automatically creates a page for the current date; I use this to record thoughts as I have them. I try to record the ideas with two tags: one general and one more specific.
 
-## 2. Make Literature Notes
+### 2. Make Literature Notes
 
 
 The Smart Notes book encourages you to take notes on everything you read. Literature notes are short summaries of the source material and very selective use of quotations. I create dedicated pages on Logseq for the book or article I'm reading.
 
-### Notes from Designing Data-Intensive Applications
+#### Notes from Designing Data-Intensive Applications
 
 
-![Screenshot 2022-12-26 at 4.00.55 PM.png](/assets/Screenshot_2022-12-26_at_4.00.55_PM_1672106492396_0.png)
+![ ](/assets/Screenshot_2022-12-26_at_4.00.55_PM_1672106492396_0.png)
 
-### Notes from Egoscue home therapy
+#### Notes from Egoscue home therapy
 
 
 Whenever I read the source material, I link to the literature note page in my daily notes to remind me what I did that day and for organizational purposes.
 
-## 3. Make Permanent Notes at the end of the day
+### 3. Make Permanent Notes at the end of the day
 
 
 The distinction between fleeting notes and literature notes is less important than between permanent notes and all other notes.
 
-### Turning fleeting notes into permanent notes
+#### Turning fleeting notes into permanent notes
 
 
 At the end of the day, I go through my daily notes, turn them into permanent notes, and put them on dedicated pages if they're worthwhile. If the ideas need to be more valuable or developed, I leave them on the daily notes so I can still discover them .
 
-### Turning literature notes into permanent notes
+#### Turning literature notes into permanent notes
 
 
 I usually take literature notes on a page dedicated to the book or article I'm reading, and I often write permanent notes on this page. I have templates for frequent tasks like reading that help me fill out permanent notes. The templates prompt me to answer: "Describe the book in 3 sentences", "Impressions on the book," and "How the book changed me."
 
-![smart-notes-review.png](/assets/smart-notes-review_1672106564784_0.png)
+![ ](/assets/smart-notes-review_1672106564784_0.png)
 
 Also, I look through the literature notes I've taken recently and compare them with related pages and permanent notes. I write permanent notes on different pages in different contexts based on the literature notes and create references.
 
 The two-pass method of taking notes and then converting them into permanent notes helps our notes be understandable outside the initially discovered context.
 
-## 4. Decide on a topic to write about based on your notes
+### 4. Decide on a topic to write about based on your notes
 
 
 After taking extensive notes on a topic, an interesting angle or connection should appear. You can start a page for the subject and look through your logseq graph for supporting details.
 
 Separating idea intake and notetaking from content creation is excellent because they require different mindsets, which helps you focus effectively. This blog post is an example of a written output based on my notes.
 
-# Conclusion
+## Conclusion
 
 
 I thoroughly enjoyed the How to Take Smart Notes book and recommend it to anyone engaging in notetaking or writing. My biggest takeaway is using notetaking to continually prime my brain for writing and  for a topic to emerge, rather than sitting down with a blank slate and trying to write something.

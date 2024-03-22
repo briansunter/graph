@@ -8,19 +8,15 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-06-19
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 2
 description: Intro to using AI to take notes and examples from of the community using the logseq openai plugin
 coverimage: ../../assets/kubernetes-gpt_1672123546658_0.jpeg
----newsletter-subscribers:: 30
-sent-date:: [[Jun 19th, 2022]]
-start-date:: [[Jun 15th, 2022]]
-
+---
 
 
 ![kubernetes-gpt.jpeg | hidden](/assets/kubernetes-gpt_1672123546658_0.jpeg)
 
-## Summary and Reflection 🤔
+### Summary and Reflection 🤔
 
 
 I couldn't be happier about the positive reactions to my new projects and newsletter.
@@ -45,12 +41,12 @@ The plugin is called [logseq-gtp3-openai](https://github.com/briansunter/logseq-
 
 In this newsletter, I'll share some of the community's reactions to my new AI plugin, some thoughts on productivity, a few interesting reads from the week, and what I have for the next newsletter issue.
 
-# Updates 🆕
+## Updates 🆕
 
 
 Here is some feedback for users on Twitter
 
-# Feedback on [[logseq-openai/project]] plugin
+## Feedback on [[logseq-openai/project]] plugin
 
 
 This user summed up how I feel perfectly.  that AI is part of my workflow, I want to keep it.
@@ -99,11 +95,11 @@ Putting your work on the internet makes you realize how big the world is. I love
 
 https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai/
 
-![Screenshot 2022-12-26 at 8.52.16 PM.png](/assets/Screenshot_2022-12-26_at_8.52.16_PM_1672123954817_0.png)
+![ ](/assets/Screenshot_2022-12-26_at_8.52.16_PM_1672123954817_0.png)
 
 {{< tweet user="gpbollbach" id="1537146633116340226" >}}
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 In this section, I'll share a productivity tip I've learned recently.
@@ -120,10 +116,10 @@ This technique helps me focus on what will truly move my life forward and end ea
 
 See my post on the subject here: [[daily highlight productivity technique]]
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
-## Quote
+### Quote
 
 
 The Last Question is a short story by Isaac Asimov.
@@ -145,7 +141,7 @@ symbols and operations into a question which, in words, might have corresponded 
 
 Related: [The Last Answer](https://highexistence.com/the-last-answer-short-story/)
 
-## Link of the week
+### Link of the week
 
 
 I remember when I first moved to San Francisco, and Uber was  a "match muni" promotion, where you could take an Uber anywhere in the city for $2.25 (same as the "muni" bus)
@@ -160,12 +156,12 @@ It may be an excellent excuse to find other hobbies than watching Netflix and or
 
 {{< tweet user="Bsunter" id="1537546979357564928" >}}
 
-# Analytics 📈
+## Analytics 📈
 
 
 Twitter Analytics are fun. I am the ultimate late-comer to Twitter and started using it for the first time this month. Last month I had -1 new follower. This month I gained around 200 so far. I had a few "hit" logseq plugins, so I don't expect this growth to continue forever, but seeing the numbers go up is fun.
 
-# Outro
+## Outro
 
 
 Thanks for reading! This week I announced my new plugin and shared some feedback from the community.

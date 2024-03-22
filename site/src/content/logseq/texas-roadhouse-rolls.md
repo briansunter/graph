@@ -5,13 +5,12 @@ tags:
   - recipe
 categories: recipe
 date: 2022-06-26
-lastMod: 2024-03-18
 ---
 
-## INGREDIENTS:
+### INGREDIENTS:
 
 
-### Roadhouse Rolls
+#### Roadhouse Rolls
 
 
 3.25 teaspoons instant yeast - 12g
@@ -36,7 +35,7 @@ lastMod: 2024-03-18
 
 Smoked flakey salt
 
-### Charred Cinnamon Honey Butter:
+#### Charred Cinnamon Honey Butter:
 
 
 3 cinnamon sticks, lightly charred, broken into tiny pieces by pounding
@@ -57,7 +56,7 @@ Smoked flakey salt
 
 1 vanilla bean, scraped of beans
 
-## INSTRUCTIONS:
+### INSTRUCTIONS:
 
 
 Roadhouse Rolls (around 65-68% hydration)
@@ -80,14 +79,14 @@ Take the wrap off, spray them with water and immediately put them in the oven fo
 
 Brush each one of the buns with melted butter, and sprinkle some smoked flaky salt on top.
 
-### Cinnamon Honey Butter:
+#### Cinnamon Honey Butter:
 
 
 Place the softened butter, salt, a black pepper pinch, two teaspoons of cinnamon powder, a pinch of freshly grated nutmeg, and the beans of a vanilla bean pod in a mixing bowl and whisk until smooth. Add powder sugar and whisk vigorously to incorporate some air.
 
 Add and incorporate honey.
 
-## Notes
+### Notes
 
 
 (65-68% hydration)

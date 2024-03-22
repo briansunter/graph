@@ -5,7 +5,6 @@ tags:
   - cooking
   - programming
 date: 2022-09-21
-lastMod: 2024-03-18
 description: Cooklang is like markdown for recipes. It lets you write recipes in a human-readable format that a computer can parse to get the ingredient list, steps, etc.
 ---
 
@@ -17,7 +16,7 @@ I don't want to write my recipes in completely unstructured text because I can't
 
 I like cooklang because you can read it like a recipe. I also like that you can list the ingredients throughout the steps, and it automatically builds an ingredients list. You don't have to maintain a dedicated ingredients list, and it's easier to update.
 
-## Cooklang Recipe
+### Cooklang Recipe
 
 
 Below is an example of a Cooklang recipe:
@@ -48,12 +47,12 @@ Repeat, flipping steak every ~{30%seconds} until it has developed a nice brown s
 Serve steak immediately
 ```
 
-## Cooklang syntax
+### Cooklang syntax
 
 
 Although the text is human readable, this is what the special syntax means.
 
-### Ingredients
+#### Ingredients
 
 
 `@ingredient{quantity%unit}`  for example  `@butter{30%g}`
@@ -62,24 +61,24 @@ You can specify simple ingredients using  `@` , for example,  `@salt`
 
 Ingredients with spaces can use curly braces  `@ground pepper{}`
 
-### Time
+#### Time
 
 
 You can specify time using  `~{quantity%units}`  like  `~{30%seconds}`
 
-### Metadata
+#### Metadata
 
 
 You can add metadata using the  `>>key: value`  syntax.
 
 `>>source: https://www.seriouseats.com/food-lab-complete-guide-to-sous-vide-steak`
 
-### Cookware
+#### Cookware
 
 
 You can specify cookware needed with  `#cookware{}`  like  `#potato masher{}`.
 
-### Conclusion
+#### Conclusion
 
 
 Overall I'm delighted with cooklang. It was pretty easy to integrate with my static site and the [Obsidian](https://obsidian.md/) cooklang plugin works well. I hope to collect my favorite recipes and continue to tune them over time.

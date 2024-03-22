@@ -4,7 +4,6 @@ slug: logseq-projects
 tags:
   - blog
 date: 2022-08-21
-lastMod: 2024-03-18
 blogtitle: How to manage projects in Logseq
 description: How can we organize complex tasks that involve multiple steps over multiple days in Logseq?
 coverimage: ../../assets/beebob_checkmark_in_checkbox_app_eea7631b-472d-4e91-acba-590250d7106c_1672269960068_0.jpg
@@ -34,10 +33,10 @@ In this guide, I'll share some of my thinking around projects, what I track, and
 
 Body
 
-# Project Intro
+## Project Intro
 
 
-## What is a project?
+### What is a project?
 
 
 Logseq has a [task management system]([[logseq-tasks]]) that includes a checkbox you can put anywhere in your notes. This functions like the traditional "todo list app" you're used to.
@@ -52,7 +51,7 @@ An example of this would be "gain 100 newsletter subscribers"
 
 Your project has a "goal", a long term timeline, and many different tasks that you need to do consistently.
 
-## Why projects?
+### Why projects?
 
 
 Progress on developing your mental models starts with writing them down in detail, especially with life workflows.
@@ -65,7 +64,7 @@ Working on multiple projects and balancing the time you work on them can be comp
 
 Logseq helps you create a priotized "work feed" of all your active projects, so you can make sure none of them stall.
 
-## High level values and initiatives
+### High level values and initiatives
 
 
 Before starting tasks and take notes, I think it's worth to do some thinking about what your high level values and prioties are, and writing them down.
@@ -90,69 +89,66 @@ Travel More
 
 You may have completely different goals than me and your values may change over time.
 
-# My Current Project Template
+## My Current Project Template
 
 
 This is the template I use to generate projects in logseq.
 
 I'll explain everything in the next section.
 
-## Project Properties
+### Project Properties
 
 
 ```
-start-date:: 
-milestone-date:: 
-desired-end-date:: 
 ```
 
-# Tour of my project-template
+## Tour of my project-template
 
 
-## Summary
+### Summary
 
 
 Each project has at least a 1 sentence summary of what it is and why it's important
 
 This is useful for thinking about the project, and refreshing your memory if you return to it years .
 
-## Status
+### Status
 
 
 Each project has a number of states
 
-### Unplanned
+#### Unplanned
 
 
 If there's no state, the project is considered unplanned or in draft.
 
-### todo
+#### todo
 
 
 After I've decided the project is defined and worthwhile. I mark the status as todo
 
-### NEXT
+#### NEXT
 
 
 NEXT means this will be the project I work on next, after I finish one of my current projects
 
 This helps me prepare for upcoming projects
 
-### 
+#### 
 
 
 This is a project I'm currently working on
 
 I work on each active project every few days
 
-### REVIEW
+#### REVIEW
 
 
 This means I've finished work on the project, and  am reflecting on the results.
 
 I plan to add a more extensive project review step, but for  I just spend some time reflecting on what the outcome was, what could have been improved, what I learned, what I'll do better next time, etx.
 
-## Deadlines
+### Deadlines
 
 
 I usually don't take deadlines too seriously, but I almost always make projects timebound.
@@ -161,26 +157,26 @@ I build in both a milestone checkin date half way through and a deadline
 
 Usually my projects last around 3 months
 
-### Start
+#### Start
 
 
 The date I started working on the project
 
-### Milestone
+#### Milestone
 
 
 Half way between the start and end date of the project
 
 I use this half way point to reflect on my progress
 
-### End
+#### End
 
 
 The intended end date of the project
 
 I adjust this if needed during the half way milestone
 
-## Metrics
+### Metrics
 
 
 If possible, I like to attach metrics to projects.
@@ -190,18 +186,16 @@ If I'm  a fitness project, I might take note of my lifting numbers and bodyweigh
 exercise
 
 ```
-exercise/leg-press/weight:: 200
-newsletter/subscribers:: 210
 ```
 
-## References
+### References
 
 
 In this section, I capture any references or learning materials I may need
 
 When I find a relevent resource, I save it in my daily notes and tag it with the project. If the reference is especially good I move it from my daily notes into this section when going through linked referenced.
 
-## Related long term goals
+### Related long term goals
 
 
 Each task is attached to a very high level long term goal
@@ -210,14 +204,14 @@ I plan most of these as a part of my yearly planning.
 
 Example include: lose weight, get better at programming, improve social life, etc.
 
-## Desired output
+### Desired output
 
 
 What do I want the result of this project to be? What would I be  afterward?
 
 For example, for my weighlifting routine, I could say I want to squat 225 pounds. Or that I would feel healthier and fit into my old clothes.
 
-## Tasks
+### Tasks
 
 
 These are one time tasks I need to accomplish
@@ -226,7 +220,7 @@ I usually add a lot of these before starting the project, but I continue to add 
 
 If I think of a necessary task for a project, I write it in my daily notes and tag the project, then pull it into this section .
 
-## Habits
+### Habits
 
 
 The main area of focus in my projects are on the habits.
@@ -239,7 +233,7 @@ Some tasks I work on every day, but some I only work on every 3 days.
 
 See my [[logseq-tasks]] guide for more details
 
-# Conclusion
+## Conclusion
 
 
 I hope you enjoyed this guide to my logseq project template. Next week I'll walk through an example of one of my projects for the newsletter [[100 newsletter subscribers]]

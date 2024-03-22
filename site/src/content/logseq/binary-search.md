@@ -8,15 +8,14 @@ tags:
   - algorithms
 categories: programming
 date: 2023-01-05
-lastMod: 2024-03-18
 blogtitle: Abdul Bari Algorithms - Binary Search
 description: How to implement binary search recursively and iteratively
 coverimage: ../../assets/binary-search_1673042669678_0.jpeg
 ---
 
-![binary-search.jpeg](/assets/binary-search_1673042669678_0.jpeg)
+![ ](/assets/binary-search_1673042669678_0.jpeg)
 
-# Binary Search Iterative
+## Binary Search Iterative
 
 
 {{< youtube C2apEw9pgtw >}}
@@ -37,9 +36,9 @@ Suppose we want to search for key element 42 in this list
 
 `middle` is the floor of $\frac{\text{low} + \text{high}}{2}$
 
-#+BEGIN_NOTE
+##+BEGIN_NOTE
 His examples used starting index of 1, but I changed it to index starting at 0 in these notes. I also changed end index to length-1
-#+END_NOTE
+##+END_NOTE
 
 `low` is index 0 and `high` is index 14, so `mid` is 7
 
@@ -73,15 +72,15 @@ $\frac{10+10}{2} = 10$ so the new `mid` is 10
 
 If we had been  linear search it would have taken 11 comparisons
 
-#+BEGIN_WARNING
+##+BEGIN_WARNING
 This implementation has a subtle bug, where it fails for very large arrays. See this [blog post](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html) about this bug.
 
 `int mid = (low + high) / 2;` (incorrect)
 vs
 `int mid = low + ((high - low) / 2);` (correct)
-#+END_WARNING
+##+END_WARNING
 
-## Implementation
+### Implementation
 
 
 ```js
@@ -103,7 +102,7 @@ return -1;
 }
 ```
 
-## Visualize as Binary Search Tree
+### Visualize as Binary Search Tree
 
 
 {{youtube-timestamp 815}} This can be arranged as a binary search tree
@@ -118,7 +117,7 @@ The height of the tree is $log_2(n)$ where n is the number of elements
 
 So worst case is $O(log(n))$ and best case is $O(1)$, when the element you're looking for is the root.
 
-# Binary Search Recursive
+## Binary Search Recursive
 
 
 {{< youtube uEUXGcc2VXM >}}
@@ -156,7 +155,7 @@ if (low === high){
 }
 ```
 
-## Recurrence Relation
+### Recurrence Relation
 
 
 {{youtube-timestamp 297}} Calculating mid, checking if `mid` = `key`, and checking if `array[mid]` is greater or less than target each take one unit of time.

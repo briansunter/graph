@@ -7,18 +7,17 @@ tags:
   - algorithms
 categories: programming
 date: 2022-07-10
-lastMod: 2024-03-18
 blogtitle: Algorithms Boot Camp
 description: I'm organizing some of my notes on data structures and algorithms in a "boot camp" form.
 coverimage: ../../assets/image_1657488579000_0_1672131758605_0.png
 ---
 
-![image_1657488579000_0.png](/assets/image_1657488579000_0_1672131758605_0.png)
+![ ](/assets/image_1657488579000_0_1672131758605_0.png)
 
-# Intro
+## Intro
 
 
-## About this Guide
+### About this Guide
 
 
 Data structures and algorithms are among the most valuable concepts to learn in computer science.
@@ -31,7 +30,7 @@ I'm not writing this guide from an expert's perspective but rather from a studen
 
 Feel free to [correct me, make suggestions, and ask questions on Twitter.](https://twitter.com/Bsunter) This guide is a living document; hopefully, a community of like-minded people will benefit from it.
 
-## How the Bootcamp Works
+### How the Bootcamp Works
 
 
 I built out a complete outline for every algorithm topic here [[algorithms-boot-camp-study-guide]]
@@ -44,7 +43,7 @@ I'll send a [[newsletter]] post about a new topic each week. All the future topi
 
 If you're interested in learning algorithms or how to use logseq, you can follow me on this site, [Twitter](https://twitter.com/Bsunter), or the [[newsletter]] to get updates.
 
-## Why Learn Algorithms?
+### Why Learn Algorithms?
 
 
 Sometimes you will face a complex problem at work requiring in-depth kledge of data structures and algorithms.
@@ -53,7 +52,7 @@ If you don't understand algorithms, you may accidentally write code that runs ex
 
 Companies are also asking questions like these in technical interviews, so even if you don't use them daily, you should k them if you're interviewing or conducting interviews. It's like the new IQ test.
 
-## Who is this for?
+### Who is this for?
 
 
 You k a little bit of programming and want to get better at algorithms
@@ -62,16 +61,16 @@ You are an experienced programmer and want to solidify your kledge of algorithms
 
 You are interested in my process for taking notes on code in logseq
 
-# Roadmap
+## Roadmap
 
 
-## Phase 1
+### Phase 1
 
 
-### Intro to Algorithms, Sorting, and Time Complexity
+#### Intro to Algorithms, Sorting, and Time Complexity
 
 
-#### [[intro-to-algorithms]]
+##### [[intro-to-algorithms]]
 
 
 Intro to the Boot Camp
@@ -82,7 +81,7 @@ Data Structures 101
 
 Sorting and Bubble Sort
 
-#### [[time complexity]]
+##### [[time complexity]]
 
 
 [[posteriori-vs-a-priori-analysis-of-algorithms]]
@@ -90,7 +89,7 @@ Sorting and Bubble Sort
 Time Complexity / Space Complexity Overview
 
 Big O Notation
-collapsed:: true
+
 
 Worst Case
 
@@ -104,7 +103,7 @@ Arithmetic Series
 
 Bubble Sort Analysis
 
-#### Typescript Overview
+##### Typescript Overview
 
 
 Typescript Intro
@@ -115,11 +114,11 @@ Test Driven Development
 
 Design Patterns
 
-### Recursion
+#### Recursion
 
 
 Recursion 101
-collapsed:: true
+
 
 Base Case
 
@@ -132,40 +131,40 @@ Recursive Exponent
 Fibonacci Numbers
 
 Recursion in Detail
-collapsed:: true
+
 
 Is Palindrome
 
 Pascals Triangle
 
 Backtracking
-collapsed:: true
+
 
 Valid Parenthesis
 
 N Queens
 
 Limitations
-collapsed:: true
+
 
 Call Stack
 
 Tail Recursion
 
-### Divide and Conquer
+#### Divide and Conquer
 
 
 Merge Sort
 
-### Linked List
+#### Linked List
 
 
-#### Linked List 101
+##### Linked List 101
 
 
 Typescript Implementation
 
-#### Operations
+##### Operations
 
 
 Insert
@@ -174,7 +173,7 @@ Delete
 
 Find
 
-#### Problems
+##### Problems
 
 
 Reverse

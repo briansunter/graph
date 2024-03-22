@@ -7,21 +7,13 @@ tags:
   - algorithms
 categories: newsletter
 date: 2022-08-23
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 8
 description: Integer Sum Formula, Donald Knuth on Email, and Werner Herzog
 coverimage: ../../assets/image_1665465573710_0.png
----newsletter-subscribers:: 253
-site-hits::
-revue-link::
-tweet-impressions::
-sent-date::
-profile-visits::
-start-date:: [[Sep 5th, 2022]]
+---
 
 
-
-# Summary and Reflection 🤔
+## Summary and Reflection 🤔
 
 
 I'm continuing to work on the [[algorithms-boot-camp]] section of this site.
@@ -32,13 +24,13 @@ I'm going over some math in Volume 1 of The Art of Computer Programming by Donal
 
 I also am interested in Werner Herzog's new movie about consciousness and brain-computer interfaces called "Theatre of Thought'. Herzog is a fascinating person, and I wrote some notes on his unconventional approach to filmmaking [here]([[Werner Herzog Rules for Filmmaking]])
 
-# Updates 🆕
+## Updates 🆕
 
 
-### [[integer-sum-formula]]
+#### [[integer-sum-formula]]
 
 
-![image.png](/assets/image_1665465573710_0.png)
+![ ](/assets/image_1665465573710_0.png)
 
 How do you find the sum of the numbers 1 through 100?
 
@@ -50,7 +42,7 @@ This is a good problem for studying math proofs because this equation has many d
 
 For more, see my note on [[integer-sum-formula]]
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 In this section, I'll share a productivity tip I've learned recently.
@@ -61,10 +53,10 @@ We are more connected and have more information than ever, but it's almost impos
 
 Interestingly, some of the most outstanding computer scientists, like Donald Knuth and Edsger W. Dijkstra, were cautious about certain technology trends like email.
 
-## On Email
+### On Email
 
 
-![image.png](/assets/image_1665467044511_0.png)
+![ ](/assets/image_1665467044511_0.png)
 
 Donald Knuth is a computer scientist who has been writing a book series called "The Art of Computer Programming" for over 50 years. The book is a comprehensive treatise on the subject of computer programming.
 
@@ -86,10 +78,10 @@ Here's what he thinks about email:
 
 [See Knuth's post on email, for more.](https://www-cs-faculty.stanford.edu/~knuth/email.html)
 
-## Knuth Reward Checks
+### Knuth Reward Checks
 
 
-![image.png](/assets/image_1665466908028_0.png)
+![ ](/assets/image_1665466908028_0.png)
 
 There is an email address for reporting errors in his books, but his secretary filters and prints the messages for him. The email address is strictly for reporting his book's technical, typographical, or historical errors.
 
@@ -97,14 +89,14 @@ If you are the first to find an error, Donald Knuth will personally write you a 
 
 For more info on [Knuth Checks, see here.](https://en.wikipedia.org/wiki/Knuth_reward_check)
 
-# Brain Food 🧠 Theater of Thought
+## Brain Food 🧠 Theater of Thought
 
 
 In this section, I'll share some interesting articles and "food for thought"
 
 Werner Herzog is a german filmmaker who has produced, written, and directed more than sixty feature and documentary films. I appreciate his unconventional creativity and the sound of his voice.
 
-### [[Werner Herzog Rules for Filmmaking]]
+#### [[Werner Herzog Rules for Filmmaking]]
 
 
 He just released a new movie about consciousness and brain-computer interfaces called "Theatre of Thought."
@@ -117,7 +109,7 @@ He interviews people working on technology that lets your brain communicate dire
 
 I've taken some [notes on Herzog's creative approach to filmmaking here]([[Werner Herzog Rules for Filmmaking]]).
 
-# Outro
+## Outro
 
 
 Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Get in touch with me on [twitter @bsunter](https://twitter.com) if you have any questions or comments!

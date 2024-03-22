@@ -5,16 +5,13 @@ tags:
   - reading
   - travel
 date: 2022-05-08
-lastMod: 2024-03-18
 description: John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
 coverimage: ../../assets/travels-with-charley_1672052430785_0.jpeg
----date-finished:: [[May 20th, 2022]]
-date-started:: [[May 8th, 2022]]
+---
 
+![ ](/assets/travels-with-charley_1672052430785_0.jpeg)
 
-![travels-with-charley.jpeg](/assets/travels-with-charley_1672052430785_0.jpeg)
-
-# What’s it About
+## What’s it About
 
 
 John Steinbeck sets out on a road trip across America with his standard poodle, Charley, in search of "the character of the country."
@@ -23,19 +20,19 @@ He starts in the Northeast and heads West, eventually heading down to the deep S
 
 Steinbeck wrote that he was moved by a desire to see his country on a personal level since he had only experienced it through the media and secondhand accounts.
 
-# How I Discovered It
+## How I Discovered It
 
 
 I was looking up books by John Steinbeck and picked one that was shorter and more fun. East of Eden was too overwhelming in terms of scope and number of characters for me.
 
-# Thoughts
+## Thoughts
 
 
 I enjoyed the book overall, especially the relationship with the poodle Charley.
 
 The book gives a good snapshot of 1960s America.
 
-# My Top 3 Quotes
+## My Top 3 Quotes
 
 
 > Once a journey is designed, equipped, and put in process, a new factor enters and takes over. A trip, a safari, an exploration, is an entity, different from all other journeys. It has personality, temperament, individuality, uniqueness. A journey is a person in itself; no two are alike. And all plans, safeguards, policing, and coercion are fruitless. We find after years of struggle that we do not take a trip; a trip takes us. Tour masters, schedules, reservations, brass-bound and inevitable, dash themselves to wreckage on the personality of the trip. Only when this is recognized can the blown-in-the-glass bum relax and go along with it. Only then do the frustrations fall away. In this a journey is like marriage. The certain way to be wrong is to think you control it.
@@ -44,7 +41,7 @@ The book gives a good snapshot of 1960s America.
 
 >A kind of second childhood falls on so many men. They trade their violence for the promise of a small increase of life span. In effect, the head of the house becomes the youngest child. And I have searched myself for this possibility with a kind of horror. For I have always lived violently, drunk hugely, eaten too much or not at all, slept around the clock or missed two nights of sleeping, worked too hard and too long in glory, or slobbed for a time in utter laziness. I've lifted, pulled, chopped, climbed, made love with joy and taken my hangovers as a consequence, not as a punishment. I did not want to surrender fierceness for a small gain in yardage.
 
-# What I Liked
+## What I Liked
 
 
 It captures the essence of being on an American road-trip perfectly
@@ -57,37 +54,37 @@ I enjoy the historical commentary about things going on at the time, like nuclea
 
 His admiration for the American worker.
 
-# What I Disliked
+## What I Disliked
 
 
 The book claims to be nonfiction but does feel fictionalized at times. I don't mind the half-fictionalization, though.
 
-# Notes
+## Notes
 
 
-## Setting
+### Setting
 
 
 On the open road in 1960s America
 
-![image.png](/assets/image_1660803645375_0.png)
+![ ](/assets/image_1660803645375_0.png)
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1VTg1qhHkc105luSUdD3wTTa2VX0&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
 
-![image.png](/assets/image_1660803669308_0.png)
+![ ](/assets/image_1660803669308_0.png)
 
-## Characters
+### Characters
 
 
 *John Steinbeck**: This book's famous author before he won the Pulitzer prize. He doesn't talk about himself much in the book, so we get a sense of who he is by what he does. You can tell he thinks of himself as a manly man who critiques the idea that men should take life easier and soften up. He's mostly an objective observer and interviewer of people he meets in the book, but he sometimes can't help but give his opinion.
 
-![image.png](/assets/image_1660803679444_0.png)
+![ ](/assets/image_1660803679444_0.png)
 
 *Charley**: John Steinbeck's faithful standard poodle accompanies him on his journey around America.
 
 > I took one companion on my journey—an old French gentleman poodle kn as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he ks a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
 
-![image.png](/assets/image_1660803691602_0.png)
+![ ](/assets/image_1660803691602_0.png)
 
 *Rocinante**: Steinbeck's camper van, named after Don Quixote's horse.
 
@@ -95,7 +92,7 @@ On the open road in 1960s America
 
 > I was advised that the name Rocinante painted on the side of my truck in sixteenth-century Spanish script would cause curiosity and inquiry in some places. I do not k how many people recognized the name, but surely no one ever asked about it.
 
-## Background
+### Background
 
 
 It was published in 1962, shortly after the author's death.
@@ -104,7 +101,7 @@ His travels start in Long Island, New York, and roughly follow the outer border 
 
 He won the Pulitzer year and the Nobel prize for Grapes of Wrath shortly after Travels with Charley was published.
 
-## Themes
+### Themes
 
 
 The importance of companionship and relationships
@@ -117,7 +114,7 @@ The power of memory
 
 The importance of first hand experience
 
-## book notes
+### book notes
 
 
 The book is divided into three sections: "Looking for America," "Finding America," and "America Observed."
@@ -126,7 +123,7 @@ In the first section, Steinbeck describes his motivation for the journey and pre
 
 In the second section, Steinbeck details his travels across America. He describes his interactions with a variety of people, from truckers and hitchhikers to police officers and politicians. He also includes Charley's perspective on the trip and his observations about the people and places he encounters.
 
-### Long island to Conneticut
+#### Long island to Conneticut
 
 
 > Submarines are armed with mass murder, our silly, only way of deterring mass murder
@@ -135,7 +132,7 @@ Do nuclear weapons limit political discussion?
 
 He talked with a sailor stationed on a submarine in New London, Connecticut, and was surprised the sailor enjoyed being on the submarine because it was "futuristic."
 
-### Maine
+#### Maine
 
 
 > I have always heard that Maine people are rather taciturn, but for this candidate for Mount Rushmore to point twice in an afternoon was to be unbearably talkative. He swung his chin in a small arc in the direction I had been traveling. If the afternoon had not been advancing I would have tried for another word from him even if doomed to failure. “Thank you,” I said, and sounded to myself as though I rattled on forever.
@@ -144,19 +141,19 @@ He visited small-town shops and restaurants and listened to the local radio.
 
 He visited "Abercrombie and Fitch," an outdoor supply store back then. I thought that was funny.
 
-### Upstate New York and Niagara Falls
+#### Upstate New York and Niagara Falls
 
 
 He comments on how much more freely strangers spoke to each other here and how different people were everywhere he went.
 
 He meets truck drivers at rest stops and notes how they are like the men he met at sea.
 
-### Midwest
+#### Midwest
 
 
 He discusses new technology, like televisions and mobile homes. He interviews families that live in mobile homes and notes how easily you can move to a new place or for a job.
 
-### Wisconsin and North Dakota
+#### Wisconsin and North Dakota
 
 
 He visits Sauk Centre, st Paul, and Minneapolis
@@ -165,7 +162,7 @@ He notes how people are afraid to speak out against the government and are confo
 
 > Nobody can find fault with you if you take out after the Russians. You think then we might be using Russians as an outlet for something else, other things. Why, I remember when people took everything out on Mr. Roosevelt
 
-### Montana, Yellowstone, Idaho, and Washington
+#### Montana, Yellowstone, Idaho, and Washington
 
 
 He visits Custer, the battlefield of Little Big Horn, Yellowstone, and the Great Divide in the Rocky Mountains.
@@ -181,7 +178,7 @@ He thinks about what it was like for Lewis and Clark to travel through these lan
 
 > It is impossible to be in this high spinal country without giving thought to the first men who crossed it, the French explorers, the Lewis and Clark men. We fly it in five hours, drive it in a week, dawdle it as I was  in a month or six weeks. But Lewis and Clark and their party started in St. Louis in 1804 and returned in 1806. And if we get to thinking we are men, we might remember that in the two and a half years of pushing through wild and unkn country to the Pacific Ocean and then back, only one man died and only one deserted. And we get sick if the milk delivery is late and nearly die of heart failure if there is an elevator strike
 
-### Seattle, Oregon, and California
+#### Seattle, Oregon, and California
 
 
 He notes how much Seattle has industrialized since he last visited.
@@ -196,7 +193,7 @@ He meets up with a friend from his hometown bar and hears about how everything h
 
 >  And Carmel, begun by starveling writers and unwanted painters, is  a community of the well-to-do and the retired. If Carmel’s founders should return, they could not afford to live there, but it wouldn’t go that far. They would be instantly picked up as suspicious characters and deported over the city line.
 
-### Arizona, New Mexico, Texas
+#### Arizona, New Mexico, Texas
 
 
 He passes through Arizona and New Mexico but spends most of his time in Texas.
@@ -211,7 +208,7 @@ Steinbeck describes how Texas is different than all other states.
 
 > I have moved over a great part of Texas and I k that within its borders I have seen just about as many kinds of country, contour, climate, and conformation as there are in the world saving only the Arctic, and a good north wind can even bring the icy breath down. The stern horizon-fenced plains of the Panhandle are foreign to the little wooded hills and sweet streams in the Davis Mountains. The rich citrus orchards of the Rio Grande valley do not relate to the sagebrush grazing of South Texas. The hot and humid air of the Gulf Coast has no likeness in the cool crystal in the northwest of the Panhandle. And Austin on its hills among the bordered lakes might be across the world from Dallas.
 
-### New Orleans and Mississippi
+#### New Orleans and Mississippi
 
 
 He travels to New Orleans and witnesses the conflict of desegregation in the south. He witnessed the schools desegregating, the people protesting integration by shouting at children while they tried to go to school, and the crowds gathered to watch.
@@ -221,7 +218,7 @@ This strange drama seemed so improbable that I felt I had to see it. It had the 
 
 > These blowzy women, with their little hats and their clippings, hungered for attention. They wanted to be admired. They simpered in happy, almost innocent triumph when they were applauded. Theirs was the demented cruelty of egocentric children, and somehow this made their insensate beastliness much more heart-breaking. These were not mothers, not even women. They were crazy actors playing to a crazy audience.
 
-### Conclusion and Return to New York
+#### Conclusion and Return to New York
 
 
 The third section contains Steinbeck's reflections on what he has learned from his journey. He discusses the differences he observed between the America of his youth and America of the 1960s. He also describes the changes he saw in himself and how the journey has affected his view of his country and its people.

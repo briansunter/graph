@@ -6,14 +6,13 @@ tags:
   - programming
 categories: programming, ai
 date: 2022-12-09
-lastMod: 2024-03-18
 description: Best resources for studying machine learning
 coverimage: ../../assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg
 ---
 
 <style>.toc ul ul { display:none;}</style>
 
-# Overview
+## Overview
 
 
 I'm very eager to start studying AI, but with so much to learn, I'm not sure where to start. Do I need a lot of math? What kind? Which areas should I focus on? How can I make sense of all the topics? What tools should I use? Additionally, how is the field developing, and what direction is it headed in?
@@ -32,17 +31,17 @@ Then I plan to study a variety of O'Reilly books focused on practical topics.
 
 Finally, I plan to study more in depth materials, such as a Berkeley AI course, some math textbooks, and some of the famous AI textbooks.
 
-# [Deeplearning AI Intro Course](https://www.coursera.org/specializations/machine-learning-introduction)
+## [Deeplearning AI Intro Course](https://www.coursera.org/specializations/machine-learning-introduction)
 
 
 Introductory course by Andrew Ng covering practical machine learning topics using Python
 
 Time: 2.5 months (5 hours/week)
 
-## Topics
+### Topics
 
 
-### Supervised learning
+#### Supervised learning
 
 
 Linear regression
@@ -55,7 +54,7 @@ Decision trees
 
 Tree Ensembles
 
-### Unsupervised learning
+#### Unsupervised learning
 
 
 Clustering
@@ -66,7 +65,7 @@ Recommender systems
 
 Anomaly detection
 
-### Tools
+#### Tools
 
 
 Python
@@ -79,7 +78,7 @@ Tensorflow
 
 XGBoost
 
-### Best Practices
+#### Best Practices
 
 
 Regularization to Avoid Overfitting
@@ -88,14 +87,14 @@ Evaluating and tuning models
 
 Improving performance
 
-# Deeplearning.ai Deep Learning Course
+## Deeplearning.ai Deep Learning Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/deep-learning-specialization/)
 
 Practical intermediate deep learning course by Andrew Ng
 
-## Topics
+### Topics
 
 
 Tensorflow
@@ -136,14 +135,14 @@ Attention Models
 
 Natural Language Processing
 
-# Practical Deep Learning Fast.ai
+## Practical Deep Learning Fast.ai
 
 
 A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.
 
 [Course Link](https://course.fast.ai/)
 
-## Topics
+### Topics
 
 
 Deployment
@@ -160,7 +159,7 @@ Collaborative filtering
 
 Convolutions (CNNs)
 
-# Deeplearning.ai Natural Language Course
+## Deeplearning.ai Natural Language Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
@@ -169,7 +168,7 @@ How to design NLP applications that perform question-answering and sentiment ana
 
 Time: 4 months (6 hours/week)
 
-## Topics
+### Topics
 
 
 Sentiment Analysis
@@ -210,7 +209,7 @@ Chatbots
 
 T5 + BERT Models
 
-# Deeplearning.io Tensorflow Data and Deployment Course
+## Deeplearning.io Tensorflow Data and Deployment Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-data-and-deployment-specialization/)
@@ -219,7 +218,7 @@ Learn how to get your machine learning models into the hands of real people on a
 
 Time: 4 months (3 hours/week)
 
-## Topics
+### Topics
 
 
 Tensorflow
@@ -240,7 +239,7 @@ Extraction, Transformation And Loading (ETL)
 
 Data Pipelines
 
-# Deeplearning.io Generative Adversarial Networks Course
+## Deeplearning.io Generative Adversarial Networks Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization/)
@@ -249,7 +248,7 @@ Introduction to image generation with GANs, charting a path from foundational co
 
 Time: 3 months (8 hours/week)
 
-## Topics
+### Topics
 
 
 Generator
@@ -276,7 +275,7 @@ Bias in GANs
 
 StyleGANs
 
-# Deeplearning.io Tensorflow Advanced
+## Deeplearning.io Tensorflow Advanced
 
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-advanced-techniques-specialization/)
@@ -285,7 +284,7 @@ Expand your kledge of the Functional API and build exotic non-sequential model t
 
 Time: 5 months (6 hours/week)
 
-## Topics
+### Topics
 
 
 Model Interpretability
@@ -312,7 +311,7 @@ Basic Tensor Functionality
 
 GradientTape for Optimization
 
-# Deeplearning.io MLOps Course
+## Deeplearning.io MLOps Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/)
@@ -321,7 +320,7 @@ How to conceptualize, build, and maintain integrated systems that continuously o
 
 Time: 4 months (5 hours/week)
 
-## Topics
+### Topics
 
 
 Data Pipelines
@@ -370,7 +369,7 @@ General Data Protection Regulation (GDPR)
 
 Model Registries
 
-# Deeplearning.io Data Science on AWS Course
+## Deeplearning.io Data Science on AWS Course
 
 
 [Course Link](https://www.deeplearning.ai/courses/practical-data-science-specialization/)
@@ -379,7 +378,7 @@ Develop the practical skills to effectively deploy your data science projects an
 
 Time: 3 months (5 hours/week)
 
-## Topics
+### Topics
 
 
 Automated Machine Learning (AutoML)
@@ -416,7 +415,7 @@ Cost Savings and Performance Improvements
 
 Human-in-the-Loop Pipelines
 
-# Huggingface Course
+## Huggingface Course
 
 
 {{< youtube 00GKzGyWFEs >}}
@@ -425,7 +424,7 @@ Human-in-the-Loop Pipelines
 
 This course will teach you about natural language processing (NLP) using libraries from the Hugging Face ecosystem — 🤗 Transformers, 🤗 Datasets, 🤗 Tokenizers, and 🤗 Accelerate — as well as the Hugging Face Hub.
 
-## Topics
+### Topics
 
 
 Transformer Models
@@ -442,10 +441,10 @@ Building and sharing demos
 
 Optimizing for production
 
-# Huggingface Diffusion Models Class
+## Huggingface Diffusion Models Class
 
 
-![hfdiffusion.png](/assets/hfdiffusion_1670997592570_0.png)
+![ ](/assets/hfdiffusion_1670997592570_0.png)
 
 [Course Link](https://github.com/huggingface/diffusion-models-class)
 
@@ -461,7 +460,7 @@ Optimizing for production
 
 🧑‍🔬 Create your own custom diffusion model pipelines
 
-## Topics
+### Topics
 
 
 pytorch
@@ -472,10 +471,10 @@ Fine tuning
 
 Stable Difussion
 
-# Huggingface Deep Reinforcement Learning Course
+## Huggingface Deep Reinforcement Learning Course
 
 
-![thumbnail.jpg](/assets/thumbnail_1670996834646_0.jpg)
+![ ](/assets/thumbnail_1670996834646_0.jpg)
 
 [Course Link](https://github.com/huggingface/deep-rl-class)
 
@@ -489,7 +488,7 @@ Stable Difussion
 
 🏆 Participate in challenges where you will **evaluate your agents against other teams. You’ll also get to play against the agents you’ll train.**
 
-## Topics
+### Topics
 
 
 Q-Learning
@@ -506,14 +505,14 @@ Decision Transformers
 
 offline Reinforcement Learning
 
-# Andrej Karpathy Neural Networks Zero to Hero Course
+## Andrej Karpathy Neural Networks Zero to Hero Course
 
 
 {{< youtube VMj-3S1tku0 >}}
 
 This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic kledge of Python and a vague recollection of calculus from high school.
 
-### Topics
+#### Topics
 
 
 Backpropagation
@@ -572,17 +571,17 @@ Gradient statistics
 
 Batchnorm
 
-# 3blue1brown YouTube courses
+## 3blue1brown YouTube courses
 
 
-## Neural Networks from the Ground Up
+### Neural Networks from the Ground Up
 
 
 The basics of neural networks, and the math behind how they learn
 
 {{< youtube aircAruvnKk >}}
 
-### Topics
+#### Topics
 
 
 Neural Networks
@@ -591,14 +590,14 @@ Gradient Descent
 
 Backpropagation
 
-## Essence of Linear Algebra
+### Essence of Linear Algebra
 
 
 An introduction to visualizing what matrices are really 
 
 {{< youtube fNk_zzaMoSs >}}
 
-### Topics
+#### Topics
 
 
 Vectors
@@ -641,14 +640,14 @@ Eigenvectors and Eigenvalues
 
 Abstract Vector spaces
 
-## Essence of Calculus
+### Essence of Calculus
 
 
 Visual introductions to the core ideas of derivatives, integrals, limits and more
 
 {{< youtube WUvTyaaNkzM >}}
 
-### Topics
+#### Topics
 
 
 Derivative
@@ -675,14 +674,14 @@ Higher Order Derivatives
 
 Taylor Series
 
-## Probability
+### Probability
 
 
 An assortment of introductory ideas in probability
 
 {{< youtube HZGCoVF3YvM >}}
 
-### Topics
+#### Topics
 
 
 Bayes Theorem
@@ -691,14 +690,14 @@ Binomial Distribution
 
 Probability Density Functions
 
-# Hands-On Machine Learning with Scikit-Learn and TensorFlow
+## Hands-On Machine Learning with Scikit-Learn and TensorFlow
 
 
 By using concrete examples, minimal theory, and two production-ready Python frameworks—scikit-learn and TensorFlow you gain an intuitive understanding of the concepts and tools for building intelligent systems. You’ll learn simple linear regression and progressing to deep neural networks. With exercises in each chapter to help you apply what you’ve learned, all you need is programming experience to get started.
 
 [Book Link](https://a.co/d/fOBe9wy)
 
-## Topics
+### Topics
 
 
 Types of Machine Learning Systems
@@ -713,7 +712,7 @@ Challenges of Machine Learning
 
 End-to-End Machine Learning Project
 
-### Classification
+#### Classification
 
 
 Binary Classifier
@@ -726,7 +725,7 @@ Confusion matrix
 
 Multiclass classification
 
-### Training Models
+#### Training Models
 
 
 Linear Regressions
@@ -761,7 +760,7 @@ Kernelized SVMs
 
 Online SVMs
 
-### Decision Trees
+#### Decision Trees
 
 
 Ensemble Learning and Random Forests
@@ -788,7 +787,7 @@ AdaBoost
 
 Gradient Boosting
 
-### Dimensionality Reduction
+#### Dimensionality Reduction
 
 
 PCA
@@ -801,14 +800,14 @@ Kernel PCA
 
 LLE
 
-### Unsupervised Learning
+#### Unsupervised Learning
 
 
 Clustering
 
 Gaussian Mixtures
 
-### Introduction to Artificial Neural Networks with Keras
+#### Introduction to Artificial Neural Networks with Keras
 
 
 From Biological to Artificial Neurons
@@ -817,7 +816,7 @@ Implementing MLPs with Keras
 
 Fine-Tuning Neural Network Hyperparameters
 
-### Training Deep Neural Networks
+#### Training Deep Neural Networks
 
 
 Vanishing/Exploding Gradients Problems
@@ -828,7 +827,7 @@ Faster Optimizers
 
 Avoiding Overfitting Through Regularization
 
-### Custom Models and Training with TensorFlow
+#### Custom Models and Training with TensorFlow
 
 
 Using TensorFlow like NumPy
@@ -837,7 +836,7 @@ Customizing Models and Training Algorithms
 
 TensorFlow Functions and Graphs
 
-### Loading and Preprocessing Data with TensorFlow
+#### Loading and Preprocessing Data with TensorFlow
 
 
 Data API
@@ -848,7 +847,7 @@ Preprocessing the Input Features
 
 TF Transform
 
-### Deep Computer Vision Using Convolutional Neural Networks
+#### Deep Computer Vision Using Convolutional Neural Networks
 
 
 Convolutional Layers
@@ -863,7 +862,7 @@ Object Detection
 
 Semantic Segmentation
 
-### Processing Sequences Using RNNs and CNNs
+#### Processing Sequences Using RNNs and CNNs
 
 
 Recurrent Neurons and Layers
@@ -874,7 +873,7 @@ Forecasting a Time Series
 
 Handling Long Sequences
 
-### Natural Language Processing with RNNs and Attention
+#### Natural Language Processing with RNNs and Attention
 
 
 Generating Shakespearean Text Using a Character RNN
@@ -887,14 +886,14 @@ Attention Mechanisms
 
 Transformers
 
-### Representation Learning and Generative Learning Using Autoencoders and GANs
+#### Representation Learning and Generative Learning Using Autoencoders and GANs
 
 
 Stacked Autoencoders
 
 Generative Adversarial Networks
 
-### Reinforcement Learning
+#### Reinforcement Learning
 
 
 Policy Search
@@ -907,7 +906,7 @@ Q-Learning
 
 TF-Agents Library
 
-### Training and Deploying TensorFlow Models at Scale
+#### Training and Deploying TensorFlow Models at Scale
 
 
 Serving a TensorFlow Model
@@ -916,16 +915,16 @@ Deploying a Model to a Mobile or Embedded Device
 
 Training Models Across Multiple Devices
 
-# SQL for Data Analysis
+## SQL for Data Analysis
 
 
-![714qourw99L.jpg](/assets/714qourw99L_1670744519576_0.jpg)
+![ ](/assets/714qourw99L_1670744519576_0.jpg)
 
 [Book Link](https://a.co/d/i0ZpwDy)
 
 You'll learn how to use both common and exotic SQL functions such as joins, window functions, subqueries, and regular expressions in new, innovative ways--as well as how to combine SQL techniques to accomplish your goals faster, with understandable code.
 
-## Topics
+### Topics
 
 
 Databases
@@ -966,16 +965,16 @@ Experiment Analysis
 
 Complex Data Sets
 
-# Practical Statistics for Data Scientists
+## Practical Statistics for Data Scientists
 
 
-![149207294X.01._SCLZZZZZZZ_SX500_.jpg](/assets/149207294X.01._SCLZZZZZZZ_SX500_1670724734688_0.jpg)
+![ ](/assets/149207294X.01._SCLZZZZZZZ_SX500_1670724734688_0.jpg)
 
 [Book Link](https://a.co/d/69tMYZB)
 
 Many data science resources incorporate statistical methods but lack a deeper statistical perspective. If you’re familiar with the R or Python programming languages and have some exposure to statistics, this quick reference bridges the gap in an accessible, readable format.
 
-## Topics
+### Topics
 
 
 Rectangular Data
@@ -1038,16 +1037,16 @@ Model Clustering
 
 Scaling and categorical variables
 
-# Essential Math for Data Science
+## Essential Math for Data Science
 
 
-![81RiDmmmEBL.jpg](/assets/81RiDmmmEBL_1670724182934_0.jpg)
+![ ](/assets/81RiDmmmEBL_1670724182934_0.jpg)
 
 [Book Link](https://a.co/d/dWTNNj8)
 
 Master the math needed to excel in data science, machine learning, and statistics. In this book author Thomas Nield guides you through areas like calculus, probability, linear algebra, and statistics
 
-## Topics
+### Topics
 
 
 Calculus
@@ -1082,16 +1081,16 @@ scikit-learn
 
 Data Science Career
 
-# Data Science from Scratch
+## Data Science from Scratch
 
 
-![81SCVWF4A1L.jpg](/assets/81SCVWF4A1L_1670742445031_0.jpg)
+![ ](/assets/81SCVWF4A1L_1670742445031_0.jpg)
 
 [Book Link](https://a.co/d/ipkNz6T)
 
 Get comfortable with the math and statistics at the core of data science, and with the hacking skills you need to get started as a data scientist. Packed with New material on deep learning, statistics, and natural language processing
 
-## Topics
+### Topics
 
 
 Python
@@ -1200,16 +1199,16 @@ scikit-learn
 
 visualization
 
-# Practical Natural Language Processing
+## Practical Natural Language Processing
 
 
-![91pDCEA5uTL.jpg](/assets/91pDCEA5uTL_1670750101817_0.jpg)
+![ ](/assets/91pDCEA5uTL_1670750101817_0.jpg)
 
 [Book Link](https://a.co/d/8ogyjPZ)
 
 This book gives a comprehensive view on building real world NLP applications. it covers the complete lifecycle of a typical NLP project - right from data collection to deploying and monitoring the model. Some of these steps are applicable to any ML pipeline while some are very specific to NLP. The book also introduces task-specific case studies and domain-specific guides to build an NLP system from scratch.
 
-## Topics
+### Topics
 
 
 NLP: A Primer
@@ -1234,16 +1233,16 @@ Healthcare, Finance, and Law
 
 The End-to-End NLP Process
 
-# Deep Learning from Scratch
+## Deep Learning from Scratch
 
 
-![71vAAIa10YL.jpg](/assets/71vAAIa10YL_1670748325496_0.jpg)
+![ ](/assets/71vAAIa10YL_1670748325496_0.jpg)
 
 [Book Link](https://www.amazon.com/Deep-Learning-Scratch-Building-Principles/dp/1492041416)
 
 Shows you how neural networks work using a first principles approach. You’ll learn how to apply multilayer neural networks, convolutional neural networks, and recurrent neural networks from the ground up. With a thorough understanding of how neural networks work mathematically, computationally, and conceptually
 
-## Topics
+### Topics
 
 
 Math Foundations
@@ -1260,16 +1259,16 @@ Recurrent Neural Networks
 
 PyTorch
 
-# Generative Deep Learning by David Foster
+## Generative Deep Learning by David Foster
 
 
-![71fGFYhl9WL.jpg](/assets/71fGFYhl9WL_1670829940119_0.jpg)
+![ ](/assets/71fGFYhl9WL_1670829940119_0.jpg)
 
 [Book Link](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947)
 
 Discover how to re-create some of the most impressive examples of generative deep learning models, such as variational autoencoders, generative adversarial networks (GANs), encoder-decoder models, and world models.
 
-## Topics
+### Topics
 
 
 Generative Versus Discriminative Modeling
@@ -1338,16 +1337,16 @@ BigGAN
 
 StyleGAN
 
-# Introducing MLOps
+## Introducing MLOps
 
 
-![mlops.jpeg](/assets/mlops_1670830679583_0.jpeg)
+![ ](/assets/mlops_1670830679583_0.jpeg)
 
 [Book Link](https://www.amazon.com/Introducing-MLOps-Machine-Learning-Enterprise/dp/1492083291)
 
 Introduces the key concepts of MLOps to help data scientists and application engineers not only operationalize ML models to drive real business change but also maintain and improve those models over time. Through lessons based on numerous MLOps applications around the world, nine experts in machine learning provide insights into the five steps of the model life cycle--Build, Preproduction, Deployment, Monitoring, and Governance
 
-## Topics
+### Topics
 
 
 People of MLOps
@@ -1404,10 +1403,10 @@ Marketing Recommendation Engines
 
 Consumption Forecast
 
-# Introduction to Statistical Learning
+## Introduction to Statistical Learning
 
 
-![1071614177.01._SCLZZZZZZZ_SX500_.jpg](/assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg)
+![ ](/assets/1071614177.01._SCLZZZZZZZ_SX500_1670647404075_0.jpg)
 
 [Book link](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics-dp-1071614177/dp/1071614177/ref=dp_ob_title_bk)
 
@@ -1419,7 +1418,7 @@ This book is targeted at statisticians and non-statisticians alike who wish to u
 
 Easier than **Elements of Statistical Learning**
 
-## Topics
+### Topics
 
 
 linear regression
@@ -1450,16 +1449,16 @@ Bayesian additive regression trees
 
 matrix completion
 
-# UC Berkeley CS188 Intro to AI
+## UC Berkeley CS188 Intro to AI
 
 
-![cs188_welcome.png](/assets/cs188_welcome_1671233486880_0.png)
+![ ](/assets/cs188_welcome_1671233486880_0.png)
 
 This introductory Berkeley course accompanies the "Artificial Intelligence: A Modern Approach" book and provides lectures and course materials
 
 [Course Link](http://ai.berkeley.edu/course_schedule.html)
 
-## Topics
+### Topics
 
 
 Uninformed Search
@@ -1496,10 +1495,10 @@ Kernels and Clustering
 
 Advanced Applications: NLP, Games, Cars, Robotics, and Computer Vision
 
-# Artificial Intelligence: A Modern Approach
+## Artificial Intelligence: A Modern Approach
 
 
-![513Hc42D83L.jpg](/assets/513Hc42D83L_1670836404894_0.jpg)
+![ ](/assets/513Hc42D83L_1670836404894_0.jpg)
 
 [Book Link](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597)
 
@@ -1509,7 +1508,7 @@ The de facto bible of artificial intelligence* It combines in-depth treatments o
 
 Focuses  on machine learning, deep learning, probabilistic programming, multiagent systems, and includes sections where the AI's utility function is uncertain, rather than certain.
 
-## Topics
+### Topics
 
 
 Problem-solving
@@ -1556,10 +1555,10 @@ Computer Vision
 
 Robotics
 
-# An Introduction to Probability and Inductive Logic
+## An Introduction to Probability and Inductive Logic
 
 
-![0521775019.01._SCLZZZZZZZ_SX500_.jpg](/assets/0521775019.01._SCLZZZZZZZ_SX500_1671236538109_0.jpg)
+![ ](/assets/0521775019.01._SCLZZZZZZZ_SX500_1671236538109_0.jpg)
 
 [Book Link](https://www.amazon.com/dp/0521775019?tag=bsunter06-20)
 
@@ -1567,16 +1566,16 @@ Book focused on probability and logic from a philosophical rather than mathemeti
 
 The book has been designed to offer maximal accessibility to the widest range of students (not only those majoring in philosophy) and assumes no formal training in elementary symbolic logic. It offers a comprehensive course covering all basic definitions of induction and probability, and considers such topics as decision theory, Bayesianism, frequency ideas, and the philosophical problem of induction.
 
-# Probability for the Enthusiastic Beginner
+## Probability for the Enthusiastic Beginner
 
 
-![61WkWvYJ9BL.jpg](/assets/61WkWvYJ9BL_1670723759360_0.jpg)
+![ ](/assets/61WkWvYJ9BL_1670723759360_0.jpg)
 
 This book is a resource for high school and college students learning about probability for the first time. It covers all of the standard introductory topics, such as combinatorics, the rules of probability, Bayes' theorem, and expectation value, and includes 150 worked-out problems. Calculus is not required, although some problems involve it. It can be used as a main text or supplement in an introductory probability course.
 
 [Book Link](https://www.amazon.com/Probability-Enthusiastic-Beginner-David-Morin/dp/1523318678)
 
-## Topics
+### Topics
 
 
 Combinatorics
@@ -1613,16 +1612,16 @@ Central limit theorem
 
 Correlation and regression
 
-# Elements of Statistical Learning
+## Elements of Statistical Learning
 
 
-![CoverII_small.jpg](/assets/CoverII_small_1670721320001_0.jpg)
+![ ](/assets/CoverII_small_1670721320001_0.jpg)
 
 [Book Link](https://hastie.su.domains/ElemStatLearn/)
 
 This book descibes the important ideas in  areas such as data mining, machine learning, and bioinformatics in a common conceptual framework. While the approach is statistical, the emphasis is on concepts rather than mathematics. Many examples are given, with a liberal use of color graphics. It should be a valuable resource for statisticians and anyone interested in data mining in science or industry.
 
-## Topics
+### Topics
 
 
 Overview of supervised learning
@@ -1659,10 +1658,10 @@ Undirected graphical models
 
 High-dimensional problems
 
-# Statistical Rethinking: A Bayesian Course
+## Statistical Rethinking: A Bayesian Course
 
 
-![statistical-rethinking.jpg](/assets/statistical-rethinking_1671779794786_0.jpg)
+![ ](/assets/statistical-rethinking_1671779794786_0.jpg)
 
 [Book Link](https://www.amazon.com/dp/1482253445?tag=bsunter06-20)
 
@@ -1670,7 +1669,7 @@ A modern course focused on bayesian statistics, and includes a course
 
 The text presents generalized linear multilevel models from a Bayesian perspective, relying on a simple logical interpretation of Bayesian probability and maximum entropy. It covers from the basics of regression to multilevel models. The author also discusses measurement error, missing data, and Gaussian process models for spatial and network autocorrelation.
 
-## Topics
+### Topics
 
 
 Sampling
@@ -1695,12 +1694,12 @@ covariance
 
 Missing data
 
-# Pattern Recognition and Machine Learning
+## Pattern Recognition and Machine Learning
 
 
-![61ECBlvkBCL._AC_SY780_.jpg](/assets/61ECBlvkBCL._AC_SY780_1670831683801_0.jpg)
+![ ](/assets/61ECBlvkBCL._AC_SY780_1670831683801_0.jpg)
 
-## Topics
+### Topics
 
 
 Probability Theory
@@ -1819,16 +1818,16 @@ Tree-based Models
 
 Conditional Mixture Models
 
-# Deep Learning Goodfellow Book
+## Deep Learning Goodfellow Book
 
 
-![61qbj4KwauL._SX258_BO1,204,203,200_.jpg](/assets/61qbj4KwauL._SX258_BO1,204,203,200_1670749190031_0.jpg)
+![ ](/assets/61qbj4KwauL._SX258_BO1,204,203,200_1670749190031_0.jpg)
 
 The text offers mathematical and conceptual background, covering relevant concepts in linear algebra, probability theory and information theory, numerical computation, and machine learning. It describes deep learning techniques used by practitioners in industry, including deep feedforward networks, regularization, optimization algorithms, convolutional networks, sequence modeling, and practical methodology
 
 [Book Link](https://www.deeplearningbook.org/)
 
-## Topics
+### Topics
 
 
 Linear Algebra
@@ -1864,10 +1863,10 @@ Monte Carlo Methods
 
 Confronting the Partition Function
 
-# Reinforcement Learning: An Introduction
+## Reinforcement Learning: An Introduction
 
 
-![reinforcementlearning.jpg](/assets/reinforcementlearning_1670834056055_0.jpg)
+![ ](/assets/reinforcementlearning_1670834056055_0.jpg)
 
 [Book Link](https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/ref=dp_ob_title_bk)
 
@@ -1881,7 +1880,7 @@ Part III has new chapters on reinforcement learning's relationships to psycholog
 
 The final chapter discusses the future societal impacts of reinforcement learning.
 
-## Topics
+### Topics
 
 
 Tabular Solution Methods
@@ -1914,7 +1913,7 @@ Neuroscience
 
 Applications and case studies
 
-# Papers
+## Papers
 
 
 [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
@@ -1941,7 +1940,7 @@ Applications and case studies
 
 [Attention Is All You Need (Transformers)](https://arxiv.org/abs/1706.03762)
 
-## Mike Jordan Book list
+### Mike Jordan Book list
 
 
 Extremely rigorous books recommend by Mike Jordan from Berkeley intended for those focused on research. I will probably never read these and feels impossible to get through these in one lifetime.
@@ -1998,7 +1997,7 @@ Extremely rigorous books recommend by Mike Jordan from Berkeley intended for tho
 
 12.) Kreyszig, E. (1989). "Introductory Functional Analysis with Applications" Wiley.
 
-# Other
+## Other
 
 
 [Superintelligence](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom-ebook/dp/B00LOOCGB2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)

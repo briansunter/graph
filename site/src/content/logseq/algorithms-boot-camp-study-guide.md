@@ -4,23 +4,21 @@ slug: algorithms-boot-camp-study-guide
 tags:
   - programming
 date: 2022-06-26
-lastMod: 2024-03-18
 blogtitle: Algorithms Boot Camp Topics
 description: An outline of all the most important topics for studying algorithms
 coverimage: ../../assets/binary-tree_1672273112314_0.png
----gpt-sources:: [[gpt data structures guide]], [[gpt algorithms guide]]
+---
 
-
-![binary-tree.png](/assets/binary-tree_1672273112314_0.png)
+![ ](/assets/binary-tree_1672273112314_0.png)
 
 This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to k about algorithms.
 
 As I write more notes, I'll link to them here.
 
-# Array
+## Array
 
 
-## Problems
+### Problems
 
 
 two sum
@@ -29,7 +27,7 @@ search index
 
 kth largest element in array
 
-## Concepts
+### Concepts
 
 
 2d arrays
@@ -38,7 +36,7 @@ nd arrays
 
 jagged array
 
-# Linked list
+## Linked list
 
 
 Operations
@@ -61,22 +59,22 @@ kth to last note
 
 detecting cycles
 
-# Stack
+## Stack
 
 
 Towers of Hanoi
 
-# Queue
+## Queue
 
 
 LIFO
 
 FIFO
 
-# Tree
+## Tree
 
 
-## Concepts
+### Concepts
 
 
 root
@@ -87,27 +85,27 @@ leaf
 
 depth
 
-## Binary Tree
+### Binary Tree
 
 
-### Binary Search Trees
+#### Binary Search Trees
 
 
-#### Problems
+##### Problems
 
 
 level order traversalre
 
 construct tree from traversal
 
-## Balanced tree
+### Balanced tree
 
 
 AVL Tree
 
 b-tree
 
-## Operations
+### Operations
 
 
 Insertion
@@ -132,10 +130,10 @@ find min/max
 
 find successor predecessor
 
-# Hash table
+## Hash table
 
 
-## Implementations
+### Implementations
 
 
 Array
@@ -160,15 +158,15 @@ Quadratic Probing
 
 Collision Resolution
 
-## Problems
+### Problems
 
 
 lru cache
 
-# Heap
+## Heap
 
 
-## Priority queue
+### Priority queue
 
 
 heap
@@ -181,7 +179,7 @@ dequeue
 
 peek
 
-## Concepts
+### Concepts
 
 
 complete binary tree
@@ -194,7 +192,7 @@ Min Heap
 
 Max Heap
 
-## Operations
+### Operations
 
 
 build
@@ -209,7 +207,7 @@ heapify
 
 heap sort in place
 
-## Problems
+### Problems
 
 
 merge k sorted lists
@@ -218,14 +216,14 @@ kth largest element in array
 
 the skyline problem
 
-# Trie
+## Trie
 
 
 compressed trie
 
 suffix trie
 
-# Advanced data structures
+## Advanced data structures
 
 
 skip list
@@ -236,7 +234,7 @@ suffix array
 
 bloom filter
 
-# Sorting
+## Sorting
 
 
 [[bubble-sort]]
@@ -253,17 +251,17 @@ sort stability
 
 counting sort
 
-## Problems
+### Problems
 
 
 dutch national flag
 
 merge two sorted arrays
 
-# Graph
+## Graph
 
 
-## Concepts
+### Concepts
 
 
 Graph theory
@@ -280,7 +278,7 @@ Cycles
 
 disjoint graph
 
-## Operations
+### Operations
 
 
 Traversal
@@ -303,17 +301,17 @@ Prim's algorithm
 
 Kruskal's algorithm
 
-## Graph Representations
+### Graph Representations
 
 
 adjacency list
 
 adjacency matrix
 
-# Recursion
+## Recursion
 
 
-## Concepts
+### Concepts
 
 
 Backtracking
@@ -328,7 +326,7 @@ Tail Recursion
 
 Memoization
 
-## Problems
+### Problems
 
 
 recursive factorial
@@ -363,10 +361,10 @@ subarray sum equals k
 
 valid parentesis
 
-# String Algorithms
+## String Algorithms
 
 
-## Concepts
+### Concepts
 
 
 String matching
@@ -383,14 +381,14 @@ Substring search
 
 String similarity measures
 
-## Operations
+### Operations
 
 
 rabin karp
 
 kmp knuth morris pratt
 
-## Problems
+### Problems
 
 
 non repeating characters
@@ -403,10 +401,10 @@ frequency counting
 
 reverse
 
-# Dynamic Programming
+## Dynamic Programming
 
 
-## Problems
+### Problems
 
 
 0/1 knapsack
@@ -425,10 +423,10 @@ longest palindromic subsequence
 
 text justification
 
-# Computational Geometry
+## Computational Geometry
 
 
-# Network Flow Algorithms
+## Network Flow Algorithms
 
 
 network flow
@@ -445,10 +443,10 @@ Dinic's algorithm
 
 König's theorem
 
-# NP-Complete
+## NP-Complete
 
 
-## Approximation
+### Approximation
 
 
 Simulated annealing
@@ -463,7 +461,7 @@ Particle swarm optimization
 
 Cross-entropy method
 
-## Examples of NP Problems
+### Examples of NP Problems
 
 
 Set Cover
@@ -492,7 +490,7 @@ Clique Problem
 
 Chromatic Number Problem
 
-# Search
+## Search
 
 
 linear search
@@ -515,7 +513,7 @@ Floyd-Warshall algorithm
 
 Johnson's algorithm
 
-# Algorithm Design
+## Algorithm Design
 
 
 Greedy algorithms
@@ -530,14 +528,14 @@ transform and conquer
 
 Randomized algorithms
 
-# Algorithm Analysis
+## Algorithm Analysis
 
 
 Harmonic series
 
 aritmetic geometric series
 
-## Time Complexity
+### Time Complexity
 
 
 big-O notation
@@ -554,7 +552,7 @@ harmonic series
 
 arthmetic geometric series
 
-## Space Complexity
+### Space Complexity
 
 
 {{embed [[website-outro]]}}

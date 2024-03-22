@@ -9,23 +9,16 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-08-10
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 7
 coverimage: ../../assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg
----newsletter-subscribers:: 245
-site-hits:: 0
-tweet-impressions:: 47
-sent-date:: [[Jun 12th, 2022]]
-profile-visits:: 45
-start-date:: [[Jun 12th, 2022]]
-
+---
 
 
 Mark Zuckerberg as the girl with the pearl earring generated using Stable Diffusion
 
 ![FYqjtUnX0AAsVJEE.jpeg | hidden](/assets/FYqjtUnX0AAsVJEE_1672133776857_0.jpeg)
 
-# Summary and Reflection 🤔
+## Summary and Reflection 🤔
 
 
 This week I wrote a post announcing my [new personal website]([[new website on logseq hugo]]).
@@ -36,10 +29,10 @@ This post focuses on the different ways of measuring algorithms theoretically an
 
 For some “brain food,” I share one of my favorite talks, “You and your Research” by Richard Hamming, and an announcement of a new Open Source image generation AI called “Stable Diffusion.”
 
-# Updates 🆕
+## Updates 🆕
 
 
-### [[new website on logseq hugo]]
+#### [[new website on logseq hugo]]
 
 
 I launched a “beta” version of my website that’s built almost entirely in Logseq using the [Hugo Plugin](https://github.com/sawhney17/logseq-schrodinger?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter).
@@ -52,7 +45,7 @@ I’m still migrating my old pages and customizing them, but I’m pleased with 
 
 The site,logseq graph, and AWS CDK deployment tooling[ is on Github.](https://github.com/briansunter/graph?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter)
 
-### [[abdul bari algorithms]]
+#### [[abdul bari algorithms]]
 
 
 I’m going through the excellent [Abdul Bari Algorithms Course on Youtube](https://www.youtube.com/watch?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter&v=0IAPZzGSbME)
@@ -63,12 +56,12 @@ I’m going through the excellent [Abdul Bari Algorithms Course on Youtube](htt
 
 As I watch various courses, I’ll [link to the concepts on the algorithms boot camp page]([[algorithms-boot-camp]]) as a learning roadmap
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 In this section, I'll share a productivity tip I've learned recently.
 
-### [[five-minute-journal]]
+#### [[five-minute-journal]]
 
 
 The five-minute journal is one of the best places to start with journaling and productivity.
@@ -85,15 +78,15 @@ Here are the prompts I use:
 
 [Read my post about it here]([[five-minute-journal]])
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
 In this section, I'll share some interesting articles and "food for thought"
 
-## Quote
+### Quote
 
 
-### [[you and your research]]
+#### [[you and your research]]
 
 
 [My notes on this talk from 1986](https://beta.briansunter.com/pages/you-and-your-research?utm_campaign=newsletter-email&utm_medium=email&utm_source=Revue%20newsletter) about what it takes to do Nobel prize-level work.
@@ -120,7 +113,7 @@ I highly recommend reading [his full talk](https://www.cs.virginia.edu/~robins/Y
 
 [See my notes here]([[you and your research]])
 
-## Link of the week - Stable Diffusion
+### Link of the week - Stable Diffusion
 
 
 AI image generation is advancing incredibly rapidly. You describe the image you want to AI programs, and they will generate an original idea.
@@ -145,7 +138,7 @@ I’m sure we’ll see a lot of crazy stuff with this soon, but I can’t wait f
 
 {{< tweet user="EMostaque" id="1561777122082824192" >}}
 
-# Outro
+## Outro
 
 
 Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)

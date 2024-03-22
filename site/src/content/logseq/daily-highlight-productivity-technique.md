@@ -7,7 +7,6 @@ tags:
   - ali abdaal
   - blog
 date: 2022-06-17
-lastMod: 2024-03-18
 blogtitle: Daily Highlight Productivity Technique
 description: My favorite productivity technique, the "Daily Highlight"
 coverimage: ../../assets/daily-highlight_1672273385215_0.jpg
@@ -18,7 +17,7 @@ coverimage: ../../assets/daily-highlight_1672273385215_0.jpg
 
 The most powerful productivity technique I've discovered is also the simplest: the "Daily Highlight".
 
-## What is a Daily Highlight?
+### What is a Daily Highlight?
 
 
 In the morning, choose one activity that would make you feel accomplished at the end of the day. If someone were to ask you "What was the highlight of your day?", this would be the answer.
@@ -27,12 +26,12 @@ This technique is effective because it forces you to focus on your true prioriti
 
  more tasks isn't the answer, it's focusing on accomplishing what matters.
 
-## How to Choose a Daily Highlight
+### How to Choose a Daily Highlight
 
 
 Choosing one singular thing to focus on can be daunting, so here are some tips:
 
-### Medium Term Tasks
+#### Medium Term Tasks
 
 
 The timeline of your Daily Highlight should be between your short term tasks and long term goals.
@@ -43,14 +42,14 @@ A rule of thumb is your daily highlight should take 60-90 minutes to complete.
 
 This is long enough to meaningfully affect your life and get into a flow state, yet short enough that you can fit it into your schedule.
 
-### Urgency
+#### Urgency
 
 
 Is there anything with an approaching deadline coming up?
 
 If your driver's license is about to expire, you should make a trip to the DMV to renew it soon.
 
-#### Satisfaction
+##### Satisfaction
 
 
 Satisfaction means  something productive that you want to do.
@@ -59,14 +58,14 @@ This is often a project you've been meaning to get around to, like taking that o
 
 If you don't make an active effort to prioritize your personal projects, you'll never make consistent progress.
 
-#### Fun
+##### Fun
 
 
 Not everything needs to be productive and efficient. You should also plan for fun.
 
 Some examples of fun Daily Highlights are going to lunch with a coworker or learning a new song on guitar
 
-## Conclusion
+### Conclusion
 
 
 Creating time in my routine, ideally early in the day, and planning ahead when I'll accomplish my Daily Highlight has helped keep me consistent.
@@ -75,12 +74,12 @@ Even if you don't fully complete your Daily Highlight, I think identifying your 
 
 How much more could you do with 365 planned, focused sessions per year?
 
-## Learn More
+### Learn More
 
 
 [Make Time Blog](https://maketime.blog/article/feeling-busy-and-distracted-its-not-your-fault/)
 
-### Ali Abdaal The Best Productivity Hacks of All Time
+#### Ali Abdaal The Best Productivity Hacks of All Time
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aYVLpY5FYU?start=397" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

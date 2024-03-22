@@ -8,15 +8,14 @@ tags:
   - gpt3
   - kubernetes
 date: 2022-06-29
-lastMod: 2024-03-18
 blogtitle: How to use GPT-3 to learn Kubernetes
 description: How to use GPT-3 to make a Kubernetes Study Guide
 coverimage: ../../assets/kubernetes_1672272543261_0.png
 ---
 
-![kubernetes.png](/assets/kubernetes_1672272543261_0.png)
+![ ](/assets/kubernetes_1672272543261_0.png)
 
-# Intro
+## Intro
 
 
 GPT-3 is the ultimate learning and study tool
@@ -41,7 +40,7 @@ To use OpenAI with my plugin, you just type `/gpt3` on a selected block or right
 
 Let's start with an overview of what you should k about openai, in addition to following its [usage guidelines.](https://beta.openai.com/docs/usage-guidelines)
 
-## OpenAI Completions, Prompts, and Prompt Design
+### OpenAI Completions, Prompts, and Prompt Design
 
 
 From, [the OpenAI docs. Go here for more info](https://beta.openai.com/docs/guides/completion)
@@ -54,14 +53,14 @@ An openai completion is a machine learning model that is trained to predict the 
 
 So, it's sort of like "autocomplete" for everything.
 
-## Prompt Design
+### Prompt Design
 
 
 > Our models can do everything from generating original stories to performing complex text analysis. Because they can do so many things, you have to be explicit in describing what you want. Showing, not just telling, is often the secret to a good prompt.
 
 "Prompts" are basically
 
-### Basics
+#### Basics
 
 
 ==**Summarize this text:**== Show and tell. Make it clear what you want either through instructions, examples, or a combination of the two. If you want the model to rank a list of items in alphabetical order or to classify a paragraph by sentiment, show it that's what you want.
@@ -73,7 +72,7 @@ For example, if you want the model to do a certain task, show it examples of inp
 1. Set temperature and top_p settings to lower values if you want the model to produce repeatable results with one right answer.
 2. Set temperature and top_p settings to higher values if you want the model to produce more diverse results.
 
-### Troubleshooting Queries
+#### Troubleshooting Queries
 
 
 Is it clear what the intended generation should be?
@@ -84,10 +83,10 @@ Did you check your examples for mistakes? (The API won't tell you directly)
 
 Are you using temperature and top_p correctly?
 
-## Examples from OpenAI
+### Examples from OpenAI
 
 
-### Classification
+#### Classification
 
 
 Note how they give it examples and set it up to "complete" the rest.
@@ -100,7 +99,7 @@ Tweet: I loved the new Batman movie!
 Sentiment: 
 ```
 
-### Text Generation
+#### Text Generation
 
 
 In addition to giving it examples and letting it "complete" them, you can outright tell it to do someting which often works well. I sometimes use a combination of direct generation commands and examples
@@ -119,7 +118,7 @@ In addition to giving it examples and letting it "complete" them, you can outrig
 
 There's a lot more you can do, but that's enough to k for . [See here for more information from the OpenAI docs](https://beta.openai.com/docs/guides/completion)
 
-# Learning Kubernetes
+## Learning Kubernetes
 
 
 Let's start by getting an overview.
@@ -577,7 +576,7 @@ We will start by creating an AWS Virtual Private Cloud (VPC) which will be used 
 23. Click on the "Add Rule" button and select "SSH" from the "Type" drop-down
 
 ==Write cloudformation yaml file to set up aws managed kubernetes EKS cluster
-Type: AWS::EKS::Cluster==
+
 
 ```yaml
 Properties:
@@ -592,7 +591,6 @@ VpcConfig:
 !Ref EksSecurityGroup
 Resources:
 EksServiceRole:
-  Type: AWS::IAM::Role
   Properties:
     RoleName: EksServiceRole
     AssumeRolePolicyDocument:
@@ -611,7 +609,6 @@ Effect: Allow
               Action: eks:CreateCluster
               Resource: "*"
 EksSecurityGroup:
-  Type: AWS::EC2::SecurityGroup
   Properties:
     GroupName: EksSecurityGroup
     GroupDescription: Security group for accessing the EKS cluster

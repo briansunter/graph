@@ -6,21 +6,20 @@ tags:
   - AI
   - programming
 date: 2022-07-12
-lastMod: 2024-03-18
 ---
 
-## GPT-3 Prompts to Generate a Machine Learning Study Guide
+### GPT-3 Prompts to Generate a Machine Learning Study Guide
 
 
 This text was written with GPT-3 AI.
 
 It was used to build this page: [[machine learning study guide]]
 
-## Prompts
+### Prompts
 
 
 What machine learning concepts should I k to fully understand gpt-3
-collapsed:: true
+
 
 new programmers
 
@@ -135,7 +134,7 @@ A machine learning programmer should have a strong foundation in mathematics, st
 5. Software Packages: R, Python, SAS, MATLAB
 
 Write a curriculum for a programmer to study linear algebra for machine learning
-collapsed:: true
+
 
 This is an outline of what a programmer might study in order to learn linear algebra for machine learning. Of course, this outline is not comprehensive, and a programmer will need to tailor their studies according to their specific goals and needs.
 
@@ -157,7 +156,7 @@ Singular value decomposition
 Principal component analysis
 
 Write a curriculum for a programmer to study calculus concepts most important for machine learning
-collapsed:: true
+
 
 1. Review basic algebra and trigonometry.
 
@@ -180,7 +179,7 @@ There are a variety of ways to approach calculus concepts most important for mac
 5. Study probability and statistics. This may include topics such as random variables, distributions, and hypothesis testing.
 
 Write a curriculum for a programmer to study the most important statistics  concepts for machine learning
-collapsed:: true
+
 
 This course will cover the most important probability concepts for machine learning, including:
 
@@ -201,7 +200,7 @@ Monte Carlo methods
   Each concept will be covered in depth, with plenty of examples and practice problems. By the end of the course, students will be well-equipped to tackle machine learning problems with a strong understanding of probability.
 
 Write a curriculum for a programmer to study the most important probability concepts for machine learning
-collapsed:: true
+
 
 This is a broad topic, but a few resources that could be useful for a programmer studying probability for machine learning are:
 A textbook on probability and statistics, such as "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
@@ -218,7 +217,7 @@ More advanced probability concepts for machine learning (e.g., Markov chains, hi
 Concepts from statistics that are important for machine learning (e.g., estimation, hypothesis testing, etc.)
 
 Write a curriculum for a programmer to study the most important supervised learning concepts for machine learning
-collapsed:: true
+
 
 1. Linear Regression
 2. Logistic Regression
@@ -227,7 +226,7 @@ collapsed:: true
 5. Neural Networks
 
 Write a curriculum for a programmer to study the most important unsupervised learning concepts for machine learning
-collapsed:: true
+
 
 1. Dimensionality reduction: methods for reducing the number of features in a dataset while retaining as much information as possible. These methods are useful for visualizing data, reducing the storage requirements of a dataset, and improving the performance of machine learning algorithms.
 
@@ -238,7 +237,7 @@ collapsed:: true
 4. Data preprocessing: methods for transforming data into a form that is more suitable for learning a task. Data preprocessing can be used to improve the accuracy of machine learning algorithms, to reduce the computational complexity of algorithms, or to make algorithms more interpretable.
 
 Write a curriculum for a programmer to study the most important predictive modeling concepts for machine learning
-collapsed:: true
+
 
 This curriculum is designed for a programmer who wants to study the most important concepts for machine learning. It covers the basics of linear algebra, calculus, and statistics, as well as more advanced topics such as optimization and regularization.
 
@@ -273,7 +272,7 @@ L1 and L2 regularization, sparsity, and machine learning theory
 5. Feature engineering: Feature engineering is the process of transforming raw data into the input format that is most suitable for a predictive model. This can involve many different techniques, such as normalization, one-hot encoding, and dimensionality reduction.
 
 Write a curriculum for a programmer to study the most important deep learning concepts for machine learning
-collapsed:: true
+
 
 1. Artificial Neural Networks:
 
@@ -296,7 +295,7 @@ Long short-term memory networks (LSTMs) are a type of RNN that is designed to mo
 Autoencoders are a type of neural network that is designed to learn a representation of data, such as an image or a sequence of words. Autoencoders are composed of a series of layers, each of which consists of a series of interconnected processing nodes. The first layer of an autoencoder is typically an input layer that encodes the input data into a series of vectors. The second layer is typically an encoding layer that learns a representation of the data. The third layer is typically a decoding layer that reconstructs the input data from the learned representation.
 
 Write a curriculum for a programmer to study the most important software programs for machine learning
-collapsed:: true
+
 
 There are many important software programs for machine learning, but three of the most important are:
 
@@ -307,7 +306,7 @@ There are many important software programs for machine learning, but three of th
 3. Keras: This open source library provides a high-level API for building and training neural networks.
 
 Write a curriculum for a programmer to study the most important computer science concepts for machine learning
-collapsed:: true
+
 
 In order to study the most important computer science concepts for machine learning, a programmer should become familiar with the following topics:
 
@@ -322,7 +321,7 @@ In order to study the most important computer science concepts for machine learn
 5. Neural networks: Neural networks are a powerful type of machine learning algorithm, and understanding how they work can be helpful for using them effectively.
 
 Write a curriculum for a programmer to study data engineering for machine learning
-collapsed:: true
+
 
 1. Introduction to Data Mining: taught how to perform exploratory data analysis, identify patterns and trends in data, and how to build models to make predictions from data.
 
@@ -345,12 +344,12 @@ collapsed:: true
 4. Tools for working with data: spreadsheets, databases, statistical software, data visualization tools
 
 What should I k about supervised learning?
-collapsed:: true
+
 
 Supervised learning is a form of machine learning where the model is trained on a labeled dataset. The labels are used to provide feedback to the model so that it can learn to make predictions on new data.
 
 Write a study guide for a programmer to understand gpt3 machine learning in depth
-collapsed:: true
+
 
 In machine learning, GPT3 is a family of statistical models that are used to predict the probability of a target class, based on one or more predictor variables. 
 
@@ -366,7 +365,7 @@ GPT3 models can be fit using either a Maximum Likelihood Estimator (MLE) or a Ba
 Once a GPT3 model has been fit, it can be used to make predictions about the probability of the target class given new data.
 
 Write a study guide on how to understand gpt3
-collapsed:: true
+
 
 1. Introduction
 

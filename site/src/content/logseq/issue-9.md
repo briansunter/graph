@@ -5,35 +5,27 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-11-26
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 9
 description: New features for the logseq openai plugin and my thoughts on why Large Language Models are interesting
 coverimage: ../../assets/stop_1672218528540_0.jpg
----newsletter-subscribers:: 283
-site-hits::
-revue-link::
-tweet-impressions::
-sent-date::
-profile-visits:: 27500
-start-date::
-
+---
 
 
 ![stop.jpg | hidden](/assets/stop_1672218528540_0.jpg)
 
-# Summary
+## Summary
 
 
 I'm continuing to add features to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), my plugin that allows you to perform AI text generation tasks in the Logseq note-taking application.
 
 I'm really interested in this new AI technology called "Large Language Models" which allows AI to understand the meaning behind text, as well as generate humanlike text.
 
-# Logseq GPT-3 OpenAI plugin
+## Logseq GPT-3 OpenAI plugin
 
 
 I recently added some new features to the logseq OpenAI GPT-3 plugin.
 
-### Logseq OpenAI Plugin Video
+#### Logseq OpenAI Plugin Video
 
 
 The [productivity Youtuber Shu Omi](https://www.youtube.com/@ShuOmi_Official) made a great video about my [Logseq OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai). I recommend checking it out as an introduction to the plugin and AI-assisted note-taking.
@@ -42,14 +34,14 @@ I've been a fan of Shu's videos for a long time while learning about notetaking,
 
 {{< youtube 1R1Pq_41wFw >}}
 
-### GPT-3 Page
+#### GPT-3 Page
 
 
 The new `gpt-page` feature sends the entire current page to GPT-3, which should be more convenient for certain use cases where additional context is needed to make the suggestions more accurate. This feature makes it behave more like the OpenAI playground.
 
 {{< tweet user="Bsunter" id="1587513598896525312" >}}
 
-### DALL-E
+#### DALL-E
 
 
 OpenAI released their [DALL-E](https://openai.com/dall-e-2/) image generation API. I recently incorporated this into the [Logseq GPT-3 plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), so you can generate images inside Logseq, which are inserted into the editor and saved locally.
@@ -58,7 +50,7 @@ It's nice to use GPT-3 to generate the prompt, then send it to [DALL-E](https://
 
 {{< tweet user="Bsunter" id="1590174757651378177" >}}
 
-### GPT-3 Prompt Templates
+#### GPT-3 Prompt Templates
 
 
 I'm working on a future feature to add "prompt templates" to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai).
@@ -77,7 +69,7 @@ I'll eventually include these in a modal popup, like other AI tools.
 
 [See more thoughts on writing prompts and prompt templates here]([[logseq-openai/prompt-template]])
 
-# Large Language Models
+## Large Language Models
 
 
 Large language models (LLMs) are AI tools that can perform a wide variety of tasks. LLMs can be used for both search and classification based on the meaning of the text and generating human-like text.
@@ -93,10 +85,10 @@ I think they're interesting for several reasons:
 
 [See more of my thoughts on why large language models are interesting here]([[why-large-language-models-are-interesting]])
 
-# Headphone Eyemask
+## Headphone Eyemask
 
 
-![image_1667858995655_0.jpeg](/assets/image_1667858995655_0_1667859078784_0.jpeg)
+![ ](/assets/image_1667858995655_0_1667859078784_0.jpeg)
 
 The [[headphone-eye-mask]] is my new favorite sleep hack.
 
@@ -108,7 +100,7 @@ The headphone eye mask helps slow down my brain with a nightly ritual I enjoy an
 
 I wrote about [how I use it and some podcast recommendations here.]([[headphone-eye-mask]])
 
-# Alamack of Naval Ravikant
+## Alamack of Naval Ravikant
 
 
 I enjoyed this book called the [[almanack-of-naval-ravikant]], which is a collection of philosophical[tweets by Naval(https://twitter.com/naval) on wealth creation, learning, mindset, and health.
@@ -119,17 +111,17 @@ The book is completely free and you can [download it here](https://www.navalmana
 
 [Read my review and notes on the book here]([[almanack-of-naval-ravikant]])
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
-## Quote
+### Quote
 
 
 > Specific kledge is kledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 
 [Naval Ravikant](https://twitter.com/naval) (from [[almanack-of-naval-ravikant]] )
 
-## Link of the Week
+### Link of the Week
 
 
 You need to try [ChatGPT](https://chat.openai.com/chat). It's easy and free to get started. Just log in and ask it anything.

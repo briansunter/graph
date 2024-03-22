@@ -5,7 +5,6 @@ tags:
   - programming
   - AI
 date: 2022-07-17
-lastMod: 2024-03-18
 blogtitle: Machine Learning Study Guide Outline
 description: An outline of topics to study machine learning, suggested by GPT
 ---
@@ -16,270 +15,270 @@ Built from the GPT3 prompts in [[machine learning study guide gpt]]
 
 Over time I will make notes on these subjects and link to them here.
 
-# Mathematics
+## Mathematics
 
 
-## Linear algebra
+### Linear algebra
 
 
-### Vector Spaces
+#### Vector Spaces
 
 
-### Linear Transformations
+#### Linear Transformations
 
 
-### Matrices
+#### Matrices
 
 
-### Determinants
+#### Determinants
 
 
-### Eigenvectors and Eigenvalues
+#### Eigenvectors and Eigenvalues
 
 
-### Systems of Linear Equations
+#### Systems of Linear Equations
 
 
-### Vector operations
+#### Vector operations
 
 
-#### Addition
+##### Addition
 
 
-#### Subtraction
+##### Subtraction
 
 
-#### Scalar multiplication
+##### Scalar multiplication
 
 
-#### Dot product
+##### Dot product
 
 
-#### Cross product
+##### Cross product
 
 
-### Linear independence and span
+#### Linear independence and span
 
 
-### Orthogonality
+#### Orthogonality
 
 
-### Projections
+#### Projections
 
 
-### Eigendecomposition
+#### Eigendecomposition
 
 
-### Singular value decomposition
+#### Singular value decomposition
 
 
-### Principal component analysis
+#### Principal component analysis
 
 
-## Calculus
+### Calculus
 
 
-### Algebra
+#### Algebra
 
 
-### Trigonometry
+#### Trigonometry
 
 
-### Limits
+#### Limits
 
 
-### Continuity
+#### Continuity
 
 
-### Derivatives
+#### Derivatives
 
 
-### Integrals
+#### Integrals
 
 
-### Multivariate Calculus
+#### Multivariate Calculus
 
 
-#### Partial Derivatives
+##### Partial Derivatives
 
 
-#### Gradient Descent
+##### Gradient Descent
 
 
-#### Vector Fields
+##### Vector Fields
 
 
-### Optimization
+#### Optimization
 
 
-#### Convex optimization
+##### Convex optimization
 
 
-#### Higher order equations
+##### Higher order equations
 
 
-#### conjugate gradient
+##### conjugate gradient
 
 
-#### Newton's Method
+##### Newton's Method
 
 
-## probability
+### probability
 
 
-## statistics
+### statistics
 
 
-### basic statictics
+#### basic statictics
 
 
-#### random variables
+##### random variables
 
 
-#### events
+##### events
 
 
-#### probability density functions
+##### probability density functions
 
 
-#### "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
+##### "Introduction to Probability" by Joseph K. Blitzstein and Jessica Hwang.
 
 
-### advanced statistics
+#### advanced statistics
 
 
-#### Markov chains
+##### Markov chains
 
 
-#### hidden Markov models
+##### hidden Markov models
 
 
-#### Bayesian inference
+##### Bayesian inference
 
 
-### machine learning specific statistics
+#### machine learning specific statistics
 
 
-#### estimation
+##### estimation
 
 
-#### hypothesis testing
+##### hypothesis testing
 
 
-#### "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+##### "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
 
 
-### Regularization
+#### Regularization
 
 
-#### L1 and L2 regularization
+##### L1 and L2 regularization
 
 
-#### sparsity
+##### sparsity
 
 
-# Computer Science
+## Computer Science
 
 
-## Algorithms
+### Algorithms
 
 
-## data structures
+### data structures
 
 
-## software engineering
+### software engineering
 
 
-# Machine Learning
+## Machine Learning
 
 
-## Supervised learning
+### Supervised learning
 
 
-#### Linear Regression
+##### Linear Regression
 
 
-#### Logistic Regression
+##### Logistic Regression
 
 
-#### Support Vector Machines
+##### Support Vector Machines
 
 
-#### Decision Trees
+##### Decision Trees
 
 
-#### Neural Networks
+##### Neural Networks
 
 
-## Unsupervised learning
+### Unsupervised learning
 
 
-### Dimensionality reduction
+#### Dimensionality reduction
 
 
-### Clustering
+#### Clustering
 
 
-### Feature selection
+#### Feature selection
 
 
-### Data preprocessing
+#### Data preprocessing
 
 
-### Predictive modeling
+#### Predictive modeling
 
 
-### Regularization
+#### Regularization
 
 
-## deep learning
+### deep learning
 
 
-### Artificial neural networks
+#### Artificial neural networks
 
 
-### Convolutional nerual networks
+#### Convolutional nerual networks
 
 
-### Recurrent nueral networks
+#### Recurrent nueral networks
 
 
-### Long short-term memory networks
+#### Long short-term memory networks
 
 
-### autoencoders
+#### autoencoders
 
 
-## Ensembles
+### Ensembles
 
 
-# Data Mining
+## Data Mining
 
 
-## Data pre-processing
+### Data pre-processing
 
 
-## feature engineering
+### feature engineering
 
 
-## model evaluation
+### model evaluation
 
 
-# Software Packages:
+## Software Packages:
 
 
-## Python
+### Python
 
 
-## Pandas
+### Pandas
 
 
-## TensorFlow
+### TensorFlow
 
 
-## scikit-learn
+### scikit-learn
 
 
-## keras
+### keras
 
 

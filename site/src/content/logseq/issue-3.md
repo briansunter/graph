@@ -6,27 +6,23 @@ tags:
   - newsletter
 categories: newsletter
 date: 2022-06-26
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 3
 description: This week, I wrote a few guides. I released a new plugin to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
 coverimage: ../../assets/get-youtube-captions_1672134947975_0.jpg
----newsletter-subscribers:: 61
-sent-date:: [[Jun 26th, 2022]]
-start-date:: [[Jun 23rd, 2022]]
-
+---
 
 
 ![get-youtube-captions.jpg | hidden](/assets/get-youtube-captions_1672134947975_0.jpg)
 
-# Summary and Reflection 🤔
+## Summary and Reflection 🤔
 
 
 This week I wrote a few [guides](https://briansunter.com/graph/). I released a [new plugin](https://github.com/briansunter/logseq-get-youtube-captions) to download captions from YouTube directly into your notes to help you study videos. I also include some productivity tips and fun artwork created by OpenAI’s DALL-E image generation technology.
 
-# Updates 🆕
+## Updates 🆕
 
 
-## get-youtube-subtitles
+### get-youtube-subtitles
 
 My [get-youtube-captions plugin](https://github.com/briansunter/logseq-get-youtube-captions) launched in the Logseq marketplace. This tool can pull the captions from a YouTube video into your notes. Just search for “get-youtube-captions” in the Logseq marketplace to install it.
 
@@ -42,7 +38,7 @@ Feeding the captions text into my [[logseq-openai/project]] plugin works incredi
 
 {{< tweet user="Bsunter" id="1537117777038757889" >}}
 
-## [[omnivore-logseq-guide]]
+### [[omnivore-logseq-guide]]
 
 
 If you read a lot of content online, you need a “read it  app” to save interesting links, then read and highlight everything all at once. Keeping the article for  is much more efficient than reading a link as soon as you find it.
@@ -57,9 +53,9 @@ This is a screenshot in the Omnivore reader view with my highlights:
 
 The highlighter in reader mode is essential.
 
-![image.png](/assets/image_1662086941972_0.png)
+![ ](/assets/image_1662086941972_0.png)
 
-## logseq-social
+### logseq-social
 
 Logseq social was a quick idea I had one night when setting up the about me page on my public graph.
 
@@ -74,8 +70,6 @@ Instead of choosing a random page name, I make a page at a kn location in my gra
 Instead of just writing plain text, I use logseq properties to add a little bit of structure. This means I add properties like
 
 ```
-logseq-social/name:: bsunter 
-logseq-social/public-graph:: https://briansunter.com/graph
 ```
 
 This allows me to have a nice about me profile page and display a list of interesting graphs for others to explore. It also helps my graph get discovered by making my profile easily shareable by others on their profiles.
@@ -85,7 +79,7 @@ In the future, it would be cool to search others' graphs and have a plugin to ma
 I'm excited by the people who set this up already!
 {{< tweet user="Bsunter" id="1539677453076922368" >}}
 
-## [[logseq-getting-started]]
+### [[logseq-getting-started]]
 
 
 Logseq is still in beta, so there aren't many "getting started" guides, especially for nontechnical users.
@@ -96,7 +90,7 @@ I go over the bare minimum to install logseq and make a public website like mine
 
 All you need to do is download logseq from github and upload your site to Netlify. [I go over it in detail in this guide.]([[logseq-getting-started]]) I highly recommend buying your own domain to go along with it.
 
-# Productivity Toolkit 🛠️
+## Productivity Toolkit 🛠️
 
 
 I highly recommend [Tiago Forte’s book Building a Second Brain](https://www.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3) as an introduction to the whole note-taking and “second brain” movement.
@@ -121,10 +115,10 @@ The main workflow is a four-step process called [CODE](https://www.keepproductiv
 
 {{< youtube K-ssUVyfn5g >}}
 
-# Brain Food 🧠
+## Brain Food 🧠
 
 
-## Quote
+### Quote
 
 
 When starting notetaking, the biggest question is how to organize your notes and what to turn into backlinks.
@@ -139,7 +133,7 @@ When taking notes, we should always think in the back of our minds about how we�
 
 When making a backlink, think more about how you’ll use the note and how the new note relates to your existing notes than trying to “categorize” the note perfectly.
 
-## Link of the week
+### Link of the week
 
 
 Have you seen [DALL-E](https://openai.com/blog/dall-e/) by OpenAI? It's an AI that can create an image of anything you ask and generate a completely original picture. It's a website with a text box. You type the scene you want to see in the box, and the AI generates an image. The same company makes it as gpt3.
@@ -190,14 +184,14 @@ Learn more about DALL-E from this video.
 
 {{< youtube SVcsDDABEkM >}}
 
-# Analytics 📈
+## Analytics 📈
 
 
 Really happy that the openai plugin just broke 100 stars on github!
 
 On top of that, I've gained around 30 newsletters to a total of 60 in about two weeks. I also gained about 220 followers. It feels like pretty good progress considering I had -1 followers last month!
 
-# Outro
+## Outro
 
 
 I hope you enjoyed the newsletter! Next week I plan to talk more in-depth about using AI for notetaking using the latest next-generation database, AI, and NLP(Natural Language Processing) technology.

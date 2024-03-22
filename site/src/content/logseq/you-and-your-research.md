@@ -4,7 +4,6 @@ slug: you-and-your-research
 tags:
   - greatperson
 date: 2022-08-17
-lastMod: 2024-03-18
 description: Notes from the talk You and Your Research by Richard Hamming, about how to do Nobel Prize level work.
 coverimage: ../../assets/image_1660798082719_0.png
 ---
@@ -16,7 +15,7 @@ coverimage: ../../assets/image_1660798082719_0.png
 
 > "What is the biggest problem in your field? And why are you not working on it?"
 
-## Richard Hamming
+### Richard Hamming
 
 
 Richard Hamming was a mathematician and computer scientist who worked on calculating machines for the Manhattan Project and for Bell Labs.
@@ -25,7 +24,7 @@ He worked alongside some of the greatest scientists in history including Von Neu
 
 In his talk [You and Your Research (1986)](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) he reflects on why some scientists he worked with like Claude Shannon went on to do Nobel Prize level work and others in the cubicles right next to them were forgotten.
 
-## What does it take to do Nobel Prize level work?
+### What does it take to do Nobel Prize level work?
 
 
 > I'm not talking about ordinary run-of-the-mill research; I'm talking about great research. And for the sake of describing great research I'll occasionally say Nobel-Prize type of work.
@@ -34,7 +33,7 @@ In his talk [You and Your Research (1986)](https://www.cs.virginia.edu/~robins/Y
 
 Here are some of his tips for  Nobel Prize level work:
 
-## Stop being modest and decide to do great work
+### Stop being modest and decide to do great work
 
 
 Great work is never  by accident. You need to have the confidence and courage to make it happen.
@@ -45,7 +44,7 @@ Great work is never  by accident. You need to have the confidence and courage to
 
 > One of the characteristics of successful scientists is having courage. Once you get your courage up and believe that you can do important problems, then you can. If you think you can't, almost surely you are not going to.
 
-## Choose to work on important problems
+### Choose to work on important problems
 
 
 > If you do not work on an important problem, it's unlikely you'll do important work. It's perfectly obvious.
@@ -66,7 +65,7 @@ Many of his fellow scientists, when pressed, admitted they didn't really believe
 
 > I noticed a couple of months  he was made the head of the department. I noticed the other day he was a Member of the National Academy of Engineering. I noticed he has succeeded. I have never heard the names of any of the other fellows at that table mentioned in science and scientific circles. They were unable to ask themselves, "What are the important problems in my field?''
 
-## The obstacle is the way
+### The obstacle is the way
 
 
 Don't shy away from obstacles.
@@ -79,7 +78,7 @@ Obstacles in the path of your short term goal are often the tip of the iceberg o
 
 > What appears to be a fault, often, by a change of viewpoint, turns out to be one of the greatest assets you can have. But you are not likely to think that when you first look the thing and say, "Gee, I'm never going to get enough programmers, so how can I ever do any great programming?'
 
-## Have tremendous drive
+### Have tremendous drive
 
 
 Hamming is a big believer in deliberate effort. He believes you need to both work hard and apply your effort sensibly.
@@ -98,7 +97,7 @@ He also doesn't shy away from the fact that you need to make sacrifices to do No
 
 > Drive, misapplied, doesn't get you anywhere. I've often wondered why so many of my good friends at Bell Labs who worked as hard or harder than I did, didn't have so much to show for it. The misapplication of effort is a very serious matter. Just hard work is not enough - it must be applied sensibly.
 
-## Tolerate ambiguitity
+### Tolerate ambiguitity
 
 
 Great scientists have the confidence to put forth a theory and the humility to notice the flaws in the theory.
@@ -113,7 +112,7 @@ Great scientists have the confidence to put forth a theory and the humility to n
 
 > When you find apparent flaws you've got to be sensitive and keep track of those things, and keep an eye out for how they can be explained or how the theory can be changed to fit them.
 
-## Conclusion
+### Conclusion
 
 
 I appreciate his unique insight from working with the greatest scientists in history, and what makes them different. I think there's a lot of good advice in this talk about what it takes to become a great scientist.

@@ -7,26 +7,25 @@ tags:
   - logseq-openai
 categories: newsletter
 date: 2023-02-01
-lastMod: 2024-03-18
 blogtitle: Newsletter Issue 10
 description: Logseq GPT-3 OpenAI popup, YouTube captions plugin updates, and migrating to Substack
 coverimage: ../../assets/Screenshot_2023-02-02_at_1.42.14_PM_1675381393942_0.png
 ---
 
 
-# Intro
+## Intro
 
 
 I migrated the newsletter to [Substack](https://newsletter.briansunter.com), released a big update to the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai), and added some features to the [Logseq YouTube captions plugin](https://github.com/briansunter/logseq-get-youtube-captions).
 
-# Migrating to substack
+## Migrating to substack
 
 
 This is the first newsletter sent out through [Substack](https://newsletter.briansunter.com). The response to the newsletter has exceeded my expectations, and I'm thrilled that over 300 of you have subscribed so far. One of my goals this year is to be more consistent in publishing the newsletter, so I hope you enjoy keeping up with my projects and thoughts.
 
 Before, I used a tool called Revue to send the newsletter, which Twitter owned. Revue was recently shut down.
 
-![Screenshot 2023-02-01 at 11.23.19 AM.png](/assets/Screenshot_2023-02-01_at_11.23.19_AM_1675286836488_0.png)
+![ ](/assets/Screenshot_2023-02-01_at_11.23.19_AM_1675286836488_0.png)
 
 Revue was decent but had some issues. I used it because it was free, and it gave you a special "subscribe" button on your Twitter profile.
 
@@ -42,14 +41,14 @@ I hope the combination of sharing content under my domain and the newsletter for
 
 You can read all the newsletter issues [on my site](https://briansunter.com/newsletter), on [my Substack](https://newsletter.briansunter.com), or receive updates via [RSS](https://briansunter.com/index.xml).
 
-# Logseq GPT-3 OpenAI plugin updates
+## Logseq GPT-3 OpenAI plugin updates
 
 
 I updated the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to include a popup window to perform AI tasks powered by OpenAI's GPT-3 in Logseq.  I hope this new popup user interface makes the plugin easier and more convenient.
 
 I'm excited by the positive response this plugin has gotten. It blows my mind that it has over 16,000 downloads  🤯
 
-![Screenshot 2023-02-01 at 12.31.39 PM.png](/assets/Screenshot_2023-02-01_at_12.31.39_PM_1675290864727_0.png)
+![ ](/assets/Screenshot_2023-02-01_at_12.31.39_PM_1675290864727_0.png)
 
 There are three new modes: **custom commands**, **built-in commands**, and **user-defined commands**.
 
@@ -57,12 +56,12 @@ There's also a way for the community to contribute useful commands to the plugin
 
 Just hit `cmd+g` while your cursor is in a text block to activate the plugin.
 
-## Custom commands
+### Custom commands
 
 
 After you open the popup, you can ask the AI to perform a task by typing any command in the popup. If your cursor is in a text box, it will use that text as context for the command.
 
-### Flash cards
+#### Flash cards
 
 
 For example, if you have a block of text and want to generate question-and-answer flashcards to help you remember important points, you could type
@@ -71,7 +70,7 @@ For example, if you have a block of text and want to generate question-and-answe
 
 ![custom-prompt autoplay](/assets/custom-prompt_1674094160276_0_1675213615966_0.mp4)
 
-### Study topics
+#### Study topics
 
 
 If your cursor is in an empty block, you can ask it to perform a task without input.
@@ -82,7 +81,7 @@ If your cursor is in an empty block, you can ask it to perform a task without in
 
 This often gives me better, more direct results than searching on Google
 
-## Built-in commands
+### Built-in commands
 
 
 There are many built-in commands for common use cases such as:
@@ -99,17 +98,17 @@ Finding common objections to ideas in a text
 
 Here are some demos:
 
-### Summarize text
+#### Summarize text
 
 
-![summarize.gif](/assets/summarize_1674095683669_0.gif)
+![ ](/assets/summarize_1674095683669_0.gif)
 
-### Common objections to an idea
+#### Common objections to an idea
 
 
 ![common-objections autoplay](/assets/common-objections_1674095797741_0_1675214273662_0.mp4)
 
-## User-defined commands
+### User-defined commands
 
 
 You can define your own commands to show up in the popup.
@@ -118,18 +117,18 @@ These are defined similarly as [Logseq templates.](https://docs.logseq.com/#/pag
 
 Here's an example of a command I use for creating Chinese language learning flashcards from YouTube video captions.
 
-![FmccSaQakAM6JF_.jpeg](/assets/FmccSaQakAM6JF_1675294552245_0.jpeg)
+![ ](/assets/FmccSaQakAM6JF_1675294552245_0.jpeg)
 
 You can then activate the popup and your custom commands will show up
 
 ![chinese flashcards autoplay](/assets/2023-01-13_14.20.49_1675294883999_0.mp4)
 
-## Preview, Insert, and Replace
+### Preview, Insert, and Replace
 
 
 After you hit enter to run a command, the popup will show you a preview of the result from GPT-3, so you can decide if you want to insert the result into your notes.
 
-![Screenshot 2023-02-02 at 1.42.14 PM.png](/assets/Screenshot_2023-02-02_at_1.42.14_PM_1675381393942_0.png)
+![ ](/assets/Screenshot_2023-02-02_at_1.42.14_PM_1675381393942_0.png)
 
 From here, you can either insert the AI output underneath the current block, or replace the input text with the AI result.
 
@@ -137,7 +136,7 @@ You can also hit "regenerate" to rerun the command and get a new output. The res
 
 I wrote a [full blog post on the plugin here]([[logseq-openai/popup]]) if you want to learn more
 
-# Logseq YouTube captions plugin updates
+## Logseq YouTube captions plugin updates
 
 
 The  [Logseq YouTube captions plugin](https://github.com/briansunter/logseq-get-youtube-captions) lets you download the captions from a YouTube video directly into your notes.
@@ -158,7 +157,7 @@ For interview style podcasts, you can use the GPT-3 plugin to add which speaker 
 
 > This is a dialog where lex interviews andrej. Rewrite the following dialog to add which speaker is talking:
 
-![dialog.png](/assets/dialog_1675384470274_0.png)
+![ ](/assets/dialog_1675384470274_0.png)
 
 I've also been using YouTube for language learning and studying Chinese. Understanding native content in a foreign language is extremely challenging, so before I watch the video, I often download the video captions and run some GPT-3 commands. I can get a summary of the video in English, identify important phrases, extract uncommon words, and create flashcards based on the video. Then, when I watch the video, I understand much more.
 

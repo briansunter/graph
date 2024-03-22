@@ -4,28 +4,9 @@ slug: 100-newsletter-subscribers
 tags:
   - project
 date: 2022-07-13
-lastMod: 2024-03-18
----desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
-desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
-desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
-desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
-desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
-desired-end-date:: [[Sep 13th, 2022]]
-milestone-date:: [[July 28th, 2022]]
-start-date:: [[Jun 13th, 2022]]
+---
 
-
-## Summary
+### Summary
 
 
 I am starting a newsletter about my learnings on coding, technology, health, and productivity.
@@ -36,7 +17,7 @@ My newsletter will mostly be curated tweets, which will be high quality links to
 
 My website will be used for permantently storing the articles, my twitter will be used for promotion and commenting,
 
-## Related long term goals
+### Related long term goals
 
 
 write book
@@ -45,12 +26,12 @@ write book
 
 become financially independent
 
-## Desired output
+### Desired output
 
 
 Gain 100 [[newsletter]] followers in the next 3 months.
 
-## Tasks
+### Tasks
 
 
  set up newsletter on twitter
@@ -73,14 +54,14 @@ revue
 
  create initial [[newsletter-roadmap]] for first 6 weeks
 
-## Templates
+### Templates
 
 
 [[comparison-template]]
 
 newsletter/template
 
-## Habits [[100 newsletter subscribers]]
+### Habits [[100 newsletter subscribers]]
 
 
 TODO  schedule note tweet
@@ -123,10 +104,10 @@ TODO  [[newsletter-roadmap]] research
 SCHEDULED: <2022-06-30 Thu .+1d>
 
 
-## Notes
+### Notes
 
 
-### Newsletter Hosting Providers Comparison
+#### Newsletter Hosting Providers Comparison
 
 
 |Option|Pros|Cons|Notes|
