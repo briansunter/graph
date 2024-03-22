@@ -19,7 +19,7 @@ const { coverimage, date, description, blogtitle } = Astro.props;
   </head>
   <body>
     <Header />
-    <main class="overflow-x-hidden max-w-3xl mx-auto">
+    <main class="overflow-x-hidden max-w-3xl mx-auto p-4">
       <article>
         <div class="flex flex-col justify-center items-center">
           <div class="py-4 text-center">
@@ -41,7 +41,7 @@ const { coverimage, date, description, blogtitle } = Astro.props;
             />
           )}
         </div>
-        <div class="w-full mx-auto mt-8 prose text-gray-800 md:p-4">
+        <div class="w-full mx-auto mt-8 prose text-gray-800 ">
           <slot />
         </div>
       </article>

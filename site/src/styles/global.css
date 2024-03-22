@@ -30,8 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, blockquote {
 	font-family: 'Lora', serif;
-	font-size: 1.5rem;
-	@apply lg:text-lg sm:text-base;
+	@apply md:text-lg text-base;
 }
 
 
@@ -79,19 +78,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	@apply text-4xl sm:text-5xl md:text-6xl;
 }
 h2 {
-	font-size: 2.441em;
+	@apply text-3xl sm:text-4xl md:text-5xl ;
 }
 h3 {
-	font-size: 1.953em;
+	@apply text-2xl sm:text-3xl md:text-4xl ;
 }
 h4 {
-	font-size: 1.563em;
+	@apply text-xl sm:text-2xl md:text-3xl ;
 }
 h5 {
-	font-size: 1.25em;
+	@apply text-xl sm:text-2xl md:text-3xl;
 }
 strong,
 b {
@@ -143,12 +142,12 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
-@media (max-width: 720px) {
+/* @media (max-width: 720px) {
 	body {
 		font-size: 18px;
 	}
 	main {
 		padding: 1em;
 	}
-}
+} */
 

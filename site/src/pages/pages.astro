@@ -39,7 +39,7 @@ type PostsObject = {
   </head>
   <body>
     <Header />
-    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <main class="max-w-4xl mx-auto p-4 sm:px-6 lg:px-8 py-12">
       <section class="space-y-12">
         <div>
           <h2 class="text-4xl font-bold mb-8">All Pages</h2>
@@ -52,9 +52,9 @@ type PostsObject = {
               acc[monthYear].push(post);
               return acc;
             }, {})).map(([monthYear, posts]) => (
-              <div class="mb-12">
+              <div class="mb-4">
                 <h3 class="text-2xl font-bold mb-4">{monthYear}</h3>
-                <ul class="space-y-4">
+                <ul class="space-y-2">
                   {
                     posts.map((post) => (
                       <li>
