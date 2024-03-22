@@ -5,7 +5,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
-import '../styles/katex.min.css';
+import "../styles/katex.min.css";
 
 type Props = CollectionEntry<"logseq">["data"];
 const { coverimage, date, description, blogtitle } = Astro.props;
@@ -41,7 +41,7 @@ const { coverimage, date, description, blogtitle } = Astro.props;
         line-height: 1;
       }
       .title h1 {
-      font-weight: bold;
+        font-weight: bold;
       }
       .date {
         margin-bottom: 0.5em;
@@ -60,7 +60,7 @@ const { coverimage, date, description, blogtitle } = Astro.props;
         <div class="hero-image flex flex-col justify-center items-center">
           <div class="title">
             <h1>{blogtitle}</h1>
-              <p class="text-gray-500 mb-4 text-base leading-relaxed">
+            <p class="text-gray-500 mb-4 text-base leading-relaxed">
               {description}
             </p>
             <div class="flex justify-center mt-2 text-gray-500">
@@ -71,7 +71,6 @@ const { coverimage, date, description, blogtitle } = Astro.props;
             coverimage && (
               <Image width={1020} height={510} src={coverimage} alt="" />
             )
-
           }
         </div>
         <div class="w:full mx-auto mt-8">
