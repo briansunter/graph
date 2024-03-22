@@ -92,6 +92,7 @@ h4 {
 h5 {
 	@apply text-xl sm:text-2xl md:text-3xl;
 }
+
 strong,
 b {
 	font-weight: 700;
