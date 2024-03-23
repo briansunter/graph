@@ -29,22 +29,29 @@ interface GPS {
         photoCollections.map((collection) => (
           <>
             <div class="mt-24 mb-3 pb-1 bg-gray-100 rounded-lg shadow-lg">
-              <div class="flex mb-2">
-                <div class="relative w-3/4">
+              {" "}
+              <div class="flex flex-col md:flex-row">
+                {" "}
+                <div class="relative w-full md:w-3/4">
+                  {" "}
                   <Image
                     src={collection.data.cover}
                     alt="Cover Image"
                     width={900}
                     height={600}
                     format="webp"
-                    class="w-full h-96 object-cover rounded-tl-lg "
-                  />
+                    class="w-full h-64 md:h-96 object-cover rounded-t-lg md:rounded-tl-lg md:rounded-tr-none"
+                  />{" "}
                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
-                    <h2 class="text-3xl font-bold text-white">
-                      {collection.data.name}
-                    </h2>
-                    <div class="mt-2 flex items-center space-x-4">
+                    {" "}
+                    <h2 class="text-2xl md:text-3xl font-bold text-white">
+                      {" "}
+                      {collection.data.name}{" "}
+                    </h2>{" "}
+                    <div class="mt-2 flex flex-col md:flex-row md:items-center md:space-x-4">
+                      {" "}
                       <div class="flex items-center space-x-1">
+                        {" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           class="h-5 w-5 text-white"
@@ -52,24 +59,27 @@ interface GPS {
                           viewBox="0 0 24 24"
                           stroke="currentColor"
                         >
+                          {" "}
                           <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                          />
+                          />{" "}
                           <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                          />
-                        </svg>
+                          />{" "}
+                        </svg>{" "}
                         <span class="text-sm text-white">
-                          {collection.data.location}
-                        </span>
-                      </div>
+                          {" "}
+                          {collection.data.location}{" "}
+                        </span>{" "}
+                      </div>{" "}
                       <div class="flex items-center space-x-1">
+                        {" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           class="h-5 w-5 text-white"
@@ -77,29 +87,30 @@ interface GPS {
                           viewBox="0 0 24 24"
                           stroke="currentColor"
                         >
+                          {" "}
                           <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                          />
-                        </svg>
+                          />{" "}
+                        </svg>{" "}
                         <FormattedDate
                           class="text-sm text-white"
                           date={collection.data.date}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                        />{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>{" "}
                 <div
                   id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
-                  class="map-element w-1/4 h-96 bg-gray-200 rounded-tr-lg"
+                  class="map-element w-full md:w-1/4 h-64 md:h-96 bg-gray-200 rounded-b-lg md:rounded-tr-lg md:rounded-bl-none"
                   data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
                   data-lat={collection.data.gps.lat}
                   data-lng={collection.data.gps.lng}
-                />
-              </div>
+                />{" "}
+              </div>{" "}
               <p class="text-gray-700 ml-2 mt-1">
                 {collection.data.description}
               </p>
