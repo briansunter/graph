@@ -39,8 +39,8 @@ const photos = defineCollection({
       }),
       photos: z.array(
         z.object({
-          title: z.string(),
-          description: z.string(),
+          title: z.string().optional(),
+          description: z.string().optional(),
           filename: image(),
         })
       ),

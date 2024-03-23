@@ -98,8 +98,9 @@ interface GPS {
                 data-lat={collection.data.gps.lat}
                 data-lng={collection.data.gps.lng}
               />
-            </div>
+              </div>
             <p class="text-gray-700 mb-6">{collection.data.description}</p>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {collection.data.photos.map((photo) => (
                 <a
@@ -107,26 +108,23 @@ interface GPS {
                   data-pswp-width={photo.filename.width}
                   data-pswp-height={photo.filename.height}
                   target="_blank"
-                  class="relative block bg-gray-100 overflow-hidden"
+                  class={`relative block overflow-hidden ${photo.description || photo.title ? 'bg-gray-100' : ''}`}
                 >
                   <Image
                     src={photo.filename}
-                    alt={photo.title}
+                    alt={photo.title||''}
                     width={600}
                     height={400}
                     format="webp"
                     class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105"
                   />
-                  {photo.description || photo.title ? (
-                    <div class="absolute bottom-0 left-0 right-0 p-2 bg-gray-900">
-                      <p class="text-xs m-0 text-white">
-                        {photo.description || photo.title}
-                      </p>
-                    </div>
-                  ) : null}
+                  <div class="p-2 flex flex-col">
+  <p class="text-xs m-0 text-gray-600 font-semibold">
+    {photo.title ? photo.title : photo.description}
+  </p>
+</div>
                 </a>
               ))}
-            </div>
           </div>
         ))
       }
