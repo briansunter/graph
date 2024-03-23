@@ -147,7 +147,7 @@ interface GPS {
     });
     lightbox.init();
 
-    function initMap(id, lat, lng) {
+    function initMap(id:string, lat:number, lng:number) {
       const map = L.map(id, {
         zoomControl: false,
         attributionControl: false,
@@ -163,9 +163,15 @@ interface GPS {
 
       L.marker([lat, lng]).addTo(map);
     }
-
+    type MapElement = HTMLElement & {
+      dataset: {
+        id: string;
+        lat: string;
+        lng: string;
+      };
+    };
     window.onload = function () {
-      const mapElements = document.querySelectorAll(".map-element");
+      const mapElements = document.querySelectorAll<MapElement>(".map-element");
       mapElements.forEach((element) => {
         const { id, lat, lng } = element.dataset;
         initMap(id, parseFloat(lat), parseFloat(lng));
