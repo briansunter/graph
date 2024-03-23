@@ -66,7 +66,7 @@ table {
 }
 
 img {
-  @apply max-w-full h-auto rounded-lg;
+  @apply max-w-full h-auto;
 }
 
 code {

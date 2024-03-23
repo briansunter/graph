@@ -1,0 +1,24 @@
+# src/content/photos/collection.yaml
+name: Los Angeles 2015
+description: Exploring Los Angeles on our backpacking trip
+location: Los Angeles, USA
+cover: ./images/los-angeles/OH.jpg
+date: 2023-03-01
+gps:
+  lat: 34.0522
+  lng: -118.2437
+photos:
+  - title: Venice Beach
+    filename: ./images/los-angeles/venice-beach.jpg
+  - title: Lifeguard Towers
+    filename: ./images/los-angeles/lifegaurd-towers.jpg
+  - title: Palm Tree Sunset
+    filename: ./images/los-angeles/palm-tree-sunset.jpg
+  - title: Getting Air
+    filename: ./images/los-angeles/skateair.jpg
+  - title: Venice Beach Pier
+    filename: ./images/los-angeles/venice-beach-pier.jpg
+  - title: Venice Beach Skatepark
+    filename: ./images/los-angeles/venice-beach-skatepark.jpg
+  - title: Hollywood Sign
+    filename: ./images/los-angeles/OH.jpg
