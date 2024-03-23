@@ -77,7 +77,7 @@ Karpathy's Videos, [Sebastian Raschka's Machine Learning Book](https://www.amazo
 
 It's been interesting, fun, and humbling to revisit some long-lost math.
 
-![Logseq notes from Andrew Ng's course](/assets/ml-math.png)
+![ ](/assets/mathml_1711158317502_0.png)
 
 I was nervous moving out here, and there have been some challenges, but so far everything has been manageable and gone better than expected. Overall, it's been a great year prioritizing my health, working on interesting projects, and exploring an amazing place.
 
