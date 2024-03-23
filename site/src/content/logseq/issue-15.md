@@ -6,7 +6,7 @@ tags:
   - AI
 categories: newsletter
 date: 2024-03-20
-blogtitle: Year in Review - Hawaii, Health, and Learning AI
+blogtitle: Year in Review - Hawaii, Health, and Projects
 description: Thoughts on living in Hawaii for the past year and my recent projects
 coverimage: ../../assets/hawaii-cover_1710985966457_0.jpg
 ---
