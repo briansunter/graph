@@ -24,5 +24,28 @@ const logseq = defineCollection({
   })
 });
 
+const photos = defineCollection({
+  type: "data",
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      description: z.string(),
+      location: z.string(),
+      cover: image(),
+      date: z.date(),
+      gps: z.object({
+        lat: z.number(),
+        lng: z.number(),
+      }),
+      photos: z.array(
+        z.object({
+          title: z.string().optional(),
+          description: z.string().optional(),
+          filename: image(),
+        })
+      ),
+    }),
+});
 
-export const collections = {  logseq, blog };
+export const collections = { logseq, blog, photos};
+
