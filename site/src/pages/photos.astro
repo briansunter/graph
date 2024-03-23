@@ -116,7 +116,8 @@ interface GPS {
               </p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {collection.data.photos.map((photo) => (
+              {collection.data.photos.map((photo) => {
+                return(
                 <a
                   href={photo.filename.src}
                   data-pswp-width={photo.filename.width}
@@ -137,8 +138,8 @@ interface GPS {
                       {photo.title ? photo.title : photo.description}
                     </p>
                   </div>
-                </a>
-              ))}
+                </a>)
+              })}
             </div>
           </>
         ))
