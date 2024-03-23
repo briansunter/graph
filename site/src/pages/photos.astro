@@ -10,15 +10,16 @@ interface GPS {
   lat: number;
   lng: number;
 }
-function makeOsmUrl(gps: GPS, zoom = 1.1) {
-  return `https://www.openstreetmap.org/export/embed.html?bbox=${gps.lng - zoom},${gps.lat - zoom},${gps.lng + zoom},${gps.lat + zoom}&layer=mapnik&marker=${gps.lat},${gps.lng}&hidezoomcontrol=true&hideattribution=true`;
-}
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={"one"} description={"two"} />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
   </head>
   <body>
     <Header />
@@ -82,15 +83,13 @@ function makeOsmUrl(gps: GPS, zoom = 1.1) {
                   </div>
                 </div>
               </div>
-              <div class="absolute bottom-4 right-4 w-40 h-40 bg-white rounded-lg shadow-lg p-2">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  frameborder="0"
-                  src={makeOsmUrl(collection.data.gps)}
-                  allowfullscreen
-                />
-              </div>
+              <div
+                id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
+                class="map-element absolute bottom-4 right-4 w-40 h-40 bg-white rounded-lg shadow-lg"
+                data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
+                data-lat={collection.data.gps.lat}
+                data-lng={collection.data.gps.lng}
+              />
             </div>
             <div class="mt-4">
               <p class="text-lg text-gray-700">{collection.data.description}</p>
@@ -126,15 +125,36 @@ function makeOsmUrl(gps: GPS, zoom = 1.1) {
       }
     </div>
     <script>
+      import L from "leaflet";
       import PhotoSwipeLightbox from "photoswipe/lightbox";
       import PhotoSwipe from "photoswipe";
       const lightbox = new PhotoSwipeLightbox({
         gallery: ".grid",
-        children: "a", 
+        children: "a",
         showHideAnimationType: "zoom",
         pswpModule: PhotoSwipe,
       });
       lightbox.init();
+
+      function initMap(id, lat, lng) {
+        const map = L.map(id, {
+          zoomControl: false, 
+          attributionControl: false, 
+        }).setView([lat, lng], 13);
+        L.tileLayer(
+          "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          {}
+        ).addTo(map);
+        L.marker([lat, lng]).addTo(map);
+      }
+
+      window.onload = function () {
+        const mapElements = document.querySelectorAll(".map-element");
+        mapElements.forEach((element) => {
+          const { id, lat, lng } = element.dataset;
+          initMap(id, parseFloat(lat), parseFloat(lng));
+        });
+      };
     </script>
   </body>
 </html>
