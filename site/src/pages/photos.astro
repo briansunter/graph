@@ -6,6 +6,7 @@ const photoCollections = await getCollection("photos");
 import "photoswipe/dist/photoswipe.css";
 import Header from "../components/Header.astro";
 import FormattedDate from "../components/FormattedDate.astro";
+import "leaflet/dist/leaflet.css";
 interface GPS {
   lat: number;
   lng: number;
@@ -17,11 +18,7 @@ interface GPS {
   <head>
     <BaseHead
       title={"Photo Gallery"}
-      description={"A beautiful photo gallery showcasing various collections."}
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      description={"A photo gallery showcasing various collections."}
     />
   </head>
   <body>
@@ -100,7 +97,7 @@ interface GPS {
                 data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
                 data-lat={collection.data.gps.lat}
                 data-lng={collection.data.gps.lng}
-              ></div>
+              />
             </div>
             <p class="text-gray-700 mb-6">{collection.data.description}</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -120,9 +117,13 @@ interface GPS {
                     format="webp"
                     class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105"
                   />
-                  <div class=" p-2 bg-black">
-                    <p class="text-sm  m-0 text-white">{photo.title}</p>
-                  </div>
+                  {photo.description || photo.title ? (
+                    <div class="absolute bottom-0 left-0 right-0 p-2 bg-gray-900">
+                      <p class="text-xs m-0 text-white">
+                        {photo.description || photo.title}
+                      </p>
+                    </div>
+                  ) : null}
                 </a>
               ))}
             </div>
@@ -136,43 +137,41 @@ interface GPS {
         Map data &copy; <a href="https://carto.com/" class="underline">Carto</a>
       </p>
     </footer>
+  </body><script>
+    import L from "leaflet";
+    import PhotoSwipeLightbox from "photoswipe/lightbox";
+    import PhotoSwipe from "photoswipe";
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: ".grid",
+      children: "a",
+      showHideAnimationType: "zoom",
+      pswpModule: PhotoSwipe,
+    });
+    lightbox.init();
 
-    <script>
-      import L from "leaflet";
-      import PhotoSwipeLightbox from "photoswipe/lightbox";
-      import PhotoSwipe from "photoswipe";
-      const lightbox = new PhotoSwipeLightbox({
-        gallery: ".grid",
-        children: "a",
-        showHideAnimationType: "zoom",
-        pswpModule: PhotoSwipe,
+    function initMap(id, lat, lng) {
+      const map = L.map(id, {
+        zoomControl: false,
+        attributionControl: false,
+      }).setView([lat, lng], 13);
+
+      L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+        {
+          subdomains: "abcd",
+          maxZoom: 20,
+        }
+      ).addTo(map);
+
+      L.marker([lat, lng]).addTo(map);
+    }
+
+    window.onload = function () {
+      const mapElements = document.querySelectorAll(".map-element");
+      mapElements.forEach((element) => {
+        const { id, lat, lng } = element.dataset;
+        initMap(id, parseFloat(lat), parseFloat(lng));
       });
-      lightbox.init();
-
-      function initMap(id, lat, lng) {
-        const map = L.map(id, {
-          zoomControl: false,
-          attributionControl: false,
-        }).setView([lat, lng], 13);
-
-        L.tileLayer(
-          "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-          {
-            subdomains: "abcd",
-            maxZoom: 20,
-          }
-        ).addTo(map);
-
-        L.marker([lat, lng]).addTo(map);
-      }
-
-      window.onload = function () {
-        const mapElements = document.querySelectorAll(".map-element");
-        mapElements.forEach((element) => {
-          const { id, lat, lng } = element.dataset;
-          initMap(id, parseFloat(lat), parseFloat(lng));
-        });
-      };
-    </script>
-  </body>
+    };
+  </script>
 </html>
