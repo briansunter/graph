@@ -15,7 +15,10 @@ interface GPS {
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={"one"} description={"two"} />
+    <BaseHead
+      title={"Photo Gallery"}
+      description={"A beautiful photo gallery showcasing various collections."}
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -23,119 +26,117 @@ interface GPS {
   </head>
   <body>
     <Header />
-    <div class="container mx-auto px-4 py-8">
+    <main class="container mx-auto px-4 py-12">
+      <h1 class="text-4xl font-bold mb-8 text-center">Photo Collections</h1>
       {
         photoCollections.map((collection) => (
-          <div class="mb-8">
-            <div class="relative">
-              <div class="flex gap-4">
+          <div class="mb-12">
+            <div class="flex mb-6">
+              <div class="relative w-3/4">
                 <Image
                   src={collection.data.cover}
                   alt="Cover Image"
-                  width={600}
-                  height={400}
+                  width={900}
+                  height={600}
                   format="webp"
-                  class="flex-grow w-full h-64 object-cover"
+                  class="w-full h-96 object-cover rounded-l-lg shadow-lg"
                 />
-                <div
-                  id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
-                  class="map-element flex-shrink-0 w-1/4 h-64 bg-gray-200"
-                  data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
-                  data-lat={collection.data.gps.lat}
-                  data-lng={collection.data.gps.lng}
-                />
-              </div>
-              <div class="absolute bottom-0 left-0 p-4 bg-black bg-opacity-70 inline-block">
-                <h1 class="text-2xl font-bold text-white mb-2">
-                  {collection.data.name}
-                </h1>
-                <div class="flex items-center space-x-4">
-                  <div class="flex items-center space-x-1 justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-white"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
+                  <h2 class="text-3xl font-bold text-white">
+                    {collection.data.name}
+                  </h2>
+                  <div class="mt-2 flex items-center space-x-4">
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                      <span class="text-sm text-white">
+                        {collection.data.location}
+                      </span>
+                    </div>
+                    <div class="flex items-center space-x-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 text-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      <FormattedDate
+                        class="text-sm text-white"
+                        date={collection.data.date}
                       />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    <span class="text-xs text-ui text-white">{collection.data.location}</span>
-                  </div>
-                  <div class="flex items-center space-x-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-white"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                   <FormattedDate class="text-white text-sm" date={collection.data.date} /> 
+                    </div>
                   </div>
                 </div>
               </div>
+              <div
+                id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
+                class="map-element w-1/4 h-96 bg-gray-200 rounded-r-lg shadow-lg"
+                data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
+                data-lat={collection.data.gps.lat}
+                data-lng={collection.data.gps.lng}
+              ></div>
             </div>
-            <div class="mt-4">
-              <p class="text-lg text-gray-700">{collection.data.description}</p>
-            </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            <p class="text-gray-700 mb-6">{collection.data.description}</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {collection.data.photos.map((photo) => (
-                <div class="relative bg-white shadow-md overflow-hidden">
-                  <a
-                    href={photo.filename.src}
-                    data-pswp-width={photo.filename.width}
-                    data-pswp-height={photo.filename.height}
-                    target="_blank"
-                  >
-                    <Image
-                      src={photo.filename}
-                      alt={photo.title}
-                      width={600}
-                      height={500}
-                      format="webp"
-                      class="w-full h-64 sm:h-96 object-cover"
-                    />
-                  </a>
-                  <div class="absolute bottom-0 left-0 right-0 p-2 bg-black bg-opacity-70">
-                    <p class="text-xs text-white">
-                      <strong>{photo.title}</strong> - {photo.description}
-                    </p>
+                <a
+                  href={photo.filename.src}
+                  data-pswp-width={photo.filename.width}
+                  data-pswp-height={photo.filename.height}
+                  target="_blank"
+                  class="relative block bg-gray-100 overflow-hidden"
+                >
+                  <Image
+                    src={photo.filename}
+                    alt={photo.title}
+                    width={600}
+                    height={400}
+                    format="webp"
+                    class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105"
+                  />
+                  <div class=" p-2 bg-black">
+                    <p class="text-sm  m-0 text-white">{photo.title}</p>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
         ))
       }
-    </div>
+    </main>
 
-    <footer class="text-gray-500 text-sm text-center">
-      <p class="text-sm">
-        Map data &copy; <a href="https://www.openstreetmap.org/"
-          >OpenStreetMap</a
-        > contributors, <a
-          href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a
-        >, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>
+    <footer class="text-center py-6">
+      <p class="text-sm text-gray-500">
+        Map data &copy; <a href="https://carto.com/" class="underline">Carto</a>
       </p>
     </footer>
+
     <script>
       import L from "leaflet";
       import PhotoSwipeLightbox from "photoswipe/lightbox";
