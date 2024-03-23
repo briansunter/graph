@@ -6,8 +6,8 @@ cover: ./images/london.jpeg
 map_url: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31908.869078615547!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1623345987845!5m2!1sen!2sus
 date: 2023-02-01
 gps:
-  lat: 51.4253
-  lng: -116.1772
+  lat: 51.5081
+  lng: -0.0876
 photos:
   - title: Majestic Mountain
     description: A stunning view of a majestic mountain peak
