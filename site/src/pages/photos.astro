@@ -28,7 +28,7 @@ interface GPS {
       {
         photoCollections.map((collection) => (
           <>
-            <div class="mt-24 mb-3 px-4 pb-1 bg-gray-100 rounded-lg">
+            <div class="mt-24 mb-3 pb-1 bg-gray-100 rounded-lg shadow-lg">
               <div class="flex mb-2">
                 <div class="relative w-3/4">
                   <Image
@@ -37,7 +37,7 @@ interface GPS {
                     width={900}
                     height={600}
                     format="webp"
-                    class="w-full h-96 object-cover  shadow-lg"
+                    class="w-full h-96 object-cover rounded-tl-lg "
                   />
                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
                     <h2 class="text-3xl font-bold text-white">
@@ -94,13 +94,15 @@ interface GPS {
                 </div>
                 <div
                   id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
-                  class="map-element w-1/4 h-96 bg-gray-200 shadow-lg"
+                  class="map-element w-1/4 h-96 bg-gray-200 rounded-tr-lg"
                   data-id={`map-${collection.data.name.toLowerCase().replace(/ /g, "-")}`}
                   data-lat={collection.data.gps.lat}
                   data-lng={collection.data.gps.lng}
                 />
               </div>
-              <p class="text-gray-700">{collection.data.description}</p>
+              <p class="text-gray-700 ml-2 mt-1">
+                {collection.data.description}
+              </p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {collection.data.photos.map((photo) => (
@@ -153,7 +155,7 @@ interface GPS {
         const map = L.map(id, {
           zoomControl: false,
           attributionControl: false,
-        }).setView([lat, lng], 13);
+        }).setView([lat, lng], 5);
 
         L.tileLayer(
           "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
