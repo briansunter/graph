@@ -38,7 +38,7 @@ export function rehypeYoutubeEmbed(): (tree: Root) => void {
 }
 
 function createYoutubeEmbed(videoId: string): string {
-  return `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width:100%"></iframe>`;
+  return `<iframe width="100%" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width:100%"></iframe>`;
 }
 
 export function rehypeYoutubeTimestampEmbed(): (tree: Node) => void {
