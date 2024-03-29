@@ -1,64 +1,80 @@
 ---
 import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollection("recipes");
-
-  return blogEntries.map((entry) => ({
-    params: { recipe: entry.id },
-    props: { entry, data: entry.data },
-  }));
+    const blogEntries = await getCollection("recipes");
+  
+    return blogEntries.map((entry) => ({
+        params: { recipe: entry.data.slug },
+        props: { entry },
+    }));
 }
+
 const { entry } = Astro.props;
-
 const { ingredients, metadata, steps } = entry.data;
-
-// const title = entry.data.title || slug;
 ---
 
-<footer class="mt-auto p-4 text-center">
-  <p class="text-neutral-600"></p>
-</footer>
-
-<!-- Debug section blocks -->
-<div slot="debug" class="p-4">
-  <h3 class="mb-4 text-lg font-semibold">Ingredients</h3>
-
-  <ul class="list-inside list-disc">
-    {
-      ingredients.map(({ name, quantity, units }) => (
-        <li>
-          {quantity} {units} {name}
-        </li>
-      ))
-    }
-  </ul>
+<html lang="en">
+    <head>
+        <BaseHead title={metadata.title} description={"recipe"} />
+    </head>
+    <body>
+<!-- Page Container -->
+<div class="container mx-auto p-4 max-w-3xl">
+    <!-- Recipe Title -->
+    <h1 class="text-3xl font-bold text-center my-6">{metadata.title}</h1>
+  
+    <!-- Ingredients Section -->
+    <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">Ingredients</h2>
+        <ul class="list-disc pl-5">
+            {ingredients.map(({ name, quantity, units }) => (
+                <li class="mb-2">
+                    {quantity} {units} {name}
+                </li>
+            ))}
+        </ul>
+    </section>
+    <!-- Cookwares Section -->
+    <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">Cookwares</h2>
+        <ul class="list-disc pl-5">
+            {entry.data.cookwares.map(({ name, quantity }) => (
+                <li class="mb-2">
+                    {quantity} {name}
+                </li>
+            ))}
+        </ul>
+    </section>
+    <!-- Steps Section -->
+    <section>
+        <h2 class="text-2xl font-semibold mb-4">Steps</h2>
+        {steps.map((step, index) => (
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Step {index + 1}</h3>
+                <p>
+                    {step.map((stepItem, i) => {
+                        if (stepItem.type === "text") {
+                            return <span>{stepItem.value}</span>;
+                        } else if (stepItem.type === "ingredient") {
+                            return (
+                                <span class="inline-block bg-gray-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{stepItem.quantity} {stepItem.units} {stepItem.name}</span>
+                            );
+                        } else if (stepItem.type === "timer") {
+                            return (
+                                <span class="inline-block bg-yellow-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{stepItem.quantity} {stepItem.units}</span>
+                            );
+                        } else if (stepItem.type === "cookware") {
+                            return (
+                                <span class="inline-block bg-red-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{stepItem.name}</span>
+                            );
+                        }
+                    })}
+                </p>
+            </div>
+        ))}
+    </section>
 </div>
-
-<div slot="steps" class="p-4">
-  <h3 class="mb-4 text-lg font-semibold">Steps</h3>
-
-  {
-    steps.map((step, index) => (
-      <div class="mb-4">
-        <h4 class="mb-2 text-lg font-semibold">Step {index + 1}</h4>
-        {step.map((stepItem, i) => {
-          if (stepItem.type === "text") {
-            return <span>{stepItem.value}</span>;
-          } else if (stepItem.type === "ingredient") {
-            return (
-              <span>
-                {stepItem.quantity} {stepItem.units} {stepItem.name}
-              </span>
-            );
-          }
-          // Add a space or other separator after each part of the step, except the last one
-          if (i < step.length - 1) {
-            return <span>, </span>;
-          }
-        })}
-      </div>
-    ))
-  }
-</div>
-
+</body>
+</html>

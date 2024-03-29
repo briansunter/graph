@@ -14,16 +14,32 @@ const ingredientSchema = z.object({
   units: z.string(),
 });
 
+const cookwareSchema = z.object({
+  type: z.literal("cookware"),
+  name: z.string(),
+  quantity: z.number(),
+});
+
+const timerSchema = z.object({
+  type: z.literal("timer"),
+  quantity: z.number(),
+  units: z.string(),
+});
+
 const stepItemSchema = z.union([
   z.object({
     type: z.literal("text"),
     value: z.string(),
   }),
   ingredientSchema,
+  cookwareSchema,
+  timerSchema,
 ]);
+
 export const recipeSchema = {
+  slug: z.string().optional(),
   ingredients: z.array(ingredientSchema).default([]),
-  cookwares: z.array(z.any()).default([]),
+  cookwares: z.array(cookwareSchema).default([]),
   metadata: z.any().optional(),
   steps: z.array(z.array(stepItemSchema)).default([]),
   shoppingList: z.record(shoppingItemSchema).optional(),
@@ -47,21 +63,33 @@ type EntryInfoOutput = {
 };
 
 function getEntryInfo({ fileUrl, contents }: EntryInfoInput): EntryInfoOutput {
-  const recipe = new Recipe(contents);
+  const recipe = new Recipe(contents, {
+    defaultCookwareAmount: 1,
+    defaultIngredientAmount: 1,
+  });
+  console.log(JSON.stringify(recipe, null, 2));
 
   const { ingredients, cookwares, metadata, steps, shoppingList } = recipe;
 
+  let slug = metadata.slug;
+
+  if (!slug) {
+    slug = (fileUrl.pathname.split("/").pop() || "")
+      .toLowerCase()
+      .split(" ")
+      .join("-");
+  }
   const data = {
     ...metadata,
+    slug,
     cookwares,
     ingredients,
     metadata,
     shoppingList,
     steps,
   };
-
   return {
-    slug: metadata.slug,
+    slug,
     data,
     body: contents,
     rawData: contents,
