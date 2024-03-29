@@ -5,6 +5,7 @@ import type {
   AstroIntegration,
   ContentEntryModule,
   ContentEntryType,
+  DataEntryType,
   HookParameters,
 } from "astro";
 
@@ -49,7 +50,7 @@ type SetupHookParams = HookParameters<'astro:config:setup'> & {
 	// `addPageExtension` and `contentEntryType` are not a public APIs
 	// Add type defs here
 	addPageExtension: (extension: string) => void;
-	addContentEntryType: (contentEntryType: ContentEntryType) => void;
+    addDataEntryType: (dataEntryType: DataEntryType) => void;
 };
 
 
@@ -222,15 +223,13 @@ export default function cooklangIntegration(
     name: "@astrojs/cooklang",
     hooks: {
       "astro:config:setup": async (params) => {
-        const { updateConfig, config, addPageExtension, addContentEntryType, addRenderer } =
+        const { updateConfig, config, addPageExtension, addDataEntryType, addRenderer } =
         params as SetupHookParams;
 
-
-        // addPageExtension(".cook");
-        addContentEntryType({
+        addPageExtension(".cook");
+        addDataEntryType({
           extensions: [".cook"],
           getEntryInfo,
-          contentModuleTypes: contentTypesTemplate,
         });
       },
     },

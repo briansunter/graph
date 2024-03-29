@@ -2,39 +2,32 @@
 import { Debug } from "astro/components";
 import { getCollection } from "astro:content";
 
+
 export async function getStaticPaths() {
-  const recipeEntries = await getCollection("recipes");
+  const blogEntries = await getCollection('recipes');
 
-  return recipeEntries.map((entry) => {
-    return {
-      params: {
-        // e.g `spec/fried-rice`
-        recipe: entry.slug,
-      },
-      props: { entry },
-    };
-  });
+  return blogEntries.map(entry => ({
+    params: { recipe: entry.id},
+    props: { entry, data: entry.data },
+  }));
 }
-
 const { entry } = Astro.props;
-const { id, slug } = entry;
+const { id } = entry;
 // const { Content } = await entry.render();
 
-// You can access recipe data like this...
 const { ingredients, metadata, steps } = entry.data;
 
 // But metadata is also top level...
-const title = entry.data.title || slug;
+// const title = entry.data.title || slug;
 
 // Some stuff to display in the debug section.
-const debug = { id, slug, metadata };
+// const debug = { id, slug, metadata };
 ---
 <!-- 
   <div slot="heading" class="p-4">
     <h1 class="text-3xl font-semibold">{title}</h1>
   </div>
 
-  <!-- Main -->
   <div class="prose w-full p-4">
     <!-- <Content /> -->
   </div>
@@ -64,7 +57,7 @@ const debug = { id, slug, metadata };
     </h3>
   
     {steps.map((step, index) => (
-      <div key={index} class="mb-4">
+      <div class="mb-4">
         <h4 class="mb-2 text-lg font-semibold">Step {index + 1}</h4>
         {step.map(({ type, value, name, quantity, units }, i) => {
           if (type === 'text') {
@@ -80,16 +73,16 @@ const debug = { id, slug, metadata };
       </div>
     ))}
   </div> 
-  <div slot="debug">
+  <!-- <div slot="debug">
     <h3 class="m-4 text-lg font-semibold">Source (from collection entry)</h3>
 
     <div class="p-4 font-mono text-xs">
       <span class="whitespace-pre-wrap">{entry.body}</span>
     </div>
-  </div>
+  </div> -->
 
   <div slot="debug">
     <h3 class="m-4 text-lg font-semibold">Metadata (from collection entry)</h3>
 
-    <Debug {entry.data} />
+    <!-- <Debug {entry.data} /> -->
   </div> 

@@ -55,5 +55,5 @@ const recipes = defineCollection({
 }) 
 });
 
-export const collections = { logseq, blog, photos,};
+export const collections = { logseq, blog, photos, recipes};
 
