@@ -18,6 +18,7 @@ import remarkWikiLinkPlugin from "remark-wiki-link";
 import icon from "astro-icon";
 import rehypeFigure from "@microflash/rehype-figure";
 import remarkGfm from "remark-gfm-no-autolink";
+import cooklang from './cooklang-astro';
 
 // https://astro.build/config
 export default defineConfig({
@@ -28,7 +29,7 @@ export default defineConfig({
   // experimental: {
   //   contentCollectionCache: true,
   // },
-  integrations: [mdx(), sitemap(), tailwind(), icon()],
+  integrations: [mdx(), sitemap(), tailwind(), icon(), cooklang()],
   prefetch: {
     prefetchAll: true,
   },

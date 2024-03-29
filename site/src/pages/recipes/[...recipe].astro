@@ -1,0 +1,71 @@
+---
+import { Debug } from "astro/components";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const recipeEntries = await getCollection("recipes");
+
+  return recipeEntries.map((entry) => {
+    return {
+      params: {
+        // e.g `spec/fried-rice`
+        recipe: entry.slug,
+      },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { id, slug } = entry;
+// const { Content } = await entry.render();
+
+// You can access recipe data like this...
+const { ingredients, metadata, steps } = entry.data;
+
+// But metadata is also top level...
+const title = entry.data.title || slug;
+
+// Some stuff to display in the debug section.
+const debug = { id, slug, metadata };
+---
+<!-- 
+  <div slot="heading" class="p-4">
+    <h1 class="text-3xl font-semibold">{title}</h1>
+  </div>
+
+  <!-- Main -->
+  <div class="prose w-full p-4">
+    <!-- <Content /> -->
+  </div>
+
+  <footer class="mt-auto p-4 text-center">
+    <p class="text-neutral-600">
+      <!-- Rendered with <code>&lt;Content /&gt;</code> component. -->
+    </p>
+  </footer>
+
+  <!-- Debug section blocks -->
+  <div slot="debug" class="p-4">
+    <h3 class="mb-4 text-lg font-semibold">
+      Ingredients (from collection entry data)
+    </h3>
+
+    <ul class="list-inside list-disc">
+      {ingredients.map(({ name }:{name: string}) => <li>{name}</li>)}
+    </ul>
+  </div>
+
+  <div slot="debug">
+    <h3 class="m-4 text-lg font-semibold">Source (from collection entry)</h3>
+
+    <div class="p-4 font-mono text-xs">
+      <span class="whitespace-pre-wrap">{entry.body}</span>
+    </div>
+  </div>
+
+  <div slot="debug">
+    <h3 class="m-4 text-lg font-semibold">Metadata (from collection entry)</h3>
+
+    <Debug {debug} />
+  </div> 

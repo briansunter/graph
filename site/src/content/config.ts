@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import {recipeSchema} from '../../cooklang-astro';
 const blog = defineCollection({
 	type: 'content',
 	schema: z.object({
@@ -47,5 +48,12 @@ const photos = defineCollection({
     }),
 });
 
-export const collections = { logseq, blog, photos};
+const recipes = defineCollection({
+  type: "data",
+  schema: z.object({
+    ...recipeSchema
+}) 
+});
+
+export const collections = { logseq, blog, photos,};
 
