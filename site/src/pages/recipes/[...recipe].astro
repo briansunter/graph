@@ -52,10 +52,34 @@ const debug = { id, slug, metadata };
     </h3>
 
     <ul class="list-inside list-disc">
-      {ingredients.map(({ name }:{name: string}) => <li>{name}</li>)}
-    </ul>
+        {ingredients.map(({ name, quantity, units }:{name: string, quantity: number, units: string}) => 
+          <li>{quantity} {units} {name}</li>
+        )}
+      </ul>
   </div>
-
+<!-- Steps section blocks -->
+<div slot="steps" class="p-4">
+    <h3 class="mb-4 text-lg font-semibold">
+      Steps (from collection entry data)
+    </h3>
+  
+    {steps.map((step, index) => (
+      <div key={index} class="mb-4">
+        <h4 class="mb-2 text-lg font-semibold">Step {index + 1}</h4>
+        {step.map(({ type, value, name, quantity, units }, i) => {
+          if (type === 'text') {
+            return <span>{value}</span>;
+          } else if (type === 'ingredient') {
+            return <span>{quantity} {units} {name}</span>;
+          }
+          // Add a space or other separator after each part of the step, except the last one
+          if (i < step.length - 1) {
+            return <span>, </span>;
+          }
+        })}
+      </div>
+    ))}
+  </div> 
   <div slot="debug">
     <h3 class="m-4 text-lg font-semibold">Source (from collection entry)</h3>
 
@@ -67,5 +91,5 @@ const debug = { id, slug, metadata };
   <div slot="debug">
     <h3 class="m-4 text-lg font-semibold">Metadata (from collection entry)</h3>
 
-    <Debug {debug} />
+    <Debug {entry.data} />
   </div> 
