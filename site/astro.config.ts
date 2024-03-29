@@ -14,9 +14,10 @@ import {
 } from "./src/lib/rehypeLogseq";
 import { remarkRemoveHiddenImages } from "./src/lib/remarkHiddenImages";
 import remarkMermaid from "remark-mermaidjs";
-import remarkWikiLinkPlugin from 'remark-wiki-link';
+import remarkWikiLinkPlugin from "remark-wiki-link";
 import icon from "astro-icon";
 import rehypeFigure from "@microflash/rehype-figure";
+import remarkGfm from "remark-gfm-no-autolink";
 
 // https://astro.build/config
 export default defineConfig({
@@ -27,16 +28,21 @@ export default defineConfig({
   // experimental: {
   //   contentCollectionCache: true,
   // },
-  integrations: [mdx(), sitemap(), tailwind(),icon()],
-  prefetch:{
+  integrations: [mdx(), sitemap(), tailwind(), icon()],
+  prefetch: {
     prefetchAll: true,
   },
   markdown: {
     gfm: false,
     remarkPlugins: [
-      [remarkWikiLinkPlugin, {
-        hrefTemplate: (permalink:string) => `/${permalink.replace(/_/g, "-").toLowerCase()}`
-      }],
+      remarkGfm,
+      [
+        remarkWikiLinkPlugin,
+        {
+          hrefTemplate: (permalink: string) =>
+            `/${permalink.replace(/_/g, "-").toLowerCase()}`,
+        },
+      ],
       renameImagesRemark,
       remarkRemoveHiddenImages,
       remarkMath,
