@@ -67,7 +67,6 @@ function getEntryInfo({ fileUrl, contents }: EntryInfoInput): EntryInfoOutput {
     defaultCookwareAmount: 1,
     defaultIngredientAmount: 1,
   });
-  console.log(JSON.stringify(recipe, null, 2));
 
   const { ingredients, cookwares, metadata, steps, shoppingList } = recipe;
 
