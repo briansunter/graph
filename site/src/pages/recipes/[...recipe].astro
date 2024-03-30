@@ -37,16 +37,18 @@ const { ingredients, metadata, steps } = entry.data;
         </ul>
     </section>
 
-    <section class="mb-8">
-        <h2 class="text-2xl font-semibold mb-4">Cookware</h2>
-        <ul class="list-disc pl-5">
-            {entry.data.cookwares.map(({ name, quantity }) => (
-                <li class="mb-2">
-                    {quantity} {name}
-                </li>
-            ))}
-        </ul>
-    </section>
+    {entry.data.cookwares.length > 0 && (
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Cookware</h2>
+            <ul class="list-disc pl-5">
+                {entry.data.cookwares.map(({ name, quantity }) => (
+                    <li class="mb-2">
+                        {quantity} {name}
+                    </li>
+                ))}
+            </ul>
+        </section>
+    )}
 
     <section>
         <h2 class="text-2xl font-semibold mb-4">Steps</h2>

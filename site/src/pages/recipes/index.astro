@@ -22,7 +22,7 @@ const recipes = await getCollection("recipes");
         <div class="space-y-8">
           {
             recipes.map((recipe) => (
-              <a class="flex bg-white shadow-md rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:shadow-lg hover:transform hover:scale-103" href={`/recipes/${recipe.data.slug}`}>
+              <a class="flex bg-white shadow-md rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:shadow-lg hover:transform" href={`/recipes/${recipe.data.slug}`}>
                 <div class="flex-1 p-6">
                   <h4 class="text-xl font-bold text-gray-900 mb-2">
                     {recipe.data.metadata.title}
