@@ -75,6 +75,7 @@ function getEntryInfo({ fileUrl, contents }: EntryInfoInput): EntryInfoOutput {
   if (!slug) {
     slug = (fileUrl.pathname.split("/").pop() || "")
       .toLowerCase()
+      .replace('.cook', '') 
       .split(" ")
       .join("-");
   }
