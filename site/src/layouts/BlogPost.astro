@@ -8,15 +8,32 @@ import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
 import "../styles/katex.min.css";
 import SocialShare from "../components/SocialShare.astro";
+import { Seo } from "astro-seo-meta";
 
-// type Props = CollectionEntry<"logseq">["data"];
+type Props = CollectionEntry<"logseq">["data"] & {slug: CollectionEntry<"logseq">["slug"]}
 
-const { coverimage, date, description, blogtitle, slug  } = Astro.props;
+const { coverimage, date, description, blogtitle, slug, tags  } = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={blogtitle} description={description} image={coverimage} />
+    <BaseHead title={blogtitle} description={description} image={coverimage?.src} />
+    <Seo
+    title={blogtitle}
+    description={description}
+    keywords={tags||[]}
+    icon={coverimage?.src}
+    twitter={{
+      image: coverimage?.src,
+      card: "summary_large_image",
+      site: "@bsunter",
+    }}
+    facebook={{
+      image: coverimage?.src,
+      url: `https://briansunter.com/${slug}`,
+      type: "article",
+    }}
+  />
   </head>
   <body>
     <Header />
