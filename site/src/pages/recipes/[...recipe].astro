@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
+import { Schema } from "astro-seo-schema"
+
 export async function getStaticPaths() {
     const blogEntries = await getCollection("recipes");
   
@@ -19,6 +21,45 @@ const { ingredients, metadata, steps } = entry.data;
 <html lang="en">
     <head>
         <BaseHead title={metadata.title} description={"recipe"} />
+        <Schema
+            item={{
+              "@context": "https://schema.org",
+              "@type": "Recipe",
+              "name": metadata.title,
+              "description": "recipe",
+              "image": ["https://briansunter.com/kitchen.jpg"],
+              "recipeIngredient": ingredients.map(({ name, quantity, units }) => `${quantity !== 1 && units ? `${quantity} ${units}` : units ? `1 ${units}` : ""} ${name}`),
+              "recipeInstructions": steps.map((step, index) => ({
+                "@type": "HowToStep",
+                "text": step.map((stepItem) => {
+                  if (stepItem.type === "text") {
+                    return stepItem.value;
+                  } else if (stepItem.type === "ingredient") {
+                    return `${stepItem.quantity !== 1 && stepItem.units ? `${stepItem.quantity} ${stepItem.units}` : stepItem.units ? `1 ${stepItem.units}` : ""} ${stepItem.name}`;
+                  } else if (stepItem.type === "timer") {
+                    return `${stepItem.quantity} ${stepItem.units}`;
+                  } else if (stepItem.type === "cookware") {
+                    return stepItem.name;
+                  }
+                }).join(" "),
+              })),
+              "recipeCuisine": [],
+              "author": {
+                "@type": "Person",
+                "name": "Brian Sunter"
+              },
+              "keywords": [],
+              "nutrition": {
+                "@type": "NutritionInformation"
+              },
+              "recipeYield": "",
+              "recipeCategory": "",
+              "tool": entry.data.cookwares.map(({ name }) => ({
+                "@type": "HowToTool",
+                "name": name
+              }))
+            }}
+          />
     </head>
     <body>
         <Header />
