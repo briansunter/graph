@@ -59,15 +59,15 @@ const { ingredients, metadata, steps } = entry.data;
                             return <span>{stepItem.value}</span>;
                         } else if (stepItem.type === "ingredient") {
                             return (
-                                <span class="inline-block bg-gray-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{(stepItem.quantity !== 1 && stepItem.units ? `${stepItem.quantity} ${stepItem.units}` : stepItem.units ? `1 ${stepItem.units}` : "")} {stepItem.name}</span>
+                                <span class="inline-block bg-gray-100 text-gray-800 rounded px-1 py-1 mt-2">{(stepItem.quantity !== 1 && stepItem.units ? `${stepItem.quantity} ${stepItem.units}` : stepItem.units ? `1 ${stepItem.units}` : "")} {stepItem.name}</span>
                                 )
                         } else if (stepItem.type === "timer") {
                             return (
-                                <span class="inline-block bg-yellow-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{stepItem.quantity} {stepItem.units}</span>
+                                <span class="inline-block bg-yellow-100 text-gray-800 rounded px-1 py-1 mt-2">{stepItem.quantity} {stepItem.units}</span>
                             );
                         } else if (stepItem.type === "cookware") {
                             return (
-                                <span class="inline-block bg-red-100 text-gray-800 rounded px-1 py-1 mt-2 mr-1">{stepItem.name}</span>
+                                <span class="inline-block bg-red-100 text-gray-800 rounded px-1 py-1 mt-2">{stepItem.name}</span>
                             );
                         }
                     })}
