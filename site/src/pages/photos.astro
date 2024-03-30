@@ -7,6 +7,9 @@ import "photoswipe/dist/photoswipe.css";
 import Header from "../components/Header.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import "leaflet/dist/leaflet.css";
+
+import "leaflet/dist/images/marker-shadow.png";
+
 interface GPS {
   lat: number;
   lng: number;
@@ -117,28 +120,29 @@ interface GPS {
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {collection.data.photos.map((photo) => {
-                return(
-                <a
-                  href={photo.filename.src}
-                  data-pswp-width={photo.filename.width}
-                  data-pswp-height={photo.filename.height}
-                  target="_blank"
-                  class={`relative block overflow-hidden ${photo.description || photo.title ? "bg-gray-100" : ""}`}
-                >
-                  <Image
-                    src={photo.filename}
-                    alt={photo.title || ""}
-                    width={600}
-                    height={400}
-                    format="webp"
-                    class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105"
-                  />
-                  <div class="p-2 flex flex-col">
-                    <p class="text-xs m-0 text-gray-600 font-semibold">
-                      {photo.title ? photo.title : photo.description}
-                    </p>
-                  </div>
-                </a>)
+                return (
+                  <a
+                    href={photo.filename.src}
+                    data-pswp-width={photo.filename.width}
+                    data-pswp-height={photo.filename.height}
+                    target="_blank"
+                    class={`relative block overflow-hidden ${photo.description || photo.title ? "bg-gray-100" : ""}`}
+                  >
+                    <Image
+                      src={photo.filename}
+                      alt={photo.title || ""}
+                      width={600}
+                      height={400}
+                      format="webp"
+                      class="w-full h-64 object-cover transition duration-300 ease-in-out transform hover:scale-105"
+                    />
+                    <div class="p-2 flex flex-col">
+                      <p class="text-xs m-0 text-gray-600 font-semibold">
+                        {photo.title ? photo.title : photo.description}
+                      </p>
+                    </div>
+                  </a>
+                );
               })}
             </div>
           </>
@@ -155,6 +159,20 @@ interface GPS {
       import L from "leaflet";
       import PhotoSwipeLightbox from "photoswipe/lightbox";
       import PhotoSwipe from "photoswipe";
+      import icon from "leaflet/dist/images/marker-icon.png";
+      import icon2x from "leaflet/dist/images/marker-icon-2x.png";
+      import markerShadow from "leaflet/dist/images/marker-shadow.png";
+
+      const myIcon = L.icon({
+        iconUrl: icon.src,
+        iconRetinaUrl: icon2x.src,
+        shadowUrl: markerShadow.src,
+        iconSize: [25, 41], // size of the icon
+        shadowSize: [41, 41], // size of the shadow
+        iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
+        shadowAnchor: [12, 41], // the same for the shadow
+        popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
+      });
       const lightbox = new PhotoSwipeLightbox({
         gallery: ".grid",
         children: "a",
@@ -176,9 +194,9 @@ interface GPS {
             maxZoom: 20,
           }
         ).addTo(map);
-
-        L.marker([lat, lng]).addTo(map);
+        L.marker([lat, lng], { icon: myIcon }).addTo(map);
       }
+
       type MapElement = HTMLElement & {
         dataset: {
           id: string;

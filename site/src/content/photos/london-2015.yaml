@@ -1,7 +1,7 @@
 # src/content/photos/collection.yaml
 name: London 2015
 description: Visiting London on the first stop of our backpacking trip
-location: Londong, England
+location: London, England
 cover: ./images/london.jpeg
 date: 2023-02-01
 gps:
