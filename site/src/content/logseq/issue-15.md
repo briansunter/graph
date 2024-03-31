@@ -7,7 +7,7 @@ tags:
 categories: newsletter
 date: 2024-03-20
 blogtitle: Year in Review - Hawaii, Health, and Projects
-description: Thoughts on living in Hawaii for the past year and my recent projects
+description: Thoughts on living in Hawaii for the past year and recent projects
 coverimage: ../../assets/hawaii-cover_1710985966457_0.jpg
 ---
 
@@ -35,7 +35,7 @@ I've gotten more physically fit after reconnecting with some hobbies like liftin
 
 One of my main goals was to get more physically healthy and I've made some progress. Spending more time outside, waking up around sunrise, and starting my day with a nice walk has reset my sleep cycle, whereas before I used to stay up pretty late.
 
-Another favorite activity has been meal prepping. Grilled meats and veggies on the outdoor grill has been a great meal prep hack since it's so tasty and healthy. Plus it's a really nice to be outside and hang out while cooking.
+Another favorite activity has been meal prepping. I've been improving my cooking skills and learning how to cook better healthy meals for myself. Grilled meats and veggies on the outdoor grill have been a great meal prep hack since it's so tasty and healthy. Plus it's really nice to be outside and hang out while cooking.
 
 ![Grilled meat meal prep](/assets/IMG_2702_2_1710987614171_0.jpeg)
 
@@ -55,11 +55,9 @@ My intellectual and professional pursuits are also going well. I'm working on so
 
 {{< youtube RzT20ejft3c >}}
 
-My main technical interest right  is AI, and I've been studying fundamentals and building product prototypes around it. AI gives me the same feeling as developing for the early iPhone, where every new capability opened up many possibilities.
+My main technical interest right  is AI, and I've been studying fundamentals and building product prototypes around it. AI gives me the same feeling as developing for the early iPhone, where every new capability opened up many possibilities. Every few months, a new AI model or capability is announced, and many new features, products, or companies could be built around them. Combining current breakthroughs in valuable ways has a lot of potential.
 
-Every few months, a new AI model or capability is announced, and many new features, products, or companies could be built around them. Combining current breakthroughs in valuable ways has a lot of potential.
-
-I was amazed at the release of GPT-3, but the release of GPT-4 last year was the first model that can actually do useful work in my opinion. It's funny looking back on some of the tools I was amazed with when I first started this newsletter and how far they've come since then.
+GPT-3 was the first model that amazed me, but the release of GPT-4 last year was the first model that could reliably do useful work. It's funny looking back on some of the tools I was amazed with when I first started this newsletter and how far they've come since then.
 
 {{< tweet user="vensykrishna" id="1737855708228669883" >}}
 
@@ -79,5 +77,5 @@ It's been interesting, fun, and humbling to revisit some long-lost math.
 
 ![ ](/assets/mathml_1711158317502_0.png)
 
-I was nervous moving out here, and there have been some challenges, but so far everything has been manageable and gone better than expected. Overall, it's been a great year prioritizing my health, working on interesting projects, and exploring an amazing place.
+I was nervous moving out here, and there have been some challenges, but so far, everything has been manageable and gone better than expected. Overall, it's been a great year prioritizing my health, working on interesting projects, and exploring an amazing place.
 
