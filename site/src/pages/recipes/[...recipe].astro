@@ -4,6 +4,7 @@ import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { Schema } from "astro-seo-schema";
+import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("recipes");
@@ -16,6 +17,25 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { ingredients, metadata, steps } = entry.data;
+
+type Ingredient = CollectionEntry<'recipes'>["data"]["ingredients"][0];
+
+const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
+  (acc, curr) => {
+    const existingIngredient: Ingredient | undefined = acc.find(
+      (ingredient: Ingredient) =>
+        ingredient.name === curr.name && ingredient.units === curr.units
+    );
+    if (existingIngredient) {
+      existingIngredient.quantity += curr.quantity;
+    } else {
+      acc.push({ ...curr });
+    }
+
+    return acc;
+  },
+  []
+);
 ---
 
 <html lang="en">
@@ -75,7 +95,7 @@ const { ingredients, metadata, steps } = entry.data;
         <h2 class="text-2xl font-semibold mb-4">Ingredients</h2>
         <ul class="list-disc pl-5">
           {
-            ingredients.map(({ name, quantity, units }) => (
+            combinedIngredients.map(({ name, quantity, units }) => (
               <li class="mb-2">
                 {quantity !== 1 && units
                   ? `${quantity} ${units}`
