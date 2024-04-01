@@ -36,7 +36,7 @@ Someone wanting an overview of Forte's thinking. It's a good summarization of th
 
 Someone looking for a good tool agnostic notetaking workflow framework
 
-Someone who liked similar books such as Getting Things  by David Allen or How to Take Smart notes by Sönke Ahrens.
+Someone who liked similar books such as Getting Things Done by David Allen or How to Take Smart notes by Sönke Ahrens.
 
 ## How the Book Changed Me
 
@@ -52,9 +52,9 @@ I like the idea of having different "modes" of working, like "convergent" mode a
 ## My Top 3 Quotes
 
 
-> What’s the point of king something if it doesn’t positively impact anyone, not even yourself?
+> What’s the point of knowing something if it doesn’t positively impact anyone, not even yourself?
 
-> Your job as a notetaker is to preserve the notes you’re taking on the things you discover in such a way that they can survive the journey into the future. That way your excitement and enthusiasm for your kledge builds over time instead of fading away
+> Your job as a notetaker is to preserve the notes you’re taking on the things you discover in such a way that they can survive the journey into the future. That way your excitement and enthusiasm for your knowledge builds over time instead of fading away
 
 > PARA isn’t a filing system; it’s a production system. It’s no use trying to find the “perfect place” where a note or file belongs. There isn’t one. The whole system is constantly shifting and changing in sync with your constantly changing life.
 
@@ -129,7 +129,7 @@ Ask yourself, “What are the questions I’ve always been interested in?”
 
 This could include grand, sweeping questions like “How can we make society fairer and more equitable?” as well as practical ones like “How can I make it a habit to exercise every day?”
 
-It might include questions about relationships, such as “How can I have closer relationships with the people I love?” or productivity, like “How can I spend more of my time  high-value work?”
+It might include questions about relationships, such as “How can I have closer relationships with the people I love?” or productivity, like “How can I spend more of my time doing high-value work?”
 
 ##### Examples of favorite questions
 
@@ -161,7 +161,7 @@ You should leverage technology to make it easier to capture information and auto
 
 *Note taking apps** let you store, search, and organize your content.
 
-*Read it  apps** lets you save interesting articles for  and highlight passages in them
+*Read it later apps** lets you save interesting articles for later and highlight passages in them
 
 *Ebook Readers** often let you highlight and export those highlights to your second brain.
 
@@ -192,11 +192,11 @@ Forte proposes an organization structure called **PARA**, which stands for Proje
 #### Projects
 
 
-Short-term efforts in your work or life that you’re working on .
+Short-term efforts in your work or life that you’re working on now.
 
 Projects have a beginning and an end.
 
-Projects also have a clear outcome needed for the project to be considered "."
+Projects also have a clear outcome needed for the project to be considered "done."
 
 ##### Examples of projects
 
@@ -261,7 +261,7 @@ Archives are things you've completed or put on hold.
 
 For example:
 
-Completed or  projects
+Completed or canceled projects
 
 Areas of responsibility that are no longer relevant
 
@@ -324,7 +324,7 @@ Don't try to capture the entire article.
 
 Layer two is where you bold the main points of your captured note: phrases that capture the essence of what the author is trying to say.
 
-This step and the subsequent steps should be  when you have time for focused work, not at the time of capture.
+This step and the subsequent steps should be done when you have time for focused work, not at the time of capture.
 
 These bolded passes are much faster to look back on than reading the entire article or your captured excerpts. It might only take a minute to refresh your memory instead of several minutes reading your full excerpts.
 
@@ -342,7 +342,7 @@ These highlights are often just a few sentences or half sentences from everythin
 
 The executive summary is a few bullet points at the top of your note summarizing the article in your own words.
 
-This is usually only  for your most valuable notes, which you return to often.
+This is usually only done for your most valuable notes, which you return to often.
 
 ### Common Mistakes
 
@@ -357,9 +357,9 @@ Each layer in Progressive Summarization should only include about 20% of the pre
 #### Highlighting without a purpose in mind
 
 
-When should you be  progressive summarization? When you are getting ready to create something
+When should you be doing progressive summarization? When you are getting ready to create something
 
-It takes time to distill your notes, so wait until you have a clear purpose. Otherwise, you're investing significant time without king if it will pay off.
+It takes time to distill your notes, so wait until you have a clear purpose. Otherwise, you're investing significant time without knowing if it will pay off.
 
 One rule of thumb is to make the note a little more discoverable every time you "touch" it by summarizing or adding a commentary.
 
@@ -387,7 +387,7 @@ Examples of previous work you can leverage:
 
 *Final deliverables**: Concrete pieces of work you’ve delivered as part of past projects, which could become components of something new.
 
-*Documents created by others:** Kledge assets created by people on your team, contractors or consultants, or even clients or customers, that you can reference and incorporate into your work.
+*Documents created by others:** Knowledge assets created by people on your team, contractors or consultants, or even clients or customers, that you can reference and incorporate into your work.
 
 ### How to resurface your past work
 
@@ -397,7 +397,7 @@ Examples of previous work you can leverage:
 
 Digital notetaking systems have a considerable advantage over physical systems: you can search their entire contents in less than a second.
 
-This should be the first retrieval method you turn to, and it's most beneficial when you already k what you're looking for.
+This should be the first retrieval method you turn to, and it's most beneficial when you already know what you're looking for.
 
 #### Browsing
 
@@ -441,7 +441,7 @@ Other people can give you valuable feedback, such as pointing out aspects of you
 
 ![ ](/assets/basb-project_1672457363980_0.jpg)
 
-How do we create sustainable habits and routines to build "compound interest" from our projects, notes, and kledge?
+How do we create sustainable habits and routines to build "compound interest" from our projects, notes, and knowledge?
 
 ## Project Checklists
 
@@ -464,9 +464,9 @@ This is a messy step where you should consider potential approaches, how it rela
 
 Forte has a lists of questions he asks himself:
 
-> What do I already k about this project?
+> What do I already know about this project?
 
-> What don’t I k that I need to find out?
+> What don’t I know that I need to find out?
 
 > What is my goal or intention?
 
@@ -531,7 +531,7 @@ If it's a collaborative project, you should outline each person's objectives and
 ### Have an official kickoff:
 
 
-> Schedule check-in calls, make a budget and timeline, and write out the goals and objectives to make sure everyone is informed, aligned, and clear on what is expected of them. I find that  an official kickoff is useful even if it’s a solo project!
+> Schedule check-in calls, make a budget and timeline, and write out the goals and objectives to make sure everyone is informed, aligned, and clear on what is expected of them. I find that doing an official kickoff is useful even if it’s a solo project!
 
 ## Project completion checklist
 
@@ -541,7 +541,7 @@ Completing a project is unique because it is a rare moment when something ends.
 ### 1. Mark project as complete
 
 
-When all the tasks as , mark the project as complete in your notetaking app
+When all the tasks as done, mark the project as complete in your notetaking app
 
 ### 2. Cross out the associated project goal and move to “Completed” section.
 
@@ -564,7 +564,7 @@ For example, a web page design could be used as a template for future sites, an 
 
 Archive the project to get it out of the way and avoid it cluttering up your environment
 
-### 5. If  or paused, record current status
+### 5. If canceled or paused, record current status
 
 
 If you cancel or postpone a project, you can archive it but mark the current status with some comments.
@@ -581,7 +581,7 @@ For example, could you describe your last action and why you postponed it?
 
 > What did you do well?
 
-> What could you have  better?
+> What could you have done better?
 
 > What can you improve for next time?
 
@@ -614,7 +614,7 @@ For example, could you describe your last action and why you postponed it?
 
 Periodically review your work and life and decide if you want to change anything.
 
-The idea of weekly reviews comes from David Allen's book Getting Things 
+The idea of weekly reviews comes from David Allen's book Getting Things Done
 
 ### Weekly review template
 

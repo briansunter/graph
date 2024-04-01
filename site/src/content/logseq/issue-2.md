@@ -35,9 +35,9 @@ This technology is brand new and much better than Alexa, Siri, or Google Assista
 
 One of my favorite things about being a coder is thinking of an idea and building a tool for myself that solves a problem. Once I make a helpful tool, it's just a little extra effort to put it online and share it with the world. I'm planning to make more of my projects and writing publicly available.
 
-I had fun looking at the Twitter bios of people talking about the plugin. One plugin user is a self-described "Chaotic good statistical learning Ph.D. candidate working to strengthen humanitarian health systems," precisely the type of person I want using the plugin! It feels good that I can enable others to do real-world work like this by king a bit of coding and how to get the code out there.
+I had fun looking at the Twitter bios of people talking about the plugin. One plugin user is a self-described "Chaotic good statistical learning Ph.D. candidate working to strengthen humanitarian health systems," precisely the type of person I want using the plugin! It feels good that I can enable others to do real-world work like this by knowing a bit of coding and how to get the code out there.
 
-The plugin is called [logseq-gtp3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) and lets you send commands to this powerful AI system from inside your text editor. It can do a lot of things like write and summarize articles. It's easy to get started. [Download it in the Logseq marketplace](https://github.com/logseq/logseq/releases), and let me k what you think!
+The plugin is called [logseq-gtp3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) and lets you send commands to this powerful AI system from inside your text editor. It can do a lot of things like write and summarize articles. It's easy to get started. [Download it in the Logseq marketplace](https://github.com/logseq/logseq/releases), and let me know what you think!
 
 In this newsletter, I'll share some of the community's reactions to my new AI plugin, some thoughts on productivity, a few interesting reads from the week, and what I have for the next newsletter issue.
 
@@ -49,9 +49,9 @@ Here is some feedback for users on Twitter
 ## Feedback on [[logseq-openai/project]] plugin
 
 
-This user summed up how I feel perfectly.  that AI is part of my workflow, I want to keep it.
+This user summed up how I feel perfectly. Now that AI is part of my workflow, I want to keep it.
 
-As far as I k, there is nothing on the market similar to OpenAI's GPT3.
+As far as I know, there is nothing on the market similar to OpenAI's GPT3.
 
 {{< tweet user="irace" id="1535056205441277962" >}}
 
@@ -79,7 +79,7 @@ This user told me they found the plugin helpful in helping them understand code 
 
 {{< tweet user="haveanicedavid" id="1534950374779392009" >}}
 
-A feature I still need to release made it into one of the videos. For , type `Summarize Text:` instead.
+A feature I still need to release made it into one of the videos. For now, type `Summarize Text:` instead.
 
 {{< tweet user="shezthedev" id="1534498138932842498" >}}
 
@@ -91,7 +91,7 @@ This AI tech became available to the general public six months ago, so many peop
 
 {{< tweet user="Aaron3lias" id="1537201417022083072" >}}
 
-Putting your work on the internet makes you realize how big the world is. I love seeing the international developer community try out the plugin. You k your idea is making the rounds when you see your name surrounded by mandarin Chinese.
+Putting your work on the internet makes you realize how big the world is. I love seeing the international developer community try out the plugin. You know your idea is making the rounds when you see your name surrounded by mandarin Chinese.
 
 https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai/
 
@@ -110,7 +110,7 @@ For a long time, I always had a sinking feeling I didn't accomplish "enough" at 
 
 Eventually, I realized I never even defined what "enough" was.
 
-, I pick one thing I want to accomplish in the morning.
+Now, I pick one thing I want to accomplish in the morning.
 
 This technique helps me focus on what will truly move my life forward and end each day with a sense of accomplishment.
 
@@ -129,7 +129,7 @@ It's a timely short story about asking AI the answers to life's biggest question
 Isaac Asimov said it was his favorite short story he’d written.
 
 > "Ask Multivac."
-   "You ask Multivac. I dare you. Five dollars says it can't be ."  
+   "You ask Multivac. I dare you. Five dollars says it can't be done."  
 Adell was just drunk enough to try, just sober enough to be able to phrase the necessary  
 symbols and operations into a question which, in words, might have corresponded to this: ...
 
@@ -144,7 +144,7 @@ Related: [The Last Answer](https://highexistence.com/the-last-answer-short-story
 ### Link of the week
 
 
-I remember when I first moved to San Francisco, and Uber was  a "match muni" promotion, where you could take an Uber anywhere in the city for $2.25 (same as the "muni" bus)
+I remember when I first moved to San Francisco, and Uber was doing a "match muni" promotion, where you could take an Uber anywhere in the city for $2.25 (same as the "muni" bus)
 
 I would not be surprised if Uber went back to $50 a ride after more tech money dries up, like a traditional taxi.
 
@@ -168,5 +168,5 @@ Thanks for reading! This week I announced my new plugin and shared some feedback
 
 Next week I plan on writing about some productivity techniques in Logseq and how I manage "projects" in my life, using this newsletter as an example.
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 

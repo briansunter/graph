@@ -280,7 +280,7 @@ StyleGANs
 
 [Course Link](https://www.deeplearning.ai/courses/tensorflow-advanced-techniques-specialization/)
 
-Expand your kledge of the Functional API and build exotic non-sequential model types. You will learn how to optimize training in different environments with multiple processors and chip types and get introduced to advanced computer vision scenarios such as object detection, image segmentation, and interpreting convolutions. You will also explore generative deep learning including the ways AIs can create new content from Style Transfer to Auto Encoding, VAEs, and GANs.
+Expand your knowledge of the Functional API and build exotic non-sequential model types. You will learn how to optimize training in different environments with multiple processors and chip types and get introduced to advanced computer vision scenarios such as object detection, image segmentation, and interpreting convolutions. You will also explore generative deep learning including the ways AIs can create new content from Style Transfer to Auto Encoding, VAEs, and GANs.
 
 Time: 5 months (6 hours/week)
 
@@ -482,7 +482,7 @@ Stable Difussion
 
 🧑‍💻 Learn to **use famous Deep RL libraries** such as [Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/), [RL Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo), [Sample Factory](https://samplefactory.dev/) and [CleanRL](https://github.com/vwxyzjn/cleanrl).
 
-🤖 **Train agents in unique environments** such as [SballFight](https://huggingface.co/spaces/ThomasSimonini/SballFight), [Huggy the Doggo 🐶](https://huggingface.co/spaces/ThomasSimonini/Huggy), [MineRL (Minecraft ⛏️)](https://minerl.io/), [VizDoom (Doom)](https://vizdoom.cs.put.edu.pl/) and classical ones such as [Space Invaders](https://www.gymlibrary.dev/environments/atari/) and [PyBullet](https://pybullet.org/wordpress/).
+🤖 **Train agents in unique environments** such as [SnowballFight](https://huggingface.co/spaces/ThomasSimonini/SnowballFight), [Huggy the Doggo 🐶](https://huggingface.co/spaces/ThomasSimonini/Huggy), [MineRL (Minecraft ⛏️)](https://minerl.io/), [VizDoom (Doom)](https://vizdoom.cs.put.edu.pl/) and classical ones such as [Space Invaders](https://www.gymlibrary.dev/environments/atari/) and [PyBullet](https://pybullet.org/wordpress/).
 
 💾 Share your **trained agents with one line of code to the Hub** and also download powerful agents from the community.
 
@@ -510,7 +510,7 @@ offline Reinforcement Learning
 
 {{< youtube VMj-3S1tku0 >}}
 
-This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic kledge of Python and a vague recollection of calculus from high school.
+This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic knowledge of Python and a vague recollection of calculus from high school.
 
 #### Topics
 
@@ -593,7 +593,7 @@ Backpropagation
 ### Essence of Linear Algebra
 
 
-An introduction to visualizing what matrices are really 
+An introduction to visualizing what matrices are really doing
 
 {{< youtube fNk_zzaMoSs >}}
 
@@ -1414,7 +1414,7 @@ Consumption Forecast
 
 Accessible overview of the field of statistical learning, an essential toolset for making sense of the vast and complex data sets that have emerged in fields ranging from biology to finance to marketing to astrophysics in the past twenty years. This book presents some of the most important modeling and prediction techniques, along with relevant applications
 
-This book is targeted at statisticians and non-statisticians alike who wish to use cutting-edge statistical learning techniques to analyze their data. The text assumes only a previous course in linear regression and no kledge of matrix algebra.
+This book is targeted at statisticians and non-statisticians alike who wish to use cutting-edge statistical learning techniques to analyze their data. The text assumes only a previous course in linear regression and no knowledge of matrix algebra.
 
 Easier than **Elements of Statistical Learning**
 
@@ -1519,17 +1519,17 @@ Adversarial Search and Games
 
 Constraint Satisfaction Problems
 
-Kledge, reasoning, and planning
+Knowledge, reasoning, and planning
 
 Logical Agents
 
 First-Order Logic
 
-Kledge Representation
+Knowledge Representation
 
 Automated Planning
 
-Uncertain kledge and reasoning
+Uncertain knowledge and reasoning
 
 Probabilistic Reasoning
 
@@ -1989,7 +1989,7 @@ Extremely rigorous books recommend by Mike Jordan from Berkeley intended for tho
 
 10.) Golub, G., and Van Loan, C. (1996). "Matrix Computations" Johns Hopkins.
 
-> It's good to k some information theory. The classic is:
+> It's good to know some information theory. The classic is:
 
 11.) Cover, T. and Thomas, J. "Elements of Information Theory" Wiley.
 

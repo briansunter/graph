@@ -86,7 +86,7 @@ $$\sum_{i=1}^1 i = \frac{1(1 + 1)}{2}=\frac{2}{2} = 1$$
 #### Inductive Step
 
 
- lets find the next sum, in terms of $n+1$
+Now lets find the next sum, in terms of $n+1$
 
 $$\sum_{i=1}^{n+1} i $$
 
@@ -114,7 +114,7 @@ This is really similar to the original equation, but with $(n + 1)$ in place of 
 
 $\frac{n(n + 1)}{2}$ vs  $\frac{(n + 1)((n + 1) +1)}{2}$
 
-This shows how you can validate the equation is correct using induction. We start with the kn base case, then show that given n, we can find any n+1
+This shows how you can validate the equation is correct using induction. We start with the known base case, then show that given n, we can find any n+1
 
 ### Resources
 

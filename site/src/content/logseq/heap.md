@@ -259,7 +259,7 @@ style 16 fill:#f9f
 style A display:none
 ```
 
-{{youtube-timestamp 1526}}  we adjust the elements from the root towards leaf, maintaining complete binary property
+{{youtube-timestamp 1526}} Now we adjust the elements from the root towards leaf, maintaining complete binary property
 
 Check 16's child elements, which child is greater? `30` so swap with `30`
 
@@ -340,7 +340,7 @@ graph TD
 10
 ```
 
- insert second element `20`
+Now insert second element `20`
 
 `[10,20]`
 
@@ -362,7 +362,7 @@ style B display:none
 
 `[20,10]`
 
- insert the third element `15`
+Now insert the third element `15`
 
 ```mermaid
 graph TD
@@ -374,7 +374,7 @@ Compare with parent, it's smaller, so we don't need to adjust
 
 `[20,10,15]`
 
- insert the fourth element `30`
+Now insert the fourth element `30`
 
 `[20,10,15,30]`
 
@@ -412,9 +412,9 @@ style C display:none
 style A fill:#f9f
 ```
 
-Sorted, so  elements are `[30,20,15,10]`
+Sorted, so now elements are `[30,20,15,10]`
 
- insert the fifth element `40`
+Now insert the fifth element `40`
 
 `[30,20,15,10,40]`
 
@@ -449,7 +449,7 @@ B[30]-->C[20]
 style A fill:#f9f
 ```
 
- the heap is `[40,20,15,10,20]`
+Now the heap is `[40,20,15,10,20]`
 
 Every element was inserted at next free space and moved upward
 
@@ -484,7 +484,7 @@ style C display: none
 
 `[20,30,15,10]`
 
- we need to adjust the binary tree by swapping downward
+Now we need to adjust the binary tree by swapping downward
 
 {{youtube-timestamp 2229}} Check where of the children of 20 are greater, than swap
 
@@ -525,7 +525,7 @@ style C display: none
 
 `[10,20,15]`
 
- adjust by comparing with children
+Now adjust by comparing with children
 
 Swap `10`, with `20`
 
@@ -537,7 +537,7 @@ style B fill:#f9f
 style C display: none
 ```
 
- this is in map heap form, so we stop
+Now this is in map heap form, so we stop
 
 `20,10,15` and our reserved elements `[30,40]`
 
@@ -548,7 +548,7 @@ A[20]-->D[15]
 style C display: none
 ```
 
- we delete `20` and replace with `15`
+Now we delete `20` and replace with `15`
 
 ```mermaid
 graph TD
@@ -569,7 +569,7 @@ A[15]-->C[.]
 style C display: none
 ```
 
- delete `15` and replace with `10`
+Now delete `15` and replace with `10`
 
 ```mermaid
 graph TD
@@ -581,7 +581,7 @@ We don't need to adjust since there's just one element
 
 Our heap is `[10]` and our reserved elements at the end are `[15,20,30,40]`
 
-So together  the array is sorted `10,15,20,30,40`
+So together now the array is sorted `10,15,20,30,40`
 
 ### Heapify
 
@@ -623,7 +623,7 @@ graph TD
 style 25 fill:#f9f
 ```
 
-{{youtube-timestamp 2700}}  we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
+{{youtube-timestamp 2700}} Now we're on `20`, Compare with children. `40` is greater, so swap `20` with `40`
 
 ```mermaid
 graph TD
@@ -636,7 +636,7 @@ graph TD
 style 40 fill:#f9f
 ```
 
-{{youtube-timestamp 2693}}  we get to the first element, the root
+{{youtube-timestamp 2693}} Now we get to the first element, the root
 
 {{youtube-timestamp 2709}} We compare 40 with it's children, and swap 10 with 40
 

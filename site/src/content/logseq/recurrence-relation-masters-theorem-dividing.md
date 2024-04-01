@@ -168,9 +168,9 @@ Each row adds up to $n$ amount of work
 
 each row is $\frac{n}{2^k}$
 
-How many rows are there? and in each row how much work is being ?
+How many rows are there? and in each row how much work is being done?
 
-so n work being  k times
+so n work being done k times
 
 Assume $\frac{n}{2^k}=1$
 

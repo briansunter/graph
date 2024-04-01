@@ -62,7 +62,7 @@ First, let's set up `pyenv` and set our terminal's default Python version to 3.9
 
 `pyenv global 3.9.0`
 
- we will be using Python 3.9 in our terminal by default. If we work with a project that needs a different version of Python, `pyenv` can be configured to use a different version for that project.
+Now we will be using Python 3.9 in our terminal by default. If we work with a project that needs a different version of Python, `pyenv` can be configured to use a different version for that project.
 
 ### Install poetry
 
@@ -82,7 +82,7 @@ First, let's make the folder where we want the project to live.
 
 `cd example`
 
- let's initialize the Python project using Poetry. You can just keep hitting the enter key until the prompt finishes to use the default project settings.
+Now let's initialize the Python project using Poetry. You can just keep hitting the enter key until the prompt finishes to use the default project settings.
 
 `poetry init`
 
@@ -161,7 +161,7 @@ It should open a new shell with the text `(.venv)` on the left side of the promp
 
 This shell has access to the dependencies you installed using poetry like Django.
 
-, you can use the Django commands to generate your site. If following a Django tutorial, run `poetry shell` before running the Django terminal commands.
+Now, you can use the Django commands to generate your site. If following a Django tutorial, run `poetry shell` before running the Django terminal commands.
 
 Run `django-admin startproject mysite` to create your project skeleton.
 
@@ -177,7 +177,7 @@ You will probably encounter many different tools and options, but you shouldn't 
 ### Pip
 
 
-pip is a dependency management tool included with Python 3.4 and , though it's pretty simplistic. It can install dependencies from a `requirements.txt` file, but it doesn't have a concept like `poetry.lock` and doesn't handle virtualenv for you.
+pip is a dependency management tool included with Python 3.4 and later, though it's pretty simplistic. It can install dependencies from a `requirements.txt` file, but it doesn't have a concept like `poetry.lock` and doesn't handle virtualenv for you.
 
 ### setup.py
 

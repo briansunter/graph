@@ -41,11 +41,11 @@ Feeding the captions text into my [[logseq-openai/project]] plugin works incredi
 ### [[omnivore-logseq-guide]]
 
 
-If you read a lot of content online, you need a “read it  app” to save interesting links, then read and highlight everything all at once. Keeping the article for  is much more efficient than reading a link as soon as you find it.
+If you read a lot of content online, you need a “read it later app” to save interesting links, then read and highlight everything all at once. Keeping the article for later is much more efficient than reading a link as soon as you find it.
 
-I recently discovered a terrific “Read it ” app with a built-in Reader Mode and highlighter called [Omnivore](https://omnivore.app).
+I recently discovered a terrific “Read it Later” app with a built-in Reader Mode and highlighter called [Omnivore](https://omnivore.app).
 
-The [Omnivore web app and backend are open-source](https://github.com/omnivore-app/logseq-omnivore), so you k you can use it free forever, just like Logseq. Omnivore provides a free hosted option too.
+The [Omnivore web app and backend are open-source](https://github.com/omnivore-app/logseq-omnivore), so you know you can use it free forever, just like Logseq. Omnivore provides a free hosted option too.
 
 This is a screenshot in the Omnivore reader view with my highlights:
 
@@ -63,9 +63,9 @@ I wanted to make it easier for users to learn about me and showcase other cool g
 
 My thought process went like this:
 
-I need to set up an about me page for my public graph, so people k who I am
+I need to set up an about me page for my public graph, so people know who I am
 
-Instead of choosing a random page name, I make a page at a kn location in my graph called `[[logseq-social/profile]]`
+Instead of choosing a random page name, I make a page at a known location in my graph called `[[logseq-social/profile]]`
 
 Instead of just writing plain text, I use logseq properties to add a little bit of structure. This means I add properties like
 
@@ -95,9 +95,9 @@ All you need to do is download logseq from github and upload your site to Netlif
 
 I highly recommend [Tiago Forte’s book Building a Second Brain](https://www.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3) as an introduction to the whole note-taking and “second brain” movement.
 
-It’s notable because it’s both a productivity book and a book on personal kledge management. It shows how you can organize your kledge to do/produce valuable things. I read so much stuff and forget it; the stuff I read doesn’t always lead to a beneficial outcome in my life.
+It’s notable because it’s both a productivity book and a book on personal knowledge management. It shows how you can organize your knowledge to do/produce valuable things. I read so much stuff and forget it; the stuff I read doesn’t always lead to a beneficial outcome in my life.
 
-This book expresses a lot of my favorite ideas from my favorite books like [Getting Things ](https://www.amazon.com/Getting-Things--Stress-Free-Productivity/dp/0142000280/), [How to Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/B09HSSFCPR).
+This book expresses a lot of my favorite ideas from my favorite books like [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280/), [How to Take Smart Notes](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/B09HSSFCPR).
 
 He explains these abstract “workflows for your life” in a tool-agnostic way with good terminology.
 
@@ -196,5 +196,5 @@ On top of that, I've gained around 30 newsletters to a total of 60 in about two 
 
 I hope you enjoyed the newsletter! Next week I plan to talk more in-depth about using AI for notetaking using the latest next-generation database, AI, and NLP(Natural Language Processing) technology.
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [Twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [Twitter @bsunter](https://twitter.com)
 

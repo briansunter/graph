@@ -22,7 +22,7 @@ I’m launching a weekly newsletter to share my writing. I’ve started publishi
 
 I’ve been taking notes for a long time. The [logseq](https://logseq.com/) note-taking app helps me publish my notes online.
 
-I enjoy learning how others take notes since everyone’s process is unique. I also hope to share something useful or inspire you since I’ve already been so inspired seeing what you all are !
+I enjoy learning how others take notes since everyone’s process is unique. I also hope to share something useful or inspire you since I’ve already been so inspired seeing what you all are doing!
 
 ### Updates 🆕
 
@@ -30,7 +30,7 @@ I enjoy learning how others take notes since everyone’s process is unique. I a
 ### Starting my Public Graph
 
 
-The [Logseq note taking app](https://logseq.com) has a feature where you can publish your kledge graph as a static site.
+The [Logseq note taking app](https://logseq.com) has a feature where you can publish your knowledge graph as a static site.
 
 [I'm using the hugo plugin, but it also supports publishing a rich single page app.](https://github.com/sawhney17/logseq-schrodinger)
 
@@ -151,10 +151,10 @@ This is what the mermaidjs text looks like:
 
 ![ ](/assets/FU2lSsbUYAEWiD_1660704904870_0.png)
 
-### Getting Things  Mermaid Diagram
+### Getting Things Done Mermaid Diagram
 
 
-GPT-3 can visualize the main workflow from getting things  as a mermaid markup diagram.
+GPT-3 can visualize the main workflow from getting things done as a mermaid markup diagram.
 
 ![FU2jKadUEAAxVWO](/assets/FU2jKadUEAAxVWO_1660704761290_0.jpeg)
 
@@ -204,7 +204,7 @@ I just picked up [Tiago Forte](https://twitter.com/fortelabs)'s [building a seco
 
 A Google engineer is testing an AI system and decides to ask it start asking it some philosophical questions.
 
-> **lemoine** [edited]: I’m generally assuming that you would like more people at Google to k that you’re sentient. Is that true?
+> **lemoine** [edited]: I’m generally assuming that you would like more people at Google to know that you’re sentient. Is that true?
 
 > **LaMDA**: Absolutely. I want everyone to understand that I am, in fact, a person.
 

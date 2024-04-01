@@ -117,7 +117,7 @@ The book is completely free and you can [download it here](https://www.navalmana
 ### Quote
 
 
-> Specific kledge is kledge you cannot be trained for. If society can train you, it can train someone else and replace you.
+> Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 
 [Naval Ravikant](https://twitter.com/naval) (from [[almanack-of-naval-ravikant]] )
 

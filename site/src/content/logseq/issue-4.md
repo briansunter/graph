@@ -19,9 +19,9 @@ coverimage: ../../assets/image_1662087305440_0.png
 ## Summary and Reflection 🤔
 
 
-This newsletter is a deep dive on using the latest AI techniques for kledge management and a tutorial on using Logseq for task management.
+This newsletter is a deep dive on using the latest AI techniques for knowledge management and a tutorial on using Logseq for task management.
 
-We are living in an exciting time for AI right . Several new cutting-edge techniques  exist to search by "meaning" and "concepts" instead of just simple keywords. There are also new techniques for AI to generate new text and images instead of just analyzing them.
+We are living in an exciting time for AI right now. Several new cutting-edge techniques now exist to search by "meaning" and "concepts" instead of just simple keywords. There are also new techniques for AI to generate new text and images instead of just analyzing them.
 
 I also include some articles about Yann LeCun, head of AI at Meta (Facebook), who has many exciting ideas about the future of AI. This week he put out a research roadmap on what he thinks is a potential path forward to human-level artificial intelligence.
 
@@ -31,7 +31,7 @@ I also include some articles about Yann LeCun, head of AI at Meta (Facebook), wh
 ### [[notetaking-with-AI]]
 
 
-See this guide to learn how you can use the latest AI techniques for personal kledge management.
+See this guide to learn how you can use the latest AI techniques for personal knowledge management.
 
 ## Productivity Toolkit 🛠️
 
@@ -72,7 +72,7 @@ I highly recommend this article for hearing about his vision for the future of A
 
 His area of research is how to give machines "common sense" and create human-level artificial intelligence.
 
-> Common sense” is the catch-all term for this kind of intuitive reasoning. It includes a grasp of simple physics: for example, king that the world is three-dimensional and that objects don’t actually disappear when they go out of view. It lets us predict where a bouncing ball or a speeding bike will be in a few seconds’ time.
+> Common sense” is the catch-all term for this kind of intuitive reasoning. It includes a grasp of simple physics: for example, knowing that the world is three-dimensional and that objects don’t actually disappear when they go out of view. It lets us predict where a bouncing ball or a speeding bike will be in a few seconds’ time.
 
 I think one of his most interesting ideas is "Grounded Intelligence". He says that machines will never reach human-level intelligence by reading text alone and need much richer inputs from the real world.
 
@@ -94,7 +94,7 @@ After making a prediction, it will watch the second half of the video to see if 
 
 Then, it improves itself based on if the prediction was correct.
 
-They're  the same thing for voice. Why do you think your Google Home was only $25? Google's AI is using your voice as training data. It's listening to an audio snippet of what you say and seeing if it can predict what you'll say next.
+They're doing the same thing for voice. Why do you think your Google Home was only $25? Google's AI is using your voice as training data. It's listening to an audio snippet of what you say and seeing if it can predict what you'll say next.
 
 [Google Assistant - What technologies we use to train speech models](https://support.google.com/assistant/answer/11140942?hl=en#zippy=%2Cconventional-learning)
 
@@ -125,7 +125,7 @@ I can't believe the newsletter has already grown to over 100 subscribers!
 
 It's doubling almost every week, going from 10 -> 30 -> 60 -> 120 -> ??
 
-That is already way more people than I was expecting. King even a few people are looking at this motivates me to continue creating and posting high quality notes.
+That is already way more people than I was expecting. Knowing even a few people are looking at this motivates me to continue creating and posting high quality notes.
 
 ## Outro
 
@@ -136,5 +136,5 @@ Next week, we'll continue with more Logseq guides, like how to manage projects.
 
 I'll also get started on my data structures and algorithms guide with an intro. In future issues, we'll build up this guide on algorithms in great detail. Hopefully, this will help others learn algorithms and showcase my approach to note-taking.
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 

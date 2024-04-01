@@ -29,14 +29,14 @@ In his talk [You and Your Research (1986)](https://www.cs.virginia.edu/~robins/Y
 
 > I'm not talking about ordinary run-of-the-mill research; I'm talking about great research. And for the sake of describing great research I'll occasionally say Nobel-Prize type of work.
 
-> I became very interested in the difference between those who do and those who might have .
+> I became very interested in the difference between those who do and those who might have done.
 
-Here are some of his tips for  Nobel Prize level work:
+Here are some of his tips for doing Nobel Prize level work:
 
 ### Stop being modest and decide to do great work
 
 
-Great work is never  by accident. You need to have the confidence and courage to make it happen.
+Great work is never done by accident. You need to have the confidence and courage to make it happen.
 
 > Drop modesty and say to yourself, "Yes, I would like to do first-class work.''
 
@@ -59,11 +59,11 @@ One of his famous questions is: "What are the biggest problems in your field and
 
 Many of his fellow scientists, when pressed, admitted they didn't really believe the problems they were working on were important.
 
-> I started asking, "What are the important problems of your field?'' And after a week or so, "What important problems are you working on?'' And after some more time I came in one day and said, "If what you are  is not important, and if you don't think it is going to lead to something important, why are you at Bell Labs working on it?'' I wasn't welcomed after that; I had to find somebody else to eat with!
+> I started asking, "What are the important problems of your field?'' And after a week or so, "What important problems are you working on?'' And after some more time I came in one day and said, "If what you are doing is not important, and if you don't think it is going to lead to something important, why are you at Bell Labs working on it?'' I wasn't welcomed after that; I had to find somebody else to eat with!
 
 > "Hamming, that remark of yours got underneath my skin. I thought about it all summer, i.e. what were the important problems in my field. I haven't changed my research,'' he says, "but I think it was well worthwhile.''
 
-> I noticed a couple of months  he was made the head of the department. I noticed the other day he was a Member of the National Academy of Engineering. I noticed he has succeeded. I have never heard the names of any of the other fellows at that table mentioned in science and scientific circles. They were unable to ask themselves, "What are the important problems in my field?''
+> I noticed a couple of months later he was made the head of the department. I noticed the other day he was a Member of the National Academy of Engineering. I noticed he has succeeded. I have never heard the names of any of the other fellows at that table mentioned in science and scientific circles. They were unable to ask themselves, "What are the important problems in my field?''
 
 ### The obstacle is the way
 
@@ -87,13 +87,13 @@ He also doesn't shy away from the fact that you need to make sacrifices to do No
 
 > You observe that most great scientists have tremendous drive.
 
-> I discovered that John Tukey was slightly younger than I was. John was a genius and I clearly was not. Well I went storming into Bode's office and said, "How can anybody my age k as much as John Tukey does?'' He leaned back in his chair, put his hands behind his head, grinned slightly, and said, "You would be surprised Hamming, how much you would k if you worked as hard as he did that many years.'' I simply slunk out of the office!
+> I discovered that John Tukey was slightly younger than I was. John was a genius and I clearly was not. Well I went storming into Bode's office and said, "How can anybody my age know as much as John Tukey does?'' He leaned back in his chair, put his hands behind his head, grinned slightly, and said, "You would be surprised Hamming, how much you would know if you worked as hard as he did that many years.'' I simply slunk out of the office!
 
 > Given two people with exactly the same ability, the one person who manages day in and day out to get in one more hour of thinking will be tremendously more productive over a lifetime.
 
-> "Kledge and productivity are like compound interest.'' Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you k, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity - it is very much like compound interest.
+> "Knowledge and productivity are like compound interest.'' Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity - it is very much like compound interest.
 
-> I don't like to say it in front of my wife, but I did sort of neglect her sometimes; I needed to study. You have to neglect things if you intend to get what you want . There's no question about this.
+> I don't like to say it in front of my wife, but I did sort of neglect her sometimes; I needed to study. You have to neglect things if you intend to get what you want done. There's no question about this.
 
 > Drive, misapplied, doesn't get you anywhere. I've often wondered why so many of my good friends at Bell Labs who worked as hard or harder than I did, didn't have so much to show for it. The misapplication of effort is a very serious matter. Just hard work is not enough - it must be applied sensibly.
 

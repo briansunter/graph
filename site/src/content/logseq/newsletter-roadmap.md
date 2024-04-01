@@ -16,7 +16,7 @@ The dates are only rough guidelines, this is more of a content ordering and flow
 
 Intro [[newsletter]]
 
-More about what I'm 
+More about what I'm doing
 
 Starting my public graph [[homepage]]
 
@@ -154,7 +154,7 @@ One of my favorite tech talks of all time is ["Simple Made Easy" by Rich Hickey"
 
 Link
 
-AI can play Stratego at an expert level 
+AI can play Stratego at an expert level now
 
 Stratego is one of the few iconic board games that AI has not yet mastered.
 

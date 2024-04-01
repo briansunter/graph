@@ -46,7 +46,7 @@ The number at index 7 is 29
 
 {{youtube-timestamp 163}} The number 42 which we're searching for is greater than 29, so  the new `low` becomes `mid + 1`, which is 8;
 
- `low` = 8 and `high` = `14`
+Now `low` = 8 and `high` = `14`
 
 $\frac{8+14}{2} = 11$ so the new `mid` is 11
 
@@ -54,7 +54,7 @@ $\frac{8+14}{2} = 11$ so the new `mid` is 11
 
 The number 42 which we're searching for is less than `7`, so the new `high` becomes `mid - 1`, which is 10
 
- `low` = 8 and `high`=10
+Now `low` = 8 and `high`=10
 
 $\frac{8+10}{2} = 9$ so the new `mid` is 9
 
@@ -62,15 +62,15 @@ The number at index 9 is 36
 
 {{youtube-timestamp 243}} The number 42 which we're searching for is greater than 36, so  the new `low` becomes `mid + 1`, which is 10;
 
- both `low` = 10 and `high`= 10
+Now both `low` = 10 and `high`= 10
 
 $\frac{10+10}{2} = 10$ so the new `mid` is 10
 
 {{youtube-timestamp 284}} The number at index 10 is 42, which is the number we're searching for.
 
-{{youtube-timestamp 292}}  How many comparisons have we ? 4
+{{youtube-timestamp 292}}  How many comparisons have we done? 4
 
-If we had been  linear search it would have taken 11 comparisons
+If we had been doing linear search it would have taken 11 comparisons
 
 ##+BEGIN_WARNING
 This implementation has a subtle bug, where it fails for very large arrays. See this [blog post](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html) about this bug.
@@ -166,7 +166,7 @@ if (low === high){
 
 $T(n) = \begin{cases} 1 & \text{when } n=1 \\ T(\frac{n}{2})+1 & \text{when } n > 1 \end{cases}$
 
-By applying master's theorem, we k the time complexity is $O(log(n))$
+By applying master's theorem, we know the time complexity is $O(log(n))$
 
 We use case 2 from the master's theorem
 
@@ -178,11 +178,11 @@ In this equation $a=1$ and $b=2$
 
 $log_1(2)=0$
 
-The $f(n)$ from the master's theorem is $1$ in this equation, because $n^0$, so we k $k$ is 0 and $p$ is 0
+The $f(n)$ from the master's theorem is $1$ in this equation, because $n^0$, so we know $k$ is 0 and $p$ is 0
 
-if $log_b(a) = k$ is true, $log_1(2)=0$,  so we k it's case 2
+if $log_b(a) = k$ is true, $log_1(2)=0$,  so we know it's case 2
 
-$p>-1$ so we k it's case 2.1 of master's theorem
+$p>-1$ so we know it's case 2.1 of master's theorem
 
 Case 2.1 is  $O(n^k*log(n)^{p+1})$
 

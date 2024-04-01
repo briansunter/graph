@@ -21,7 +21,7 @@ coverimage: ../../assets/image_1661224819843_0.png
 ## Summary and Impressions
 
 
-The author of the book, Sönke Ahrens, describes a workflow to take notes on what you read, integrate notes into your total body of kledge, and use your notes to generate new ideas. The book encourages you to take notes while reading in two phases. In the first phase, you take "fleeting notes" whenever you have a passing idea and "literature notes" when reading the source material. Next, you transform these into "permanent notes," fully formed self-contained ideas in 1-3 sentences.
+The author of the book, Sönke Ahrens, describes a workflow to take notes on what you read, integrate notes into your total body of knowledge, and use your notes to generate new ideas. The book encourages you to take notes while reading in two phases. In the first phase, you take "fleeting notes" whenever you have a passing idea and "literature notes" when reading the source material. Next, you transform these into "permanent notes," fully formed self-contained ideas in 1-3 sentences.
 
 > "Work as if nothing else counts but writing. An idea kept private is as good as one you never had"
 
@@ -39,7 +39,7 @@ The method originates from the technique called Zettelkasten, developed by the 1
 
 ## Permanent notes
 
-> Permanent Notes are directed towards an audience who are ignorant of the thoughts behind the text and unaware of the original context. They are only equipped with a general kledge of the field.
+> Permanent Notes are directed towards an audience who are ignorant of the thoughts behind the text and unaware of the original context. They are only equipped with a general knowledge of the field.
 
 The emphasis of the workflow is to generate permanent notes: useful self-contained ideas in 1-3 sentences. These ideas are helpful in different contexts, and you should consider how these notes relate to existing notes.
 
@@ -62,13 +62,13 @@ The criteria for a permanent note is the idea is "permanently" applicable outsid
 
 Backlinks are a beneficial feature to implement the smart notes notetaking workflow. Backlinks act as a tag that you can use to look up and group information and create a dedicated page for that tag that can house more developed thoughts. These pages are helpful for housing permanent notes.
 
-When creating backlinks, we should consider under what circumstances we would want to discover this information  rather than the most descriptive keyword. Good keywords are usually not explicitly mentioned in the source material; they should relate to your existing notes and goals.
+When creating backlinks, we should consider under what circumstances we would want to discover this information later rather than the most descriptive keyword. Good keywords are usually not explicitly mentioned in the source material; they should relate to your existing notes and goals.
 
 Examples of backlinks:
 
 > [[writing]] [[productivity]] [[how to take smart notes]]
 
-Logseq makes it easy to discover backlinks  with the linked references view.
+Logseq makes it easy to discover backlinks later with the linked references view.
 
 ![ ](/assets/logseq-backlinks_1672106283718_0.png)
 
@@ -112,7 +112,7 @@ The distinction between fleeting notes and literature notes is less important th
 #### Turning fleeting notes into permanent notes
 
 
-At the end of the day, I go through my daily notes, turn them into permanent notes, and put them on dedicated pages if they're worthwhile. If the ideas need to be more valuable or developed, I leave them on the daily notes so I can still discover them .
+At the end of the day, I go through my daily notes, turn them into permanent notes, and put them on dedicated pages if they're worthwhile. If the ideas need to be more valuable or developed, I leave them on the daily notes so I can still discover them later.
 
 #### Turning literature notes into permanent notes
 
@@ -135,7 +135,7 @@ Separating idea intake and notetaking from content creation is excellent because
 ## Conclusion
 
 
-I thoroughly enjoyed the How to Take Smart Notes book and recommend it to anyone engaging in notetaking or writing. My biggest takeaway is using notetaking to continually prime my brain for writing and  for a topic to emerge, rather than sitting down with a blank slate and trying to write something.
+I thoroughly enjoyed the How to Take Smart Notes book and recommend it to anyone engaging in notetaking or writing. My biggest takeaway is using notetaking to continually prime my brain for writing and waiting for a topic to emerge, rather than sitting down with a blank slate and trying to write something.
 
 I don't take his process too literally. Still, I like the idea of fleeting notes for ideas, literature notes that are highly connected to the source material, permanent notes which are applicable outside the source material and using these notes to power my writing.
 

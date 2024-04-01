@@ -11,17 +11,17 @@ description: How to use the Omnivore read it later app
 coverimage: ../../assets/image_1662086881256_0.png
 ---
 
-If you want to read content online much more efficiently and remember what you read, I highly recommend using a "Read it " app, which allows you to save interesting links you find.
+If you want to read content online much more efficiently and remember what you read, I highly recommend using a "Read it later" app, which allows you to save interesting links you find.
 
-I like to browse the top stories on Reddit, HackerNews, or other news sites and save interesting articles, then read them all at once , which is much more efficient. (This only works if you actually have a routine to read the links you save). You can read social media as RSS btw.
+I like to browse the top stories on Reddit, HackerNews, or other news sites and save interesting articles, then read them all at once later, which is much more efficient. (This only works if you actually have a routine to read the links you save). You can read social media as RSS btw.
 
-[Omnivore](https://omnivore.app/) is an open source "read it " app.
+[Omnivore](https://omnivore.app/) is an open source "read it later" app.
 
 It allows you to save link using their iOS app or Chrome extension. You can read the article in a simplified "reader view" (which I think makes most content look much nicer) and it allows you to highlight important parts of articles in the app.
 
 After you save an article or highlight it, you can view those highlights in the app or online.
 
-It is super streamlined unlike a lot of the other bloated read it  apps.
+It is super streamlined unlike a lot of the other bloated read it later apps.
 
 It is similar to [Pocket](https://getpocket.com/en/) or [Instapaper](https://www.instapaper.com/)
 
@@ -29,7 +29,7 @@ It also supports a few advanced features.
 
 They provide nice filtering based on "labels" for you to organize your links. If you like logseq you'll probably like organizing your links with tags and queries.
 
-They provide a hosted solution, but it is [open source so you can run it yourself](https://github.com/omnivore-app/omnivore) if you want to. Logseq is also open source. You can k that you can use both of these apps for free, forever, no matter what happens to these companies. I save a lot of links, so it would be nice to just never have to migrate or get locked behind a paywall ever for basic link saving and highlighting.
+They provide a hosted solution, but it is [open source so you can run it yourself](https://github.com/omnivore-app/omnivore) if you want to. Logseq is also open source. You can know that you can use both of these apps for free, forever, no matter what happens to these companies. I save a lot of links, so it would be nice to just never have to migrate or get locked behind a paywall ever for basic link saving and highlighting.
 
 They have a nice, simple GraphQL library which you can build apps on top of like the [omnivore logeseq plugin](https://github.com/omnivore-app/logseq-omnivore) or [bulk import/export tools](https://github.com/davidohlin/instapaper-to-omnivore-import)
 
@@ -69,7 +69,7 @@ Update the plugin settings with the values you got earlier
 
 Click the yellow omnivore button on your logseq toolbar.
 
- all of the articles you saved and your highlights from the app and chrome extension show up in your Logseq graph on a page called Omnivore.
+Now all of the articles you saved and your highlights from the app and chrome extension show up in your Logseq graph on a page called Omnivore.
 
 ## Omnivore app
 
@@ -109,7 +109,7 @@ My new workflow is to discover content from reddit, hackernews, twitter, and blo
 ## Conclusion
 
 
-Overall I couldn't be happier to have a nice simple open source read it  app that integrates with logseq. It's awesome that it supports the reader mode and highlights as well, which I use heavily. It has been great so far for optimizing my information diet.
+Overall I couldn't be happier to have a nice simple open source read it later app that integrates with logseq. It's awesome that it supports the reader mode and highlights as well, which I use heavily. It has been great so far for optimizing my information diet.
 
 Go to [Omnivore](https://omnivore.app/) to get started!
 

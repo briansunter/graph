@@ -29,9 +29,9 @@ Tiago Forte's Building a Second Brain book is a guide to developing a productivi
 
 I incorporated many ideas from his book into my system, like focusing on projects, organizing by project and life areas, his summarization tips, and project checklist ideas.
 
-> Your job as a notetaker is to preserve the notes you’re taking on the things you discover in such a way that they can survive the journey into the future. That way your excitement and enthusiasm for your kledge builds over time instead of fading away
+> Your job as a notetaker is to preserve the notes you’re taking on the things you discover in such a way that they can survive the journey into the future. That way your excitement and enthusiasm for your knowledge builds over time instead of fading away
 
-> What’s the point of king something if it doesn’t positively impact anyone, not even yourself?
+> What’s the point of knowing something if it doesn’t positively impact anyone, not even yourself?
 
 [Read my full summary here]([[building a second brain]])
 
@@ -46,9 +46,9 @@ I thought it was a good introduction to mindfulness. I liked the concept of "The
 
 > “There is nothing more important to true growth than realizing that you are not the voice of the mind - you are the one who hears it.”
 
-> In case you haven’t noticed, you have a mental dialogue going on inside your head that never stops. It just keeps going and going. Have you ever wondered why it talks in there? How does it decide what to say and when to say it? How much of what it says turns out to be true? How much of what it says is even important? And if right  you are hearing, “I don’t k what you’re talking about. I don’t have any voice inside my head!”—that’s the voice we’re talking about.
+> In case you haven’t noticed, you have a mental dialogue going on inside your head that never stops. It just keeps going and going. Have you ever wondered why it talks in there? How does it decide what to say and when to say it? How much of what it says turns out to be true? How much of what it says is even important? And if right now you are hearing, “I don’t know what you’re talking about. I don’t have any voice inside my head!”—that’s the voice we’re talking about.
 
-> While you’re driving, you hear internal conversations like, “Wasn’t I supposed to call Fred? I should have. Oh my God, I can’t believe I forgot! He’s going to be so mad. He may never talk to me again. Maybe I should stop and call him right . No. I don’t want to stop the car right …”
+> While you’re driving, you hear internal conversations like, “Wasn’t I supposed to call Fred? I should have. Oh my God, I can’t believe I forgot! He’s going to be so mad. He may never talk to me again. Maybe I should stop and call him right now. No. I don’t want to stop the car right now…”
 Notice that the voice takes both sides of the conversation. It doesn’t care which side it takes, just as long as it gets to keep on talking.
 
 ### Simple Path to Wealth  by J.L Collins
@@ -66,7 +66,7 @@ This book helped me develop a plan for my finances and feel good about my strate
 
 > If your lifestyle matches—or god forbid exceeds—your income, you are no more than a gilded slave.
 
-> Avoid investment advisors. Too many have only their own interests at heart. By the time you k enough to pick a good one, you k enough to handle your finances yourself. It’s your money and no one will care for it better than you.
+> Avoid investment advisors. Too many have only their own interests at heart. By the time you know enough to pick a good one, you know enough to handle your finances yourself. It’s your money and no one will care for it better than you.
 
 > Money can buy many things, but nothing more valuable than your freedom.
 
@@ -91,7 +91,7 @@ Hold me tight is a relationship book that helps you communicate better and form 
 
 One of my goals last year was to improve communication with my partner and be more intentional in my relationship, and this book contained a lot of helpful, actionable advice.
 
-> When marriages fail, it is not increasing conflict that is the cause. It is decreasing affection and emotional responsiveness, according to a landmark study by Ted Huston of the University of Texas. Indeed, the lack of emotional responsiveness rather than the level of conflict is the best predictor of how solid a marriage will be five years into it. The demise of marriages begins with a growing absence of responsive intimate interactions. The conflict comes .
+> When marriages fail, it is not increasing conflict that is the cause. It is decreasing affection and emotional responsiveness, according to a landmark study by Ted Huston of the University of Texas. Indeed, the lack of emotional responsiveness rather than the level of conflict is the best predictor of how solid a marriage will be five years into it. The demise of marriages begins with a growing absence of responsive intimate interactions. The conflict comes later.
 
 > Emotional responsiveness has three main components:
 
@@ -99,7 +99,7 @@ One of my goals last year was to improve communication with my partner and be mo
 
 > Responsiveness: Can I rely on you to respond to me emotionally? This means tuning in to your partner and showing that his or her emotions, especially attachment needs and fears, have an impact on you. It means accepting and placing a priority on the emotional signals your partner conveys and sending clear signals of comfort and caring when your partner needs them.
 
-> Engagement: Do I k you will value me and stay close? The dictionary defines *engaged* as being absorbed, attracted, pulled, captivated, pledged, involved. Emotional engagement here means the very special kind of attention that we give only to a loved one. We gaze at them longer, touch them more. Partners often talk of this as being emotionally present.
+> Engagement: Do I know you will value me and stay close? The dictionary defines *engaged* as being absorbed, attracted, pulled, captivated, pledged, involved. Emotional engagement here means the very special kind of attention that we give only to a loved one. We gaze at them longer, touch them more. Partners often talk of this as being emotionally present.
 
 ### Authority and the Individual by Bertrand Russel
 
@@ -142,7 +142,7 @@ The book doesn't propose a philosophical system but is more a series of question
 
 > To the teachers of selfishness.— A man’s virtues are called good depending on their probable consequences not for him but for us and society: the praise of virtues has always been far from “selfless,” far from “unegoistic.”
 
-> Preludes of science.— Do you really believe that the sciences would ever have originated and grown if the way had not been prepared by magicians, alchemists, astrologers, and witches whose promises and pretensions first had to create a thirst, a hunger, a taste for hidden and forbidden powers? Indeed, infinitely more had to be promised than could ever be fulfilled in order that anything at all might be fulfilled in the realm of kledge”
+> Preludes of science.— Do you really believe that the sciences would ever have originated and grown if the way had not been prepared by magicians, alchemists, astrologers, and witches whose promises and pretensions first had to create a thirst, a hunger, a taste for hidden and forbidden powers? Indeed, infinitely more had to be promised than could ever be fulfilled in order that anything at all might be fulfilled in the realm of knowledge”
 
 > Against remorse.— A thinker sees his own actions as experiments and questions—as attempts to find out something. Success and failure are for him answers above all. To be annoyed or feel remorse because something goes wrong—that he leaves to those who act because they have received orders and who have to reckon with a beating when his lordship is not satisfied with the result.”
 
@@ -155,11 +155,11 @@ The book doesn't propose a philosophical system but is more a series of question
 
 [Free Book Link](https://www.navalmanack.com/)
 
-Collection of tweets by naval on entrepreneurship, happiness, and health. Lots of great assorted wisdom. My favorite topics are "Specific Kledge" and "How to get rich without getting lucky." It inspired me to be more authentic and follow my passions.
+Collection of tweets by naval on entrepreneurship, happiness, and health. Lots of great assorted wisdom. My favorite topics are "Specific Knowledge" and "How to get rich without getting lucky." It inspired me to be more authentic and follow my passions.
 
-> Specific kledge is kledge you cannot be trained for. If society can train you, it can train someone else and replace you.
+> Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.
 
-> Specific kledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion. It’s not by going to school for whatever is the hottest job; it’s not by going into whatever field investors say is the hottest.
+> Specific knowledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion. It’s not by going to school for whatever is the hottest job; it’s not by going into whatever field investors say is the hottest.
 
 > Wealth is the thing you want. Wealth is assets that earn while you sleep. Wealth is the factory, the robots, cranking out things. Wealth is the computer program that’s running at night, serving other customers. Wealth is even money in the bank that is being reinvested into other assets, and into other businesses.
 
@@ -185,13 +185,13 @@ The first half is about his experiences in a concentration camp, and the second 
 
 [Amazon Link](https://www.amazon.com/Last-Days-Socrates-Penguin-Classics/dp/0140449280)
 
-An account of Socrates' speech defending himself at the trial, where he was condemned to death for corrupting the youth of Athens. One of the most critical moments in history that we're still talking about thousands of years .
+An account of Socrates' speech defending himself at the trial, where he was condemned to death for corrupting the youth of Athens. One of the most critical moments in history that we're still talking about thousands of years later.
 
-An excellent example of greek rhetoric. I highly recommend reading a commentary [such as this one](https://www.friesian.com/apology.htm) to fully appreciate what he's  and get the full context.
+An excellent example of greek rhetoric. I highly recommend reading a commentary [such as this one](https://www.friesian.com/apology.htm) to fully appreciate what he's doing and get the full context.
 
 > He asked the oracle to tell him whether there was anyone wiser than I was, and the Pythian prophetess answered that there was no man wiser
 
-> When I heard the answer, I said to myself, What can the god mean? and what is the interpretation of this riddle? for I k that I have no wisdom, small or great. What can he mean when he says that I am the wisest of men?
+> When I heard the answer, I said to myself, What can the god mean? and what is the interpretation of this riddle? for I know that I have no wisdom, small or great. What can he mean when he says that I am the wisest of men?
 
 > I reflected that if I could only find a man wiser than myself, then I might go to the god with a refutation in my hand. I should say to him, "Here is a man who is wiser than I am; but you said that I was the wisest.
 
@@ -199,7 +199,7 @@ An excellent example of greek rhetoric. I highly recommend reading a commentary 
 
 > I went and tried to explain to him that he thought himself wise, but was not really wise; and the consequence was that he hated me
 
-> I left him, saying to myself, as I went away: Well, although I do not suppose that either of us ks anything really beautiful and good, I am better off than he is - for he ks nothing, and thinks that he ks. I neither k nor think that I k. In this latter particular, then, I seem to have slightly the advantage of him.
+> I left him, saying to myself, as I went away: Well, although I do not suppose that either of us knows anything really beautiful and good, I am better off than he is - for he knows nothing, and thinks that he knows. I neither know nor think that I know. In this latter particular, then, I seem to have slightly the advantage of him.
 
 > I found that the men most in repute were all but the most foolish; and that some inferior men were really wiser and better.
 
@@ -224,7 +224,7 @@ At that moment the monk was enlightened.
 
 > It is too clear and so it is hard to see. 
 A dunce once searched for a fire with a lighted lantern.
-Had he kn what fire was
+Had he known what fire was
 He could have cooked his rice much sooner.
 
 > Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When anyone asked the boy what his master had preached about, the boy would raise his finger.
@@ -294,8 +294,8 @@ Our organization is generally called the System, theirs the Factory. The System 
 “And what do I do with the dreams I read?”
 “Nothing. You have only to read them.”
 
-> “Excuse me for asking so many questions,” I say. “I k nothing about this Town. How it works, why it needs the Wall, why the beasts are herded in and out every day. I do not understand any of it. You are the only one I can ask.”
-“Not even I k all the rules,” says the old officer under his breath. “There are things that cannot and should not be explained. But there is no cause for concern. The Town is fair in its own way. The things you need, the things you need to k, one by one the Town will set these before you. Hear me : this Town is perfect. And by perfect, I mean complete. It has everything. If you cannot see that, then it has nothing. A perfect nothing. Remember this well. That is as much as anyone can tell you; the rest you must learn for yourself. Open your eyes, train your ears, use your head. If a mind you have, then use it while you can.”
+> “Excuse me for asking so many questions,” I say. “I know nothing about this Town. How it works, why it needs the Wall, why the beasts are herded in and out every day. I do not understand any of it. You are the only one I can ask.”
+“Not even I know all the rules,” says the old officer under his breath. “There are things that cannot and should not be explained. But there is no cause for concern. The Town is fair in its own way. The things you need, the things you need to know, one by one the Town will set these before you. Hear me now: this Town is perfect. And by perfect, I mean complete. It has everything. If you cannot see that, then it has nothing. A perfect nothing. Remember this well. That is as much as anyone can tell you; the rest you must learn for yourself. Open your eyes, train your ears, use your head. If a mind you have, then use it while you can.”
 
 ### The Picture of Dorian Gray by Oscar Wilde
 
@@ -308,10 +308,10 @@ The beautiful Dorian Gray makes an impulsive wish to stay young while his portra
 
 Genius writing and dialog that's playful and intellectual. It explores the purpose of art and our obsession with youth and beauty. I loved the Lord Henry character.
 
-> I k you will laugh at me,” he replied, “but I really can’t exhibit it. I have put too much of myself into it.” Too much of yourself in it! Upon my word, Basil, I didn’t k you were so vain; and I really can’t see any resemblance between you, with your rugged strong face, and your coal-black hair, and this young Adonis, who looks as if he was made of ivory and rose-leaves. 
+> I know you will laugh at me,” he replied, “but I really can’t exhibit it. I have put too much of myself into it.” Too much of yourself in it! Upon my word, Basil, I didn’t know you were so vain; and I really can’t see any resemblance between you, with your rugged strong face, and your coal-black hair, and this young Adonis, who looks as if he was made of ivory and rose-leaves. 
 Why, my dear Basil, he is a Narcissus, and you—well, of course you have an intellectual expression, and all that. But Beauty, real Beauty, ends where an intellectual expression begins. Intellect is in itself an exaggeration, and destroys the harmony of any face. The moment one sits down to think, one becomes all nose, or all forehead, or something horrid. Look at the successful men in any of the learned professions. How perfectly hideous they are!
 
-> The one charm of marriage is that it makes a life of deception necessary for both parties. I never k where my wife is, and my wife never ks what I am . When we meet—we do meet occasionally, when we dine out together, or go down to the Duke’s—we tell each other the most absurd stories with the most serious faces. My wife is very good at it—much better in fact than I am. She never gets confused over her dates, and I always do. But when she does find me out, she makes no row at all. I sometimes wish she did, but she merely laughs at me.”
+> The one charm of marriage is that it makes a life of deception necessary for both parties. I never know where my wife is, and my wife never knows what I am doing. When we meet—we do meet occasionally, when we dine out together, or go down to the Duke’s—we tell each other the most absurd stories with the most serious faces. My wife is very good at it—much better in fact than I am. She never gets confused over her dates, and I always do. But when she does find me out, she makes no row at all. I sometimes wish she did, but she merely laughs at me.”
 
 > Beauty is a form of Genius--is higher, indeed, than Genius, as it needs no explanation. It is one of the great facts of the world, like sunlight, or springtime, or the reflection in the dark waters of that silver shell we call the moon. It cannot be questioned. It has divine right of sovereignty. It makes princes of those who have it.
 
@@ -326,7 +326,7 @@ A murder mystery in a small town in the marshes of North Carolina. Follows Kya's
 
 This was a nice easy read, and I liked the imagery of the marshy small town in North Carolina. The characters were good and the plot held my attention throughout the book.
 
-> The morning burned so August-hot, the marsh’s moist breath hung the oaks and pines with fog. The palmetto patches stood unusually quiet except for the low, slow flap of the heron’s wings lifting from the lagoon. And then, Kya, only six at the time, heard the screen door slap. Standing on the stool, she stopped scrubbing grits from the pot and lowered it into the basin of worn-out suds. No sounds  but her own breathing. Who had left the shack? Not Ma. She never let the door slam.
+> The morning burned so August-hot, the marsh’s moist breath hung the oaks and pines with fog. The palmetto patches stood unusually quiet except for the low, slow flap of the heron’s wings lifting from the lagoon. And then, Kya, only six at the time, heard the screen door slap. Standing on the stool, she stopped scrubbing grits from the pot and lowered it into the basin of worn-out suds. No sounds now but her own breathing. Who had left the shack? Not Ma. She never let the door slam.
 
 > She knew the years of isolation had altered her behavior until she was different from others, but it wasn't her fault she'd been alone. Most of what she knew, she'd learned from the wild. Nature had nurtured, tutored, and protected her when no one else would.
 
@@ -345,8 +345,8 @@ I liked it, but I didn't love it. The worldbuilding is excellent, but the charac
 Pride overcame Paul’s fear. ‘You dare suggest a duke’s son is an animal?’ he demanded.
 ‘Let us say I suggest you may be human,’ she said. ‘Steady! I warn you not to try jerking away. I am old, but my hand can drive this needle into your neck before you escape me.’
 ‘Who are you?’ he whispered. ‘How did you trick my mother into leaving me alone with you? Are you from the Harkonnens?’
-‘The Harkonnens? Bless us, no! , be silent.’ A dry finger touched his neck and he stilled the involuntary urge to leap away.
-‘Good,’ she said. ‘You pass the first test. , here’s the way of the rest of it: If you withdraw your hand from the box you die. This is the only rule. Keep your hand in the box and live. Withdraw it and die.’
+‘The Harkonnens? Bless us, no! Now, be silent.’ A dry finger touched his neck and he stilled the involuntary urge to leap away.
+‘Good,’ she said. ‘You pass the first test. Now, here’s the way of the rest of it: If you withdraw your hand from the box you die. This is the only rule. Keep your hand in the box and live. Withdraw it and die.’
 
 > Those storms build up across six or seven thousand kilometers of flatlands, feed on anything that can give them a push – coriolis force, other storms, anything that has an ounce of energy in it. They can blow up to seven hundred kilometers an hour, loaded with everything loose that’s in their way – sand, dust, everything. They can eat flesh off bones and etch the bones to slivers.’
 
@@ -376,7 +376,7 @@ Ah, how interesting!’ exclaimed the foreigner.
 ‘A hundred per cent!’ confirmed the man, who was fond of whimsical and figurative expressions.
 ‘Amazing!’ exclaimed the uninvited interlocutor and, casting a thievish glance around and muffling his low voice for some reason, he said: ‘Forgive my importunity, but, as I understand, along with everything else, you also do not believe in God?’ He made frightened eyes and added: ‘I swear I won’t tell anyone!’
 
-> ‘Answer, then,’ he went on speaking, ‘do you k a certain Judas from Kiriath, and what precisely did you say to him about Caesar, if you said anything?’
+> ‘Answer, then,’ he went on speaking, ‘do you know a certain Judas from Kiriath, and what precisely did you say to him about Caesar, if you said anything?’
 ‘It was like this,’ the prisoner began talking eagerly. ‘The evening before last, near the temple, I made the acquaintance of a young man who called himself Judas, from the town of Kiriath. He invited me to his place in the Lower City and treated me to ...’
 ‘A good man?’ Pilate asked, and a devilish fire flashed in his eyes.
 ‘A very good man and an inquisitive one,’ the prisoner confirmed. ‘He showed the greatest interest in my thoughts and received me very cordially ...’
@@ -400,7 +400,7 @@ This book does a great job of capturing the spirit of the American road trip and
 
 [Read my full summary here]([[travels with charley]])
 
-> I took one companion on my journey—an old French gentleman poodle kn as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he ks a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
+> I took one companion on my journey—an old French gentleman poodle known as Charley. Actually his name is Charles le Chien. He was born in Bercy on the outskirts of Paris and trained in France, and while he knows a little poodle-English, he responds quickly only to commands in French. Otherwise he has to translate, and that slows him down. He is a very big poodle, of a color called _bleu,_ and he is blue when he is clean. Charley is a born diplomat. He prefers negotiation to fighting, and properly so, since he is very bad at fighting. Only once in his ten years has he been in trouble—when he met a dog who refused to negotiate. Charley lost a piece of his right ear that time. But he is a good watch dog—has a roar like a lion, designed to conceal from night-wandering strangers the fact that he couldn’t bite his way out of a _cornet de pa-pier._ He is a good friend and traveling companion, and would rather travel about than anything he can imagine. If he occurs at length in this account, it is because he contributed much to the trip. A dog, particularly an exotic like Charley, is a bond between strangers. Many conversations en route began with “What degree of a dog is that?”
 
 ### Neuromancer by William Gibson
 
@@ -416,7 +416,7 @@ I really enjoyed this book and was inspired to read it after playing the game Cy
 I loved the central plotline of a rogue AI trying to escape and manipulate humans to do its bidding.
 
 >The black clinics of Chiba were the cutting edge, whole bodies of technique supplanted monthly, and still they couldn’t repair the damage he’d suffered in that Memphis hotel.
-A year here and he still dreamed of cyberspace, hope fading nightly. All the speed he took, all the turns he’d taken and the corners he’d cut in Night City, and still he’d see the matrix in his sleep, bright lattices of logic unfolding across that colorless void. . . . The Sprawl was a long strange way home over the Pacific , and he was no console man, no cyberspace cowboy. Just another hustler, trying to make it through. But the dreams came on in the Japanese night like livewire voodoo, and he’d cry for it, cry in his sleep, and wake alone in the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temperfoam bunched between his fingers, trying to reach the console that wasn’t there.
+A year here and he still dreamed of cyberspace, hope fading nightly. All the speed he took, all the turns he’d taken and the corners he’d cut in Night City, and still he’d see the matrix in his sleep, bright lattices of logic unfolding across that colorless void. . . . The Sprawl was a long strange way home over the Pacific now, and he was no console man, no cyberspace cowboy. Just another hustler, trying to make it through. But the dreams came on in the Japanese night like livewire voodoo, and he’d cry for it, cry in his sleep, and wake alone in the dark, curled in his capsule in some coffin hotel, his hands clawed into the bedslab, temperfoam bunched between his fingers, trying to reach the console that wasn’t there.
 
 ### Mistborn by Brandon Sanderson
 
@@ -427,7 +427,7 @@ A year here and he still dreamed of cyberspace, hope fading nightly. All the spe
 
 Mistborne is a fantasy novel about a dystopian world where ashes constantly fall from the sky and the lower classes are enslaved by the immortal Lord Ruler and his aristocrats. A group uses a type of magic called allomancy, where you can draw magical powers from certain metals, to fight back.
 
-I loved this book. The characters, plot, pacing, and story arc were excellent. The dark dystopian fantasy world is exceptionally well  and has a unique magic system.
+I loved this book. The characters, plot, pacing, and story arc were excellent. The dark dystopian fantasy world is exceptionally well done and has a unique magic system.
 
 >ASH FELL FROM THE SKY.
 Lord Tresting frowned, glancing up at the ruddy midday sky as his servants scuttled forward, opening a parasol over Tresting and his distinguished guest. Ashfalls weren’t that uncommon in the Final Empire, but Tresting had hoped to avoid getting soot stains on his fine new suit coat and red vest, which had just arrived via canal boat from Luthadel itself. Fortunately, there wasn’t much wind; the parasol would likely be effective.
@@ -485,7 +485,7 @@ This was an excellent short science fiction story with great pacing. It presents
 “But they surely will”
 “Happily they don’t - because we get them first, before they can commit an act of violence.”
 
-> "Precrime has cut down felonies by ninety-nine and decimal point eight percent. We seldom get actual murder or treason. After all, the culprit ks we’ll confine him in the detention camp a week before he gets a chance to commit the crime."
+> "Precrime has cut down felonies by ninety-nine and decimal point eight percent. We seldom get actual murder or treason. After all, the culprit knows we’ll confine him in the detention camp a week before he gets a chance to commit the crime."
 
 > "In our society we have no major crimes but we do have a detention camp full of would-be criminals."
 We claim they’re culpable. They, on the other hand, eternally claim they’re innocent. And, in a sense, they are innocent."

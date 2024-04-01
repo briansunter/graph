@@ -27,7 +27,7 @@ A notable improvement is the new GPT-4 model has a much greater "context length,
 
 The "context length" controls how much text input and instructions the model can understand and how much text it can generate.
 
-In earlier models, you were limited to around six pages of input and output text. , you can generate and analyze 50 pages of text.
+In earlier models, you were limited to around six pages of input and output text. Now, you can generate and analyze 50 pages of text.
 
 This opens up so many new possibilities, such as feeding entire research papers or legal cases in and answering questions about them or generating a 50-page film screenplay.
 
@@ -77,7 +77,7 @@ Here's an example of a task reminding you to tweet and the format in plain text.
 
 A checkbox appears in your notes when you write text in this format inside the Logseq Editor.
 
-When you click the checkbox, it reappears a day . You can specify these tasks to repeat at any interval: weekly, bimonthly, yearly, etc.
+When you click the checkbox, it reappears a day later. You can specify these tasks to repeat at any interval: weekly, bimonthly, yearly, etc.
 
 ![ ](/assets/Screenshot_2023-03-15_at_8.57.22_PM_1678949891765_0.png)
 
@@ -87,7 +87,7 @@ With GPT-4, you can give it one example of the Logseq task syntax, along with a 
 
 In this example, to gain Twitter followers, the AI suggests you tweet daily, reply to others daily, check your metrics weekly, share others' content every other day, etc.
 
-So to gain followers, you need to execute the plan that the AI gave you,  the task, checking the box, and  it again when the task repeats itself at the interval the AI chose.
+So to gain followers, you need to execute the plan that the AI gave you, doing the task, checking the box, and doing it again when the task repeats itself at the interval the AI chose.
 
 When I gave the same task to ChatGPT, released just three months ago, it couldn't do it.
 
@@ -98,13 +98,13 @@ In another example, I asked it to write me a college-style curriculum to learn A
 ## ChatGPT API in the Logseq Plugin
 
 
-[OpenAI also recently released its ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Previously this was only available in the web app, but  they also provide an API to developers to build applications using it.
+[OpenAI also recently released its ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Previously this was only available in the web app, but now they also provide an API to developers to build applications using it.
 
 I upgraded the Logseq OpenAI plugin to support this as well.
 
 The most notable thing about the ChatGPT API is its price. OpenAI has stated that it is 90% cheaper than other models, such as GPT-4 or GPT-3.
 
-Before, I was spending around \$7 a month with moderate usage of GPT-3 for notetaking, but  I'm spending less than \$1 per month using ChatGPT.
+Before, I was spending around \$7 a month with moderate usage of GPT-3 for notetaking, but now I'm spending less than \$1 per month using ChatGPT.
 
 Regarding the quality of answers, ChatGPT is less likely to make up information compared to regular GPT-3. For example, I tried asking regular GPT-3 to "Describe Yoda from Star Wars". Regular GPT-3 often added made-up details, like describing him as having a "long pointed beard," whereas ChatGPT consistently did tasks like this correctly. OpenAI has an example in their blog where they ask, "Tell me about when Christopher Columbus came to the US in 2015". Regular GPT-3 will make up a story about Columbus arriving in 2015, but ChatGPT can recognize this question doesn't make sense.
 

@@ -116,7 +116,7 @@ The visualization creates a huge 2d map of Wikipedia articles, and you can see c
 #### 3D Space
 
 
-, let's try 3D space. We set `n_components` to 3 in UMAP to generate 3D points from the embeddings.
+Now, let's try 3D space. We set `n_components` to 3 in UMAP to generate 3D points from the embeddings.
 
 This view shows the articles in 3D.
 
@@ -167,7 +167,7 @@ The 3D gives us an intuitive understanding of how search works; we could imagine
 ### Real-world Application
 
 
-The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate kledge bases. It's a unique alternative for exploring and discovering information.
+The primary focus of this experiment is Wikipedia. However, this method can extend to personal or corporate knowledge bases. It's a unique alternative for exploring and discovering information.
 
 With the potential rise in popularity of devices such as Apple Vision, the importance of crafting 3D interfaces could surge significantly.
 

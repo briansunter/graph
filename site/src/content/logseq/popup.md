@@ -49,7 +49,7 @@ If you have your cursor inside a block, the popup will use the text in the block
 
 If the block is empty, it will run the command without input.
 
-For , the input text from the block is appended after the command prompt you type in the popup.
+For now, the input text from the block is appended after the command prompt you type in the popup.
 
 If you are on a page and don't have a block selected, the plugin will append the result in a block at the bottom of the page and won't use any text as input.
 
@@ -214,7 +214,7 @@ The next features I'm planning are to add better support for sending multiple bl
 
 I also want to add features that let you transform the input and output—for example, removing markdown from the input text and splitting the output text into multiple blocks.
 
-Eventually, I'd like to support sourcing blocks throughout your notes using embeddings, so you can leverage the kledge in your notes in the commands.
+Eventually, I'd like to support sourcing blocks throughout your notes using embeddings, so you can leverage the knowledge in your notes in the commands.
 
 I have a [Github Project](https://github.com/users/briansunter/projects/1/views/1) and [list of issues](https://github.com/briansunter/logseq-plugin-gpt3-openai/issues) to track ideas for features. Feel free to open an issue or contribute if you have an idea or find a bug!
 

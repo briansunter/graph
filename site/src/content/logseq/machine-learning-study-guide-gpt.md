@@ -18,7 +18,7 @@ It was used to build this page: [[machine learning study guide]]
 ### Prompts
 
 
-What machine learning concepts should I k to fully understand gpt-3
+What machine learning concepts should I know to fully understand gpt-3
 
 
 new programmers
@@ -261,11 +261,11 @@ convex optimization, gradient descent, Newton's Method, and conjugate gradient
 
 L1 and L2 regularization, sparsity, and machine learning theory
 
-1. Supervised learning: This is the most important concept for predictive modeling as it entails training a model to make predictions based on training data. This data is typically labeled, meaning that there is a kn correct output for each input. Supervised learning algorithms include linear regression, logistic regression, and support vector machines.
+1. Supervised learning: This is the most important concept for predictive modeling as it entails training a model to make predictions based on training data. This data is typically labeled, meaning that there is a known correct output for each input. Supervised learning algorithms include linear regression, logistic regression, and support vector machines.
 
-2. Unsupervised learning: Unsupervised learning is used when there is no kn output for the training data. Instead, the model must learn to recognize patterns in the data. Common unsupervised learning algorithms include k-means clustering and principal component analysis.
+2. Unsupervised learning: Unsupervised learning is used when there is no known output for the training data. Instead, the model must learn to recognize patterns in the data. Common unsupervised learning algorithms include k-means clustering and principal component analysis.
 
-3. Model selection and tuning: Not all predictive models are created equal. It is important to be able to select the right model for the task at hand and to tune its parameters to achieve the best performance. This process is kn as model selection and tuning.
+3. Model selection and tuning: Not all predictive models are created equal. It is important to be able to select the right model for the task at hand and to tune its parameters to achieve the best performance. This process is known as model selection and tuning.
 
 4. Ensembles: Ensembles are predictive models that combine the predictions of multiple individual models. Ensembles can often outperform individual models, as they are able to capture a broader range of patterns in the data.
 
@@ -310,7 +310,7 @@ Write a curriculum for a programmer to study the most important computer science
 
 In order to study the most important computer science concepts for machine learning, a programmer should become familiar with the following topics:
 
-1. Data structures and algorithms: This is a fundamental topic in computer science, and it will be helpful to k how to efficiently store and manipulate data when working with machine learning algorithms.
+1. Data structures and algorithms: This is a fundamental topic in computer science, and it will be helpful to know how to efficiently store and manipulate data when working with machine learning algorithms.
 
 2. Probability and statistics: Probability and statistics are important for understanding how machine learning algorithms work and how to tune them for optimal performance.
 
@@ -343,7 +343,7 @@ Write a curriculum for a programmer to study data engineering for machine learni
 3. More advanced operations on data: aggregation, statistical operations, data mining
 4. Tools for working with data: spreadsheets, databases, statistical software, data visualization tools
 
-What should I k about supervised learning?
+What should I know about supervised learning?
 
 
 Supervised learning is a form of machine learning where the model is trained on a labeled dataset. The labels are used to provide feedback to the model so that it can learn to make predictions on new data.
@@ -360,7 +360,7 @@ Logistic
 
 Linear models are the simplest type of GPT3 models and are used when the target class is a linear function of the predictor variables. Nearest neighbor models are more complex and are used when the target class is not a linear function of the predictor variables. Logistic models are the most complex type of GPT3 models and are used when the target class is a binary variable (i.e., it can take on only two values, such as 0 or 1). 
 
-GPT3 models can be fit using either a Maximum Likelihood Estimator (MLE) or a Bayesian estimator. MLE is the most common method used to fit GPT3 models. Bayesian estimators are used when there is prior kledge about the parameters of the model that can be used to improve the accuracy of the estimate. 
+GPT3 models can be fit using either a Maximum Likelihood Estimator (MLE) or a Bayesian estimator. MLE is the most common method used to fit GPT3 models. Bayesian estimators are used when there is prior knowledge about the parameters of the model that can be used to improve the accuracy of the estimate. 
 
 Once a GPT3 model has been fit, it can be used to make predictions about the probability of the target class given new data.
 
@@ -381,18 +381,18 @@ GPT3 will usually give you a set of results, with the most likely result first. 
 
 4. How to Use GPT3 to Your Advantage
 
-GPT3 can be a great tool for helping you understand language. However, you should not rely on it too much. Try to use it as a supplement to your own kledge.
+GPT3 can be a great tool for helping you understand language. However, you should not rely on it too much. Try to use it as a supplement to your own knowledge.
 
 This is a conversation between a chatbot that teaches gpt3 and a student. 
-Teacher: Hello, I am here to teach you machine learning. What would you like to k?
-Student: What should I k about supervised learning?
+Teacher: Hello, I am here to teach you machine learning. What would you like to know?
+Student: What should I know about supervised learning?
 
 Supervised learning is a type of machine learning where the data is labeled and the algorithm is trained to learn from this data. This data can be in the form of a dataset, where each data point is labeled with the correct output. Alternatively, it can also be in the form of a set of instructions, where the algorithm is shown how to perform a specific task.
 
-Student: What concepts do I need to k to understand gpt-3?
+Student: What concepts do I need to know to understand gpt-3?
 Teacher:
 
-There are a few key concepts that you need to k in order to understand gpt-3. These include supervised and unsupervised learning, neural networks, and deep learning. Once you have a good understanding of these concepts, you will be able to better understand how gpt-3 works.
+There are a few key concepts that you need to know in order to understand gpt-3. These include supervised and unsupervised learning, neural networks, and deep learning. Once you have a good understanding of these concepts, you will be able to better understand how gpt-3 works.
 
 [[gpt/response]] There are a lot of great resources out there for learning about gpt-3. I would recommend checking out the Google machine learning crash course, as it will give you a good overview of the basics of machine learning. After that, there are plenty of online tutorials and courses that you can take to further your understanding.
 
@@ -406,7 +406,7 @@ The margin is the distance between the decision boundary and the closest data po
 
 When using SVMs for classification, there are two main types of algorithms: linear and non-linear. Linear SVMs can only find linear decision boundaries, while non-linear SVMs can find non-linear decision boundaries. In general, non-linear SVMs will perform better on data that is not linearly separable.
 
-There are a few things to keep in mind when using SVMs for classification. First, it is important to scale your data so that all features are on the same scale. This can be  using standardization or normalization. Second, you need to choose the right kernel. The most common kernels are the linear kernel, the polynomial kernel, and the RBF kernel. Each kernel has its own advantages and disadvantages, so it is important to choose the right one for your data. Finally, you need to tune the SVM's parameters. The most important parameters are the C parameter and the gamma parameter. The C parameter controls the trade-off between the margin and the misclassification error, while the gamma parameter controls the shape of the decision boundary.
+There are a few things to keep in mind when using SVMs for classification. First, it is important to scale your data so that all features are on the same scale. This can be done using standardization or normalization. Second, you need to choose the right kernel. The most common kernels are the linear kernel, the polynomial kernel, and the RBF kernel. Each kernel has its own advantages and disadvantages, so it is important to choose the right one for your data. Finally, you need to tune the SVM's parameters. The most important parameters are the C parameter and the gamma parameter. The C parameter controls the trade-off between the margin and the misclassification error, while the gamma parameter controls the shape of the decision boundary.
 
 SVMs are a powerful tool for machine learning, and they can be used for both classification and regression tasks. In this guide, we have focused on the use of SVMs for classification. We have reviewed the basics of SVMs and discussed how to use them for classification. We have also given some practical tips on data preprocessing and parameter tuning.
 

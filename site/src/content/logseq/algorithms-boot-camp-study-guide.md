@@ -11,7 +11,7 @@ coverimage: ../../assets/binary-tree_1672273112314_0.png
 
 ![ ](/assets/binary-tree_1672273112314_0.png)
 
-This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to k about algorithms.
+This is the full study guide for the [Algorithms Boot Camp](/categories/algorithms-boot-camp) and meant to be a complete roadmap for everything you need to know about algorithms.
 
 As I write more notes, I'll link to them here.
 

@@ -112,7 +112,7 @@ SCHEDULED: <2022-06-30 Thu .+1d>
 
 |Option|Pros|Cons|Notes|
 |:---|--|--|--|
-|[Substack](https://substack.com/)|- well kn[:br]- better ux and writing interface|- take 10% earnings[:br]- $50 custom domain fee|fees too high |
+|[Substack](https://substack.com/)|- well known[:br]- better ux and writing interface|- take 10% earnings[:br]- $50 custom domain fee|fees too high |
 |[Revue](https://www.getrevue.co/)|- takes 5% earnings[:br]- twitter badge and integration[:br]- unlimited subscribers|- Interface not as nice as substack|Iffy UI, but free and integrates with twitter|
 |[Mailchimp](https://mailchimp.com)|- powerful tooling and templates[:br]- customer support|Overkill for personal newsletter|better for startups|
 

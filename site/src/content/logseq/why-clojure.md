@@ -46,7 +46,7 @@ In most other languages, you create a mutable array object and append items to i
 ``` js
 var myArray = ['one', 'two', 'three'];
 
-function ad(item) {
+function addOne(item) {
 myArray.push(item);
 }
 ```
@@ -54,7 +54,7 @@ myArray.push(item);
 When we append to this array, everyone who references this array will see the change.
 
 ``` js
-ad('four');
+addOne('four');
 ```
 
 In Clojure, whenever you "append" to a vector (array), you get a "new" vector, and the original does not change. Anyone who references the original array can always count on it being the same.
@@ -85,7 +85,7 @@ In Clojure, functions like `reverse` return a new vector rather than mutating th
 (def reversed-vector (reverse my-vector))
 ```
 
-This encourages us to use compositions of functions instead of functions that mutate objects. The benefit of this might take some time to grasp, but this shift enables writing programs in a simpler way. Programs made up of small reusable components are easier to change . We only need to focus on the scope of the function, the inputs, and the outputs. We don't need to worry about prior state or other parts of the program modifying our data in unpredictable ways.
+This encourages us to use compositions of functions instead of functions that mutate objects. The benefit of this might take some time to grasp, but this shift enables writing programs in a simpler way. Programs made up of small reusable components are easier to change later. We only need to focus on the scope of the function, the inputs, and the outputs. We don't need to worry about prior state or other parts of the program modifying our data in unpredictable ways.
 
 ## (but (there (are (so (many (parens (🙀)))))))
 
@@ -239,7 +239,7 @@ Clojure has good interop with the world's most popular languages. You can tap in
 ## Concurrency
 
 
- that Moore's Law is ending, we can't rely on speed increases of a single core anymore. We need to write code that can take advantage of multiple cores and correctly run in parallel.
+Now that Moore's Law is ending, we can't rely on speed increases of a single core anymore. We need to write code that can take advantage of multiple cores and correctly run in parallel.
 
 I feel bad about using languages like Python or Javascript that are single inherently single-threaded. Languages like Java or C++, which weren't designed with concurrency, are hard to use correctly.
 
@@ -292,7 +292,7 @@ In Clojure, there is only `=` for structural equality and no `=` assignment oper
 (= {:foo "bar"} {:foo "bar"})
 ```
 
-This code in Clojure behaves the way I want, comparing equality of values, and I don't need to k the difference between `=`, `equals`, `==`, `===`, `deepEqual`, and `deepStrictEqual`.
+This code in Clojure behaves the way I want, comparing equality of values, and I don't need to know the difference between `=`, `equals`, `==`, `===`, `deepEqual`, and `deepStrictEqual`.
 
 The only falsy values in Clojure are `nil` and `false`; everything else is truthy.
 

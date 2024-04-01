@@ -31,9 +31,9 @@ Revue was decent but had some issues. I used it because it was free, and it gave
 
 I'm glad I set up a custom domain name: [newsletter.briansunter.com](https://newsletter.briansunter.com) instead of sharing links to the newsletter using Revue's default domain name, `revue.co`.
 
-If I had shared the links using the default `revue.co` domain, all those links would have been broken  that Revue shut down. Since I used my `briansunter.com` domain, the links I shared earlier still work and  direct to Substack.
+If I had shared the links using the default `revue.co` domain, all those links would have been broken now that Revue shut down. Since I used my `briansunter.com` domain, the links I shared earlier still work and now direct to Substack.
 
-This was a good lesson on the benefits of owning your domain name and subscribers: you can switch platforms  if necessary. I don't like my content being locked into a domain I don't control, like  [twitter.com/bsunter](https://twitter.com/bsunter), `bsunter.substack.com`, `bsunter.medium.com`, etc. There's always a chance services like these will degrade, become unfashionable, or be shut down, but I've been using [briansunter.com](https://briansunter.com) since 2010 for 13 years .
+This was a good lesson on the benefits of owning your domain name and subscribers: you can switch platforms later if necessary. I don't like my content being locked into a domain I don't control, like  [twitter.com/bsunter](https://twitter.com/bsunter), `bsunter.substack.com`, `bsunter.medium.com`, etc. There's always a chance services like these will degrade, become unfashionable, or be shut down, but I've been using [briansunter.com](https://briansunter.com) since 2010 for 13 years now.
 
 Another benefit of the personal newsletter format is the ability to migrate your followers. If you want to move away from social networks like Twitter or YouTube, then you lose the entire audience you built there. Since I can export the newsletter's subscriber list, it was relatively straightforward to migrate you all to Substack.
 
@@ -46,7 +46,7 @@ You can read all the newsletter issues [on my site](https://briansunter.com/news
 
 I updated the [Logseq GPT-3 OpenAI plugin](https://github.com/briansunter/logseq-plugin-gpt3-openai) to include a popup window to perform AI tasks powered by OpenAI's GPT-3 in Logseq.  I hope this new popup user interface makes the plugin easier and more convenient.
 
-I'm excited by the positive response this plugin has gotten. It blows my mind that it has over 16,000 downloads  🤯
+I'm excited by the positive response this plugin has gotten. It blows my mind that it has over 16,000 downloads now 🤯
 
 ![ ](/assets/Screenshot_2023-02-01_at_12.31.39_PM_1675290864727_0.png)
 

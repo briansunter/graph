@@ -76,13 +76,13 @@ The existing Logseq template feature allows you to add text snippets to the / co
 
 
 
- you can insert the template text using the template name.
+Now you can insert the template text using the template name.
 
 I want to make something similar for the GPT-3 plugin.
 
 ![ ](/assets/prompt-template_1668636545451_0.png)
 
-If I wanted to translate from English to French, I could use a "prompt template" kn to produce good output, and inject my phrase into it. The input variables are surrounded by `{{}}`
+If I wanted to translate from English to French, I could use a "prompt template" known to produce good output, and inject my phrase into it. The input variables are surrounded by `{{}}`
 
 We can also include GPT-3 configuration options such as `temperature` and `maxTokens`.
 

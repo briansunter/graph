@@ -11,7 +11,7 @@ coverimage: ../../assets/herzog_1672134562808_0.jpeg
 
 Werner Herzog is a German filmmaker who has produced, written, and directed more than sixty feature and documentary films. I appreciate his unconventional creativity and the sound of his voice.
 
-He's kn for producing ambitious experimental films, like "Grizzly Man," a documentary about a grizzly bear expert (who was eaten by a grizzly bear)
+He's known for producing ambitious experimental films, like "Grizzly Man," a documentary about a grizzly bear expert (who was eaten by a grizzly bear)
 
 I'm excited to watch his new movie, "Theatre of Thought," about brain-computer interfaces and consciousness.
 
@@ -64,7 +64,7 @@ Never wallow in your troubles; despair must be kept private and brief.
 
 Learn to live with your mistakes.
 
-Expand your kledge and understanding of music and literature, old and modern.
+Expand your knowledge and understanding of music and literature, old and modern.
 
 That roll of unexposed celluloid you have in your hand might be the last in existence, so do something impressive with it.
 
@@ -80,7 +80,7 @@ Take your fate into your own hands.
 
 Learn to read the inner essence of a landscape.
 
-Ignite the fire within and explore unkn territory.
+Ignite the fire within and explore unknown territory.
 
 Walk straight ahead, never detour.
 

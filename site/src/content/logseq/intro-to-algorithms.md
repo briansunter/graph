@@ -92,7 +92,7 @@ This recipe is more like a heuristic than an algorithm
 
 Making programs run faster is a key part of computer programming.
 
-Some methods of  things are faster than others yet produce the same results.
+Some methods of doing things are faster than others yet produce the same results.
 
 ### "Mise en Place" in cooking
 
@@ -106,7 +106,7 @@ There is a concept called "mise en place" in cooking. This French phrase is the 
 #### 5 Steps of "mise en place"
 
 
-K your recipe — required ingredients, cookware, temperatures, and cook times
+Know your recipe — required ingredients, cookware, temperatures, and cook times
 
 Prepare your ingredients — clean, debone, chop, mince
 
@@ -123,7 +123,7 @@ Similarly, in computer science, we can organize our data ahead of time, so it's 
 #### Algorithms "mise en place"
 
 
-K your algorithms -- use case, possible approaches, tradeoffs
+Know your algorithms -- use case, possible approaches, tradeoffs
 
 Prepare your data -- understand input format, validate, convert
 
@@ -133,7 +133,7 @@ Prepare your workstation -- Set up project,repo, editor, ide
 
 Arrange your tools -- set up additional tools like auto test runners
 
-Similar to cooking, in computer science, there are usually different ways of  things that take different amounts of time and may yield slightly different results.
+Similar to cooking, in computer science, there are usually different ways of doing things that take different amounts of time and may yield slightly different results.
 
 ## Algorithm Example
 

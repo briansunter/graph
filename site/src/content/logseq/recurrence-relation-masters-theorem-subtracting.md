@@ -85,9 +85,9 @@ T(n-1)+1 & \text{when } n > 0
 
 The original equation
 
-We k $T(n)=T(n-1)+1$
+We know $T(n)=T(n-1)+1$
 
-We can find $T(n)$ if we k $T(n-1)$
+We can find $T(n)$ if we know $T(n-1)$
 
 How do we find $T(n-1)$?
 
@@ -104,18 +104,18 @@ $T(n-1)=T((n-1)-1)+1$
 
 This simplifies to $T(n-1)=T(n-2)+1$
 
- we can substitute $T(n-1)$ into the original equation for $T(n)$
+Now we can substitute $T(n-1)$ into the original equation for $T(n)$
 
 $T(n) = [T(n-2)+1] +1$
 
 This simplifies to $T(n) = T(n-2) +2$
 
-So  $T(n)$ is in terms of $T(n-2)$ instead of being based on $T(n-1)$
+So now $T(n)$ is in terms of $T(n-2)$ instead of being based on $T(n-1)$
 
 #### $T(n)$ based on $T(n-3)$
 
 
-We can keep  this
+We can keep doing this
 
 What about $T(n)$ in terms of $T(n-3)$?
 
@@ -125,7 +125,7 @@ $T(n-2) = T((n-2) -1) + 1$
 
 This simplifies to $T(n-2)=T(n-3)+1$
 
-From before, we k how to write $T(n)$ in terms of $T(n-2)$, so we plug it in to find $T(n)$ in terms of $T(n-3)$
+From before, we know how to write $T(n)$ in terms of $T(n-2)$, so we plug it in to find $T(n)$ in terms of $T(n-3)$
 
 Previous equation: $T(n)=T(n-2)+2
 
@@ -138,7 +138,7 @@ Simplifies to $T(n)=T(n-3)+3$
 
 What if we wanted to continue for $k$ times?
 
-What is the smallest value we k, $T(0)=1$
+What is the smallest value we know, $T(0)=1$
 
 Assume $n-k=0$
 
@@ -150,7 +150,7 @@ $T(n)=T(n-n)+n$
 
 Simplifies to $T(n)=T(0)+n$
 
-We k $T(0)=1$
+We know $T(0)=1$
 
 So $T(n)=1+n$
 
@@ -198,7 +198,7 @@ Plug in $n-1$ into original equation $T$
 
 $T(n-1)=T(n-2)+n-1$
 
- we substitute this into the original equation to find $T(n)$ in terms of $T(n-2)$ instead of in terms of $T(n-1)$
+Now we substitute this into the original equation to find $T(n)$ in terms of $T(n-2)$ instead of in terms of $T(n-1)$
 
 $T(n)=[T(n-2)+n-1]+n$
 
@@ -230,7 +230,7 @@ We can see $1 + 2 + 3 + (n-1) +n$ is the sum of natural numbers, which we can us
 
 $$\sum_{i=1}^n i = \frac{n(n + 1)}{2}$$
 
-And we k $T(0) =1$
+And we know $T(0) =1$
 
 So the answer is $1 + \frac{n(n + 1)}{2}$
 
@@ -252,7 +252,7 @@ if (n>0){
 }
 ```
 
-We k `(let i=1; i< n; i=i*2)` will execute $log(n)$ times
+We know `(let i=1; i< n; i=i*2)` will execute $log(n)$ times
 
 $$T(n) = \begin{cases} 1 & \text{when } n=0 \\\ T(n-1)+ log(n) & \text{when } n > 0 \end{cases}$$
 
@@ -303,7 +303,7 @@ $T(n) = T(n-1) + log(n)$ -> $O(nlog(n))$
 
 $T(n) = T(n-1) + n^2$ -> $O(n^3)$
 
-Just multiply the term after the + by n, since you k it will be repeated n times via recursion
+Just multiply the term after the + by n, since you know it will be repeated n times via recursion
 
 What if it's not decreasing by 1? It still works
 
@@ -341,7 +341,7 @@ function called twice in first row
 
 8 times in third row
 
-So the work  in each row is $2^k$
+So the work done in each row is $2^k$
 
 $1 + 2 + 2^2 + 2^3 + ... + 2^k = n^{k+1}-1$
 

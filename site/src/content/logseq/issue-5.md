@@ -32,7 +32,7 @@ Hopefully, my process for making the guide and annotating code in logseq will al
 
 I wrote a [comprehensive outline of all the algorithms I plan to learn]([[algorithms-boot-camp-study-guide]]). This "boot camp" project will build up this outline as a series of guides, one week at a time.
 
-I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my kledge.
+I'm not writing this guide from an expert's perspective but rather from a student's perspective. I'll be learning along with you and solidifying my knowledge.
 
 ## Productivity Toolkit 🛠️
 
@@ -63,5 +63,5 @@ Everyone has been talking about Elon Musk buying Twitter and the controversy aro
 ## Outro
 
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 

@@ -110,7 +110,7 @@ I'll explain everything in the next section.
 
 Each project has at least a 1 sentence summary of what it is and why it's important
 
-This is useful for thinking about the project, and refreshing your memory if you return to it years .
+This is useful for thinking about the project, and refreshing your memory if you return to it years later.
 
 ### Status
 
@@ -144,9 +144,9 @@ I work on each active project every few days
 #### REVIEW
 
 
-This means I've finished work on the project, and  am reflecting on the results.
+This means I've finished work on the project, and now am reflecting on the results.
 
-I plan to add a more extensive project review step, but for  I just spend some time reflecting on what the outcome was, what could have been improved, what I learned, what I'll do better next time, etx.
+I plan to add a more extensive project review step, but for now I just spend some time reflecting on what the outcome was, what could have been improved, what I learned, what I'll do better next time, etx.
 
 ### Deadlines
 
@@ -181,7 +181,7 @@ I adjust this if needed during the half way milestone
 
 If possible, I like to attach metrics to projects.
 
-If I'm  a fitness project, I might take note of my lifting numbers and bodyweight
+If I'm doing a fitness project, I might take note of my lifting numbers and bodyweight
 
 exercise
 
@@ -207,7 +207,7 @@ Example include: lose weight, get better at programming, improve social life, et
 ### Desired output
 
 
-What do I want the result of this project to be? What would I be  afterward?
+What do I want the result of this project to be? What would I be doing afterward?
 
 For example, for my weighlifting routine, I could say I want to squat 225 pounds. Or that I would feel healthier and fit into my old clothes.
 
@@ -218,14 +218,14 @@ These are one time tasks I need to accomplish
 
 I usually add a lot of these before starting the project, but I continue to add more if needed.
 
-If I think of a necessary task for a project, I write it in my daily notes and tag the project, then pull it into this section .
+If I think of a necessary task for a project, I write it in my daily notes and tag the project, then pull it into this section later.
 
 ### Habits
 
 
 The main area of focus in my projects are on the habits.
 
-Many goals are accomplished by  the same thing day after day.
+Many goals are accomplished by doing the same thing day after day.
 
 Logseq lets you schedule tasks that repeat daily, weekly, monthly, or whatever cadence you want.
 

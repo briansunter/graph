@@ -17,7 +17,7 @@ r
 
 Hey everyone! 👋 My name is Brian Sunter. I'm a software engineer in San Francisco.  I've been taking notes since I opened a .docx file 15 years ago and started writing down my feelings in a stream of consciousness.  I hope to share some things I found useful with you all!
 
-I used to write Clojure at a bank, but  I do more traditional "enterprise" stuff 😇
+I used to write Clojure at a bank, but now I do more traditional "enterprise" stuff 😇
 
 I'm obsessed with functional programming, AI, clojure, datalog, lisp, datomic, datascript,
 
@@ -25,12 +25,12 @@ I've used a ton of tools and have a lot of inspiration from many different note-
 
 I'm on a relentless quest to learn everything. I have a philosophy that everything is connected, so these next generation note-taking applications with bidirectional links work perfectly for me,
 
-I'm constantly inspired by what you all are , so I hope you find this interesting! Feel free to get in touch any time.
+I'm constantly inspired by what you all are doing, so I hope you find this interesting! Feel free to get in touch any time.
 
 ## Social Profiles
 
 
-If you want to follow what I'm , I'm posting links to my public graph on twitter   
+If you want to follow what I'm doing, I'm posting links to my public graph on twitter   
 https://twitter.com/Bsunter
 
 This is my public graph https://briansunter.com/graph

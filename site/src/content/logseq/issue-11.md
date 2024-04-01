@@ -52,11 +52,11 @@ We've been road-tripping around the island, discovering new beaches and unique s
 ## Improving my Health and Fitness
 
 
-I wasn't taking care of my health as much as I should have in the past few years, so my top priority is building a healthier lifestyle. I used to be pretty active when walking to work and going to the gym a few times a week, but when Covid hit, and I started working from home, it threw a wrench in my fitness routine, so  I'm trying to get back on track.
+I wasn't taking care of my health as much as I should have in the past few years, so my top priority is building a healthier lifestyle. I used to be pretty active when walking to work and going to the gym a few times a week, but when Covid hit, and I started working from home, it threw a wrench in my fitness routine, so now I'm trying to get back on track.
 
 My main focus has been strength training with resistance loop bands at home. I used to think free weights were the only way to build strength, but these have been challenging and let me gradually increase the resistance by adding more and heavier bands. It also takes much less time than going to the gym, and many exercises feel safer than free weights when exercising alone.
 
-I've been  long swims in the ocean at the beaches near my apartment for cardio. Swimming in open water is quite a bit more intense than in the pool and has been a great workout. There's interesting sea life and great views which keep me entertained. I also try to make it to the water at least once weekly to go paddle boarding.
+I've been doing long swims in the ocean at the beaches near my apartment for cardio. Swimming in open water is quite a bit more intense than in the pool and has been a great workout. There's interesting sea life and great views which keep me entertained. I also try to make it to the water at least once weekly to go paddle boarding.
 
 I'm continuing to do Yoga every other day for mobility and mindfulness. I highly recommend the [Yoga with Adrienne](https://www.youtube.com/@yogawithadriene) videos on YouTube, which I've followed for many years. I appreciate her kindness and positivity; these videos always put me in a better mood. They've improved my overall movement and flexibility, helping me recover and reduce soreness from the resistance training.
 
@@ -70,5 +70,5 @@ As someone who enjoys programming, research, and writing, I aim to be well-round
 
 Though this is more personal than my previous newsletters, I hope you enjoyed hearing more about me and what I've been up to. Hopefully, I've given you more insight into how I spend my time away from coding, AI, and Twitter.
 
-I'll continue focusing on my projects and learnings in future issues, but occasionally I'll include personal facets as I have in this issue. Let me k if you'd like to see more of this kind of content on [Twitter](https://twitter.com/bsunter)
+I'll continue focusing on my projects and learnings in future issues, but occasionally I'll include personal facets as I have in this issue. Let me know if you'd like to see more of this kind of content on [Twitter](https://twitter.com/bsunter)
 

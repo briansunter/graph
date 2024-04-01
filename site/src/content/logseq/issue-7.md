@@ -103,7 +103,7 @@ My favorite piece of advice is his urge to focus on important problems above all
 
 He has a story where he would eat lunch with other scientists from different fields at Bell Labs:
 
-> I started asking, “What are the important problems of your field?“ And after a week or so, “What important problems are you working on?” And after some more time I came in one day and said, “If what you are  is not important, and if you don’t think it is going to lead to something important, why are you at Bell Labs working on it?“ I wasn’t welcomed after that; I had to find somebody else to eat with!
+> I started asking, “What are the important problems of your field?“ And after a week or so, “What important problems are you working on?” And after some more time I came in one day and said, “If what you are doing is not important, and if you don’t think it is going to lead to something important, why are you at Bell Labs working on it?“ I wasn’t welcomed after that; I had to find somebody else to eat with!
 
 When pressed, many of his fellow scientists admitted they didn’t believe the problems they were working on were significant.
 
@@ -132,7 +132,7 @@ It was unique but censored, pay-per-use, not open source, impossible to run loca
 
 Stability AI is releasing an open-source AI image generation program called “Stable Diffusion” that can run on midrange PCs and M1 Macs.
 
-Stable Diffusion will be massive because people can  run powerful AI image generation on their hardware and do whatever they want. We will see a lot of new tools for artists built around this.
+Stable Diffusion will be massive because people can now run powerful AI image generation on their hardware and do whatever they want. We will see a lot of new tools for artists built around this.
 
 I’m sure we’ll see a lot of crazy stuff with this soon, but I can’t wait for the creative potential this unlocks.
 
@@ -141,5 +141,5 @@ I’m sure we’ll see a lot of crazy stuff with this soon, but I can’t wait f
 ## Outro
 
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 

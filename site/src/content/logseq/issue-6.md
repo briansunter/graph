@@ -88,11 +88,11 @@ We can look at something and see that it’s “simple”. We can’t do the sam
 
 What's easy for me may be hard for you and vice versa.
 
-> The critical thing to distinguish it from simple is that easy is relative. Right? Playing the violin and reading German are really hard for me. They're easy for other people, certain other people. So unlike simple where we can go and look for interleavings, look for braiding, easy is always going to be, you k, easy for whom, or hard for whom? It's a relative term.
+> The critical thing to distinguish it from simple is that easy is relative. Right? Playing the violin and reading German are really hard for me. They're easy for other people, certain other people. So unlike simple where we can go and look for interleavings, look for braiding, easy is always going to be, you know, easy for whom, or hard for whom? It's a relative term.
 
-> We throw these terms around sort of casually saying, oh, I like to use that technology because it's simple, and when I'm saying simple, I mean easy. And when I am saying easy, I mean because I already k something that looks very much alike that. It's how this whole thing degrades and we can never have an objective discussion about the qualities that matter to us in our software.
+> We throw these terms around sort of casually saying, oh, I like to use that technology because it's simple, and when I'm saying simple, I mean easy. And when I am saying easy, I mean because I already know something that looks very much alike that. It's how this whole thing degrades and we can never have an objective discussion about the qualities that matter to us in our software.
 
-> If you want everything to be familiar, you will never learn anything new because it can't be significantly different from what you already k
+> If you want everything to be familiar, you will never learn anything new because it can't be significantly different from what you already know
 
 #### Focus on the output of your process
 
@@ -113,7 +113,7 @@ Simple may be harder, unfamiliar, and slower at first, but in the long run simpl
 ### AI Masters Stratego Board Game
 
 
-AI can play Stratego at an expert level 
+AI can play Stratego at an expert level now
 
 Stratego is one of the few iconic board games that AI has not yet mastered.
 
@@ -123,7 +123,7 @@ I used to love this game growing up. I didn't realize it was one of the hardest 
 
 The reason it's so difficult is because you can't see your oppononents pieces. It has "imperfect information" like poker, so you have to infer what's on the board.
 
-King that it's a mathematically interesting game renewed my interest a bit, and I've been playing it on mobile. It has a great "quick play" mode which randomizes the initial layout which makes it much faster to practice.
+Knowing that it's a mathematically interesting game renewed my interest a bit, and I've been playing it on mobile. It has a great "quick play" mode which randomizes the initial layout which makes it much faster to practice.
 
 ![ ](/assets/image_1657604178916_0_1672132676533_0.png)
 
@@ -139,5 +139,5 @@ Still amazed at the res pins
 ## Outro
 
 
-Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me k on [twitter @bsunter](https://twitter.com)
+Check out the [[newsletter-roadmap]] to see what I have in mind for future issues. Let me know on [twitter @bsunter](https://twitter.com)
 

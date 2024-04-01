@@ -33,7 +33,7 @@ I write everything in Logseq, export using the Hugo plugin, push it to GitHub, a
 ### New Site - Motivations
 
 
-When I first started my website a long time ago, I used WordPress, and since then I've moved to static site generators. I've used Hugo, Jekyll, Eleventy, and  Logseq + Hugo.
+When I first started my website a long time ago, I used WordPress, and since then I've moved to static site generators. I've used Hugo, Jekyll, Eleventy, and now Logseq + Hugo.
 
 I've spent a lot of time hand tuning static site generators, but decided I wanted something more "hands off" and that worked out of the box.
 
@@ -41,7 +41,7 @@ I was using a highly customized eleventy static site, but it was a lot of mainte
 
 Hugo, along with the PaperMod theme does everything my old site did, including image optimization, but is mostly zero config and super fast. Plus, I enjoy the theme and layout of the plugin.
 
-I was publishing an interactive graph using the Logseq built-in export feature, but I couldn't get it to work with SEO.  on, I plan on publishing my full interactive graph again, but for , I'm focusing on the static site.
+I was publishing an interactive graph using the Logseq built-in export feature, but I couldn't get it to work with SEO. Later on, I plan on publishing my full interactive graph again, but for now, I'm focusing on the static site.
 
 ### Considerations
 
@@ -124,7 +124,7 @@ I do all my writing, note taking, and task management in Logseq so being able to
 #### Logseq Schrodinger (Hugo) Plugin
 
 
-It is published using the Logseq Schrodinger Plugin which is  built into Logseq. This plugin takes my Logseq notes and converts them into Hugo-compatible markdown files.
+It is published using the Logseq Schrodinger Plugin which is now built into Logseq. This plugin takes my Logseq notes and converts them into Hugo-compatible markdown files.
 
 Hugo is mainly configured by "front matter" which is YAML at the top of your markdown files, to set things like the title, tags, description, permalink, etc.
 

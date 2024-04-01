@@ -15,7 +15,9 @@ coverimage: ../../assets/hawaii-cover_1710985966457_0.jpg
 
 It's been an interesting year living in one of the most isolated places on Earth.
 
-After living in San Francisco for over 7 years, my partner and I were ready to try something new. We had a few places in mind, but Hawaii really excited us. It wasn't easy moving our lives here, it took many sleepless nights packing up our Bay Area apartment and fitting everything we'd take with us in just a few suitcases.  a year , we're settled in and have gotten into our new routines and exploring Oahu as well as a few neighboring islands like Big Island, and Maui. Living here has been great for many reasons.
+After living in San Francisco for over 7 years, my partner and I were ready to try something new. We had a few places in mind, but Hawaii really excited us. It wasn't easy moving our lives here, it took many sleepless nights packing up our Bay Area apartment and fitting everything we'd take with us in just a few suitcases.
+
+Now a year later, we're settled in and have gotten into our new routines and exploring Oahu as well as a few neighboring islands like Big Island, and Maui. Living here has been great for many reasons.
 
 ## Living in Hawaii
 
@@ -55,7 +57,7 @@ My intellectual and professional pursuits are also going well. I'm working on so
 
 {{< youtube RzT20ejft3c >}}
 
-My main technical interest right  is AI, and I've been studying fundamentals and building product prototypes around it. AI gives me the same feeling as developing for the early iPhone, where every new capability opened up many possibilities. Every few months, a new AI model or capability is announced, and many new features, products, or companies could be built around them. Combining current breakthroughs in valuable ways has a lot of potential.
+My main technical interest right now is AI, and I've been studying fundamentals and building product prototypes around it. AI gives me the same feeling as developing for the early iPhone, where every new capability opened up many possibilities. Every few months, a new AI model or capability is announced, and many new features, products, or companies could be built around them. Combining current breakthroughs in valuable ways has a lot of potential.
 
 GPT-3 was the first model that amazed me, but the release of GPT-4 last year was the first model that could reliably do useful work. It's funny looking back on some of the tools I was amazed with when I first started this newsletter and how far they've come since then.
 

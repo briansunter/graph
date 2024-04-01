@@ -27,11 +27,11 @@ You likely have "revenge bedtime procrastination" and are messing up your circad
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Learned a very relatable term today: “報復性熬夜” (revenge bedtime procrastination), a phenomenon in which people who don’t have much control over their daytime life refuse to sleep early in order to regain some sense of freedom during late night hours.</p>&mdash; daphne (@daphnekylee) <a href="?ref_src=twsrc%5Etfw">June 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you struggle to fall asleep at night, you may be a victim of revenge bedtime procrastination. This is when you stay up late to do something you k you shouldn't be , like watching television or scrolling through social media.
+If you struggle to fall asleep at night, you may be a victim of revenge bedtime procrastination. This is when you stay up late to do something you know you shouldn't be doing, like watching television or scrolling through social media.
 
 You tell yourself, "I'll just watch one more episode," or "I'll just read a few more articles."
 
-You k you should be asleep hours ago, but you can’t seem to drift off. You keep scrolling through your phone, checking the news, and scrolling some more.
+You know you should be asleep hours ago, but you can’t seem to drift off. You keep scrolling through your phone, checking the news, and scrolling some more.
 
 It's a common problem in our 24/7 world, where we're always connected, and there's always something new to consume. A [survey from the American Academy of Sleep Medicine](https://aasm.org/are-you-tiktok-tired-93-of-gen-z-admit-to-staying-up-past-their-bedtime-due-to-social-media/) found that 93% of Gen Z have lost sleep because they stayed up “past their bedtime” to view or participate in social media.
 

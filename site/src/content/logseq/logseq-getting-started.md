@@ -31,9 +31,9 @@ Share your pages with the world
 
 In this guide, I'll the hosting company [Netlify](https://netlify.com/) as an example because it is good and easy to get started.
 
-If you are unsure, I recommend starting with Netlify. Logseq generates a site that is compatible with many different hosting providers so it's easy to switch , especially if you get your own domain name.
+If you are unsure, I recommend starting with Netlify. Logseq generates a site that is compatible with many different hosting providers so it's easy to switch later, especially if you get your own domain name.
 
-I recommend getting something basic up online right away, then researching other options  on.
+I recommend getting something basic up online right away, then researching other options later on.
 
 ## Download Logseq
 
@@ -60,7 +60,7 @@ Make a folder called `Logseq` in iCloud Drive, then make a folder for your graph
 ## Start writing in daily notes
 
 
- you will see an empty page with todays date. This is called your "daily notes". It's usually my starting place for ideas. I just type some thoughts and start creating `[[backlinks]]` for important concepts, so I can find my notes  on when  research or writing.
+Now you will see an empty page with todays date. This is called your "daily notes". It's usually my starting place for ideas. I just type some thoughts and start creating `[[backlinks]]` for important concepts, so I can find my notes later on when doing research or writing.
 
 Take a little bit of time to experiment writing, making backlinks, clicking the backlinks, etc.
 
@@ -69,13 +69,13 @@ Take a little bit of time to experiment writing, making backlinks, clicking the 
 ## Make your public homepage
 
 
- let's create a home for you on the internet.
+Now let's create a home for you on the internet.
 
 Create a "homepage" for yourself by typing `[[homepage]]` then clicking on it. This will create the page and navigate you to it.
 
 Type some text here about you and your interests.
 
- make it public by clicking the three dots in the upper right hand corner and selecting "Make it public for publishing"
+Now make it public by clicking the three dots in the upper right hand corner and selecting "Make it public for publishing"
 
 ![ ](/assets/image_1662087105153_0.png)
 
@@ -105,7 +105,7 @@ Select edit config.edn
 
 ![ ](/assets/image_1662087114284_0.png)
 
- we'll add a line to the config file with the page we want to be our homepage
+Now we'll add a line to the config file with the page we want to be our homepage
 
 ![ ](/assets/image_1662087124359_0.png)
 
@@ -124,7 +124,7 @@ Then after exporting we'll comment it out with two semicolons `;;`, so our priva
 ## Publish your public graph online
 
 
-There are tons of good options, but I recommend netlify which is good and free. You can switch to something else .
+There are tons of good options, but I recommend netlify which is good and free. You can switch to something else later.
 
 [Sign up for netlify here.](https://app.netlify.com/signup)
 
@@ -150,9 +150,9 @@ Click the box at the bottom to upload a new version of your site.
 
 I highly suggest setting up a custom domain like yourname.com.
 
-You want the links you share to work forever, and if you own your own domain, you can switch away from netlify , whereas you can't if all your links have netlify.app in the domain.
+You want the links you share to work forever, and if you own your own domain, you can switch away from netlify later, whereas you can't if all your links have netlify.app in the domain.
 
-I think it's easiest to buy it through netlify. They will set everything up so the domain points to your website and just works. It costs 11.99 a year to own your own domain. You can transfer the domain name you buy to somewhere else , or set up an existing domain name you already own if you k how.
+I think it's easiest to buy it through netlify. They will set everything up so the domain points to your website and just works. It costs 11.99 a year to own your own domain. You can transfer the domain name you buy to somewhere else later, or set up an existing domain name you already own if you know how.
 
 ![ ](/assets/image_1662087175738_0.png)
 
@@ -163,9 +163,9 @@ I think it's easiest to buy it through netlify. They will set everything up so t
 
 There are a ton of ways to host your public graph, but I think just uploading it to netlify drop is the easiest and best way for non technical users to get their site online.
 
-I find people get to paralyzed with options, so just get your site up  on netlify, then figure out the perfect solution . You can always migrate providers if you get the domain name.
+I find people get to paralyzed with options, so just get your site up now on netlify, then figure out the perfect solution later. You can always migrate providers if you get the domain name.
 
-[Let me k if you found this guide useful on twitter](https://twitter.com/Bsunter),  especially if you set up your own public graph!
+[Let me know if you found this guide useful on twitter](https://twitter.com/Bsunter),  especially if you set up your own public graph!
 
- go to the docs and learn more about logseq
+Now go to the docs and learn more about logseq
 

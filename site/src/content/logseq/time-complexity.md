@@ -24,7 +24,7 @@ description: An introduction to analyzing algorithms, comparing functions, and B
 |Algorithm|Program|
 |--|--|
 |Focused on Design|Implementation in programming language on hardware|
-|Domain Kledge|Software Engineering|
+|Domain Knowledge|Software Engineering|
 |Any Language|Specific Language|
 |Analyze|Testing|
 
@@ -75,7 +75,7 @@ Even if a function returns void, it should return a result in some other method,
 
 Everything should be unambiguous and clear.
 
-If you can't describe the problem to a human, you don't k it well enough to write an algorithm.
+If you can't describe the problem to a human, you don't know it well enough to write an algorithm.
 
 You can't pass an imaginary number like $\sqrt{-1}$ without specifying how to deal with it
 
@@ -149,7 +149,7 @@ This is important when designing for mobile devices
 #### CPU Registers
 
 
-Sometimes for low level software, you may need to k hardware details like how many CPU registers your algorithms needs.
+Sometimes for low level software, you may need to know hardware details like how many CPU registers your algorithms needs.
 
 #### Time Analysis
 
@@ -382,7 +382,7 @@ Let's replace `p` with our formula and simplify
 
 $$\frac{k(k+1)}{2} > n $$
 
-This can be expanded out and simplified to $$k^2$$ (we k we only care about the exponent for big o time complexity analysis)
+This can be expanded out and simplified to $$k^2$$ (we know we only care about the exponent for big o time complexity analysis)
 
 $$k^2> n $$
 

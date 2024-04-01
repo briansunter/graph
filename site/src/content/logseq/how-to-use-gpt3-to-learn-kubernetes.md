@@ -26,11 +26,11 @@ I'll narrate my process of how I use gpt3 and what "prompts" I use.
 
 I usually modify the output for my own purposes to clean it up, though sometimes the raw OpenAI response is really good. After generating the output I add backlinks to it.
 
-Prompts are basically ways of asking questions to openai that are kn to produce a desirable output. There are certain ways of asking it things that work better than others.
+Prompts are basically ways of asking questions to openai that are known to produce a desirable output. There are certain ways of asking it things that work better than others.
 
 Basically I ask it to create high level overviews and outlines, the ask it follow up questions to get more details based on the outline it produces.
 
-This guide just assumes you have a basic kledge of OpenAI and GPT-3. You just need to k that you send it a human like command and it gives you a response, based on data from a huge training set. It can do well at both technical and creative use cases, in my experience. [Learn more about GPT-3 here](https://www.vox.com/future-perfect/21355768/gpt-3-ai-openai-turing-test-language)
+This guide just assumes you have a basic knowledge of OpenAI and GPT-3. You just need to know that you send it a human like command and it gives you a response, based on data from a huge training set. It can do well at both technical and creative use cases, in my experience. [Learn more about GPT-3 here](https://www.vox.com/future-perfect/21355768/gpt-3-ai-openai-turing-test-language)
 
 *==I'll highlight the prompts I send to OpenAI to write this article==**
 
@@ -38,7 +38,7 @@ The blocks nested underneath are OpenAI's responses.
 
 To use OpenAI with my plugin, you just type `/gpt3` on a selected block or right click on the block menu.
 
-Let's start with an overview of what you should k about openai, in addition to following its [usage guidelines.](https://beta.openai.com/docs/usage-guidelines)
+Let's start with an overview of what you should know about openai, in addition to following its [usage guidelines.](https://beta.openai.com/docs/usage-guidelines)
 
 ### OpenAI Completions, Prompts, and Prompt Design
 
@@ -116,7 +116,7 @@ In addition to giving it examples and letting it "complete" them, you can outrig
 
 5. A VR system that can be used to create virtual reality environments for group fitness classes, allowing people to take part in classes from anywhere in the world.
 
-There's a lot more you can do, but that's enough to k for . [See here for more information from the OpenAI docs](https://beta.openai.com/docs/guides/completion)
+There's a lot more you can do, but that's enough to know for now. [See here for more information from the OpenAI docs](https://beta.openai.com/docs/guides/completion)
 
 ## Learning Kubernetes
 
@@ -139,7 +139,7 @@ Kubernetes is important because it is a portable, extensible system for managing
 
 Some technologies that are similar to Kubernetes are Apache Mesos and Docker Swarm.
 
-==What are the top five most important things to k about kubernetes?==
+==What are the top five most important things to know about kubernetes?==
 
 1.Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.
 2. It has a large, rapidly growing ecosystem. 
@@ -297,7 +297,7 @@ Load balancing: Kubernetes can load balance traffic between containers using a v
 
 In addition to the services listed above, Kubernetes networking provides a number of other features, such as network policy and service mesh. These features are beyond the scope of this guide, but you can learn more about them in the Kubernetes documentation.
 
- that you understand the basics of Kubernetes networking, let's take a look at how you can use it to connect your applications.
+Now that you understand the basics of Kubernetes networking, let's take a look at how you can use it to connect your applications.
 
 There are two main ways to connect applications using Kubernetes networking:
 
@@ -307,11 +307,11 @@ Ingress objects: Ingress objects provide a way to route external traffic to your
 
 In addition to the methods described above, you can also use network policies to control traffic between your applications. Network policies allow you to specify which pods are allowed to communicate with each other. This can be used to implement security controls, such as firewalls, and to isolate different parts of your deployment.
 
- that you k the basics of Kubernetes networking, you can start using it to connect your applications. For more information, refer to the Kubernetes documentation.
+Now that you know the basics of Kubernetes networking, you can start using it to connect your applications. For more information, refer to the Kubernetes documentation.
 
 ==write advanced guide to Kubernetes Security: Best practices for securing your Kubernetes cluster and applications.==
 
-Kubernetes is a powerful container orchestration tool that has many features and options. While this provides great flexibility, it also means that there are many ways to configure Kubernetes. This can make it difficult to k which options are the most secure.
+Kubernetes is a powerful container orchestration tool that has many features and options. While this provides great flexibility, it also means that there are many ways to configure Kubernetes. This can make it difficult to know which options are the most secure.
 
 In this article, we will discuss some of the best practices for securing your Kubernetes cluster and applications.
 
@@ -371,7 +371,7 @@ A VPN is a private network that uses a public network, such as the Internet, to 
 
 For example, you could use a VPN to secure communication between the Kubernetes API server and external clients.
 
-Kubernetes is a powerful container orchestration tool that has many features and options. While this provides great flexibility, it also means that there are many ways to configure Kubernetes. This can make it difficult to k which options are the most secure.
+Kubernetes is a powerful container orchestration tool that has many features and options. While this provides great flexibility, it also means that there are many ways to configure Kubernetes. This can make it difficult to know which options are the most secure.
 
 In this article, we have discussed some of the best practices for securing your Kubernetes cluster and applications. We have also discussed some of the trade-offs that you need to consider when choosing security options.
 
@@ -427,7 +427,7 @@ Minikube
 kubectl
 Docker
 
- let's get started!
+Now let's get started!
 
 1. Create a new file called `app.js` and add the following code to it:
 

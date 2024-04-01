@@ -45,7 +45,7 @@ I use this to make a mini-plan for the day. I like to define at least three “m
 #### What Am I Worried About?
 
 
-I tend to worry about things, but writing down what I’m concerned about or problem areas in my life helps me stop ruminating or thinking about it throughout the day. Usually, the time you recognize a problem isn’t the best time to solve it. King I will return and create an action plan prevents me from having intrusive thoughts during the day. Over time, you can look at all these entries to see if there are any common themes. Looking back on things you were worried about that turned out not to be a big deal helps you feel better.
+I tend to worry about things, but writing down what I’m concerned about or problem areas in my life helps me stop ruminating or thinking about it throughout the day. Usually, the time you recognize a problem isn’t the best time to solve it. Knowing I will return and create an action plan prevents me from having intrusive thoughts during the day. Over time, you can look at all these entries to see if there are any common themes. Looking back on things you were worried about that turned out not to be a big deal helps you feel better.
 
 ### Extra Journaling
 
@@ -63,7 +63,7 @@ I have a similar version of my morning journal for the end of the day to reflect
 
 > What Did I Do Well?
 
-> What Could I Have  Better?
+> What Could I Have Done Better?
 
 #### How Am I Feeling?
 
@@ -80,10 +80,10 @@ This is an exercise to put me in a positive state of mind before bed. It’s sim
 
 This is self-explanatory, but I like to reflect on what I did well and what I tried that was successful.
 
-#### What Could I Have  Better?
+#### What Could I Have Done Better?
 
 
-I spent some time reflecting on what didn’t go well and how I could do better next time. If I don’t follow through with something or do something that moves me further from my goals, like breaking my diet, I try to ackledge it and think about what I should have  instead.
+I spent some time reflecting on what didn’t go well and how I could do better next time. If I don’t follow through with something or do something that moves me further from my goals, like breaking my diet, I try to acknowledge it and think about what I should have done instead.
 
 ### Morning Pages
 
@@ -100,9 +100,9 @@ For example:
 
 > What life lesson did you learn the hard way?
 
-> What do you wish you spent more time  five years ago?
+> What do you wish you spent more time doing five years ago?
 
-> What’s something you k you do differently than most people?
+> What’s something you know you do differently than most people?
 
 Here are some lists that I've been working through:
 
@@ -124,7 +124,7 @@ Here are some lists that I've been working through:
 
 1. What’s the best thing you’ve got going on in your life at the moment?
 
-2. What incredibly common thing have you never ?
+2. What incredibly common thing have you never done?
 
 3. What has taken you the longest to get good or decent at?
 
@@ -138,7 +138,7 @@ Here are some lists that I've been working through:
 
 8. What takes a lot of time but is totally worth it?
 
-9. What is the most amazing fact you k?
+9. What is the most amazing fact you know?
 
 10. What website or app doesn’t exist, but you really wish it did?
 
@@ -156,7 +156,7 @@ Here are some lists that I've been working through:
 
 17. What topic could you give a 20-minute presentation on without any preparation?
 
-18. What’s something that a lot of people are missing out on because they don’t k about it?
+18. What’s something that a lot of people are missing out on because they don’t know about it?
 
 19. What are some of your guilty pleasures?
 
@@ -177,7 +177,7 @@ I use [Logseq](https://logseq.com) to do my daily journaling. I expand the templ
 [[How Am I feeling?]]
 [[What’s Something Good That Happened Today?]]
 [[What Did I Do Well?]]
-[[What Could I Have  Better?]]
+[[What Could I Have Done Better?]]
 ```
 
 ### Conclusion

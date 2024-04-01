@@ -24,7 +24,7 @@ In the morning, choose one activity that would make you feel accomplished at the
 
 This technique is effective because it forces you to focus on your true priorities instead of constantly reacting and getting distracted.
 
- more tasks isn't the answer, it's focusing on accomplishing what matters.
+Doing more tasks isn't the answer, it's focusing on accomplishing what matters.
 
 ### How to Choose a Daily Highlight
 
@@ -52,7 +52,7 @@ If your driver's license is about to expire, you should make a trip to the DMV t
 ##### Satisfaction
 
 
-Satisfaction means  something productive that you want to do.
+Satisfaction means doing something productive that you want to do.
 
 This is often a project you've been meaning to get around to, like taking that online class or drafting another chapter of your novel.
 

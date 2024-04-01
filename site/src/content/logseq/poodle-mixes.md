@@ -17,7 +17,7 @@ With a few examples of poodle mixes, it is able to generate names for every pood
 
 Sometimes it picks the traditional poodle name, sometimes it makes a new one, sometimes it isn't very creative
 
-Thanks to AI, every theoretical poodle mix  has a name.
+Thanks to AI, every theoretical poodle mix now has a name.
 
 Generate poodle mix names:
 

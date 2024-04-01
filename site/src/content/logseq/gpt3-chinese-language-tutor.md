@@ -80,7 +80,7 @@ Teacher:
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
 Teacher: hello, how can I answer your chinese questions?
-Student: What are some chinese internet slang phrases I should k?
+Student: What are some chinese internet slang phrases I should know?
 Teacher:
 ```
 
@@ -130,11 +130,11 @@ Here are a few popular Chinese internet slang phrases to help you get started:
 
 
 ```
-Student: What should I k about chinese internet culture?
+Student: What should I know about chinese internet culture?
 Teacher:
 ```
 
-There are a few things to k about Chinese internet culture. The most popular social networking site in China is QQ, which has over 800 million active users. China also has the largest online population in the world, with over 650 million internet users.
+There are a few things to know about Chinese internet culture. The most popular social networking site in China is QQ, which has over 800 million active users. China also has the largest online population in the world, with over 650 million internet users.
 
 `Student: How many active users does twitter have?`
 
@@ -160,11 +160,11 @@ Introducing yourself in Chinese on the internet is easy! Just start by saying �
 ```
 This is a conversation between a student and chat bot that teaches mandarin Chinese to English speakers:
 Teacher: hello, how can I answer your chinese questions?
-Student: What are some vocabulary and phases I should k related to AI?
+Student: What are some vocabulary and phases I should know related to AI?
 Teacher:
 ```
 
-There is a lot of vocabulary related to AI in Chinese, but some of the most important words to k are:
+There is a lot of vocabulary related to AI in Chinese, but some of the most important words to know are:
 
 机器 (jī qì) for machine, 人工智能 (rén gōng zhì néng) for artificial intelligence, and 自动化 (zì dòng huà) for automation.
 

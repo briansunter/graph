@@ -14,7 +14,7 @@ description: I go over a few new useful AI and NLP techniques and how to use the
 coverimage: ../../assets/image_1662087221258_0.png
 ---
 
-There are several new AI and NLP technologies that you can use for personal kledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
+There are several new AI and NLP technologies that you can use for personal knowledge management. I'll go over a few useful AI techniques and how they differ from what we've seen before.
 
 The "Next Generation" "semantic search" technologies are more intelligent than we've seen before because they understand the meaning behind the text and not just the specific keywords they have in common.
 
@@ -22,7 +22,7 @@ For example, I could search for "food" and find an article on "Burritos" even if
 
 These new technologies allow you to search, summarize and categorize your notes. You can also use AI to generate new notes instead of just analyzing them.
 
-Here are a few of my favorite new techniques and technologies. Some of these you can use today, but many haven't been built into any notes app. The big tech companies are using all these techniques, but the average user doesn't k they exist.
+Here are a few of my favorite new techniques and technologies. Some of these you can use today, but many haven't been built into any notes app. The big tech companies are using all these techniques, but the average user doesn't know they exist.
 
 ## Graph Analysis
 
@@ -38,7 +38,7 @@ This type of analysis works well for bidirectional note-taking apps with backlin
 ##### Game of Thrones Social Network
 
 
-Here's what Game of Thrones would look like if it were a social network. You can see how all the characters such as "Jon S" and "Daenerys Targaryen" are connected.
+Here's what Game of Thrones would look like if it were a social network. You can see how all the characters such as "Jon Snow" and "Daenerys Targaryen" are connected.
 
 ![ ](/assets/image_1662087210843_0.png)
 
@@ -253,13 +253,13 @@ For example, you can ask:
 I have a lot of work → Tengo mucho trabajo.
 GPT-3 is the best AI system ever → _____.”
 
-And it will k to translate the sentence into Spanish.
+And it will know to translate the sentence into Spanish.
 
 According to studies, it can generate "news articles" on a given topic that humans can barely distinguish as being written by AI.
 
 It can do many different things, given a "prompt," just an English language description of what you want to do.
 
-Most AI until  has focused on analysis, but I'm excited by the generative capabilities of new AI like GPT-3.
+Most AI until now has focused on analysis, but I'm excited by the generative capabilities of new AI like GPT-3.
 
 Using the [OpenAI Fine Tuning API](https://beta.openai.com/docs/guides/fine-tuning),we can build very powerful "prompts"
 
@@ -298,7 +298,7 @@ This could pull certain critical pieces of information out of your notes like pe
 
 ![ ](/assets/image_1662087323103_0.png)
 
-[Source](https://umagunturi789.medium.com/everything-you-need-to-k-about-named-entity-recognition-2a136f38c08f)
+[Source](https://umagunturi789.medium.com/everything-you-need-to-know-about-named-entity-recognition-2a136f38c08f)
 
 ### Text Classification
 

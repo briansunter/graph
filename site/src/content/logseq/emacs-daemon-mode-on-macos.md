@@ -15,7 +15,7 @@ coverimage: ../../assets/image_1661148998101_0.png
 ## Emacs Deamon Mode on macos
 
 
-A common complaint about emacs is that it takes longer to launch than vim. I enjoyed being able to quickly edit a file without leaving the terminal in vim and wanted to k if there was a way to make emacs load just as fast. I have many emacs plugins through [Spacemacs](https://www.spacemacs.org/), and it does take around 10-20 seconds to launch in both terminal and GUI mode. With emacs client mode, it launches in less than a second.
+A common complaint about emacs is that it takes longer to launch than vim. I enjoyed being able to quickly edit a file without leaving the terminal in vim and wanted to know if there was a way to make emacs load just as fast. I have many emacs plugins through [Spacemacs](https://www.spacemacs.org/), and it does take around 10-20 seconds to launch in both terminal and GUI mode. With emacs client mode, it launches in less than a second.
 
 ### Emacs client and Server
 
@@ -86,5 +86,5 @@ You can also use `unload` to stop the daemon and prevent it from starting next l
 ### `emacsclient`
 
 
- that we have a daemon always running, we can quickly launch emacs by running `emacsclient -c` or `emacsclient`. It should be restarted automatically if we ever need to kill the emacs daemon.
+Now that we have a daemon always running, we can quickly launch emacs by running `emacsclient -c` or `emacsclient`. It should be restarted automatically if we ever need to kill the emacs daemon.
 

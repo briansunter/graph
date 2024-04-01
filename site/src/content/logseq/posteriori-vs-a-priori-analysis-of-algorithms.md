@@ -17,7 +17,7 @@ description: Theoretical analysis of algorithms vs benchmarking
 
 The most straightforward method to measure the speed of an algorithm is to run and time it.
 
-This method is called **a posteriori** and is Latin for "from the "
+This method is called **a posteriori** and is Latin for "from the later"
 
 An example of this would be "benchmarking" or "profiling", which is running your program and recording how long it takes to run in seconds. There are many tools to measure performance of programs.
 
@@ -34,7 +34,7 @@ Sometimes we also want a theoretical measure of how long an algorithm takes to r
 
 Some algorithms can be proven to always be faster than others, no matter what hardware it runs on.
 
-Computers keep getting faster, so it's convenient to k which algorithms will always be faster without having to retest them
+Computers keep getting faster, so it's convenient to know which algorithms will always be faster without having to retest them
 
 An example of A Priori analysis is time complexity analysis.
 
