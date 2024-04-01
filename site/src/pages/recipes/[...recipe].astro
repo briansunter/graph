@@ -17,7 +17,7 @@ const cooklangRegistration: LanguageRegistration = {
   name: "cook",
   scopeName: "source.cook",
   patterns: cooklangLang.patterns,
-  repository: cooklangLang.repository as IRawRepository, 
+  repository: cooklangLang.repository as IRawRepository,
 };
 
 export async function getStaticPaths() {
@@ -37,15 +37,30 @@ type Ingredient = CollectionEntry<"recipes">["data"]["ingredients"][0];
 const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
   (acc, curr) => {
     const existingIngredient: Ingredient | undefined = acc.find(
-      (ingredient: Ingredient) =>
-        ingredient.name === curr.name && ingredient.units === curr.units
+      (ingredient: Ingredient) => ingredient.name === curr.name
     );
     if (existingIngredient) {
-      existingIngredient.quantity += curr.quantity;
+      if (
+        existingIngredient.units  &&
+        curr.units === existingIngredient.units
+      ) {
+        existingIngredient.quantity += curr.quantity;
+      } else if (
+        !existingIngredient.units  &&
+        curr.units 
+      ) {
+        const index = acc.indexOf(existingIngredient);
+        if (index > -1) {
+          acc.splice(index, 1);
+        }
+        acc.push({ ...curr });
+      } else if (existingIngredient.units && !curr.units) {
+      } else {
+        acc.push({ ...curr });
+      }
     } else {
       acc.push({ ...curr });
     }
-
     return acc;
   },
   []
@@ -272,14 +287,16 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
           ))
         }
       </section>
-
     </main>
     <section class="mb-8">
       <details class="relative">
-        
-        <summary class=" mx-auto p-4 max-w-3xl text-2xl font-semibold mb-4 cursor-pointer">Cooklang Recipe</summary>
+        <summary
+          class="mx-auto p-4 max-w-3xl text-2xl font-semibold mb-4 cursor-pointer"
+          >Cooklang Recipe</summary
+        >
         <div class="relative">
-          <CopyCodeButton code={entry.data.cooklang}>Copy Recipe</CopyCodeButton> 
+          <CopyCodeButton code={entry.data.cooklang}>Copy Recipe</CopyCodeButton
+          >
           <Code code={entry.data.cooklang} lang={cooklangRegistration} />
         </div>
       </details>
