@@ -39,6 +39,7 @@ const stepItemSchema = z.union([
 export const recipeSchema = {
   slug: z.string().optional(),
   ingredients: z.array(ingredientSchema).default([]),
+  cooklang: z.string(),
   cookwares: z.array(cookwareSchema).default([]),
   metadata: z.object({
     title: z.string(),
@@ -97,6 +98,7 @@ function getEntryInfo({ fileUrl, contents }: EntryInfoInput): EntryInfoOutput {
     metadata,
     shoppingList,
     steps,
+    cooklang: contents,
   };
   return {
     slug,

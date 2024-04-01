@@ -19,7 +19,6 @@ import icon from "astro-icon";
 import rehypeFigure from "@microflash/rehype-figure";
 import remarkGfm from "remark-gfm-no-autolink";
 import cooklang from './cooklang-astro';
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://briansunter.com",
