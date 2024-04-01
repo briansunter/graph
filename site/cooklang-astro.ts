@@ -40,7 +40,17 @@ export const recipeSchema = {
   slug: z.string().optional(),
   ingredients: z.array(ingredientSchema).default([]),
   cookwares: z.array(cookwareSchema).default([]),
-  metadata: z.any().optional(),
+  metadata: z.object({
+    title: z.string(),
+    description: z.string(),
+    source: z.string().optional(),
+    author: z.string().optional(),
+    course: z.string().optional(),
+    prepTime: z.string().optional(),
+    cookTime: z.string().optional(),
+    servings: z.string().optional(),
+    tags: z.string().optional().transform((tags) => tags?.split(",")),
+  }).passthrough(),
   steps: z.array(z.array(stepItemSchema)).default([]),
   shoppingList: z.record(shoppingItemSchema).optional(),
 };
