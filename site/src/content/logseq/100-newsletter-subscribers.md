@@ -6,6 +6,7 @@ tags:
 date: 2022-07-13
 ---
 
+
 ### Summary
 
 
@@ -64,43 +65,45 @@ newsletter/template
 ### Habits [[100 newsletter subscribers]]
 
 
-TODO  schedule note tweet
+  schedule note tweet
 SCHEDULED: <2022-06-28 Tue .+1d>
 
 
-TODO Quote tweet and link tweet
+ Quote tweet and link tweet
 SCHEDULED: <2022-06-28 Tue .+1d>
 
 
-TODO Comment and like - 5 mins
+ Comment and like - 5 mins
 SCHEDULED: <2022-07-07 Thu .+1d>
 
 
-TODO Clean up followers - 5 mins
+ Clean up followers - 5 mins
 SCHEDULED: <2022-06-28 Tue .+1d>
 
 
-TODO update content in reveue.
+ update content in reveue.
 SCHEDULED: <2022-07-06 Wed .+2d>
 
 
-TODO [[newsletter research]]
-SCHEDULED: <2022-06-29 Wed ++1w>
+ [[newsletter research]]
+SCHEDULED: <2022-06-29 Wed .+1w>
 
 
-TODO update and tune [[newsletter-roadmap]]
+ update and tune [[newsletter-roadmap]]
 SCHEDULED: <2022-06-28 Tue .+1d>
 
 
-TODO weekly review
+ weekly review
 SCHEDULED: <2022-06-29 Wed ++1w>
 
 
-analytics
+ analytics
 
-status
 
-TODO  [[newsletter-roadmap]] research
+ status
+
+
+  [[newsletter-roadmap]] research
 SCHEDULED: <2022-06-30 Thu .+1d>
 
 

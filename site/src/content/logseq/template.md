@@ -26,9 +26,6 @@ description: a template I use to organize my projects in Logseq
 ## Habits
 
 
-TODO weekly review
-SCHEDULED: <2022-06-14 Tue .+1w>
-
 ## Templates
 
 
