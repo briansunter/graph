@@ -15,10 +15,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: Install Playwright browsers
-        run: cd site && npm exec playwright install
       - name: Install
         run: cd site && npm i
+      - name: Install Playwright browsers
+        run: cd site && npm exec playwright install
       - name: Build
         run: cd site && npm run build
       # - name: Logseq Publish 🚩
