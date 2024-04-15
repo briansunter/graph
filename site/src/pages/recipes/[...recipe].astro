@@ -36,28 +36,9 @@ type Ingredient = CollectionEntry<"recipes">["data"]["ingredients"][0];
 
 const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
   (acc, curr) => {
-    const existingIngredient: Ingredient | undefined = acc.find(
-      (ingredient: Ingredient) => ingredient.name === curr.name
-    );
-    if (existingIngredient) {
-      if (
-        existingIngredient.units  &&
-        curr.units === existingIngredient.units
-      ) {
-        existingIngredient.quantity += curr.quantity;
-      } else if (
-        !existingIngredient.units  &&
-        curr.units 
-      ) {
-        const index = acc.indexOf(existingIngredient);
-        if (index > -1) {
-          acc.splice(index, 1);
-        }
-        acc.push({ ...curr });
-      } else if (existingIngredient.units && !curr.units) {
-      } else {
-        acc.push({ ...curr });
-      }
+    const existingIngredient = acc.find(ingredient => ingredient.name === curr.name);
+    if (existingIngredient && existingIngredient.units === curr.units) {
+      existingIngredient.quantity += curr.quantity;
     } else {
       acc.push({ ...curr });
     }
@@ -65,6 +46,21 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
   },
   []
 );
+
+type Cookware = CollectionEntry<"recipes">["data"]["cookwares"][0];
+
+const combinedCookwares: Cookware[] = cookwares.reduce<Cookware[]>(
+  (acc, curr) => {
+    const existingCookware = acc.find(cookware => cookware.name === curr.name);
+    if (!existingCookware) {
+      acc.push({ ...curr });
+    }
+    return acc;
+  },
+  []
+);
+
+
 ---
 
 <html lang="en">
@@ -82,7 +78,7 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
         image: ["https://briansunter.com/kitchen.jpg"],
         recipeIngredient: ingredients.map(
           ({ name, quantity, units }) =>
-            `${quantity !== 1 && units ? `${quantity} ${units}` : units ? `1 ${units}` : ""} ${name}`
+            `${quantity !== 1 && units ? `${Number.isInteger(quantity) ? quantity : quantity.toFixed(2)} ${units}` : units ? `1 ${units}` : ""} ${name}`
         ),
         recipeInstructions: steps.map((step, index) => ({
           "@type": "HowToStep",
@@ -91,7 +87,7 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
               if (stepItem.type === "text") {
                 return stepItem.value;
               } else if (stepItem.type === "ingredient") {
-                return `${stepItem.quantity !== 1 && stepItem.units ? `${stepItem.quantity} ${stepItem.units}` : stepItem.units ? `1 ${stepItem.units}` : ""} ${stepItem.name}`;
+                return `${stepItem.quantity !== 1 && stepItem.units ? `${Number.isInteger(stepItem.quantity) ? stepItem.quantity : stepItem.quantity.toFixed(2)} ${stepItem.units}` : stepItem.units ? `1 ${stepItem.units}` : ""} ${stepItem.name}`;
               } else if (stepItem.type === "timer") {
                 return `${stepItem.quantity} ${stepItem.units}`;
               } else if (stepItem.type === "cookware") {
@@ -223,7 +219,7 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
             combinedIngredients.map(({ name, quantity, units }) => (
               <li class="mb-2">
                 {quantity !== 1 && units
-                  ? `${quantity} ${units}`
+                  ? `${Number.isInteger(quantity) ? quantity : quantity.toFixed(2)} ${units}`
                   : units
                     ? `1 ${units}`
                     : ""}{" "}
@@ -235,11 +231,11 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
       </section>
 
       {
-        cookwares.length > 0 && (
+        combinedCookwares.length > 0 && (
           <section class="mb-8">
             <h2 class="text-2xl font-semibold mb-4">Cookware</h2>
             <ul class="list-disc pl-5">
-              {cookwares.map(({ name }) => (
+              {combinedCookwares.map(({ name }) => (
                 <li class="mb-2">{name}</li>
               ))}
             </ul>
@@ -261,7 +257,7 @@ const combinedIngredients: Ingredient[] = ingredients.reduce<Ingredient[]>(
                     return (
                       <span class="inline-block bg-gray-100 text-gray-800 rounded px-1 py-1 mt-2">
                         {stepItem.quantity !== 1 && stepItem.units
-                          ? `${stepItem.quantity} ${stepItem.units}`
+                          ? `${Number.isInteger(stepItem.quantity) ? stepItem.quantity : stepItem.quantity.toFixed(2)} ${stepItem.units}`
                           : stepItem.units
                             ? `1 ${stepItem.units}`
                             : ""}{" "}
