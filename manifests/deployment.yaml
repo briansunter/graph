@@ -12,7 +12,7 @@ spec:
             [
               "sh",
               "-c",
-              "cd /workspace && git clone https://github.com/briansunter/graph.git && cd graph/site && npm install && npm run build",
+              "cd /workspace && git clone https://github.com/briansunter/graph.git && cd graph/site && npx playwright install && npm install && npm run build",
             ]
           volumeMounts:
             - name: workspace
