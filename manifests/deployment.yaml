@@ -28,11 +28,7 @@ spec:
       container:
         image: node:14
         command:
-          [
-            "sh",
-            "-c",
-            "cd /workspace/site && ls -R && npm install && npm run build",
-          ]
+          ["sh", "-c", "cd /workspace/site && npm install && npm run build"]
         volumeMounts:
           - name: workspace
             mountPath: /workspace
