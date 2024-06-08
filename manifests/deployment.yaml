@@ -14,6 +14,7 @@ spec:
               "cd /workspace && \
               git clone https://github.com/briansunter/graph.git && \
               cd graph/site && \
+              npx playwright install-deps && \
               npx playwright install && \
               npm install && \
               npm run build",
