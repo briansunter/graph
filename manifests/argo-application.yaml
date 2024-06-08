@@ -7,8 +7,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/my-repo.git"
-    targetRevision: "my-branch"
+    repoURL: "https://github.com/briansunter/graph.git"
+    targetRevision: "kube"
     path: "site"
   destination:
     server: "https://kubernetes.default.svc"
