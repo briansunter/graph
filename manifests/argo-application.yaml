@@ -1,4 +1,3 @@
-# argo-application.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -17,58 +16,3 @@ spec:
     automated:
       prune: true
       selfHeal: true
-  # Define the resources to be created
-  resources:
-    - apiVersion: batch/v1
-      kind: Job
-      metadata:
-        name: build-job
-      spec:
-        template:
-          spec:
-            containers:
-              - name: build
-                image: node:14
-                command:
-                  ["sh", "-c", "cd /workspace && npm install && npm run build"]
-                volumeMounts:
-                  - name: workspace
-                    mountPath: /workspace
-            restartPolicy: Never
-            volumes:
-              - name: workspace
-                emptyDir: {}
-    - apiVersion: apps/v1
-      kind: Deployment
-      metadata:
-        name: nginx-deployment
-      spec:
-        replicas: 1
-        selector:
-          matchLabels:
-            app: nginx
-        template:
-          metadata:
-            labels:
-              app: nginx
-          spec:
-            containers:
-              - name: nginx
-                image: nginx:latest
-                volumeMounts:
-                  - name: dist
-                    mountPath: /usr/share/nginx/html
-            volumes:
-              - name: dist
-                emptyDir: {}
-    - apiVersion: v1
-      kind: Service
-      metadata:
-        name: nginx-service
-      spec:
-        selector:
-          app: nginx
-        ports:
-          - protocol: TCP
-            port: 80
-            targetPort: 80
