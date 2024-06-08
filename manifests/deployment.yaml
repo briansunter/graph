@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: build-job-v2 # Change the job name to a new one
+  name: build-job-v2
 spec:
   template:
     spec:
