@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: build-job
+  name: build-job-v2 # Change the job name to a new one
 spec:
   template:
     spec:
@@ -14,7 +14,6 @@ spec:
               "-c",
               "cd /workspace && git clone https://github.com/briansunter/graph.git && cd graph/site && npm install && npm run build",
             ]
-
           volumeMounts:
             - name: workspace
               mountPath: /workspace
