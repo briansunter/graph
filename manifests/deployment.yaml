@@ -1,37 +1,24 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Workflow
+apiVersion: batch/v1
+kind: Job
 metadata:
-  generateName: build-job-
+  name: build-job
 spec:
-  entrypoint: main
-  templates:
-    - name: main
-      steps:
-        - - name: clone-repo
-            template: git-clone
-        - - name: build
-            template: build
+  template:
+    spec:
+      containers:
+        - name: build
+          image: node:18
+          command:
+            [
+              "sh",
+              "-c",
+              "cd /workspace && git clone https://github.com/briansunter/graph.git && cd graph/site && npm install && npm run build",
+            ]
 
-    - name: git-clone
-      container:
-        image: alpine/git
-        command: ["sh", "-c"]
-        args:
-          [
-            "git clone --branch kube https://github.com/briansunter/graph.git /workspace && cd /workspace/site",
-          ]
-        volumeMounts:
-          - name: workspace
-            mountPath: /workspace
-
-    - name: build
-      container:
-        image: node:14
-        command: ["sh", "-c", "cd /workspace/site && ls -R"]
-        volumeMounts:
-          - name: workspace
-            mountPath: /workspace
-
-  volumes:
-    - name: workspace
-      emptyDir: {}
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      restartPolicy: Never
+      volumes:
+        - name: workspace
+          emptyDir: {}
