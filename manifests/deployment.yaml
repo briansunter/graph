@@ -16,6 +16,7 @@ spec:
               git clone https://github.com/briansunter/graph.git && \
               ls -la /workspace/graph && \
               cd graph && \
+              git checkout kube && \
               ls -la && \
               docker build -t local-registry:5001/graph:latest . && \
               docker push local-registry:5001/graph:latest && \
