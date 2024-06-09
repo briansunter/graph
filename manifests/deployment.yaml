@@ -25,13 +25,7 @@ spec:
           volumeMounts:
             - name: workspace
               mountPath: /workspace
-            - name: kubeconfig
-              mountPath: /root/.kube
-              subPath: config
       restartPolicy: Never
       volumes:
         - name: workspace
           emptyDir: {}
-        - name: kubeconfig
-          configMap:
-            name: kubeconfig
