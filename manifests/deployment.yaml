@@ -7,12 +7,20 @@ spec:
     spec:
       containers:
         - name: build
-          image: gcr.io/kaniko-project/executor:latest
-          args:
-            [
-              "--dockerfile=/workspace/graph/site/Dockerfile",
-              "--context=dir:///workspace/graph/site",
-              "--destination=local-registry:5001/graph:latest",
+          image: docker:stable-dind
+          command: [
+              "sh",
+              "-c",
+              "cd /workspace && \
+              git clone https://github.com/briansunter/graph.git && \
+              cd graph/site && \
+              npm install && \
+              npx playwright install-deps && \
+              npx playwright install && \
+              npm run build && \
+              docker build -t local-registry:5001/graph:latest . && \
+              docker push local-registry:5001/graph:latest && \
+              kubectl rollout restart deployment/nginx-deployment",
             ]
           volumeMounts:
             - name: workspace
