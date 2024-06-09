@@ -22,7 +22,7 @@ spec:
               mountPath: /kaniko/.docker
           securityContext:
             privileged: true
-      restartPolicy: Never
+      restartPolicy: Always
       volumes:
         - name: dist
           emptyDir: {}
