@@ -1,25 +1,30 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: batch/v1
+kind: Job
 metadata:
-  name: nginx-deployment
+  name: build-job-v3
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: nginx
   template:
-    metadata:
-      labels:
-        app: nginx
     spec:
       containers:
-        - name: nginx
-          image: local-registry:5001/graph:latest
+        - name: build
+          image: gcr.io/kaniko-project/executor:latest
+          args:
+            [
+              "--dockerfile=Dockerfile",
+              "--context=git://github.com/briansunter/graph.git#refs/heads/kube",
+              "--destination=local-registry:5001/graph:latest",
+              "--insecure",
+            ]
           volumeMounts:
-            - name: dist
-              mountPath: /usr/share/nginx/html
+            - name: kaniko-secret
+              mountPath: /kaniko/.docker
+          securityContext:
+            privileged: true
+      restartPolicy: Never
       volumes:
-        - name: dist
-          emptyDir: {}
-      imagePullSecrets:
-        - name: my-registry-secret
+        - name: kaniko-secret
+          secret:
+            secretName: regcred
+            items:
+              - key: .dockerconfigjson
+                path: config.json
