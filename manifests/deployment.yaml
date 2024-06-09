@@ -25,7 +25,14 @@ spec:
           volumeMounts:
             - name: workspace
               mountPath: /workspace
+            - name: docker-socket
+              mountPath: /var/run/docker.sock
+          securityContext:
+            privileged: true
       restartPolicy: Never
       volumes:
         - name: workspace
           emptyDir: {}
+        - name: docker-socket
+          hostPath:
+            path: /var/run/docker.sock
