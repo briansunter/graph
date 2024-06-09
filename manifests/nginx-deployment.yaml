@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: http://local-registry:5001/graph:latest
+          image: local-registry:5001/graph:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
@@ -33,4 +33,4 @@ spec:
               - key: .dockerconfigjson
                 path: config.json
       imagePullSecrets:
-        - name: my-registry-secret
+        - name: regcred
