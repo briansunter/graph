@@ -21,3 +21,5 @@ spec:
       volumes:
         - name: dist
           emptyDir: {}
+      imagePullSecrets:
+        - name: my-registry-secret
