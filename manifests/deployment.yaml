@@ -11,13 +11,9 @@ spec:
           command: [
               "sh",
               "-c",
-              "cd /workspace && \
+              "apk add --no-cache git && \
+              cd /workspace && \
               git clone https://github.com/briansunter/graph.git && \
-              cd graph/site && \
-              npm install && \
-              npx playwright install-deps && \
-              npx playwright install && \
-              npm run build && \
               docker build -t local-registry:5001/graph:latest . && \
               docker push local-registry:5001/graph:latest && \
               kubectl rollout restart deployment/nginx-deployment",
