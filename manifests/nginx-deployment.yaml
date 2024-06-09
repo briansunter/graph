@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: local-registry:5001/graph:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html

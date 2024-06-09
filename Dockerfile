@@ -13,3 +13,5 @@ RUN npm install sharp && \
     npx playwright install-deps && \
     npx playwright install && \
     npm run build
+
+CMD ["npm", "run", "start"]

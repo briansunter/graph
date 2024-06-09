@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - name: build
-          image: node:18
+          image: docker:stable-dind
           command: [
               "sh",
               "-c",
@@ -19,12 +19,19 @@ spec:
               npx playwright install && \
               npm run build && \
               docker build -t local-registry:5001/graph:latest . && \
-              docker push local-registry:5001/graph:latest",
+              docker push local-registry:5001/graph:latest && \
+              kubectl rollout restart deployment/nginx-deployment",
             ]
           volumeMounts:
             - name: workspace
               mountPath: /workspace
+            - name: kubeconfig
+              mountPath: /root/.kube
+              subPath: config
       restartPolicy: Never
       volumes:
         - name: workspace
           emptyDir: {}
+        - name: kubeconfig
+          configMap:
+            name: kubeconfig
