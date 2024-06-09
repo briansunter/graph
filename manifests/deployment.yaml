@@ -18,8 +18,8 @@ spec:
               npx playwright install-deps && \
               npx playwright install && \
               npm run build && \
-              docker build -t local-registry:30174/graph:latest . && \
-              docker push local-registry:30174/graph:latest",
+              docker build -t local-registry:5001/graph:latest . && \
+              docker push local-registry:5001/graph:latest",
             ]
           volumeMounts:
             - name: workspace
