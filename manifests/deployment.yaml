@@ -1,26 +1,18 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: build-job-v2
+  name: build-job-v3
 spec:
   template:
     spec:
       containers:
         - name: build
-          image: docker:stable-dind
-          command: [
-              "sh",
-              "-c",
-              "cd /workspace && \
-              git clone https://github.com/briansunter/graph.git && \
-              cd graph/site && \
-              npm install && \
-              npx playwright install-deps && \
-              npx playwright install && \
-              npm run build && \
-              docker build -t local-registry:5001/graph:latest . && \
-              docker push local-registry:5001/graph:latest && \
-              kubectl rollout restart deployment/nginx-deployment",
+          image: gcr.io/kaniko-project/executor:latest
+          args:
+            [
+              "--dockerfile=/workspace/graph/site/Dockerfile",
+              "--context=dir:///workspace/graph/site",
+              "--destination=local-registry:5001/graph:latest",
             ]
           volumeMounts:
             - name: workspace
