@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: docker-registry:5000/graph:latest
+          image: host.docker.internal:5000/graph:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
