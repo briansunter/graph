@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: local-registry.default.svc.cluster.local:5001/graph:latest
+          image: local-registry:5001/graph:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
