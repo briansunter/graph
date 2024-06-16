@@ -14,16 +14,16 @@ spec:
               "--context=git://github.com/briansunter/graph.git#refs/heads/kube",
               "--destination=briansunter/site:latest",
             ]
-          volumeMounts:
-            - name: kaniko-secret
-              mountPath: /kaniko/.docker
+          # volumeMounts:
+          #   - name: kaniko-secret
+          #     mountPath: /kaniko/.docker
           securityContext:
             privileged: true
       restartPolicy: Never
-      volumes:
-        - name: kaniko-secret
-          secret:
-            secretName: kaniko-secret
-            items:
-              - key: .dockerconfigjson
-                path: config.json
+      # volumes:
+      #   - name: kaniko-secret
+      #     secret:
+      #       secretName: kaniko-secret
+      #       items:
+      #         - key: .dockerconfigjson
+      #           path: config.json
