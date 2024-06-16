@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: harbor.bsunter.net/graph/site:latest
+          image: harbor.bsunter.net/graph:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
