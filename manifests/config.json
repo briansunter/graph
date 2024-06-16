@@ -1,0 +1,9 @@
+{
+  "auths": {
+    "harbor-registry:5000": {
+      "username": "admin",
+      "password": "Harbor12345",
+      "email": "bsunter@gmail.com"
+    }
+  }
+}

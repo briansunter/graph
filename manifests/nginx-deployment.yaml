@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: briansunter/site:latest
+          volumeMounts:
+            - name: dist
+              mountPath: /usr/share/nginx/html
+            - name: kaniko-secret
+              mountPath: /kaniko/.docker
+          securityContext:
+            privileged: true
+      restartPolicy: Always
+      volumes:
+        - name: dist
+          emptyDir: {}
+        - name: kaniko-secret
+          secret:
+            secretName: regcred
+            items:
+              - key: .dockerconfigjson
+                path: config.json
+      imagePullSecrets:
+        - name: regcred
