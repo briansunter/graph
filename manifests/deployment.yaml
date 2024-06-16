@@ -12,7 +12,7 @@ spec:
             [
               "--dockerfile=Dockerfile",
               "--context=git://github.com/briansunter/graph.git#refs/heads/kube",
-              "--destination=harbor.bsunter.net/graph/site:latest",
+              "--destination=harbor.bsunter.net/graph:latest",
               "--insecure",
             ]
           volumeMounts:
