@@ -16,4 +16,11 @@ spec:
             ]
           securityContext:
             privileged: true
+          volumeMounts:
+            - name: docker-config
+              mountPath: /kaniko/.docker
       restartPolicy: Never
+      volumes:
+        - name: docker-config
+          secret:
+            secretName: docker-secret
