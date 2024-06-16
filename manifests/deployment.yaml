@@ -13,6 +13,8 @@ spec:
               "--dockerfile=Dockerfile",
               "--context=git://github.com/briansunter/graph.git#refs/heads/kube",
               "--destination=harbor-registry:5000/graph/site:latest",
+              "--insecure",
+              "--insecure-pull",
             ]
           volumeMounts:
             - name: kaniko-secret
