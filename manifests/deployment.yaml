@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       hostAliases:
-        - ip: "172.17.0.2"
+        - ip: "host.docker.internal"
           hostnames:
             - "harbor.bsunter.net"
       containers:
