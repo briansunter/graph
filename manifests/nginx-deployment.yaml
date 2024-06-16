@@ -18,19 +18,9 @@ spec:
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
-            # - name: kaniko-secret
-            #   mountPath: /kaniko/.docker
           securityContext:
             privileged: true
       restartPolicy: Always
       volumes:
         - name: dist
           emptyDir: {}
-      #   - name: kaniko-secret
-      #     secret:
-      #       secretName: regcred
-      #       items:
-      #         - key: .dockerconfigjson
-      #           path: config.json
-      # imagePullSecrets:
-      #   - name: regcred
