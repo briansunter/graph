@@ -12,6 +12,10 @@ spec:
       labels:
         app: nginx
     spec:
+      hostAliases:
+        - ip: "127.0.0.1"
+          hostnames:
+            - "harbor.bsunter.net"
       containers:
         - name: nginx
           image: harbor.bsunter.net/graph/site:latest
