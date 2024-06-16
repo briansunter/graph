@@ -5,6 +5,10 @@ metadata:
 spec:
   template:
     spec:
+      hostAliases:
+        - ip: "127.0.0.1"
+          hostnames:
+            - "harbor.bsunter.net"
       containers:
         - name: build
           image: gcr.io/kaniko-project/executor:latest
@@ -27,4 +31,3 @@ spec:
             items:
               - key: .dockerconfigjson
                 path: config.json
-
