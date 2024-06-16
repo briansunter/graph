@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: harbor.briansunter.com/test/echo-server:latest
+          image: harbor.harbor.bsunter.net/test/echo-server:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
@@ -22,9 +22,6 @@ spec:
               mountPath: /kaniko/.docker
           securityContext:
             privileged: true
-          env:
-            - name: DOCKER_INSECURE_REGISTRIES
-              value: "harbor.briansunter.com"
       restartPolicy: Always
       volumes:
         - name: dist
