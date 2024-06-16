@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: host.docker.internal:5000/graph:latest
+          image: harbor.briansunter.com/test/echo-server:latest
           volumeMounts:
             - name: dist
               mountPath: /usr/share/nginx/html
